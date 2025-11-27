@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push:*)",
+      "Bash(git tag:*)",
+      "Bash(https://api.github.com/repos/riisalthkraa/Captain-DEV/actions/permissions )",
+      "Bash(https://api.github.com/repos/riisalthkraa/Captain-DEV/actions/permissions/workflow )",
+      "Bash(\"https://api.github.com/repos/riisalthkraa/Captain-DEV/actions/runs?per_page=5\")",
+      "Bash(\"https://api.github.com/repos/riisalthkraa/Captain-DEV/actions/runs/19736147119/jobs\")",
+      "Bash(\"https://api.github.com/repos/riisalthkraa/Captain-DEV/actions/jobs/56548493230/logs\")",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

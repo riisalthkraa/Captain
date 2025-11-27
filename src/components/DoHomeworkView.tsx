@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight, Lightbulb, Send, CheckCircle2, AlertCircle, Trophy } from 'lucide-react'

@@ -16,6 +16,7 @@ import { cn } from '@/lib/cn'
 import { motion, AnimatePresence } from 'framer-motion'
 
 type GameCategory = 'maths' | 'français' | 'sciences' | 'logique'
+type GameLevel = 'CP' | 'CE1' | 'CE2' | 'CM1' | 'CM2' | '6ème' | '5ème' | '4ème' | '3ème'
 
 // ========== SYSTÈME DE STATISTIQUES DES MINI-JEUX ==========
 interface MiniGameStats {
@@ -2473,7 +2474,8 @@ function MemoryCalculGame({ onExit }: { onExit: () => void }) {
             if (newMatches === 6) {
               setGameComplete(true)
               // Donner XP uniquement à la fin du jeu (pas par paire)
-              const xpGained = Math.min(30, 20 + Math.floor((60 - time) / 5))
+              // XP basé sur l'efficacité (moins de moves = plus d'XP)
+              const xpGained = Math.min(30, 20 + Math.max(0, 12 - moves))
               addExperience(xpGained)
             }
             return newMatches
@@ -3182,7 +3184,7 @@ function BalanceEquationGame({ onExit }: { onExit: () => void }) {
   const [feedback, setFeedback] = useState<'correct' | 'wrong' | null>(null)
   const [gameOver, setGameOver] = useState(false)
 
-  const generateEquation = (lvl: GameLevel) => {
+  const generateEquation = (lvl: GameLevel): { left: number; right: number; missing: number; position: 'left' | 'right' } => {
     let max: number
     if (lvl === 'CP') max = 10
     else if (lvl === 'CE1') max = 20
@@ -3192,7 +3194,7 @@ function BalanceEquationGame({ onExit }: { onExit: () => void }) {
     const left = Math.floor(Math.random() * (max - 5)) + 5
     const right = Math.floor(Math.random() * left)
     const missing = left - right
-    const position = Math.random() > 0.5 ? 'left' : 'right'
+    const position: 'left' | 'right' = Math.random() > 0.5 ? 'left' : 'right'
     return { left, right, missing, position }
   }
 
