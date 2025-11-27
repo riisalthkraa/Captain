@@ -1,0 +1,28 @@
+{
+  "entryPoints": ["src"],
+  "entryPointStrategy": "expand",
+  "out": "website/docs",
+  "name": "Cap'taine - Documentation API",
+  "includeVersion": true,
+  "readme": "README.md",
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/node_modules/**"
+  ],
+  "plugin": [],
+  "theme": "default",
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "Services",
+    "Components",
+    "Store",
+    "Types",
+    "*"
+  ],
+  "sort": ["source-order"],
+  "excludeTags": ["@internal"],
+  "hideGenerator": false,
+  "gitRevision": "main",
+  "githubPages": true
+}

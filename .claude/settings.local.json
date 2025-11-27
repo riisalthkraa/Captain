@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "WebSearch",
+      "WebFetch(domain:maitrelucas.fr)",
+      "WebFetch(domain:www.les-coccinelles.fr)",
+      "WebFetch(domain:soutien67.fr)",
+      "WebFetch(domain:www.fee-des-ecoles.fr)",
+      "WebFetch(domain:www.pass-education.fr)",
+      "WebFetch(domain:exercice-math-cp.com)",
+      "WebFetch(domain:www.fiches-educatives.com)",
+      "WebFetch(domain:lutinbazar.fr)",
+      "WebFetch(domain:www.i-profs.fr)",
+      "Bash(taskkill:*)",
+      "Bash(nul)",
+      "Bash(exit 0)",
+      "Bash(node:*)",
+      "Bash(del \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\\exercices-sciences-ce2.ts\" \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\\anglais-ce2-exercises.ts\" \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\\exercices-histoire-geo-ce2.ts\" 2)",
+      "Bash(python analyze_mcq.py:*)",
+      "Bash(del \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\\exercices-sciences-cm1.ts\" \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\\anglais-cm1-exercises.ts\" 2)",
+      "Bash(npm start)",
+      "Bash(curl:*)",
+      "Bash(dir \"C:\\Users\\RK\\Desktop\\Cap''taine\\Cap''taine DEV\" /B)",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
