@@ -66,8 +66,6 @@ jobs:
 
       - name: Package application
         run: npm run package:${{ matrix.os == 'windows-latest' && 'win' || matrix.os == 'ubuntu-latest' && 'linux' || 'mac' }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

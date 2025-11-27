@@ -166,11 +166,6 @@
       "icon": "build/icon.png",
       "category": "Education",
       "artifactName": "Captaine-${version}-${arch}.${ext}"
-    },
-    "publish": {
-      "provider": "github",
-      "owner": "riisalthkraa",
-      "repo": "Captain-DEV"
     }
   }
 }
