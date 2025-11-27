@@ -24,5 +24,9 @@
   "excludeTags": ["@internal"],
   "hideGenerator": false,
   "gitRevision": "main",
-  "githubPages": true
+  "githubPages": true,
+  "skipErrorChecking": true,
+  "compilerOptions": {
+    "skipLibCheck": true
+  }
 }
