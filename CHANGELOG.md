@@ -60,11 +60,12 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - **Sauvegarde locale** : Clarification dans la FAQ que les données persistent (localStorage + IndexedDB)
 
 ### 📦 Infrastructure
-- **GitHub Actions** : CI/CD complet avec builds multi-plateformes
+- **GitHub Actions** : CI/CD complet avec builds multi-plateformes (Windows, macOS, Linux)
+- **Tests Jest** : 16 tests automatisés (gamification, mini-jeux, exercices, dashboard)
 - **Icônes application** : Icône ⛵ Cap'taine SVG pour Windows (.ico), macOS (.icns), Linux (.png)
-- **Configuration electron-builder** : Support Windows (NSIS + portable), macOS (DMG + ZIP), Linux (AppImage + DEB)
-- **Documentation automatisée** : TypeDoc génère la doc API en HTML
-- **Tests automatisés** : Structure de tests avec rapports HTML
+- **Configuration electron-builder** : Support Windows (NSIS), macOS (DMG + ZIP), Linux (AppImage + DEB)
+- **Documentation automatisée** : TypeDoc génère la doc API en HTML (skipErrorChecking pour Mode Enseignement incomplet)
+- **Workflow optimisé** : timeout 30min, fail-fast:false pour builds parallèles robustes
 
 ### 🎨 Design
 - Nouvelle icône officielle Cap'taine (voilier ⛵ sur fond bleu océan)
