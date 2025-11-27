@@ -57,8 +57,13 @@
     "concurrently": "^8.2.2",
     "electron": "^29.1.6",
     "electron-builder": "^24.13.3",
+    "electron-icon-builder": "^2.0.1",
+    "png-to-ico": "^3.0.1",
+    "png2icons": "^2.0.1",
     "postcss": "^8.4.38",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.3",
+    "to-ico": "^1.1.5",
     "typedoc": "^0.28.14",
     "typescript": "^5.4.3",
     "vite": "^5.2.6",
@@ -82,11 +87,15 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         },
         {
           "target": "portable",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "icon": "build/icon.ico",
@@ -105,11 +114,17 @@
       "target": [
         {
           "target": "dmg",
-          "arch": ["x64", "arm64"]
+          "arch": [
+            "x64",
+            "arm64"
+          ]
         },
         {
           "target": "zip",
-          "arch": ["x64", "arm64"]
+          "arch": [
+            "x64",
+            "arm64"
+          ]
         }
       ],
       "icon": "build/icon.icns",
@@ -136,11 +151,15 @@
       "target": [
         {
           "target": "AppImage",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         },
         {
           "target": "deb",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "icon": "build/icon.png",
