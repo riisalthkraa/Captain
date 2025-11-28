@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Questions fréquentes sur Cap'taine : installation, utilisation, vie privée, IA, et plus encore.">
+    <title>FAQ - Cap'taine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⛵</span>
+                <span class="logo-text">Cap'taine</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="fonctionnalites.html">Comment ça marche</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="app/" class="btn-nav" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🎮 Jouer en ligne</a></li>
+                <li><a href="index.html#telecharger" class="btn-nav">Télécharger</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Foire Aux Questions</h1>
+            <p>Tout ce que vous devez savoir sur Cap'taine</p>
+        </div>
+    </header>
+
+    <!-- FAQ Content -->
+    <section class="section faq-page">
+        <div class="container">
+            <!-- Général -->
+            <div class="faq-category">
+                <h2>Général</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Qu'est-ce que Cap'taine exactement ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Cap'taine est un <strong>assistant éducatif intelligent</strong> sous forme d'application desktop (Windows, macOS, Linux). Il accompagne les enfants du <strong>CP à la 3ème</strong> dans leur apprentissage.</p>
+                            <p>Deux modes d'utilisation :</p>
+                            <ul>
+                                <li><strong>Banque d'exercices</strong> : 2000+ exercices pré-enregistrés (toutes matières, tous niveaux)</li>
+                                <li><strong>Chatbot IA</strong> : Génère des exercices personnalisés en temps réel</li>
+                            </ul>
+                            <p>L'app fonctionne <strong>100% localement</strong>. Aucune donnée n'est envoyée sur internet (sauf si vous utilisez une IA cloud comme OpenAI).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>À quel âge/niveau est destiné Cap'taine ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Cap'taine couvre les niveaux du <strong>CP à la 3ème</strong> (6 à 14 ans environ).</p>
+                            <p><strong>Comment ça marche :</strong></p>
+                            <ul>
+                                <li><strong>Exercices pré-enregistrés</strong> : L'enfant choisit son niveau (CP, CE1, CE2... jusqu'à 3ème). Tous les niveaux sont accessibles librement.</li>
+                                <li><strong>Chatbot IA</strong> : Adapte la difficulté en temps réel (facile/moyen/difficile) selon les performances de l'enfant.</li>
+                            </ul>
+                            <p class="truth-note">⚠️ Le système n'adapte PAS automatiquement le niveau scolaire (pas de passage auto CP→CE1). C'est vous ou l'enfant qui choisit le niveau dans les réglages.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quelles matières sont couvertes ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Cap'taine couvre <strong>toutes les matières</strong> du primaire au collège :</p>
+                            <ul>
+                                <li><strong>Mathématiques</strong> : calcul, numération, géométrie, problèmes, mesures, algèbre, fractions</li>
+                                <li><strong>Français</strong> : grammaire, conjugaison, orthographe, vocabulaire, lecture</li>
+                                <li><strong>Sciences</strong> : SVT, physique-chimie, découverte du monde</li>
+                                <li><strong>Histoire-Géographie</strong> : programme complet primaire et collège</li>
+                                <li><strong>Langues étrangères</strong> : anglais, espagnol, allemand, italien (vocabulaire, grammaire de base)</li>
+                            </ul>
+                            <p>Plus de <strong>2000 exercices</strong> et <strong>13+ mini-jeux éducatifs</strong>.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Est-ce que ça suit le programme de l'Éducation Nationale ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui. Les exercices et compétences sont alignés sur les <strong>programmes officiels français</strong> :</p>
+                            <ul>
+                                <li><strong>Cycle 2</strong> : CP, CE1, CE2</li>
+                                <li><strong>Cycle 3</strong> : CM1, CM2, 6ème</li>
+                                <li><strong>Cycle 4</strong> : 5ème, 4ème, 3ème (collège)</li>
+                            </ul>
+                            <p>Cependant, Cap'taine n'est pas un manuel scolaire : c'est un outil complémentaire pour s'entraîner et réviser.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Installation -->
+            <div class="faq-category">
+                <h2>Installation et configuration</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Comment installer Cap'taine ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <ol>
+                                <li>Téléchargez le fichier correspondant à votre système (Windows .exe, macOS .dmg, Linux .AppImage)</li>
+                                <li>Lancez l'installateur et suivez les instructions</li>
+                                <li>C'est prêt ! Aucune création de compte n'est nécessaire</li>
+                            </ol>
+                            <p><strong>Note Windows :</strong> Windows Defender peut afficher un avertissement car l'application n'est pas signée par Microsoft. Cliquez sur "Informations complémentaires" puis "Exécuter quand même".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quelle configuration minimale ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Sans IA locale (Ollama) :</strong></p>
+                            <ul>
+                                <li>4 Go de RAM</li>
+                                <li>500 Mo d'espace disque</li>
+                                <li>Processeur dual-core récent</li>
+                            </ul>
+                            <p><strong>Avec IA locale (Ollama) :</strong></p>
+                            <ul>
+                                <li>8 Go de RAM minimum (16 Go recommandé)</li>
+                                <li>10 Go d'espace disque (pour les modèles IA)</li>
+                                <li>Processeur quad-core ou GPU compatible</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Qu'est-ce qu'Ollama et dois-je l'installer ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Ollama</strong> est un logiciel gratuit qui permet de faire tourner des modèles d'IA (comme Llama 3, Mistral) directement sur votre ordinateur.</p>
+                            <p><strong>Avantages :</strong></p>
+                            <ul>
+                                <li>100% local : aucune donnée ne quitte votre PC</li>
+                                <li>Gratuit et sans limite</li>
+                                <li>Pas besoin de compte ou de clé API</li>
+                            </ul>
+                            <p><strong>Inconvénients :</strong></p>
+                            <ul>
+                                <li>Nécessite un PC assez puissant (8+ Go RAM)</li>
+                                <li>Téléchargement initial des modèles (~4 Go)</li>
+                            </ul>
+                            <p><strong>C'est optionnel :</strong> Cap'taine fonctionne très bien sans Ollama, avec la banque d'exercices intégrée.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Puis-je utiliser ChatGPT/Claude/Gemini à la place ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui ! Si vous avez déjà une clé API pour OpenAI, Anthropic (Claude) ou Google (Gemini), vous pouvez la configurer dans Cap'taine.</p>
+                            <p><strong>Important :</strong> Dans ce cas, les conversations avec l'IA seront envoyées aux serveurs du fournisseur. Si la vie privée est votre priorité, utilisez Ollama.</p>
+                            <p>Chaque fournisseur a ses propres tarifs (généralement quelques centimes par conversation).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Utilisation -->
+            <div class="faq-category">
+                <h2>Utilisation</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Mon enfant peut-il utiliser Cap'taine seul ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui, c'est conçu pour ça ! L'interface est simple et adaptée aux enfants. Ils peuvent :</p>
+                            <ul>
+                                <li>Discuter naturellement avec Cap'taine</li>
+                                <li>Demander des exercices ("Je veux faire des maths")</li>
+                                <li>Demander de l'aide ("Je ne comprends pas")</li>
+                                <li>Jouer aux mini-jeux</li>
+                            </ul>
+                            <p>Cap'taine détecte automatiquement si l'enfant est frustré ou fatigué et adapte son approche.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Comment fonctionne le mode invité ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Le <strong>mode invité</strong> permet d'utiliser Cap'taine immédiatement, sans créer de compte ni renseigner d'informations personnelles.</p>
+                            <p><strong>Tout est sauvegardé localement</strong> sur votre PC (comme une console avec carte mémoire) :</p>
+                            <ul>
+                                <li>✅ Badges débloqués</li>
+                                <li>✅ XP et niveau de l'arbre</li>
+                                <li>✅ Historique des exercices</li>
+                                <li>✅ Stats et progression</li>
+                                <li>✅ Scores des mini-jeux</li>
+                            </ul>
+                            <p>Même si vous fermez l'app et redémarrez votre PC, <strong>tout est conservé</strong>. Les données restent tant que vous ne désinstallez pas l'application.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Puis-je avoir plusieurs enfants sur le même ordinateur ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui ! Vous pouvez créer autant de <strong>profils élèves</strong> que nécessaire (mode invité). Chaque enfant aura :</p>
+                            <ul>
+                                <li>✅ Ses propres badges débloqués</li>
+                                <li>✅ Son arbre de progression (XP/niveaux)</li>
+                                <li>✅ Son historique complet d'exercices</li>
+                                <li>✅ Ses forces/faiblesses détectées</li>
+                                <li>✅ Ses scores de mini-jeux</li>
+                                <li>✅ Son streak (jours consécutifs)</li>
+                            </ul>
+                            <p>Tout est sauvegardé localement et séparé par profil. Il suffit de choisir le bon au lancement.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Est-ce que Cap'taine remplace les devoirs ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Non.</strong> Cap'taine est un <strong>complément</strong> aux devoirs et au travail en classe, pas un remplacement.</p>
+                            <p>Il est idéal pour :</p>
+                            <ul>
+                                <li>Réviser une notion vue en classe</li>
+                                <li>S'entraîner sur des points faibles</li>
+                                <li>Préparer un contrôle</li>
+                                <li>Combler des lacunes pendant les vacances</li>
+                            </ul>
+                            <p>Les devoirs donnés par le professeur restent prioritaires.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Combien de temps par jour recommandez-vous ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Recommandations par âge :</p>
+                            <ul>
+                                <li><strong>Primaire (CP-CM2)</strong> : 15-20 min par jour, 30-45 min max par session</li>
+                                <li><strong>Collège (6ème-3ème)</strong> : 20-30 min par jour, jusqu'à 60 min par session</li>
+                            </ul>
+                            <p>Cap'taine suggère automatiquement une pause après 25 minutes (technique Pomodoro) et détecte les signes de fatigue.</p>
+                            <p><strong>La régularité est plus importante que la durée :</strong> 15 min chaque jour vaut mieux que 2h le dimanche.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vie privée -->
+            <div class="faq-category">
+                <h2>Vie privée et données</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quelles données Cap'taine collecte-t-il ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Sur votre ordinateur (stockage local) :</strong></p>
+                            <ul>
+                                <li>Profils utilisateurs (prénom, niveau)</li>
+                                <li>Historique des exercices et réponses</li>
+                                <li>Statistiques de progression</li>
+                                <li>Préférences de l'application</li>
+                            </ul>
+                            <p><strong>Envoyé sur internet :</strong></p>
+                            <ul>
+                                <li><strong>Avec Ollama (local) :</strong> RIEN</li>
+                                <li><strong>Avec OpenAI/Claude/Gemini :</strong> Les messages de conversation uniquement</li>
+                            </ul>
+                            <p>Nous n'avons <strong>aucun serveur</strong> qui collecte vos données. Pas de télémétrie, pas d'analytics.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Où sont stockées les données ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Toutes les données sont stockées <strong>localement sur votre ordinateur</strong>, dans le dossier de l'application :</p>
+                            <ul>
+                                <li><strong>Windows :</strong> <code>%APPDATA%\captaine</code></li>
+                                <li><strong>macOS :</strong> <code>~/Library/Application Support/captaine</code></li>
+                                <li><strong>Linux :</strong> <code>~/.config/captaine</code></li>
+                            </ul>
+                            <p>Ces données sont au format IndexedDB (base de données navigateur). Vous pouvez les supprimer à tout moment en désinstallant l'application.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Cap'taine est-il conforme au RGPD ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Oui.</strong> La version Famille est 100% conforme car :</p>
+                            <ul>
+                                <li>Aucune donnée personnelle n'est envoyée à nos serveurs (nous n'en avons pas)</li>
+                                <li>Vous avez un contrôle total sur vos données</li>
+                                <li>Vous pouvez supprimer toutes les données en désinstallant</li>
+                            </ul>
+                            <p>Si vous utilisez une IA cloud (OpenAI, etc.), les données envoyées sont soumises à la politique de confidentialité du fournisseur.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Comment supprimer mes données ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Option 1 :</strong> Dans l'application, allez dans Paramètres → Données → Supprimer toutes les données</p>
+                            <p><strong>Option 2 :</strong> Désinstallez l'application (cela supprime tout)</p>
+                            <p><strong>Option 3 :</strong> Supprimez manuellement le dossier de données (voir question précédente)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technique -->
+            <div class="faq-category">
+                <h2>Questions techniques</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Cap'taine utilise-t-il du vrai Machine Learning ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Non, et c'est volontaire.</strong> Cap'taine utilise des <strong>algorithmes heuristiques éprouvés</strong> :</p>
+                            <ul>
+                                <li><strong>SM-2</strong> pour la répétition espacée (utilisé par Anki, SuperMemo)</li>
+                                <li><strong>Règles expertes</strong> pour la détection de patterns d'erreurs</li>
+                                <li><strong>Analyse de métriques</strong> pour l'adaptation de difficulté</li>
+                            </ul>
+                            <p>Ces méthodes sont <strong>plus fiables</strong> qu'un ML mal entraîné et ne nécessitent pas des milliers d'exemples. Elles sont parfaitement adaptées à l'apprentissage scolaire.</p>
+                            <p>L'IA (Ollama/OpenAI) est utilisée uniquement pour la <strong>génération de contenu</strong> et les <strong>explications</strong>, pas pour l'adaptation.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Pourquoi une application Electron et pas une app web ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Plusieurs raisons :</p>
+                            <ul>
+                                <li><strong>Vie privée :</strong> Une app desktop stocke tout localement, sans serveur</li>
+                                <li><strong>Mode hors-ligne :</strong> Fonctionne sans connexion internet</li>
+                                <li><strong>Intégration Ollama :</strong> Peut communiquer avec l'IA locale</li>
+                                <li><strong>Performance :</strong> Accès direct au système de fichiers pour l'OCR</li>
+                            </ul>
+                            <p>La version Enseignement (Q3 2026) aura une version web pour faciliter l'accès des élèves.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Le code source est-il disponible ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Une partie du code sera publiée en open source pour garantir la transparence sur la gestion des données. Les détails seront communiqués prochainement.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>L'application est-elle signée/certifiée ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Actuellement, l'application n'est <strong>pas signée</strong> avec un certificat officiel (coût prohibitif pour un projet gratuit). Cela signifie :</p>
+                            <ul>
+                                <li><strong>Windows :</strong> SmartScreen affiche un avertissement → cliquez "Informations complémentaires" puis "Exécuter quand même"</li>
+                                <li><strong>macOS :</strong> Clic droit → Ouvrir → Confirmer</li>
+                            </ul>
+                            <p>Nous travaillons à obtenir une signature de code pour les versions futures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support -->
+            <div class="faq-category">
+                <h2>Support et bugs</h2>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>J'ai trouvé un bug, comment le signaler ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Utilisez notre <a href="contact.html">formulaire de contact</a> ou envoyez un email à <strong><a href="mailto:Riisalthkraal@gmail.com">Riisalthkraal@gmail.com</a></strong> avec :</p>
+                            <ul>
+                                <li>Votre système d'exploitation (Windows 10, macOS 14, etc.)</li>
+                                <li>La version de Cap'taine (visible dans Paramètres)</li>
+                                <li>Une description du problème</li>
+                                <li>Les étapes pour reproduire le bug</li>
+                                <li>Une capture d'écran si possible</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>L'application est lente, que faire ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p><strong>Si vous utilisez Ollama :</strong></p>
+                            <ul>
+                                <li>Vérifiez que vous avez au moins 8 Go de RAM libre</li>
+                                <li>Essayez un modèle plus léger (ex: llama3:8b au lieu de llama3:70b)</li>
+                                <li>Fermez les autres applications gourmandes</li>
+                            </ul>
+                            <p><strong>Si vous n'utilisez pas Ollama :</strong></p>
+                            <ul>
+                                <li>Redémarrez l'application</li>
+                                <li>Vérifiez qu'aucun antivirus n'interfère</li>
+                                <li>Essayez de supprimer le cache (Paramètres → Données → Vider le cache)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Comment obtenir de l'aide ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <ul>
+                                <li><strong>Documentation :</strong> Guide d'utilisation complet (bientôt disponible)</li>
+                                <li><strong>FAQ :</strong> Cette page répond aux questions courantes</li>
+                                <li><strong>Contact :</strong> <a href="contact.html">Formulaire de contact</a> pour les questions spécifiques</li>
+                            </ul>
+                            <p>Nous faisons notre possible pour répondre sous 48-72h.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Vous avez encore des questions ?</h2>
+            <p>N'hésitez pas à nous contacter, nous répondons à tout le monde.</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Nous contacter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave-footer"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>⛵</span>
+                        <span>Cap'taine</span>
+                    </div>
+                    <p>L'assistant éducatif qui navigue avec ton enfant.</p>
+                    <p class="version">Version 1.0.0</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Accueil</a>
+                        <a href="fonctionnalites.html">Comment ça marche</a>
+                        <a href="tarifs.html">Tarifs</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ressources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="https://ollama.ai" target="_blank">Installer Ollama</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Légal</h4>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="cgv.html">CGV / CGU</a>
+                        <a href="confidentialite.html">Confidentialité</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024-2025 Cap'taine — Développé avec ❤️ par <strong>VIEY David</strong> à Castillon-la-Bataille</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

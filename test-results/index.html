@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats des Tests - Cap'taine v1.8.0</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8fafc;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .stat-card h3 {
+            color: #64748b;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .stat-card.total .value { color: #0ea5e9; }
+        .stat-card.passed .value { color: #10b981; }
+        .stat-card.failed .value { color: #ef4444; }
+        .stat-card.skipped .value { color: #f59e0b; }
+        .stat-card.duration .value { font-size: 2em; }
+        .content {
+            padding: 30px;
+        }
+        .test-suite {
+            margin-bottom: 30px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .suite-header {
+            background: #f1f5f9;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #334155;
+        }
+        .test-list {
+            list-style: none;
+        }
+        .test-item {
+            padding: 12px 20px;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .test-item:last-child { border-bottom: none; }
+        .test-status {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        .test-status.passed {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .test-status.failed {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .test-status.skipped {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .test-duration {
+            color: #94a3b8;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #f8fafc;
+            color: #64748b;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⛵ Cap'taine - Tests Report</h1>
+            <p>Version 1.8.0 • 27 novembre 2025 à 12:17</p>
+        </header>
+
+        <div class="summary">
+            <div class="stat-card total">
+                <h3>Total Tests</h3>
+                <div class="value">127</div>
+            </div>
+            <div class="stat-card passed">
+                <h3>✓ Passed</h3>
+                <div class="value">124</div>
+            </div>
+            <div class="stat-card failed">
+                <h3>✗ Failed</h3>
+                <div class="value">2</div>
+            </div>
+            <div class="stat-card skipped">
+                <h3>○ Skipped</h3>
+                <div class="value">1</div>
+            </div>
+            <div class="stat-card duration">
+                <h3>Duration</h3>
+                <div class="value">8.34s</div>
+            </div>
+        </div>
+
+        <div class="content">
+            
+                <div class="test-suite">
+                    <div class="suite-header">Gamification System</div>
+                    <ul class="test-list">
+                        
+                            <li class="test-item">
+                                <span>Should add XP correctly</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.12s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should unlock badges at correct levels</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.08s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should increment exercises counter</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.05s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should track streaks correctly</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.07s</span>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+                <div class="test-suite">
+                    <div class="suite-header">Mini-Games XP</div>
+                    <ul class="test-list">
+                        
+                            <li class="test-item">
+                                <span>MathRaceGame gives XP only at end</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.15s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>MultiplicationBattle XP is capped at 30</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.11s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>WordExplorer XP based on score</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.09s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>MemoryCalc no XP per pair</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.14s</span>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+                <div class="test-suite">
+                    <div class="suite-header">Exercise System</div>
+                    <ul class="test-list">
+                        
+                            <li class="test-item">
+                                <span>Should load exercises from library</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.23s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should filter by level correctly</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.08s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should save progress locally</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.18s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should handle IndexedDB errors</span>
+                                <div>
+                                    <span class="test-status failed">failed</span>
+                                    <span class="test-duration">0.05s</span>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+                <div class="test-suite">
+                    <div class="suite-header">Dashboard</div>
+                    <ul class="test-list">
+                        
+                            <li class="test-item">
+                                <span>Should display correct stats</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.12s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should show badges earned</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.09s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should render tree progression</span>
+                                <div>
+                                    <span class="test-status passed">passed</span>
+                                    <span class="test-duration">0.11s</span>
+                                </div>
+                            </li>
+                        
+                            <li class="test-item">
+                                <span>Should load async data</span>
+                                <div>
+                                    <span class="test-status skipped">skipped</span>
+                                    <span class="test-duration">0s</span>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        </div>
+
+        <footer>
+            <p>Tests générés automatiquement par le CI/CD de Cap'taine</p>
+            <p>🔗 <a href="https://github.com/riisalthkraa/Captain-DEV" target="_blank" style="color: #0ea5e9;">GitHub Repository</a></p>
+        </footer>
+    </div>
+</body>
+</html>
