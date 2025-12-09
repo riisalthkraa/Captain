@@ -57,7 +57,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3', '5', '7', '10'],
         correctAnswer: '5',
         explanation: 'On compte une par une : 1, 2, 3, 4, 5. Il y a 5 pommes !',
-        hints: ['Essaie de compter sur tes doigts', 'Pointe chaque pomme en comptant']
+        hints: ['Essaie de compter sur tes doigts', 'Pointe chaque pomme en comptant', 'La réponse est : 5']
       },
       {
         id: 'q2',
@@ -66,7 +66,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['6', '8', '9', '10'],
         correctAnswer: '8',
         explanation: 'Après 7, on compte 8. La suite est : 7, 8, 9, 10...',
-        hints: ['Récite la comptine des nombres', 'Pense à ce qui vient après dans l\'ordre']
+        hints: ['Récite la comptine des nombres', 'Pense à ce qui vient après dans l\'ordre', 'La réponse est : 8']
       },
       {
         id: 'q3',
@@ -75,7 +75,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2', '3', '4', '5'],
         correctAnswer: '3',
         explanation: 'Il y a 3 étoiles ! Compte-les bien : 1, 2, 3.',
-        hints: ['Compte chaque étoile', 'Utilise tes doigts pour t\'aider']
+        hints: ['Compte chaque étoile', 'Utilise tes doigts pour t\'aider', 'La réponse est : 3']
       },
       {
         id: 'q4',
@@ -84,7 +84,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3', '4', '6', '7'],
         correctAnswer: '4',
         explanation: 'Avant 5, c\'est 4. La comptine : 1, 2, 3, 4, 5...',
-        hints: ['Récite la comptine des nombres', 'Quel nombre dis-tu juste avant 5 ?']
+        hints: ['Récite la comptine des nombres', 'Quel nombre dis-tu juste avant 5 ?', 'La réponse est : 4']
       },
       {
         id: 'q5',
@@ -92,7 +92,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: 'Tu as 5 doigts sur une main ! Compte-les : le pouce, l\'index, le majeur, l\'annulaire et l\'auriculaire.',
-        hints: ['Regarde ta main', 'Compte tes doigts un par un']
+        hints: ['Regarde ta main', 'Compte tes doigts un par un', 'La réponse est : 5']
       },
       {
         id: 'q6',
@@ -101,7 +101,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['6', '7', '8', '9'],
         correctAnswer: '8',
         explanation: 'Il y a 8 ballons. Compte bien : 1, 2, 3, 4, 5, 6, 7, 8 !',
-        hints: ['Compte doucement', 'N\'oublie pas de compter tous les ballons']
+        hints: ['Compte doucement', 'N\'oublie pas de compter tous les ballons', 'La réponse est : 8']
       },
       {
         id: 'q7',
@@ -110,7 +110,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3', '9', 'C\'est pareil'],
         correctAnswer: '9',
         explanation: '9 est plus grand que 3. Dans la comptine, 9 vient après 3, donc c\'est plus grand !',
-        hints: ['Lequel vient en dernier dans la comptine ?', 'Plus c\'est loin dans la comptine, plus c\'est grand']
+        hints: ['Lequel vient en dernier dans la comptine ?', 'Plus c\'est loin dans la comptine, plus c\'est grand', 'La réponse est : 9']
       },
       {
         id: 'q8',
@@ -118,7 +118,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: 'Si tu as 10 doigts et que tu n\'en enlèves aucun, tu as toujours 10 doigts !',
-        hints: ['Tu ne caches aucun doigt', 'Tu gardes tous tes doigts']
+        hints: ['Tu ne caches aucun doigt', 'Tu gardes tous tes doigts', 'La réponse est : 10']
       },
       {
         id: 'q9',
@@ -126,7 +126,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! 6 vient AVANT 7. La comptine c\'est : 5, 6, 7, 8...',
-        hints: ['Récite la comptine', '6 ou 7, lequel dis-tu en premier ?']
+        hints: ['Récite la comptine', '6 ou 7, lequel dis-tu en premier ?', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -134,7 +134,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: 'Il y a 10 cœurs ! C\'est le plus grand nombre à un chiffre. Bravo !',
-        hints: ['Compte sur tes 10 doigts', 'C\'est le dernier nombre avant 11']
+        hints: ['Compte sur tes 10 doigts', 'C\'est le dernier nombre avant 11', 'La réponse est : 10']
       }
     ]
   },
@@ -155,7 +155,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['4', '5', '6', '7'],
         correctAnswer: '5',
         explanation: 'Si tu as 2 bonbons et qu\'on t\'en donne 3 de plus, tu en as 5 en tout !',
-        hints: ['Compte sur tes doigts', 'Lève 2 doigts, puis 3 autres']
+        hints: ['Compte sur tes doigts', 'Lève 2 doigts, puis 3 autres', 'La réponse est : 5']
       },
       {
         id: 'q2',
@@ -163,7 +163,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7',
         explanation: '3 + 4 = 7. Tu peux compter : 4, 5, 6, 7 (en ajoutant 3)',
-        hints: ['Pars de 4 et ajoute 3', 'Utilise tes doigts']
+        hints: ['Pars de 4 et ajoute 3', 'Utilise tes doigts', 'La réponse est : 7']
       },
       {
         id: 'q3',
@@ -255,7 +255,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['7', '10', '12', '15'],
         correctAnswer: '10',
         explanation: '2 × 5 = 10. C\'est comme 5 + 5 = 10',
-        hints: ['2 fois 5, c\'est 5 + 5', 'Compte de 5 en 5 : 5, 10']
+        hints: ['2 fois 5, c\'est 5 + 5', 'Compte de 5 en 5 : 5, 10', 'La réponse est : 10']
       },
       {
         id: 'q2',
@@ -263,7 +263,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '15',
         explanation: '5 × 3 = 15. Tu ajoutes 5 trois fois : 5 + 5 + 5 = 15',
-        hints: ['Compte : 5, 10, 15', 'C\'est 3 groupes de 5']
+        hints: ['Compte : 5, 10, 15', 'C\'est 3 groupes de 5', 'La réponse est : 15']
       },
       {
         id: 'q3',
@@ -272,7 +272,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['12', '14', '16', '18'],
         correctAnswer: '16',
         explanation: '2 × 8 = 16. C\'est 8 + 8 = 16',
-        hints: ['Double 8', 'Compte de 2 en 2 huit fois']
+        hints: ['Double 8', 'Compte de 2 en 2 huit fois', 'La réponse est : 16']
       },
       {
         id: 'q4',
@@ -280,7 +280,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '25',
         explanation: '5 × 5 = 25. Cinq fois cinq égale vingt-cinq',
-        hints: ['5 + 5 + 5 + 5 + 5', 'Compte par 5 : 5, 10, 15, 20, 25']
+        hints: ['5 + 5 + 5 + 5 + 5', 'Compte par 5 : 5, 10, 15, 20, 25', 'La réponse est : 25']
       },
       {
         id: 'q5',
@@ -289,7 +289,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['4', '5', '6', '7'],
         correctAnswer: '6',
         explanation: '2 × 3 = 6. C\'est 3 + 3 = 6',
-        hints: ['Double 3', 'Deux groupes de 3']
+        hints: ['Double 3', 'Deux groupes de 3', 'La réponse est : 6']
       },
       {
         id: 'q6',
@@ -297,7 +297,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '20',
         explanation: '5 × 4 = 20. Quatre fois cinq égale vingt',
-        hints: ['5 + 5 + 5 + 5', 'Compte : 5, 10, 15, 20']
+        hints: ['5 + 5 + 5 + 5', 'Compte : 5, 10, 15, 20', 'La réponse est : 20']
       },
       {
         id: 'q7',
@@ -306,7 +306,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['12', '13', '14', '15'],
         correctAnswer: '14',
         explanation: '2 × 7 = 14. C\'est 7 + 7 = 14',
-        hints: ['Double 7', 'Sept fois deux']
+        hints: ['Double 7', 'Sept fois deux', 'La réponse est : 14']
       },
       {
         id: 'q8',
@@ -314,7 +314,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: '2 × 6 = 12 bonbons. Elle a deux groupes de 6',
-        hints: ['Fais 2 × 6', '6 + 6 = ?']
+        hints: ['Fais 2 × 6', '6 + 6 = ?', 'La réponse est : 12']
       },
       {
         id: 'q9',
@@ -323,7 +323,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['10', 'Faux'],
         correctAnswer: '10',
         explanation: '5 × 2 = 10. Cinq fois deux égale dix',
-        hints: ['5 + 5', 'Deux groupes de 5']
+        hints: ['5 + 5', 'Deux groupes de 5', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -332,7 +332,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['25', '28', '30', '35'],
         correctAnswer: '30',
         explanation: '5 × 6 = 30 crayons. Il y a 5 groupes de 6',
-        hints: ['Fais 5 × 6', 'Compte : 6, 12, 18, 24, 30']
+        hints: ['Fais 5 × 6', 'Compte : 6, 12, 18, 24, 30', 'La réponse est : 30']
       }
     ]
   },
@@ -353,7 +353,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '38',
         explanation: '23 + 15 = 38. On additionne 20 + 10 = 30, puis 3 + 5 = 8, donc 30 + 8 = 38',
-        hints: ['Additionne les dizaines d\'abord', '20 + 10 = 30, puis 3 + 5 = 8']
+        hints: ['Additionne les dizaines d\'abord', '20 + 10 = 30, puis 3 + 5 = 8', 'La réponse est : 38']
       },
       {
         id: 'q2',
@@ -362,7 +362,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['59', '69', '79', '89'],
         correctAnswer: '69',
         explanation: '42 + 27 = 69. Tu peux faire 42 + 20 = 62, puis 62 + 7 = 69',
-        hints: ['Ajoute 20 d\'abord', 'Puis ajoute les 7 unités']
+        hints: ['Ajoute 20 d\'abord', 'Puis ajoute les 7 unités', 'La réponse est : 69']
       },
       {
         id: 'q3',
@@ -370,7 +370,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '60',
         explanation: '35 + 25 = 60. 30 + 20 = 50, et 5 + 5 = 10, donc 50 + 10 = 60',
-        hints: ['30 + 20 = ?', '5 + 5 = 10']
+        hints: ['30 + 20 = ?', '5 + 5 = 10', 'La réponse est : 60']
       },
       {
         id: 'q4',
@@ -379,7 +379,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['40', '45', '50', '55'],
         correctAnswer: '50',
         explanation: '18 + 32 = 50. Tu peux faire 18 + 30 = 48, puis 48 + 2 = 50',
-        hints: ['Ajoute 30 d\'abord', '18 + 30 = 48']
+        hints: ['Ajoute 30 d\'abord', '18 + 30 = 48', 'La réponse est : 50']
       },
       {
         id: 'q5',
@@ -387,7 +387,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '79',
         explanation: '56 + 23 = 79. 50 + 20 = 70, et 6 + 3 = 9, donc 70 + 9 = 79',
-        hints: ['Additionne les dizaines', '50 + 20 = 70']
+        hints: ['Additionne les dizaines', '50 + 20 = 70', 'La réponse est : 79']
       },
       {
         id: 'q6',
@@ -396,7 +396,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['39', '49', '59', '69'],
         correctAnswer: '49',
         explanation: '34 + 15 = 49 billes. Marc a gagné 15 billes',
-        hints: ['Fais 34 + 15', 'Ajoute d\'abord 10, puis 5']
+        hints: ['Fais 34 + 15', 'Ajoute d\'abord 10, puis 5', 'La réponse est : 49']
       },
       {
         id: 'q7',
@@ -404,7 +404,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '89',
         explanation: '61 + 28 = 89. 60 + 20 = 80, et 1 + 8 = 9, donc 80 + 9 = 89',
-        hints: ['60 + 20 = ?', '1 + 8 = 9']
+        hints: ['60 + 20 = ?', '1 + 8 = 9', 'La réponse est : 89']
       },
       {
         id: 'q8',
@@ -413,7 +413,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['80', '85', '90', '95'],
         correctAnswer: '90',
         explanation: '45 + 45 = 90. C\'est le double de 45',
-        hints: ['Double de 45', '40 + 40 = 80, et 5 + 5 = 10']
+        hints: ['Double de 45', '40 + 40 = 80, et 5 + 5 = 10', 'La réponse est : 90']
       },
       {
         id: 'q9',
@@ -421,7 +421,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '59',
         explanation: '27 + 32 = 59 autocollants. 20 + 30 = 50, et 7 + 2 = 9',
-        hints: ['Fais 27 + 32', 'Additionne les dizaines puis les unités']
+        hints: ['Fais 27 + 32', 'Additionne les dizaines puis les unités', 'La réponse est : 59']
       },
       {
         id: 'q10',
@@ -430,7 +430,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['79', '83', '89', '93'],
         correctAnswer: '89',
         explanation: '73 + 16 = 89. 70 + 10 = 80, et 3 + 6 = 9, donc 80 + 9 = 89',
-        hints: ['70 + 10 = 80', '3 + 6 = 9']
+        hints: ['70 + 10 = 80', '3 + 6 = 9', 'La réponse est : 89']
       }
     ]
   },
@@ -451,7 +451,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '33',
         explanation: '45 - 12 = 33. Tu enlèves 10 d\'abord (45 - 10 = 35), puis 2 (35 - 2 = 33)',
-        hints: ['Enlève 10 d\'abord', '45 - 10 = 35']
+        hints: ['Enlève 10 d\'abord', '45 - 10 = 35', 'La réponse est : 33']
       },
       {
         id: 'q2',
@@ -460,7 +460,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['33', '43', '53', '63'],
         correctAnswer: '43',
         explanation: '68 - 25 = 43. 68 - 20 = 48, puis 48 - 5 = 43',
-        hints: ['Enlève 20 d\'abord', '68 - 20 = 48']
+        hints: ['Enlève 20 d\'abord', '68 - 20 = 48', 'La réponse est : 43']
       },
       {
         id: 'q3',
@@ -468,7 +468,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '33',
         explanation: '50 - 17 = 33. Tu peux faire 50 - 10 = 40, puis 40 - 7 = 33',
-        hints: ['50 - 10 = 40', 'Puis enlève 7']
+        hints: ['50 - 10 = 40', 'Puis enlève 7', 'La réponse est : 33']
       },
       {
         id: 'q4',
@@ -477,7 +477,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['42', '52', '62', '72'],
         correctAnswer: '52',
         explanation: '84 - 32 = 52. 80 - 30 = 50, et 4 - 2 = 2, donc 50 + 2 = 52',
-        hints: ['Soustrais les dizaines', '80 - 30 = 50']
+        hints: ['Soustrais les dizaines', '80 - 30 = 50', 'La réponse est : 52']
       },
       {
         id: 'q5',
@@ -485,7 +485,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '25',
         explanation: '39 - 14 = 25 bonbons. Il lui reste 25 bonbons',
-        hints: ['Fais 39 - 14', '39 - 10 = 29, puis 29 - 4']
+        hints: ['Fais 39 - 14', '39 - 10 = 29, puis 29 - 4', 'La réponse est : 25']
       },
       {
         id: 'q6',
@@ -494,7 +494,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['25', '35', '45', '55'],
         correctAnswer: '35',
         explanation: '76 - 41 = 35. 70 - 40 = 30, et 6 - 1 = 5, donc 30 + 5 = 35',
-        hints: ['70 - 40 = ?', '6 - 1 = 5']
+        hints: ['70 - 40 = ?', '6 - 1 = 5', 'La réponse est : 35']
       },
       {
         id: 'q7',
@@ -502,7 +502,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '62',
         explanation: '90 - 28 = 62. 90 - 20 = 70, puis 70 - 8 = 62',
-        hints: ['Enlève 20 d\'abord', '90 - 20 = 70']
+        hints: ['Enlève 20 d\'abord', '90 - 20 = 70', 'La réponse est : 62']
       },
       {
         id: 'q8',
@@ -511,7 +511,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['16', '26', '36', '46'],
         correctAnswer: '26',
         explanation: '53 - 27 = 26. Tu peux faire 53 - 20 = 33, puis 33 - 7 = 26',
-        hints: ['53 - 20 = 33', 'Puis enlève 7']
+        hints: ['53 - 20 = 33', 'Puis enlève 7', 'La réponse est : 26']
       },
       {
         id: 'q9',
@@ -519,7 +519,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '42',
         explanation: '65 - 23 = 42 oiseaux. Il reste 42 oiseaux sur l\'arbre',
-        hints: ['Fais 65 - 23', '60 - 20 = 40']
+        hints: ['Fais 65 - 23', '60 - 20 = 40', 'La réponse est : 42']
       },
       {
         id: 'q10',
@@ -528,7 +528,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['35', '45', '55', '65'],
         correctAnswer: '45',
         explanation: '81 - 36 = 45. 80 - 30 = 50, et 1 - 6 : on emprunte 1, donc 11 - 6 = 5, résultat 45',
-        hints: ['Commence par les dizaines', '80 - 30 = 50']
+        hints: ['Commence par les dizaines', '80 - 30 = 50', 'La réponse est : 45']
       }
     ]
   },
@@ -550,7 +550,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2 heures', '3 heures', '12 heures', '4 heures'],
         correctAnswer: '3 heures',
         explanation: 'C\'est 3 heures. La petite aiguille indique les heures',
-        hints: ['Regarde la petite aiguille', 'La grande sur 12 signifie pile']
+        hints: ['Regarde la petite aiguille', 'La grande sur 12 signifie pile', 'La réponse est : 3 heures']
       },
       {
         id: 'q2',
@@ -559,7 +559,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Sur le 12', 'Sur le 3', 'Sur le 6', 'Sur le 9'],
         correctAnswer: 'Sur le 6',
         explanation: 'À 8h30 (et demie), la grande aiguille est sur le 6',
-        hints: ['Et demie = 30 minutes', 'Le 6 est à la moitié de l\'horloge']
+        hints: ['Et demie = 30 minutes', 'Le 6 est à la moitié de l\'horloge', 'La réponse est : Sur le 6']
       },
       {
         id: 'q3',
@@ -567,7 +567,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7 heures',
         explanation: 'C\'est 7 heures pile. La grande aiguille sur 12 signifie l\'heure pile',
-        hints: ['Petite aiguille sur 7', 'Grande sur 12 = pile']
+        hints: ['Petite aiguille sur 7', 'Grande sur 12 = pile', 'La réponse est : 7 heures']
       },
       {
         id: 'q4',
@@ -576,7 +576,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['15 minutes', '20 minutes', '30 minutes', '60 minutes'],
         correctAnswer: '30 minutes',
         explanation: 'Une demi-heure = 30 minutes. C\'est la moitié d\'une heure',
-        hints: ['Demi = moitié', 'Une heure = 60 minutes']
+        hints: ['Demi = moitié', 'Une heure = 60 minutes', 'La réponse est : 30 minutes']
       },
       {
         id: 'q5',
@@ -584,7 +584,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: 'À 10h15 (et quart), la grande aiguille est sur le 3',
-        hints: ['Et quart = 15 minutes', 'Le 3 est à un quart de l\'horloge']
+        hints: ['Et quart = 15 minutes', 'Le 3 est à un quart de l\'horloge', 'La réponse est : 3']
       },
       {
         id: 'q6',
@@ -593,7 +593,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2 heures', '2h30', '3 heures', '3h30'],
         correctAnswer: '2h30',
         explanation: 'C\'est 2h30. La petite aiguille est entre 2 et 3, la grande sur 6',
-        hints: ['La petite est entre 2 et 3', 'Grande sur 6 = et demie']
+        hints: ['La petite est entre 2 et 3', 'Grande sur 6 = et demie', 'La réponse est : 2h30']
       },
       {
         id: 'q7',
@@ -601,7 +601,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '60',
         explanation: 'Il y a 60 minutes dans une heure complète',
-        hints: ['C\'est un tour complet de la grande aiguille', 'Pense à un tour d\'horloge']
+        hints: ['C\'est un tour complet de la grande aiguille', 'Pense à un tour d\'horloge', 'La réponse est : 60']
       },
       {
         id: 'q8',
@@ -610,7 +610,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['5 heures et demie', '5 heures et quart', '5 heures moins le quart', '6 heures'],
         correctAnswer: '5 heures et quart',
         explanation: '5h15 = 5 heures et quart. 15 minutes = un quart d\'heure',
-        hints: ['15 minutes = un quart', 'Quart = 1/4 d\'heure']
+        hints: ['15 minutes = un quart', 'Quart = 1/4 d\'heure', 'La réponse est : 5 heures et quart']
       },
       {
         id: 'q9',
@@ -618,7 +618,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10h15',
         explanation: 'Elle finit à 10h15. On ajoute 15 minutes à 10 heures',
-        hints: ['10h + 15 minutes', '10 heures et quart']
+        hints: ['10h + 15 minutes', '10 heures et quart', 'La réponse est : 10h15']
       },
       {
         id: 'q10',
@@ -627,7 +627,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['11 heures', '12 heures', '1 heure', 'Minuit ou midi'],
         correctAnswer: 'Minuit ou midi',
         explanation: 'C\'est minuit (0h) ou midi (12h). Les deux aiguilles sont sur le 12',
-        hints: ['Les deux aiguilles sont ensemble', 'Début de journée ou milieu']
+        hints: ['Les deux aiguilles sont ensemble', 'Début de journée ou milieu', 'La réponse est : Minuit ou midi']
       }
     ]
   },
@@ -649,7 +649,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['1 euro', '2 euros', '3 euros', '5 euros'],
         correctAnswer: '2 euros',
         explanation: '2 pièces de 1€ = 2€. On additionne 1 + 1 = 2',
-        hints: ['1€ + 1€', 'Compte : 1, 2']
+        hints: ['1€ + 1€', 'Compte : 1, 2', 'La réponse est : 2 euros']
       },
       {
         id: 'q2',
@@ -657,7 +657,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: '2€ + 1€ = 3€',
-        hints: ['Additionne 2 et 1', '2 + 1 = ?']
+        hints: ['Additionne 2 et 1', '2 + 1 = ?', 'La réponse est : 3']
       },
       {
         id: 'q3',
@@ -666,7 +666,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['50 centimes', '75 centimes', '1 euro', '2 euros'],
         correctAnswer: '1 euro',
         explanation: '50c + 50c = 100c = 1€. Deux bonbons coûtent 1 euro',
-        hints: ['50 + 50 = ?', '100 centimes = 1 euro']
+        hints: ['50 + 50 = ?', '100 centimes = 1 euro', 'La réponse est : 1 euro']
       },
       {
         id: 'q4',
@@ -674,7 +674,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2',
         explanation: '5€ - 3€ = 2€. Il te reste 2 euros',
-        hints: ['Fais 5 - 3', 'C\'est une soustraction']
+        hints: ['Fais 5 - 3', 'C\'est une soustraction', 'La réponse est : 2']
       },
       {
         id: 'q5',
@@ -683,7 +683,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3 euros', '4 euros', '5 euros', '6 euros'],
         correctAnswer: '5 euros',
         explanation: '5 pièces de 1€ = 5€. On compte 1, 2, 3, 4, 5 euros',
-        hints: ['Compte les pièces', '1 + 1 + 1 + 1 + 1']
+        hints: ['Compte les pièces', '1 + 1 + 1 + 1 + 1', 'La réponse est : 5 euros']
       },
       {
         id: 'q6',
@@ -691,7 +691,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1,50',
         explanation: '1€ + 0,50€ = 1,50€. Ensemble ils coûtent 1 euro et 50 centimes',
-        hints: ['1 euro + 50 centimes', 'C\'est 1€50']
+        hints: ['1 euro + 50 centimes', 'C\'est 1€50', 'La réponse est : 1,50']
       },
       {
         id: 'q7',
@@ -700,7 +700,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['4 euros', '5 euros', '6 euros', '8 euros'],
         correctAnswer: '6 euros',
         explanation: '3 × 2€ = 6€. Tu as 6 euros en tout',
-        hints: ['2 + 2 + 2', 'Compte par 2 : 2, 4, 6']
+        hints: ['2 + 2 + 2', 'Compte par 2 : 2, 4, 6', 'La réponse est : 6 euros']
       },
       {
         id: 'q8',
@@ -708,7 +708,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: '20€ - 10€ = 10€. On te rend 10 euros',
-        hints: ['Fais 20 - 10', 'C\'est la moitié de 20']
+        hints: ['Fais 20 - 10', 'C\'est la moitié de 20', 'La réponse est : 10']
       },
       {
         id: 'q9',
@@ -717,7 +717,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3 pièces', '4 pièces', '5 pièces', '6 pièces'],
         correctAnswer: '5 pièces',
         explanation: 'Il faut 5 pièces de 1€ pour faire 5€',
-        hints: ['1€ + 1€ + 1€ + 1€ + 1€', 'Compte jusqu\'à 5']
+        hints: ['1€ + 1€ + 1€ + 1€ + 1€', 'Compte jusqu\'à 5', 'La réponse est : 5 pièces']
       },
       {
         id: 'q10',
@@ -725,7 +725,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '0,50',
         explanation: '2€ - 1,50€ = 0,50€. Il te reste 50 centimes',
-        hints: ['2€ = 200 centimes', '200c - 150c = 50c']
+        hints: ['2€ = 200 centimes', '200c - 150c = 50c', 'La réponse est : 0,50']
       }
     ]
   },
@@ -747,7 +747,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['8', '10', '12', '15'],
         correctAnswer: '10',
         explanation: 'Le double de 5 = 5 × 2 = 10',
-        hints: ['Double = fois 2', '5 + 5']
+        hints: ['Double = fois 2', '5 + 5', 'La réponse est : 10']
       },
       {
         id: 'q2',
@@ -755,7 +755,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '16',
         explanation: 'Le double de 8 = 8 × 2 = 16',
-        hints: ['8 + 8', 'Multiplie par 2']
+        hints: ['8 + 8', 'Multiplie par 2', 'La réponse est : 16']
       },
       {
         id: 'q3',
@@ -764,7 +764,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: 'La moitié de 10 = 10 ÷ 2 = 5',
-        hints: ['Partage 10 en 2', 'Divise par 2']
+        hints: ['Partage 10 en 2', 'Divise par 2', 'La réponse est : 5']
       },
       {
         id: 'q4',
@@ -772,7 +772,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '24',
         explanation: 'Le double de 12 = 12 × 2 = 24',
-        hints: ['12 + 12', 'Multiplie par 2']
+        hints: ['12 + 12', 'Multiplie par 2', 'La réponse est : 24']
       },
       {
         id: 'q5',
@@ -781,7 +781,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['5', '6', '7', '8'],
         correctAnswer: '7',
         explanation: 'La moitié de 14 = 14 ÷ 2 = 7',
-        hints: ['Partage 14 en 2 parts égales', '7 + 7 = 14']
+        hints: ['Partage 14 en 2 parts égales', '7 + 7 = 14', 'La réponse est : 7']
       },
       {
         id: 'q6',
@@ -789,7 +789,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '30',
         explanation: 'Le double de 15 = 15 × 2 = 30',
-        hints: ['15 + 15', 'Multiplie par 2']
+        hints: ['15 + 15', 'Multiplie par 2', 'La réponse est : 30']
       },
       {
         id: 'q7',
@@ -798,7 +798,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['8', '10', '12', '14'],
         correctAnswer: '12',
         explanation: 'Le double de 6 = 12 billes',
-        hints: ['Double de 6', '6 + 6']
+        hints: ['Double de 6', '6 + 6', 'La réponse est : 12']
       },
       {
         id: 'q8',
@@ -806,7 +806,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: 'La moitié de 20 = 20 ÷ 2 = 10',
-        hints: ['20 partagé en 2', '10 + 10 = 20']
+        hints: ['20 partagé en 2', '10 + 10 = 20', 'La réponse est : 10']
       },
       {
         id: 'q9',
@@ -815,7 +815,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['6', '7', '8', '9'],
         correctAnswer: '8',
         explanation: 'La moitié de 16 = 8 bonbons',
-        hints: ['Partage 16 en 2', '8 + 8 = 16']
+        hints: ['Partage 16 en 2', '8 + 8 = 16', 'La réponse est : 8']
       },
       {
         id: 'q10',
@@ -823,7 +823,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '40',
         explanation: 'Le double de 20 = 20 × 2 = 40',
-        hints: ['20 + 20', 'Multiplie par 2']
+        hints: ['20 + 20', 'Multiplie par 2', 'La réponse est : 40']
       }
     ]
   },
@@ -857,7 +857,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['1', '2', '3', '4'],
         correctAnswer: '2',
         explanation: 'Les voyelles sont A, E, I, O, U. Dans PAPA, il y a deux A.',
-        hints: ['Les voyelles sont : A E I O U', 'Cherche les A dans PAPA']
+        hints: ['Les voyelles sont : A E I O U', 'Cherche les A dans PAPA', 'La réponse est : 2']
       },
       {
         id: 'q2',
@@ -883,7 +883,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! I est une voyelle. On peut la chanter : Iiiii !',
-        hints: ['Les voyelles sont A, E, I, O, U', 'I fait partie des voyelles']
+        hints: ['Les voyelles sont A, E, I, O, U', 'I fait partie des voyelles', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -958,7 +958,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['un chate', 'une chat', 'une chatte', 'la chat'],
         correctAnswer: 'une chatte',
         explanation: 'Au féminin : "un chat" devient "une chatte" (on double le T)',
-        hints: ['Il faut changer "un" en "une"', 'On ajoute souvent un E au féminin']
+        hints: ['Il faut changer "un" en "une"', 'On ajoute souvent un E au féminin', 'La réponse est : une chatte']
       },
       {
         id: 'q2',
@@ -967,7 +967,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['un amie', 'une ami', 'une amie', 'la ami'],
         correctAnswer: 'une amie',
         explanation: 'Au féminin : "un ami" devient "une amie" (on ajoute un E)',
-        hints: ['Change "un" en "une"', 'Ajoute un E à la fin']
+        hints: ['Change "un" en "une"', 'Ajoute un E à la fin', 'La réponse est : une amie']
       },
       {
         id: 'q3',
@@ -975,7 +975,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'la chienne',
         explanation: 'Au féminin : "le chien" devient "la chienne" (on double le N et ajoute E)',
-        hints: ['"le" devient "la"', 'Double le N et ajoute E']
+        hints: ['"le" devient "la"', 'Double le N et ajoute E', 'La réponse est : la chienne']
       },
       {
         id: 'q4',
@@ -984,7 +984,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['un lionne', 'une lion', 'une lionne', 'la lion'],
         correctAnswer: 'une lionne',
         explanation: 'Au féminin : "un lion" devient "une lionne" (on double le N et ajoute E)',
-        hints: ['Change "un" en "une"', 'Double le N']
+        hints: ['Change "un" en "une"', 'Double le N', 'La réponse est : une lionne']
       },
       {
         id: 'q5',
@@ -992,7 +992,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'une boulangère',
         explanation: 'Au féminin : "un boulanger" devient "une boulangère" (-er devient -ère)',
-        hints: ['-er devient -ère', 'Pense à "une fermière"']
+        hints: ['-er devient -ère', 'Pense à "une fermière"', 'La réponse est : une boulangère']
       },
       {
         id: 'q6',
@@ -1001,7 +1001,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['une maître', 'une maîtresse', 'une maitresse', 'la maître'],
         correctAnswer: 'une maîtresse',
         explanation: '"Un maître" devient "une maîtresse" (attention à l\'accent)',
-        hints: ['Pense à ta maîtresse d\'école', 'Garde l\'accent circonflexe']
+        hints: ['Pense à ta maîtresse d\'école', 'Garde l\'accent circonflexe', 'La réponse est : une maîtresse']
       },
       {
         id: 'q7',
@@ -1009,7 +1009,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'une tigresse',
         explanation: '"Un tigre" devient "une tigresse" (on ajoute -esse)',
-        hints: ['Ajoute -esse', 'Comme "une princesse"']
+        hints: ['Ajoute -esse', 'Comme "une princesse"', 'La réponse est : une tigresse']
       },
       {
         id: 'q8',
@@ -1018,7 +1018,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['la directeur', 'une directeure', 'la directrice', 'une directeuse'],
         correctAnswer: 'la directrice',
         explanation: '"Le directeur" devient "la directrice" (-eur devient -rice)',
-        hints: ['-eur devient -rice', '"le" devient "la"']
+        hints: ['-eur devient -rice', '"le" devient "la"', 'La réponse est : la directrice']
       },
       {
         id: 'q9',
@@ -1026,7 +1026,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'une écolière',
         explanation: '"Un écolier" devient "une écolière" (-ier devient -ière)',
-        hints: ['-ier devient -ière', 'Comme "une infirmière"']
+        hints: ['-ier devient -ière', 'Comme "une infirmière"', 'La réponse est : une écolière']
       },
       {
         id: 'q10',
@@ -1035,7 +1035,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['une coiffeur', 'une coiffeuse', 'la coiffère', 'une coifferesse'],
         correctAnswer: 'une coiffeuse',
         explanation: '"Un coiffeur" devient "une coiffeuse" (-eur devient -euse)',
-        hints: ['-eur peut devenir -euse', 'Pense à "une danseuse"']
+        hints: ['-eur peut devenir -euse', 'Pense à "une danseuse"', 'La réponse est : une coiffeuse']
       }
     ]
   },
@@ -1057,7 +1057,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['un chats', 'des chat', 'des chats', 'les chat'],
         correctAnswer: 'des chats',
         explanation: 'Au pluriel : "un chat" devient "des chats" (on ajoute un S)',
-        hints: ['"un" devient "des"', 'On ajoute un S à la fin']
+        hints: ['"un" devient "des"', 'On ajoute un S à la fin', 'La réponse est : des chats']
       },
       {
         id: 'q2',
@@ -1065,7 +1065,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'les chiens',
         explanation: 'Au pluriel : "le chien" devient "les chiens" (on ajoute un S)',
-        hints: ['"le" devient "les"', 'Ajoute un S']
+        hints: ['"le" devient "les"', 'Ajoute un S', 'La réponse est : les chiens']
       },
       {
         id: 'q3',
@@ -1074,7 +1074,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['des oiseau', 'des oiseaus', 'des oiseaux', 'les oiseau'],
         correctAnswer: 'des oiseaux',
         explanation: 'Au pluriel : "un oiseau" devient "des oiseaux" (on ajoute un X car le mot finit en -eau)',
-        hints: ['Les mots en -eau prennent un X', 'Pas de S mais un X']
+        hints: ['Les mots en -eau prennent un X', 'Pas de S mais un X', 'La réponse est : des oiseaux']
       },
       {
         id: 'q4',
@@ -1082,7 +1082,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'les chevaux',
         explanation: 'Au pluriel : "le cheval" devient "les chevaux" (-al devient -aux)',
-        hints: ['Les mots en -al font -aux', 'Pense à "des animaux"']
+        hints: ['Les mots en -al font -aux', 'Pense à "des animaux"', 'La réponse est : les chevaux']
       },
       {
         id: 'q5',
@@ -1091,7 +1091,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['une fleurs', 'des fleur', 'des fleurs', 'les fleur'],
         correctAnswer: 'des fleurs',
         explanation: 'Au pluriel : "une fleur" devient "des fleurs" (on ajoute un S)',
-        hints: ['"une" devient "des"', 'Ajoute un S']
+        hints: ['"une" devient "des"', 'Ajoute un S', 'La réponse est : des fleurs']
       },
       {
         id: 'q6',
@@ -1099,7 +1099,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'des jeux',
         explanation: 'Au pluriel : "un jeu" devient "des jeux" (les mots en -eu prennent un X)',
-        hints: ['Les mots en -eu prennent un X', 'Comme "des cheveux"']
+        hints: ['Les mots en -eu prennent un X', 'Comme "des cheveux"', 'La réponse est : des jeux']
       },
       {
         id: 'q7',
@@ -1108,7 +1108,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['la tables', 'des table', 'les tables', 'les table'],
         correctAnswer: 'les tables',
         explanation: 'Au pluriel : "la table" devient "les tables"',
-        hints: ['"la" devient "les"', 'Ajoute un S']
+        hints: ['"la" devient "les"', 'Ajoute un S', 'La réponse est : les tables']
       },
       {
         id: 'q8',
@@ -1116,7 +1116,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'les journaux',
         explanation: 'Au pluriel : "le journal" devient "les journaux" (-al devient -aux)',
-        hints: ['-al devient -aux', 'Comme "des animaux"']
+        hints: ['-al devient -aux', 'Comme "des animaux"', 'La réponse est : les journaux']
       },
       {
         id: 'q9',
@@ -1125,7 +1125,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['livres', 'livre', 'livress', 'livr'],
         correctAnswer: 'livres',
         explanation: 'Au pluriel, "livre" devient "livres" avec un S',
-        hints: ['Ajoute un S au mot', 'livre + s = ?']
+        hints: ['Ajoute un S au mot', 'livre + s = ?', 'La réponse est : livres']
       },
       {
         id: 'q10',
@@ -1133,7 +1133,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'des nez',
         explanation: 'Au pluriel : "un nez" reste "des nez" (les mots en -z ne changent pas)',
-        hints: ['Les mots en -z ne changent pas', 'C\'est déjà un Z à la fin']
+        hints: ['Les mots en -z ne changent pas', 'C\'est déjà un Z à la fin', 'La réponse est : des nez']
       }
     ]
   },
@@ -1155,7 +1155,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['é', 'è', 'ê', 'ë'],
         correctAnswer: 'é',
         explanation: 'Le mot s\'écrit "école" avec un accent aigu (é)',
-        hints: ['É-cole', 'C\'est un accent aigu']
+        hints: ['É-cole', 'C\'est un accent aigu', 'La réponse est : é']
       },
       {
         id: 'q2',
@@ -1164,7 +1164,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['fete', 'fête', 'féte', 'fète'],
         correctAnswer: 'fête',
         explanation: 'Le mot s\'écrit "fête" avec un accent circonflexe (ê)',
-        hints: ['C\'est un accent circonflexe', 'Comme un petit chapeau']
+        hints: ['C\'est un accent circonflexe', 'Comme un petit chapeau', 'La réponse est : fête']
       },
       {
         id: 'q3',
@@ -1172,7 +1172,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mère',
         explanation: 'Le mot s\'écrit "mère" avec un accent grave (è)',
-        hints: ['C\'est un accent grave', 'Mè-re']
+        hints: ['C\'est un accent grave', 'Mè-re', 'La réponse est : mère']
       },
       {
         id: 'q4',
@@ -1181,7 +1181,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['élefant', 'éléphant', 'elephant', 'èlèphant'],
         correctAnswer: 'éléphant',
         explanation: 'Le mot s\'écrit "éléphant" avec deux accents aigus',
-        hints: ['É-lé-phant', 'Deux accents aigus']
+        hints: ['É-lé-phant', 'Deux accents aigus', 'La réponse est : éléphant']
       },
       {
         id: 'q5',
@@ -1189,7 +1189,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'è',
         explanation: 'Le mot "frère" a un accent grave (è)',
-        hints: ['Frè-re', 'C\'est un accent grave']
+        hints: ['Frè-re', 'C\'est un accent grave', 'La réponse est : è']
       },
       {
         id: 'q6',
@@ -1198,7 +1198,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['fenetre', 'fenêtre', 'fenètre', 'fênetre'],
         correctAnswer: 'fenêtre',
         explanation: 'Le mot s\'écrit "fenêtre" avec un accent circonflexe',
-        hints: ['Fe-nê-tre', 'Accent circonflexe sur le E']
+        hints: ['Fe-nê-tre', 'Accent circonflexe sur le E', 'La réponse est : fenêtre']
       },
       {
         id: 'q7',
@@ -1206,7 +1206,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'élève',
         explanation: 'Le mot s\'écrit "élève" : é au début, è à la fin',
-        hints: ['É-lè-ve', 'Accent aigu puis grave']
+        hints: ['É-lè-ve', 'Accent aigu puis grave', 'La réponse est : élève']
       },
       {
         id: 'q8',
@@ -1215,7 +1215,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['tete', 'tête', 'téte', 'tète'],
         correctAnswer: 'tête',
         explanation: 'Le mot s\'écrit "tête" avec un accent circonflexe',
-        hints: ['Tê-te', 'Comme "fête"']
+        hints: ['Tê-te', 'Comme "fête"', 'La réponse est : tête']
       },
       {
         id: 'q9',
@@ -1224,7 +1224,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['un rêve', 'un reve', 'un réve', 'un rève'],
         correctAnswer: 'un rêve',
         explanation: 'Le mot correct est "rêve" avec un accent circonflexe',
-        hints: ['Rê-ve', 'Accent circonflexe']
+        hints: ['Rê-ve', 'Accent circonflexe', 'La réponse est : un rêve']
       },
       {
         id: 'q10',
@@ -1232,7 +1232,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'forêt',
         explanation: 'Le mot s\'écrit "forêt" avec un accent circonflexe',
-        hints: ['For-ê-t', 'Accent circonflexe']
+        hints: ['For-ê-t', 'Accent circonflexe', 'La réponse est : forêt']
       }
     ]
   },
@@ -1254,7 +1254,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Dans le jardin joue Paul', 'Paul joue dans le jardin', 'Joue Paul dans le jardin', 'Le jardin dans Paul joue'],
         correctAnswer: 'Paul joue dans le jardin',
         explanation: 'La phrase correcte est : "Paul joue dans le jardin" (Sujet + Verbe + Complément)',
-        hints: ['Qui ? Fait quoi ? Où ?', 'Paul (qui) joue (fait quoi)']
+        hints: ['Qui ? Fait quoi ? Où ?', 'Paul (qui) joue (fait quoi)', 'La réponse est : Paul joue dans le jardin']
       },
       {
         id: 'q2',
@@ -1263,7 +1263,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['le', 'est', 'et', 'un'],
         correctAnswer: 'est',
         explanation: 'La phrase complète est : "Le chat est sur le toit" (il faut un verbe)',
-        hints: ['Il faut un verbe', 'Le chat [verbe] sur le toit']
+        hints: ['Il faut un verbe', 'Le chat [verbe] sur le toit', 'La réponse est : est']
       },
       {
         id: 'q3',
@@ -1271,7 +1271,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Julie mange une pomme',
         explanation: 'La phrase correcte est : "Julie mange une pomme"',
-        hints: ['Qui ? Fait quoi ?', 'Julie (qui) mange (fait quoi)']
+        hints: ['Qui ? Fait quoi ?', 'Julie (qui) mange (fait quoi)', 'La réponse est : Julie mange une pomme']
       },
       {
         id: 'q4',
@@ -1280,7 +1280,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Dessine Tom un bateau', 'Tom dessine un bateau', 'Un bateau Tom dessine', 'Dessine un bateau Tom'],
         correctAnswer: 'Tom dessine un bateau',
         explanation: 'La phrase correcte est : "Tom dessine un bateau" (Sujet + Verbe + Complément)',
-        hints: ['Sujet + Verbe + Complément', 'Tom (qui) dessine (fait quoi) un bateau']
+        hints: ['Sujet + Verbe + Complément', 'Tom (qui) dessine (fait quoi) un bateau', 'La réponse est : Tom dessine un bateau']
       },
       {
         id: 'q5',
@@ -1288,7 +1288,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'volent',
         explanation: 'La phrase complète est : "Les oiseaux volent dans le ciel"',
-        hints: ['Que font les oiseaux ?', 'Ils vo... dans le ciel']
+        hints: ['Que font les oiseaux ?', 'Ils vo... dans le ciel', 'La réponse est : volent']
       },
       {
         id: 'q6',
@@ -1297,7 +1297,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['À l\'école Marie va', 'Va Marie à l\'école', 'Marie va à l\'école', 'Marie à l\'école va'],
         correctAnswer: 'Marie va à l\'école',
         explanation: 'La phrase correcte est : "Marie va à l\'école"',
-        hints: ['Qui ? Fait quoi ? Où ?', 'Marie (qui) va (fait quoi) à l\'école (où)']
+        hints: ['Qui ? Fait quoi ? Où ?', 'Marie (qui) va (fait quoi) à l\'école (où)', 'La réponse est : Marie va à l\'école']
       },
       {
         id: 'q7',
@@ -1306,7 +1306,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Une majuscule', 'Un point', 'Une virgule', 'Un espace'],
         correctAnswer: 'Une majuscule',
         explanation: 'Une phrase commence toujours par une majuscule',
-        hints: ['Lettre en capitale au début', 'Grande lettre']
+        hints: ['Lettre en capitale au début', 'Grande lettre', 'La réponse est : Une majuscule']
       },
       {
         id: 'q8',
@@ -1314,7 +1314,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'joue',
         explanation: 'La phrase complète est : "Le chien joue avec une balle"',
-        hints: ['Que fait le chien ?', 'Le chien [verbe] avec une balle']
+        hints: ['Que fait le chien ?', 'Le chien [verbe] avec une balle', 'La réponse est : joue']
       },
       {
         id: 'q9',
@@ -1323,7 +1323,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['mange Le garçon un gâteau', 'Un gâteau mange le garçon', 'Le garçon mange un gâteau', 'Mange un gâteau le garçon'],
         correctAnswer: 'Le garçon mange un gâteau',
         explanation: 'La phrase correcte est : "Le garçon mange un gâteau"',
-        hints: ['Sujet + Verbe + Complément', 'Qui mange quoi ?']
+        hints: ['Sujet + Verbe + Complément', 'Qui mange quoi ?', 'La réponse est : Le garçon mange un gâteau']
       },
       {
         id: 'q10',
@@ -1332,7 +1332,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Un point', 'Une majuscule', 'Un espace', 'Une lettre'],
         correctAnswer: 'Un point',
         explanation: 'Une phrase se termine toujours par un point (.  !  ?)',
-        hints: ['Un signe de ponctuation', '. ou ! ou ?']
+        hints: ['Un signe de ponctuation', '. ou ! ou ?', 'La réponse est : Un point']
       }
     ]
   },
@@ -1354,7 +1354,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['chante', 'chantes', 'chantons', 'chantent'],
         correctAnswer: 'chante',
         explanation: 'Je chante. À la 1ère personne du singulier, le verbe se termine par -e',
-        hints: ['Je chant...', 'Avec JE, on met -e']
+        hints: ['Je chant...', 'Avec JE, on met -e', 'La réponse est : chante']
       },
       {
         id: 'q2',
@@ -1362,7 +1362,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'manges',
         explanation: 'Tu manges. À la 2ème personne du singulier, on ajoute -es',
-        hints: ['Tu mang...', 'Avec TU, on met -es']
+        hints: ['Tu mang...', 'Avec TU, on met -es', 'La réponse est : manges']
       },
       {
         id: 'q3',
@@ -1371,7 +1371,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['joue', 'joues', 'jouent', 'jouons'],
         correctAnswer: 'joue',
         explanation: 'Il/Elle joue. À la 3ème personne du singulier, on met -e',
-        hints: ['Il jou...', 'Avec IL/ELLE, on met -e']
+        hints: ['Il jou...', 'Avec IL/ELLE, on met -e', 'La réponse est : joue']
       },
       {
         id: 'q4',
@@ -1379,7 +1379,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlons',
         explanation: 'Nous parlons. À la 1ère personne du pluriel, on met -ons',
-        hints: ['Nous parl...', 'Avec NOUS, on met -ons']
+        hints: ['Nous parl...', 'Avec NOUS, on met -ons', 'La réponse est : parlons']
       },
       {
         id: 'q5',
@@ -1388,7 +1388,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['danse', 'danses', 'dansez', 'dansent'],
         correctAnswer: 'dansez',
         explanation: 'Vous dansez. À la 2ème personne du pluriel, on met -ez',
-        hints: ['Vous dans...', 'Avec VOUS, on met -ez']
+        hints: ['Vous dans...', 'Avec VOUS, on met -ez', 'La réponse est : dansez']
       },
       {
         id: 'q6',
@@ -1396,7 +1396,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sautent',
         explanation: 'Ils/Elles sautent. À la 3ème personne du pluriel, on met -ent',
-        hints: ['Ils saut...', 'Avec ILS/ELLES, on met -ent']
+        hints: ['Ils saut...', 'Avec ILS/ELLES, on met -ent', 'La réponse est : sautent']
       },
       {
         id: 'q7',
@@ -1405,7 +1405,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['regarde', 'regardes', 'regardez', 'regardent'],
         correctAnswer: 'regardes',
         explanation: 'Tu regardes. Avec TU, le verbe prend -es',
-        hints: ['Tu regard...', 'TU = -es']
+        hints: ['Tu regard...', 'TU = -es', 'La réponse est : regardes']
       },
       {
         id: 'q8',
@@ -1413,7 +1413,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'aimons',
         explanation: 'Nous aimons. Avec NOUS, le verbe prend -ons',
-        hints: ['Nous aim...', 'NOUS = -ons']
+        hints: ['Nous aim...', 'NOUS = -ons', 'La réponse est : aimons']
       },
       {
         id: 'q9',
@@ -1422,7 +1422,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Je joues au ballon', 'Je joue au ballon', 'Je jouent au ballon', 'Je jouons au ballon'],
         correctAnswer: 'Je joue au ballon',
         explanation: 'Je joue au ballon. Avec JE, on met -e (pas de S)',
-        hints: ['Je jou...', 'JE = -e sans S']
+        hints: ['Je jou...', 'JE = -e sans S', 'La réponse est : Je joue au ballon']
       },
       {
         id: 'q10',
@@ -1430,7 +1430,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'courent',
         explanation: 'Les enfants courent. Avec ILS/ELLES, on met -ent',
-        hints: ['Les enfants cour...', 'ILS = -ent']
+        hints: ['Les enfants cour...', 'ILS = -ent', 'La réponse est : courent']
       }
     ]
   },
@@ -1452,7 +1452,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['laitage', 'laid', 'laine', 'lire'],
         correctAnswer: 'laitage',
         explanation: 'Laitage est de la famille de "lait" (yaourt, fromage = laitages)',
-        hints: ['Cherche le mot qui parle de lait', 'Les produits laitiers']
+        hints: ['Cherche le mot qui parle de lait', 'Les produits laitiers', 'La réponse est : laitage']
       },
       {
         id: 'q2',
@@ -1460,7 +1460,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dentiste',
         explanation: 'Dentiste est de la famille de "dent" (le docteur des dents)',
-        hints: ['Le docteur des dents', 'Dent... iste']
+        hints: ['Le docteur des dents', 'Dent... iste', 'La réponse est : dentiste']
       },
       {
         id: 'q3',
@@ -1469,7 +1469,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['terrible', 'terrain', 'terminer', 'tête'],
         correctAnswer: 'terrain',
         explanation: 'Terrain est de la famille de "terre" (un terrain, c\'est un bout de terre)',
-        hints: ['Un bout de terre pour jouer', 'Terr...']
+        hints: ['Un bout de terre pour jouer', 'Terr...', 'La réponse est : terrain']
       },
       {
         id: 'q4',
@@ -1477,7 +1477,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chauffage',
         explanation: 'Chauffage est de la famille de "chaud" (ce qui rend chaud)',
-        hints: ['Ce qui rend chaud l\'hiver', 'Chauf...']
+        hints: ['Ce qui rend chaud l\'hiver', 'Chauf...', 'La réponse est : chauffage']
       },
       {
         id: 'q5',
@@ -1486,7 +1486,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['fleuriste', 'feuille', 'fleuve', 'fléau'],
         correctAnswer: 'fleuriste',
         explanation: 'Fleuriste est de la famille de "fleur" (celui qui vend des fleurs)',
-        hints: ['Celui qui vend des fleurs', 'Fleur... iste']
+        hints: ['Celui qui vend des fleurs', 'Fleur... iste', 'La réponse est : fleuriste']
       },
       {
         id: 'q6',
@@ -1494,7 +1494,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jardinier',
         explanation: 'Jardinier est de la famille de "jardin" (celui qui s\'occupe du jardin)',
-        hints: ['Celui qui s\'occupe du jardin', 'Jardin...']
+        hints: ['Celui qui s\'occupe du jardin', 'Jardin...', 'La réponse est : jardinier']
       },
       {
         id: 'q7',
@@ -1503,7 +1503,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['boulangerie', 'bouger', 'boulet', 'boulevard'],
         correctAnswer: 'boulangerie',
         explanation: 'Boulangerie est de la famille de "boulanger" (le magasin du boulanger)',
-        hints: ['Le magasin du boulanger', 'Boulang...']
+        hints: ['Le magasin du boulanger', 'Boulang...', 'La réponse est : boulangerie']
       },
       {
         id: 'q8',
@@ -1511,7 +1511,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'lavage',
         explanation: 'Lavage est de la famille de "laver" (l\'action de laver)',
-        hints: ['L\'action de laver', 'Lav...']
+        hints: ['L\'action de laver', 'Lav...', 'La réponse est : lavage']
       },
       {
         id: 'q9',
@@ -1520,7 +1520,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['chanteur', 'chanter', 'champ', 'chapeau'],
         correctAnswer: 'chanteur',
         explanation: 'Chanteur est de la famille de "chanter" (celui qui chante)',
-        hints: ['Celui qui chante', 'Chant...']
+        hints: ['Celui qui chante', 'Chant...', 'La réponse est : chanteur']
       },
       {
         id: 'q10',
@@ -1528,7 +1528,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'coureur',
         explanation: 'Coureur est de la famille de "courir" (celui qui court)',
-        hints: ['Celui qui court', 'Cour...']
+        hints: ['Celui qui court', 'Cour...', 'La réponse est : coureur']
       }
     ]
   },
@@ -1550,7 +1550,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '42',
         explanation: '6 × 7 = 42. C\'est dans la table de 6 ou de 7',
-        hints: ['Table de 6 : 6, 12, 18, 24, 30, 36, 42...', 'Compte de 6 en 6 sept fois']
+        hints: ['Table de 6 : 6, 12, 18, 24, 30, 36, 42...', 'Compte de 6 en 6 sept fois', 'La réponse est : 42']
       },
       {
         id: 'q2',
@@ -1558,7 +1558,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '72',
         explanation: '8 × 9 = 72. C\'est la table de 8 ou de 9',
-        hints: ['8 × 10 = 80, puis enlève 8', '80 - 8 = 72']
+        hints: ['8 × 10 = 80, puis enlève 8', '80 - 8 = 72', 'La réponse est : 72']
       },
       {
         id: 'q3',
@@ -1567,7 +1567,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['54', '56', '63', '64'],
         correctAnswer: '56',
         explanation: '7 × 8 = 56',
-        hints: ['Table de 7 ou de 8', '7 × 8 = 56']
+        hints: ['Table de 7 ou de 8', '7 × 8 = 56', 'La réponse est : 56']
       },
       {
         id: 'q4',
@@ -1575,7 +1575,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '54',
         explanation: '9 × 6 = 54',
-        hints: ['9 × 5 = 45, puis ajoute 9', '45 + 9 = 54']
+        hints: ['9 × 5 = 45, puis ajoute 9', '45 + 9 = 54', 'La réponse est : 54']
       },
       {
         id: 'q5',
@@ -1584,7 +1584,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['42', '45', '49', '56'],
         correctAnswer: '49',
         explanation: '7 × 7 = 49. C\'est 7 au carré !',
-        hints: ['7 fois 7', 'Compte de 7 en 7 : 7, 14, 21, 28, 35, 42, 49']
+        hints: ['7 fois 7', 'Compte de 7 en 7 : 7, 14, 21, 28, 35, 42, 49', 'La réponse est : 49']
       },
       {
         id: 'q6',
@@ -1592,7 +1592,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '64',
         explanation: '8 × 8 = 64. C\'est 8 au carré',
-        hints: ['8 fois 8', '8 × 7 = 56, puis ajoute 8']
+        hints: ['8 fois 8', '8 × 7 = 56, puis ajoute 8', 'La réponse est : 64']
       },
       {
         id: 'q7',
@@ -1600,7 +1600,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '81',
         explanation: '9 × 9 = 81. C\'est 9 au carré',
-        hints: ['9 fois 9', '9 × 10 = 90, puis enlève 9']
+        hints: ['9 fois 9', '9 × 10 = 90, puis enlève 9', 'La réponse est : 81']
       },
       {
         id: 'q8',
@@ -1609,7 +1609,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['45', '52', '54', '63'],
         correctAnswer: '54',
         explanation: '6 × 9 = 54',
-        hints: ['6 × 10 = 60, puis enlève 6', 'Ou 9 × 6 = 54']
+        hints: ['6 × 10 = 60, puis enlève 6', 'Ou 9 × 6 = 54', 'La réponse est : 54']
       },
       {
         id: 'q9',
@@ -1617,7 +1617,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '63',
         explanation: '7 × 9 = 63',
-        hints: ['7 × 10 = 70, puis enlève 7', '70 - 7 = 63']
+        hints: ['7 × 10 = 70, puis enlève 7', '70 - 7 = 63', 'La réponse est : 63']
       },
       {
         id: 'q10',
@@ -1625,7 +1625,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '48',
         explanation: '8 × 6 = 48',
-        hints: ['8 × 5 = 40, puis ajoute 8', '40 + 8 = 48']
+        hints: ['8 × 5 = 40, puis ajoute 8', '40 + 8 = 48', 'La réponse est : 48']
       }
     ]
   },
@@ -1646,7 +1646,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '583',
         explanation: '345 + 238 = 583. On additionne : 300 + 200 = 500, 40 + 30 = 70, 5 + 8 = 13, donc 500 + 70 + 13 = 583',
-        hints: ['Additionne les centaines, puis les dizaines, puis les unités', '300 + 200 = 500']
+        hints: ['Additionne les centaines, puis les dizaines, puis les unités', '300 + 200 = 500', 'La réponse est : 583']
       },
       {
         id: 'q2',
@@ -1654,7 +1654,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '324',
         explanation: '567 - 243 = 324',
-        hints: ['Soustrais les centaines, puis les dizaines, puis les unités', '500 - 200 = 300']
+        hints: ['Soustrais les centaines, puis les dizaines, puis les unités', '500 - 200 = 300', 'La réponse est : 324']
       },
       {
         id: 'q3',
@@ -1663,7 +1663,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['745', '835', '845', '855'],
         correctAnswer: '845',
         explanation: '456 + 389 = 845',
-        hints: ['400 + 300 = 700', 'N\'oublie pas les retenues']
+        hints: ['400 + 300 = 700', 'N\'oublie pas les retenues', 'La réponse est : 845']
       },
       {
         id: 'q4',
@@ -1671,7 +1671,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '344',
         explanation: '800 - 456 = 344',
-        hints: ['800 - 400 = 400', 'Puis enlève 56']
+        hints: ['800 - 400 = 400', 'Puis enlève 56', 'La réponse est : 344']
       },
       {
         id: 'q5',
@@ -1679,7 +1679,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '801',
         explanation: '234 + 567 = 801',
-        hints: ['200 + 500 = 700', '30 + 60 = 90, 4 + 7 = 11']
+        hints: ['200 + 500 = 700', '30 + 60 = 90, 4 + 7 = 11', 'La réponse est : 801']
       },
       {
         id: 'q6',
@@ -1688,7 +1688,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['776', '866', '876', '886'],
         correctAnswer: '876',
         explanation: '999 - 123 = 876',
-        hints: ['900 - 100 = 800', '90 - 20 = 70, 9 - 3 = 6']
+        hints: ['900 - 100 = 800', '90 - 20 = 70, 9 - 3 = 6', 'La réponse est : 876']
       },
       {
         id: 'q7',
@@ -1696,7 +1696,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1000',
         explanation: '654 + 346 = 1000. Remarque : 654 + 346 font exactement 1000 !',
-        hints: ['4 + 6 = 10', '50 + 40 = 90, plus la retenue']
+        hints: ['4 + 6 = 10', '50 + 40 = 90, plus la retenue', 'La réponse est : 1000']
       },
       {
         id: 'q8',
@@ -1704,7 +1704,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '358',
         explanation: '725 - 367 = 358',
-        hints: ['700 - 300 = 400', 'Attention aux retenues']
+        hints: ['700 - 300 = 400', 'Attention aux retenues', 'La réponse est : 358']
       },
       {
         id: 'q9',
@@ -1713,7 +1713,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['800', '890', '900', '910'],
         correctAnswer: '900',
         explanation: '488 + 412 = 900',
-        hints: ['400 + 400 = 800', '88 + 12 = 100']
+        hints: ['400 + 400 = 800', '88 + 12 = 100', 'La réponse est : 900']
       },
       {
         id: 'q10',
@@ -1721,7 +1721,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '322',
         explanation: '1000 - 678 = 322',
-        hints: ['1000 - 600 = 400', 'Puis continue à soustraire']
+        hints: ['1000 - 600 = 400', 'Puis continue à soustraire', 'La réponse est : 322']
       }
     ]
   },
@@ -1743,7 +1743,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2', '3', '4', '5'],
         correctAnswer: '4',
         explanation: '12 ÷ 3 = 4. Chaque enfant aura 4 bonbons',
-        hints: ['12 ÷ 3 = ?', '3 × 4 = 12']
+        hints: ['12 ÷ 3 = ?', '3 × 4 = 12', 'La réponse est : 4']
       },
       {
         id: 'q2',
@@ -1751,7 +1751,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: '20 ÷ 5 = 4. Car 5 × 4 = 20',
-        hints: ['5 fois combien font 20 ?', '5 × 4 = 20']
+        hints: ['5 fois combien font 20 ?', '5 × 4 = 20', 'La réponse est : 4']
       },
       {
         id: 'q3',
@@ -1759,7 +1759,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '6',
         explanation: '24 ÷ 4 = 6. Il y aura 6 élèves par équipe',
-        hints: ['24 ÷ 4 = ?', '4 × 6 = 24']
+        hints: ['24 ÷ 4 = ?', '4 × 6 = 24', 'La réponse est : 6']
       },
       {
         id: 'q4',
@@ -1768,7 +1768,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['6', '8', '9', '10'],
         correctAnswer: '9',
         explanation: '18 ÷ 2 = 9. Car 2 × 9 = 18',
-        hints: ['2 fois combien font 18 ?', 'C\'est la moitié de 18']
+        hints: ['2 fois combien font 18 ?', 'C\'est la moitié de 18', 'La réponse est : 9']
       },
       {
         id: 'q5',
@@ -1776,7 +1776,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '30 ÷ 6 = 5. Car 6 × 5 = 30',
-        hints: ['6 fois combien font 30 ?', '6 × 5 = 30']
+        hints: ['6 fois combien font 30 ?', '6 × 5 = 30', 'La réponse est : 5']
       },
       {
         id: 'q6',
@@ -1784,7 +1784,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '40 ÷ 8 = 5. Chaque sac aura 5 billes',
-        hints: ['40 ÷ 8 = ?', '8 × 5 = 40']
+        hints: ['40 ÷ 8 = ?', '8 × 5 = 40', 'La réponse est : 5']
       },
       {
         id: 'q7',
@@ -1793,7 +1793,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['4', '5', '6', '7'],
         correctAnswer: '5',
         explanation: '35 ÷ 7 = 5. Car 7 × 5 = 35',
-        hints: ['Table de 7', '7 × 5 = 35']
+        hints: ['Table de 7', '7 × 5 = 35', 'La réponse est : 5']
       },
       {
         id: 'q8',
@@ -1801,7 +1801,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '8',
         explanation: '48 ÷ 6 = 8. Car 6 × 8 = 48',
-        hints: ['6 fois combien font 48 ?', '6 × 8 = 48']
+        hints: ['6 fois combien font 48 ?', '6 × 8 = 48', 'La réponse est : 8']
       },
       {
         id: 'q9',
@@ -1809,7 +1809,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '6',
         explanation: '54 ÷ 9 = 6. Chaque part aura 6 carrés',
-        hints: ['54 ÷ 9 = ?', '9 × 6 = 54']
+        hints: ['54 ÷ 9 = ?', '9 × 6 = 54', 'La réponse est : 6']
       },
       {
         id: 'q10',
@@ -1818,7 +1818,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['7', '8', '9', '10'],
         correctAnswer: '9',
         explanation: '72 ÷ 8 = 9. Car 8 × 9 = 72',
-        hints: ['Table de 8', '8 × 9 = 72']
+        hints: ['Table de 8', '8 × 9 = 72', 'La réponse est : 9']
       }
     ]
   },
@@ -1839,7 +1839,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3256',
         explanation: '3256 = 3 milliers, 2 centaines, 5 dizaines, 6 unités',
-        hints: ['3 milliers = 3000', '3000 + 200 + 50 + 6']
+        hints: ['3 milliers = 3000', '3000 + 200 + 50 + 6', 'La réponse est : 3256']
       },
       {
         id: 'q2',
@@ -1848,7 +1848,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['4', '5', '6', '7'],
         correctAnswer: '5',
         explanation: 'Dans 4 567, le 5 est le chiffre des centaines (500)',
-        hints: ['Le 3e chiffre en partant de la droite', 'Milliers, centaines, dizaines, unités']
+        hints: ['Le 3e chiffre en partant de la droite', 'Milliers, centaines, dizaines, unités', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -1856,7 +1856,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '534',
         explanation: 'Dans 5 340, il y a 534 dizaines (5340 ÷ 10 = 534)',
-        hints: ['Enlève le 0 des unités', '5 340 = 534 dizaines']
+        hints: ['Enlève le 0 des unités', '5 340 = 534 dizaines', 'La réponse est : 534']
       },
       {
         id: 'q4',
@@ -1865,7 +1865,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['7845, 7854, 7485', '7485, 7845, 7854', '7854, 7845, 7485', '7485, 7854, 7845'],
         correctAnswer: '7485, 7845, 7854',
         explanation: '7485 < 7845 < 7854. Compare d\'abord les milliers, puis les centaines, etc.',
-        hints: ['Compare les chiffres un par un', 'Les milliers sont les mêmes, regarde les centaines']
+        hints: ['Compare les chiffres un par un', 'Les milliers sont les mêmes, regarde les centaines', 'La réponse est : 7485, 7845, 7854']
       },
       {
         id: 'q5',
@@ -1879,7 +1879,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         ],
         correctAnswer: 'huit mille quarante-deux',
         explanation: '8 042 s\'écrit : huit mille quarante-deux (8000 + 40 + 2)',
-        hints: ['8 milliers = huit mille', 'Pas de centaines, 4 dizaines et 2 unités']
+        hints: ['8 milliers = huit mille', 'Pas de centaines, 4 dizaines et 2 unités', 'La réponse est : huit mille quarante-deux']
       },
       {
         id: 'q6',
@@ -1887,7 +1887,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '6374',
         explanation: '6000 + 300 + 70 + 4 = 6374',
-        hints: ['Additionne chaque partie', '6 milliers, 3 centaines, 7 dizaines, 4 unités']
+        hints: ['Additionne chaque partie', '6 milliers, 3 centaines, 7 dizaines, 4 unités', 'La réponse est : 6374']
       },
       {
         id: 'q7',
@@ -1895,7 +1895,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10000',
         explanation: 'Après 9 999 vient 10 000 (dix mille)',
-        hints: ['Après le plus grand nombre à 4 chiffres', '10 000 = dix mille']
+        hints: ['Après le plus grand nombre à 4 chiffres', '10 000 = dix mille', 'La réponse est : 10000']
       },
       {
         id: 'q8',
@@ -1904,7 +1904,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2', '5', '25', '250'],
         correctAnswer: '25',
         explanation: 'Dans 2 508, il y a 25 centaines (2508 ÷ 100 = 25,08... donc 25 centaines complètes)',
-        hints: ['2508 ÷ 100', '2000 + 500 = 2500 = 25 centaines']
+        hints: ['2508 ÷ 100', '2000 + 500 = 2500 = 25 centaines', 'La réponse est : 25']
       },
       {
         id: 'q9',
@@ -1918,7 +1918,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         ],
         correctAnswer: '7000 + 300 + 40 + 6',
         explanation: '7 346 = 7000 + 300 + 40 + 6',
-        hints: ['7 milliers, 3 centaines, 4 dizaines, 6 unités', '7000 + 300 + 40 + 6']
+        hints: ['7 milliers, 3 centaines, 4 dizaines, 6 unités', '7000 + 300 + 40 + 6', 'La réponse est : 7000 + 300 + 40 + 6']
       },
       {
         id: 'q10',
@@ -1926,7 +1926,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5000',
         explanation: 'Le double de 2 500 est 5 000 (2500 × 2 = 5000)',
-        hints: ['2500 + 2500', '2500 × 2']
+        hints: ['2500 + 2500', '2500 × 2', 'La réponse est : 5000']
       }
     ]
   },
@@ -1947,7 +1947,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '100',
         explanation: '1 mètre = 100 centimètres',
-        hints: ['1 m = 100 cm', 'Un mètre, c\'est 100 centimètres']
+        hints: ['1 m = 100 cm', 'Un mètre, c\'est 100 centimètres', 'La réponse est : 100']
       },
       {
         id: 'q2',
@@ -1956,7 +1956,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['10', '100', '1000', '10000'],
         correctAnswer: '1000',
         explanation: '1 kilomètre = 1000 mètres',
-        hints: ['Kilo = mille', '1 km = 1000 m']
+        hints: ['Kilo = mille', '1 km = 1000 m', 'La réponse est : 1000']
       },
       {
         id: 'q3',
@@ -1964,7 +1964,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '300',
         explanation: '3 mètres = 300 centimètres (3 × 100 = 300)',
-        hints: ['1 m = 100 cm', '3 × 100 = 300']
+        hints: ['1 m = 100 cm', '3 × 100 = 300', 'La réponse est : 300']
       },
       {
         id: 'q4',
@@ -1973,7 +1973,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['millimètre', 'centimètre', 'mètre', 'kilomètre'],
         correctAnswer: 'centimètre',
         explanation: 'On mesure un crayon en centimètres (environ 15-20 cm)',
-        hints: ['Pas trop petit, pas trop grand', 'Un crayon fait environ 15 cm']
+        hints: ['Pas trop petit, pas trop grand', 'Un crayon fait environ 15 cm', 'La réponse est : centimètre']
       },
       {
         id: 'q5',
@@ -1981,7 +1981,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2000',
         explanation: '2 kilomètres = 2000 mètres (2 × 1000 = 2000)',
-        hints: ['1 km = 1000 m', '2 × 1000 = 2000']
+        hints: ['1 km = 1000 m', '2 × 1000 = 2000', 'La réponse est : 2000']
       },
       {
         id: 'q6',
@@ -1990,7 +1990,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['5', '50', '500', '5000'],
         correctAnswer: '5',
         explanation: '500 cm = 5 mètres (500 ÷ 100 = 5)',
-        hints: ['100 cm = 1 m', '500 ÷ 100 = 5']
+        hints: ['100 cm = 1 m', '500 ÷ 100 = 5', 'La réponse est : 5']
       },
       {
         id: 'q7',
@@ -1999,7 +1999,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['centimètre', 'mètre', 'kilomètre', 'millimètre'],
         correctAnswer: 'kilomètre',
         explanation: 'On mesure les distances entre villes en kilomètres',
-        hints: ['C\'est une grande distance', 'km']
+        hints: ['C\'est une grande distance', 'km', 'La réponse est : kilomètre']
       },
       {
         id: 'q8',
@@ -2007,7 +2007,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '250',
         explanation: '25 cm = 250 mm (1 cm = 10 mm, donc 25 × 10 = 250)',
-        hints: ['1 cm = 10 mm', '25 × 10 = 250']
+        hints: ['1 cm = 10 mm', '25 × 10 = 250', 'La réponse est : 250']
       },
       {
         id: 'q9',
@@ -2016,7 +2016,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['50 cm, 500 m, 1 km', '1 km, 500 m, 50 cm', '500 m, 1 km, 50 cm', '50 cm, 1 km, 500 m'],
         correctAnswer: '50 cm, 500 m, 1 km',
         explanation: '50 cm < 500 m < 1 km. (0,5 m < 500 m < 1000 m)',
-        hints: ['Convertis tout en mètres', '50 cm = 0,5 m']
+        hints: ['Convertis tout en mètres', '50 cm = 0,5 m', 'La réponse est : 50 cm, 500 m, 1 km']
       },
       {
         id: 'q10',
@@ -2024,7 +2024,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '920',
         explanation: '8 m + 120 cm = 800 cm + 120 cm = 920 cm',
-        hints: ['8 m = 800 cm', '800 + 120 = 920']
+        hints: ['8 m = 800 cm', '800 + 120 = 920', 'La réponse est : 920']
       }
     ]
   },
@@ -2046,7 +2046,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['2', '3', '4', '5'],
         correctAnswer: '3',
         explanation: 'Un triangle a toujours 3 côtés',
-        hints: ['Tri = trois', 'Un triangle a 3 côtés']
+        hints: ['Tri = trois', 'Un triangle a 3 côtés', 'La réponse est : 3']
       },
       {
         id: 'q2',
@@ -2054,7 +2054,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: 'Un carré a 4 côtés égaux',
-        hints: ['Comme un rectangle', '4 côtés égaux']
+        hints: ['Comme un rectangle', '4 côtés égaux', 'La réponse est : 4']
       },
       {
         id: 'q3',
@@ -2063,7 +2063,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['triangle', 'rectangle', 'trapèze', 'cercle'],
         correctAnswer: 'trapèze',
         explanation: 'Le trapèze a 4 côtés dont 2 sont parallèles',
-        hints: ['Ce n\'est pas un rectangle', 'Trap... comme trapèze']
+        hints: ['Ce n\'est pas un rectangle', 'Trap... comme trapèze', 'La réponse est : trapèze']
       },
       {
         id: 'q4',
@@ -2071,7 +2071,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: 'Un rectangle a 4 angles droits (90°)',
-        hints: ['Tous ses angles sont droits', 'Autant que de côtés']
+        hints: ['Tous ses angles sont droits', 'Autant que de côtés', 'La réponse est : 4']
       },
       {
         id: 'q5',
@@ -2080,7 +2080,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['triangle', 'carré', 'pentagone', 'hexagone'],
         correctAnswer: 'pentagone',
         explanation: 'Un pentagone a 5 côtés (penta = cinq)',
-        hints: ['Penta = cinq', 'Pent...-gone']
+        hints: ['Penta = cinq', 'Pent...-gone', 'La réponse est : pentagone']
       },
       {
         id: 'q6',
@@ -2088,7 +2088,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hexagone',
         explanation: 'Un hexagone a 6 côtés (hexa = six)',
-        hints: ['Hexa = six', 'Comme un alvéole de ruche']
+        hints: ['Hexa = six', 'Comme un alvéole de ruche', 'La réponse est : hexagone']
       },
       {
         id: 'q7',
@@ -2097,7 +2097,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['différents', 'égaux', 'parallèles', 'ronds'],
         correctAnswer: 'égaux',
         explanation: 'Un carré a tous ses côtés égaux',
-        hints: ['Ils ont tous la même longueur', 'Tous pareils']
+        hints: ['Ils ont tous la même longueur', 'Tous pareils', 'La réponse est : égaux']
       },
       {
         id: 'q8',
@@ -2105,7 +2105,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: 'Un triangle a 3 sommets (les coins)',
-        hints: ['Autant que de côtés', 'Les coins s\'appellent les sommets']
+        hints: ['Autant que de côtés', 'Les coins s\'appellent les sommets', 'La réponse est : 3']
       },
       {
         id: 'q9',
@@ -2114,7 +2114,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['carré', 'triangle', 'cercle', 'rectangle'],
         correctAnswer: 'cercle',
         explanation: 'Le cercle n\'est pas un polygone car il n\'a pas de côtés droits',
-        hints: ['Un polygone a des côtés droits', 'Le cercle est rond']
+        hints: ['Un polygone a des côtés droits', 'Le cercle est rond', 'La réponse est : cercle']
       },
       {
         id: 'q10',
@@ -2123,7 +2123,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['égaux', 'différents', 'ronds', 'croisés'],
         correctAnswer: 'égaux',
         explanation: 'Dans un rectangle, les côtés opposés sont égaux',
-        hints: ['Les côtés d\'en face', 'Parallèles et de même longueur']
+        hints: ['Les côtés d\'en face', 'Parallèles et de même longueur', 'La réponse est : égaux']
       }
     ]
   },
@@ -2145,7 +2145,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chantais',
         explanation: 'Je chantais. À l\'imparfait, je → -ais',
-        hints: ['Je chant...', 'Terminaison : -ais']
+        hints: ['Je chant...', 'Terminaison : -ais', 'La réponse est : chantais']
       },
       {
         id: 'q2',
@@ -2154,7 +2154,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['jouais', 'joues', 'jouait', 'jouions'],
         correctAnswer: 'jouais',
         explanation: 'Tu jouais. À l\'imparfait, tu → -ais',
-        hints: ['Tu jou...', 'Terminaison : -ais']
+        hints: ['Tu jou...', 'Terminaison : -ais', 'La réponse est : jouais']
       },
       {
         id: 'q3',
@@ -2162,7 +2162,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mangeait',
         explanation: 'Il mangeait. À l\'imparfait, il/elle → -ait',
-        hints: ['Il mange...', 'Terminaison : -ait']
+        hints: ['Il mange...', 'Terminaison : -ait', 'La réponse est : mangeait']
       },
       {
         id: 'q4',
@@ -2171,7 +2171,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['parlais', 'parlait', 'parlions', 'parlez'],
         correctAnswer: 'parlions',
         explanation: 'Nous parlions. À l\'imparfait, nous → -ions',
-        hints: ['Nous parl...', 'Terminaison : -ions']
+        hints: ['Nous parl...', 'Terminaison : -ions', 'La réponse est : parlions']
       },
       {
         id: 'q5',
@@ -2179,7 +2179,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'aimiez',
         explanation: 'Vous aimiez. À l\'imparfait, vous → -iez',
-        hints: ['Vous aim...', 'Terminaison : -iez']
+        hints: ['Vous aim...', 'Terminaison : -iez', 'La réponse est : aimiez']
       },
       {
         id: 'q6',
@@ -2188,7 +2188,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['dansais', 'dansait', 'dansions', 'dansaient'],
         correctAnswer: 'dansaient',
         explanation: 'Ils dansaient. À l\'imparfait, ils/elles → -aient',
-        hints: ['Ils dans...', 'Terminaison : -aient']
+        hints: ['Ils dans...', 'Terminaison : -aient', 'La réponse est : dansaient']
       },
       {
         id: 'q7',
@@ -2197,7 +2197,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['-ais', '-ait', '-ions', '-aient'],
         correctAnswer: '-ais',
         explanation: 'Pour "tu" à l\'imparfait, la terminaison est -ais',
-        hints: ['Tu chantais, tu jouais...', '-ais']
+        hints: ['Tu chantais, tu jouais...', '-ais', 'La réponse est : -ais']
       },
       {
         id: 'q8',
@@ -2205,7 +2205,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'regardait',
         explanation: 'Elle regardait. À l\'imparfait, elle → -ait',
-        hints: ['Elle regard...', 'Terminaison : -ait']
+        hints: ['Elle regard...', 'Terminaison : -ait', 'La réponse est : regardait']
       },
       {
         id: 'q9',
@@ -2213,7 +2213,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'travaillions',
         explanation: 'Nous travaillions. À l\'imparfait, nous → -ions',
-        hints: ['Nous travaill...', 'Terminaison : -ions']
+        hints: ['Nous travaill...', 'Terminaison : -ions', 'La réponse est : travaillions']
       },
       {
         id: 'q10',
@@ -2222,7 +2222,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Je mange', 'Je mangeais', 'Je mangerai', 'Je mange'],
         correctAnswer: 'Je mangeais',
         explanation: '"Je mangeais" est à l\'imparfait (terminaison -ais)',
-        hints: ['Cherche -ais, -ait, -ions, -iez, -aient', 'L\'imparfait parle du passé']
+        hints: ['Cherche -ais, -ait, -ions, -iez, -aient', 'L\'imparfait parle du passé', 'La réponse est : Je mangeais']
       }
     ]
   },
@@ -2244,7 +2244,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['dort', 'dors', 'dorment', 'dormez'],
         correctAnswer: 'dort',
         explanation: '"Le chat" est singulier (3e personne) → dort',
-        hints: ['Le chat = il', 'Singulier : il dort']
+        hints: ['Le chat = il', 'Singulier : il dort', 'La réponse est : dort']
       },
       {
         id: 'q2',
@@ -2253,7 +2253,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['joue', 'joues', 'jouent', 'jouons'],
         correctAnswer: 'jouent',
         explanation: '"Les enfants" est pluriel (3e personne) → jouent',
-        hints: ['Les enfants = ils', 'Pluriel : ils jouent']
+        hints: ['Les enfants = ils', 'Pluriel : ils jouent', 'La réponse est : jouent']
       },
       {
         id: 'q3',
@@ -2261,7 +2261,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vas',
         explanation: 'Tu vas (verbe "aller" à la 2e personne du singulier)',
-        hints: ['Tu → -s', 'Verbe aller : tu vas']
+        hints: ['Tu → -s', 'Verbe aller : tu vas', 'La réponse est : vas']
       },
       {
         id: 'q4',
@@ -2270,7 +2270,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['lis', 'lit', 'lisons', 'lisent'],
         correctAnswer: 'lisons',
         explanation: '"Nous" → lisons (1re personne du pluriel)',
-        hints: ['Nous → -ons', 'Nous lisons']
+        hints: ['Nous → -ons', 'Nous lisons', 'La réponse est : lisons']
       },
       {
         id: 'q5',
@@ -2278,7 +2278,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jouent',
         explanation: '"Marie et Paul" = pluriel (ils) → jouent',
-        hints: ['Marie et Paul = ils', 'Pluriel : -ent']
+        hints: ['Marie et Paul = ils', 'Pluriel : -ent', 'La réponse est : jouent']
       },
       {
         id: 'q6',
@@ -2287,7 +2287,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['mange', 'manges', 'mangeons', 'mangent'],
         correctAnswer: 'mange',
         explanation: '"Je" → mange (1re personne du singulier, pas de -s)',
-        hints: ['Je → -e', 'Je mange']
+        hints: ['Je → -e', 'Je mange', 'La réponse est : mange']
       },
       {
         id: 'q7',
@@ -2295,7 +2295,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'êtes',
         explanation: 'Vous êtes (verbe "être" à la 2e personne du pluriel)',
-        hints: ['Verbe être', 'Vous êtes']
+        hints: ['Verbe être', 'Vous êtes', 'La réponse est : êtes']
       },
       {
         id: 'q8',
@@ -2304,7 +2304,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['lis', 'lit', 'lisons', 'lisent'],
         correctAnswer: 'lit',
         explanation: '"Mon frère" = il (singulier) → lit',
-        hints: ['Mon frère = il', 'Il lit']
+        hints: ['Mon frère = il', 'Il lit', 'La réponse est : lit']
       },
       {
         id: 'q9',
@@ -2312,7 +2312,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'volent',
         explanation: '"Les oiseaux" = ils (pluriel) → volent',
-        hints: ['Les oiseaux = ils', 'Pluriel : -ent']
+        hints: ['Les oiseaux = ils', 'Pluriel : -ent', 'La réponse est : volent']
       },
       {
         id: 'q10',
@@ -2321,7 +2321,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['fais', 'fait', 'faisons', 'font'],
         correctAnswer: 'fais',
         explanation: '"Tu" → fais (verbe "faire" à la 2e personne du singulier)',
-        hints: ['Tu → -s', 'Tu fais']
+        hints: ['Tu → -s', 'Tu fais', 'La réponse est : fais']
       }
     ]
   },
@@ -2343,7 +2343,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['déclarative', 'interrogative', 'exclamative', 'impérative'],
         correctAnswer: 'interrogative',
         explanation: 'C\'est une phrase interrogative (on pose une question avec ?)',
-        hints: ['Il y a un point d\'interrogation', 'On pose une question']
+        hints: ['Il y a un point d\'interrogation', 'On pose une question', 'La réponse est : interrogative']
       },
       {
         id: 'q2',
@@ -2352,7 +2352,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['déclarative', 'interrogative', 'exclamative', 'impérative'],
         correctAnswer: 'exclamative',
         explanation: 'C\'est une phrase exclamative (on exprime un sentiment avec !)',
-        hints: ['Il y a un point d\'exclamation', 'On exprime une émotion']
+        hints: ['Il y a un point d\'exclamation', 'On exprime une émotion', 'La réponse est : exclamative']
       },
       {
         id: 'q3',
@@ -2360,7 +2360,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'impérative',
         explanation: 'C\'est une phrase impérative (on donne un ordre)',
-        hints: ['On donne un ordre', 'Verbe à l\'impératif']
+        hints: ['On donne un ordre', 'Verbe à l\'impératif', 'La réponse est : impérative']
       },
       {
         id: 'q4',
@@ -2369,7 +2369,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['déclarative', 'interrogative', 'exclamative', 'impérative'],
         correctAnswer: 'déclarative',
         explanation: 'C\'est une phrase déclarative (on déclare quelque chose avec .)',
-        hints: ['Il y a un point simple', 'On raconte quelque chose']
+        hints: ['Il y a un point simple', 'On raconte quelque chose', 'La réponse est : déclarative']
       },
       {
         id: 'q5',
@@ -2377,7 +2377,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '?',
         explanation: 'Une phrase interrogative se termine par un point d\'interrogation (?)',
-        hints: ['Le signe des questions', '?']
+        hints: ['Le signe des questions', '?', 'La réponse est : ?']
       },
       {
         id: 'q6',
@@ -2391,7 +2391,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         ],
         correctAnswer: 'Aimes-tu le chocolat ?',
         explanation: 'Pour poser une question : "Aimes-tu le chocolat ?"',
-        hints: ['On inverse le sujet et le verbe', 'Aimes-tu...?']
+        hints: ['On inverse le sujet et le verbe', 'Aimes-tu...?', 'La réponse est : Aimes-tu le chocolat ?']
       },
       {
         id: 'q7',
@@ -2400,7 +2400,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['déclarative', 'interrogative', 'exclamative', 'impérative'],
         correctAnswer: 'impérative',
         explanation: 'On utilise une phrase impérative pour donner un ordre',
-        hints: ['Faire faire quelque chose à quelqu\'un', 'Impér... comme commandement']
+        hints: ['Faire faire quelque chose à quelqu\'un', 'Impér... comme commandement', 'La réponse est : impérative']
       },
       {
         id: 'q8',
@@ -2408,7 +2408,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Comme c\'est beau !',
         explanation: 'Pour exprimer l\'admiration : "Comme c\'est beau !" ou "C\'est beau !"',
-        hints: ['Ajoute de l\'émotion', 'Utilise ! et "Comme..."']
+        hints: ['Ajoute de l\'émotion', 'Utilise ! et "Comme..."', 'La réponse est : Comme c\'est beau !']
       },
       {
         id: 'q9',
@@ -2417,7 +2417,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Vite', 'Pourquoi', 'Mais', 'Très'],
         correctAnswer: 'Pourquoi',
         explanation: '"Pourquoi" est un mot interrogatif (Qui, Quoi, Où, Quand, Comment, Pourquoi)',
-        hints: ['Un mot qui pose une question', 'Qui, Quoi, Où, Quand...']
+        hints: ['Un mot qui pose une question', 'Qui, Quoi, Où, Quand...', 'La réponse est : Pourquoi']
       },
       {
         id: 'q10',
@@ -2431,7 +2431,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         ],
         correctAnswer: 'Fais tes devoirs !',
         explanation: '"Fais tes devoirs !" est une phrase impérative (ordre)',
-        hints: ['Un ordre', 'Verbe à l\'impératif']
+        hints: ['Un ordre', 'Verbe à l\'impératif', 'La réponse est : Fais tes devoirs !']
       }
     ]
   },
@@ -2453,7 +2453,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"a" sans accent = verbe avoir (il a = il avait)',
-        hints: ['Verbe avoir', 'Il avait un chat']
+        hints: ['Verbe avoir', 'Il avait un chat', 'La réponse est : a']
       },
       {
         id: 'q2',
@@ -2461,7 +2461,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'à',
         explanation: '"à" avec accent = préposition (va à, à la maison)',
-        hints: ['Préposition de lieu', 'On ne peut pas dire "il va avait"']
+        hints: ['Préposition de lieu', 'On ne peut pas dire "il va avait"', 'La réponse est : à']
       },
       {
         id: 'q3',
@@ -2470,7 +2470,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['On', 'Ont'],
         correctAnswer: 'On',
         explanation: '"On" = pronom (on = nous)',
-        hints: ['On = nous', 'Pronom sujet']
+        hints: ['On = nous', 'Pronom sujet', 'La réponse est : On']
       },
       {
         id: 'q4',
@@ -2478,7 +2478,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ont',
         explanation: '"ont" = verbe avoir (ils ont = ils avaient)',
-        hints: ['Verbe avoir', 'Ils avaient un chien']
+        hints: ['Verbe avoir', 'Ils avaient un chien', 'La réponse est : ont']
       },
       {
         id: 'q5',
@@ -2487,7 +2487,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['son', 'sont'],
         correctAnswer: 'son',
         explanation: '"son" = déterminant possessif (son livre = le livre à lui)',
-        hints: ['Le livre de quelqu\'un', 'Déterminant possessif']
+        hints: ['Le livre de quelqu\'un', 'Déterminant possessif', 'La réponse est : son']
       },
       {
         id: 'q6',
@@ -2495,7 +2495,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sont',
         explanation: '"sont" = verbe être (ils sont = ils étaient)',
-        hints: ['Verbe être', 'Ils étaient contents']
+        hints: ['Verbe être', 'Ils étaient contents', 'La réponse est : sont']
       },
       {
         id: 'q7',
@@ -2504,7 +2504,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"a" sans accent = verbe avoir (elle a = elle avait)',
-        hints: ['Verbe avoir', 'Elle avait une idée']
+        hints: ['Verbe avoir', 'Elle avait une idée', 'La réponse est : a']
       },
       {
         id: 'q8',
@@ -2512,7 +2512,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'On',
         explanation: '"On" = pronom (on joue = nous jouons)',
-        hints: ['On = nous', 'Pronom sujet']
+        hints: ['On = nous', 'Pronom sujet', 'La réponse est : On']
       },
       {
         id: 'q9',
@@ -2521,7 +2521,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['son', 'sont'],
         correctAnswer: 'sont',
         explanation: '"sont" = verbe être (elles sont parties)',
-        hints: ['Verbe être', 'Elles étaient parties']
+        hints: ['Verbe être', 'Elles étaient parties', 'La réponse est : sont']
       },
       {
         id: 'q10',
@@ -2529,7 +2529,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'à',
         explanation: '"à" avec accent = préposition de lieu',
-        hints: ['Préposition', 'On va à un endroit']
+        hints: ['Préposition', 'On va à un endroit', 'La réponse est : à']
       }
     ]
   },
@@ -2551,7 +2551,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['le', 'petit', 'chat', 'le petit'],
         correctAnswer: 'chat',
         explanation: '"chat" est le nom (l\'être ou la chose dont on parle)',
-        hints: ['L\'animal dont on parle', 'Qui ou quoi ?']
+        hints: ['L\'animal dont on parle', 'Qui ou quoi ?', 'La réponse est : chat']
       },
       {
         id: 'q2',
@@ -2559,7 +2559,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jolie',
         explanation: '"jolie" est l\'adjectif (il décrit le nom "fleur")',
-        hints: ['Le mot qui décrit la fleur', 'Comment est la fleur ?']
+        hints: ['Le mot qui décrit la fleur', 'Comment est la fleur ?', 'La réponse est : jolie']
       },
       {
         id: 'q3',
@@ -2568,7 +2568,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['les', 'grands', 'arbres', 'grands arbres'],
         correctAnswer: 'les',
         explanation: '"les" est le déterminant (il accompagne le nom)',
-        hints: ['Le petit mot devant le nom', 'Article']
+        hints: ['Le petit mot devant le nom', 'Article', 'La réponse est : les']
       },
       {
         id: 'q4',
@@ -2576,7 +2576,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Le chat noir',
         explanation: 'Le groupe nominal est "Le chat noir" (déterminant + nom + adjectif)',
-        hints: ['Déterminant + nom + adjectif', 'Le chat noir']
+        hints: ['Déterminant + nom + adjectif', 'Le chat noir', 'La réponse est : Le chat noir']
       },
       {
         id: 'q5',
@@ -2585,7 +2585,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['grande', 'dormir', 'elle', 'vite'],
         correctAnswer: 'grande',
         explanation: '"grande" est un adjectif qui peut décrire une maison',
-        hints: ['Un mot qui décrit', 'Comment est la maison ?']
+        hints: ['Un mot qui décrit', 'Comment est la maison ?', 'La réponse est : grande']
       },
       {
         id: 'q6',
@@ -2593,7 +2593,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: 'Il y a 3 mots : "mon" (déterminant), "nouveau" (adjectif), "vélo" (nom)',
-        hints: ['Compte les mots', 'mon / nouveau / vélo']
+        hints: ['Compte les mots', 'mon / nouveau / vélo', 'La réponse est : 3']
       },
       {
         id: 'q7',
@@ -2602,7 +2602,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['jolie', 'une', 'soleil', 'très'],
         correctAnswer: 'une',
         explanation: '"une" est un déterminant (article indéfini)',
-        hints: ['Un petit mot devant', 'un, une, des']
+        hints: ['Un petit mot devant', 'un, une, des', 'La réponse est : une']
       },
       {
         id: 'q8',
@@ -2610,7 +2610,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'un chien blanc',
         explanation: 'Le groupe nominal correct est "un chien blanc"',
-        hints: ['Déterminant + nom + adjectif', 'un chien blanc']
+        hints: ['Déterminant + nom + adjectif', 'un chien blanc', 'La réponse est : un chien blanc']
       },
       {
         id: 'q9',
@@ -2619,7 +2619,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['avant le nom', 'après le nom', 'au début', 'à la fin'],
         correctAnswer: 'après le nom',
         explanation: 'L\'adjectif "rouge" est placé après le nom "voiture"',
-        hints: ['voiture... rouge', 'Après le nom']
+        hints: ['voiture... rouge', 'Après le nom', 'La réponse est : après le nom']
       },
       {
         id: 'q10',
@@ -2627,7 +2627,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'des fleurs rouges',
         explanation: '"des fleurs rouges" (pluriel : on ajoute -s au nom et à l\'adjectif)',
-        hints: ['Pluriel : -s', 'fleurs rouges']
+        hints: ['Pluriel : -s', 'fleurs rouges', 'La réponse est : des fleurs rouges']
       }
     ]
   },
@@ -2648,7 +2648,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chanterai',
         explanation: 'Je chanterai. Au futur, on garde l\'infinitif + -ai',
-        hints: ['chanter + ai', 'Terminaison : -ai']
+        hints: ['chanter + ai', 'Terminaison : -ai', 'La réponse est : chanterai']
       },
       {
         id: 'q2',
@@ -2657,7 +2657,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['finiras', 'finis', 'finirais', 'finissais'],
         correctAnswer: 'finiras',
         explanation: 'Tu finiras. Au futur, tu → -as',
-        hints: ['finir + as', 'Terminaison : -as']
+        hints: ['finir + as', 'Terminaison : -as', 'La réponse est : finiras']
       },
       {
         id: 'q3',
@@ -2665,7 +2665,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jouera',
         explanation: 'Il jouera. Au futur, il/elle → -a',
-        hints: ['jouer + a', 'Terminaison : -a']
+        hints: ['jouer + a', 'Terminaison : -a', 'La réponse est : jouera']
       },
       {
         id: 'q4',
@@ -2674,7 +2674,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['mangerons', 'mangeons', 'mangerions', 'mangions'],
         correctAnswer: 'mangerons',
         explanation: 'Nous mangerons. Au futur, nous → -ons',
-        hints: ['manger + ons', 'Terminaison : -ons']
+        hints: ['manger + ons', 'Terminaison : -ons', 'La réponse est : mangerons']
       },
       {
         id: 'q5',
@@ -2682,7 +2682,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlerez',
         explanation: 'Vous parlerez. Au futur, vous → -ez',
-        hints: ['parler + ez', 'Terminaison : -ez']
+        hints: ['parler + ez', 'Terminaison : -ez', 'La réponse est : parlerez']
       },
       {
         id: 'q6',
@@ -2691,7 +2691,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['danseront', 'dansent', 'danseraient', 'dansaient'],
         correctAnswer: 'danseront',
         explanation: 'Ils danseront. Au futur, ils/elles → -ont',
-        hints: ['danser + ont', 'Terminaison : -ont']
+        hints: ['danser + ont', 'Terminaison : -ont', 'La réponse est : danseront']
       },
       {
         id: 'q7',
@@ -2700,7 +2700,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['-ai', '-as', '-a', '-ons'],
         correctAnswer: '-ai',
         explanation: 'Pour "je" au futur, la terminaison est -ai',
-        hints: ['Je chanterai, je parlerai...', '-ai']
+        hints: ['Je chanterai, je parlerai...', '-ai', 'La réponse est : -ai']
       },
       {
         id: 'q8',
@@ -2708,7 +2708,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'serai',
         explanation: 'Je serai (verbe être, irrégulier au futur)',
-        hints: ['Verbe être', 'Je serai']
+        hints: ['Verbe être', 'Je serai', 'La réponse est : serai']
       },
       {
         id: 'q9',
@@ -2717,7 +2717,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['auras', 'as', 'avais', 'aurais'],
         correctAnswer: 'auras',
         explanation: 'Tu auras (verbe avoir, irrégulier au futur)',
-        hints: ['Verbe avoir', 'Tu auras']
+        hints: ['Verbe avoir', 'Tu auras', 'La réponse est : auras']
       },
       {
         id: 'q10',
@@ -2726,7 +2726,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Je mange', 'Je mangeais', 'Je mangerai', 'Je mangerais'],
         correctAnswer: 'Je mangerai',
         explanation: '"Je mangerai" est au futur (terminaison -ai)',
-        hints: ['Cherche -ai, -as, -a, -ons, -ez, -ont', 'Le futur parle de demain']
+        hints: ['Cherche -ai, -as, -a, -ons, -ez, -ont', 'Le futur parle de demain', 'La réponse est : Je mangerai']
       }
     ]
   },
@@ -2754,7 +2754,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Elle gèle', 'Elle s\'évapore', 'Elle devient bleue', 'Elle disparaît'],
         correctAnswer: 'Elle s\'évapore',
         explanation: 'L\'eau s\'évapore : elle se transforme en vapeur d\'eau qui monte dans le ciel.',
-        hints: ['Pense à une flaque qui sèche au soleil', 'L\'eau devient de la vapeur']
+        hints: ['Pense à une flaque qui sèche au soleil', 'L\'eau devient de la vapeur', 'La réponse est : Elle s\'évapore']
       }
     ]
   },
@@ -2782,7 +2782,7 @@ export const EXERCISE_LIBRARY: Exercise[] = [
         options: ['Blue', 'Red', 'Green', 'Yellow'],
         correctAnswer: 'Red',
         explanation: 'Rouge = Red en anglais',
-        hints: ['Pense aux feux de circulation', 'Ça commence par R']
+        hints: ['Pense aux feux de circulation', 'Ça commence par R', 'La réponse est : Red']
       }
     ]
   },
@@ -2852,7 +2852,7 @@ export function countExercisesBySubject(level: StudentLevel): Record<Subject, nu
 
 /**
  * Normalise une valeur monétaire pour comparaison flexible
- * Accepte: "1,50", "1.50", "1,50€", "1.50€", "1,50 €", "1,50 euro", "1,50 euros"
+ * Accepte: "1,50", "1.50", "1,50€", "1.50€", "1,50 €", "1,50 euro", "1,50 euros", "7,50 euro"
  */
 function normalizeMoneyValue(str: string): string {
   return str
@@ -2861,10 +2861,10 @@ function normalizeMoneyValue(str: string): string {
     // Supprime le symbole euro et le mot "euro(s)"
     .replace(/€/g, '')
     .replace(/\s*euros?\s*/gi, '')
+    // Supprime les espaces
+    .replace(/\s+/g, '')
     // Normalise la virgule en point pour la comparaison
     .replace(/,/g, '.')
-    // Supprime les espaces restants
-    .replace(/\s+/g, '')
     .trim()
 }
 
@@ -2872,36 +2872,62 @@ function normalizeMoneyValue(str: string): string {
  * Vérifie si une réponse est une valeur monétaire
  */
 function isMoneyAnswer(answer: string): boolean {
-  return /[\d]/.test(answer) && (
-    answer.includes('€') ||
-    answer.toLowerCase().includes('euro') ||
-    /^\d+[.,]\d+$/.test(answer.trim()) ||
-    /^\d+[.,]\d+\s*€?$/.test(answer.trim())
-  )
+  const hasNumber = /[\d]/.test(answer)
+  const hasCurrency = answer.includes('€') || answer.toLowerCase().includes('euro')
+  const hasDecimal = /\d+[.,]\d+/.test(answer)
+  // C'est une réponse monétaire si elle contient des chiffres ET (un symbole € OU le mot euro OU des décimales)
+  return hasNumber && (hasCurrency || hasDecimal)
 }
 
 /**
  * Normalise une valeur numérique (pour la comparaison flexible des nombres décimaux)
- * Accepte virgule ou point comme séparateur décimal
+ * Accepte virgule ou point comme séparateur décimal, et supprime les espaces, symboles, unités
+ * Exemples: "7,50€", "7.5 euro", "0,5 mètre", "0.5cm", "18.84", "7,8" → tous normalisés
  */
 function normalizeNumericValue(str: string): string {
-  const cleaned = str.trim()
-  // Si c'est un nombre avec virgule ou point, normaliser en point
-  if (/^-?\d+[.,]\d+$/.test(cleaned)) {
-    return cleaned.replace(',', '.')
-  }
+  let cleaned = str.toLowerCase().trim()
+
+  // Liste complète des unités à supprimer (monétaires, longueur, volume, poids, etc.)
+  const unitsToRemove = [
+    '€', 'euros?', 'eur',
+    'mètres?', 'metres?', 'm\\b',
+    'centimètres?', 'centimetres?', 'cm\\b',
+    'millimètres?', 'millimetres?', 'mm\\b',
+    'kilomètres?', 'kilometres?', 'km\\b',
+    'litres?', 'l\\b',
+    'grammes?', 'gr?\\b', 'kg\\b', 'kilogrammes?',
+    'secondes?', 's\\b',
+    'minutes?', 'min\\b',
+    'heures?', 'h\\b'
+  ]
+
+  // Supprime toutes les unités
+  unitsToRemove.forEach(unit => {
+    const regex = new RegExp(`\\s*${unit}\\s*`, 'gi')
+    cleaned = cleaned.replace(regex, '')
+  })
+
+  // Supprime les espaces multiples
+  cleaned = cleaned.replace(/\s+/g, ' ').trim()
+
+  // Normalise virgule en point pour les décimales
+  cleaned = cleaned.replace(/,/g, '.')
+
   return cleaned
 }
 
 /**
- * Vérifie une réponse d'élève avec normalisation flexible
+ * Vérifie une réponse d'élève avec normalisation flexible INTELLIGENTE
  * - Accepte virgule ou point pour les décimaux
- * - Accepte €, "euro", "euros" ou rien pour les montants
- * - Comparaison insensible à la casse et aux espaces
+ * - Accepte €, "euro", "euros", unités (mètre, cm, etc.)
+ * - Pour Français uniquement: accepte variantes avec/sans pronoms (je, tu, il, etc.) et articles (le, la, les, etc.)
+ * - Pour Arabe/Anglais/Histoire/Géo: NE supprime PAS les articles (important pour le sens)
+ * - Comparaison insensible à la casse, aux espaces et aux accents
  */
 export function checkAnswer(
   question: ExerciseQuestion,
-  userAnswer: string
+  userAnswer: string,
+  subject?: Subject | string
 ): { correct: boolean; feedback: string } {
   const correctAnswers = Array.isArray(question.correctAnswer)
     ? question.correctAnswer
@@ -2930,11 +2956,75 @@ export function checkAnswer(
     // Pour les valeurs numériques avec décimales (virgule vs point)
     const userNumeric = normalizeNumericValue(userAnswer)
     const correctNumeric = normalizeNumericValue(correctAnswer)
+
+    // Comparaison de chaînes normalisées
     if (userNumeric === correctNumeric) {
       return true
     }
 
-    // Comparaison sans espaces multiples
+    // Comparaison numérique (pour 7.5 vs 7.50, 0.5 vs 0.50, etc.)
+    const userNum = parseFloat(userNumeric)
+    const correctNum = parseFloat(correctNumeric)
+    if (!isNaN(userNum) && !isNaN(correctNum) && Math.abs(userNum - correctNum) < 0.0001) {
+      return true
+    }
+
+    // VALIDATION INTELLIGENTE selon la matière
+    // Supprime les accents pour comparaison
+    const removeAccents = (str: string) => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    const userNoAccents = removeAccents(normalizedUserAnswer)
+    const correctNoAccents = removeAccents(normalizedCorrectAnswer)
+
+    // Détermine si on doit enlever les pronoms/articles selon la matière
+    const subjectLower = (subject || '').toLowerCase()
+    const shouldRemoveLeadingWords =
+      subjectLower.includes('français') ||
+      subjectLower.includes('francais') ||
+      subjectLower.includes('conjugaison') ||
+      subjectLower.includes('grammaire')
+
+    // Liste des pronoms et articles français UNIQUEMENT (pas pour arabe "al", anglais "the", etc.)
+    const frenchLeadingWords = [
+      'je', 'j', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles',
+      'le', 'la', 'les', 'l', 'un', 'une', 'des', 'du', 'de', 'd',
+      'ce', 'cet', 'cette', 'ces', 'mon', 'ma', 'mes', 'ton', 'ta', 'tes',
+      'son', 'sa', 'ses', 'notre', 'nos', 'votre', 'vos', 'leur', 'leurs'
+    ]
+
+    // Fonction pour enlever les pronoms/articles UNIQUEMENT pour le français
+    const removeLeadingWords = (str: string): string => {
+      if (!shouldRemoveLeadingWords) {
+        return str // Ne rien enlever pour arabe, anglais, histoire, géo, etc.
+      }
+      const words = str.split(' ').filter(w => w.length > 0)
+      if (words.length > 1 && frenchLeadingWords.includes(words[0])) {
+        return words.slice(1).join(' ')
+      }
+      return str
+    }
+
+    // Nettoyage avancé
+    const userCleaned = removeLeadingWords(userNoAccents.replace(/\s+/g, ' ').replace(/[.,;:!?'"()]/g, '').trim())
+    const correctCleaned = removeLeadingWords(correctNoAccents.replace(/\s+/g, ' ').replace(/[.,;:!?'"()]/g, '').trim())
+
+    // Comparaison après nettoyage complet
+    if (userCleaned === correctCleaned) {
+      return true
+    }
+
+    // Comparaison flexible : la réponse correcte est contenue dans la réponse utilisateur
+    // Ex: "je mangeais" contient "mangeais" ✓
+    if (userCleaned.includes(correctCleaned) && correctCleaned.length >= 3) {
+      return true
+    }
+
+    // Comparaison flexible inverse : la réponse utilisateur est contenue dans la réponse correcte
+    // Ex: "mangeais" est dans "je mangeais" ✓
+    if (correctCleaned.includes(userCleaned) && userCleaned.length >= 3) {
+      return true
+    }
+
+    // Comparaison sans espaces multiples (ancienne méthode, conservée pour compatibilité)
     const userNoSpaces = normalizedUserAnswer.replace(/\s+/g, ' ')
     const correctNoSpaces = normalizedCorrectAnswer.replace(/\s+/g, ' ')
     if (userNoSpaces === correctNoSpaces) {
@@ -2951,3 +3041,4 @@ export function checkAnswer(
       : `❌ Pas tout à fait. ${question.explanation}`
   }
 }
+

@@ -1354,6 +1354,15 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'La vache donne...', options: ['Du lait', 'Des œufs', 'Du miel'], correct: 0, fact: 'Une vache peut produire 30 litres de lait par jour !' },
       { question: 'L\'oiseau a...', options: ['Des plumes', 'Des poils', 'Des écailles'], correct: 0, fact: 'Les plumes permettent aux oiseaux de voler.' },
       { question: 'Le poisson vit dans...', options: ['L\'eau', 'L\'air', 'La terre'], correct: 0, fact: 'Les poissons respirent grâce à leurs branchies.' },
+      { question: 'Combien de pattes a un insecte ?', options: ['6 pattes', '4 pattes', '8 pattes'], correct: 0, fact: 'Tous les insectes ont exactement 6 pattes !' },
+      { question: 'La poule fait...', options: ['Cot cot cot', 'Meuh', 'Miaou'], correct: 0, fact: 'Les poules peuvent communiquer avec plus de 30 sons différents !' },
+      { question: 'Le mouton est recouvert de...', options: ['Laine', 'Poils', 'Plumes'], correct: 0, fact: 'On tond les moutons pour faire des pull-overs !' },
+      { question: 'L\'abeille fait...', options: ['Bzz bzz', 'Miaou', 'Ouaf ouaf'], correct: 0, fact: 'Les abeilles dansent pour indiquer où sont les fleurs !' },
+      { question: 'Le lion vit en...', options: ['Afrique', 'Antarctique', 'Océan'], correct: 0, fact: 'Le lion est le roi de la savane africaine !' },
+      { question: 'Le papillon a...', options: ['Des ailes', 'Des nageoires', 'Des pattes seulement'], correct: 0, fact: 'Le papillon goûte avec ses pattes !' },
+      { question: 'L\'éléphant a un long...', options: ['Nez', 'Cou', 'Queue'], correct: 0, fact: 'La trompe de l\'éléphant est son nez allongé !' },
+      { question: 'Le canard nage avec ses...', options: ['Pattes palmées', 'Ailes', 'Queue'], correct: 0, fact: 'Ses pattes sont palmées comme des palmes !' },
+      { question: 'L\'escargot porte sa...', options: ['Maison', 'Nourriture', 'Famille'], correct: 0, fact: 'La coquille de l\'escargot grandit avec lui !' },
     ],
     'CE1': [
       { question: 'Quel animal pond des œufs ?', options: ['La poule', 'Le chat', 'Le chien'], correct: 0, fact: 'Les poules peuvent pondre un œuf par jour !' },
@@ -1362,6 +1371,14 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'Quel animal hiberne ?', options: ['L\'ours', 'Le lion', 'Le cheval'], correct: 0, fact: 'Les ours peuvent dormir jusqu\'à 7 mois !' },
       { question: 'La grenouille est un...', options: ['Amphibien', 'Reptile', 'Mammifère'], correct: 0, fact: 'Les grenouilles peuvent respirer par la peau !' },
       { question: 'Le serpent est un...', options: ['Reptile', 'Amphibien', 'Mammifère'], correct: 0, fact: 'Les serpents changent de peau plusieurs fois par an.' },
+      { question: 'Le crocodile vit dans...', options: ['L\'eau douce', 'La neige', 'Le désert'], correct: 0, fact: 'Les crocodiles sont d\'excellents nageurs !' },
+      { question: 'Le renard est...', options: ['Rusé', 'Lent', 'Marin'], correct: 0, fact: 'Le renard est connu pour son intelligence !' },
+      { question: 'La fourmi vit en...', options: ['Colonie', 'Solitaire', 'Duo'], correct: 0, fact: 'Une colonie peut compter des millions de fourmis !' },
+      { question: 'Le hérisson a des...', options: ['Piquants', 'Plumes', 'Écailles'], correct: 0, fact: 'Le hérisson a environ 5000 piquants !' },
+      { question: 'Le pingouin vit au...', options: ['Pôle Sud', 'Pôle Nord', 'Équateur'], correct: 0, fact: 'Les pingouins vivent en Antarctique !' },
+      { question: 'Le zèbre a des...', options: ['Rayures', 'Taches', 'Poils longs'], correct: 0, fact: 'Chaque zèbre a un motif de rayures unique !' },
+      { question: 'Le koala mange des feuilles de...', options: ['Eucalyptus', 'Chêne', 'Pin'], correct: 0, fact: 'Le koala dort 20 heures par jour !' },
+      { question: 'La coccinelle a combien de points ?', options: ['Variable', 'Toujours 7', 'Toujours 2'], correct: 0, fact: 'Le nombre de points varie selon l\'espèce !' },
     ],
     'CE2': [
       { question: 'Combien de pattes a l\'araignée ?', options: ['8', '6', '4'], correct: 0, fact: 'L\'araignée n\'est pas un insecte mais un arachnide !' },
@@ -1370,6 +1387,12 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'Le kangourou vit en...', options: ['Australie', 'Afrique', 'Europe'], correct: 0, fact: 'Le bébé kangourou reste 8 mois dans la poche !' },
       { question: 'L\'abeille produit...', options: ['Du miel', 'Du lait', 'De la soie'], correct: 0, fact: 'Une abeille visite 1500 fleurs pour faire 1g de miel !' },
       { question: 'Le guépard est l\'animal terrestre le plus...', options: ['Rapide', 'Lent', 'Lourd'], correct: 0, fact: 'Le guépard peut atteindre 120 km/h !' },
+      { question: 'La baleine est un...', options: ['Mammifère', 'Poisson', 'Reptile'], correct: 0, fact: 'La baleine allaite ses petits comme tous les mammifères !' },
+      { question: 'Le rhinocéros a combien de cornes ?', options: ['1 ou 2', 'Aucune', '3 ou 4'], correct: 0, fact: 'Selon l\'espèce, le rhinocéros a 1 ou 2 cornes !' },
+      { question: 'Le hibou chasse la...', options: ['Nuit', 'Jour', 'Matin'], correct: 0, fact: 'Les hiboux ont une excellente vision nocturne !' },
+      { question: 'Le flamant rose est rose à cause de...', options: ['Sa nourriture', 'Le soleil', 'Ses gènes'], correct: 0, fact: 'Les crevettes qu\'il mange le rendent rose !' },
+      { question: 'La tortue peut vivre...', options: ['Plus de 100 ans', '10 ans', '1 an'], correct: 0, fact: 'Certaines tortues vivent plus de 150 ans !' },
+      { question: 'Le ver de terre a combien de cœurs ?', options: ['5', '1', '10'], correct: 0, fact: 'Le ver de terre possède 5 paires de cœurs !' },
     ],
     'CM1': [
       { question: 'Quel mammifère peut voler ?', options: ['La chauve-souris', 'L\'écureuil', 'Le chat'], correct: 0, fact: 'La chauve-souris utilise l\'écholocation pour se repérer.' },
@@ -1378,6 +1401,12 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'Quel animal a le plus long cou ?', options: ['La girafe', 'L\'autruche', 'Le cygne'], correct: 0, fact: 'La girafe n\'a que 7 vertèbres cervicales, comme nous !' },
       { question: 'Le caméléon peut voir...', options: ['Dans 2 directions à la fois', 'Dans le noir', 'Sous l\'eau'], correct: 0, fact: 'Chaque œil bouge indépendamment !' },
       { question: 'L\'escargot a combien de dents ?', options: ['Des milliers', 'Aucune', 'Une dizaine'], correct: 0, fact: 'L\'escargot a environ 20 000 dents microscopiques !' },
+      { question: 'Le colibri peut voler...', options: ['En arrière', 'Seulement en avant', 'Sous l\'eau'], correct: 0, fact: 'C\'est le seul oiseau capable de voler en arrière !' },
+      { question: 'Le sang des poulpes est de quelle couleur ?', options: ['Bleu', 'Rouge', 'Vert'], correct: 0, fact: 'Leur sang contient du cuivre au lieu du fer !' },
+      { question: 'L\'hippocampe est...', options: ['Le mâle qui porte les bébés', 'La femelle qui porte les bébés', 'Ils ne portent pas de bébés'], correct: 0, fact: 'C\'est l\'unique poisson où le mâle est "enceint" !' },
+      { question: 'Le requin a combien de rangées de dents ?', options: ['Plusieurs rangées', 'Une seule', 'Pas de dents'], correct: 0, fact: 'Les requins peuvent avoir jusqu\'à 15 rangées de dents !' },
+      { question: 'L\'étoile de mer peut...', options: ['Régénérer ses bras', 'Voler', 'Parler'], correct: 0, fact: 'Si elle perd un bras, il repousse en quelques mois !' },
+      { question: 'Le corbeau peut...', options: ['Utiliser des outils', 'Nager uniquement', 'Chanter comme un rossignol'], correct: 0, fact: 'Les corbeaux sont parmi les animaux les plus intelligents !' },
     ],
     'CM2': [
       { question: 'Quel sens le requin utilise pour chasser ?', options: ['L\'électroréception', 'La vue uniquement', 'Le goût'], correct: 0, fact: 'Les requins détectent les champs électriques des proies !' },
@@ -1386,6 +1415,12 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'L\'animal le plus venimeux est...', options: ['La méduse-boîte', 'Le cobra', 'Le scorpion'], correct: 0, fact: 'Son venin peut tuer en quelques minutes !' },
       { question: 'Le plus grand œil du règne animal appartient au...', options: ['Calmar géant', 'Baleine', 'Éléphant'], correct: 0, fact: 'Son œil peut mesurer 30 cm de diamètre !' },
       { question: 'Combien d\'années peut vivre une tortue géante ?', options: ['Plus de 150 ans', '50 ans', '20 ans'], correct: 0, fact: 'Harriet, une tortue, a vécu 176 ans !' },
+      { question: 'Le mantis shrimp (crevette-mante) peut...', options: ['Voir 16 couleurs primaires', 'Voir 3 couleurs', 'Ne voit qu\'en noir et blanc'], correct: 0, fact: 'Nous en voyons 3, elle en voit 16 ! Son coup de poing est le plus rapide du règne animal.' },
+      { question: 'L\'ADN humain ressemble à combien à celui du chimpanzé ?', options: ['98,8%', '50%', '25%'], correct: 0, fact: 'Nous partageons presque tout notre ADN avec les chimpanzés !' },
+      { question: 'Le plus grand organisme vivant est...', options: ['Un champignon', 'Une baleine', 'Un séquoia'], correct: 0, fact: 'Un champignon en Oregon s\'étend sur 9 km² !' },
+      { question: 'Les fourmis représentent quel pourcentage de la biomasse animale terrestre ?', options: ['15-20%', '1%', '50%'], correct: 0, fact: 'Les fourmis pèsent autant que tous les humains réunis !' },
+      { question: 'Le narval possède une défense qui est en réalité...', options: ['Une dent', 'Une corne', 'Un os du crâne'], correct: 0, fact: 'C\'est une canine gauche qui peut mesurer 3 mètres !' },
+      { question: 'Les éléphants peuvent "entendre" avec...', options: ['Leurs pieds', 'Leurs oreilles uniquement', 'Leur trompe'], correct: 0, fact: 'Ils détectent les vibrations sismiques par leurs pieds !' },
     ],
     '6ème': [
       { question: 'Qu\'est-ce que la bioluminescence ?', options: ['Produire de la lumière', 'Changer de couleur', 'Être invisible'], correct: 0, fact: '90% des animaux des grands fonds sont bioluminescents !' },
@@ -1394,6 +1429,12 @@ function AnimalQuizGame({ onExit }: { onExit: () => void }) {
       { question: 'Le blob (Physarum) est...', options: ['Un organisme unicellulaire', 'Un animal', 'Une plante'], correct: 0, fact: 'Le blob peut "apprendre" sans avoir de cerveau !' },
       { question: 'La symbiose est...', options: ['Une association bénéfique', 'Un combat', 'Une maladie'], correct: 0, fact: 'Le poisson-clown et l\'anémone en sont un exemple !' },
       { question: 'Le phénomène de migration est dû à...', options: ['Les saisons et la nourriture', 'L\'ennui', 'Le hasard'], correct: 0, fact: 'La sterne arctique parcourt 71 000 km par an !' },
+      { question: 'Le caméléon change de couleur principalement pour...', options: ['Communiquer', 'Se camoufler uniquement', 'Avoir froid'], correct: 0, fact: 'Le changement de couleur sert à exprimer ses émotions !' },
+      { question: 'Les méduses n\'ont pas de...', options: ['Cerveau', 'Tentacules', 'Bouche'], correct: 0, fact: 'Elles ont un système nerveux diffus sans cerveau centralisé !' },
+      { question: 'Le tardigrade peut survivre...', options: ['Dans l\'espace', 'Seulement dans l\'eau', 'Uniquement sur Terre'], correct: 0, fact: 'Il résiste au vide spatial et aux radiations extrêmes !' },
+      { question: 'La métamorphose complète concerne...', options: ['Papillon et grenouille', 'Seulement les insectes', 'Les mammifères'], correct: 0, fact: 'C\'est une transformation radicale du corps !' },
+      { question: 'L\'ADN mitochondrial se transmet par...', options: ['La mère uniquement', 'Le père uniquement', 'Les deux parents'], correct: 0, fact: 'Les mitochondries viennent de l\'ovule maternel !' },
+      { question: 'Les coraux sont...', options: ['Des animaux', 'Des plantes', 'Des roches'], correct: 0, fact: 'Ce sont des colonies de polypes carnivores !' },
     ]
   }
 
@@ -1604,34 +1645,74 @@ function FractionPizzaGame({ onExit }: { onExit: () => void }) {
   const [showLevelSelect, setShowLevelSelect] = useState(true)
 
   function generateFractionQuestion(lvl: 'CE2' | 'CM1' | 'CM2') {
-    // Niveaux de difficulté
+    // Niveaux de difficulté avec beaucoup plus de fractions
     const fractions: Record<string, { numerator: number; denominator: number }[]> = {
       'CE2': [
+        // Halves (1/2)
         { numerator: 1, denominator: 2 },
+        // Quarters (1/4, 2/4, 3/4)
         { numerator: 1, denominator: 4 },
+        { numerator: 2, denominator: 4 },
         { numerator: 3, denominator: 4 },
+        // Thirds (1/3, 2/3)
         { numerator: 1, denominator: 3 },
         { numerator: 2, denominator: 3 },
+        // Sixths (1/6, 2/6, 3/6, 4/6, 5/6)
         { numerator: 1, denominator: 6 },
+        { numerator: 2, denominator: 6 },
+        { numerator: 3, denominator: 6 },
+        { numerator: 4, denominator: 6 },
+        { numerator: 5, denominator: 6 },
       ],
       'CM1': [
+        // Sixths (toutes les variantes)
         { numerator: 1, denominator: 6 },
+        { numerator: 2, denominator: 6 },
+        { numerator: 3, denominator: 6 },
+        { numerator: 4, denominator: 6 },
         { numerator: 5, denominator: 6 },
+        // Eighths (1/8 à 7/8)
         { numerator: 1, denominator: 8 },
+        { numerator: 2, denominator: 8 },
         { numerator: 3, denominator: 8 },
+        { numerator: 4, denominator: 8 },
         { numerator: 5, denominator: 8 },
+        { numerator: 6, denominator: 8 },
         { numerator: 7, denominator: 8 },
+        // Fifths (1/5 à 4/5)
         { numerator: 1, denominator: 5 },
-        { numerator: 2, denominator: 5 },
-      ],
-      'CM2': [
         { numerator: 2, denominator: 5 },
         { numerator: 3, denominator: 5 },
         { numerator: 4, denominator: 5 },
+      ],
+      'CM2': [
+        // Fifths (toutes)
+        { numerator: 1, denominator: 5 },
+        { numerator: 2, denominator: 5 },
+        { numerator: 3, denominator: 5 },
+        { numerator: 4, denominator: 5 },
+        // Tenths (1/10 à 9/10)
+        { numerator: 1, denominator: 10 },
+        { numerator: 2, denominator: 10 },
         { numerator: 3, denominator: 10 },
+        { numerator: 4, denominator: 10 },
+        { numerator: 5, denominator: 10 },
+        { numerator: 6, denominator: 10 },
         { numerator: 7, denominator: 10 },
+        { numerator: 8, denominator: 10 },
+        { numerator: 9, denominator: 10 },
+        // Twelfths (1/12 à 11/12)
+        { numerator: 1, denominator: 12 },
+        { numerator: 2, denominator: 12 },
+        { numerator: 3, denominator: 12 },
+        { numerator: 4, denominator: 12 },
         { numerator: 5, denominator: 12 },
+        { numerator: 6, denominator: 12 },
         { numerator: 7, denominator: 12 },
+        { numerator: 8, denominator: 12 },
+        { numerator: 9, denominator: 12 },
+        { numerator: 10, denominator: 12 },
+        { numerator: 11, denominator: 12 },
       ]
     }
 
@@ -1859,6 +1940,12 @@ function GrammarQuestGame({ onExit }: { onExit: () => void }) {
       { sentence: 'Tu ___ gentil.', options: ['est', 'es', 'êtes'], correct: 1, explanation: 'Avec "Tu", on utilise "es".' },
       { sentence: 'Nous ___ contents.', options: ['sommes', 'êtes', 'sont'], correct: 0, explanation: 'Avec "Nous", on utilise "sommes".' },
       { sentence: 'Le chat ___ sur le canapé.', options: ['dort', 'dorment', 'dors'], correct: 0, explanation: 'Avec "Le chat" (singulier), on utilise "dort".' },
+      { sentence: 'Les chiens ___ dehors.', options: ['cours', 'courent', 'court'], correct: 1, explanation: 'Avec "Les chiens" (pluriel), on utilise "courent".' },
+      { sentence: 'Paul et moi ___ au cinéma.', options: ['vont', 'allons', 'allez'], correct: 1, explanation: '"Paul et moi" = nous, donc "allons".' },
+      { sentence: 'Vous ___ sages.', options: ['est', 'es', 'êtes'], correct: 2, explanation: 'Avec "Vous", on utilise "êtes".' },
+      { sentence: 'Il ___ un livre.', options: ['lis', 'lit', 'lisent'], correct: 1, explanation: 'Avec "Il" (singulier), on utilise "lit".' },
+      { sentence: 'Les filles ___ au parc.', options: ['joue', 'jouent', 'joues'], correct: 1, explanation: 'Avec "Les filles" (pluriel), on utilise "jouent".' },
+      { sentence: 'Tu ___ bien.', options: ['chante', 'chantes', 'chantent'], correct: 1, explanation: 'Avec "Tu", on ajoute un "s" : "chantes".' },
     ],
     'CE2': [
       { sentence: 'Les oiseaux ___ très haut.', options: ['vole', 'voles', 'volent'], correct: 2, explanation: 'Avec "Les oiseaux" (pluriel), on utilise "volent".' },
@@ -1867,6 +1954,12 @@ function GrammarQuestGame({ onExit }: { onExit: () => void }) {
       { sentence: 'Mon père ___ corrigé mes devoirs.', options: ['a', 'à', 'as'], correct: 0, explanation: '"A" est l\'auxiliaire avoir conjugué avec "il/elle", pas la préposition "à" ni "as" (tu).' },
       { sentence: 'Les fleurs ___ belles.', options: ['son', 'sont', 'sons'], correct: 1, explanation: '"Sont" est le verbe être conjugué avec "Les fleurs".' },
       { sentence: 'Nous avons ___ au parc.', options: ['joué', 'jouer', 'jouée'], correct: 0, explanation: 'Après "avoir", le participe passé ne s\'accorde pas (ici).' },
+      { sentence: 'Tu ___ venu me voir.', options: ['as', 'es', 'à'], correct: 1, explanation: '"Venir" utilise l\'auxiliaire "être" : tu es venu.' },
+      { sentence: '___ c\'est ta sœur ?', options: ['Sais', 'Ces', 'C\'est'], correct: 2, explanation: '"C\'est" = c\'est la forme avec apostrophe.' },
+      { sentence: 'Les enfants ___ allés au zoo.', options: ['on', 'ont', 'sont'], correct: 2, explanation: '"Aller" utilise l\'auxiliaire "être" : sont allés.' },
+      { sentence: 'Ma mère ___ venue hier.', options: ['a', 'est', 'à'], correct: 1, explanation: '"Venir" utilise l\'auxiliaire "être" : est venue.' },
+      { sentence: 'Ils ___ leurs devoirs.', options: ['on', 'ont', 'à'], correct: 1, explanation: '"Ont" = verbe avoir (ils ont).' },
+      { sentence: 'Les filles ___ arrivées en retard.', options: ['on', 'ont', 'sont'], correct: 2, explanation: '"Arriver" utilise "être" : sont arrivées.' },
     ],
     'CM1': [
       { sentence: 'Les pommes que j\'ai ___ étaient délicieuses.', options: ['mangé', 'mangée', 'mangées'], correct: 2, explanation: 'Le COD "pommes" est placé avant, accord féminin pluriel.' },
@@ -1875,6 +1968,12 @@ function GrammarQuestGame({ onExit }: { onExit: () => void }) {
       { sentence: 'C\'est la maison ___ j\'habite.', options: ['ou', 'où', 'tous'], correct: 1, explanation: '"Où" indique le lieu (avec accent).' },
       { sentence: 'Il ___ très fort hier soir.', options: ['a plu', 'à plu', 'as plu'], correct: 0, explanation: '"A plu" = auxiliaire avoir + participe passé de pleuvoir.' },
       { sentence: '___ vas-tu ce soir ?', options: ['Ou', 'Où', 'Tous'], correct: 1, explanation: '"Où" avec accent pour le lieu.' },
+      { sentence: 'Les gâteaux que j\'ai ___ sont délicieux.', options: ['fait', 'faite', 'faits'], correct: 2, explanation: 'COD "gâteaux" avant = accord masculin pluriel.' },
+      { sentence: 'Elles se sont ___ dans le parc.', options: ['promené', 'promenée', 'promenées'], correct: 2, explanation: 'Pronom réfléchi COD = accord avec sujet féminin pluriel.' },
+      { sentence: '___ tu préfères, le bleu ou le rouge ?', options: ['Qu\'est-ce que', 'Qu\'elle', 'Quel'], correct: 0, explanation: '"Qu\'est-ce que" pour interroger sur un objet.' },
+      { sentence: 'Voici les livres ___ tu m\'as prêtés.', options: ['que', 'qui', 'qu\'il'], correct: 0, explanation: '"Que" est le pronom relatif COD.' },
+      { sentence: '___ il fait beau, nous sortons.', options: ['Quand', 'Quant', 'Qu\'en'], correct: 0, explanation: '"Quand" = lorsque (temps).' },
+      { sentence: 'Les fleurs ___ tu as cueillies sont belles.', options: ['que', 'qui', 'qu\'elle'], correct: 0, explanation: '"Que" est le pronom relatif COD.' },
     ],
     'CM2': [
       { sentence: 'Les lettres que nous avons ___ sont importantes.', options: ['écrit', 'écrite', 'écrites'], correct: 2, explanation: 'COD "lettres" avant = accord féminin pluriel.' },
@@ -1883,6 +1982,12 @@ function GrammarQuestGame({ onExit }: { onExit: () => void }) {
       { sentence: 'Je ne sais pas ___ faire.', options: ['quel', 'quelle', 'qu\'elle'], correct: 2, explanation: '"Qu\'elle" = que + elle.' },
       { sentence: 'Ils ont ___ leur travail.', options: ['fini', 'finis', 'finit'], correct: 0, explanation: 'Pas d\'accord avec COD placé après "avoir".' },
       { sentence: 'Les devoirs ___ tu as faits sont corrects.', options: ['que', 'qu\'il', 'quel'], correct: 0, explanation: '"Que" est le pronom relatif COD.' },
+      { sentence: 'Les histoires qu\'elle nous a ___ étaient passionnantes.', options: ['raconté', 'racontée', 'racontées'], correct: 2, explanation: 'COD "histoires" avant = accord féminin pluriel.' },
+      { sentence: '___ à moi, je préfère le chocolat.', options: ['Quand', 'Quant', 'Qu\'en'], correct: 1, explanation: '"Quant" = en ce qui concerne.' },
+      { sentence: 'La chanson ___ j\'écoute est belle.', options: ['que', 'qui', 'qu\'elle'], correct: 0, explanation: '"Que" est le pronom relatif COD.' },
+      { sentence: 'Ils se sont ___ de nous.', options: ['moqué', 'moquée', 'moqués'], correct: 2, explanation: 'Pronom réfléchi COD = accord masculin pluriel.' },
+      { sentence: '___ penses-tu de cette idée ?', options: ['Que', 'Qu\'elle', 'Quel'], correct: 0, explanation: '"Que" pour interroger (que penses-tu).' },
+      { sentence: 'Les pommes ___ sont tombées sont mûres.', options: ['que', 'qui', 'qu\'elle'], correct: 1, explanation: '"Qui" est le pronom relatif sujet.' },
     ],
     '6ème': [
       { sentence: 'Quoiqu\'il ___ fatigué, il a terminé.', options: ['soit', 'sois', 'est'], correct: 0, explanation: 'Subjonctif après "quoique".' },
@@ -1891,6 +1996,12 @@ function GrammarQuestGame({ onExit }: { onExit: () => void }) {
       { sentence: 'Bien qu\'il ___ tard, nous sommes sortis.', options: ['est', 'était', 'fût'], correct: 2, explanation: 'Subjonctif imparfait après "bien que" (littéraire).' },
       { sentence: 'C\'est le meilleur film que j\'___ vu.', options: ['ai', 'aie', 'avais'], correct: 1, explanation: 'Subjonctif après superlatif relatif.' },
       { sentence: 'À moins qu\'il ne ___ trop tard...', options: ['soit', 'est', 'sois'], correct: 0, explanation: 'Subjonctif après "à moins que".' },
+      { sentence: 'Je doute qu\'il ___ venir.', options: ['peut', 'puisse', 'peux'], correct: 1, explanation: 'Subjonctif après "douter que".' },
+      { sentence: 'Pourvu qu\'il ___ beau demain !', options: ['fait', 'fasse', 'fera'], correct: 1, explanation: 'Subjonctif après "pourvu que".' },
+      { sentence: 'Il est possible qu\'elle ___ déjà partie.', options: ['est', 'soit', 'était'], correct: 1, explanation: 'Subjonctif après "il est possible que".' },
+      { sentence: 'Avant qu\'il ne ___, préviens-moi.', options: ['part', 'parte', 'partira'], correct: 1, explanation: 'Subjonctif après "avant que".' },
+      { sentence: 'Je crains qu\'ils ne ___ en retard.', options: ['sont', 'soient', 'seront'], correct: 1, explanation: 'Subjonctif après "craindre que".' },
+      { sentence: 'Sans qu\'elle le ___, elle m\'a aidé.', options: ['sait', 'sache', 'savait'], correct: 1, explanation: 'Subjonctif après "sans que".' },
     ]
   }
 
@@ -2117,6 +2228,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Quelle est l\'étoile de notre système solaire ?', options: ['Le Soleil', 'La Lune', 'Sirius'], correct: 0, fact: 'Le Soleil est 109 fois plus large en diamètre que la Terre !', planet: 'Soleil' },
       { question: 'Combien de planètes compte notre système solaire ?', options: ['8', '9', '7'], correct: 0, fact: 'Pluton n\'est plus considérée comme une planète depuis 2006.', planet: 'Espace' },
       { question: 'La Lune tourne autour de...', options: ['La Terre', 'Le Soleil', 'Mars'], correct: 0, fact: 'La Lune met 27 jours pour faire le tour de la Terre.', planet: 'Lune' },
+      { question: 'Quelle planète est la plus grande ?', options: ['Jupiter', 'Saturne', 'Neptune'], correct: 0, fact: 'Jupiter est 11 fois plus large que la Terre !', planet: 'Jupiter' },
+      { question: 'Saturne est connue pour ses...', options: ['Anneaux', 'Volcans', 'Océans'], correct: 0, fact: 'Les anneaux de Saturne sont visibles même avec un petit télescope !', planet: 'Saturne' },
+      { question: 'La Terre fait le tour du Soleil en...', options: ['1 an', '1 mois', '10 ans'], correct: 0, fact: 'C\'est pour ça qu\'il y a 365 jours dans une année !', planet: 'Terre' },
+      { question: 'Un jour sur Terre dure...', options: ['24 heures', '12 heures', '48 heures'], correct: 0, fact: 'C\'est le temps que met la Terre pour faire un tour sur elle-même.', planet: 'Terre' },
+      { question: 'Vénus est la planète la plus...', options: ['Brillante dans le ciel', 'Lointaine', 'Petite'], correct: 0, fact: 'On l\'appelle "étoile du berger" car elle brille beaucoup !', planet: 'Vénus' },
+      { question: 'Neptune est de couleur...', options: ['Bleue', 'Rouge', 'Jaune'], correct: 0, fact: 'Sa couleur bleue vient du méthane dans son atmosphère.', planet: 'Neptune' },
     ],
     'CM2': [
       { question: 'Quelle planète a les anneaux les plus visibles ?', options: ['Saturne', 'Jupiter', 'Uranus'], correct: 0, fact: 'Les anneaux de Saturne sont faits de glace et de roches !', planet: 'Saturne' },
@@ -2125,6 +2242,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Vénus est la planète la plus...', options: ['Chaude', 'Froide', 'Grande'], correct: 0, fact: 'Vénus atteint 465°C à cause de l\'effet de serre !', planet: 'Vénus' },
       { question: 'Neptune a été découverte grâce aux...', options: ['Calculs mathématiques', 'Télescopes', 'Sondes spatiales'], correct: 0, fact: 'Neptune a été "calculée" avant d\'être observée en 1846 !', planet: 'Neptune' },
       { question: 'Un jour sur Mercure dure environ...', options: ['176 jours terrestres', '24 heures', '10 heures'], correct: 0, fact: 'Mercure tourne très lentement sur elle-même !', planet: 'Mercure' },
+      { question: 'Combien de lunes possède Mars ?', options: ['2', '1', '4'], correct: 0, fact: 'Mars a deux petites lunes : Phobos et Deimos !', planet: 'Mars' },
+      { question: 'Jupiter a une tache rouge géante. C\'est...', options: ['Une tempête', 'Un océan', 'Un cratère'], correct: 0, fact: 'Cette tempête fait rage depuis plus de 300 ans !', planet: 'Jupiter' },
+      { question: 'Quelle planète est la plus éloignée du Soleil ?', options: ['Neptune', 'Uranus', 'Pluton'], correct: 0, fact: 'Neptune est 30 fois plus loin du Soleil que la Terre !', planet: 'Neptune' },
+      { question: 'La Terre possède combien de satellites naturels ?', options: ['1', '2', '0'], correct: 0, fact: 'La Lune est notre unique satellite naturel.', planet: 'Lune' },
+      { question: 'Les anneaux de Saturne sont composés de...', options: ['Glace et poussière', 'Gaz', 'Roches volcaniques'], correct: 0, fact: 'Des millions de particules de glace orbitent autour de Saturne !', planet: 'Saturne' },
+      { question: 'Quelle planète n\'a pas de lune ?', options: ['Vénus', 'Mars', 'Neptune'], correct: 0, fact: 'Mercure et Vénus sont les seules planètes sans lune.', planet: 'Vénus' },
     ],
     '6ème': [
       { question: 'La lumière du Soleil met combien de temps à atteindre la Terre ?', options: ['8 minutes', '8 secondes', '8 heures'], correct: 0, fact: 'La lumière voyage à 300 000 km/s !', planet: 'Soleil' },
@@ -2133,6 +2256,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Quel gaz compose principalement le Soleil ?', options: ['Hydrogène', 'Oxygène', 'Hélium'], correct: 0, fact: 'Le Soleil est composé d\'environ 73% d\'hydrogène et 25% d\'hélium.', planet: 'Soleil' },
       { question: 'Titan est un satellite de...', options: ['Saturne', 'Jupiter', 'Mars'], correct: 0, fact: 'Titan a une atmosphère plus épaisse que celle de la Terre !', planet: 'Saturne' },
       { question: 'Mars possède le plus grand volcan du système solaire, il s\'appelle...', options: ['Olympus Mons', 'Everest', 'Mauna Kea'], correct: 0, fact: 'Olympus Mons fait 22 km de haut, 3 fois l\'Everest !', planet: 'Mars' },
+      { question: 'Quelle planète a le jour le plus court ?', options: ['Jupiter', 'Terre', 'Mercure'], correct: 0, fact: 'Jupiter tourne sur elle-même en seulement 10 heures !', planet: 'Jupiter' },
+      { question: 'Io, lune de Jupiter, est remarquable pour ses...', options: ['Volcans actifs', 'Océans', 'Forêts'], correct: 0, fact: 'Io est le corps le plus volcaniquement actif du système solaire !', planet: 'Jupiter' },
+      { question: 'Combien de lunes possède Jupiter ?', options: ['Plus de 90', 'Environ 20', 'Seulement 4'], correct: 0, fact: 'Jupiter a au moins 95 lunes connues !', planet: 'Jupiter' },
+      { question: 'La ceinture de Kuiper se trouve...', options: ['Au-delà de Neptune', 'Entre Mars et Jupiter', 'Près du Soleil'], correct: 0, fact: 'Pluton fait partie de la ceinture de Kuiper !', planet: 'Espace' },
+      { question: 'Quel est le point le plus froid du système solaire ?', options: ['Triton', 'Pluton', 'Neptune'], correct: 0, fact: 'Triton peut atteindre -235°C !', planet: 'Neptune' },
+      { question: 'La Voie Lactée est une galaxie...', options: ['Spirale', 'Elliptique', 'Irrégulière'], correct: 0, fact: 'Notre galaxie contient entre 200 et 400 milliards d\'étoiles !', planet: 'Espace' },
     ],
     '5ème': [
       { question: 'Qu\'est-ce qu\'une nébuleuse ?', options: ['Un nuage de gaz', 'Une étoile', 'Une planète'], correct: 0, fact: 'Les nébuleuses sont des "pouponnières d\'étoiles" !', planet: 'Espace' },
@@ -2141,6 +2270,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Qu\'est-ce qu\'une comète ?', options: ['Boule de glace et poussière', 'Étoile filante', 'Petit astéroïde'], correct: 0, fact: 'La queue d\'une comète peut mesurer des millions de km !', planet: 'Espace' },
       { question: 'Le terme "apogée" désigne...', options: ['Le point le plus éloigné dans l\'orbite', 'Le point le plus proche', 'Le centre de la Terre'], correct: 0, fact: 'L\'apogée est le point le plus éloigné de la Terre dans l\'orbite d\'un satellite.', planet: 'Terre' },
       { question: 'Triton, satellite de Neptune, est remarquable car...', options: ['Il orbite à l\'envers', 'Il est le plus chaud', 'Il a des anneaux'], correct: 0, fact: 'Triton a une orbite rétrograde !', planet: 'Neptune' },
+      { question: 'Les phases de la Lune sont causées par...', options: ['Sa position par rapport au Soleil', 'L\'ombre de la Terre', 'Sa rotation'], correct: 0, fact: 'La Lune ne produit pas de lumière, elle réfléchit celle du Soleil !', planet: 'Lune' },
+      { question: 'Éris est...', options: ['Une planète naine', 'Un astéroïde', 'Un satellite'], correct: 0, fact: 'Éris est plus massive que Pluton !', planet: 'Espace' },
+      { question: 'La vitesse de libération terrestre est...', options: ['11,2 km/s', '1 km/s', '100 km/s'], correct: 0, fact: 'C\'est la vitesse minimale pour échapper à la gravité terrestre !', planet: 'Terre' },
+      { question: 'Encelade, lune de Saturne, projette...', options: ['Des geysers d\'eau', 'De la lave', 'Du méthane'], correct: 0, fact: 'Ces geysers suggèrent un océan sous la glace !', planet: 'Saturne' },
+      { question: 'Un jour sur Vénus dure plus long que...', options: ['Son année', 'Un jour terrestre', 'Un jour sur Jupiter'], correct: 0, fact: 'Vénus met 243 jours terrestres pour tourner sur elle-même, mais 225 pour faire le tour du Soleil !', planet: 'Vénus' },
+      { question: 'Le périhélie de la Terre se produit en...', options: ['Janvier', 'Juillet', 'Mars'], correct: 0, fact: 'C\'est le point où la Terre est la plus proche du Soleil !', planet: 'Terre' },
     ],
     '4ème': [
       { question: 'Qu\'est-ce qu\'un trou noir ?', options: ['Zone de gravité extrême', 'Étoile éteinte', 'Planète sombre'], correct: 0, fact: 'Même la lumière ne peut s\'en échapper !', planet: 'Espace' },
@@ -2149,6 +2284,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Qu\'est-ce que l\'effet Doppler permet de mesurer ?', options: ['La vitesse des étoiles', 'La température', 'La taille'], correct: 0, fact: 'Le décalage vers le rouge montre que les galaxies s\'éloignent !', planet: 'Espace' },
       { question: 'La magnitude apparente mesure...', options: ['La luminosité vue de la Terre', 'La taille réelle', 'La distance'], correct: 0, fact: 'Plus la magnitude est basse, plus l\'étoile est brillante !', planet: 'Espace' },
       { question: 'Les marées sont principalement causées par...', options: ['La Lune', 'Le Soleil', 'Jupiter'], correct: 0, fact: 'Le Soleil contribue aussi, mais moins que la Lune.', planet: 'Lune' },
+      { question: 'L\'horizon des événements d\'un trou noir est...', options: ['Le point de non-retour', 'Le centre', 'La surface visible'], correct: 0, fact: 'Une fois passé, rien ne peut s\'échapper !', planet: 'Espace' },
+      { question: 'La parallaxe stellaire permet de mesurer...', options: ['La distance des étoiles', 'Leur température', 'Leur masse'], correct: 0, fact: 'On observe le décalage apparent d\'une étoile vu de positions différentes !', planet: 'Espace' },
+      { question: 'Le vent solaire est composé de...', options: ['Particules chargées', 'Lumière', 'Gaz froid'], correct: 0, fact: 'Ces particules créent les aurores polaires sur Terre !', planet: 'Soleil' },
+      { question: 'Qu\'est-ce qu\'une géante rouge ?', options: ['Phase évolutive d\'une étoile', 'Planète géante', 'Nébuleuse'], correct: 0, fact: 'Le Soleil deviendra une géante rouge dans 5 milliards d\'années !', planet: 'Soleil' },
+      { question: 'La limite de Roche définit...', options: ['Distance min avant dislocation par marées', 'Température maximale', 'Vitesse de rotation'], correct: 0, fact: 'En deçà, un satellite se désintègre par effet de marée !', planet: 'Espace' },
+      { question: 'Les lois de Kepler décrivent...', options: ['Le mouvement des planètes', 'La gravité', 'La lumière'], correct: 0, fact: 'Ces trois lois ont révolutionné l\'astronomie au XVIIe siècle !', planet: 'Espace' },
     ],
     '3ème': [
       { question: 'Qu\'est-ce qu\'une supernova ?', options: ['L\'explosion d\'une étoile', 'Une nouvelle étoile', 'Un trou noir'], correct: 0, fact: 'Une supernova peut briller plus que sa galaxie entière !', planet: 'Espace' },
@@ -2157,6 +2298,12 @@ function PlanetExplorerGame({ onExit }: { onExit: () => void }) {
       { question: 'Le télescope spatial James Webb observe principalement en...', options: ['Infrarouge', 'Ultraviolet', 'Rayons X'], correct: 0, fact: 'Cela permet de voir les premières galaxies de l\'univers !', planet: 'Espace' },
       { question: 'Qu\'est-ce qu\'une exoplanète ?', options: ['Planète hors du système solaire', 'Planète naine', 'Satellite naturel'], correct: 0, fact: 'On en a découvert plus de 5600 depuis 1995 !', planet: 'Espace' },
       { question: 'La zone habitable d\'un système stellaire est appelée...', options: ['Zone Goldilocks', 'Zone rouge', 'Zone morte'], correct: 0, fact: 'C\'est là où l\'eau liquide peut exister !', planet: 'Espace' },
+      { question: 'Qu\'est-ce que le rayonnement de Hawking ?', options: ['Radiation émise par les trous noirs', 'Lumière du Soleil', 'Énergie cosmique'], correct: 0, fact: 'Les trous noirs peuvent s\'évaporer très lentement !', planet: 'Espace' },
+      { question: 'Le décalage vers le rouge prouve...', options: ['L\'expansion de l\'univers', 'Le refroidissement', 'La rotation'], correct: 0, fact: 'Plus une galaxie s\'éloigne vite, plus son décalage est important !', planet: 'Espace' },
+      { question: 'La constante de Hubble mesure...', options: ['Le taux d\'expansion de l\'univers', 'La gravité', 'La température'], correct: 0, fact: 'Elle permet d\'estimer l\'âge de l\'univers (≈13,8 milliards d\'années) !', planet: 'Espace' },
+      { question: 'Qu\'est-ce qu\'un quasar ?', options: ['Noyau galactique actif ultra-lumineux', 'Étoile massive', 'Planète lointaine'], correct: 0, fact: 'Les quasars sont parmi les objets les plus lumineux de l\'univers !', planet: 'Espace' },
+      { question: 'La nucléosynthèse stellaire produit...', options: ['Les éléments chimiques lourds', 'De l\'énergie', 'Des planètes'], correct: 0, fact: 'Nous sommes faits de poussière d\'étoiles !', planet: 'Espace' },
+      { question: 'Le fond diffus cosmologique est...', options: ['Le rayonnement du Big Bang', 'La lumière des étoiles', 'Une nébuleuse'], correct: 0, fact: 'C\'est la plus ancienne lumière de l\'univers, vieille de 380 000 ans après le Big Bang !', planet: 'Espace' },
     ]
   }
 

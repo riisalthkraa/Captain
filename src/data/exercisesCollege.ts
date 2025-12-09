@@ -52,7 +52,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3/6',
         explanation: '5/6 - 2/6 = 3/6 (on peut simplifier en 1/2)',
-        hints: ['Soustrais les numérateurs', '5 - 2 = 3']
+        hints: ['Soustrais les numérateurs', '5 - 2 = 3', 'La réponse est : 3/6']
       },
       {
         id: 'q3',
@@ -66,7 +66,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Mettre au même dénominateur',
         explanation: 'Pour additionner des fractions de dénominateurs différents, il faut d\'abord les mettre au même dénominateur',
-        hints: ['Dénominateurs différents ?', 'Il faut les rendre égaux']
+        hints: ['Dénominateurs différents ?', 'Il faut les rendre égaux', 'La réponse est : Mettre au même dénominateur']
       }
     ]
   },
@@ -95,7 +95,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7.7',
         explanation: '10,0 - 2,3 = 7,7',
-        hints: ['10 = 10,0', '10,0 - 2,3']
+        hints: ['10 = 10,0', '10,0 - 2,3', 'La réponse est : 7.7']
       }
     ]
   },
@@ -116,7 +116,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '40',
         explanation: 'Aire rectangle = Longueur × largeur = 8 × 5 = 40 cm²',
-        hints: ['Aire = L × l', '8 × 5']
+        hints: ['Aire = L × l', '8 × 5', 'La réponse est : 40']
       },
       {
         id: 'q2',
@@ -125,7 +125,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['(base × hauteur) / 2', 'base × hauteur', 'côté × côté', 'π × rayon²'],
         correctAnswer: '(base × hauteur) / 2',
         explanation: 'Aire triangle = (base × hauteur) ÷ 2',
-        hints: ['Divise par 2', 'La moitié du rectangle']
+        hints: ['Divise par 2', 'La moitié du rectangle', 'La réponse est : (base × hauteur) / 2']
       }
     ]
   },
@@ -156,7 +156,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: '(-3) - (-7) = (-3) + (+7) = +4',
-        hints: ['Moins fois moins = plus', '(-3) + (+7)']
+        hints: ['Moins fois moins = plus', '(-3) + (+7)', 'La réponse est : 4']
       },
       {
         id: 'q3',
@@ -164,7 +164,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '13',
         explanation: '(+8) + (+5) = +13 (même signe, on additionne)',
-        hints: ['Même signe positif', '8 + 5 = 13']
+        hints: ['Même signe positif', '8 + 5 = 13', 'La réponse est : 13']
       }
     ]
   },
@@ -215,7 +215,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['90°', '180°', '270°', '360°'],
         correctAnswer: '180°',
         explanation: 'Dans tout triangle, la somme des 3 angles fait toujours 180°',
-        hints: ['C\'est une propriété fondamentale', 'C\'est 180°']
+        hints: ['C\'est une propriété fondamentale', 'C\'est 180°', 'La réponse est : 180°']
       },
       {
         id: 'q2',
@@ -246,7 +246,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: 'Pythagore : a² + b² = c² → 3² + b² = 5² → 9 + b² = 25 → b² = 16 → b = 4',
-        hints: ['Pythagore : a² + b² = c²', '3² + b² = 5²', '9 + b² = 25']
+        hints: ['Pythagore : a² + b² = c²', '3² + b² = 5²', 'La réponse est : 4']
       },
       {
         id: 'q2',
@@ -255,7 +255,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Triangles équilatéraux', 'Triangles rectangles', 'Tous les triangles', 'Carrés'],
         correctAnswer: 'Triangles rectangles',
         explanation: 'Pythagore ne fonctionne que pour les triangles rectangles',
-        hints: ['Triangle avec un angle droit', 'Rectangle !']
+        hints: ['Triangle avec un angle droit', 'Rectangle !', 'La réponse est : Triangles rectangles']
       }
     ]
   },
@@ -276,7 +276,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '40',
         explanation: '20% de 50 = 10€. Nouveau prix : 50 - 10 = 40€',
-        hints: ['20% de 50 = 50 × 0,20', 'Soustrais ensuite']
+        hints: ['20% de 50 = 50 × 0,20', 'Soustrais ensuite', 'La réponse est : 40']
       },
       {
         id: 'q2',
@@ -284,7 +284,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '55',
         explanation: '10% de 50 = 5€. Prix final : 50 + 5 = 55€',
-        hints: ['10% = divise par 10', '50 ÷ 10 = 5']
+        hints: ['10% = divise par 10', '50 ÷ 10 = 5', 'La réponse est : 55']
       }
     ]
   },
@@ -305,7 +305,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7',
         explanation: 'x + 5 = 12 → x = 12 - 5 → x = 7',
-        hints: ['Isole x', 'Soustrais 5 des deux côtés']
+        hints: ['Isole x', 'Soustrais 5 des deux côtés', 'La réponse est : 7']
       },
       {
         id: 'q2',
@@ -313,7 +313,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '2x = 10 → x = 10 ÷ 2 → x = 5',
-        hints: ['Divise par 2', 'x = 5']
+        hints: ['Divise par 2', 'x = 5', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -321,7 +321,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: '3x + 4 = 13 → 3x = 9 → x = 3',
-        hints: ['Soustrais 4 d\'abord', '3x = 9', 'Divise par 3']
+        hints: ['Soustrais 4 d\'abord', '3x = 9', 'La réponse est : 3']
       }
     ]
   },
@@ -344,7 +344,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3x+6',
         explanation: '3(x + 2) = 3×x + 3×2 = 3x + 6',
-        hints: ['Distributivité', '3×x + 3×2']
+        hints: ['Distributivité', '3×x + 3×2', 'La réponse est : 3x+6']
       },
       {
         id: 'q2',
@@ -352,7 +352,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5(x+2)',
         explanation: '5x + 10 = 5(x + 2) car 5 est le facteur commun',
-        hints: ['Facteur commun ?', 'C\'est 5']
+        hints: ['Facteur commun ?', 'C\'est 5', 'La réponse est : 5(x+2)']
       },
       {
         id: 'q3',
@@ -360,7 +360,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'x²+5x+6',
         explanation: '(x+3)(x+2) = x² + 2x + 3x + 6 = x² + 5x + 6',
-        hints: ['Double distributivité', 'x×x + x×2 + 3×x + 3×2']
+        hints: ['Double distributivité', 'x×x + x×2 + 3×x + 3×2', 'La réponse est : x²+5x+6']
       }
     ]
   },
@@ -381,7 +381,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '13',
         explanation: 'f(5) = 2×5 + 3 = 10 + 3 = 13',
-        hints: ['Remplace x par 5', '2×5 + 3']
+        hints: ['Remplace x par 5', '2×5 + 3', 'La réponse est : 13']
       },
       {
         id: 'q2',
@@ -389,7 +389,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: 'Le coefficient directeur (a) est 3 dans f(x) = 3x - 1',
-        hints: ['C\'est le nombre devant x', 'a = 3']
+        hints: ['C\'est le nombre devant x', 'a = 3', 'La réponse est : 3']
       }
     ]
   },
@@ -416,7 +416,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Opposé / Hypoténuse',
         explanation: 'sin(angle) = Côté opposé / Hypoténuse',
-        hints: ['SOH CAH TOA', 'Sin = Opposé / Hypoténuse']
+        hints: ['SOH CAH TOA', 'Sin = Opposé / Hypoténuse', 'La réponse est : Opposé / Hypoténuse']
       },
       {
         id: 'q2',
@@ -430,7 +430,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Adjacent / Hypoténuse',
         explanation: 'cos(angle) = Côté adjacent / Hypoténuse',
-        hints: ['SOH CAH TOA', 'Cos = Adjacent / Hypoténuse']
+        hints: ['SOH CAH TOA', 'Cos = Adjacent / Hypoténuse', 'La réponse est : Adjacent / Hypoténuse']
       }
     ]
   },
@@ -454,7 +454,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Nom', 'Verbe', 'Adjectif', 'Adverbe'],
         correctAnswer: 'Adjectif',
         explanation: '"noir" qualifie le nom "chat", c\'est un adjectif qualificatif',
-        hints: ['Il qualifie "chat"', 'C\'est un adjectif']
+        hints: ['Il qualifie "chat"', 'C\'est un adjectif', 'La réponse est : Adjectif']
       },
       {
         id: 'q2',
@@ -463,7 +463,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Nom', 'Verbe', 'Adjectif', 'Adverbe'],
         correctAnswer: 'Adverbe',
         explanation: '"rapidement" modifie un verbe, c\'est un adverbe (souvent en -ment)',
-        hints: ['Termine en -ment', 'Modifie un verbe']
+        hints: ['Termine en -ment', 'Modifie un verbe', 'La réponse est : Adverbe']
       }
     ]
   },
@@ -484,7 +484,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'j\'ai mangé',
         explanation: 'Passé composé = auxiliaire avoir/être + participe passé. J\'ai mangé.',
-        hints: ['Avoir au présent + participe passé', 'j\'ai mangé']
+        hints: ['Avoir au présent + participe passé', 'j\'ai + participe passé de manger', 'La réponse est : j\'ai mangé']
       },
       {
         id: 'q2',
@@ -498,7 +498,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Avoir/être à l\'imparfait + participe passé',
         explanation: 'Plus-que-parfait = auxiliaire à l\'imparfait + participe passé',
-        hints: ['Imparfait de l\'auxiliaire', 'j\'avais mangé']
+        hints: ['Imparfait de l\'auxiliaire', 'j\'avais mangé', 'La réponse est : Avoir/être à l\'imparfait + participe passé']
       }
     ]
   },
@@ -520,7 +520,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['"Le livre"', '"que je lis"', '"est passionnant"', 'Il n\'y en a pas'],
         correctAnswer: '"que je lis"',
         explanation: '"que je lis" est une proposition subordonnée relative introduite par "que".',
-        hints: ['Introduite par "que"', 'C\'est la relative']
+        hints: ['Introduite par "que"', 'C\'est la relative', 'La réponse est : "que je lis"']
       },
       {
         id: 'q2',
@@ -529,7 +529,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Un pronom relatif (qui, que, dont, où...)', 'Une conjonction de subordination', 'Une préposition', 'Un adverbe'],
         correctAnswer: 'Un pronom relatif (qui, que, dont, où...)',
         explanation: 'Les pronoms relatifs (qui, que, quoi, dont, où, lequel...) introduisent les relatives.',
-        hints: ['Qui, que, dont, où', 'Pronom relatif']
+        hints: ['Qui, que, dont, où', 'Pronom relatif', 'La réponse est : Un pronom relatif (qui, que, dont, où...)']
       },
       {
         id: 'q3',
@@ -538,7 +538,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Proposition subordonnée conjonctive', 'Proposition subordonnée relative', 'Proposition principale', 'Proposition indépendante'],
         correctAnswer: 'Proposition subordonnée conjonctive',
         explanation: '"que" est ici une conjonction de subordination, pas un pronom relatif.',
-        hints: ['Introduite par "que" conjonction', 'Complète le verbe "pense"']
+        hints: ['Introduite par "que" conjonction', 'Complète le verbe "pense"', 'La réponse est : Proposition subordonnée conjonctive']
       },
       {
         id: 'q4',
@@ -547,7 +547,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['L\'homme', 'Je', 'Mon voisin', 'Il n\'y a pas d\'antécédent'],
         correctAnswer: 'L\'homme',
         explanation: 'L\'antécédent est le nom que le pronom relatif représente dans la subordonnée.',
-        hints: ['De qui parle-t-on ?', 'Le nom avant "dont"']
+        hints: ['De qui parle-t-on ?', 'Le nom avant "dont"', 'La réponse est : L\'homme']
       },
       {
         id: 'q5',
@@ -556,7 +556,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Son antécédent', 'Le verbe principal', 'Le sujet', 'Le COD'],
         correctAnswer: 'Son antécédent',
         explanation: 'La relative complète un nom ou pronom appelé antécédent.',
-        hints: ['Elle complète un nom', 'L\'antécédent']
+        hints: ['Elle complète un nom', 'L\'antécédent', 'La réponse est : Son antécédent']
       },
       {
         id: 'q6',
@@ -565,7 +565,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Une subordonnée circonstancielle de temps', 'Une subordonnée relative', 'Une proposition principale', 'Une subordonnée conjonctive COD'],
         correctAnswer: 'Une subordonnée circonstancielle de temps',
         explanation: '"Quand" introduit une circonstancielle de temps.',
-        hints: ['Quand = temps', 'Circonstancielle']
+        hints: ['Quand = temps', 'Circonstancielle', 'La réponse est : Une subordonnée circonstancielle de temps']
       },
       {
         id: 'q7',
@@ -574,7 +574,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Un pronom relatif', 'Un adverbe interrogatif', 'Une conjonction', 'Une préposition'],
         correctAnswer: 'Un pronom relatif',
         explanation: '"Où" est un pronom relatif qui remplace un complément de lieu.',
-        hints: ['Il a un antécédent (la ville)', 'Pronom relatif de lieu']
+        hints: ['Il a un antécédent (la ville)', 'Pronom relatif de lieu', 'La réponse est : Un pronom relatif']
       },
       {
         id: 'q8',
@@ -583,7 +583,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['COD du verbe principal', 'Épithète du nom', 'Attribut du COD', 'Apposition'],
         correctAnswer: 'COD du verbe principal',
         explanation: 'Ex : "Je sais que tu viendras" → "que tu viendras" = COD de "sais".',
-        hints: ['Je sais QUOI ?', 'Complément du verbe']
+        hints: ['Je sais QUOI ?', 'Complément du verbe', 'La réponse est : COD du verbe principal']
       },
       {
         id: 'q9',
@@ -592,7 +592,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['"Si tu viens"', '"nous irons au cinéma"', 'Toute la phrase', 'Il n\'y en a pas'],
         correctAnswer: '"Si tu viens"',
         explanation: '"Si tu viens" est une subordonnée circonstancielle de condition.',
-        hints: ['Introduite par "si"', 'Condition']
+        hints: ['Introduite par "si"', 'Condition', 'La réponse est : "Si tu viens"']
       },
       {
         id: 'q10',
@@ -601,7 +601,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['COD', 'Sujet', 'COI', 'Complément circonstanciel'],
         correctAnswer: 'COD',
         explanation: '"que" = "l\'endroit", COD de "préfère" (je préfère QUOI ? → l\'endroit/que).',
-        hints: ['Je préfère QUOI ?', '"que" remplace "l\'endroit"']
+        hints: ['Je préfère QUOI ?', '"que" remplace "l\'endroit"', 'La réponse est : COD']
       }
     ]
   },
@@ -628,7 +628,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'L\'idée défendue',
         explanation: 'La thèse est l\'idée principale que l\'auteur défend',
-        hints: ['C\'est l\'idée principale', 'Ce qu\'on défend']
+        hints: ['C\'est l\'idée principale', 'Ce qu\'on défend', 'La réponse est : L\'idée défendue']
       }
     ]
   },
@@ -651,7 +651,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'went',
         explanation: 'Go → went (verbe irrégulier au prétérit)',
-        hints: ['Verbe irrégulier', 'went']
+        hints: ['Verbe irrégulier', 'went', 'La réponse est : went']
       },
       {
         id: 'q2',
@@ -659,7 +659,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'did',
         explanation: 'Do → did (verbe irrégulier)',
-        hints: ['Verbe irrégulier', 'did']
+        hints: ['Verbe irrégulier', 'did', 'La réponse est : did']
       }
     ]
   },
@@ -680,7 +680,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'have visited',
         explanation: 'Present perfect : have + visited',
-        hints: ['have + participe passé', 'have visited']
+        hints: ['have + participe passé', 'have visited', 'La réponse est : have visited']
       }
     ]
   },
@@ -702,7 +702,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['can', 'must', 'may', 'would'],
         correctAnswer: 'must',
         explanation: 'Must exprime l\'obligation forte',
-        hints: ['Obligation', 'must']
+        hints: ['Obligation', 'must', 'La réponse est : must']
       }
     ]
   },
@@ -723,7 +723,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'were',
         explanation: 'Conditionnel type 2 : If + prétérit, would + base verbale. "were" pour toutes les personnes',
-        hints: ['Prétérit de be', 'were (conditionnel)']
+        hints: ['Prétérit de be', 'were (conditionnel)', 'La réponse est : were']
       }
     ]
   },
@@ -747,7 +747,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['Hétérogène', 'Homogène', 'Solide', 'Gazeux'],
         correctAnswer: 'Homogène',
         explanation: 'Un mélange homogène est uniforme (ex: eau salée)',
-        hints: ['Uniforme', 'Homogène']
+        hints: ['Uniforme', 'Homogène', 'La réponse est : Homogène']
       }
     ]
   },
@@ -774,7 +774,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Toutes les lampes s\'éteignent',
         explanation: 'En série, il n\'y a qu\'un seul chemin pour le courant',
-        hints: ['Un seul chemin', 'Tout s\'éteint']
+        hints: ['Un seul chemin', 'Tout s\'éteint', 'La réponse est : Toutes les lampes s\'éteignent']
       }
     ]
   },
@@ -796,7 +796,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         options: ['H2O', 'O2', 'CO2', 'H2O2'],
         correctAnswer: 'H2O',
         explanation: 'L\'eau = H2O (2 atomes d\'hydrogène, 1 atome d\'oxygène)',
-        hints: ['Hydrogène + Oxygène', 'H2O']
+        hints: ['Hydrogène + Oxygène', 'H2O', 'La réponse est : H2O']
       }
     ]
   },
@@ -823,7 +823,7 @@ export const COLLEGE_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Mécanique → Électrique',
         explanation: 'L\'eau en mouvement (énergie mécanique) fait tourner une turbine qui produit de l\'électricité',
-        hints: ['Mouvement de l\'eau', 'Mécanique']
+        hints: ['Mouvement de l\'eau', 'Mécanique', 'La réponse est : Mécanique → Électrique']
       }
     ]
   }

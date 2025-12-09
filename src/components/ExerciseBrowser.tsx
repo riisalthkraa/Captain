@@ -142,7 +142,7 @@ export function ExerciseBrowser() {
     if (!selectedExercise || !userAnswer.trim()) return
 
     const currentQuestion = selectedExercise.questions[currentQuestionIndex]
-    const result = checkAnswer(currentQuestion, userAnswer)
+    const result = checkAnswer(currentQuestion, userAnswer, selectedExercise.subject)
 
     setIsCorrect(result.correct)
     setShowFeedback(true)

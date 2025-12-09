@@ -84,7 +84,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le cercle est rond, donc il peut rouler comme une roue ou un ballon.',
-        hints: ['Pense à une roue de vélo', 'Les formes rondes roulent']
+        hints: ['Pense à une roue de vélo', 'Les formes rondes roulent', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -93,7 +93,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le carré', 'Le rectangle', 'Les deux', 'Aucun'],
         correctAnswer: 'Le carré',
         explanation: 'Le carré a tous ses côtés égaux. Le rectangle a 2 grands côtés et 2 petits côtés.',
-        hints: ['Le carré a 4 côtés identiques', 'Le rectangle est allongé']
+        hints: ['Le carré a 4 côtés identiques', 'Le rectangle est allongé', 'La réponse est : Le carré']
       },
       {
         id: 'q7',
@@ -118,7 +118,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Un carré est un rectangle spécial où tous les côtés sont égaux.',
-        hints: ['Un carré a 4 angles droits comme le rectangle', 'C\'est vrai !']
+        hints: ['Un carré a 4 angles droits comme le rectangle', 'C\'est vrai !', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -199,7 +199,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 10 - 2 = 8. Si tu as 10 doigts et que tu en caches 2, il en reste 8.',
-        hints: ['Compte sur tes doigts', 'C\'est vrai']
+        hints: ['Compte sur tes doigts', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -224,7 +224,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! 4 - 2 = 2, pas 3.',
-        hints: ['Calcule bien 4 - 2', 'C\'est faux']
+        hints: ['Calcule bien 4 - 2', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q11',
@@ -262,7 +262,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '7', 'Ils sont égaux', 'Je ne sais pas'],
         correctAnswer: '7',
         explanation: '7 est plus grand que 3. Imagine 7 bonbons contre 3 bonbons !',
-        hints: ['Lequel vient après dans la comptine ?', 'Compare sur tes doigts']
+        hints: ['Lequel vient après dans la comptine ?', 'Compare sur tes doigts', 'La réponse est : 7']
       },
       {
         id: 'q2',
@@ -271,7 +271,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '2', 'Ils sont égaux', 'Aucun'],
         correctAnswer: '2',
         explanation: '2 est plus petit que 5. Dans la comptine, 2 vient avant 5 !',
-        hints: ['Le plus petit vient avant dans 1, 2, 3...', 'C\'est 2']
+        hints: ['Le plus petit vient avant dans 1, 2, 3...', 'C\'est 2', 'La réponse est : 2']
       },
       {
         id: 'q3',
@@ -279,7 +279,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 8 est plus grand que 4. 8 bonbons c\'est plus que 4 bonbons.',
-        hints: ['8 vient après 4', 'C\'est vrai']
+        hints: ['8 vient après 4', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -288,7 +288,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10', '9', 'Égaux'],
         correctAnswer: '10',
         explanation: '10 est plus grand que 9. C\'est même le plus grand nombre à un chiffre !',
-        hints: ['10 est le plus grand', '9 + 1 = 10']
+        hints: ['10 est le plus grand', '9 + 1 = 10', 'La réponse est : 10']
       },
       {
         id: 'q5',
@@ -314,7 +314,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1', '0', 'Égaux'],
         correctAnswer: '0',
         explanation: '0 est plus petit que 1. Zéro, ça veut dire rien du tout !',
-        hints: ['0 = rien', 'Le plus petit c\'est 0']
+        hints: ['0 = rien', 'Le plus petit c\'est 0', 'La réponse est : 0']
       },
       {
         id: 'q8',
@@ -322,7 +322,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! 6 est PLUS GRAND que 5, pas plus petit.',
-        hints: ['6 vient après 5', 'C\'est faux']
+        hints: ['6 vient après 5', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -340,7 +340,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['8', '3', '5'],
         correctAnswer: '8',
         explanation: '8 est le plus grand de ces trois nombres : 8 > 5 > 3',
-        hints: ['Le plus grand vient en dernier dans la comptine', 'C\'est 8']
+        hints: ['Le plus grand vient en dernier dans la comptine', 'C\'est 8', 'La réponse est : 8']
       }
     ]
   },
@@ -364,7 +364,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La vue', 'L\'ouïe', 'Le toucher', 'L\'odorat'],
         correctAnswer: 'La vue',
         explanation: 'Bravo ! Tu utilises tes yeux et la vue pour voir tout ce qui t\'entoure.',
-        hints: ['Tu utilises tes yeux', 'C\'est grâce à tes yeux que tu peux lire']
+        hints: ['Tu utilises tes yeux', 'C\'est grâce à tes yeux que tu peux lire', 'La réponse est : La vue']
       },
       {
         id: 'q2',
@@ -373,7 +373,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'ouïe', 'La vue', 'Le goût', 'Le toucher'],
         correctAnswer: 'L\'ouïe',
         explanation: 'Très bien ! Tes oreilles te permettent d\'entendre tous les sons et la musique.',
-        hints: ['Tu utilises tes oreilles', 'C\'est le sens qui capte les sons']
+        hints: ['Tu utilises tes oreilles', 'C\'est le sens qui capte les sons', 'La réponse est : L\'ouïe']
       },
       {
         id: 'q3',
@@ -382,7 +382,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'odorat', 'Le goût', 'La vue', 'L\'ouïe'],
         correctAnswer: 'L\'odorat',
         explanation: 'Excellent ! Ton nez et l\'odorat te permettent de sentir toutes les odeurs.',
-        hints: ['Tu utilises ton nez', 'C\'est le sens des odeurs']
+        hints: ['Tu utilises ton nez', 'C\'est le sens des odeurs', 'La réponse est : L\'odorat']
       },
       {
         id: 'q4',
@@ -390,7 +390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est exact ! Ta langue et le sens du goût te disent si c\'est sucré, salé ou amer.',
-        hints: ['Tu utilises ta langue pour goûter', 'Le gâteau a un goût sucré']
+        hints: ['Tu utilises ta langue pour goûter', 'Le gâteau a un goût sucré', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -399,7 +399,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le toucher', 'La vue', 'L\'odorat', 'Le goût'],
         correctAnswer: 'Le toucher',
         explanation: 'Parfait ! Tes mains et ta peau te permettent de sentir si c\'est doux ou rugueux.',
-        hints: ['Tu utilises tes mains', 'C\'est le sens de la peau']
+        hints: ['Tu utilises tes mains', 'C\'est le sens de la peau', 'La réponse est : Le toucher']
       },
       {
         id: 'q6',
@@ -407,7 +407,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Non, tu as 5 sens : la vue, l\'ouïe, l\'odorat, le goût et le toucher !',
-        hints: ['Compte bien tous tes sens', 'Il y en a plus que 3']
+        hints: ['Compte bien tous tes sens', 'Il y en a plus que 3', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -415,7 +415,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'yeux',
         explanation: 'Bravo ! Tes yeux te permettent de lire et de voir les images du livre.',
-        hints: ['C\'est sur ton visage', 'Tu en as deux pour voir']
+        hints: ['C\'est sur ton visage', 'Tu en as deux pour voir', 'La réponse est : yeux']
       },
       {
         id: 'q8',
@@ -423,7 +423,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Non ! Les oreilles servent à entendre. C\'est le nez qui sent les odeurs.',
-        hints: ['Les oreilles servent à entendre', 'Le nez sert à sentir']
+        hints: ['Les oreilles servent à entendre', 'Le nez sert à sentir', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -432,7 +432,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le toucher', 'L\'ouïe', 'Le goût', 'L\'odorat'],
         correctAnswer: 'Le toucher',
         explanation: 'Super ! Quand tu caresses, tu utilises ton sens du toucher avec tes mains.',
-        hints: ['Tu utilises tes mains', 'Tu sens que c\'est doux']
+        hints: ['Tu utilises tes mains', 'Tu sens que c\'est doux', 'La réponse est : Le toucher']
       },
       {
         id: 'q10',
@@ -440,7 +440,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'goût',
         explanation: 'Excellent ! Le goût te permet de savoir si la pomme est sucrée et délicieuse.',
-        hints: ['Tu utilises ta langue', 'C\'est le sens qui dit si c\'est bon']
+        hints: ['Tu utilises ta langue', 'C\'est le sens qui dit si c\'est bon', 'La réponse est : goût']
       }
     ]
   },
@@ -462,7 +462,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À la ferme', 'Dans la mer', 'Dans la forêt', 'Dans le désert'],
         correctAnswer: 'À la ferme',
         explanation: 'Bravo ! La vache vit à la ferme avec d\'autres animaux comme le cochon et la poule.',
-        hints: ['C\'est là où vivent aussi les poules', 'Le fermier s\'occupe d\'elle']
+        hints: ['C\'est là où vivent aussi les poules', 'Le fermier s\'occupe d\'elle', 'La réponse est : À la ferme']
       },
       {
         id: 'q2',
@@ -470,7 +470,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! Le lapin mange des carottes, de la salade et de l\'herbe. C\'est un herbivore.',
-        hints: ['Pense à ce que mange le lapin', 'Il adore les carottes']
+        hints: ['Pense à ce que mange le lapin', 'Il adore les carottes', 'C\'est faux']
       },
       {
         id: 'q3',
@@ -479,7 +479,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le renard', 'La vache', 'Le mouton', 'La poule'],
         correctAnswer: 'Le renard',
         explanation: 'Très bien ! Le renard est un animal sauvage qui vit dans la forêt.',
-        hints: ['C\'est un animal sauvage', 'Il a une queue touffue et est roux']
+        hints: ['C\'est un animal sauvage', 'Il a une queue touffue et est roux', 'La réponse est : Le renard']
       },
       {
         id: 'q4',
@@ -487,7 +487,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'oeufs',
         explanation: 'Parfait ! La poule pond des œufs que nous pouvons manger au petit-déjeuner.',
-        hints: ['On peut les manger au petit-déjeuner', 'Ils sont blancs ou marrons']
+        hints: ['On peut les manger au petit-déjeuner', 'Ils sont blancs ou marrons', 'La réponse est : oeufs']
       },
       {
         id: 'q5',
@@ -495,7 +495,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, c\'est vrai ! Les poissons vivent dans l\'eau, dans les rivières et les mers.',
-        hints: ['Où nage le poisson ?', 'Il a des nageoires pour nager']
+        hints: ['Où nage le poisson ?', 'Il a des nageoires pour nager', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -504,7 +504,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De l\'herbe', 'De la viande', 'Des bonbons', 'Du pain'],
         correctAnswer: 'De l\'herbe',
         explanation: 'Super ! La vache mange de l\'herbe et du foin. Elle broute dans les prés.',
-        hints: ['Elle broute dans le pré', 'C\'est vert et ça pousse par terre']
+        hints: ['Elle broute dans le pré', 'C\'est vert et ça pousse par terre', 'La réponse est : De l\'herbe']
       },
       {
         id: 'q7',
@@ -512,7 +512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'compagnie',
         explanation: 'Bravo ! Le chat est un animal de compagnie qui vit avec nous à la maison.',
-        hints: ['Il vit à la maison avec nous', 'C\'est un animal domestique']
+        hints: ['Il vit à la maison avec nous', 'C\'est un animal domestique', 'La réponse est : compagnie']
       },
       {
         id: 'q8',
@@ -521,7 +521,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La vache', 'Le cochon', 'Le mouton', 'Le chien'],
         correctAnswer: 'La vache',
         explanation: 'Excellent ! La vache fait "meuh", le cochon fait "groin" et le mouton fait "bêê".',
-        hints: ['C\'est un gros animal de la ferme', 'Elle donne du lait']
+        hints: ['C\'est un gros animal de la ferme', 'Elle donne du lait', 'La réponse est : La vache']
       },
       {
         id: 'q9',
@@ -529,7 +529,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! Tous les oiseaux ont des plumes qui leur permettent de voler.',
-        hints: ['Regarde bien un oiseau', 'C\'est doux et coloré sur son corps']
+        hints: ['Regarde bien un oiseau', 'C\'est doux et coloré sur son corps', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -538,7 +538,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans sa niche', 'Dans un nid', 'Dans la rivière', 'Dans un arbre'],
         correctAnswer: 'Dans sa niche',
         explanation: 'Très bien ! Le chien dort dans sa niche, une petite maison pour lui.',
-        hints: ['C\'est une petite maison pour le chien', 'Elle est souvent en bois']
+        hints: ['C\'est une petite maison pour le chien', 'Elle est souvent en bois', 'La réponse est : Dans sa niche']
       }
     ]
   },
@@ -560,7 +560,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4 saisons', '2 saisons', '6 saisons', '10 saisons'],
         correctAnswer: '4 saisons',
         explanation: 'Bravo ! Il y a 4 saisons : le printemps, l\'été, l\'automne et l\'hiver.',
-        hints: ['Il y en a plus que 2', 'Compte : printemps, été, automne, hiver']
+        hints: ['Il y en a plus que 2', 'Compte : printemps, été, automne, hiver', 'La réponse est : 4 saisons']
       },
       {
         id: 'q2',
@@ -568,7 +568,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'froid',
         explanation: 'Parfait ! En hiver, il fait froid et il peut même neiger !',
-        hints: ['C\'est le contraire de chaud', 'Tu mets un manteau']
+        hints: ['C\'est le contraire de chaud', 'Tu mets un manteau', 'La réponse est : froid']
       },
       {
         id: 'q3',
@@ -576,7 +576,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! En été, il fait très chaud et c\'est le moment d\'aller à la plage.',
-        hints: ['Pense aux vacances d\'été', 'On va se baigner']
+        hints: ['Pense aux vacances d\'été', 'On va se baigner', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -585,7 +585,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le printemps', 'L\'été', 'L\'automne', 'L\'hiver'],
         correctAnswer: 'Le printemps',
         explanation: 'Super ! Après l\'hiver vient le printemps, les fleurs poussent et les oiseaux chantent.',
-        hints: ['C\'est la saison des fleurs', 'Elle commence en mars']
+        hints: ['C\'est la saison des fleurs', 'Elle commence en mars', 'La réponse est : Le printemps']
       },
       {
         id: 'q5',
@@ -593,7 +593,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jaunes',
         explanation: 'Très bien ! En automne, les feuilles deviennent jaunes, orange ou rouges et tombent.',
-        hints: ['C\'est une couleur chaude', 'Comme le soleil ou un citron']
+        hints: ['C\'est une couleur chaude', 'Comme le soleil ou un citron', 'La réponse est : jaunes']
       },
       {
         id: 'q6',
@@ -601,7 +601,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! Quand il fait très froid en hiver, il peut neiger et tout devient blanc.',
-        hints: ['Quand il fait très froid', 'C\'est blanc et ça tombe du ciel']
+        hints: ['Quand il fait très froid', 'C\'est blanc et ça tombe du ciel', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -610,7 +610,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un manteau', 'Un maillot de bain', 'Un short', 'Des sandales'],
         correctAnswer: 'Un manteau',
         explanation: 'Excellent ! En hiver, tu portes un manteau, une écharpe et des gants pour avoir chaud.',
-        hints: ['C\'est un vêtement chaud et long', 'Tu le mets par-dessus tes habits']
+        hints: ['C\'est un vêtement chaud et long', 'Tu le mets par-dessus tes habits', 'La réponse est : Un manteau']
       },
       {
         id: 'q8',
@@ -618,7 +618,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'plage',
         explanation: 'Bravo ! En été, on va à la plage ou à la piscine pour se baigner et se rafraîchir.',
-        hints: ['C\'est au bord de la mer', 'Il y a du sable et de l\'eau']
+        hints: ['C\'est au bord de la mer', 'Il y a du sable et de l\'eau', 'La réponse est : plage']
       },
       {
         id: 'q9',
@@ -627,7 +627,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les fleurs poussent', 'Il neige', 'Les feuilles tombent', 'Il fait très chaud'],
         correctAnswer: 'Les fleurs poussent',
         explanation: 'Parfait ! Au printemps, les fleurs poussent, les arbres ont des feuilles vertes et les bébés animaux naissent.',
-        hints: ['C\'est coloré et joli', 'Les arbres deviennent verts']
+        hints: ['C\'est coloré et joli', 'Les arbres deviennent verts', 'La réponse est : Les fleurs poussent']
       },
       {
         id: 'q10',
@@ -635,7 +635,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! Les saisons se suivent : printemps, été, automne, puis hiver.',
-        hints: ['L\'ordre est : printemps, été, automne, hiver', 'Après les vacances d\'été']
+        hints: ['L\'ordre est : printemps, été, automne, hiver', 'Après les vacances d\'été', 'C\'est vrai']
       }
     ]
   },
@@ -659,7 +659,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Red', 'Blue', 'Green', 'Yellow'],
         correctAnswer: 'Red',
         explanation: 'Rouge se dit "Red" en anglais (prononce "rède")',
-        hints: ['C\'est la couleur des fraises', 'Ça commence par la lettre R']
+        hints: ['C\'est la couleur des fraises', 'Ça commence par la lettre R', 'La réponse est : Red']
       },
       {
         id: 'q2',
@@ -668,7 +668,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Green', 'Blue', 'Pink', 'Black'],
         correctAnswer: 'Blue',
         explanation: 'Bleu se dit "Blue" en anglais (prononce "blou")',
-        hints: ['C\'est la couleur du ciel', 'Ça commence par la lettre B']
+        hints: ['C\'est la couleur du ciel', 'Ça commence par la lettre B', 'La réponse est : Blue']
       },
       {
         id: 'q3',
@@ -677,7 +677,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Jaune', 'Vert', 'Orange', 'Violet'],
         correctAnswer: 'Jaune',
         explanation: '"Yellow" (prononce "yèlo") signifie jaune en français',
-        hints: ['C\'est la couleur du soleil', 'C\'est la couleur des citrons']
+        hints: ['C\'est la couleur du soleil', 'C\'est la couleur des citrons', 'La réponse est : Jaune']
       },
       {
         id: 'q4',
@@ -686,7 +686,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Red', 'Green', 'Brown', 'White'],
         correctAnswer: 'Green',
         explanation: 'Vert se dit "Green" en anglais (prononce "grine")',
-        hints: ['C\'est la couleur de l\'herbe', 'Ça commence par la lettre G']
+        hints: ['C\'est la couleur de l\'herbe', 'Ça commence par la lettre G', 'La réponse est : Green']
       },
       {
         id: 'q5',
@@ -695,7 +695,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Noir', 'Blanc', 'Rose', 'Marron'],
         correctAnswer: 'Rose',
         explanation: '"Pink" (prononce "pinque") signifie rose en français',
-        hints: ['C\'est une couleur douce', 'C\'est la couleur des cochons']
+        hints: ['C\'est une couleur douce', 'C\'est la couleur des cochons', 'La réponse est : Rose']
       },
       {
         id: 'q6',
@@ -704,7 +704,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['White', 'Black', 'Brown', 'Purple'],
         correctAnswer: 'Black',
         explanation: 'Noir se dit "Black" en anglais (prononce "blaque")',
-        hints: ['C\'est le contraire du blanc', 'Ça commence par la lettre B']
+        hints: ['C\'est le contraire du blanc', 'Ça commence par la lettre B', 'La réponse est : Black']
       },
       {
         id: 'q7',
@@ -713,7 +713,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Blanc', 'Noir', 'Gris', 'Bleu'],
         correctAnswer: 'Blanc',
         explanation: '"White" (prononce "waïte") signifie blanc en français',
-        hints: ['C\'est la couleur de la neige', 'C\'est le contraire du noir']
+        hints: ['C\'est la couleur de la neige', 'C\'est le contraire du noir', 'La réponse est : Blanc']
       },
       {
         id: 'q8',
@@ -722,7 +722,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Orange', 'Yellow', 'Red', 'Pink'],
         correctAnswer: 'Orange',
         explanation: 'Orange se dit "Orange" en anglais (prononce "orènje")',
-        hints: ['C\'est pareil qu\'en français !', 'C\'est la couleur de l\'orange (le fruit)']
+        hints: ['C\'est pareil qu\'en français !', 'C\'est la couleur de l\'orange (le fruit)', 'La réponse est : Orange']
       },
       {
         id: 'q9',
@@ -731,7 +731,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Violet', 'Marron', 'Jaune', 'Vert'],
         correctAnswer: 'Marron',
         explanation: '"Brown" (prononce "braoun") signifie marron en français',
-        hints: ['C\'est la couleur du chocolat', 'C\'est la couleur de la terre']
+        hints: ['C\'est la couleur du chocolat', 'C\'est la couleur de la terre', 'La réponse est : Marron']
       },
       {
         id: 'q10',
@@ -740,7 +740,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Purple', 'Blue', 'Pink', 'Black'],
         correctAnswer: 'Purple',
         explanation: 'Violet se dit "Purple" en anglais (prononce "peurpeul")',
-        hints: ['Ça commence par la lettre P', 'C\'est un mélange de rouge et bleu']
+        hints: ['Ça commence par la lettre P', 'C\'est un mélange de rouge et bleu', 'La réponse est : Purple']
       }
     ]
   },
@@ -762,7 +762,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['One', 'Two', 'Three', 'Four'],
         correctAnswer: 'One',
         explanation: 'Un se dit "One" en anglais (prononce "ouane")',
-        hints: ['C\'est le premier nombre', 'Ça commence par la lettre O']
+        hints: ['C\'est le premier nombre', 'Ça commence par la lettre O', 'La réponse est : One']
       },
       {
         id: 'q2',
@@ -771,7 +771,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1', '2', '3', '4'],
         correctAnswer: '2',
         explanation: '"Two" (prononce "tou") signifie deux en français',
-        hints: ['C\'est après le nombre 1', 'C\'est le nombre de tes mains']
+        hints: ['C\'est après le nombre 1', 'C\'est le nombre de tes mains', 'La réponse est : 2']
       },
       {
         id: 'q3',
@@ -780,7 +780,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Two', 'Three', 'Five', 'Six'],
         correctAnswer: 'Three',
         explanation: 'Trois se dit "Three" en anglais (prononce "sri")',
-        hints: ['C\'est après Two', 'Ça commence par la lettre T']
+        hints: ['C\'est après Two', 'Ça commence par la lettre T', 'La réponse est : Three']
       },
       {
         id: 'q4',
@@ -789,7 +789,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: '"Five" (prononce "faïve") signifie cinq en français',
-        hints: ['C\'est le nombre de doigts sur une main', 'C\'est après le nombre 4']
+        hints: ['C\'est le nombre de doigts sur une main', 'C\'est après le nombre 4', 'La réponse est : 5']
       },
       {
         id: 'q5',
@@ -798,7 +798,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Four', 'Five', 'Six', 'Seven'],
         correctAnswer: 'Four',
         explanation: 'Quatre se dit "Four" en anglais (prononce "fore")',
-        hints: ['C\'est entre Three et Five', 'C\'est le nombre de pattes d\'un chien']
+        hints: ['C\'est entre Three et Five', 'C\'est le nombre de pattes d\'un chien', 'La réponse est : Four']
       },
       {
         id: 'q6',
@@ -807,7 +807,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['8', '9', '10', '11'],
         correctAnswer: '10',
         explanation: '"Ten" (prononce "tène") signifie dix en français',
-        hints: ['C\'est le dernier nombre qu\'on apprend', 'C\'est le nombre de doigts sur tes deux mains']
+        hints: ['C\'est le dernier nombre qu\'on apprend', 'C\'est le nombre de doigts sur tes deux mains', 'La réponse est : 10']
       },
       {
         id: 'q7',
@@ -816,7 +816,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Four', 'Five', 'Six', 'Seven'],
         correctAnswer: 'Six',
         explanation: 'Six se dit "Six" en anglais (prononce "sixe")',
-        hints: ['C\'est presque pareil qu\'en français', 'C\'est après Five']
+        hints: ['C\'est presque pareil qu\'en français', 'C\'est après Five', 'La réponse est : Six']
       },
       {
         id: 'q8',
@@ -825,7 +825,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6', '7', '8', '9'],
         correctAnswer: '8',
         explanation: '"Eight" (prononce "eïte") signifie huit en français',
-        hints: ['C\'est entre 7 et 9', 'C\'est le nombre de pattes d\'une araignée']
+        hints: ['C\'est entre 7 et 9', 'C\'est le nombre de pattes d\'une araignée', 'La réponse est : 8']
       },
       {
         id: 'q9',
@@ -834,7 +834,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Six', 'Seven', 'Eight', 'Nine'],
         correctAnswer: 'Seven',
         explanation: 'Sept se dit "Seven" en anglais (prononce "sèvène")',
-        hints: ['C\'est entre Six et Eight', 'C\'est le nombre de jours dans une semaine']
+        hints: ['C\'est entre Six et Eight', 'C\'est le nombre de jours dans une semaine', 'La réponse est : Seven']
       },
       {
         id: 'q10',
@@ -843,7 +843,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['7', '8', '9', '10'],
         correctAnswer: '9',
         explanation: '"Nine" (prononce "naïne") signifie neuf en français',
-        hints: ['C\'est juste avant Ten', 'C\'est entre 8 et 10']
+        hints: ['C\'est juste avant Ten', 'C\'est entre 8 et 10', 'La réponse est : 9']
       }
     ]
   },
@@ -865,7 +865,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Cat', 'Dog', 'Mouse', 'Bird'],
         correctAnswer: 'Cat',
         explanation: 'Chat se dit "Cat" en anglais (prononce "quate")',
-        hints: ['C\'est un animal qui dit "meow"', 'Ça commence par la lettre C']
+        hints: ['C\'est un animal qui dit "meow"', 'Ça commence par la lettre C', 'La réponse est : Cat']
       },
       {
         id: 'q2',
@@ -874,7 +874,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chat', 'Chien', 'Lapin', 'Oiseau'],
         correctAnswer: 'Chien',
         explanation: '"Dog" (prononce "dogue") signifie chien en français',
-        hints: ['C\'est l\'animal qui aboie', 'C\'est le meilleur ami de l\'homme']
+        hints: ['C\'est l\'animal qui aboie', 'C\'est le meilleur ami de l\'homme', 'La réponse est : Chien']
       },
       {
         id: 'q3',
@@ -883,7 +883,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fish', 'Bird', 'Mouse', 'Rabbit'],
         correctAnswer: 'Bird',
         explanation: 'Oiseau se dit "Bird" en anglais (prononce "beurde")',
-        hints: ['C\'est un animal qui vole', 'Ça commence par la lettre B']
+        hints: ['C\'est un animal qui vole', 'Ça commence par la lettre B', 'La réponse est : Bird']
       },
       {
         id: 'q4',
@@ -892,7 +892,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Poisson', 'Cochon', 'Vache', 'Cheval'],
         correctAnswer: 'Poisson',
         explanation: '"Fish" (prononce "fiche") signifie poisson en français',
-        hints: ['C\'est un animal qui vit dans l\'eau', 'C\'est un animal qui nage']
+        hints: ['C\'est un animal qui vit dans l\'eau', 'C\'est un animal qui nage', 'La réponse est : Poisson']
       },
       {
         id: 'q5',
@@ -901,7 +901,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mouse', 'Rabbit', 'Horse', 'Cow'],
         correctAnswer: 'Rabbit',
         explanation: 'Lapin se dit "Rabbit" en anglais (prononce "rabite")',
-        hints: ['C\'est un animal avec de longues oreilles', 'Ça commence par la lettre R']
+        hints: ['C\'est un animal avec de longues oreilles', 'Ça commence par la lettre R', 'La réponse est : Rabbit']
       },
       {
         id: 'q6',
@@ -910,7 +910,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Souris', 'Poule', 'Cochon', 'Vache'],
         correctAnswer: 'Souris',
         explanation: '"Mouse" (prononce "maousse") signifie souris en français',
-        hints: ['C\'est un petit animal qui aime le fromage', 'Le chat aime le chasser']
+        hints: ['C\'est un petit animal qui aime le fromage', 'Le chat aime le chasser', 'La réponse est : Souris']
       },
       {
         id: 'q7',
@@ -919,7 +919,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Cow', 'Pig', 'Horse', 'Chicken'],
         correctAnswer: 'Horse',
         explanation: 'Cheval se dit "Horse" en anglais (prononce "horss")',
-        hints: ['C\'est un grand animal qu\'on peut monter', 'Ça commence par la lettre H']
+        hints: ['C\'est un grand animal qu\'on peut monter', 'Ça commence par la lettre H', 'La réponse est : Horse']
       },
       {
         id: 'q8',
@@ -928,7 +928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Cheval', 'Vache', 'Cochon', 'Poule'],
         correctAnswer: 'Vache',
         explanation: '"Cow" (prononce "kaou") signifie vache en français',
-        hints: ['C\'est un animal qui donne du lait', 'C\'est un animal qui dit "meuh"']
+        hints: ['C\'est un animal qui donne du lait', 'C\'est un animal qui dit "meuh"', 'La réponse est : Vache']
       },
       {
         id: 'q9',
@@ -937,7 +937,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pig', 'Chicken', 'Cat', 'Dog'],
         correctAnswer: 'Pig',
         explanation: 'Cochon se dit "Pig" en anglais (prononce "pigue")',
-        hints: ['C\'est un animal rose', 'Ça commence par la lettre P']
+        hints: ['C\'est un animal rose', 'Ça commence par la lettre P', 'La réponse est : Pig']
       },
       {
         id: 'q10',
@@ -946,7 +946,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lapin', 'Souris', 'Poule', 'Oiseau'],
         correctAnswer: 'Poule',
         explanation: '"Chicken" (prononce "tchikène") signifie poule en français',
-        hints: ['C\'est un animal qui pond des œufs', 'C\'est un animal qui fait "cot cot"']
+        hints: ['C\'est un animal qui pond des œufs', 'C\'est un animal qui fait "cot cot"', 'La réponse est : Poule']
       }
     ]
   },
@@ -970,7 +970,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lundi', 'Dimanche', 'Mardi', 'Samedi'],
         correctAnswer: 'Lundi',
         explanation: 'Bravo ! La semaine commence le lundi. C\'est souvent le jour où tu retournes à l\'école après le week-end.',
-        hints: ['C\'est le jour où on retourne à l\'école', 'Ce jour commence par la lettre L']
+        hints: ['C\'est le jour où on retourne à l\'école', 'Ce jour commence par la lettre L', 'La réponse est : Lundi']
       },
       {
         id: 'q2',
@@ -979,7 +979,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Jeudi', 'Lundi', 'Mercredi', 'Vendredi'],
         correctAnswer: 'Mercredi',
         explanation: 'Très bien ! Après mardi, c\'est mercredi. C\'est le milieu de la semaine !',
-        hints: ['Ce jour est au milieu de la semaine', 'Ce jour commence par la lettre M']
+        hints: ['Ce jour est au milieu de la semaine', 'Ce jour commence par la lettre M', 'La réponse est : Mercredi']
       },
       {
         id: 'q3',
@@ -988,7 +988,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dimanche', 'Mardi', 'Samedi', 'Vendredi'],
         correctAnswer: 'Dimanche',
         explanation: 'Excellent ! Hier, c\'était dimanche. Le dimanche est le dernier jour du week-end.',
-        hints: ['Hier, c\'était encore le week-end', 'C\'est le dernier jour de la semaine']
+        hints: ['Hier, c\'était encore le week-end', 'C\'est le dernier jour de la semaine', 'La réponse est : Dimanche']
       },
       {
         id: 'q4',
@@ -997,7 +997,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['7 jours', '5 jours', '10 jours', '6 jours'],
         correctAnswer: '7 jours',
         explanation: 'Super ! Une semaine a 7 jours : lundi, mardi, mercredi, jeudi, vendredi, samedi et dimanche.',
-        hints: ['Compte les jours de lundi à dimanche', 'C\'est plus que 5 mais moins que 10']
+        hints: ['Compte les jours de lundi à dimanche', 'C\'est plus que 5 mais moins que 10', 'La réponse est : 7 jours']
       },
       {
         id: 'q5',
@@ -1005,7 +1005,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, c\'est vrai ! Le week-end, c\'est samedi et dimanche. Il n\'y a pas école ces jours-là.',
-        hints: ['Pense aux jours où tu ne vas pas à l\'école', 'Ce sont les deux derniers jours de la semaine']
+        hints: ['Pense aux jours où tu ne vas pas à l\'école', 'Ce sont les deux derniers jours de la semaine', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -1014,7 +1014,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vendredi', 'Jeudi', 'Dimanche', 'Mercredi'],
         correctAnswer: 'Vendredi',
         explanation: 'Parfait ! Vendredi est juste avant samedi. Après vendredi, c\'est le week-end qui commence !',
-        hints: ['C\'est le dernier jour d\'école de la semaine', 'Après ce jour, c\'est le week-end']
+        hints: ['C\'est le dernier jour d\'école de la semaine', 'Après ce jour, c\'est le week-end', 'La réponse est : Vendredi']
       },
       {
         id: 'q7',
@@ -1022,7 +1022,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Bravo ! Demain veut dire le jour d\'après. Après mercredi, c\'est bien jeudi.',
-        hints: ['Demain, c\'est le jour qui vient juste après', 'Quel jour suit mercredi ?']
+        hints: ['Demain, c\'est le jour qui vient juste après', 'Quel jour suit mercredi ?', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -1030,7 +1030,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jeudi',
         explanation: 'Très bien ! Après mercredi vient jeudi. Tu connais bien l\'ordre des jours !',
-        hints: ['C\'est le 4ème jour de la semaine', 'Ce jour commence par la lettre J']
+        hints: ['C\'est le 4ème jour de la semaine', 'Ce jour commence par la lettre J', 'La réponse est : jeudi']
       },
       {
         id: 'q9',
@@ -1039,7 +1039,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dimanche', 'Samedi', 'Vendredi', 'Lundi'],
         correctAnswer: 'Dimanche',
         explanation: 'Excellent ! Dimanche est le dernier jour de la semaine. Après, la semaine recommence avec lundi.',
-        hints: ['C\'est un jour du week-end', 'Après ce jour, c\'est de nouveau lundi']
+        hints: ['C\'est un jour du week-end', 'Après ce jour, c\'est de nouveau lundi', 'La réponse est : Dimanche']
       },
       {
         id: 'q10',
@@ -1047,7 +1047,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! Le dimanche, c\'est le week-end, tu ne vas pas à l\'école.',
-        hints: ['Pense aux jours où tu te reposes', 'Le dimanche fait partie du week-end']
+        hints: ['Pense aux jours où tu te reposes', 'Le dimanche fait partie du week-end', 'C\'est faux']
       }
     ]
   },
@@ -1069,7 +1069,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dessus la table', 'Dessous la table', 'À côté de la table', 'Loin de la table'],
         correctAnswer: 'Dessus la table',
         explanation: 'Bravo ! Quand quelque chose est SUR un objet, c\'est DESSUS.',
-        hints: ['Sur veut dire au-dessus', 'Le chat est en haut de la table']
+        hints: ['Sur veut dire au-dessus', 'Le chat est en haut de la table', 'La réponse est : Dessus la table']
       },
       {
         id: 'q2',
@@ -1077,7 +1077,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, c\'est vrai ! La plupart des enfants écrivent avec leur main droite.',
-        hints: ['Pense à la main que tu utilises pour écrire', 'Regarde avec quelle main tu tiens ton crayon']
+        hints: ['Pense à la main que tu utilises pour écrire', 'Regarde avec quelle main tu tiens ton crayon', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -1086,7 +1086,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dessous le lit', 'Dessus le lit', 'Devant le lit', 'Derrière le lit'],
         correctAnswer: 'Dessous le lit',
         explanation: 'Très bien ! SOUS veut dire DESSOUS. Le chien est en-dessous du lit.',
-        hints: ['Sous veut dire en-dessous', 'Le chien est caché en bas du lit']
+        hints: ['Sous veut dire en-dessous', 'Le chien est caché en bas du lit', 'La réponse est : Dessous le lit']
       },
       {
         id: 'q4',
@@ -1095,7 +1095,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Derrière toi', 'Devant toi', 'À côté de toi', 'Dessus toi'],
         correctAnswer: 'Derrière toi',
         explanation: 'Parfait ! Ton dos est toujours derrière toi, et ton ventre est devant toi.',
-        hints: ['Tu ne peux pas voir ton dos', 'C\'est l\'opposé de devant']
+        hints: ['Tu ne peux pas voir ton dos', 'C\'est l\'opposé de devant', 'La réponse est : Derrière toi']
       },
       {
         id: 'q5',
@@ -1103,7 +1103,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, bravo ! Ton nez est bien au milieu de ton visage, entre ton œil gauche et ton œil droit.',
-        hints: ['Touche ton visage avec ton doigt', 'Ton nez est au milieu']
+        hints: ['Touche ton visage avec ton doigt', 'Ton nez est au milieu', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -1111,7 +1111,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dessous',
         explanation: 'Excellent ! Le ver de terre est EN-DESSOUS, dans la terre, sous le sol.',
-        hints: ['C\'est l\'opposé de dessus', 'Le ver est dans la terre, en bas']
+        hints: ['C\'est l\'opposé de dessus', 'Le ver est dans la terre, en bas', 'La réponse est : dessous']
       },
       {
         id: 'q7',
@@ -1120,7 +1120,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Devant toi', 'Derrière toi', 'Dessus toi', 'Dessous toi'],
         correctAnswer: 'Devant toi',
         explanation: 'Super ! Le tableau est devant toi, face à toi.',
-        hints: ['Tu regardes le tableau', 'C\'est face à toi']
+        hints: ['Tu regardes le tableau', 'C\'est face à toi', 'La réponse est : Devant toi']
       },
       {
         id: 'q8',
@@ -1128,7 +1128,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, très bien ! Ton oreille gauche et ta main gauche sont du même côté de ton corps.',
-        hints: ['Lève ta main gauche et touche ton oreille', 'Le mot "gauche" est le même pour les deux']
+        hints: ['Lève ta main gauche et touche ton oreille', 'Le mot "gauche" est le même pour les deux', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -1137,7 +1137,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Près de chez toi', 'Loin de chez toi', 'Dessus ta maison', 'Dessous ta maison'],
         correctAnswer: 'Près de chez toi',
         explanation: 'Bravo ! Proche veut dire PRÈS. Tu n\'as pas besoin de marcher longtemps.',
-        hints: ['Proche veut dire pas très loin', 'C\'est l\'opposé de loin']
+        hints: ['Proche veut dire pas très loin', 'C\'est l\'opposé de loin', 'La réponse est : Près de chez toi']
       },
       {
         id: 'q10',
@@ -1145,7 +1145,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'pieds',
         explanation: 'Parfait ! Les chaussures se mettent aux pieds, tout en bas de ton corps.',
-        hints: ['C\'est tout en bas de ton corps', 'Tu marches avec cette partie du corps']
+        hints: ['C\'est tout en bas de ton corps', 'Tu marches avec cette partie du corps', 'La réponse est : pieds']
       }
     ]
   },
@@ -1167,7 +1167,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le petit-déjeuner', 'Le déjeuner', 'Le goûter', 'Le dîner'],
         correctAnswer: 'Le petit-déjeuner',
         explanation: 'Bravo ! Le matin, on prend le petit-déjeuner. C\'est le premier repas de la journée !',
-        hints: ['C\'est le premier repas du matin', 'Ce repas a le mot "petit" dedans']
+        hints: ['C\'est le premier repas du matin', 'Ce repas a le mot "petit" dedans', 'La réponse est : Le petit-déjeuner']
       },
       {
         id: 'q2',
@@ -1175,7 +1175,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, c\'est vrai ! En général, l\'école commence le matin, après le petit-déjeuner.',
-        hints: ['Pense à quand tu te lèves', 'C\'est avant midi']
+        hints: ['Pense à quand tu te lèves', 'C\'est avant midi', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -1184,7 +1184,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le déjeuner', 'Le petit-déjeuner', 'Le goûter', 'Le dîner'],
         correctAnswer: 'Le déjeuner',
         explanation: 'Très bien ! À midi, c\'est l\'heure du déjeuner. Tu manges à la cantine ou à la maison.',
-        hints: ['C\'est le repas du milieu de la journée', 'Tu manges ce repas à la cantine']
+        hints: ['C\'est le repas du milieu de la journée', 'Tu manges ce repas à la cantine', 'La réponse est : Le déjeuner']
       },
       {
         id: 'q4',
@@ -1192,7 +1192,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'pyjama',
         explanation: 'Parfait ! Le soir, tu mets ton pyjama pour dormir confortablement toute la nuit.',
-        hints: ['C\'est un vêtement pour dormir', 'Ce mot commence par la lettre P']
+        hints: ['C\'est un vêtement pour dormir', 'Ce mot commence par la lettre P', 'La réponse est : pyjama']
       },
       {
         id: 'q5',
@@ -1201,7 +1201,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La nuit', 'Le matin', 'L\'après-midi', 'Midi'],
         correctAnswer: 'La nuit',
         explanation: 'Excellent ! Quand il fait noir dehors et que tu dors dans ton lit, c\'est la nuit.',
-        hints: ['Il fait tout noir dehors', 'C\'est quand tu es dans ton lit']
+        hints: ['Il fait tout noir dehors', 'C\'est quand tu es dans ton lit', 'La réponse est : La nuit']
       },
       {
         id: 'q6',
@@ -1209,7 +1209,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, bravo ! L\'après-midi commence après le déjeuner, après le matin.',
-        hints: ['Regarde bien le mot "après-midi"', 'C\'est après le repas de midi']
+        hints: ['Regarde bien le mot "après-midi"', 'C\'est après le repas de midi', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -1218,7 +1218,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le goûter', 'Le dîner', 'Le déjeuner', 'Le petit-déjeuner'],
         correctAnswer: 'Le goûter',
         explanation: 'Super ! Vers 16h, en rentrant de l\'école, c\'est l\'heure du goûter.',
-        hints: ['C\'est après l\'école', 'Ce n\'est pas un gros repas, c\'est une petite pause']
+        hints: ['C\'est après l\'école', 'Ce n\'est pas un gros repas, c\'est une petite pause', 'La réponse est : Le goûter']
       },
       {
         id: 'q8',
@@ -1226,7 +1226,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'couches',
         explanation: 'Très bien ! Le soir, tu te couches pour dormir. C\'est l\'opposé de se réveiller !',
-        hints: ['C\'est l\'opposé de se réveiller', 'Tu vas dans ton lit']
+        hints: ['C\'est l\'opposé de se réveiller', 'Tu vas dans ton lit', 'La réponse est : couches']
       },
       {
         id: 'q9',
@@ -1235,7 +1235,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le dîner', 'Le goûter', 'Le déjeuner', 'Le petit-déjeuner'],
         correctAnswer: 'Le dîner',
         explanation: 'Parfait ! Le dîner est le repas du soir, le dernier repas avant d\'aller dormir.',
-        hints: ['C\'est le repas du soir', 'Tu manges ce repas avec ta famille avant de dormir']
+        hints: ['C\'est le repas du soir', 'Tu manges ce repas avec ta famille avant de dormir', 'La réponse est : Le dîner']
       },
       {
         id: 'q10',
@@ -1243,7 +1243,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, bravo ! C\'est important de se brosser les dents après avoir mangé.',
-        hints: ['C\'est bon pour la santé de tes dents', 'Tu utilises une brosse à dents et du dentifrice']
+        hints: ['C\'est bon pour la santé de tes dents', 'Tu utilises une brosse à dents et du dentifrice', 'C\'est vrai']
       }
     ]
   },
@@ -1267,7 +1267,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2', '6', '8', '12'],
         correctAnswer: '8',
         explanation: 'Le double de 4 c\'est 4 + 4 = 8, ou 4 × 2 = 8',
-        hints: ['Double = multiplier par 2', '4 + 4', 'C\'est 8']
+        hints: ['Double = multiplier par 2', '4 + 4', 'La réponse est : 8']
       },
       {
         id: 'q2',
@@ -1300,7 +1300,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 6 × 2 = 12 ou 6 + 6 = 12',
-        hints: ['6 + 6', 'C\'est vrai']
+        hints: ['6 + 6', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -1317,7 +1317,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['16', '17', '18', '19'],
         correctAnswer: '18',
         explanation: 'Le double de 9 c\'est 9 + 9 = 18, ou 9 × 2 = 18',
-        hints: ['9 + 9', 'Multiplie par 2']
+        hints: ['9 + 9', 'Multiplie par 2', 'La réponse est : 18']
       },
       {
         id: 'q8',
@@ -1325,7 +1325,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7',
         explanation: 'La moitié de 14 c\'est 7. 14 ÷ 2 = 7',
-        hints: ['14 ÷ 2', 'La réponse est 7']
+        hints: ['14 ÷ 2', 'La réponse est 7', 'La réponse est : 7']
       },
       {
         id: 'q9',
@@ -1342,7 +1342,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! La moitié de 18 est 9, pas 8. 18 ÷ 2 = 9',
-        hints: ['18 ÷ 2 = ?', 'C\'est faux']
+        hints: ['18 ÷ 2 = ?', 'C\'est faux', 'C\'est faux']
       }
     ]
   },
@@ -1364,7 +1364,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['12h00', '3h00', '3h30', '15h00'],
         correctAnswer: '3h00',
         explanation: 'La petite aiguille indique l\'heure (3) et la grande indique les minutes (0). C\'est 3h00 !',
-        hints: ['La petite aiguille = les heures', 'La grande aiguille sur 12 = pile']
+        hints: ['La petite aiguille = les heures', 'La grande aiguille sur 12 = pile', 'La réponse est : 3h00']
       },
       {
         id: 'q2',
@@ -1373,7 +1373,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['15 minutes', '20 minutes', '30 minutes', '45 minutes'],
         correctAnswer: '30 minutes',
         explanation: 'La grande aiguille sur le 6 indique 30 minutes (et demie)',
-        hints: ['Le 6 est en bas de l\'horloge', 'C\'est la demie', '30 minutes']
+        hints: ['Le 6 est en bas de l\'horloge', 'C\'est la demie', 'La réponse est : 30 minutes']
       },
       {
         id: 'q3',
@@ -1382,7 +1382,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sur le 12', 'Sur le 3', 'Sur le 6', 'Sur le 9'],
         correctAnswer: 'Sur le 6',
         explanation: '30 minutes = la grande aiguille sur le 6',
-        hints: ['30 minutes = et demie', 'C\'est le 6']
+        hints: ['30 minutes = et demie', 'C\'est le 6', 'La réponse est : Sur le 6']
       },
       {
         id: 'q4',
@@ -1390,7 +1390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La grande aiguille fait le tour de l\'horloge en 60 minutes = 1 heure',
-        hints: ['60 minutes = 1 heure', 'C\'est vrai']
+        hints: ['60 minutes = 1 heure', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -1398,7 +1398,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: 'La petite aiguille pointe sur le 5 quand il est 5h00',
-        hints: ['La petite aiguille montre les heures', 'C\'est 5']
+        hints: ['La petite aiguille montre les heures', 'C\'est 5', 'La réponse est : 5']
       },
       {
         id: 'q6',
@@ -1407,7 +1407,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['30', '50', '60', '100'],
         correctAnswer: '60',
         explanation: '1 heure = 60 minutes',
-        hints: ['Plus que 50', 'C\'est 60']
+        hints: ['Plus que 50', 'C\'est 60', 'La réponse est : 60']
       },
       {
         id: 'q7',
@@ -1416,7 +1416,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '6', '9', '12'],
         correctAnswer: '3',
         explanation: '15 minutes = un quart d\'heure = la grande aiguille sur le 3',
-        hints: ['15 minutes = quart d\'heure', 'C\'est le 3']
+        hints: ['15 minutes = quart d\'heure', 'C\'est le 3', 'La réponse est : 3']
       },
       {
         id: 'q8',
@@ -1424,7 +1424,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! La petite aiguille (heures) tourne MOINS vite que la grande (minutes)',
-        hints: ['Observe une horloge', 'C\'est faux']
+        hints: ['Observe une horloge', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -1433,7 +1433,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['11h00', '12h00', '1h00', '12h30'],
         correctAnswer: '12h00',
         explanation: 'Les deux aiguilles sur le 12 = midi ou minuit = 12h00',
-        hints: ['Les deux sur le 12', 'C\'est midi', '12h00']
+        hints: ['Les deux sur le 12', 'C\'est midi', 'La réponse est : 12h00']
       },
       {
         id: 'q10',
@@ -1441,7 +1441,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1',
         explanation: 'Entre 2h00 et 3h00, il s\'écoule 1 heure (60 minutes)',
-        hints: ['D\'une heure à la suivante', 'C\'est 1 heure']
+        hints: ['D\'une heure à la suivante', 'C\'est 1 heure', 'La réponse est : 1']
       }
     ]
   },
@@ -1470,7 +1470,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: '20 - 8 = 12€. Il lui reste 12€ !',
-        hints: ['C\'est une soustraction', '20 - 8']
+        hints: ['C\'est une soustraction', '20 - 8', 'La réponse est : 12']
       },
       {
         id: 'q3',
@@ -1504,7 +1504,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['8€', '10€', '12€', '14€'],
         correctAnswer: '12€',
         explanation: '6€ × 2 = 12€ ou 6 + 6 = 12€',
-        hints: ['Le double de 6', '6 + 6']
+        hints: ['Le double de 6', '6 + 6', 'La réponse est : 12€']
       },
       {
         id: 'q7',
@@ -1520,7 +1520,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '22',
         explanation: '10 + 12 = 22 pages au total',
-        hints: ['Additionne les deux jours', '10 + 12']
+        hints: ['Additionne les deux jours', '10 + 12', 'La réponse est : 22']
       },
       {
         id: 'q9',
@@ -1529,7 +1529,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10€', '15€', '20€', '25€'],
         correctAnswer: '15€',
         explanation: '50 - 35 = 15€',
-        hints: ['50 - 35', 'C\'est 15€']
+        hints: ['50 - 35', 'C\'est 15€', 'La réponse est : 15€']
       },
       {
         id: 'q10',
@@ -1561,7 +1561,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cerveau', 'Le cœur', 'Les poumons', 'L\'estomac'],
         correctAnswer: 'Le cœur',
         explanation: 'Le cœur est un muscle qui pompe le sang pour l\'envoyer dans tout ton corps.',
-        hints: ['C\'est dans ta poitrine', 'Tu peux le sentir battre']
+        hints: ['C\'est dans ta poitrine', 'Tu peux le sentir battre', 'La réponse est : Le cœur']
       },
       {
         id: 'q2',
@@ -1570,7 +1570,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: 'Tu as 5 sens : la vue, l\'ouïe, l\'odorat, le goût et le toucher.',
-        hints: ['Les yeux, les oreilles, le nez...', 'Compte-les tous !']
+        hints: ['Les yeux, les oreilles, le nez...', 'Compte-les tous !', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -1578,7 +1578,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les poumons permettent de faire entrer l\'air dans ton corps.',
-        hints: ['L\'air entre par ton nez ou ta bouche', 'C\'est vrai']
+        hints: ['L\'air entre par ton nez ou ta bouche', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -1587,7 +1587,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cœur', 'L\'estomac', 'Le cerveau', 'Les muscles'],
         correctAnswer: 'Le cerveau',
         explanation: 'Le cerveau est dans ta tête et te permet de penser, réfléchir et commander ton corps.',
-        hints: ['C\'est dans ta tête', 'C\'est le chef de ton corps']
+        hints: ['C\'est dans ta tête', 'C\'est le chef de ton corps', 'La réponse est : Le cerveau']
       },
       {
         id: 'q5',
@@ -1595,7 +1595,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ouïe',
         explanation: 'L\'ouïe te permet d\'entendre les sons grâce à tes oreilles.',
-        hints: ['Tu utilises tes oreilles', 'C\'est le sens de l\'...']
+        hints: ['Tu utilises tes oreilles', 'C\'est le sens de l\'...', 'La réponse est : ouïe']
       },
       {
         id: 'q6',
@@ -1604,7 +1604,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['50', '100', 'Plus de 200', 'Plus de 500'],
         correctAnswer: 'Plus de 200',
         explanation: 'Un enfant a plus de 200 os ! Les os forment ton squelette.',
-        hints: ['C\'est beaucoup', 'Plus de 200']
+        hints: ['C\'est beaucoup', 'Plus de 200', 'La réponse est : Plus de 200']
       },
       {
         id: 'q7',
@@ -1612,7 +1612,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'estomac broie et digère les aliments que tu manges.',
-        hints: ['C\'est là que va la nourriture', 'C\'est vrai']
+        hints: ['C\'est là que va la nourriture', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -1621,7 +1621,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La vue', 'Le toucher', 'L\'odorat', 'Le goût'],
         correctAnswer: 'L\'odorat',
         explanation: 'L\'odorat te permet de sentir les odeurs grâce à ton nez.',
-        hints: ['Tu utilises ton nez', 'C\'est l\'odorat']
+        hints: ['Tu utilises ton nez', 'C\'est l\'odorat', 'La réponse est : L\'odorat']
       },
       {
         id: 'q9',
@@ -1630,7 +1630,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La peau', 'Le crâne', 'Les cheveux', 'Les muscles'],
         correctAnswer: 'Le crâne',
         explanation: 'Le crâne est un os très dur qui protège ton cerveau.',
-        hints: ['C\'est un os de ta tête', 'C\'est le crâne']
+        hints: ['C\'est un os de ta tête', 'C\'est le crâne', 'La réponse est : Le crâne']
       },
       {
         id: 'q10',
@@ -1638,7 +1638,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le sang transporte l\'oxygène des poumons vers toutes les parties de ton corps.',
-        hints: ['Le sang circule partout', 'C\'est vrai']
+        hints: ['Le sang circule partout', 'C\'est vrai', 'C\'est vrai']
       }
     ]
   },
@@ -1660,7 +1660,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tomber', 'Grandir', 'Rouler', 'Être coloré'],
         correctAnswer: 'Grandir',
         explanation: 'Les êtres vivants naissent, grandissent et se reproduisent.',
-        hints: ['Les plantes le font aussi', 'C\'est grandir']
+        hints: ['Les plantes le font aussi', 'C\'est grandir', 'La réponse est : Grandir']
       },
       {
         id: 'q2',
@@ -1668,7 +1668,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les plantes naissent, grandissent, se reproduisent et meurent comme tous les êtres vivants.',
-        hints: ['Elle pousse et grandit', 'C\'est vrai']
+        hints: ['Elle pousse et grandit', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -1677,7 +1677,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De l\'eau et de la lumière', 'Du chocolat', 'De la télévision', 'Des jouets'],
         correctAnswer: 'De l\'eau et de la lumière',
         explanation: 'Les plantes ont besoin d\'eau, de lumière et de terre pour vivre.',
-        hints: ['On les arrose', 'Elles ont besoin du soleil']
+        hints: ['On les arrose', 'Elles ont besoin du soleil', 'La réponse est : De l\'eau et de la lumière']
       },
       {
         id: 'q4',
@@ -1685,7 +1685,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'têtard',
         explanation: 'Le têtard est le bébé de la grenouille. Il vit dans l\'eau avant de devenir une grenouille.',
-        hints: ['Il vit dans l\'eau', 'Il a une queue']
+        hints: ['Il vit dans l\'eau', 'Il a une queue', 'La réponse est : têtard']
       },
       {
         id: 'q5',
@@ -1693,7 +1693,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Une pierre ne naît pas, ne grandit pas et ne se reproduit pas.',
-        hints: ['Elle ne bouge pas toute seule', 'C\'est faux']
+        hints: ['Elle ne bouge pas toute seule', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -1702,7 +1702,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un oiseau', 'Un papillon', 'Une araignée', 'Un escargot'],
         correctAnswer: 'Un papillon',
         explanation: 'La chenille se transforme en papillon. C\'est la métamorphose !',
-        hints: ['Elle fait un cocon', 'C\'est un papillon']
+        hints: ['Elle fait un cocon', 'C\'est un papillon', 'La réponse est : Un papillon']
       },
       {
         id: 'q7',
@@ -1711,7 +1711,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De nourriture et d\'eau', 'De jouets', 'D\'une voiture', 'De vêtements'],
         correctAnswer: 'De nourriture et d\'eau',
         explanation: 'Les animaux ont besoin de nourriture, d\'eau et d\'air pour vivre.',
-        hints: ['Comme toi !', 'Nourriture et eau']
+        hints: ['Comme toi !', 'Nourriture et eau', 'La réponse est : De nourriture et d\'eau']
       },
       {
         id: 'q8',
@@ -1720,7 +1720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cycle de l\'eau', 'Le cycle de vie', 'Le cycle des saisons', 'Le cycle lunaire'],
         correctAnswer: 'Le cycle de vie',
         explanation: 'Le cycle de vie décrit les étapes de la vie de tous les êtres vivants.',
-        hints: ['C\'est le cycle de...', 'Le cycle de vie']
+        hints: ['C\'est le cycle de...', 'Le cycle de vie', 'La réponse est : Le cycle de vie']
       },
       {
         id: 'q9',
@@ -1728,7 +1728,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les branchies permettent aux poissons de respirer sous l\'eau.',
-        hints: ['Ils vivent dans l\'eau', 'C\'est vrai']
+        hints: ['Ils vivent dans l\'eau', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -1737,7 +1737,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['D\'un œuf', 'D\'une graine', 'D\'un bébé', 'D\'une pierre'],
         correctAnswer: 'D\'une graine',
         explanation: 'Les plantes poussent à partir d\'une graine plantée dans la terre.',
-        hints: ['On la plante dans la terre', 'C\'est une graine']
+        hints: ['On la plante dans la terre', 'C\'est une graine', 'La réponse est : D\'une graine']
       }
     ]
   },
@@ -1761,7 +1761,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Good night', 'Good morning', 'Goodbye', 'Good evening'],
         correctAnswer: 'Good morning',
         explanation: '"Good morning" veut dire "Bonjour" le matin.',
-        hints: ['Morning = matin', 'Good morning']
+        hints: ['Morning = matin', 'Good morning', 'La réponse est : Good morning']
       },
       {
         id: 'q2',
@@ -1770,7 +1770,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'ai faim', 'Je m\'appelle', 'J\'habite à', 'J\'ai ... ans'],
         correctAnswer: 'Je m\'appelle',
         explanation: '"My name is" signifie "Je m\'appelle".',
-        hints: ['Name = nom', 'Je m\'appelle']
+        hints: ['Name = nom', 'Je m\'appelle', 'La réponse est : Je m\'appelle']
       },
       {
         id: 'q3',
@@ -1778,7 +1778,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Goodbye',
         explanation: '"Goodbye" veut dire "Au revoir".',
-        hints: ['Good + bye', 'Commence par Good...']
+        hints: ['Good + bye', 'Commence par Good...', 'La réponse est : Goodbye']
       },
       {
         id: 'q4',
@@ -1786,7 +1786,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Hello" est une façon courante de dire "Bonjour" en anglais.',
-        hints: ['C\'est très courant', 'C\'est vrai']
+        hints: ['C\'est très courant', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -1795,7 +1795,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['How are you?', 'What is your name?', 'Where are you?', 'How old are you?'],
         correctAnswer: 'What is your name?',
         explanation: '"What is your name?" signifie "Comment tu t\'appelles ?".',
-        hints: ['What = Quoi', 'Name = nom']
+        hints: ['What = Quoi', 'Name = nom', 'La réponse est : What is your name?']
       },
       {
         id: 'q6',
@@ -1804,7 +1804,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['My name is...', 'I am fine', 'I am 7', 'Goodbye'],
         correctAnswer: 'I am fine',
         explanation: '"I am fine" veut dire "Je vais bien".',
-        hints: ['How are you = Comment vas-tu', 'I am fine']
+        hints: ['How are you = Comment vas-tu', 'I am fine', 'La réponse est : I am fine']
       },
       {
         id: 'q7',
@@ -1812,7 +1812,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Please',
         explanation: '"Please" veut dire "S\'il te plaît".',
-        hints: ['C\'est poli', 'Commence par P']
+        hints: ['C\'est poli', 'Commence par P', 'La réponse est : Please']
       },
       {
         id: 'q8',
@@ -1821,7 +1821,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De rien', 'Merci', 'Bonjour', 'Excuse-moi'],
         correctAnswer: 'Merci',
         explanation: '"Thank you" signifie "Merci".',
-        hints: ['On le dit quand on reçoit quelque chose', 'Merci']
+        hints: ['On le dit quand on reçoit quelque chose', 'Merci', 'La réponse est : Merci']
       },
       {
         id: 'q9',
@@ -1829,7 +1829,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Good night" veut dire "Bonne nuit" et se dit le soir.',
-        hints: ['Night = nuit', 'C\'est vrai']
+        hints: ['Night = nuit', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -1838,7 +1838,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['No', 'Yes', 'Maybe', 'Please'],
         correctAnswer: 'Yes',
         explanation: '"Yes" veut dire "Oui".',
-        hints: ['C\'est court', 'Yes']
+        hints: ['C\'est court', 'Yes', 'La réponse est : Yes']
       }
     ]
   },
@@ -1860,7 +1860,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Father', 'Mother', 'Sister', 'Brother'],
         correctAnswer: 'Mother',
         explanation: '"Mother" veut dire "maman" ou "mère".',
-        hints: ['Commence par M', 'Mother']
+        hints: ['Commence par M', 'Mother', 'La réponse est : Mother']
       },
       {
         id: 'q2',
@@ -1869,7 +1869,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Maman', 'Papa', 'Frère', 'Sœur'],
         correctAnswer: 'Papa',
         explanation: '"Father" signifie "papa" ou "père".',
-        hints: ['C\'est un parent', 'Papa']
+        hints: ['C\'est un parent', 'Papa', 'La réponse est : Papa']
       },
       {
         id: 'q3',
@@ -1877,7 +1877,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Brother',
         explanation: '"Brother" veut dire "frère".',
-        hints: ['Commence par B', 'Brother']
+        hints: ['Commence par B', 'Brother', 'La réponse est : Brother']
       },
       {
         id: 'q4',
@@ -1885,7 +1885,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Sister" signifie "sœur".',
-        hints: ['Ressemble un peu à "sœur"', 'C\'est vrai']
+        hints: ['Ressemble un peu à "sœur"', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -1894,7 +1894,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Grandfather', 'Grandmother', 'Mother', 'Aunt'],
         correctAnswer: 'Grandmother',
         explanation: '"Grandmother" veut dire "grand-mère".',
-        hints: ['Grand + mother', 'Grandmother']
+        hints: ['Grand + mother', 'Grandmother', 'La réponse est : Grandmother']
       },
       {
         id: 'q6',
@@ -1903,7 +1903,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Grand-mère', 'Grand-père', 'Oncle', 'Père'],
         correctAnswer: 'Grand-père',
         explanation: '"Grandfather" signifie "grand-père".',
-        hints: ['Grand + father', 'Grand-père']
+        hints: ['Grand + father', 'Grand-père', 'La réponse est : Grand-père']
       },
       {
         id: 'q7',
@@ -1911,7 +1911,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Family',
         explanation: '"Family" veut dire "famille".',
-        hints: ['Ressemble au mot français', 'Family']
+        hints: ['Ressemble au mot français', 'Family', 'La réponse est : Family']
       },
       {
         id: 'q8',
@@ -1920,7 +1920,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tante', 'Oncle', 'Cousin', 'Neveu'],
         correctAnswer: 'Oncle',
         explanation: '"Uncle" signifie "oncle".',
-        hints: ['Ressemble un peu', 'Oncle']
+        hints: ['Ressemble un peu', 'Oncle', 'La réponse est : Oncle']
       },
       {
         id: 'q9',
@@ -1928,7 +1928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Aunt" signifie "tante".',
-        hints: ['C\'est la sœur de tes parents', 'C\'est vrai']
+        hints: ['C\'est la sœur de tes parents', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -1937,7 +1937,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Family', 'Parents', 'Children', 'Brothers'],
         correctAnswer: 'Parents',
         explanation: '"Parents" s\'écrit pareil en anglais et en français !',
-        hints: ['C\'est le même mot', 'Parents']
+        hints: ['C\'est le même mot', 'Parents', 'La réponse est : Parents']
       }
     ]
   },
@@ -1961,7 +1961,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10', '11', '12', '13'],
         correctAnswer: '12',
         explanation: 'Une année compte 12 mois : janvier, février, mars...',
-        hints: ['Compte sur tes doigts', 'C\'est 12']
+        hints: ['Compte sur tes doigts', 'C\'est 12', 'La réponse est : 12']
       },
       {
         id: 'q2',
@@ -1969,7 +1969,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'janvier',
         explanation: 'Janvier est le premier mois de l\'année.',
-        hints: ['Après le 31 décembre', 'C\'est janvier']
+        hints: ['Après le 31 décembre', 'C\'est janvier', 'La réponse est : janvier']
       },
       {
         id: 'q3',
@@ -1978,7 +1978,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2', '3', '4', '5'],
         correctAnswer: '4',
         explanation: 'Il y a 4 saisons : printemps, été, automne, hiver.',
-        hints: ['Printemps, été...', 'C\'est 4']
+        hints: ['Printemps, été...', 'C\'est 4', 'La réponse est : 4']
       },
       {
         id: 'q4',
@@ -1987,7 +1987,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Printemps', 'Été', 'Automne', 'Hiver'],
         correctAnswer: 'Été',
         explanation: 'L\'été est la saison chaude où on peut se baigner.',
-        hints: ['Les grandes vacances', 'C\'est l\'été']
+        hints: ['Les grandes vacances', 'C\'est l\'été', 'La réponse est : Été']
       },
       {
         id: 'q5',
@@ -1995,7 +1995,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Décembre est le 12ème et dernier mois de l\'année.',
-        hints: ['C\'est le mois de Noël', 'C\'est vrai']
+        hints: ['C\'est le mois de Noël', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -2004,7 +2004,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Printemps', 'Été', 'Automne', 'Hiver'],
         correctAnswer: 'Automne',
         explanation: 'En automne, les feuilles changent de couleur et tombent.',
-        hints: ['Feuilles orange et marron', 'C\'est l\'automne']
+        hints: ['Feuilles orange et marron', 'C\'est l\'automne', 'La réponse est : Automne']
       },
       {
         id: 'q7',
@@ -2012,7 +2012,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mars',
         explanation: 'Mars est le 3ème mois de l\'année, après février.',
-        hints: ['C\'est le début du printemps', 'C\'est mars']
+        hints: ['C\'est le début du printemps', 'C\'est mars', 'La réponse est : mars']
       },
       {
         id: 'q8',
@@ -2021,7 +2021,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Printemps', 'Été', 'Automne', 'Hiver'],
         correctAnswer: 'Hiver',
         explanation: 'L\'hiver est la saison froide où il peut neiger.',
-        hints: ['C\'est la saison de Noël', 'C\'est l\'hiver']
+        hints: ['C\'est la saison de Noël', 'C\'est l\'hiver', 'La réponse est : Hiver']
       },
       {
         id: 'q9',
@@ -2029,7 +2029,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Au printemps, la nature se réveille et les fleurs poussent.',
-        hints: ['La nature se réveille', 'C\'est vrai']
+        hints: ['La nature se réveille', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -2038,7 +2038,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '6', '7', '8'],
         correctAnswer: '7',
         explanation: 'Une semaine compte 7 jours : lundi, mardi, mercredi...',
-        hints: ['Lundi à dimanche', 'C\'est 7']
+        hints: ['Lundi à dimanche', 'C\'est 7', 'La réponse est : 7']
       }
     ]
   },
@@ -2060,7 +2060,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À la pharmacie', 'À la boulangerie', 'À la bibliothèque', 'À l\'école'],
         correctAnswer: 'À la boulangerie',
         explanation: 'On achète le pain à la boulangerie.',
-        hints: ['Le boulanger fait le pain', 'La boulangerie']
+        hints: ['Le boulanger fait le pain', 'La boulangerie', 'La réponse est : À la boulangerie']
       },
       {
         id: 'q2',
@@ -2069,7 +2069,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'école', 'L\'hôpital', 'La mairie', 'Le supermarché'],
         correctAnswer: 'L\'hôpital',
         explanation: 'L\'hôpital est le lieu où les médecins soignent les malades.',
-        hints: ['Les docteurs y travaillent', 'L\'hôpital']
+        hints: ['Les docteurs y travaillent', 'L\'hôpital', 'La réponse est : L\'hôpital']
       },
       {
         id: 'q3',
@@ -2077,7 +2077,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bibliothèque',
         explanation: 'À la bibliothèque, on peut emprunter des livres gratuitement.',
-        hints: ['Beaucoup de livres', 'La biblio...']
+        hints: ['Beaucoup de livres', 'La biblio...', 'La réponse est : bibliothèque']
       },
       {
         id: 'q4',
@@ -2085,7 +2085,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le maire dirige la ville ou le village depuis la mairie.',
-        hints: ['Mairie et maire...', 'C\'est vrai']
+        hints: ['Mairie et maire...', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -2094,7 +2094,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À la poste', 'À la caserne', 'À l\'école', 'Au marché'],
         correctAnswer: 'À la caserne',
         explanation: 'Les pompiers travaillent à la caserne de pompiers.',
-        hints: ['C\'est leur base', 'La caserne']
+        hints: ['C\'est leur base', 'La caserne', 'La réponse est : À la caserne']
       },
       {
         id: 'q6',
@@ -2103,7 +2103,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La banque', 'La poste', 'Le cinéma', 'Le restaurant'],
         correctAnswer: 'La poste',
         explanation: 'On envoie les lettres et les colis à la poste.',
-        hints: ['Le facteur y travaille', 'La poste']
+        hints: ['Le facteur y travaille', 'La poste', 'La réponse est : La poste']
       },
       {
         id: 'q7',
@@ -2111,7 +2111,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'école',
         explanation: 'Les enfants vont à l\'école pour apprendre.',
-        hints: ['Tu y vas tous les jours', 'L\'...']
+        hints: ['Tu y vas tous les jours', 'L\'...', 'La réponse est : école']
       },
       {
         id: 'q8',
@@ -2119,7 +2119,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le pharmacien vend des médicaments à la pharmacie.',
-        hints: ['Quand tu es malade', 'C\'est vrai']
+        hints: ['Quand tu es malade', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -2128,7 +2128,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La boulangerie', 'La boucherie', 'Le supermarché', 'La librairie'],
         correctAnswer: 'Le supermarché',
         explanation: 'Au supermarché, on trouve de la nourriture, des produits ménagers et bien plus.',
-        hints: ['C\'est grand', 'Le super...']
+        hints: ['C\'est grand', 'Le super...', 'La réponse est : Le supermarché']
       },
       {
         id: 'q10',
@@ -2137,7 +2137,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À la bibliothèque', 'Au cinéma', 'À la mairie', 'À l\'école'],
         correctAnswer: 'Au cinéma',
         explanation: 'On regarde des films sur grand écran au cinéma.',
-        hints: ['Avec du pop-corn', 'Le cinéma']
+        hints: ['Avec du pop-corn', 'Le cinéma', 'La réponse est : Au cinéma']
       }
     ]
   },
@@ -2159,7 +2159,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avec des lampes électriques', 'Avec des bougies', 'Avec des téléphones', 'Avec la télévision'],
         correctAnswer: 'Avec des bougies',
         explanation: 'Avant l\'électricité, on utilisait des bougies ou des lampes à huile.',
-        hints: ['Ça fait de la flamme', 'Des bougies']
+        hints: ['Ça fait de la flamme', 'Des bougies', 'La réponse est : Avec des bougies']
       },
       {
         id: 'q2',
@@ -2167,7 +2167,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Avant les voitures, on utilisait les chevaux pour se déplacer.',
-        hints: ['Pas de voitures', 'C\'est vrai']
+        hints: ['Pas de voitures', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -2176,7 +2176,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un stylo bille', 'Une plume', 'Un crayon', 'Un feutre'],
         correctAnswer: 'Une plume',
         explanation: 'Autrefois, on écrivait avec une plume qu\'on trempait dans l\'encre.',
-        hints: ['Comme les oiseaux', 'Une plume']
+        hints: ['Comme les oiseaux', 'Une plume', 'La réponse est : Une plume']
       },
       {
         id: 'q4',
@@ -2185,7 +2185,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Par lettre', 'Par téléphone', 'Par pigeon voyageur', 'En criant fort'],
         correctAnswer: 'Par téléphone',
         explanation: 'Aujourd\'hui, on utilise le téléphone ou internet pour communiquer vite.',
-        hints: ['Instantané', 'Le téléphone']
+        hints: ['Instantané', 'Le téléphone', 'La réponse est : Par téléphone']
       },
       {
         id: 'q5',
@@ -2202,7 +2202,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Au lavoir avec les mains', 'Au supermarché', 'Avec un aspirateur', 'On ne lavait pas'],
         correctAnswer: 'Au lavoir avec les mains',
         explanation: 'Autrefois, on lavait le linge à la main au lavoir ou à la rivière.',
-        hints: ['Avec de l\'eau et du savon', 'À la main']
+        hints: ['Avec de l\'eau et du savon', 'À la main', 'La réponse est : Au lavoir avec les mains']
       },
       {
         id: 'q7',
@@ -2211,7 +2211,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cheval', 'Le bateau', 'L\'avion', 'La charrette'],
         correctAnswer: 'L\'avion',
         explanation: 'L\'avion a été inventé au début du 20ème siècle seulement.',
-        hints: ['Une invention récente', 'L\'avion']
+        hints: ['Une invention récente', 'L\'avion', 'La réponse est : L\'avion']
       },
       {
         id: 'q8',
@@ -2220,7 +2220,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans une glacière avec de la glace', 'Dans le four', 'Sur la table', 'Dans la cheminée'],
         correctAnswer: 'Dans une glacière avec de la glace',
         explanation: 'On utilisait des glacières remplies de glace pour garder les aliments frais.',
-        hints: ['Avec du froid', 'Une glacière']
+        hints: ['Avec du froid', 'Une glacière', 'La réponse est : Dans une glacière avec de la glace']
       },
       {
         id: 'q9',
@@ -2237,7 +2237,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Seulement du bois', 'Du chauffage électrique ou au gaz', 'Des bougies', 'Rien'],
         correctAnswer: 'Du chauffage électrique ou au gaz',
         explanation: 'Aujourd\'hui, on utilise souvent l\'électricité ou le gaz pour chauffer les maisons.',
-        hints: ['C\'est moderne', 'Électrique ou gaz']
+        hints: ['C\'est moderne', 'Électrique ou gaz', 'La réponse est : Du chauffage électrique ou au gaz']
       }
     ]
   },
@@ -2260,7 +2260,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '56',
         explanation: '7 × 8 = 56. Astuce : 7 × 8 = 56 (cinq-six, 5-6 !) ',
-        hints: ['C\'est dans la table de 7 et de 8', 'Entre 50 et 60']
+        hints: ['C\'est dans la table de 7 et de 8', 'Entre 50 et 60', 'La réponse est : 56']
       },
       {
         id: 'q2',
@@ -2269,7 +2269,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['45', '54', '63', '48'],
         correctAnswer: '54',
         explanation: '9 × 6 = 54. Tu peux faire 10 × 6 = 60, puis enlever 6',
-        hints: ['Astuce : 10 × 6 moins 6', '60 - 6']
+        hints: ['Astuce : 10 × 6 moins 6', '60 - 6', 'La réponse est : 54']
       },
       {
         id: 'q3',
@@ -2277,7 +2277,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '36',
         explanation: '12 × 3 = 36. Tu peux faire (10 × 3) + (2 × 3) = 30 + 6 = 36',
-        hints: ['Décompose : 10 × 3 + 2 × 3', 'C\'est 36']
+        hints: ['Décompose : 10 × 3 + 2 × 3', 'C\'est 36', 'La réponse est : 36']
       },
       {
         id: 'q4',
@@ -2285,7 +2285,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '42',
         explanation: '6 × 7 = 42',
-        hints: ['Table de 6 et de 7', 'C\'est 42']
+        hints: ['Table de 6 et de 7', 'C\'est 42', 'La réponse est : 42']
       },
       {
         id: 'q5',
@@ -2302,7 +2302,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '60',
         explanation: '5 × 12 = 60. C\'est la moitié de 10 × 12 = 120',
-        hints: ['5 × 10 = 50, ajoute 5 × 2', 'C\'est 60']
+        hints: ['5 × 10 = 50, ajoute 5 × 2', 'C\'est 60', 'La réponse est : 60']
       },
       {
         id: 'q7',
@@ -2319,7 +2319,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['28', '30', '32', '36'],
         correctAnswer: '32',
         explanation: '4 × 8 = 32. C\'est le double de 4 × 4 = 16',
-        hints: ['4 × 4 = 16, double ça', 'C\'est 32']
+        hints: ['4 × 4 = 16, double ça', 'C\'est 32', 'La réponse est : 32']
       },
       {
         id: 'q9',
@@ -2357,7 +2357,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1€', '1,50€', '2€', '2,50€'],
         correctAnswer: '1,50€',
         explanation: '5€ - 3,50€ = 1,50€ de monnaie',
-        hints: ['Soustrais : 5 - 3,50', '5 - 3 = 2, mais attention aux centimes']
+        hints: ['Soustrais : 5 - 3,50', '5 - 3 = 2, mais attention aux centimes', 'La réponse est : 1,50€']
       },
       {
         id: 'q2',
@@ -2383,7 +2383,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1€', '1,50€', '2€', '3€'],
         correctAnswer: '1,50€',
         explanation: '3 × 0,50€ = 1,50€ ou 0,50 + 0,50 + 0,50 = 1,50€',
-        hints: ['3 fois 0,50', '0,50 + 0,50 + 0,50']
+        hints: ['3 fois 0,50', '0,50 + 0,50 + 0,50', 'La réponse est : 1,50€']
       },
       {
         id: 'q5',
@@ -2391,7 +2391,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 2,50€ = 2 euros + 50 centimes = 200 + 50 = 250 centimes',
-        hints: ['1€ = 100 centimes', 'C\'est vrai']
+        hints: ['1€ = 100 centimes', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -2416,7 +2416,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3€', '4€', '5€', '6€'],
         correctAnswer: '5€',
         explanation: '20€ - 15€ = 5€',
-        hints: ['20 - 15', 'C\'est 5€']
+        hints: ['20 - 15', 'C\'est 5€', 'La réponse est : 5€']
       },
       {
         id: 'q9',
@@ -2424,7 +2424,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '0,80',
         explanation: '4 × 0,20€ = 0,80€',
-        hints: ['4 fois 20 centimes', '0,20 + 0,20 + 0,20 + 0,20']
+        hints: ['4 fois 20 centimes', '0,20 + 0,20 + 0,20 + 0,20', 'La réponse est : 0,80']
       },
       {
         id: 'q10',
@@ -2432,7 +2432,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 5€ + 0,50€ = 5,50€',
-        hints: ['5 euros et 50 centimes', 'C\'est vrai']
+        hints: ['5 euros et 50 centimes', 'C\'est vrai', 'C\'est vrai']
       }
     ]
   },
@@ -2454,7 +2454,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10', '50', '100', '1000'],
         correctAnswer: '100',
         explanation: '1 mètre = 100 centimètres (cm)',
-        hints: ['Pense au préfixe "centi" = cent', 'C\'est 100 !']
+        hints: ['Pense au préfixe "centi" = cent', 'C\'est 100 !', 'La réponse est : 100']
       },
       {
         id: 'q2',
@@ -2462,7 +2462,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1000',
         explanation: '1 kilomètre = 1000 mètres. Kilo = mille !',
-        hints: ['Kilo veut dire mille', 'C\'est 1000']
+        hints: ['Kilo veut dire mille', 'C\'est 1000', 'La réponse est : 1000']
       },
       {
         id: 'q3',
@@ -2479,7 +2479,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Millimètre', 'Centimètre', 'Mètre', 'Kilomètre'],
         correctAnswer: 'Mètre',
         explanation: 'Le mètre (m) est l\'unité adaptée pour mesurer une pièce',
-        hints: ['Pas trop petit, pas trop grand', 'C\'est le mètre']
+        hints: ['Pas trop petit, pas trop grand', 'C\'est le mètre', 'La réponse est : Mètre']
       },
       {
         id: 'q5',
@@ -2487,7 +2487,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! 1 km = 1000 mètres, pas 100',
-        hints: ['Kilo = mille', 'C\'est faux']
+        hints: ['Kilo = mille', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -2496,7 +2496,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Centimètre', 'Mètre', 'Kilomètre', 'Millimètre'],
         correctAnswer: 'Kilomètre',
         explanation: 'Le kilomètre (km) est utilisé pour les grandes distances',
-        hints: ['Grande distance', 'C\'est le kilomètre']
+        hints: ['Grande distance', 'C\'est le kilomètre', 'La réponse est : Kilomètre']
       },
       {
         id: 'q7',
@@ -2505,7 +2505,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['0,5 mètre', '5 mètres', '50 mètres', '500 mètres'],
         correctAnswer: '0,5 mètre',
         explanation: '50 cm = 0,5 m (la moitié d\'un mètre)',
-        hints: ['La moitié de 100 cm', 'C\'est 0,5 m']
+        hints: ['La moitié de 100 cm', 'C\'est 0,5 m', 'La réponse est : 0,5 mètre']
       },
       {
         id: 'q8',
@@ -2521,7 +2521,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 1 mètre = 10 décimètres (dm). Déci = dix !',
-        hints: ['Déci = dix', 'C\'est vrai']
+        hints: ['Déci = dix', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -2530,7 +2530,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Kilomètre', 'Mètre', 'Centimètre', 'Millimètre'],
         correctAnswer: 'Millimètre',
         explanation: 'Le millimètre (mm) est plus petit que le centimètre, le mètre et le kilomètre',
-        hints: ['Milli = mille fois plus petit', 'C\'est le millimètre']
+        hints: ['Milli = mille fois plus petit', 'C\'est le millimètre', 'La réponse est : Millimètre']
       }
     ]
   },
@@ -2750,7 +2750,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Blue', 'Red', 'Green', 'Yellow'],
         correctAnswer: 'Red',
         explanation: 'Le mot "rouge" se dit "Red" en anglais. C\'est une couleur primaire très importante.',
-        hints: ['C\'est la couleur du sang', 'Cette couleur commence par la lettre R']
+        hints: ['C\'est la couleur du sang', 'Cette couleur commence par la lettre R', 'La réponse est : Red']
       },
       {
         id: 'q2',
@@ -2759,7 +2759,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '15', '50', '14'],
         correctAnswer: '15',
         explanation: 'Fifteen signifie 15 en français. Les nombres de 13 à 19 se terminent par "-teen".',
-        hints: ['Le nombre se termine par "-teen"', 'C\'est entre 14 et 16']
+        hints: ['Le nombre se termine par "-teen"', 'C\'est entre 14 et 16', 'La réponse est : 15']
       },
       {
         id: 'q3',
@@ -2767,7 +2767,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! Yellow est le mot anglais pour la couleur jaune, comme le soleil.',
-        hints: ['Pense à la couleur du soleil', 'C\'est une couleur primaire']
+        hints: ['Pense à la couleur du soleil', 'C\'est une couleur primaire', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -2775,7 +2775,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ten',
         explanation: 'Ten signifie 10 en anglais. C\'est un nombre très utilisé car nous avons dix doigts !',
-        hints: ['C\'est le nombre de nos doigts', 'Le mot commence par T']
+        hints: ['C\'est le nombre de nos doigts', 'Le mot commence par T', 'La réponse est : ten']
       },
       {
         id: 'q5',
@@ -2784,7 +2784,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Green', 'Brown', 'Red', 'Blue'],
         correctAnswer: 'Green',
         explanation: 'Green signifie "vert" en anglais. L\'herbe et les feuilles des arbres sont vertes.',
-        hints: ['L\'herbe est de cette couleur', 'Les feuilles des arbres aussi']
+        hints: ['L\'herbe est de cette couleur', 'Les feuilles des arbres aussi', 'La réponse est : Green']
       },
       {
         id: 'q6',
@@ -2792,7 +2792,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Twenty signifie 20, pas 12. Le nombre 12 se dit "twelve" en anglais.',
-        hints: ['Twenty ressemble à "vingt" en français', '12 se dit "twelve"']
+        hints: ['Twenty ressemble à "vingt" en français', '12 se dit "twelve"', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -2800,7 +2800,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'blue',
         explanation: 'Blue signifie "bleu" en anglais. Le ciel est bleu pendant la journée.',
-        hints: ['C\'est la couleur du ciel', 'Le mot ressemble à "bleu"']
+        hints: ['C\'est la couleur du ciel', 'Le mot ressemble à "bleu"', 'La réponse est : blue']
       },
       {
         id: 'q8',
@@ -2809,7 +2809,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Six', 'Seven', 'Eight', 'Nine'],
         correctAnswer: 'Seven',
         explanation: 'Seven signifie 7 en anglais. Il y a 7 jours dans une semaine !',
-        hints: ['Il y a ce nombre de jours dans une semaine', 'Le mot commence par S']
+        hints: ['Il y a ce nombre de jours dans une semaine', 'Le mot commence par S', 'La réponse est : Seven']
       },
       {
         id: 'q9',
@@ -2817,7 +2817,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! En anglais, "orange" désigne la couleur orange ET le fruit. C\'est le même mot pour les deux.',
-        hints: ['Le fruit et la couleur ont le même nom', 'C\'est comme en français']
+        hints: ['Le fruit et la couleur ont le même nom', 'C\'est comme en français', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -2847,7 +2847,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dog', 'Cat', 'Mouse', 'Bird'],
         correctAnswer: 'Cat',
         explanation: 'Cat signifie "chat" en anglais. Le chat fait "meow" en anglais, comme "miaou" en français.',
-        hints: ['Cet animal fait "meow"', 'C\'est un animal domestique qui ronronne']
+        hints: ['Cet animal fait "meow"', 'C\'est un animal domestique qui ronronne', 'La réponse est : Cat']
       },
       {
         id: 'q2',
@@ -2855,7 +2855,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! Horse est le mot anglais pour cheval. C\'est un animal de la ferme qui peut nous transporter.',
-        hints: ['On peut monter sur cet animal', 'Il vit souvent à la ferme']
+        hints: ['On peut monter sur cet animal', 'Il vit souvent à la ferme', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -2863,7 +2863,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'cow',
         explanation: 'Cow signifie "vache" en anglais. La vache fait "moo" en anglais, comme "meuh" en français.',
-        hints: ['Cet animal donne du lait', 'Elle fait "meuh" en français']
+        hints: ['Cet animal donne du lait', 'Elle fait "meuh" en français', 'La réponse est : cow']
       },
       {
         id: 'q4',
@@ -2880,7 +2880,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! Rabbit signifie "lapin" en anglais. Les lapins ont de longues oreilles et sautent.',
-        hints: ['Cet animal a de longues oreilles', 'Il aime les carottes']
+        hints: ['Cet animal a de longues oreilles', 'Il aime les carottes', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -2888,7 +2888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hen',
         explanation: 'Hen signifie "poule" en anglais. La poule pond des oeufs que nous mangeons au petit-déjeuner.',
-        hints: ['Cet animal pond des oeufs', 'Elle vit dans le poulailler']
+        hints: ['Cet animal pond des oeufs', 'Elle vit dans le poulailler', 'La réponse est : hen']
       },
       {
         id: 'q7',
@@ -2897,7 +2897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sheep', 'Pig', 'Duck', 'Goat'],
         correctAnswer: 'Pig',
         explanation: 'Pig signifie "cochon" en anglais. Le cochon fait "oink oink" et vit dans une porcherie.',
-        hints: ['Cet animal fait "oink oink"', 'Il adore se rouler dans la boue']
+        hints: ['Cet animal fait "oink oink"', 'Il adore se rouler dans la boue', 'La réponse est : Pig']
       },
       {
         id: 'q8',
@@ -2905,7 +2905,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! En anglais, "fish" peut être singulier ou pluriel. Un poisson = a fish, plusieurs poissons = fish.',
-        hints: ['C\'est une particularité de ce mot', 'Le mot ne change pas au pluriel']
+        hints: ['C\'est une particularité de ce mot', 'Le mot ne change pas au pluriel', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -2913,7 +2913,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bird',
         explanation: 'Bird signifie "oiseau" en anglais. Les oiseaux ont des plumes et volent dans le ciel.',
-        hints: ['Cet animal vole', 'Il a des plumes et des ailes']
+        hints: ['Cet animal vole', 'Il a des plumes et des ailes', 'La réponse est : bird']
       },
       {
         id: 'q10',
@@ -2922,7 +2922,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mouton', 'Chèvre', 'Vache', 'Cheval'],
         correctAnswer: 'Mouton',
         explanation: 'Sheep signifie "mouton" en anglais. Le mouton a de la laine et fait "baa" (bêê en français).',
-        hints: ['Cet animal nous donne de la laine', 'Il fait "bêê"']
+        hints: ['Cet animal nous donne de la laine', 'Il fait "bêê"', 'La réponse est : Mouton']
       }
     ]
   },
@@ -2946,7 +2946,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lyon', 'Paris', 'Marseille', 'Bordeaux'],
         correctAnswer: 'Paris',
         explanation: 'Paris est la capitale de la France. C\'est la plus grande ville du pays et elle se trouve au nord.',
-        hints: ['C\'est la plus grande ville de France', 'On y trouve la Tour Eiffel']
+        hints: ['C\'est la plus grande ville de France', 'On y trouve la Tour Eiffel', 'La réponse est : Paris']
       },
       {
         id: 'q2',
@@ -2954,7 +2954,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'La Seine est bien un fleuve français qui traverse Paris et se jette dans la Manche.',
-        hints: ['Ce fleuve traverse Paris', 'Il se jette dans la mer']
+        hints: ['Ce fleuve traverse Paris', 'Il se jette dans la mer', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -2962,7 +2962,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Méditerranée',
         explanation: 'Marseille est une grande ville située au bord de la mer Méditerranée, dans le sud de la France.',
-        hints: ['Cette mer se trouve au sud de la France', 'Son nom commence par M']
+        hints: ['Cette mer se trouve au sud de la France', 'Son nom commence par M', 'La réponse est : Méditerranée']
       },
       {
         id: 'q4',
@@ -2971,7 +2971,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Seine', 'La Loire', 'Le Rhône', 'La Garonne'],
         correctAnswer: 'La Loire',
         explanation: 'La Loire est le plus long fleuve de France avec environ 1000 kilomètres. Elle traverse le centre du pays.',
-        hints: ['Il traverse le centre de la France', 'On y trouve de magnifiques châteaux']
+        hints: ['Il traverse le centre de la France', 'On y trouve de magnifiques châteaux', 'La réponse est : La Loire']
       },
       {
         id: 'q5',
@@ -2979,7 +2979,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Les Alpes sont une grande chaîne de montagnes située à l\'est de la France. Le Mont-Blanc, le plus haut sommet, s\'y trouve.',
-        hints: ['On peut y faire du ski', 'Le Mont-Blanc s\'y trouve']
+        hints: ['On peut y faire du ski', 'Le Mont-Blanc s\'y trouve', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -2987,7 +2987,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4800',
         explanation: 'Le Mont-Blanc culmine à 4808 mètres d\'altitude. C\'est le plus haut sommet de France et d\'Europe occidentale.',
-        hints: ['C\'est presque 5000 mètres', 'Le nombre commence par 4']
+        hints: ['C\'est presque 5000 mètres', 'Le nombre commence par 4', 'La réponse est : 4800']
       },
       {
         id: 'q7',
@@ -2996,7 +2996,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lille', 'Strasbourg', 'Toulouse', 'Nantes'],
         correctAnswer: 'Toulouse',
         explanation: 'Toulouse est une grande ville du sud-ouest de la France, surnommée la "ville rose" à cause de ses briques roses.',
-        hints: ['On l\'appelle la "ville rose"', 'Elle est célèbre pour les avions']
+        hints: ['On l\'appelle la "ville rose"', 'Elle est célèbre pour les avions', 'La réponse est : Toulouse']
       },
       {
         id: 'q8',
@@ -3004,7 +3004,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'On dit souvent que la France a la forme d\'un hexagone (6 côtés) quand on regarde sa carte.',
-        hints: ['Un hexagone a 6 côtés', 'Regarde la forme de la France sur une carte']
+        hints: ['Un hexagone a 6 côtés', 'Regarde la forme de la France sur une carte', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -3012,7 +3012,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Pyrénées',
         explanation: 'Les Pyrénées forment une frontière naturelle entre la France et l\'Espagne, au sud du pays.',
-        hints: ['Ces montagnes sont au sud', 'Le mot commence par P']
+        hints: ['Ces montagnes sont au sud', 'Le mot commence par P', 'La réponse est : Pyrénées']
       },
       {
         id: 'q10',
@@ -3021,7 +3021,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nice', 'Bordeaux', 'Strasbourg', 'Grenoble'],
         correctAnswer: 'Bordeaux',
         explanation: 'Bordeaux est une grande ville située dans le sud-ouest de la France, près de l\'océan Atlantique.',
-        hints: ['Cette ville est célèbre pour le vin', 'Elle est à l\'ouest de la France']
+        hints: ['Cette ville est célèbre pour le vin', 'Elle est à l\'ouest de la France', 'La réponse est : Bordeaux']
       }
     ]
   },
@@ -3043,7 +3043,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une plaine', 'Une plage', 'Une forêt', 'Un champ'],
         correctAnswer: 'Une plage',
         explanation: 'Au bord de la mer, on trouve des plages de sable ou de galets. C\'est le paysage littoral.',
-        hints: ['On peut y construire des châteaux de sable', 'Les vagues viennent s\'y déposer']
+        hints: ['On peut y construire des châteaux de sable', 'Les vagues viennent s\'y déposer', 'La réponse est : Une plage']
       },
       {
         id: 'q2',
@@ -3051,7 +3051,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'La campagne est caractérisée par les champs cultivés, les prairies, les fermes et les animaux d\'élevage.',
-        hints: ['Les agriculteurs y travaillent', 'On y cultive du blé, du maïs...']
+        hints: ['Les agriculteurs y travaillent', 'On y cultive du blé, du maïs...', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -3059,7 +3059,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'neige',
         explanation: 'Les hauts sommets des montagnes sont recouverts de neige toute l\'année car il y fait très froid.',
-        hints: ['C\'est blanc et froid', 'On peut y faire du ski']
+        hints: ['C\'est blanc et froid', 'On peut y faire du ski', 'La réponse est : neige']
       },
       {
         id: 'q4',
@@ -3068,7 +3068,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des vaches', 'Des immeubles', 'Des champs', 'Des forêts'],
         correctAnswer: 'Des immeubles',
         explanation: 'Les villes sont caractérisées par de nombreux bâtiments, immeubles, magasins et beaucoup d\'habitants.',
-        hints: ['Beaucoup de gens y habitent', 'Ce sont des bâtiments hauts']
+        hints: ['Beaucoup de gens y habitent', 'Ce sont des bâtiments hauts', 'La réponse est : Des immeubles']
       },
       {
         id: 'q5',
@@ -3076,7 +3076,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Les pêcheurs travaillent au bord de la mer ou des lacs, pas en montagne. En montagne, on trouve plutôt des bergers.',
-        hints: ['Où trouve-t-on beaucoup de poissons ?', 'Les pêcheurs ont besoin d\'eau']
+        hints: ['Où trouve-t-on beaucoup de poissons ?', 'Les pêcheurs ont besoin d\'eau', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -3084,7 +3084,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'champs',
         explanation: 'Les agriculteurs cultivent les champs où ils font pousser du blé, du maïs, des légumes et d\'autres plantes.',
-        hints: ['Ce sont de grandes surfaces de terre', 'On y plante des céréales']
+        hints: ['Ce sont de grandes surfaces de terre', 'On y plante des céréales', 'La réponse est : champs']
       },
       {
         id: 'q7',
@@ -3093,7 +3093,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le tracteur', 'Le métro', 'Le bateau de pêche', 'Le télésiège'],
         correctAnswer: 'Le métro',
         explanation: 'En ville, on utilise beaucoup le métro, les bus et les tramways pour se déplacer car il y a beaucoup de monde.',
-        hints: ['Il circule sous terre', 'Il transporte beaucoup de personnes']
+        hints: ['Il circule sous terre', 'Il transporte beaucoup de personnes', 'La réponse est : Le métro']
       },
       {
         id: 'q8',
@@ -3109,7 +3109,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chalutiers',
         explanation: 'Les chalutiers sont de gros bateaux de pêche qui partent en mer pour attraper des poissons.',
-        hints: ['Ce sont de gros bateaux', 'Le mot commence par C']
+        hints: ['Ce sont de gros bateaux', 'Le mot commence par C', 'La réponse est : chalutiers']
       },
       {
         id: 'q10',
@@ -3118,7 +3118,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La plage', 'La forêt', 'Le désert', 'La ville'],
         correctAnswer: 'La forêt',
         explanation: 'Une forêt est un paysage avec beaucoup d\'arbres rapprochés. On y trouve aussi des animaux comme les cerfs, les sangliers...',
-        hints: ['Les arbres y sont nombreux', 'On peut s\'y promener sur des sentiers']
+        hints: ['Les arbres y sont nombreux', 'On peut s\'y promener sur des sentiers', 'La réponse est : La forêt']
       }
     ]
   },
@@ -3148,7 +3148,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Nous sommes au 21ème siècle qui a commencé en 2001 et se terminera en 2100.',
-        hints: ['Nous sommes en 2025', 'Le siècle a commencé en 2001']
+        hints: ['Nous sommes en 2025', 'Le siècle a commencé en 2001', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -3156,7 +3156,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1789',
         explanation: 'La Révolution française a commencé en 1789. C\'est un événement très important de l\'histoire de France.',
-        hints: ['C\'est au 18ème siècle', 'Le nombre commence par 17']
+        hints: ['C\'est au 18ème siècle', 'Le nombre commence par 17', 'La réponse est : 1789']
       },
       {
         id: 'q4',
@@ -3198,7 +3198,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui, les arrière-grands-parents sont les parents de tes grands-parents, ils sont donc nés avant eux.',
-        hints: ['Qui est le plus âgé ?', 'Les arrière-grands-parents sont plus vieux']
+        hints: ['Qui est le plus âgé ?', 'Les arrière-grands-parents sont plus vieux', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -3206,7 +3206,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1918',
         explanation: 'La Première Guerre mondiale s\'est terminée le 11 novembre 1918. On célèbre cette date chaque année.',
-        hints: ['C\'est au début du 20ème siècle', 'On commémore cette date le 11 novembre']
+        hints: ['C\'est au début du 20ème siècle', 'On commémore cette date le 11 novembre', 'La réponse est : 1918']
       },
       {
         id: 'q10',
@@ -3215,7 +3215,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Préhistoire - Moyen Âge - Époque contemporaine', 'Moyen Âge - Préhistoire - Époque contemporaine', 'Époque contemporaine - Moyen Âge - Préhistoire', 'Moyen Âge - Époque contemporaine - Préhistoire'],
         correctAnswer: 'Préhistoire - Moyen Âge - Époque contemporaine',
         explanation: 'L\'ordre correct est : Préhistoire (très ancien), Moyen Âge (châteaux forts, chevaliers), puis Époque contemporaine (aujourd\'hui).',
-        hints: ['La Préhistoire est la période la plus ancienne', 'Nous vivons à l\'Époque contemporaine']
+        hints: ['La Préhistoire est la période la plus ancienne', 'Nous vivons à l\'Époque contemporaine', 'La réponse est : Préhistoire - Moyen Âge - Époque contemporaine']
       }
     ]
   },
@@ -3239,7 +3239,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Lune', 'Le Soleil', 'Mars', 'Jupiter'],
         correctAnswer: 'Le Soleil',
         explanation: 'Le Soleil est l\'étoile au centre de notre système solaire. C\'est une boule de gaz très chaude qui produit de la lumière et de la chaleur. Toutes les planètes tournent autour du Soleil.',
-        hints: ['C\'est une étoile qui brille et donne de la chaleur', 'Toutes les planètes tournent autour de cet astre']
+        hints: ['C\'est une étoile qui brille et donne de la chaleur', 'Toutes les planètes tournent autour de cet astre', 'La réponse est : Le Soleil']
       },
       {
         id: 'q2',
@@ -3248,7 +3248,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6 planètes', '8 planètes', '10 planètes', '12 planètes'],
         correctAnswer: '8 planètes',
         explanation: 'Notre système solaire compte 8 planètes : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton n\'est plus considérée comme une planète depuis 2006.',
-        hints: ['Il y en a moins de 10', 'Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune']
+        hints: ['Il y en a moins de 10', 'Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune', 'La réponse est : 8 planètes']
       },
       {
         id: 'q3',
@@ -3257,7 +3257,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La Terre effectue un mouvement de révolution autour du Soleil. Elle met 365 jours (une année) pour faire un tour complet autour du Soleil.',
-        hints: ['Ce mouvement s\'appelle la révolution', 'Cela prend une année complète']
+        hints: ['Ce mouvement s\'appelle la révolution', 'Cela prend une année complète', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -3266,7 +3266,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vénus', 'Mercure', 'Mars', 'Terre'],
         correctAnswer: 'Mercure',
         explanation: 'Mercure est la planète la plus proche du Soleil. C\'est aussi la plus petite planète du système solaire. Elle est très chaude du côté exposé au Soleil.',
-        hints: ['C\'est la première planète du système solaire', 'Son nom commence par la lettre M']
+        hints: ['C\'est la première planète du système solaire', 'Son nom commence par la lettre M', 'La réponse est : Mercure']
       },
       {
         id: 'q5',
@@ -3275,7 +3275,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'Faux ! La Lune n\'est pas une planète, c\'est un satellite naturel de la Terre. Elle tourne autour de notre planète et met environ 28 jours pour faire un tour complet.',
-        hints: ['Elle tourne autour de la Terre', 'C\'est un satellite naturel']
+        hints: ['Elle tourne autour de la Terre', 'C\'est un satellite naturel', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -3284,7 +3284,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Saturne', 'Neptune', 'Jupiter', 'Uranus'],
         correctAnswer: 'Jupiter',
         explanation: 'Jupiter est la plus grosse planète de notre système solaire. Elle est tellement grande qu\'on pourrait y mettre 1300 fois la Terre ! C\'est une planète gazeuse avec une grande tache rouge.',
-        hints: ['Son nom commence par la lettre J', 'C\'est une planète gazeuse géante']
+        hints: ['Son nom commence par la lettre J', 'C\'est une planète gazeuse géante', 'La réponse est : Jupiter']
       },
       {
         id: 'q7',
@@ -3292,7 +3292,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'rotation',
         explanation: 'La rotation est le mouvement de la Terre sur elle-même. Elle tourne comme une toupie en 24 heures. Quand notre partie de la Terre est face au Soleil, c\'est le jour. Quand elle est à l\'opposé, c\'est la nuit.',
-        hints: ['C\'est un mouvement sur elle-même', 'Cela prend 24 heures']
+        hints: ['C\'est un mouvement sur elle-même', 'Cela prend 24 heures', 'La réponse est : rotation']
       },
       {
         id: 'q8',
@@ -3301,7 +3301,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vénus', 'Jupiter', 'Mars', 'Saturne'],
         correctAnswer: 'Mars',
         explanation: 'Mars est surnommée la "planète rouge" à cause de la couleur de son sol qui contient beaucoup d\'oxyde de fer (rouille). C\'est la quatrième planète en partant du Soleil.',
-        hints: ['Sa couleur est rougeâtre', 'C\'est la 4ème planète depuis le Soleil']
+        hints: ['Sa couleur est rougeâtre', 'C\'est la 4ème planète depuis le Soleil', 'La réponse est : Mars']
       },
       {
         id: 'q9',
@@ -3310,7 +3310,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les planètes ne produisent pas leur propre lumière. Elles réfléchissent la lumière du Soleil, c\'est pourquoi nous pouvons les voir briller dans le ciel nocturne. Seules les étoiles comme le Soleil produisent leur propre lumière.',
-        hints: ['Elles réfléchissent la lumière du Soleil', 'Seules les étoiles produisent leur lumière']
+        hints: ['Elles réfléchissent la lumière du Soleil', 'Seules les étoiles produisent leur lumière', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -3318,7 +3318,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'révolution',
         explanation: 'Le mouvement de révolution est le mouvement de la Terre autour du Soleil. Ce mouvement dure 365 jours, soit une année. C\'est grâce à ce mouvement et à l\'inclinaison de la Terre que nous avons les saisons.',
-        hints: ['Ce mouvement dure une année', 'Il ne faut pas le confondre avec la rotation']
+        hints: ['Ce mouvement dure une année', 'Il ne faut pas le confondre avec la rotation', 'La réponse est : révolution']
       }
     ]
   },
@@ -3340,7 +3340,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une liste de courses', 'La succession des êtres vivants qui se nourrissent les uns des autres', 'Un collier fait avec de la nourriture', 'Un magasin d\'alimentation'],
         correctAnswer: 'La succession des êtres vivants qui se nourrissent les uns des autres',
         explanation: 'Une chaîne alimentaire représente les relations de nourriture entre les êtres vivants. Elle montre qui mange qui dans un écosystème. Par exemple : herbe → lapin → renard.',
-        hints: ['Cela concerne les animaux et les plantes', 'C\'est un schéma montrant "qui mange qui"']
+        hints: ['Cela concerne les animaux et les plantes', 'C\'est un schéma montrant "qui mange qui"', 'La réponse est : La succession des êtres vivants qui se nourrissent les uns des autres']
       },
       {
         id: 'q2',
@@ -3349,7 +3349,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les consommateurs', 'Les producteurs', 'Les décomposeurs', 'Les prédateurs'],
         correctAnswer: 'Les producteurs',
         explanation: 'Les producteurs sont des êtres vivants, principalement des végétaux (plantes, arbres, algues), qui fabriquent leur propre nourriture grâce à la photosynthèse. Ils utilisent l\'énergie du soleil, l\'eau et le CO2.',
-        hints: ['Ce sont surtout des végétaux', 'Ils utilisent la photosynthèse']
+        hints: ['Ce sont surtout des végétaux', 'Ils utilisent la photosynthèse', 'La réponse est : Les producteurs']
       },
       {
         id: 'q3',
@@ -3358,7 +3358,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les plantes sont des producteurs et se trouvent toujours au début d\'une chaîne alimentaire. Elles captent l\'énergie du soleil pour fabriquer leur nourriture. Tous les autres êtres vivants dépendent directement ou indirectement des plantes.',
-        hints: ['Ce sont des producteurs', 'Elles utilisent l\'énergie du soleil']
+        hints: ['Ce sont des producteurs', 'Elles utilisent l\'énergie du soleil', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -3367,7 +3367,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un carnivore', 'Un herbivore', 'Un omnivore', 'Un décomposeur'],
         correctAnswer: 'Un herbivore',
         explanation: 'Un herbivore est un animal qui se nourrit uniquement de végétaux (herbe, feuilles, fruits, graines). Exemples : le lapin, la vache, le mouton, le cerf. Les herbivores sont des consommateurs primaires.',
-        hints: ['Le mot contient "herbe"', 'La vache et le lapin en sont des exemples']
+        hints: ['Le mot contient "herbe"', 'La vache et le lapin en sont des exemples', 'La réponse est : Un herbivore']
       },
       {
         id: 'q5',
@@ -3376,7 +3376,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fabriquer la nourriture', 'Transformer les déchets et matières mortes en éléments nutritifs', 'Chasser les autres animaux', 'Protéger les plantes'],
         correctAnswer: 'Transformer les déchets et matières mortes en éléments nutritifs',
         explanation: 'Les décomposeurs (champignons, bactéries, vers de terre) transforment les déchets et les êtres vivants morts en éléments nutritifs. Ces éléments retournent dans le sol et nourrissent les plantes. Ils recyclent la matière.',
-        hints: ['Ils recyclent la matière', 'Les champignons et les vers de terre en font partie']
+        hints: ['Ils recyclent la matière', 'Les champignons et les vers de terre en font partie', 'La réponse est : Transformer les déchets et matières mortes en éléments nutritifs']
       },
       {
         id: 'q6',
@@ -3385,7 +3385,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le renard est un consommateur car il se nourrit d\'autres êtres vivants. Plus précisément, c\'est un consommateur secondaire (ou de 2ème ordre) car il mange des herbivores. C\'est aussi un carnivore.',
-        hints: ['Il ne fabrique pas sa nourriture', 'Il mange d\'autres animaux']
+        hints: ['Il ne fabrique pas sa nourriture', 'Il mange d\'autres animaux', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -3393,7 +3393,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'omnivore',
         explanation: 'Un omnivore est un animal qui se nourrit à la fois de végétaux et d\'animaux. Exemples : l\'ours, le sanglier, l\'être humain. Les omnivores ont un régime alimentaire varié et peuvent s\'adapter à différents milieux.',
-        hints: ['Le mot commence par la lettre "o"', 'L\'être humain en est un exemple']
+        hints: ['Le mot commence par la lettre "o"', 'L\'être humain en est un exemple', 'La réponse est : omnivore']
       },
       {
         id: 'q8',
@@ -3411,7 +3411,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Si les plantes disparaissaient, tous les animaux finiraient par mourir. Les herbivores n\'auraient plus rien à manger et mourraient. Ensuite, les carnivores qui mangent les herbivores mourraient aussi. Les plantes sont indispensables à toute vie sur Terre.',
-        hints: ['Les plantes sont à la base de toute chaîne alimentaire', 'Tous les animaux dépendent des plantes']
+        hints: ['Les plantes sont à la base de toute chaîne alimentaire', 'Tous les animaux dépendent des plantes', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -3419,7 +3419,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'prédateur',
         explanation: 'Un prédateur est un animal qui chasse et capture d\'autres animaux (appelés proies) pour se nourrir. Exemples de prédateurs : le lion, l\'aigle, le requin, le renard. Les prédateurs ont souvent des sens développés et des armes naturelles (griffes, dents).',
-        hints: ['C\'est le contraire de "proie"', 'Le lion en est un exemple']
+        hints: ['C\'est le contraire de "proie"', 'Le lion en est un exemple', 'La réponse est : prédateur']
       }
     ]
   },
@@ -3441,7 +3441,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Seulement une ampoule', 'Une pile, une ampoule et des fils électriques', 'Seulement une pile', 'De l\'eau et du soleil'],
         correctAnswer: 'Une pile, une ampoule et des fils électriques',
         explanation: 'Pour allumer une ampoule, il faut créer un circuit électrique fermé. On a besoin d\'une source d\'énergie (la pile), d\'un récepteur (l\'ampoule) et de conducteurs (les fils) pour relier les éléments.',
-        hints: ['Il faut plusieurs éléments', 'Il faut une source d\'énergie et des fils pour la relier']
+        hints: ['Il faut plusieurs éléments', 'Il faut une source d\'énergie et des fils pour la relier', 'La réponse est : Une pile, une ampoule et des fils électriques']
       },
       {
         id: 'q2',
@@ -3450,7 +3450,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un circuit dans une boîte', 'Un circuit où le courant peut circuler sans interruption', 'Un circuit avec un interrupteur ouvert', 'Un circuit dangereux'],
         correctAnswer: 'Un circuit où le courant peut circuler sans interruption',
         explanation: 'Un circuit électrique fermé est un circuit où tous les éléments sont reliés sans interruption, formant une boucle. Le courant électrique peut circuler de la borne + de la pile jusqu\'à la borne -, et l\'ampoule s\'allume.',
-        hints: ['Le courant peut circuler', 'Il forme une boucle complète']
+        hints: ['Le courant peut circuler', 'Il forme une boucle complète', 'La réponse est : Un circuit où le courant peut circuler sans interruption']
       },
       {
         id: 'q3',
@@ -3468,7 +3468,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un matériau qui bloque l\'électricité', 'Un matériau qui laisse passer l\'électricité', 'Un matériau qui produit de l\'électricité', 'Un matériau qui stocke l\'électricité'],
         correctAnswer: 'Un matériau qui laisse passer l\'électricité',
         explanation: 'Un matériau conducteur est un matériau qui laisse passer le courant électrique. Les métaux (cuivre, fer, aluminium, or) sont de bons conducteurs. C\'est pourquoi les fils électriques sont en cuivre.',
-        hints: ['Le courant peut y circuler', 'Les métaux en sont des exemples']
+        hints: ['Le courant peut y circuler', 'Les métaux en sont des exemples', 'La réponse est : Un matériau qui laisse passer l\'électricité']
       },
       {
         id: 'q5',
@@ -3494,7 +3494,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'isolant',
         explanation: 'Un isolant est un matériau qui ne laisse pas passer le courant électrique. Les isolants protègent du courant électrique. Exemples : le plastique, le bois, le verre, le caoutchouc. Les fils électriques sont recouverts de plastique isolant.',
-        hints: ['C\'est le contraire de "conducteur"', 'Le plastique en est un exemple']
+        hints: ['C\'est le contraire de "conducteur"', 'Le plastique en est un exemple', 'La réponse est : isolant']
       },
       {
         id: 'q8',
@@ -3503,7 +3503,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'autre ampoule brille plus fort', 'L\'autre ampoule s\'éteint aussi', 'L\'autre ampoule continue de briller normalement', 'La pile se décharge'],
         correctAnswer: 'L\'autre ampoule s\'éteint aussi',
         explanation: 'Dans un circuit en série, tous les éléments sont reliés les uns après les autres. Si on enlève une ampoule, le circuit est ouvert et le courant ne peut plus circuler. L\'autre ampoule s\'éteint donc aussi.',
-        hints: ['Le circuit est interrompu', 'C\'est comme un interrupteur ouvert']
+        hints: ['Le circuit est interrompu', 'C\'est comme un interrupteur ouvert', 'La réponse est : L\'autre ampoule s\'éteint aussi']
       },
       {
         id: 'q9',
@@ -3512,7 +3512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Une pile possède deux bornes (pôles) : une borne positive (+) et une borne négative (-). Le courant électrique circule de la borne + vers la borne - à l\'extérieur de la pile. Il faut relier ces deux bornes avec un circuit pour que le courant circule.',
-        hints: ['Il y a un pôle positif et un pôle négatif', 'Le courant va du + vers le -']
+        hints: ['Il y a un pôle positif et un pôle négatif', 'Le courant va du + vers le -', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -3520,7 +3520,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'interrupteur',
         explanation: 'L\'interrupteur est un composant qui permet d\'ouvrir ou de fermer un circuit électrique. Quand on appuie dessus, il ferme le circuit et le courant passe (l\'ampoule s\'allume). Quand on rappuie, il ouvre le circuit et le courant s\'arrête (l\'ampoule s\'éteint).',
-        hints: ['On en trouve sur les murs pour allumer la lumière', 'Il permet de contrôler le circuit']
+        hints: ['On en trouve sur les murs pour allumer la lumière', 'Il permet de contrôler le circuit', 'La réponse est : interrupteur']
       }
     ]
   },
@@ -3544,7 +3544,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['hand', 'head', 'leg', 'foot'],
         correctAnswer: 'head',
         explanation: 'En anglais, "la tête" se dit "head". C\'est un mot très important car c\'est la partie du corps qui contient le cerveau !',
-        hints: ['Cela commence par la lettre H', 'C\'est un mot de 4 lettres']
+        hints: ['Cela commence par la lettre H', 'C\'est un mot de 4 lettres', 'La réponse est : head']
       },
       {
         id: 'q2',
@@ -3570,7 +3570,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'legs',
         explanation: '"Legs" signifie "jambes" en français. On utilise nos jambes pour marcher, courir et sauter.',
-        hints: ['Cela commence par L', 'C\'est le pluriel']
+        hints: ['Cela commence par L', 'C\'est le pluriel', 'La réponse est : legs']
       },
       {
         id: 'q5',
@@ -3579,7 +3579,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['mouth', 'nose', 'ear', 'eye'],
         correctAnswer: 'mouth',
         explanation: '"Mouth" signifie "la bouche". C\'est avec la bouche qu\'on parle et qu\'on mange.',
-        hints: ['Cela commence par M', 'On l\'utilise pour parler']
+        hints: ['Cela commence par M', 'On l\'utilise pour parler', 'La réponse est : mouth']
       },
       {
         id: 'q6',
@@ -3588,7 +3588,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! "Foot" signifie "pied" (un seul) et "feet" signifie "pieds" (plusieurs). C\'est un pluriel irrégulier en anglais.',
-        hints: ['Pense à "one foot, two feet"', 'C\'est comme tooth/teeth']
+        hints: ['Pense à "one foot, two feet"', 'C\'est comme tooth/teeth', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -3597,7 +3597,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['le nez', 'la main', 'le pied', 'l\'oreille'],
         correctAnswer: 'la main',
         explanation: '"Hand" signifie "la main" en français. On utilise nos mains pour écrire, attraper des objets et toucher.',
-        hints: ['C\'est au bout du bras', 'On a 5 doigts sur chaque']
+        hints: ['C\'est au bout du bras', 'On a 5 doigts sur chaque', 'La réponse est : la main']
       },
       {
         id: 'q8',
@@ -3605,7 +3605,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'nose',
         explanation: '"Nose" signifie "nez" en français. Le nez nous permet de sentir les odeurs.',
-        hints: ['Cela commence par N', 'C\'est au milieu du visage']
+        hints: ['Cela commence par N', 'C\'est au milieu du visage', 'La réponse est : nose']
       },
       {
         id: 'q9',
@@ -3614,7 +3614,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! "Ear" (oreille) se prononce [ir] en anglais, ce qui ressemble au mot français "aire".',
-        hints: ['Écoute bien la prononciation', 'Le son est proche']
+        hints: ['Écoute bien la prononciation', 'Le son est proche', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -3623,7 +3623,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2 lettres', '3 lettres', '4 lettres', '5 lettres'],
         correctAnswer: '3 lettres',
         explanation: '"Eye" s\'écrit avec 3 lettres : E-Y-E. C\'est un mot court mais important !',
-        hints: ['Compte bien les lettres : e-y-e', 'C\'est moins de 4']
+        hints: ['Compte bien les lettres : e-y-e', 'C\'est moins de 4', 'La réponse est : 3 lettres']
       }
     ]
   },
@@ -3645,7 +3645,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['shirt', 'shoes', 'socks', 'shorts'],
         correctAnswer: 'shirt',
         explanation: '"Shirt" signifie "chemise" en anglais. C\'est un vêtement qu\'on porte sur le haut du corps.',
-        hints: ['Cela commence par SH', 'C\'est pour le haut du corps']
+        hints: ['Cela commence par SH', 'C\'est pour le haut du corps', 'La réponse est : shirt']
       },
       {
         id: 'q2',
@@ -3671,7 +3671,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dress',
         explanation: '"Dress" signifie "robe" en anglais. C\'est un vêtement d\'une seule pièce pour tout le corps.',
-        hints: ['Cela commence par D', 'C\'est un vêtement féminin en une pièce']
+        hints: ['Cela commence par D', 'C\'est un vêtement féminin en une pièce', 'La réponse est : dress']
       },
       {
         id: 'q5',
@@ -3680,7 +3680,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['hat', 'hand', 'head', 'heart'],
         correctAnswer: 'hat',
         explanation: '"Hat" signifie "chapeau" en anglais. On le porte sur la tête pour se protéger du soleil ou du froid.',
-        hints: ['Cela commence par H', 'C\'est un mot de 3 lettres']
+        hints: ['Cela commence par H', 'C\'est un mot de 3 lettres', 'La réponse est : hat']
       },
       {
         id: 'q6',
@@ -3689,7 +3689,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! "Coat" signifie "manteau", un vêtement qu\'on porte quand il fait froid, pas chaud.',
-        hints: ['Pense à l\'hiver', 'Un manteau protège du froid']
+        hints: ['Pense à l\'hiver', 'Un manteau protège du froid', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -3706,7 +3706,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'socks',
         explanation: '"Socks" signifie "chaussettes" en anglais. On les porte avant les chaussures pour protéger nos pieds.',
-        hints: ['Cela commence par S', 'C\'est le pluriel, on en met deux']
+        hints: ['Cela commence par S', 'C\'est le pluriel, on en met deux', 'La réponse est : socks']
       },
       {
         id: 'q9',
@@ -3715,7 +3715,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! "Dress" est au singulier (une robe), mais "trousers" est toujours au pluriel en anglais (un pantalon).',
-        hints: ['Un seul des deux est au pluriel', '"Trousers" a un S à la fin']
+        hints: ['Un seul des deux est au pluriel', '"Trousers" a un S à la fin', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -3746,7 +3746,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['What time is it?', 'How time is it?', 'When time is it?', 'Which time is it?'],
         correctAnswer: 'What time is it?',
         explanation: 'On demande l\'heure en disant "What time is it?" qui signifie littéralement "Quelle heure est-il ?"',
-        hints: ['Cela commence par "What"', 'C\'est une question avec "time"']
+        hints: ['Cela commence par "What"', 'C\'est une question avec "time"', 'La réponse est : What time is it?']
       },
       {
         id: 'q2',
@@ -3755,7 +3755,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['et quart', 'et demie', 'heure(s) pile', 'moins le quart'],
         correctAnswer: 'heure(s) pile',
         explanation: '"O\'clock" s\'utilise pour les heures exactes, pile. Par exemple : "It\'s three o\'clock" = "Il est trois heures pile".',
-        hints: ['C\'est pour les heures rondes', 'Sans minutes']
+        hints: ['C\'est pour les heures rondes', 'Sans minutes', 'La réponse est : heure(s) pile']
       },
       {
         id: 'q3',
@@ -3764,7 +3764,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! "Half past" signifie "et demie". Donc "half past three" = "trois heures et demie" (3h30).',
-        hints: ['"Half" veut dire "moitié"', '"Past" veut dire "passé"']
+        hints: ['"Half" veut dire "moitié"', '"Past" veut dire "passé"', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -3772,7 +3772,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'o\'clock',
         explanation: 'Pour dire une heure pile, on ajoute "o\'clock" après le chiffre. "It\'s five o\'clock" = "Il est cinq heures pile".',
-        hints: ['C\'est pour les heures exactes', 'Cela contient "clock"']
+        hints: ['C\'est pour les heures exactes', 'Cela contient "clock"', 'La réponse est : o\'clock']
       },
       {
         id: 'q5',
@@ -3781,7 +3781,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['It\'s half past seven', 'It\'s seven half', 'It\'s quarter past seven', 'It\'s seven o\'clock'],
         correctAnswer: 'It\'s half past seven',
         explanation: 'On dit "It\'s half past seven" pour dire "Il est sept heures et demie". "Half past" = "et demie".',
-        hints: ['"Half" pour la demie', '"Past" après "half"']
+        hints: ['"Half" pour la demie', '"Past" après "half"', 'La réponse est : It\'s half past seven']
       },
       {
         id: 'q6',
@@ -3799,7 +3799,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il est neuf heures pile', 'Il est neuf heures et quart', 'Il est neuf heures et demie', 'Il est huit heures'],
         correctAnswer: 'Il est neuf heures pile',
         explanation: '"It\'s nine o\'clock" signifie "Il est neuf heures pile" (9h00 exactement).',
-        hints: ['"O\'clock" = heure pile', 'Nine = neuf']
+        hints: ['"O\'clock" = heure pile', 'Nine = neuf', 'La réponse est : Il est neuf heures pile']
       },
       {
         id: 'q8',
@@ -3807,7 +3807,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'quarter',
         explanation: '"Quarter past" signifie "et quart". Donc "It\'s quarter past ten" = "Il est dix heures et quart" (10h15).',
-        hints: ['Cela commence par Q', 'C\'est 15 minutes']
+        hints: ['Cela commence par Q', 'C\'est 15 minutes', 'La réponse est : quarter']
       },
       {
         id: 'q9',
@@ -3816,7 +3816,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! "Twelve" peut signifier midi (12h00). Donc "half past twelve" = "midi et demi" (12h30).',
-        hints: ['Twelve = 12', 'Half past = et demie']
+        hints: ['Twelve = 12', 'Half past = et demie', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -3825,7 +3825,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il est quatre heures moins le quart', 'Il est quatre heures et quart', 'Il est quatre heures et demie', 'Il est cinq heures et quart'],
         correctAnswer: 'Il est quatre heures et quart',
         explanation: '"Quarter past four" signifie "quatre heures et quart" (4h15). "Quarter past" = "et quart".',
-        hints: ['"Past" indique après l\'heure', 'Four = quatre']
+        hints: ['"Past" indique après l\'heure', 'Four = quatre', 'La réponse est : Il est quatre heures et quart']
       }
     ]
   },
@@ -3858,7 +3858,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les Gaulois', 'Les hommes préhistoriques', 'Les chevaliers', 'Les Romains'],
         correctAnswer: 'Les hommes préhistoriques',
         explanation: 'Les hommes préhistoriques sont les premiers humains. Ils vivaient souvent dans des grottes ou des abris sous roche pour se protéger du froid et des animaux sauvages.',
-        hints: ['Ils vivaient pendant la Préhistoire', 'Ils s\'abritaient dans des grottes']
+        hints: ['Ils vivaient pendant la Préhistoire', 'Ils s\'abritaient dans des grottes', 'La réponse est : Les hommes préhistoriques']
       },
       {
         id: 'q3',
@@ -3867,7 +3867,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les premiers outils étaient fabriqués en pierre taillée. C\'est pourquoi on appelle cette période "l\'âge de la pierre" (Paléolithique). Plus tard, ils ont aussi utilisé l\'os et le bois.',
-        hints: ['On parle de "l\'âge de la pierre"', 'Ils taillaient des silex']
+        hints: ['On parle de "l\'âge de la pierre"', 'Ils taillaient des silex', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -3876,7 +3876,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'électricité', 'Le feu', 'La roue', 'L\'écriture'],
         correctAnswer: 'Le feu',
         explanation: 'La maîtrise du feu est une découverte majeure de la Préhistoire. Le feu permettait de se chauffer, s\'éclairer la nuit, cuire les aliments et éloigner les animaux sauvages.',
-        hints: ['C\'est quelque chose de chaud et lumineux', 'Il produit de la chaleur et de la lumière']
+        hints: ['C\'est quelque chose de chaud et lumineux', 'Il produit de la chaleur et de la lumière', 'La réponse est : Le feu']
       },
       {
         id: 'q5',
@@ -3885,7 +3885,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'art pariétal (peintures sur les parois des grottes) est célèbre. La grotte de Lascaux en France contient de magnifiques peintures d\'animaux (chevaux, bisons, cerfs) réalisées il y a environ 17 000 ans.',
-        hints: ['La grotte de Lascaux est très connue', 'Ils dessinaient des animaux']
+        hints: ['La grotte de Lascaux est très connue', 'Ils dessinaient des animaux', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -3894,7 +3894,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le mammouth', 'Le dinosaure', 'Le bison', 'Le cheval sauvage'],
         correctAnswer: 'Le dinosaure',
         explanation: 'Les dinosaures ont disparu il y a 66 millions d\'années, bien avant l\'apparition des premiers hommes (il y a environ 3 millions d\'années). Les mammouths, bisons et chevaux vivaient avec les hommes préhistoriques.',
-        hints: ['Les dinosaures ont disparu bien avant', 'Les premiers hommes n\'ont jamais vu de dinosaures']
+        hints: ['Les dinosaures ont disparu bien avant', 'Les premiers hommes n\'ont jamais vu de dinosaures', 'La réponse est : Le dinosaure']
       },
       {
         id: 'q7',
@@ -3902,7 +3902,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'néolithique',
         explanation: 'Le Néolithique (nouvel âge de la pierre) est la période où l\'homme devient agriculteur et éleveur au lieu d\'être uniquement chasseur-cueilleur. Cette révolution a commencé il y a environ 10 000 ans.',
-        hints: ['C\'est le "nouvel âge de la pierre"', 'Cela commence par "néo" (nouveau)']
+        hints: ['C\'est le "nouvel âge de la pierre"', 'Cela commence par "néo" (nouveau)', 'La réponse est : néolithique']
       },
       {
         id: 'q8',
@@ -3911,7 +3911,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des poissons uniquement', 'De grands animaux comme le mammouth et le bison', 'Des insectes', 'Des oiseaux uniquement'],
         correctAnswer: 'De grands animaux comme le mammouth et le bison',
         explanation: 'Les hommes préhistoriques chassaient de grands animaux comme le mammouth, le bison, le renne et le cerf. La viande leur fournissait de la nourriture, et les peaux servaient à fabriquer des vêtements et des abris.',
-        hints: ['Ce sont de grands animaux', 'Le mammouth était très chassé']
+        hints: ['Ce sont de grands animaux', 'Le mammouth était très chassé', 'La réponse est : De grands animaux comme le mammouth et le bison']
       },
       {
         id: 'q9',
@@ -3929,7 +3929,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chasseur', 'Cueilleur', 'Tailleur de pierre', 'Boulanger'],
         correctAnswer: 'Boulanger',
         explanation: 'Le métier de boulanger n\'existait pas car il n\'y avait pas de villages ni de commerces organisés. Les hommes préhistoriques étaient chasseurs (ils chassaient le gibier), cueilleurs (ils ramassaient des fruits et plantes) et taillaient leurs outils en pierre.',
-        hints: ['Pense aux métiers liés aux villes et au commerce', 'Le pain nécessite une organisation complexe']
+        hints: ['Pense aux métiers liés aux villes et au commerce', 'Le pain nécessite une organisation complexe', 'La réponse est : Boulanger']
       }
     ]
   },
@@ -3951,7 +3951,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Bretagne', 'La Gaule', 'La Germanie', 'L\'Hispanie'],
         correctAnswer: 'La Gaule',
         explanation: 'La France s\'appelait la Gaule à l\'époque des Gaulois. Ce territoire s\'étendait de la Méditerranée jusqu\'au Rhin et à l\'océan Atlantique.',
-        hints: ['C\'est un mot qui ressemble à "Gaulois"', 'Cela commence par G']
+        hints: ['C\'est un mot qui ressemble à "Gaulois"', 'Cela commence par G', 'La réponse est : La Gaule']
       },
       {
         id: 'q2',
@@ -3969,7 +3969,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les Gaulois étaient réputés pour leur travail du fer et du bronze. Ils fabriquaient des armes, des bijoux, des outils et même des tonneaux (qu\'ils ont inventés !).',
-        hints: ['Ils travaillaient le fer et le bronze', 'Ils ont inventé le tonneau']
+        hints: ['Ils travaillaient le fer et le bronze', 'Ils ont inventé le tonneau', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -3978,7 +3978,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Napoléon', 'Jules César', 'Charlemagne', 'Louis XIV'],
         correctAnswer: 'Jules César',
         explanation: 'Jules César a conquis la Gaule entre 58 et 52 avant J.-C. Cette conquête est racontée dans son livre "La Guerre des Gaules". Il a vaincu le chef gaulois Vercingétorix à Alésia.',
-        hints: ['C\'est un célèbre général et homme politique romain', 'Il a écrit "La Guerre des Gaules"']
+        hints: ['C\'est un célèbre général et homme politique romain', 'Il a écrit "La Guerre des Gaules"', 'La réponse est : Jules César']
       },
       {
         id: 'q5',
@@ -3987,7 +3987,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Astérix', 'Vercingétorix', 'Clovis', 'Charlemagne'],
         correctAnswer: 'Vercingétorix',
         explanation: 'Vercingétorix était le chef arverne qui a uni les tribus gauloises pour résister à Jules César. Il a été vaincu à Alésia en 52 avant J.-C. après un long siège.',
-        hints: ['C\'est un vrai personnage historique', 'Il a été vaincu à Alésia']
+        hints: ['C\'est un vrai personnage historique', 'Il a été vaincu à Alésia', 'La réponse est : Vercingétorix']
       },
       {
         id: 'q6',
@@ -3996,7 +3996,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Après la conquête, la culture gauloise s\'est mélangée avec la culture romaine, créant une nouvelle civilisation appelée "gallo-romaine". Les Gaulois ont adopté la langue latine, les routes, les aqueducs et les thermes romains.',
-        hints: ['Gallo = Gaulois, Romain = des Romains', 'C\'est un mélange des deux cultures']
+        hints: ['Gallo = Gaulois, Romain = des Romains', 'C\'est un mélange des deux cultures', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -4004,7 +4004,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'aqueduc',
         explanation: 'Les aqueducs étaient des constructions permettant de transporter l\'eau des sources jusqu\'aux villes. Le plus célèbre en France est le pont du Gard, près de Nîmes. Ces constructions montrent le génie des ingénieurs romains.',
-        hints: ['Le mot contient "aqua" qui signifie "eau" en latin', 'Le pont du Gard en est un exemple']
+        hints: ['Le mot contient "aqua" qui signifie "eau" en latin', 'Le pont du Gard en est un exemple', 'La réponse est : aqueduc']
       },
       {
         id: 'q8',
@@ -4013,7 +4013,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des avions', 'Des routes pavées', 'Des trains', 'Des bateaux à moteur'],
         correctAnswer: 'Des routes pavées',
         explanation: 'Les Romains ont construit un immense réseau de routes pavées très solides. Ces voies romaines permettaient de déplacer rapidement les armées et de faire du commerce. Beaucoup de nos routes actuelles suivent encore leur tracé !',
-        hints: ['Ces voies existent encore aujourd\'hui', 'Elles étaient faites de pierres']
+        hints: ['Ces voies existent encore aujourd\'hui', 'Elles étaient faites de pierres', 'La réponse est : Des routes pavées']
       },
       {
         id: 'q9',
@@ -4022,7 +4022,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les thermes étaient des bains publics où les Romains venaient se laver, se détendre, faire du sport et discuter. C\'étaient des lieux de rencontre très importants dans la vie quotidienne romaine.',
-        hints: ['C\'était un lieu de bain et de détente', 'On y allait pour se laver']
+        hints: ['C\'était un lieu de bain et de détente', 'On y allait pour se laver', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -4031,7 +4031,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le grec', 'Le latin', 'L\'anglais', 'L\'allemand'],
         correctAnswer: 'Le latin',
         explanation: 'Les Romains parlaient le latin. Cette langue s\'est répandue dans tout l\'Empire romain et a évolué pour donner naissance au français, à l\'espagnol, à l\'italien, au portugais et au roumain.',
-        hints: ['C\'est une langue ancienne', 'Le français en descend']
+        hints: ['C\'est une langue ancienne', 'Le français en descend', 'La réponse est : Le latin']
       }
     ]
   },
@@ -4053,7 +4053,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4 continents', '5 continents', '6 continents', '7 continents'],
         correctAnswer: '6 continents',
         explanation: 'Il y a 6 continents sur Terre : l\'Europe, l\'Asie, l\'Afrique, l\'Amérique (Nord et Sud), l\'Océanie et l\'Antarctique. Certains comptent l\'Amérique du Nord et l\'Amérique du Sud séparément (7 continents).',
-        hints: ['Compte : Europe, Asie, Afrique, Amérique, Océanie, Antarctique', 'C\'est plus de 5']
+        hints: ['Compte : Europe, Asie, Afrique, Amérique, Océanie, Antarctique', 'C\'est plus de 5', 'La réponse est : 6 continents']
       },
       {
         id: 'q2',
@@ -4062,7 +4062,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Asie', 'L\'Afrique', 'L\'Europe', 'L\'Amérique'],
         correctAnswer: 'L\'Europe',
         explanation: 'La France se trouve sur le continent européen. L\'Europe est un continent situé à l\'ouest de l\'Asie, bordé par l\'océan Atlantique à l\'ouest et la mer Méditerranée au sud.',
-        hints: ['C\'est le continent où nous habitons', 'Paris est la capitale']
+        hints: ['C\'est le continent où nous habitons', 'Paris est la capitale', 'La réponse est : L\'Europe']
       },
       {
         id: 'q3',
@@ -4089,7 +4089,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3 océans', '4 océans', '5 océans', '6 océans'],
         correctAnswer: '5 océans',
         explanation: 'Il y a 5 océans sur Terre : l\'océan Pacifique (le plus grand), l\'océan Atlantique, l\'océan Indien, l\'océan Arctique (au nord) et l\'océan Antarctique (au sud).',
-        hints: ['Pacifique, Atlantique, Indien, Arctique, Antarctique', 'C\'est un chiffre impair']
+        hints: ['Pacifique, Atlantique, Indien, Arctique, Antarctique', 'C\'est un chiffre impair', 'La réponse est : 5 océans']
       },
       {
         id: 'q6',
@@ -4098,7 +4098,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'Antarctique est le continent le plus froid et le plus sec de la Terre. Il est situé au pôle Sud et presque entièrement recouvert de glace. Seuls des scientifiques y vivent temporairement.',
-        hints: ['C\'est le continent du pôle Sud', 'Il fait très froid là-bas']
+        hints: ['C\'est le continent du pôle Sud', 'Il fait très froid là-bas', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -4157,7 +4157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Douze virgule cinq', 'Douze et cinq dixièmes', 'Douze et demi', 'Toutes ces réponses sont correctes'],
         correctAnswer: 'Toutes ces réponses sont correctes',
         explanation: 'Le nombre 12,5 peut se lire de plusieurs façons : "douze virgule cinq", "douze et cinq dixièmes" ou "douze et demi". Toutes ces lectures sont correctes !',
-        hints: ['Pense aux différentes façons de dire un nombre avec une virgule', 'Le 5 après la virgule représente 5 dixièmes']
+        hints: ['Pense aux différentes façons de dire un nombre avec une virgule', 'Le 5 après la virgule représente 5 dixièmes', 'La réponse est : Toutes ces réponses sont correctes']
       },
       {
         id: 'q2',
@@ -4166,7 +4166,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4', '5', '8', '7'],
         correctAnswer: '8',
         explanation: 'Dans 45,87, le 4 est le chiffre des dizaines, le 5 celui des unités, le 8 celui des dixièmes et le 7 celui des centièmes. Le premier chiffre après la virgule est toujours le chiffre des dixièmes.',
-        hints: ['Le chiffre des dixièmes est le premier chiffre après la virgule', 'Regarde juste après la virgule']
+        hints: ['Le chiffre des dixièmes est le premier chiffre après la virgule', 'Regarde juste après la virgule', 'La réponse est : 8']
       },
       {
         id: 'q3',
@@ -4184,7 +4184,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! 3,25 = 3 unités + 2 dixièmes + 5 centièmes = 3 unités + 25 centièmes = 300 centièmes + 25 centièmes = 325 centièmes.',
-        hints: ['Transforme tout en centièmes', '3 unités = 300 centièmes']
+        hints: ['Transforme tout en centièmes', '3 unités = 300 centièmes', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -4192,7 +4192,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '20',
         explanation: '1 unité = 10 dixièmes, donc 2 unités = 2 × 10 = 20 dixièmes. C\'est comme découper 2 gâteaux en 10 parts chacun : tu obtiens 20 parts !',
-        hints: ['1 unité = 10 dixièmes', 'Multiplie par 10']
+        hints: ['1 unité = 10 dixièmes', 'Multiplie par 10', 'La réponse est : 20']
       },
       {
         id: 'q6',
@@ -4201,7 +4201,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5,03 < 5,3 < 5,33', '5,3 < 5,03 < 5,33', '5,03 < 5,33 < 5,3', '5,33 < 5,3 < 5,03'],
         correctAnswer: '5,03 < 5,3 < 5,33',
         explanation: 'Pour comparer : 5,03 a 0 dixièmes (3 centièmes), 5,3 a 3 dixièmes (30 centièmes), 5,33 a 3 dixièmes et 3 centièmes (33 centièmes). Donc 5,03 < 5,30 < 5,33.',
-        hints: ['Compare les dixièmes en premier', '5,3 c\'est comme 5,30']
+        hints: ['Compare les dixièmes en premier', '5,3 c\'est comme 5,30', 'La réponse est : 5,03 < 5,3 < 5,33']
       },
       {
         id: 'q7',
@@ -4210,7 +4210,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! 4,5 = 4 + 0,5 = 4 + 5/10 = 4 + 1/2. C\'est donc exactement la moitié du chemin entre 4 et 5.',
-        hints: ['0,5 c\'est un demi', 'Pense à la moitié']
+        hints: ['0,5 c\'est un demi', 'Pense à la moitié', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -4219,7 +4219,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6,4', '6,04', '6,40', '64'],
         correctAnswer: '6,04',
         explanation: '6 unités et 4 centièmes s\'écrit 6,04. Attention : il y a 0 dixième et 4 centièmes. 6,4 serait 6 unités et 4 dixièmes (40 centièmes).',
-        hints: ['Le chiffre des centièmes est en deuxième position après la virgule', 'Il n\'y a pas de dixièmes']
+        hints: ['Le chiffre des centièmes est en deuxième position après la virgule', 'Il n\'y a pas de dixièmes', 'La réponse est : 6,04']
       },
       {
         id: 'q9',
@@ -4228,7 +4228,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Léa', 'Tom', 'Ils ont la même somme', 'On ne peut pas savoir'],
         correctAnswer: 'Tom',
         explanation: 'Tom a plus d\'argent. 8,8 € = 8,80 € et 8,80 € > 8,75 €. En comparant les centièmes : 80 centièmes > 75 centièmes, donc Tom a 5 centimes de plus que Léa.',
-        hints: ['8,8 c\'est comme 8,80', 'Compare les centièmes : 80 et 75']
+        hints: ['8,8 c\'est comme 8,80', 'Compare les centièmes : 80 et 75', 'La réponse est : Tom']
       },
       {
         id: 'q10',
@@ -4237,7 +4237,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! Les nombres entiers comme 5, 12 ou 100 sont aussi des nombres décimaux. On pourrait les écrire 5,0 ou 12,00 mais on ne met pas la virgule quand il n\'y a que des zéros après.',
-        hints: ['Pense aux nombres entiers', '5 est aussi un nombre décimal']
+        hints: ['Pense aux nombres entiers', '5 est aussi un nombre décimal', 'C\'est faux']
       }
     ]
   },
@@ -4258,7 +4258,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '100',
         explanation: '25 × 4 = 100. On peut calculer : 4 × 5 = 20 (on pose 0 et on retient 2), puis 4 × 2 = 8, plus la retenue 2 = 10. Résultat : 100. On peut aussi penser que 25 × 4 = 25 + 25 + 25 + 25.',
-        hints: ['Commence par multiplier 4 × 5', 'Pense aux retenues']
+        hints: ['Commence par multiplier 4 × 5', 'Pense aux retenues', 'La réponse est : 100']
       },
       {
         id: 'q2',
@@ -4267,7 +4267,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Par le 3', 'Par le 7', 'Par le 6', 'Peu importe'],
         correctAnswer: 'Par le 7',
         explanation: 'On commence toujours par multiplier le chiffre des unités du premier nombre (7) par le multiplicateur (6). Donc 6 × 7 = 42, on pose 2 et on retient 4. Ensuite 6 × 3 = 18, plus la retenue 4 = 22.',
-        hints: ['On commence par les unités', 'Regarde le chiffre le plus à droite']
+        hints: ['On commence par les unités', 'Regarde le chiffre le plus à droite', 'La réponse est : Par le 7']
       },
       {
         id: 'q3',
@@ -4276,7 +4276,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! Multiplier par 10, c\'est décaler tous les chiffres d\'un rang vers la gauche, ce qui revient à ajouter un zéro à droite. Par exemple : 23 × 10 = 230, 145 × 10 = 1450.',
-        hints: ['Pense à 5 × 10', 'Les chiffres se décalent vers la gauche']
+        hints: ['Pense à 5 × 10', 'Les chiffres se décalent vers la gauche', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -4284,7 +4284,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '369',
         explanation: '123 × 3 = 369. Étapes : 3 × 3 = 9 (on pose 9), 3 × 2 = 6 (on pose 6), 3 × 1 = 3 (on pose 3). Résultat : 369.',
-        hints: ['Multiplie chaque chiffre par 3 en commençant par la droite', 'Il n\'y a pas de retenue dans ce calcul']
+        hints: ['Multiplie chaque chiffre par 3 en commençant par la droite', 'Il n\'y a pas de retenue dans ce calcul', 'La réponse est : 369']
       },
       {
         id: 'q5',
@@ -4293,7 +4293,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['100 chocolats', '110 chocolats', '120 chocolats', '125 chocolats'],
         correctAnswer: '120 chocolats',
         explanation: 'Il faut calculer 24 × 5 = 120. On fait : 5 × 4 = 20 (on pose 0, retenue 2), puis 5 × 2 = 10, plus la retenue 2 = 12. Il y a donc 120 chocolats dans 5 boîtes.',
-        hints: ['Calcule 24 × 5', 'N\'oublie pas les retenues']
+        hints: ['Calcule 24 × 5', 'N\'oublie pas les retenues', 'La réponse est : 120 chocolats']
       },
       {
         id: 'q6',
@@ -4302,7 +4302,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! Dans une multiplication, les nombres qu\'on multiplie s\'appellent les facteurs et le résultat s\'appelle le produit. Par exemple, dans 5 × 7 = 35, le produit est 35.',
-        hints: ['Pense au vocabulaire mathématique', 'Le résultat d\'une addition est une somme']
+        hints: ['Pense au vocabulaire mathématique', 'Le résultat d\'une addition est une somme', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -4311,7 +4311,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['90', '450', '900', '9000'],
         correctAnswer: '900',
         explanation: '45 × 20 = 900. On peut calculer 45 × 2 = 90, puis multiplier par 10 en ajoutant un zéro : 90 × 10 = 900. Ou bien faire 45 × 20 directement : on pose un 0, puis on multiplie 45 × 2 = 90.',
-        hints: ['45 × 2 = 90, puis multiplie par 10', 'Quand on multiplie par 20, on multiplie par 2 puis par 10']
+        hints: ['45 × 2 = 90, puis multiplie par 10', 'Quand on multiplie par 20, on multiplie par 2 puis par 10', 'La réponse est : 900']
       },
       {
         id: 'q8',
@@ -4320,7 +4320,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! Dans une multiplication, on peut changer l\'ordre des facteurs sans changer le résultat. Par exemple : 7 × 5 = 35 et 5 × 7 = 35. C\'est la propriété de commutativité.',
-        hints: ['Essaie avec 3 × 4 et 4 × 3', 'C\'est la commutativité']
+        hints: ['Essaie avec 3 × 4 et 4 × 3', 'C\'est la commutativité', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -4329,7 +4329,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['98 €', '102 €', '108 €', '118 €'],
         correctAnswer: '108 €',
         explanation: 'Elle dépense 18 € × 6 = 108 €. Calcul : 6 × 8 = 48 (on pose 8, retenue 4), puis 6 × 1 = 6, plus la retenue 4 = 10. Résultat : 108 €.',
-        hints: ['Calcule 18 × 6', 'Attention à la retenue de 4']
+        hints: ['Calcule 18 × 6', 'Attention à la retenue de 4', 'La réponse est : 108 €']
       },
       {
         id: 'q10',
@@ -4359,7 +4359,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le kilomètre (km)', 'Le mètre (m)', 'Le centimètre (cm)', 'Le millimètre (mm)'],
         correctAnswer: 'Le centimètre (cm)',
         explanation: 'Le centimètre est l\'unité la plus adaptée pour mesurer un crayon (environ 17 cm). Le kilomètre est pour les grandes distances, le mètre pour des objets plus grands, et le millimètre serait trop petit comme unité principale.',
-        hints: ['Un crayon mesure environ 17...', 'Pense à la taille d\'un crayon']
+        hints: ['Un crayon mesure environ 17...', 'Pense à la taille d\'un crayon', 'La réponse est : Le centimètre (cm)']
       },
       {
         id: 'q2',
@@ -4367,7 +4367,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '100',
         explanation: '1 mètre = 100 centimètres. Le préfixe "centi" signifie centième, donc 1 cm = 1/100 de mètre, et il faut 100 cm pour faire 1 m.',
-        hints: ['Le préfixe "centi" signifie centième', 'Pense à 1 euro = 100 centimes']
+        hints: ['Le préfixe "centi" signifie centième', 'Pense à 1 euro = 100 centimes', 'La réponse est : 100']
       },
       {
         id: 'q3',
@@ -4376,7 +4376,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est vrai ! 1 kilomètre = 1000 mètres. Le préfixe "kilo" signifie mille. Par exemple, la distance entre deux villes se mesure en kilomètres.',
-        hints: ['Le préfixe "kilo" signifie mille', 'Pense à 1 kg = 1000 g']
+        hints: ['Le préfixe "kilo" signifie mille', 'Pense à 1 kg = 1000 g', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -4384,7 +4384,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '300',
         explanation: '3 m = 300 cm. Pour convertir des mètres en centimètres, on multiplie par 100 : 3 × 100 = 300 cm.',
-        hints: ['1 m = 100 cm', 'Multiplie 3 par 100']
+        hints: ['1 m = 100 cm', 'Multiplie 3 par 100', 'La réponse est : 300']
       },
       {
         id: 'q5',
@@ -4393,7 +4393,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['500 cm', '5 m', '50 dm', 'Elles sont toutes égales'],
         correctAnswer: 'Elles sont toutes égales',
         explanation: 'Ces trois mesures sont égales ! 500 cm = 5 m = 50 dm. En effet : 5 m = 5 × 100 = 500 cm, et 5 m = 5 × 10 = 50 dm (1 m = 10 dm).',
-        hints: ['Convertis tout en mètres ou en centimètres', '1 m = 100 cm et 1 m = 10 dm']
+        hints: ['Convertis tout en mètres ou en centimètres', '1 m = 100 cm et 1 m = 10 dm', 'La réponse est : Elles sont toutes égales']
       },
       {
         id: 'q6',
@@ -4402,7 +4402,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5 mm', '10 mm', '100 mm', '1000 mm'],
         correctAnswer: '10 mm',
         explanation: '1 centimètre = 10 millimètres. C\'est facile à voir sur une règle graduée : entre chaque centimètre, il y a 10 petites graduations qui représentent les millimètres.',
-        hints: ['Regarde ta règle graduée', 'Compte les petites graduations entre deux centimètres']
+        hints: ['Regarde ta règle graduée', 'Compte les petites graduations entre deux centimètres', 'La réponse est : 10 mm']
       },
       {
         id: 'q7',
@@ -4411,7 +4411,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'C\'est faux ! Pour convertir des kilomètres en mètres, on multiplie par 1000 (car 1 km = 1000 m). Par exemple : 2 km = 2 × 1000 = 2000 m. On diviserait par 1000 pour passer des mètres aux kilomètres.',
-        hints: ['1 km = 1000 m, donc 2 km = ?', 'On va vers une unité plus petite, donc le nombre augmente']
+        hints: ['1 km = 1000 m, donc 2 km = ?', 'On va vers une unité plus petite, donc le nombre augmente', 'C\'est faux']
       },
       {
         id: 'q8',
@@ -4420,7 +4420,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['135 cm', '136 cm', '145 cm', '235 cm'],
         correctAnswer: '135 cm',
         explanation: 'Lucas mesure 135 cm. Il faut additionner : 1 m = 100 cm, plus 35 cm = 100 + 35 = 135 cm.',
-        hints: ['1 m = 100 cm', 'Additionne 100 cm + 35 cm']
+        hints: ['1 m = 100 cm', 'Additionne 100 cm + 35 cm', 'La réponse est : 135 cm']
       },
       {
         id: 'q9',
@@ -4429,7 +4429,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['0,5 cm', '5 cm', '50 cm', '500 cm'],
         correctAnswer: '0,5 cm',
         explanation: '5 mm = 0,5 cm. Pour convertir des millimètres en centimètres, on divise par 10 (car 1 cm = 10 mm). Donc 5 ÷ 10 = 0,5 cm.',
-        hints: ['1 cm = 10 mm', 'Divise 5 par 10']
+        hints: ['1 cm = 10 mm', 'Divise 5 par 10', 'La réponse est : 0,5 cm']
       },
       {
         id: 'q10',
@@ -4438,7 +4438,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['150 m', '200 m', '300 m', '500 m'],
         correctAnswer: '300 m',
         explanation: 'Pour faire le tour du terrain, il faut calculer le périmètre : 100 m + 50 m + 100 m + 50 m = 300 m. On additionne les 4 côtés du rectangle.',
-        hints: ['Il faut parcourir 2 longueurs et 2 largeurs', 'Calcule : 100 + 50 + 100 + 50']
+        hints: ['Il faut parcourir 2 longueurs et 2 largeurs', 'Calcule : 100 + 50 + 100 + 50', 'La réponse est : 300 m']
       }
     ]
   },
@@ -4469,7 +4469,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/2', '1/3', 'Elles sont égales', 'On ne peut pas comparer'],
         correctAnswer: '1/2',
         explanation: '1/2 (la moitié) est plus grand que 1/3 (un tiers). Plus le dénominateur est grand, plus la part est petite !',
-        hints: ['Imagine une pizza coupée en 2, puis en 3', 'La moitié est plus grosse qu\'un tiers']
+        hints: ['Imagine une pizza coupée en 2, puis en 3', 'La moitié est plus grosse qu\'un tiers', 'La réponse est : 1/2']
       },
       {
         id: 'q3',
@@ -4478,7 +4478,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le numérateur', 'Le dénominateur', 'Le diviseur', 'Le quotient'],
         correctAnswer: 'Le dénominateur',
         explanation: 'Le nombre du bas est le dénominateur. Le nombre du haut est le numérateur.',
-        hints: ['En bas = dénominateur', 'En haut = numérateur']
+        hints: ['En bas = dénominateur', 'En haut = numérateur', 'La réponse est : Le dénominateur']
       },
       {
         id: 'q4',
@@ -4494,7 +4494,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 1/2 = 2/4 (un demi = deux quarts). Ce sont des fractions équivalentes.',
-        hints: ['Simplifie 2/4', 'C\'est vrai']
+        hints: ['Simplifie 2/4', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -4511,7 +4511,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/3', '1/2', '2/3', '1/4'],
         correctAnswer: '1/2',
         explanation: 'La moitié = 1/2 (une part sur deux)',
-        hints: ['Moitié = diviser en 2', 'C\'est 1/2']
+        hints: ['Moitié = diviser en 2', 'C\'est 1/2', 'La réponse est : 1/2']
       },
       {
         id: 'q8',
@@ -4536,7 +4536,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/5', '1/10', 'Elles sont égales'],
         correctAnswer: '1/10',
         explanation: '1/10 est plus petit que 1/5. Plus le dénominateur est grand, plus la fraction est petite.',
-        hints: ['Plus de parts = parts plus petites', 'C\'est 1/10']
+        hints: ['Plus de parts = parts plus petites', 'C\'est 1/10', 'La réponse est : 1/10']
       }
     ]
   },
@@ -4566,7 +4566,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '13.4',
         explanation: '13 unités et 4 dixièmes = 13,4',
-        hints: ['13 virgule 4', 'C\'est 13,4']
+        hints: ['13 virgule 4', 'C\'est 13,4', 'La réponse est : 13.4']
       },
       {
         id: 'q3',
@@ -4575,7 +4575,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['8 unités', '8 dixièmes', '8 centièmes', '8 dizaines'],
         correctAnswer: '8 centièmes',
         explanation: 'Le deuxième chiffre après la virgule représente les centièmes',
-        hints: ['Après la virgule : dixièmes puis centièmes', 'C\'est 8 centièmes']
+        hints: ['Après la virgule : dixièmes puis centièmes', 'C\'est 8 centièmes', 'La réponse est : 8 centièmes']
       },
       {
         id: 'q4',
@@ -4583,7 +4583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 5,2 = 5 + 0,2 = 5 + 2/10',
-        hints: ['Décompose le nombre', 'C\'est vrai']
+        hints: ['Décompose le nombre', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -4600,7 +4600,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: '1 unité = 10 dixièmes (1 = 10/10)',
-        hints: ['Divise 1 en 10 parts', 'C\'est 10']
+        hints: ['Divise 1 en 10 parts', 'C\'est 10', 'La réponse est : 10']
       },
       {
         id: 'q7',
@@ -4617,7 +4617,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4,5', '4,2', '4,9'],
         correctAnswer: '4,2',
         explanation: '4,2 < 4,5 < 4,9. Le plus petit est 4,2',
-        hints: ['Compare les dixièmes', '2 < 5 < 9']
+        hints: ['Compare les dixièmes', '2 < 5 < 9', 'La réponse est : 4,2']
       },
       {
         id: 'q9',
@@ -4625,7 +4625,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 0,5 = 5/10 = 1/2 (la moitié)',
-        hints: ['5 dixièmes = la moitié', 'C\'est vrai']
+        hints: ['5 dixièmes = la moitié', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -4633,7 +4633,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '18',
         explanation: 'Avant la virgule, c\'est la partie entière : 18 unités',
-        hints: ['Avant la virgule', 'C\'est 18']
+        hints: ['Avant la virgule', 'C\'est 18', 'La réponse est : 18']
       }
     ]
   },
@@ -4687,7 +4687,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Le périmètre se mesure en cm (longueur). L\'aire se mesure en cm² (surface).',
-        hints: ['Périmètre = longueur du contour', 'C\'est faux']
+        hints: ['Périmètre = longueur du contour', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -4704,7 +4704,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le carré', 'Le rectangle', 'Elles sont égales'],
         correctAnswer: 'Le carré',
         explanation: 'Carré : 5 × 5 = 25 cm². Rectangle : 6 × 4 = 24 cm². Le carré a une plus grande aire.',
-        hints: ['Calcule les deux aires', '25 > 24']
+        hints: ['Calcule les deux aires', '25 > 24', 'La réponse est : Le carré']
       },
       {
         id: 'q8',
@@ -4720,7 +4720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Par exemple : carré 4×4 (périmètre 16, aire 16) et rectangle 6×2 (périmètre 16, aire 12)',
-        hints: ['Teste avec un carré et un rectangle', 'C\'est vrai']
+        hints: ['Teste avec un carré et un rectangle', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -4749,7 +4749,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         id: 'q1',
         question: 'Si 3 croissants coûtent 4,50€, combien coûtent 5 croissants ?',
         type: 'fill-blank',
-        correctAnswer: '7.5',
+        correctAnswer: ['7.5', '7,5', '7.50', '7,50'],
         explanation: '1 croissant = 4,50 ÷ 3 = 1,50€. Donc 5 croissants = 5 × 1,50 = 7,50€',
         hints: ['Trouve d\'abord le prix d\'un croissant', '4,50 ÷ 3', 'Puis multiplie par 5']
       },
@@ -4768,7 +4768,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['250g', '300g', '350g', '400g'],
         correctAnswer: '300g',
         explanation: '1 personne = 200 ÷ 4 = 50g. Pour 6 personnes : 50 × 6 = 300g',
-        hints: ['Trouve pour 1 personne', 'Puis multiplie par 6']
+        hints: ['Trouve pour 1 personne', 'Puis multiplie par 6', 'La réponse est : 300g']
       },
       {
         id: 'q4',
@@ -4817,7 +4817,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! C\'est une propriété de la proportionnalité',
-        hints: ['2 fois plus = 2 fois le prix', 'C\'est vrai']
+        hints: ['2 fois plus = 2 fois le prix', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -4863,7 +4863,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 10% de 200 = 200 ÷ 10 = 20',
-        hints: ['10% = divise par 10', 'C\'est vrai']
+        hints: ['10% = divise par 10', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -4896,7 +4896,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 100% représente la totalité, l\'entier',
-        hints: ['100% = tout', 'C\'est vrai']
+        hints: ['100% = tout', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -4951,7 +4951,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 2 est le seul nombre premier pair. Il n\'est divisible que par 1 et 2.',
-        hints: ['Le seul pair premier', 'C\'est vrai']
+        hints: ['Le seul pair premier', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -4978,7 +4978,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['12', '14', '17', '18'],
         correctAnswer: '17',
         explanation: '17 est premier. 12 = 2×6, 14 = 2×7, 18 = 2×9',
-        hints: ['Teste la divisibilité', 'C\'est 17']
+        hints: ['Teste la divisibilité', 'C\'est 17', 'La réponse est : 17']
       },
       {
         id: 'q6',
@@ -4986,7 +4986,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Par exemple 9 est impair mais pas premier (9 = 3×3). 15 aussi (15 = 3×5).',
-        hints: ['9 est impair mais pas premier', 'C\'est faux']
+        hints: ['9 est impair mais pas premier', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -5011,7 +5011,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! 25 = 5 × 5, il n\'est pas premier',
-        hints: ['25 = 5 × 5', 'C\'est faux']
+        hints: ['25 = 5 × 5', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -5019,7 +5019,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '11',
         explanation: 'Après 10, le premier nombre premier est 11',
-        hints: ['Juste après 10', 'C\'est 11']
+        hints: ['Juste après 10', 'C\'est 11', 'La réponse est : 11']
       }
     ]
   },
@@ -5043,7 +5043,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/2', '1/3', '2/3', '3/4'],
         correctAnswer: '1/2',
         explanation: '2/4 = 1/2 car on divise le numérateur et le dénominateur par 2.',
-        hints: ['Cherche le diviseur commun', 'Divise 2 et 4 par 2']
+        hints: ['Cherche le diviseur commun', 'Divise 2 et 4 par 2', 'La réponse est : 1/2']
       },
       {
         id: 'q2',
@@ -5051,7 +5051,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2/3',
         explanation: '12/18 = 2/3 car on divise 12 et 18 par 6 (leur PGCD).',
-        hints: ['Cherche le plus grand diviseur commun', '12÷6=2, 18÷6=3']
+        hints: ['Cherche le plus grand diviseur commun', '12÷6=2, 18÷6=3', 'La réponse est : 2/3']
       },
       {
         id: 'q3',
@@ -5060,7 +5060,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3/8', '3/4', '1/2', '2/4'],
         correctAnswer: '3/4',
         explanation: 'Même dénominateur : on additionne les numérateurs. 1/4 + 2/4 = 3/4.',
-        hints: ['Même dénominateur', 'Additionne les numérateurs']
+        hints: ['Même dénominateur', 'Additionne les numérateurs', 'La réponse est : 3/4']
       },
       {
         id: 'q4',
@@ -5068,7 +5068,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Même dénominateur, on compare les numérateurs : 3 > 2.',
-        hints: ['Compare les numérateurs', 'C\'est vrai']
+        hints: ['Compare les numérateurs', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -5076,7 +5076,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3/5',
         explanation: '15/25 = 3/5 (on divise par 5). Une fraction irréductible ne peut plus être simplifiée.',
-        hints: ['Divise par 5', '15÷5=3, 25÷5=5']
+        hints: ['Divise par 5', '15÷5=3, 25÷5=5', 'La réponse est : 3/5']
       },
       {
         id: 'q6',
@@ -5085,7 +5085,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3/6', '3/0', '7/6', '2/6'],
         correctAnswer: '3/6',
         explanation: '5/6 - 2/6 = 3/6 = 1/2 (simplifié).',
-        hints: ['Même dénominateur', '5-2=3']
+        hints: ['Même dénominateur', '5-2=3', 'La réponse est : 3/6']
       },
       {
         id: 'q7',
@@ -5094,7 +5094,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['7', '12', '1', '3'],
         correctAnswer: '12',
         explanation: 'Le plus petit dénominateur commun de 3 et 4 est 12.',
-        hints: ['PPCM de 3 et 4', '3×4=12']
+        hints: ['PPCM de 3 et 4', '3×4=12', 'La réponse est : 12']
       },
       {
         id: 'q8',
@@ -5102,7 +5102,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7/12',
         explanation: '1/3 = 4/12 et 1/4 = 3/12. Donc 4/12 + 3/12 = 7/12.',
-        hints: ['Dénominateur commun : 12', '4/12 + 3/12']
+        hints: ['Dénominateur commun : 12', '4/12 + 3/12', 'La réponse est : 7/12']
       },
       {
         id: 'q9',
@@ -5110,7 +5110,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 4/8 = 1/2 (on divise par 4).',
-        hints: ['Simplifie', 'C\'est vrai']
+        hints: ['Simplifie', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -5119,7 +5119,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2/3', '3/4', 'Elles sont égales', 'On ne peut pas comparer'],
         correctAnswer: '3/4',
         explanation: '2/3 = 8/12 et 3/4 = 9/12. Donc 3/4 > 2/3.',
-        hints: ['Mets au même dénominateur', '9/12 > 8/12']
+        hints: ['Mets au même dénominateur', '9/12 > 8/12', 'La réponse est : 3/4']
       }
     ]
   },
@@ -5140,7 +5140,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-5',
         explanation: 'L\'opposé d\'un nombre a le signe contraire. L\'opposé de +5 est -5.',
-        hints: ['Change le signe', 'C\'est -5']
+        hints: ['Change le signe', 'C\'est -5', 'La réponse est : -5']
       },
       {
         id: 'q2',
@@ -5149,7 +5149,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-3', '-7', 'Ils sont égaux', '0'],
         correctAnswer: '-3',
         explanation: '-3 > -7 car -3 est plus proche de 0. Sur une droite graduée, -3 est à droite de -7.',
-        hints: ['Plus proche de 0', '-3 est à droite de -7']
+        hints: ['Plus proche de 0', '-3 est à droite de -7', 'La réponse est : -3']
       },
       {
         id: 'q3',
@@ -5157,7 +5157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Tous les nombres négatifs sont inférieurs à 0.',
-        hints: ['Les négatifs sont sous zéro', 'C\'est vrai']
+        hints: ['Les négatifs sont sous zéro', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -5165,7 +5165,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-2',
         explanation: '(+3) + (-5) = 3 - 5 = -2.',
-        hints: ['3 - 5', 'C\'est -2']
+        hints: ['3 - 5', 'C\'est -2', 'La réponse est : -2']
       },
       {
         id: 'q5',
@@ -5174,7 +5174,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Positif (+)', 'Négatif (-)', 'Zéro', 'Ça dépend'],
         correctAnswer: 'Positif (+)',
         explanation: 'Moins × moins = plus. (-4) × (-2) = +8.',
-        hints: ['Règle des signes', '- × - = +']
+        hints: ['Règle des signes', '- × - = +', 'La réponse est : Positif (+)']
       },
       {
         id: 'q6',
@@ -5183,7 +5183,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-5 < -1 < 0 < 2', '0 < -1 < -5 < 2', '-1 < -5 < 0 < 2', '2 < 0 < -1 < -5'],
         correctAnswer: '-5 < -1 < 0 < 2',
         explanation: 'Du plus petit au plus grand : -5, puis -1, puis 0, puis 2.',
-        hints: ['Les négatifs sont avant 0', '-5 est le plus petit']
+        hints: ['Les négatifs sont avant 0', '-5 est le plus petit', 'La réponse est : -5 < -1 < 0 < 2']
       },
       {
         id: 'q7',
@@ -5191,7 +5191,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '0',
         explanation: 'Un nombre et son opposé s\'annulent : (-8) + (+8) = 0.',
-        hints: ['Opposés', 'Ils s\'annulent']
+        hints: ['Opposés', 'Ils s\'annulent', 'La réponse est : 0']
       },
       {
         id: 'q8',
@@ -5199,7 +5199,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Plus × moins = moins. 3 × 4 = 12, donc +3 × -4 = -12.',
-        hints: ['+ × - = -', 'C\'est vrai']
+        hints: ['+ × - = -', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -5207,7 +5207,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-4',
         explanation: 'À gauche de 0, les nombres sont négatifs. 4 unités à gauche = -4.',
-        hints: ['À gauche = négatif', 'C\'est -4']
+        hints: ['À gauche = négatif', 'C\'est -4', 'La réponse est : -4']
       },
       {
         id: 'q10',
@@ -5216,7 +5216,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-8', '-4', '+4', '+8'],
         correctAnswer: '-4',
         explanation: '(-6) - (-2) = -6 + 2 = -4. Soustraire un négatif = ajouter un positif.',
-        hints: ['- (-2) = +2', '-6 + 2 = -4']
+        hints: ['- (-2) = +2', '-6 + 2 = -4', 'La réponse est : -4']
       }
     ]
   },
@@ -5238,7 +5238,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['P = L × l', 'P = 2 × (L + l)', 'P = L + l', 'P = 4 × côté'],
         correctAnswer: 'P = 2 × (L + l)',
         explanation: 'Le périmètre d\'un rectangle = 2 × (Longueur + largeur).',
-        hints: ['On fait le tour', '2 longueurs + 2 largeurs']
+        hints: ['On fait le tour', '2 longueurs + 2 largeurs', 'La réponse est : P = 2 × (L + l)']
       },
       {
         id: 'q2',
@@ -5246,7 +5246,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '25',
         explanation: 'Aire du carré = côté² = 5² = 25 cm².',
-        hints: ['côté × côté', '5 × 5']
+        hints: ['côté × côté', '5 × 5', 'La réponse est : 25']
       },
       {
         id: 'q3',
@@ -5255,7 +5255,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['12 cm²', '24 cm²', '32 cm²', '64 cm²'],
         correctAnswer: '32 cm²',
         explanation: 'Aire = Longueur × largeur = 8 × 4 = 32 cm².',
-        hints: ['L × l', '8 × 4']
+        hints: ['L × l', '8 × 4', 'La réponse est : 32 cm²']
       },
       {
         id: 'q4',
@@ -5272,7 +5272,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '30',
         explanation: 'Aire = (10 × 6) / 2 = 60 / 2 = 30 cm².',
-        hints: ['(base × hauteur) / 2', '60 / 2']
+        hints: ['(base × hauteur) / 2', '60 / 2', 'La réponse est : 30']
       },
       {
         id: 'q6',
@@ -5280,7 +5280,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La circonférence est le périmètre du cercle : C = 2 × π × r.',
-        hints: ['Le tour du cercle', 'C\'est vrai']
+        hints: ['Le tour du cercle', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -5289,7 +5289,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['A = 2 × π × r', 'A = π × r²', 'A = π × d', 'A = r²'],
         correctAnswer: 'A = π × r²',
         explanation: 'L\'aire d\'un disque = π × rayon².',
-        hints: ['Avec π et le rayon', 'π × r²']
+        hints: ['Avec π et le rayon', 'π × r²', 'La réponse est : A = π × r²']
       },
       {
         id: 'q8',
@@ -5297,7 +5297,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '18.84',
         explanation: 'C = 2 × π × r = 2 × 3,14 × 3 = 18,84 cm.',
-        hints: ['2 × π × r', '2 × 3,14 × 3']
+        hints: ['2 × π × r', '2 × 3,14 × 3', 'La réponse est : 18.84']
       },
       {
         id: 'q9',
@@ -5306,7 +5306,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['14 cm', '28 cm', '49 cm', '7 cm'],
         correctAnswer: '28 cm',
         explanation: 'Périmètre = 4 × côté = 4 × 7 = 28 cm.',
-        hints: ['4 côtés égaux', '4 × 7']
+        hints: ['4 côtés égaux', '4 × 7', 'La réponse est : 28 cm']
       },
       {
         id: 'q10',
@@ -5315,7 +5315,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['cm', 'cm²', 'cm³', 'm'],
         correctAnswer: 'cm²',
         explanation: 'L\'aire se mesure en unités carrées : cm², m², km²...',
-        hints: ['C\'est une surface', 'Avec un ²']
+        hints: ['C\'est une surface', 'Avec un ²', 'La réponse est : cm²']
       }
     ]
   },
@@ -5347,7 +5347,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1',
         explanation: 'CHAT = 1 syllabe',
-        hints: ['Dis le mot lentement', 'C\'est 1']
+        hints: ['Dis le mot lentement', 'C\'est 1', 'La réponse est : 1']
       },
       {
         id: 'q3',
@@ -5372,7 +5372,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! VÉ-LO = 2 syllabes',
-        hints: ['VÉ-LO', 'C\'est vrai']
+        hints: ['VÉ-LO', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -5381,7 +5381,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['CHAT', 'MAISON', 'CHOCOLAT', 'RUE'],
         correctAnswer: 'MAISON',
         explanation: 'MAI-SON = 2 syllabes. CHAT = 1, CHOCOLAT = 3, RUE = 1',
-        hints: ['MAI-SON', 'Compte les syllabes']
+        hints: ['MAI-SON', 'Compte les syllabes', 'La réponse est : MAISON']
       },
       {
         id: 'q7',
@@ -5397,7 +5397,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! É-COLE = 2 syllabes',
-        hints: ['É-COLE', 'C\'est faux']
+        hints: ['É-COLE', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -5406,7 +5406,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: 'OR-DI-NA-TEUR = 4 syllabes. (Note : peut varier selon la prononciation, acceptons 4 aussi)',
-        hints: ['OR-DI-NA-TEUR', 'Compte bien']
+        hints: ['OR-DI-NA-TEUR', 'Compte bien', 'La réponse est : 5']
       },
       {
         id: 'q10',
@@ -5415,7 +5415,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['PAIN', 'BÉBÉ', 'MOTO', 'PULL'],
         correctAnswer: 'PAIN',
         explanation: 'PAIN = 1 syllabe. BÉBÉ = 2, MOTO = 2, PULL = 1 (aussi acceptable)',
-        hints: ['Le plus court', 'PAIN']
+        hints: ['Le plus court', 'PAIN', 'La réponse est : PAIN']
       }
     ]
   },
@@ -5437,7 +5437,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['le', 'la', 'à l\'', 'au'],
         correctAnswer: 'à l\'',
         explanation: 'On dit "à l\'école" car "école" commence par une voyelle',
-        hints: ['École commence par une voyelle', 'On dit "à l\'"']
+        hints: ['École commence par une voyelle', 'On dit "à l\'"', 'La réponse est : à l\'']
       },
       {
         id: 'q2',
@@ -5446,7 +5446,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le', 'La', 'Les', 'Un'],
         correctAnswer: 'Le',
         explanation: 'Le chat (masculin singulier)',
-        hints: ['Chat est masculin', 'C\'est LE']
+        hints: ['Chat est masculin', 'C\'est LE', 'La réponse est : Le']
       },
       {
         id: 'q3',
@@ -5455,7 +5455,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['un', 'une', 'des', 'le'],
         correctAnswer: 'une',
         explanation: 'Une pomme (féminin singulier)',
-        hints: ['Pomme est féminin', 'C\'est UNE']
+        hints: ['Pomme est féminin', 'C\'est UNE', 'La réponse est : une']
       },
       {
         id: 'q4',
@@ -5463,7 +5463,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! On dit "LA maison" (féminin)',
-        hints: ['Maison est féminin', 'C\'est faux']
+        hints: ['Maison est féminin', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -5472,7 +5472,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le', 'La', 'Les', 'Un'],
         correctAnswer: 'Les',
         explanation: 'Les chiens (pluriel)',
-        hints: ['Il y en a plusieurs', 'C\'est LES']
+        hints: ['Il y en a plusieurs', 'C\'est LES', 'La réponse est : Les']
       },
       {
         id: 'q6',
@@ -5481,7 +5481,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['à le', 'au', 'à la', 'aux'],
         correctAnswer: 'au',
         explanation: 'Au parc (à + le = au)',
-        hints: ['à + le = au', 'C\'est AU']
+        hints: ['à + le = au', 'C\'est AU', 'La réponse est : au']
       },
       {
         id: 'q7',
@@ -5489,7 +5489,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "des" est un déterminant (mot outil)',
-        hints: ['C\'est vrai']
+        hints: ['C\'est vrai', 'Pense à ce que tu as appris', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -5498,7 +5498,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['un', 'une', 'des', 'le'],
         correctAnswer: 'un',
         explanation: 'Un livre (masculin singulier)',
-        hints: ['Livre est masculin', 'C\'est UN']
+        hints: ['Livre est masculin', 'C\'est UN', 'La réponse est : un']
       },
       {
         id: 'q9',
@@ -5507,7 +5507,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['le', 'la', 'un', 'des'],
         correctAnswer: 'des',
         explanation: 'Des bonbons (pluriel)',
-        hints: ['Plusieurs bonbons', 'C\'est DES']
+        hints: ['Plusieurs bonbons', 'C\'est DES', 'La réponse est : des']
       },
       {
         id: 'q10',
@@ -5515,7 +5515,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! On dit "L\'arbre" car arbre commence par une voyelle',
-        hints: ['Voyelle après', 'C\'est faux']
+        hints: ['Voyelle après', 'C\'est faux', 'C\'est faux']
       }
     ]
   },
@@ -5735,7 +5735,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! Dans CHAT, on entend le son [a] : CH-A-T.',
-        hints: ['Dis le mot lentement : CH-A-T', 'Écoute bien au milieu du mot', 'On entend [a] !']
+        hints: ['Dis le mot lentement : CH-A-T', 'Écoute bien au milieu du mot', 'C\'est vrai']
       },
       {
         id: 'q2',
@@ -5753,7 +5753,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['0 fois', '1 fois', '2 fois', '3 fois'],
         correctAnswer: '2 fois',
         explanation: 'Dans MOTO, on entend le son [o] deux fois : M-O-T-O. Une fois dans chaque syllabe !',
-        hints: ['Découpe le mot en syllabes : MO-TO', 'Compte les [o] : M-O... T-O', 'Il y en a 2 !']
+        hints: ['Découpe le mot en syllabes : MO-TO', 'Compte les [o] : M-O... T-O', 'La réponse est : 2 fois']
       },
       {
         id: 'q4',
@@ -5761,7 +5761,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Oui ! Dans LUNE, on entend le son [u] : L-U-NE.',
-        hints: ['Prononce le mot : LU-NE', 'Écoute bien la première syllabe', 'On entend [u] !']
+        hints: ['Prononce le mot : LU-NE', 'Écoute bien la première syllabe', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -5770,7 +5770,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['SAC', 'NID', 'NÉ', 'RIZ'],
         correctAnswer: 'NÉ',
         explanation: 'On entend le son [e] dans NÉ. Le é se prononce [e] comme dans \'bébé\'.',
-        hints: ['Cherche le son \'ééé\'', 'Le é (avec accent) fait le son [e]', 'C\'est dans NÉ']
+        hints: ['Cherche le son \'ééé\'', 'Le é (avec accent) fait le son [e]', 'La réponse est : NÉ']
       },
       {
         id: 'q6',
@@ -5779,7 +5779,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1ère syllabe', '2ème syllabe', '3ème syllabe', 'On ne l\'entend pas'],
         correctAnswer: '1ère syllabe',
         explanation: 'Dans SALADE (SA-LA-DE), on entend [a] dès la première syllabe : SA.',
-        hints: ['Découpe le mot : SA-LA-DE', 'Cherche [a] dans la première syllabe', 'C\'est dans SA']
+        hints: ['Découpe le mot : SA-LA-DE', 'Cherche [a] dans la première syllabe', 'La réponse est : 1ère syllabe']
       },
       {
         id: 'q7',
@@ -5805,7 +5805,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['[a] seulement', '[i] seulement', '[a] et [i]', '[o] et [u]'],
         correctAnswer: '[a] et [i]',
         explanation: 'Dans ANIMAL (A-NI-MAL), on entend [a] au début, puis [i] au milieu, et encore [a] à la fin.',
-        hints: ['Découpe : A-NI-MAL', 'Première syllabe : A = [a]', 'Deuxième syllabe : NI = [i]']
+        hints: ['Découpe : A-NI-MAL', 'Pense à ce que tu as appris', 'La réponse est : [a] et [i]']
       },
       {
         id: 'q10',
@@ -5956,7 +5956,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['chevals', 'cheveaux', 'chevaux', 'chevales'],
         correctAnswer: 'chevaux',
         explanation: 'Le pluriel de cheval est CHEVAUX (les mots en -al font -aux)',
-        hints: ['Les mots en -al font -aux', 'Comme journal → journaux']
+        hints: ['Les mots en -al font -aux', 'Comme journal → journaux', 'La réponse est : chevaux']
       },
       {
         id: 'q2',
@@ -5964,7 +5964,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jeux',
         explanation: 'JEU → JEUX au pluriel (les mots en -eu prennent un X)',
-        hints: ['Les mots en -eu prennent un X', 'C\'est JEUX']
+        hints: ['Les mots en -eu prennent un X', 'C\'est JEUX', 'La réponse est : jeux']
       },
       {
         id: 'q3',
@@ -5972,7 +5972,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chats',
         explanation: 'CHAT → CHATS (on ajoute un S)',
-        hints: ['Ajoute un S', 'C\'est CHATS']
+        hints: ['Ajoute un S', 'C\'est CHATS', 'La réponse est : chats']
       },
       {
         id: 'q4',
@@ -5980,7 +5980,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! NEZ ne change pas au pluriel (les mots en -z restent identiques)',
-        hints: ['Les mots en -z ne changent pas', 'C\'est faux']
+        hints: ['Les mots en -z ne changent pas', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -5989,7 +5989,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['bateaus', 'bateaux', 'bateauxs', 'bateau'],
         correctAnswer: 'bateaux',
         explanation: 'BATEAU → BATEAUX (les mots en -eau prennent un X)',
-        hints: ['Les mots en -eau prennent un X', 'C\'est BATEAUX']
+        hints: ['Les mots en -eau prennent un X', 'C\'est BATEAUX', 'La réponse est : bateaux']
       },
       {
         id: 'q6',
@@ -6005,7 +6005,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! MAISON → MAISONS (on ajoute un S)',
-        hints: ['On ajoute un S', 'C\'est vrai']
+        hints: ['On ajoute un S', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -6014,7 +6014,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['chous', 'choux', 'chouxs', 'chou'],
         correctAnswer: 'choux',
         explanation: 'CHOU → CHOUX (exception, prend un X)',
-        hints: ['Exception comme hibou', 'C\'est CHOUX']
+        hints: ['Exception comme hibou', 'C\'est CHOUX', 'La réponse est : choux']
       },
       {
         id: 'q9',
@@ -6022,7 +6022,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'journaux',
         explanation: 'JOURNAL → JOURNAUX (les mots en -al font -aux)',
-        hints: ['Les mots en -al font -aux', 'C\'est JOURNAUX']
+        hints: ['Les mots en -al font -aux', 'C\'est JOURNAUX', 'La réponse est : journaux']
       },
       {
         id: 'q10',
@@ -6030,7 +6030,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! PRIX ne change pas au pluriel (les mots en -x restent identiques)',
-        hints: ['Les mots en -x ne changent pas', 'C\'est faux']
+        hints: ['Les mots en -x ne changent pas', 'C\'est faux', 'C\'est faux']
       }
     ]
   },
@@ -6079,7 +6079,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['éleve', 'elève', 'élève', 'eleve'],
         correctAnswer: 'élève',
         explanation: 'Élève s\'écrit avec é au début et è avant le v',
-        hints: ['Il y a deux accents différents', 'é puis è']
+        hints: ['Il y a deux accents différents', 'é puis è', 'La réponse est : élève']
       },
       {
         id: 'q5',
@@ -6088,7 +6088,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['une étoile', 'une ètoile', 'une êtoile', 'une etoile'],
         correctAnswer: 'une étoile',
         explanation: 'Étoile s\'écrit avec un accent aigu : é',
-        hints: ['Le son "é" au début', 'Accent aigu']
+        hints: ['Le son "é" au début', 'Accent aigu', 'La réponse est : une étoile']
       },
       {
         id: 'q6',
@@ -6097,7 +6097,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Accent aigu (é)', 'Accent grave (è)', 'Accent circonflexe (ê)', 'Pas d\'accent'],
         correctAnswer: 'Accent circonflexe (ê)',
         explanation: 'Forêt s\'écrit avec un accent circonflexe : ê',
-        hints: ['Comme un petit chapeau', 'C\'est ê']
+        hints: ['Comme un petit chapeau', 'C\'est ê', 'La réponse est : Accent circonflexe (ê)']
       },
       {
         id: 'q7',
@@ -6106,7 +6106,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['téte', 'tète', 'tête', 'tete'],
         correctAnswer: 'tête',
         explanation: 'Tête s\'écrit avec un accent circonflexe : ê',
-        hints: ['Accent comme un chapeau', 'C\'est tête']
+        hints: ['Accent comme un chapeau', 'C\'est tête', 'La réponse est : tête']
       },
       {
         id: 'q8',
@@ -6115,7 +6115,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['la mére', 'la mère', 'la mêre', 'la mere'],
         correctAnswer: 'la mère',
         explanation: 'Mère s\'écrit avec un accent grave : è',
-        hints: ['Accent qui descend', 'C\'est mère']
+        hints: ['Accent qui descend', 'C\'est mère', 'La réponse est : la mère']
       },
       {
         id: 'q9',
@@ -6124,7 +6124,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le son "é" comme dans café', 'Le son "è" comme dans après', 'Le son "e" comme dans le', 'Aucun son'],
         correctAnswer: 'Le son "é" comme dans café',
         explanation: 'L\'accent aigu (é) fait le son "é" fermé, comme dans café ou été',
-        hints: ['Comme dans "été"', 'Bouche presque fermée']
+        hints: ['Comme dans "été"', 'Bouche presque fermée', 'La réponse est : Le son "é" comme dans café']
       },
       {
         id: 'q10',
@@ -6133,7 +6133,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['bébé', 'bèbè', 'bêbê', 'bebe'],
         correctAnswer: 'bébé',
         explanation: 'Bébé s\'écrit avec deux accents aigus : é',
-        hints: ['Deux fois le même accent', 'Accent aigu']
+        hints: ['Deux fois le même accent', 'Accent aigu', 'La réponse est : bébé']
       }
     ]
   },
@@ -6157,7 +6157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"Il a" = verbe avoir. Astuce : tu peux remplacer par "avait"',
-        hints: ['C\'est le verbe avoir', 'Tu peux dire "il avait"']
+        hints: ['C\'est le verbe avoir', 'Tu peux dire "il avait"', 'La réponse est : a']
       },
       {
         id: 'q2',
@@ -6166,7 +6166,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'à',
         explanation: '"à" avec accent indique un lieu (préposition). On ne peut pas dire "je vais avait Paris"',
-        hints: ['C\'est une préposition de lieu', 'On ne peut pas dire "avait"']
+        hints: ['C\'est une préposition de lieu', 'On ne peut pas dire "avait"', 'La réponse est : à']
       },
       {
         id: 'q3',
@@ -6175,7 +6175,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"a mangé" = passé composé avec avoir. Tu peux dire "Marie avait mangé"',
-        hints: ['Verbe avoir au passé composé', 'Remplace par "avait"']
+        hints: ['Verbe avoir au passé composé', 'Remplace par "avait"', 'La réponse est : a']
       },
       {
         id: 'q4',
@@ -6184,7 +6184,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'à',
         explanation: '"à côté" est une expression avec la préposition "à"',
-        hints: ['C\'est une expression de lieu', 'On ne peut pas dire "avait côté"']
+        hints: ['C\'est une expression de lieu', 'On ne peut pas dire "avait côté"', 'La réponse est : à']
       },
       {
         id: 'q5',
@@ -6193,7 +6193,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"Papa a" = verbe avoir. Tu peux dire "Papa avait une voiture"',
-        hints: ['Il possède une voiture', 'Remplace par "avait"']
+        hints: ['Il possède une voiture', 'Remplace par "avait"', 'La réponse est : a']
       },
       {
         id: 'q6',
@@ -6202,7 +6202,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'à',
         explanation: '"jouer à" utilise la préposition "à". On ne peut pas dire "je joue avait la balle"',
-        hints: ['Jouer à quelque chose', 'On ne peut pas dire "avait"']
+        hints: ['Jouer à quelque chose', 'On ne peut pas dire "avait"', 'La réponse est : à']
       },
       {
         id: 'q7',
@@ -6211,7 +6211,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"a attrapé" = passé composé avec avoir',
-        hints: ['Passé composé', 'Remplace par "avait attrapé"']
+        hints: ['Passé composé', 'Remplace par "avait attrapé"', 'La réponse est : a']
       },
       {
         id: 'q8',
@@ -6220,7 +6220,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'à',
         explanation: '"à toi" = préposition. On ne peut pas dire "c\'est avait toi"',
-        hints: ['C\'est ton tour', 'On ne peut pas dire "avait"']
+        hints: ['C\'est ton tour', 'On ne peut pas dire "avait"', 'La réponse est : à']
       },
       {
         id: 'q9',
@@ -6229,7 +6229,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à'],
         correctAnswer: 'a',
         explanation: '"Elle a" = verbe avoir. Tu peux dire "Elle avait trois frères"',
-        hints: ['Elle possède des frères', 'Remplace par "avait"']
+        hints: ['Elle possède des frères', 'Remplace par "avait"', 'La réponse est : a']
       },
       {
         id: 'q10',
@@ -6260,7 +6260,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['.', '!', '?', ','],
         correctAnswer: '?',
         explanation: 'Une question se termine toujours par un point d\'interrogation (?)',
-        hints: ['C\'est le signe des questions', 'Il ressemble à un crochet']
+        hints: ['C\'est le signe des questions', 'Il ressemble à un crochet', 'La réponse est : ?']
       },
       {
         id: 'q2',
@@ -6269,7 +6269,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['?', '!', '.', ':'],
         correctAnswer: '.',
         explanation: 'Une phrase déclarative (qui raconte quelque chose) se termine par un point (.)',
-        hints: ['Le signe le plus courant', 'Un petit rond']
+        hints: ['Le signe le plus courant', 'Un petit rond', 'La réponse est : .']
       },
       {
         id: 'q3',
@@ -6287,7 +6287,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['.', ',', '!', '?'],
         correctAnswer: ',',
         explanation: 'La virgule (,) marque une pause courte dans la phrase',
-        hints: ['Pause courte, pas la fin', 'Comme quand on respire']
+        hints: ['Pause courte, pas la fin', 'Comme quand on respire', 'La réponse est : ,']
       },
       {
         id: 'q5',
@@ -6296,7 +6296,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['.', '?', '!', ','],
         correctAnswer: '!',
         explanation: 'On utilise le point d\'exclamation car on exprime l\'admiration',
-        hints: ['On admire le soleil', 'C\'est une émotion']
+        hints: ['On admire le soleil', 'C\'est une émotion', 'La réponse est : !']
       },
       {
         id: 'q6',
@@ -6305,7 +6305,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['.', '?', '!', ':'],
         correctAnswer: '?',
         explanation: 'On utilise le point d\'interrogation car on pose une question',
-        hints: ['On demande le prénom', 'C\'est une question']
+        hints: ['On demande le prénom', 'C\'est une question', 'La réponse est : ?']
       },
       {
         id: 'q7',
@@ -6314,7 +6314,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['?', '!', '.', ','],
         correctAnswer: '.',
         explanation: 'On utilise un point car c\'est une phrase qui raconte quelque chose',
-        hints: ['On raconte, on ne pose pas de question', 'Phrase déclarative']
+        hints: ['On raconte, on ne pose pas de question', 'Phrase déclarative', 'La réponse est : .']
       },
       {
         id: 'q8',
@@ -6323,7 +6323,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: [',', '.', ':', ';'],
         correctAnswer: ':',
         explanation: 'Les deux-points (:) introduisent une liste ou une explication',
-        hints: ['Deux petits points', 'Avant une énumération']
+        hints: ['Deux petits points', 'Avant une énumération', 'La réponse est : :']
       },
       {
         id: 'q9',
@@ -6341,7 +6341,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Terminer la phrase', 'Poser une question', 'Faire une courte pause', 'Exprimer la joie'],
         correctAnswer: 'Faire une courte pause',
         explanation: 'La virgule permet de faire une pause dans la phrase, comme quand on respire',
-        hints: ['Ce n\'est pas pour finir', 'Une petite pause pour respirer']
+        hints: ['Ce n\'est pas pour finir', 'Une petite pause pour respirer', 'La réponse est : Faire une courte pause']
       }
     ]
   },
@@ -6370,7 +6370,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Les enfants ont joué dans le jardin.',
         explanation: 'Au passé composé, on utilise l\'auxiliaire AVOIR conjugué (ont) + le participe passé (joué). "Les enfants" est la 3e personne du pluriel, donc on utilise "ont".',
-        hints: ['Quel est l\'auxiliaire du verbe "jouer" ?', 'À quelle personne est conjugué "les enfants" ?']
+        hints: ['Quel est l\'auxiliaire du verbe "jouer" ?', 'À quelle personne est conjugué "les enfants" ?', 'La réponse est : Les enfants ont joué dans le jardin.']
       },
       {
         id: 'q2',
@@ -6379,7 +6379,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Avec l\'auxiliaire ÊTRE, le participe passé s\'accorde toujours avec le sujet. Marie est féminin singulier, donc "allée" prend un "e".',
-        hints: ['Quel est l\'auxiliaire utilisé ici ?', 'Le sujet est-il masculin ou féminin ?']
+        hints: ['Quel est l\'auxiliaire utilisé ici ?', 'Le sujet est-il masculin ou féminin ?', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -6388,7 +6388,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['venu', 'veni', 'venir', 'venait'],
         correctAnswer: 'venu',
         explanation: 'Le participe passé de "venir" est "venu". On dit : il est venu, elle est venue, ils sont venus.',
-        hints: ['Le participe passé se termine souvent par -u, -i ou -é', 'Pense à : il est... à l\'école']
+        hints: ['Le participe passé se termine souvent par -u, -i ou -é', 'Pense à : il est... à l\'école', 'La réponse est : venu']
       },
       {
         id: 'q4',
@@ -6396,7 +6396,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'allées',
         explanation: 'Le participe passé de "aller" est "allé". Avec l\'auxiliaire ÊTRE et un sujet féminin pluriel (mes sœurs), on ajoute "es" : allées.',
-        hints: ['L\'auxiliaire est "être", donc il faut accorder', '"Mes sœurs" est féminin pluriel']
+        hints: ['L\'auxiliaire est "être", donc il faut accorder', '"Mes sœurs" est féminin pluriel', 'La réponse est : allées']
       },
       {
         id: 'q5',
@@ -6405,7 +6405,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['avoir', 'être', 'avoir ou être selon le sens', 'aucun auxiliaire'],
         correctAnswer: 'être',
         explanation: 'Le verbe "tomber" se conjugue avec l\'auxiliaire ÊTRE au passé composé. On dit : je suis tombé(e), tu es tombé(e), il/elle est tombé(e).',
-        hints: ['Les verbes de mouvement utilisent souvent...', 'On dit "je suis..." ou "j\'ai..." tombé ?']
+        hints: ['Les verbes de mouvement utilisent souvent...', 'On dit "je suis..." ou "j\'ai..." tombé ?', 'La réponse est : être']
       },
       {
         id: 'q6',
@@ -6414,7 +6414,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'Avec l\'auxiliaire AVOIR, le participe passé ne s\'accorde PAS avec le sujet. "Mangé" reste invariable car on utilise l\'auxiliaire "avoir".',
-        hints: ['Quel est l\'auxiliaire utilisé ?', 'Avec "avoir", y a-t-il un accord avec le sujet ?']
+        hints: ['Quel est l\'auxiliaire utilisé ?', 'Avec "avoir", y a-t-il un accord avec le sujet ?', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -6428,7 +6428,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Elles ont tombées dans le jardin.',
         explanation: 'L\'erreur est "ont tombées". Le verbe "tomber" se conjugue avec ÊTRE, pas AVOIR. On doit dire : "Elles sont tombées".',
-        hints: ['Vérifie quel auxiliaire doit être utilisé avec "tomber"', 'Un verbe de mouvement utilise quel auxiliaire ?']
+        hints: ['Vérifie quel auxiliaire doit être utilisé avec "tomber"', 'Un verbe de mouvement utilise quel auxiliaire ?', 'La réponse est : Elles ont tombées dans le jardin.']
       },
       {
         id: 'q8',
@@ -6437,7 +6437,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est une règle fondamentale : avec ÊTRE, le participe passé s\'accorde TOUJOURS en genre et en nombre avec le sujet.',
-        hints: ['Pense à "elle est allée" ou "ils sont partis"', 'C\'est une règle générale du passé composé']
+        hints: ['Pense à "elle est allée" ou "ils sont partis"', 'C\'est une règle générale du passé composé', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -6459,7 +6459,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Les verbes de mouvement et les verbes pronominaux',
         explanation: 'Les verbes de mouvement (aller, venir, partir, arriver, tomber, etc.) et les verbes pronominaux (se laver, se lever, etc.) se conjuguent toujours avec ÊTRE.',
-        hints: ['Pense à "aller", "venir", "partir"...', 'Quels types de verbes décrivent un déplacement ?']
+        hints: ['Pense à "aller", "venir", "partir"...', 'Quels types de verbes décrivent un déplacement ?', 'La réponse est : Les verbes de mouvement et les verbes pronominaux']
       }
     ]
   },
@@ -6481,7 +6481,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a', 'à', 'as', 'ah'],
         correctAnswer: 'a',
         explanation: '"A" sans accent est le verbe AVOIR conjugué à la 3e personne du singulier. On peut le remplacer par "avait" : Il avait mal à la tête.',
-        hints: ['Peux-tu remplacer par "avait" ?', 'C\'est le verbe "avoir" conjugué']
+        hints: ['Peux-tu remplacer par "avait" ?', 'C\'est le verbe "avoir" conjugué', 'La réponse est : a']
       },
       {
         id: 'q2',
@@ -6490,7 +6490,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Exactement ! "À" avec accent est une préposition qui indique un lieu, une direction. On ne peut pas le remplacer par "avait".',
-        hints: ['Peux-tu dire "Ils vont avait la piscine" ?', 'C\'est un petit mot invariable']
+        hints: ['Peux-tu dire "Ils vont avait la piscine" ?', 'C\'est un petit mot invariable', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -6504,7 +6504,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Mon frère a un vélo neuf.',
         explanation: 'On utilise "a" sans accent car c\'est le verbe AVOIR (il a = il avait). "À" avec accent serait une préposition.',
-        hints: ['Remplace par "avait" pour vérifier', 'Le sujet est "mon frère" (3e personne)']
+        hints: ['Remplace par "avait" pour vérifier', 'Le sujet est "mon frère" (3e personne)', 'La réponse est : Mon frère a un vélo neuf.']
       },
       {
         id: 'q4',
@@ -6512,7 +6512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'est et',
         explanation: '"Est" (verbe être) car on peut dire "elle était". "Et" (conjonction) car on ne peut pas dire "elle gentille était intelligente".',
-        hints: ['Pour le premier mot : remplace par "était"', 'Pour le second mot : il relie deux adjectifs']
+        hints: ['Pour le premier mot : remplace par "était"', 'Pour le second mot : il relie deux adjectifs', 'La réponse est : est et']
       },
       {
         id: 'q5',
@@ -6526,7 +6526,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Son frère et sa sœur sont à l\'école.',
         explanation: 'Attention ! Cette phrase est en fait correcte. "Son" (déterminant possessif) et "sont" (verbe être) sont bien utilisés.',
-        hints: ['Vérifie chaque homophone', 'Remplace "sont" par "étaient" et "son" par "mon"']
+        hints: ['Vérifie chaque homophone', 'Remplace "sont" par "étaient" et "son" par "mon"', 'La réponse est : Son frère et sa sœur sont à l\'école.']
       },
       {
         id: 'q6',
@@ -6543,7 +6543,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'son',
         explanation: '"Son" (sans t) est un déterminant possessif qui signifie "le cahier de lui/elle". On peut le remplacer par "mon" ou "ton".',
-        hints: ['Peux-tu dire "mon cahier" ?', 'C\'est un déterminant possessif']
+        hints: ['Peux-tu dire "mon cahier" ?', 'C\'est un déterminant possessif', 'La réponse est : son']
       },
       {
         id: 'q8',
@@ -6552,7 +6552,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['C\'est', 'S\'est', 'Ses', 'Ces'],
         correctAnswer: 'C\'est',
         explanation: '"C\'est" signifie "cela est". On peut le remplacer par "cela est" : Cela est mon anniversaire. "S\'est" est utilisé avec un verbe pronominal.',
-        hints: ['Remplace par "cela est"', 'Il n\'y a pas de verbe pronominal ici']
+        hints: ['Remplace par "cela est"', 'Il n\'y a pas de verbe pronominal ici', 'La réponse est : C\'est']
       },
       {
         id: 'q9',
@@ -6561,7 +6561,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Exact ! "Se" est un pronom réfléchi utilisé avec les verbes pronominaux (se réveiller, se laver, se lever...).',
-        hints: ['Le verbe est "se réveiller"', 'C\'est une action que Paul fait sur lui-même']
+        hints: ['Le verbe est "se réveiller"', 'C\'est une action que Paul fait sur lui-même', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -6575,7 +6575,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'On prend le bus et on arrive à l\'heure.',
         explanation: '"On" (pronom personnel = nous) car on ne peut pas dire "avaient prend". "Ont" serait le verbe avoir (ils ont = ils avaient).',
-        hints: ['Essaie de remplacer par "avaient"', '"On" peut se remplacer par "nous"']
+        hints: ['Essaie de remplacer par "avaient"', '"On" peut se remplacer par "nous"', 'La réponse est : On prend le bus et on arrive à l\'heure.']
       }
     ]
   },
@@ -6597,7 +6597,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Marie', 'mange', 'une pomme', 'Il n\'y a pas de COD'],
         correctAnswer: 'une pomme',
         explanation: 'Le COD (Complément d\'Objet Direct) répond à la question "Quoi ?" ou "Qui ?". Marie mange quoi ? Une pomme. Le COD se place directement après le verbe.',
-        hints: ['Pose la question "Marie mange quoi ?"', 'Le COD se place juste après le verbe']
+        hints: ['Pose la question "Marie mange quoi ?"', 'Le COD se place juste après le verbe', 'La réponse est : une pomme']
       },
       {
         id: 'q2',
@@ -6606,7 +6606,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Faux',
         explanation: 'Faux ! Le COD est un complément essentiel du verbe. Si on supprime "une pomme" dans "Marie mange une pomme", la phrase perd son sens complet.',
-        hints: ['Essaie d\'enlever le COD de la phrase', 'Le COD est-il essentiel ou facultatif ?']
+        hints: ['Essaie d\'enlever le COD de la phrase', 'Le COD est-il essentiel ou facultatif ?', 'C\'est faux']
       },
       {
         id: 'q3',
@@ -6620,7 +6620,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'COI (Complément d\'Objet Indirect)',
         explanation: 'C\'est un COI car il est introduit par une préposition (à) et répond à la question "à qui ?". Paul parle à qui ? À son ami.',
-        hints: ['Y a-t-il une préposition (à, de, pour...) ?', 'Pose la question "Paul parle à qui ?"']
+        hints: ['Y a-t-il une préposition (à, de, pour...) ?', 'Pose la question "Paul parle à qui ?"', 'La réponse est : COI (Complément d\'Objet Indirect)']
       },
       {
         id: 'q4',
@@ -6628,7 +6628,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'lieu',
         explanation: '"Dans le jardin" est un complément circonstanciel de lieu. Il répond à la question "Où ?" : Les enfants jouent où ? Dans le jardin.',
-        hints: ['Pose la question "Où ?"', 'Ce complément indique un endroit']
+        hints: ['Pose la question "Où ?"', 'Ce complément indique un endroit', 'La réponse est : lieu']
       },
       {
         id: 'q5',
@@ -6642,7 +6642,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Nous partons demain matin.',
         explanation: '"Demain matin" est un complément circonstanciel de temps. Il répond à la question "Quand ?". On peut le supprimer ou le déplacer.',
-        hints: ['Cherche le complément qui répond à "Quand ?"', 'Quel complément indique un moment ?']
+        hints: ['Cherche le complément qui répond à "Quand ?"', 'Quel complément indique un moment ?', 'La réponse est : Nous partons demain matin.']
       },
       {
         id: 'q6',
@@ -6651,7 +6651,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Contrairement au COD et au COI, les compléments circonstanciels sont déplaçables et supprimables. Exemple : "Hier, Paul a joué" = "Paul a joué hier" = "Paul a joué".',
-        hints: ['Essaie de déplacer le complément en début de phrase', 'Le complément circonstanciel est-il essentiel ?']
+        hints: ['Essaie de déplacer le complément en début de phrase', 'Le complément circonstanciel est-il essentiel ?', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -6660,7 +6660,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Julie', 'la télévision', 'avec attention', 'Il n\'y en a pas'],
         correctAnswer: 'avec attention',
         explanation: '"Avec attention" est un complément circonstanciel de manière. Il répond à la question "Comment ?". "La télévision" est le COD.',
-        hints: ['Pose la question "Comment ?"', 'Quel complément peut être supprimé ?']
+        hints: ['Pose la question "Comment ?"', 'Quel complément peut être supprimé ?', 'La réponse est : avec attention']
       },
       {
         id: 'q8',
@@ -6668,7 +6668,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'à',
         explanation: 'Le verbe "penser" se construit avec la préposition "à" pour introduire un COI. On dit "penser à quelque chose" ou "penser à quelqu\'un".',
-        hints: ['Quelle préposition utilise-t-on avec "penser" ?', 'On dit "penser..." quoi ?']
+        hints: ['Quelle préposition utilise-t-on avec "penser" ?', 'On dit "penser..." quoi ?', 'La réponse est : à']
       },
       {
         id: 'q9',
@@ -6677,7 +6677,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vrai', 'Faux'],
         correctAnswer: 'Vrai',
         explanation: 'C\'est exact ! Pour identifier le COD, on pose la question "Qui ?" (pour une personne) ou "Quoi ?" (pour une chose) après le verbe.',
-        hints: ['C\'est la méthode pour trouver le COD', 'Pense à "Je mange quoi ?"']
+        hints: ['C\'est la méthode pour trouver le COD', 'Pense à "Je mange quoi ?"', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -6691,7 +6691,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         ],
         correctAnswer: 'Marc téléphone à sa grand-mère.',
         explanation: '"À sa grand-mère" est un COI car il est introduit par la préposition "à" et répond à "Marc téléphone à qui ?". Les autres sont des COD ou des compléments circonstanciels.',
-        hints: ['Cherche une préposition (à, de, pour...)', 'Quel verbe se construit avec "à" ?']
+        hints: ['Cherche une préposition (à, de, pour...)', 'Quel verbe se construit avec "à" ?', 'La réponse est : Marc téléphone à sa grand-mère.']
       }
     ]
   },
@@ -6714,7 +6714,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mangeais',
         explanation: 'Je mangeais. À l\'imparfait, les terminaisons sont : -ais, -ais, -ait, -ions, -iez, -aient.',
-        hints: ['L\'imparfait en -ais', 'manger → mange + ais']
+        hints: ['L\'imparfait en -ais', 'manger → mange + ais', 'La réponse est : mangeais']
       },
       {
         id: 'q2',
@@ -6723,7 +6723,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-ions', '-ons', '-aient', '-iez'],
         correctAnswer: '-ions',
         explanation: 'À l\'imparfait, "nous" prend la terminaison -ions. Ex : nous mangions, nous finissions.',
-        hints: ['C\'est proche du présent', 'Il y a un i']
+        hints: ['C\'est proche du présent', 'Il y a un i', 'La réponse est : -ions']
       },
       {
         id: 'q3',
@@ -6731,7 +6731,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'imparfait exprime des habitudes ou des descriptions dans le passé. Ex : "Tous les jours, je jouais au foot."',
-        hints: ['Pense aux actions répétées', 'C\'est vrai']
+        hints: ['Pense aux actions répétées', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -6739,7 +6739,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finit',
         explanation: 'Il/Elle finit. Au passé simple, les verbes du 2ème groupe ont : -is, -is, -it, -îmes, -îtes, -irent.',
-        hints: ['Verbe du 2ème groupe', 'C\'est comme "il finit" mais au passé']
+        hints: ['Verbe du 2ème groupe', 'C\'est comme "il finit" mais au passé', 'La réponse est : finit']
       },
       {
         id: 'q5',
@@ -6756,7 +6756,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'étiez',
         explanation: 'Vous étiez. Le verbe "être" est irrégulier mais garde les terminaisons classiques de l\'imparfait.',
-        hints: ['Radical : ét-', 'ét + iez']
+        hints: ['Radical : ét-', 'ét + iez', 'La réponse est : étiez']
       },
       {
         id: 'q7',
@@ -6765,7 +6765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le passé simple', 'L\'imparfait', 'Le présent', 'Le futur'],
         correctAnswer: 'L\'imparfait',
         explanation: 'L\'imparfait (marchait) décrit l\'action longue ou le décor. Le passé simple (tomba) décrit l\'action brève.',
-        hints: ['L\'action qui dure', 'marchait']
+        hints: ['L\'action qui dure', 'marchait', 'La réponse est : L\'imparfait']
       },
       {
         id: 'q8',
@@ -6773,7 +6773,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'eus',
         explanation: 'J\'eus. "Avoir" au passé simple : j\'eus, tu eus, il eut, nous eûmes, vous eûtes, ils eurent.',
-        hints: ['C\'est irrégulier', 'eu + s']
+        hints: ['C\'est irrégulier', 'eu + s', 'La réponse est : eus']
       },
       {
         id: 'q9',
@@ -6781,7 +6781,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Chantèrent" est la 3ème personne du pluriel du passé simple du verbe "chanter".',
-        hints: ['La terminaison -èrent', 'C\'est vrai']
+        hints: ['La terminaison -èrent', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -6789,7 +6789,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'étais',
         explanation: 'Quand j\'étais petit. L\'imparfait est parfait pour décrire un état passé qui durait.',
-        hints: ['Verbe être', 'j\' + étais']
+        hints: ['Verbe être', 'j\' + étais', 'La réponse est : étais']
       }
     ]
   },
@@ -6811,7 +6811,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1', '2', '3', '4'],
         correctAnswer: '2',
         explanation: '2 propositions : "Je pense" (principale) et "que tu as raison" (subordonnée conjonctive).',
-        hints: ['Cherche les verbes conjugués', 'Il y a 2 verbes']
+        hints: ['Cherche les verbes conjugués', 'Il y a 2 verbes', 'La réponse est : 2']
       },
       {
         id: 'q2',
@@ -6820,7 +6820,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Proposition subordonnée', 'Proposition principale', 'Proposition relative', 'Proposition infinitive'],
         correctAnswer: 'Proposition principale',
         explanation: 'La proposition principale est autonome, elle peut fonctionner seule. La subordonnée dépend d\'elle.',
-        hints: ['Elle est indépendante', 'C\'est la principale']
+        hints: ['Elle est indépendante', 'C\'est la principale', 'La réponse est : Proposition principale']
       },
       {
         id: 'q3',
@@ -6828,7 +6828,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'que j\'ai adopté',
         explanation: '"Que j\'ai adopté" est une proposition subordonnée relative introduite par "que".',
-        hints: ['Elle commence par "que"', 'Elle donne une information sur le chat']
+        hints: ['Elle commence par "que"', 'Elle donne une information sur le chat', 'La réponse est : que j\'ai adopté']
       },
       {
         id: 'q4',
@@ -6836,7 +6836,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Une proposition subordonnée dépend toujours d\'une proposition principale.',
-        hints: ['Elle est dépendante', 'Elle ne peut pas être seule']
+        hints: ['Elle est dépendante', 'Elle ne peut pas être seule', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -6845,7 +6845,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je', 'viendrai', 'quand', 'prêt'],
         correctAnswer: 'quand',
         explanation: '"Quand" est une conjonction de subordination qui introduit la subordonnée circonstancielle de temps.',
-        hints: ['C\'est un mot de liaison', 'Il indique le temps']
+        hints: ['C\'est un mot de liaison', 'Il indique le temps', 'La réponse est : quand']
       },
       {
         id: 'q6',
@@ -6854,7 +6854,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['réussira', 'travaille', 'L\'élève', 'qui'],
         correctAnswer: 'L\'élève',
         explanation: 'La subordonnée relative "qui travaille" complète le nom "élève", c\'est son antécédent.',
-        hints: ['Elle donne des infos sur qui ?', 'C\'est un nom']
+        hints: ['Elle donne des infos sur qui ?', 'C\'est un nom', 'La réponse est : L\'élève']
       },
       {
         id: 'q7',
@@ -6862,7 +6862,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2',
         explanation: '2 propositions : "Je mange" (principale) et "parce que j\'ai faim" (subordonnée de cause).',
-        hints: ['Compte les verbes conjugués', 'mange, ai']
+        hints: ['Compte les verbes conjugués', 'mange, ai', 'La réponse est : 2']
       },
       {
         id: 'q8',
@@ -6871,7 +6871,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Relative', 'De temps', 'De condition', 'De cause'],
         correctAnswer: 'De condition',
         explanation: '"Si" introduit une subordonnée circonstancielle de condition. Ex : Si tu viens, je serai content.',
-        hints: ['Elle exprime une hypothèse', 'Si... alors...']
+        hints: ['Elle exprime une hypothèse', 'Si... alors...', 'La réponse est : De condition']
       },
       {
         id: 'q9',
@@ -6879,7 +6879,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ce sont les pronoms relatifs qui introduisent les propositions subordonnées relatives.',
-        hints: ['Ce sont des pronoms relatifs', 'C\'est vrai']
+        hints: ['Ce sont des pronoms relatifs', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -6888,7 +6888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bien qu\'il pleuve', 'je sors', 'qu\'il pleuve', 'il pleuve'],
         correctAnswer: 'je sors',
         explanation: '"Je sors" est la proposition principale. "Bien qu\'il pleuve" est une subordonnée concessive.',
-        hints: ['C\'est celle qui peut être seule', 'L\'action principale']
+        hints: ['C\'est celle qui peut être seule', 'L\'action principale', 'La réponse est : je sors']
       }
     ]
   },
@@ -6910,7 +6910,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comparaison', 'Métaphore', 'Répétition', 'Énumération'],
         correctAnswer: 'Métaphore',
         explanation: 'C\'est une métaphore : on compare sans utiliser "comme" ou "tel que".',
-        hints: ['Pas de mot de comparaison', 'C\'est direct']
+        hints: ['Pas de mot de comparaison', 'C\'est direct', 'La réponse est : Métaphore']
       },
       {
         id: 'q2',
@@ -6919,7 +6919,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La comparaison utilise "comme"', 'La métaphore utilise "comme"', 'Elles sont identiques', 'La comparaison est plus longue'],
         correctAnswer: 'La comparaison utilise "comme"',
         explanation: 'La comparaison utilise un outil de comparaison (comme, tel, pareil à). La métaphore n\'en utilise pas.',
-        hints: ['Le mot clé est "comme"', 'Dans la comparaison']
+        hints: ['Le mot clé est "comme"', 'Dans la comparaison', 'La réponse est : La comparaison utilise "comme"']
       },
       {
         id: 'q3',
@@ -6928,7 +6928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Métaphore', 'Comparaison', 'Personnification', 'Hyperbole'],
         correctAnswer: 'Personnification',
         explanation: 'C\'est une personnification : on attribue une action humaine (hurler) au vent.',
-        hints: ['Le vent fait une action humaine', 'Comme une personne']
+        hints: ['Le vent fait une action humaine', 'Comme une personne', 'La réponse est : Personnification']
       },
       {
         id: 'q4',
@@ -6936,7 +6936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! C\'est une comparaison car on utilise le mot "comme".',
-        hints: ['Il y a le mot "comme"', 'C\'est une comparaison']
+        hints: ['Il y a le mot "comme"', 'C\'est une comparaison', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -6945,7 +6945,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Personnification', 'Énumération', 'Hyperbole', 'Métaphore'],
         correctAnswer: 'Hyperbole',
         explanation: 'C\'est une hyperbole : on exagère pour impressionner. On n\'a pas vraiment mille choses à faire !',
-        hints: ['C\'est une exagération', 'Mille = beaucoup trop']
+        hints: ['C\'est une exagération', 'Mille = beaucoup trop', 'La réponse est : Hyperbole']
       },
       {
         id: 'q6',
@@ -6954,7 +6954,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comparaison', 'Énumération', 'Métaphore', 'Personnification'],
         correctAnswer: 'Énumération',
         explanation: 'C\'est une énumération : on liste plusieurs éléments de même nature.',
-        hints: ['C\'est une liste', 'Plusieurs fruits alignés']
+        hints: ['C\'est une liste', 'Plusieurs fruits alignés', 'La réponse est : Énumération']
       },
       {
         id: 'q7',
@@ -6962,7 +6962,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comme',
         explanation: '"Comme" est l\'outil de comparaison le plus courant. Elle est rapide comme un guépard.',
-        hints: ['C\'est le mot de la comparaison', 'Ça rime avec "homme"']
+        hints: ['C\'est le mot de la comparaison', 'Ça rime avec "homme"', 'La réponse est : comme']
       },
       {
         id: 'q8',
@@ -6971,7 +6971,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hyperbole', 'Personnification', 'Énumération', 'Comparaison'],
         correctAnswer: 'Personnification',
         explanation: 'C\'est une personnification : la mer est décrite avec des sentiments et actions humains (colère, gronder).',
-        hints: ['La mer a des émotions humaines', 'Comme une personne en colère']
+        hints: ['La mer a des émotions humaines', 'Comme une personne en colère', 'La réponse est : Personnification']
       },
       {
         id: 'q9',
@@ -6979,7 +6979,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Il n\'y a pas de mot comparatif (comme), donc c\'est une métaphore. On dit qu\'il EST un lion.',
-        hints: ['Pas de "comme"', 'C\'est direct']
+        hints: ['Pas de "comme"', 'C\'est direct', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -6988,7 +6988,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Métaphore', 'Répétition/Anaphore', 'Hyperbole', 'Énumération'],
         correctAnswer: 'Répétition/Anaphore',
         explanation: 'La répétition (ou anaphore) consiste à répéter un mot ou un groupe de mots pour créer un effet de style.',
-        hints: ['On dit plusieurs fois la même chose', 'Pour insister']
+        hints: ['On dit plusieurs fois la même chose', 'Pour insister', 'La réponse est : Répétition/Anaphore']
       }
     ]
   },
@@ -7012,7 +7012,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Adjectif', 'Adverbe', 'Nom', 'Verbe'],
         correctAnswer: 'Adverbe',
         explanation: '"Rapidement" est un adverbe. Les adverbes modifient un verbe, un adjectif ou un autre adverbe. Ils sont souvent en "-ment".',
-        hints: ['Il modifie un verbe', 'Il finit en -ment']
+        hints: ['Il modifie un verbe', 'Il finit en -ment', 'La réponse est : Adverbe']
       },
       {
         id: 'q2',
@@ -7021,7 +7021,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['chat', 'mange', 'Le', 'nourriture'],
         correctAnswer: 'Le',
         explanation: '"Le" est un déterminant (article défini). Il accompagne le nom "chat".',
-        hints: ['Il est devant le nom', 'C\'est un article']
+        hints: ['Il est devant le nom', 'C\'est un article', 'La réponse est : Le']
       },
       {
         id: 'q3',
@@ -7029,7 +7029,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le pronom remplace un nom pour éviter les répétitions. Ex : Marie est là. Elle travaille.',
-        hints: ['Pro = à la place de', 'C\'est vrai']
+        hints: ['Pro = à la place de', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -7037,7 +7037,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'adjectif',
         explanation: '"Belle" est un adjectif qualificatif. Il qualifie le nom "fleur".',
-        hints: ['Il décrit la fleur', 'C\'est un adjectif']
+        hints: ['Il décrit la fleur', 'C\'est un adjectif', 'La réponse est : adjectif']
       },
       {
         id: 'q5',
@@ -7046,7 +7046,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['manger', 'dans', 'beau', 'il'],
         correctAnswer: 'dans',
         explanation: '"Dans" est une préposition. Les prépositions introduisent un complément (à, de, pour, avec, dans, sur...).',
-        hints: ['Elle introduit un lieu', 'à, de, pour, dans...']
+        hints: ['Elle introduit un lieu', 'à, de, pour, dans...', 'La réponse est : dans']
       },
       {
         id: 'q6',
@@ -7054,7 +7054,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'et',
         explanation: '"Et" est une conjonction de coordination. Elle relie deux éléments de même nature.',
-        hints: ['Il relie Marie et Pierre', 'C\'est "et"']
+        hints: ['Il relie Marie et Pierre', 'C\'est "et"', 'La réponse est : et']
       },
       {
         id: 'q7',
@@ -7063,7 +7063,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nom', 'Verbe', 'Pronom', 'Adverbe'],
         correctAnswer: 'Pronom',
         explanation: '"Nous" est un pronom personnel sujet (1ère personne du pluriel).',
-        hints: ['Il remplace des personnes', 'Pronom personnel']
+        hints: ['Il remplace des personnes', 'Pronom personnel', 'La réponse est : Pronom']
       },
       {
         id: 'q8',
@@ -7071,7 +7071,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'adjectif s\'accorde avec le nom qu\'il qualifie. Ex : une belle maison / de beaux jardins.',
-        hints: ['Masculin/féminin, singulier/pluriel', 'C\'est vrai']
+        hints: ['Masculin/féminin, singulier/pluriel', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -7079,7 +7079,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'verbe',
         explanation: '"Courir" est un verbe à l\'infinitif (3ème groupe).',
-        hints: ['Une action', 'C\'est un verbe']
+        hints: ['Une action', 'C\'est un verbe', 'La réponse est : verbe']
       },
       {
         id: 'q10',
@@ -7088,7 +7088,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['livre', 'mon', 'le', 'un'],
         correctAnswer: 'mon',
         explanation: '"Mon" est un déterminant possessif. Il indique à qui appartient le livre.',
-        hints: ['Il indique la possession', 'mon, ton, son...']
+        hints: ['Il indique la possession', 'mon, ton, son...', 'La réponse est : mon']
       }
     ]
   },
@@ -7109,7 +7109,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finissent',
         explanation: 'Ils/Elles finissent. Les verbes du 2ème groupe ont -issons, -issez, -issent au pluriel.',
-        hints: ['2ème groupe en -ir', '-issent']
+        hints: ['2ème groupe en -ir', '-issent', 'La réponse est : finissent']
       },
       {
         id: 'q2',
@@ -7118,7 +7118,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent', 'Imparfait', 'Passé simple', 'Futur'],
         correctAnswer: 'Imparfait',
         explanation: '"Mangions" est à l\'imparfait (terminaison -ions pour nous).',
-        hints: ['-ions = imparfait', 'Action dans le passé qui dure']
+        hints: ['-ions = imparfait', 'Action dans le passé qui dure', 'La réponse est : Imparfait']
       },
       {
         id: 'q3',
@@ -7126,7 +7126,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Passé composé = avoir ou être au présent + participe passé. Ex : j\'ai mangé, je suis parti.',
-        hints: ['Auxiliaire + participe', 'C\'est vrai']
+        hints: ['Auxiliaire + participe', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -7134,7 +7134,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'serai',
         explanation: 'Je serai. Le verbe "être" au futur : serai, seras, sera, serons, serez, seront.',
-        hints: ['Irrégulier', 'ser- + -ai']
+        hints: ['Irrégulier', 'ser- + -ai', 'La réponse est : serai']
       },
       {
         id: 'q5',
@@ -7143,7 +7143,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Imparfait', 'Passé simple', 'Passé composé', 'Plus-que-parfait'],
         correctAnswer: 'Passé simple',
         explanation: '"Chanta" est au passé simple (temps du récit écrit).',
-        hints: ['Temps littéraire', '-a pour il/elle (1er groupe)']
+        hints: ['Temps littéraire', '-a pour il/elle (1er groupe)', 'La réponse est : Passé simple']
       },
       {
         id: 'q6',
@@ -7152,7 +7152,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avoir', 'Être', 'Les deux', 'Aucun'],
         correctAnswer: 'Être',
         explanation: '"Partir" se conjugue avec être : je suis parti(e). Les verbes de mouvement utilisent souvent être.',
-        hints: ['Verbe de déplacement', 'Je suis parti']
+        hints: ['Verbe de déplacement', 'Je suis parti', 'La réponse est : Être']
       },
       {
         id: 'q7',
@@ -7160,7 +7160,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'avais',
         explanation: 'Tu avais. Imparfait de "avoir" : avais, avais, avait, avions, aviez, avaient.',
-        hints: ['av- + terminaison imparfait', '-ais pour tu']
+        hints: ['av- + terminaison imparfait', '-ais pour tu', 'La réponse est : avais']
       },
       {
         id: 'q8',
@@ -7168,7 +7168,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Aurons" est le futur simple de "avoir" pour nous.',
-        hints: ['aur- = radical futur', 'C\'est vrai']
+        hints: ['aur- = radical futur', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -7176,7 +7176,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'pris',
         explanation: 'Le participe passé de "prendre" est "pris" (irrégulier).',
-        hints: ['Irrégulier', 'J\'ai pris']
+        hints: ['Irrégulier', 'J\'ai pris', 'La réponse est : pris']
       },
       {
         id: 'q10',
@@ -7185,7 +7185,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Passé composé', 'Plus-que-parfait', 'Passé simple', 'Imparfait'],
         correctAnswer: 'Plus-que-parfait',
         explanation: '"J\'avais mangé" est au plus-que-parfait (auxiliaire à l\'imparfait + participe passé).',
-        hints: ['Auxiliaire à l\'imparfait', 'Action avant une autre au passé']
+        hints: ['Auxiliaire à l\'imparfait', 'Action avant une autre au passé', 'La réponse est : Plus-que-parfait']
       }
     ]
   },
@@ -7207,7 +7207,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'élément perturbateur', 'La situation initiale', 'Les péripéties', 'La résolution'],
         correctAnswer: 'La situation initiale',
         explanation: 'La situation initiale présente les personnages, le lieu et l\'époque au début de l\'histoire.',
-        hints: ['Le début', 'On présente la situation de départ']
+        hints: ['Le début', 'On présente la situation de départ', 'La réponse est : La situation initiale']
       },
       {
         id: 'q2',
@@ -7215,7 +7215,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'élément perturbateur',
         explanation: 'L\'élément perturbateur (ou déclencheur) est l\'événement qui bouleverse la situation initiale et lance l\'histoire.',
-        hints: ['Il perturbe', 'Il déclenche l\'action']
+        hints: ['Il perturbe', 'Il déclenche l\'action', 'La réponse est : élément perturbateur']
       },
       {
         id: 'q3',
@@ -7223,7 +7223,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les péripéties sont les différentes actions, obstacles et aventures que vit le personnage.',
-        hints: ['Les rebondissements', 'C\'est vrai']
+        hints: ['Les rebondissements', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -7232,7 +7232,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Passé simple', 'Imparfait', 'Présent', 'Futur'],
         correctAnswer: 'Imparfait',
         explanation: 'L\'imparfait est utilisé pour les descriptions et les actions de second plan (décor, états...).',
-        hints: ['Pour décrire le décor', 'Imparfait']
+        hints: ['Pour décrire le décor', 'Imparfait', 'La réponse est : Imparfait']
       },
       {
         id: 'q5',
@@ -7240,7 +7240,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'narrateur',
         explanation: 'Le narrateur est celui qui raconte l\'histoire. Il peut être un personnage ou extérieur à l\'histoire.',
-        hints: ['Il narre', 'Le narrateur']
+        hints: ['Il narre', 'Le narrateur', 'La réponse est : narrateur']
       },
       {
         id: 'q6',
@@ -7249,7 +7249,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le début', 'Le problème', 'La solution au problème', 'La description'],
         correctAnswer: 'La solution au problème',
         explanation: 'La résolution (ou dénouement) est le moment où le problème principal est résolu.',
-        hints: ['Résoudre le problème', 'Avant la fin']
+        hints: ['Résoudre le problème', 'Avant la fin', 'La réponse est : La solution au problème']
       },
       {
         id: 'q7',
@@ -7257,7 +7257,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La situation finale présente l\'état des personnages après la résolution du problème.',
-        hints: ['La fin de l\'histoire', 'C\'est vrai']
+        hints: ['La fin de l\'histoire', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -7266,7 +7266,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Imparfait', 'Passé composé', 'Passé simple', 'Présent'],
         correctAnswer: 'Passé simple',
         explanation: 'Le passé simple est le temps des actions principales, brèves et successives dans un récit écrit.',
-        hints: ['Temps du récit écrit', 'Actions ponctuelles']
+        hints: ['Temps du récit écrit', 'Actions ponctuelles', 'La réponse est : Passé simple']
       },
       {
         id: 'q9',
@@ -7274,7 +7274,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'première',
         explanation: 'Un narrateur-personnage raconte à la 1ère personne (je). On parle de récit à la première personne.',
-        hints: ['Il dit "je"', '1ère personne']
+        hints: ['Il dit "je"', '1ère personne', 'La réponse est : première']
       },
       {
         id: 'q10',
@@ -7283,7 +7283,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: '5 étapes : situation initiale, élément perturbateur, péripéties, résolution, situation finale.',
-        hints: ['Plus de 3', 'C\'est 5']
+        hints: ['Plus de 3', 'C\'est 5', 'La réponse est : 5']
       }
     ]
   },
@@ -7307,7 +7307,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10', '20', '28', '32'],
         correctAnswer: '20',
         explanation: 'Les enfants ont 20 dents de lait, remplacées par 32 dents adultes',
-        hints: ['Moins que les adultes', 'C\'est 20']
+        hints: ['Moins que les adultes', 'C\'est 20', 'La réponse est : 20']
       }
     ]
   },
@@ -7523,7 +7523,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Solaire', 'Éolienne', 'Hydraulique', 'Géothermique'],
         correctAnswer: 'Éolienne',
         explanation: 'L\'énergie éolienne utilise la force du vent pour faire tourner des hélices qui produisent de l\'électricité.',
-        hints: ['Pense aux grandes hélices', 'Éole est le dieu du vent']
+        hints: ['Pense aux grandes hélices', 'Éole est le dieu du vent', 'La réponse est : Éolienne']
       },
       {
         id: 'q2',
@@ -7531,7 +7531,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les énergies renouvelables se régénèrent naturellement : le soleil brille, le vent souffle, l\'eau coule... Elles ne s\'épuisent pas comme le pétrole.',
-        hints: ['Elles se renouvellent', 'C\'est vrai']
+        hints: ['Elles se renouvellent', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q3',
@@ -7539,7 +7539,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'solaire',
         explanation: 'L\'énergie solaire est captée par des panneaux photovoltaïques qui transforment la lumière du soleil en électricité.',
-        hints: ['Le mot vient de "soleil"', 'C\'est l\'énergie solaire']
+        hints: ['Le mot vient de "soleil"', 'C\'est l\'énergie solaire', 'La réponse est : solaire']
       },
       {
         id: 'q4',
@@ -7548,7 +7548,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Éolienne', 'Géothermique', 'Hydraulique', 'Biomasse'],
         correctAnswer: 'Hydraulique',
         explanation: 'L\'énergie hydraulique utilise la force de l\'eau (rivières, barrages) pour produire de l\'électricité.',
-        hints: ['Hydro = eau', 'Les barrages utilisent cette énergie']
+        hints: ['Hydro = eau', 'Les barrages utilisent cette énergie', 'La réponse est : Hydraulique']
       },
       {
         id: 'q5',
@@ -7556,7 +7556,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Le pétrole est une énergie fossile qui met des millions d\'années à se former. Une fois épuisé, il n\'y en aura plus.',
-        hints: ['Il met très longtemps à se former', 'C\'est faux']
+        hints: ['Il met très longtemps à se former', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -7565,7 +7565,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Solaire', 'Éolienne', 'Géothermique', 'Biomasse'],
         correctAnswer: 'Géothermique',
         explanation: 'L\'énergie géothermique utilise la chaleur naturelle de la Terre (géo = terre, thermie = chaleur).',
-        hints: ['Géo = Terre', 'La chaleur vient du sol']
+        hints: ['Géo = Terre', 'La chaleur vient du sol', 'La réponse est : Géothermique']
       },
       {
         id: 'q7',
@@ -7574,7 +7574,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Eau chaude uniquement', 'Électricité', 'Pétrole', 'Gaz'],
         correctAnswer: 'Électricité',
         explanation: 'Les panneaux solaires photovoltaïques transforment la lumière du soleil directement en électricité.',
-        hints: ['C\'est de l\'énergie électrique', 'Pour alimenter les appareils']
+        hints: ['C\'est de l\'énergie électrique', 'Pour alimenter les appareils', 'La réponse est : Électricité']
       },
       {
         id: 'q8',
@@ -7583,7 +7583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Minérale', 'Végétale et animale', 'Chimique', 'Nucléaire'],
         correctAnswer: 'Végétale et animale',
         explanation: 'La biomasse utilise des matières organiques (bois, déchets végétaux, déjections animales) pour produire de l\'énergie.',
-        hints: ['Bio = vivant', 'Bois, plantes, déchets organiques']
+        hints: ['Bio = vivant', 'Bois, plantes, déchets organiques', 'La réponse est : Végétale et animale']
       },
       {
         id: 'q9',
@@ -7591,7 +7591,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les énergies renouvelables produisent peu ou pas de gaz à effet de serre, contrairement au pétrole, au charbon et au gaz naturel.',
-        hints: ['Elles sont plus propres', 'C\'est vrai']
+        hints: ['Elles sont plus propres', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -7600,7 +7600,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['En ville', 'Dans les endroits ventés', 'Sous terre', 'Au fond de l\'océan'],
         correctAnswer: 'Dans les endroits ventés',
         explanation: 'Les éoliennes sont installées dans des zones venteuses (collines, bord de mer) pour capter un maximum de vent.',
-        hints: ['Il faut du vent', 'En hauteur ou au bord de la mer']
+        hints: ['Il faut du vent', 'En hauteur ou au bord de la mer', 'La réponse est : Dans les endroits ventés']
       }
     ]
   },
@@ -7622,7 +7622,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les poumons', 'Le cerveau', 'Le cœur', 'L\'estomac'],
         correctAnswer: 'Le cœur',
         explanation: 'Le cœur est un muscle qui pompe le sang et le fait circuler dans tout le corps, sans jamais s\'arrêter.',
-        hints: ['C\'est une pompe', 'Il bat dans ta poitrine']
+        hints: ['C\'est une pompe', 'Il bat dans ta poitrine', 'La réponse est : Le cœur']
       },
       {
         id: 'q2',
@@ -7631,7 +7631,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10 fois', '70 fois', '200 fois', '500 fois'],
         correctAnswer: '70 fois',
         explanation: 'Au repos, le cœur bat environ 70 fois par minute. Pendant l\'effort, il peut battre beaucoup plus vite.',
-        hints: ['C\'est entre 60 et 100', 'Environ 70']
+        hints: ['C\'est entre 60 et 100', 'Environ 70', 'La réponse est : 70 fois']
       },
       {
         id: 'q3',
@@ -7639,7 +7639,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'artères',
         explanation: 'Les artères transportent le sang riche en oxygène du cœur vers tous les organes du corps.',
-        hints: ['Elles partent du cœur', 'Ça commence par A']
+        hints: ['Elles partent du cœur', 'Ça commence par A', 'La réponse est : artères']
       },
       {
         id: 'q4',
@@ -7647,7 +7647,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les poumons permettent d\'absorber l\'oxygène de l\'air et de rejeter le dioxyde de carbone.',
-        hints: ['Inspire, expire', 'C\'est vrai']
+        hints: ['Inspire, expire', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -7656,7 +7656,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le dioxyde de carbone', 'L\'azote', 'L\'oxygène', 'L\'hélium'],
         correctAnswer: 'L\'oxygène',
         explanation: 'Le sang transporte l\'oxygène des poumons vers tous les organes du corps qui en ont besoin pour fonctionner.',
-        hints: ['C\'est le gaz vital', 'On le respire dans l\'air']
+        hints: ['C\'est le gaz vital', 'On le respire dans l\'air', 'La réponse est : L\'oxygène']
       },
       {
         id: 'q6',
@@ -7664,7 +7664,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'veines',
         explanation: 'Les veines ramènent le sang chargé de déchets des organes vers le cœur, puis vers les poumons.',
-        hints: ['Elles reviennent au cœur', 'Ça commence par V']
+        hints: ['Elles reviennent au cœur', 'Ça commence par V', 'La réponse est : veines']
       },
       {
         id: 'q7',
@@ -7673,7 +7673,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dioxyde de carbone', 'Oxygène', 'Azote', 'Sucre'],
         correctAnswer: 'Oxygène',
         explanation: 'Le sang artériel est rouge vif car il est riche en oxygène. Le sang veineux est plus sombre car il contient du CO2.',
-        hints: ['C\'est le gaz de la vie', 'Il vient des poumons']
+        hints: ['C\'est le gaz de la vie', 'Il vient des poumons', 'La réponse est : Oxygène']
       },
       {
         id: 'q8',
@@ -7681,7 +7681,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le sang circule toujours dans le même sens grâce aux valves du cœur et des veines qui empêchent le reflux.',
-        hints: ['C\'est un circuit fermé', 'C\'est vrai']
+        hints: ['C\'est un circuit fermé', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -7689,7 +7689,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dioxyde de carbone',
         explanation: 'Le dioxyde de carbone (CO2) est un déchet produit par les cellules. Les poumons l\'expulsent quand tu expires.',
-        hints: ['C\'est du CO2', 'On le rejette en expirant']
+        hints: ['C\'est du CO2', 'On le rejette en expirant', 'La réponse est : dioxyde de carbone']
       },
       {
         id: 'q10',
@@ -7698,7 +7698,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1 litre', '3 litres', '5 litres', '10 litres'],
         correctAnswer: '5 litres',
         explanation: 'Un adulte a environ 5 litres de sang qui circulent en permanence dans son corps.',
-        hints: ['C\'est entre 4 et 6', 'Environ 5 litres']
+        hints: ['C\'est entre 4 et 6', 'Environ 5 litres', 'La réponse est : 5 litres']
       }
     ]
   },
@@ -7720,7 +7720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Révolution', 'Rotation', 'Translation', 'Oscillation'],
         correctAnswer: 'Rotation',
         explanation: 'La rotation est le mouvement de la Terre sur elle-même, comme une toupie. Elle dure 24 heures.',
-        hints: ['Comme une toupie', 'Elle tourne sur son axe']
+        hints: ['Comme une toupie', 'Elle tourne sur son axe', 'La réponse est : Rotation']
       },
       {
         id: 'q2',
@@ -7728,7 +7728,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '24',
         explanation: 'La Terre fait un tour complet sur elle-même en 24 heures, ce qui crée l\'alternance jour/nuit.',
-        hints: ['C\'est un jour', 'En heures']
+        hints: ['C\'est un jour', 'En heures', 'La réponse est : 24']
       },
       {
         id: 'q3',
@@ -7737,7 +7737,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La révolution de la Terre', 'La rotation de la Terre', 'Le mouvement du Soleil', 'Les nuages'],
         correctAnswer: 'La rotation de la Terre',
         explanation: 'C\'est la rotation de la Terre qui crée le jour et la nuit : quand ta partie de la Terre fait face au Soleil, c\'est le jour.',
-        hints: ['La Terre tourne', 'Sur elle-même']
+        hints: ['La Terre tourne', 'Sur elle-même', 'La réponse est : La rotation de la Terre']
       },
       {
         id: 'q4',
@@ -7745,7 +7745,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'révolution',
         explanation: 'La révolution est le mouvement de la Terre autour du Soleil. Elle dure 365 jours, soit une année.',
-        hints: ['Autour du Soleil', 'Dure un an']
+        hints: ['Autour du Soleil', 'Dure un an', 'La réponse est : révolution']
       },
       {
         id: 'q5',
@@ -7753,7 +7753,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'axe de la Terre est incliné d\'environ 23°. C\'est cette inclinaison qui cause les saisons.',
-        hints: ['Elle penche un peu', 'C\'est vrai']
+        hints: ['Elle penche un peu', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -7762,7 +7762,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Plus proche du Soleil', 'Incliné vers le Soleil', 'Dans l\'ombre', 'Plus loin du Soleil'],
         correctAnswer: 'Incliné vers le Soleil',
         explanation: 'En été, l\'hémisphère Nord est incliné vers le Soleil, donc il reçoit plus de lumière et de chaleur.',
-        hints: ['Il fait plus chaud', 'Plus de soleil']
+        hints: ['Il fait plus chaud', 'Plus de soleil', 'La réponse est : Incliné vers le Soleil']
       },
       {
         id: 'q7',
@@ -7771,7 +7771,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Été aussi', 'Hiver', 'Printemps', 'Automne'],
         correctAnswer: 'Hiver',
         explanation: 'L\'Australie est dans l\'hémisphère Sud, donc les saisons sont inversées par rapport à la France.',
-        hints: ['Les saisons sont inversées', 'Hémisphère Sud = opposé']
+        hints: ['Les saisons sont inversées', 'Hémisphère Sud = opposé', 'La réponse est : Hiver']
       },
       {
         id: 'q8',
@@ -7780,7 +7780,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['24 heures', '1 mois', '1 an', '10 ans'],
         correctAnswer: '1 an',
         explanation: 'La Terre met un an (365 jours et 6 heures) pour faire une révolution complète autour du Soleil.',
-        hints: ['C\'est une année', '365 jours']
+        hints: ['C\'est une année', '365 jours', 'La réponse est : 1 an']
       },
       {
         id: 'q9',
@@ -7788,7 +7788,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le solstice d\'été (vers le 21 juin) est le jour le plus long de l\'année dans l\'hémisphère Nord.',
-        hints: ['C\'est en juin', 'C\'est vrai']
+        hints: ['C\'est en juin', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -7797,7 +7797,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Terre est plus proche du Soleil', 'Les rayons du Soleil arrivent plus droits', 'Le Soleil brille plus fort', 'Il y a moins de nuages'],
         correctAnswer: 'Les rayons du Soleil arrivent plus droits',
         explanation: 'En été, les rayons du Soleil arrivent plus perpendiculairement, donc ils chauffent plus efficacement.',
-        hints: ['C\'est l\'angle des rayons', 'Plus droits = plus de chaleur']
+        hints: ['C\'est l\'angle des rayons', 'Plus droits = plus de chaleur', 'La réponse est : Les rayons du Soleil arrivent plus droits']
       }
     ]
   },
@@ -7821,7 +7821,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'atome', 'La cellule', 'L\'organe', 'Le tissu'],
         correctAnswer: 'La cellule',
         explanation: 'La cellule est l\'unité de base de tous les êtres vivants. Tous les organismes sont constitués d\'une ou plusieurs cellules.',
-        hints: ['C\'est microscopique', 'Tous les êtres vivants en sont composés']
+        hints: ['C\'est microscopique', 'Tous les êtres vivants en sont composés', 'La réponse est : La cellule']
       },
       {
         id: 'q2',
@@ -7829,7 +7829,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'microscope',
         explanation: 'Le microscope permet d\'observer les cellules car elles sont trop petites pour être vues à l\'œil nu.',
-        hints: ['Pour voir ce qui est très petit', 'Ça commence par "micro"']
+        hints: ['Pour voir ce qui est très petit', 'Ça commence par "micro"', 'La réponse est : microscope']
       },
       {
         id: 'q3',
@@ -7837,7 +7837,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les bactéries (procaryotes) n\'ont pas de vrai noyau. Seules les cellules eucaryotes ont un noyau délimité par une membrane.',
-        hints: ['Les bactéries sont différentes', 'C\'est faux']
+        hints: ['Les bactéries sont différentes', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q4',
@@ -7846,7 +7846,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le noyau', 'La membrane plasmique', 'Le cytoplasme', 'La paroi'],
         correctAnswer: 'La membrane plasmique',
         explanation: 'La membrane plasmique est l\'enveloppe qui délimite la cellule et contrôle les échanges avec l\'extérieur.',
-        hints: ['C\'est une membrane', 'Elle entoure toute la cellule']
+        hints: ['C\'est une membrane', 'Elle entoure toute la cellule', 'La réponse est : La membrane plasmique']
       },
       {
         id: 'q5',
@@ -7854,7 +7854,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'noyau',
         explanation: 'Le noyau contient l\'ADN, qui porte l\'information génétique de la cellule.',
-        hints: ['C\'est au centre de la cellule', 'Il contient l\'ADN']
+        hints: ['C\'est au centre de la cellule', 'Il contient l\'ADN', 'La réponse est : noyau']
       },
       {
         id: 'q6',
@@ -7863,7 +7863,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le noyau', 'La paroi cellulaire et les chloroplastes', 'La membrane', 'Le cytoplasme'],
         correctAnswer: 'La paroi cellulaire et les chloroplastes',
         explanation: 'Les cellules végétales ont une paroi rigide et des chloroplastes (pour la photosynthèse) que les cellules animales n\'ont pas.',
-        hints: ['Les plantes font la photosynthèse', 'Elles ont une paroi rigide']
+        hints: ['Les plantes font la photosynthèse', 'Elles ont une paroi rigide', 'La réponse est : La paroi cellulaire et les chloroplastes']
       },
       {
         id: 'q7',
@@ -7871,7 +7871,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Uni" signifie "un". Les bactéries et certains protistes sont des organismes unicellulaires.',
-        hints: ['Uni = un', 'C\'est vrai']
+        hints: ['Uni = un', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -7880,7 +7880,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le plasma', 'Le cytoplasme', 'Le sérum', 'L\'eau'],
         correctAnswer: 'Le cytoplasme',
         explanation: 'Le cytoplasme est le liquide gélatineux qui remplit la cellule et dans lequel baignent les organites.',
-        hints: ['Il remplit l\'intérieur', 'Cyto = cellule']
+        hints: ['Il remplit l\'intérieur', 'Cyto = cellule', 'La réponse est : Le cytoplasme']
       },
       {
         id: 'q9',
@@ -7888,7 +7888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chloroplaste',
         explanation: 'Les chloroplastes contiennent la chlorophylle et permettent la photosynthèse (transformation de lumière en énergie).',
-        hints: ['Ils sont verts', 'Chloro = vert']
+        hints: ['Ils sont verts', 'Chloro = vert', 'La réponse est : chloroplaste']
       },
       {
         id: 'q10',
@@ -7897,7 +7897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1 mètre', '1 centimètre', '10-100 micromètres', '1 nanomètre'],
         correctAnswer: '10-100 micromètres',
         explanation: 'Les cellules animales mesurent généralement entre 10 et 100 micromètres (µm). Un micromètre = 0,001 mm.',
-        hints: ['C\'est très petit', 'On utilise des micromètres']
+        hints: ['C\'est très petit', 'On utilise des micromètres', 'La réponse est : 10-100 micromètres']
       }
     ]
   },
@@ -7919,7 +7919,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une famille', 'Une espèce', 'Un règne', 'Un genre'],
         correctAnswer: 'Une espèce',
         explanation: 'Une espèce regroupe des êtres vivants qui peuvent se reproduire entre eux et avoir des descendants fertiles.',
-        hints: ['Ils peuvent avoir des petits ensemble', 'C\'est une espèce']
+        hints: ['Ils peuvent avoir des petits ensemble', 'C\'est une espèce', 'La réponse est : Une espèce']
       },
       {
         id: 'q2',
@@ -7928,7 +7928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Leur couleur', 'La présence d\'une colonne vertébrale', 'Leur taille', 'Leur nourriture'],
         correctAnswer: 'La présence d\'une colonne vertébrale',
         explanation: 'Les vertébrés sont les animaux qui possèdent une colonne vertébrale (squelette interne avec des vertèbres).',
-        hints: ['Vertébré = vertèbres', 'La colonne vertébrale']
+        hints: ['Vertébré = vertèbres', 'La colonne vertébrale', 'La réponse est : La présence d\'une colonne vertébrale']
       },
       {
         id: 'q3',
@@ -7936,7 +7936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les insectes sont des invertébrés (pas de colonne vertébrale). Ce sont des arthropodes avec un exosquelette.',
-        hints: ['Ils n\'ont pas de squelette interne', 'C\'est faux']
+        hints: ['Ils n\'ont pas de squelette interne', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q4',
@@ -7944,7 +7944,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mammifères',
         explanation: 'Les mammifères allaitent leurs petits grâce à leurs glandes mammaires. Exemples : chien, chat, baleine, humain.',
-        hints: ['Mamma = mamelle', 'Ils produisent du lait']
+        hints: ['Mamma = mamelle', 'Ils produisent du lait', 'La réponse est : mammifères']
       },
       {
         id: 'q5',
@@ -7953,7 +7953,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les mammifères', 'Les reptiles', 'Les oiseaux', 'Les amphibiens'],
         correctAnswer: 'Les oiseaux',
         explanation: 'Les oiseaux sont les seuls animaux à posséder des plumes. C\'est un critère de classification important.',
-        hints: ['Ils peuvent voler', 'Ils ont des plumes']
+        hints: ['Ils peuvent voler', 'Ils ont des plumes', 'La réponse est : Les oiseaux']
       },
       {
         id: 'q6',
@@ -7961,7 +7961,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amphibiens',
         explanation: 'Les amphibiens (grenouilles, salamandres) vivent dans l\'eau quand ils sont jeunes (têtards) puis sur terre à l\'âge adulte.',
-        hints: ['Amphi = des deux côtés', 'Grenouilles, crapauds...']
+        hints: ['Amphi = des deux côtés', 'Grenouilles, crapauds...', 'La réponse est : amphibiens']
       },
       {
         id: 'q7',
@@ -7969,7 +7969,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les champignons forment un règne à part. Ils ne font pas de photosynthèse et se nourrissent de matière organique.',
-        hints: ['Ils n\'ont pas de chlorophylle', 'C\'est faux']
+        hints: ['Ils n\'ont pas de chlorophylle', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q8',
@@ -7978,7 +7978,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les poissons', 'Les reptiles', 'Les amphibiens', 'Les crustacés'],
         correctAnswer: 'Les reptiles',
         explanation: 'Les reptiles (serpents, lézards, tortues) ont des écailles et respirent avec des poumons, même les tortues aquatiques.',
-        hints: ['Serpents, lézards, tortues', 'Écailles + poumons']
+        hints: ['Serpents, lézards, tortues', 'Écailles + poumons', 'La réponse est : Les reptiles']
       },
       {
         id: 'q9',
@@ -7986,7 +7986,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'invertébrés',
         explanation: 'Les invertébrés n\'ont pas de colonne vertébrale. Ils représentent 97% des espèces animales (insectes, mollusques, vers...).',
-        hints: ['In = sans', 'Sans vertèbres']
+        hints: ['In = sans', 'Sans vertèbres', 'La réponse est : invertébrés']
       },
       {
         id: 'q10',
@@ -7995,7 +7995,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Eucaryotes', 'Procaryotes', 'Végétaux', 'Champignons'],
         correctAnswer: 'Procaryotes',
         explanation: 'Les bactéries sont des procaryotes : elles n\'ont pas de vrai noyau délimité par une membrane.',
-        hints: ['Elles n\'ont pas de noyau', 'Pro = avant (avant le noyau)']
+        hints: ['Elles n\'ont pas de noyau', 'Pro = avant (avant le noyau)', 'La réponse est : Procaryotes']
       }
     ]
   },
@@ -8017,7 +8017,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un seul animal', 'Un milieu de vie avec ses êtres vivants et leurs interactions', 'Une espèce', 'Un continent'],
         correctAnswer: 'Un milieu de vie avec ses êtres vivants et leurs interactions',
         explanation: 'Un écosystème comprend un milieu (biotope) et les êtres vivants qui y habitent (biocénose), ainsi que leurs interactions.',
-        hints: ['Milieu + êtres vivants', 'Tout est lié']
+        hints: ['Milieu + êtres vivants', 'Tout est lié', 'La réponse est : Un milieu de vie avec ses êtres vivants et leurs interactions']
       },
       {
         id: 'q2',
@@ -8025,7 +8025,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'biodiversité',
         explanation: 'La biodiversité représente la diversité du vivant : toutes les espèces animales, végétales et autres organismes.',
-        hints: ['Bio = vie, diversité = variété', 'La diversité du vivant']
+        hints: ['Bio = vie, diversité = variété', 'La diversité du vivant', 'La réponse est : biodiversité']
       },
       {
         id: 'q3',
@@ -8033,7 +8033,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Un prédateur est un animal qui chasse et mange d\'autres animaux appelés proies.',
-        hints: ['Il chasse pour manger', 'C\'est vrai']
+        hints: ['Il chasse pour manger', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -8042,7 +8042,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un prédateur', 'Un herbivore', 'Un producteur (plante)', 'Un décomposeur'],
         correctAnswer: 'Un producteur (plante)',
         explanation: 'Les producteurs (plantes) sont à la base des chaînes alimentaires car ils fabriquent leur nourriture grâce à la photosynthèse.',
-        hints: ['Ils utilisent le soleil', 'Les plantes']
+        hints: ['Ils utilisent le soleil', 'Les plantes', 'La réponse est : Un producteur (plante)']
       },
       {
         id: 'q5',
@@ -8050,7 +8050,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'décomposeurs',
         explanation: 'Les décomposeurs (champignons, bactéries) transforment la matière morte en éléments minéraux réutilisables par les plantes.',
-        hints: ['Ils recyclent la matière', 'Champignons, bactéries']
+        hints: ['Ils recyclent la matière', 'Champignons, bactéries', 'La réponse est : décomposeurs']
       },
       {
         id: 'q6',
@@ -8059,7 +8059,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rien ne change', 'Les proies prolifèrent et déséquilibrent l\'écosystème', 'Les plantes meurent', 'L\'eau disparaît'],
         correctAnswer: 'Les proies prolifèrent et déséquilibrent l\'écosystème',
         explanation: 'Sans prédateurs, les proies se multiplient trop, mangent toute la végétation et l\'écosystème est déséquilibré.',
-        hints: ['Plus de régulation', 'Les herbivores se multiplient']
+        hints: ['Plus de régulation', 'Les herbivores se multiplient', 'La réponse est : Les proies prolifèrent et déséquilibrent l\'écosystème']
       },
       {
         id: 'q7',
@@ -8067,7 +8067,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La forêt amazonienne est un écosystème avec son climat, son sol et une immense biodiversité.',
-        hints: ['C\'est un milieu avec ses êtres vivants', 'C\'est vrai']
+        hints: ['C\'est un milieu avec ses êtres vivants', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -8076,7 +8076,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les roches', 'La biodiversité et les écosystèmes', 'Les étoiles', 'Les volcans'],
         correctAnswer: 'La biodiversité et les écosystèmes',
         explanation: 'Le réchauffement climatique menace la biodiversité : extinction d\'espèces, destruction d\'habitats, déséquilibre des écosystèmes.',
-        hints: ['Les êtres vivants sont menacés', 'La biodiversité']
+        hints: ['Les êtres vivants sont menacés', 'La biodiversité', 'La réponse est : La biodiversité et les écosystèmes']
       },
       {
         id: 'q9',
@@ -8084,7 +8084,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'herbivore',
         explanation: 'Un herbivore se nourrit exclusivement de végétaux (herbe, feuilles, fruits). Exemples : vache, lapin, éléphant.',
-        hints: ['Herbe + vore (manger)', 'Il mange des plantes']
+        hints: ['Herbe + vore (manger)', 'Il mange des plantes', 'La réponse est : herbivore']
       },
       {
         id: 'q10',
@@ -8093,7 +8093,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Parce qu\'ils sont petits', 'Parce que tout est interconnecté et un changement peut tout déséquilibrer', 'Parce qu\'ils n\'existent pas vraiment', 'Parce qu\'ils sont artificiels'],
         correctAnswer: 'Parce que tout est interconnecté et un changement peut tout déséquilibrer',
         explanation: 'Dans un écosystème, tout est lié. La disparition d\'une espèce peut avoir des conséquences en cascade sur toutes les autres.',
-        hints: ['Tout est connecté', 'Un changement affecte tout']
+        hints: ['Tout est connecté', 'Un changement affecte tout', 'La réponse est : Parce que tout est interconnecté et un changement peut tout déséquilibrer']
       }
     ]
   },
@@ -8117,7 +8117,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Four', 'Five', 'Six', 'Seven'],
         correctAnswer: 'Five',
         explanation: '5 = Five en anglais',
-        hints: ['Ça commence par F', 'C\'est Five']
+        hints: ['Ça commence par F', 'C\'est Five', 'La réponse est : Five']
       }
     ]
   },
@@ -8139,7 +8139,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dog', 'Cat', 'Bird', 'Fish'],
         correctAnswer: 'Cat',
         explanation: 'Chat = Cat',
-        hints: ['Ça commence par C', 'Cat']
+        hints: ['Ça commence par C', 'Cat', 'La réponse est : Cat']
       },
       {
         id: 'q2',
@@ -8147,7 +8147,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dog',
         explanation: 'Chien = Dog',
-        hints: ['3 lettres', 'Dog']
+        hints: ['3 lettres', 'Dog', 'La réponse est : dog']
       }
     ]
   },
@@ -8170,7 +8170,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'goes',
         explanation: 'À la 3ème personne du singulier (he/she/it), on ajoute -s ou -es au verbe. Go devient goes.',
-        hints: ['3ème personne = +s', 'go → goes']
+        hints: ['3ème personne = +s', 'go → goes', 'La réponse est : goes']
       },
       {
         id: 'q2',
@@ -8179,7 +8179,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-ing', '-ed', '-s ou -es', 'rien'],
         correctAnswer: '-s ou -es',
         explanation: 'Au présent simple, on ajoute -s ou -es au verbe pour he/she/it. Ex: She plays, He watches.',
-        hints: ['Pour he, she, it', 'C\'est -s ou -es']
+        hints: ['Pour he, she, it', 'C\'est -s ou -es', 'La réponse est : -s ou -es']
       },
       {
         id: 'q3',
@@ -8187,7 +8187,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'doesn\'t',
         explanation: 'Pour la forme négative avec he/she/it, on utilise "doesn\'t" (does not) + verbe à l\'infinitif.',
-        hints: ['Does + not', 'doesn\'t']
+        hints: ['Does + not', 'doesn\'t', 'La réponse est : doesn\'t']
       },
       {
         id: 'q4',
@@ -8195,7 +8195,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Avec "I", on ne met pas de -s au verbe. La forme correcte est "I play football".',
-        hints: ['Le -s est pour he/she/it', 'C\'est faux']
+        hints: ['Le -s est pour he/she/it', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -8204,7 +8204,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Do', 'Does', 'Is', 'Are'],
         correctAnswer: 'Does',
         explanation: 'Pour poser une question avec he/she/it au présent simple, on utilise "Does".',
-        hints: ['Pour she, c\'est...', 'Does']
+        hints: ['Pour she, c\'est...', 'Does', 'La réponse est : Does']
       },
       {
         id: 'q6',
@@ -8212,7 +8212,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'play',
         explanation: 'Avec "they", on n\'ajoute pas de -s au verbe. They play football.',
-        hints: ['They = pas de -s', 'play']
+        hints: ['They = pas de -s', 'play', 'La réponse est : play']
       },
       {
         id: 'q7',
@@ -8221,7 +8221,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['doesn\'t + verbe', 'don\'t + verbe', 'not + verbe', 'verbe + not'],
         correctAnswer: 'don\'t + verbe',
         explanation: 'Avec I/you/we/they, on utilise "don\'t" (do not) + verbe à l\'infinitif.',
-        hints: ['Do + not', 'don\'t']
+        hints: ['Do + not', 'don\'t', 'La réponse est : don\'t + verbe']
       },
       {
         id: 'q8',
@@ -8229,7 +8229,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Après "does", le verbe reste à l\'infinitif (sans -s). C\'est "Does he like music?"',
-        hints: ['Après does, pas de -s', 'C\'est faux']
+        hints: ['Après does, pas de -s', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q9',
@@ -8237,7 +8237,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'eats',
         explanation: '"My cat" = it (3ème personne). On ajoute -s au verbe : eats.',
-        hints: ['My cat = it', 'eat → eats']
+        hints: ['My cat = it', 'eat → eats', 'La réponse est : eats']
       },
       {
         id: 'q10',
@@ -8246,7 +8246,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['She don\'t like cheese', 'She doesn\'t like cheese', 'She not like cheese', 'She doesn\'t likes cheese'],
         correctAnswer: 'She doesn\'t like cheese',
         explanation: 'Avec she, la forme négative est : She doesn\'t + verbe (sans -s).',
-        hints: ['She = doesn\'t', 'Le verbe reste "like"']
+        hints: ['She = doesn\'t', 'Le verbe reste "like"', 'La réponse est : She doesn\'t like cheese']
       }
     ]
   },
@@ -8268,7 +8268,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['What', 'Where', 'When', 'Who'],
         correctAnswer: 'Where',
         explanation: '"Where" signifie "où" en anglais. Ex: Where do you live? = Où habites-tu ?',
-        hints: ['Ça concerne un lieu', 'Where']
+        hints: ['Ça concerne un lieu', 'Where', 'La réponse est : Where']
       },
       {
         id: 'q2',
@@ -8276,7 +8276,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'What',
         explanation: '"What" signifie "Quel/Quelle" ou "Qu\'est-ce que". What is your name? = Quel est ton nom ?',
-        hints: ['Pour demander quelque chose', 'What']
+        hints: ['Pour demander quelque chose', 'What', 'La réponse est : What']
       },
       {
         id: 'q3',
@@ -8285,7 +8285,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Où', 'Quand', 'Pourquoi', 'Comment'],
         correctAnswer: 'Quand',
         explanation: '"When" signifie "quand". Ex: When is your birthday? = Quand est ton anniversaire ?',
-        hints: ['Ça concerne le temps', 'Quand']
+        hints: ['Ça concerne le temps', 'Quand', 'La réponse est : Quand']
       },
       {
         id: 'q4',
@@ -8293,7 +8293,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Who" signifie "qui". Ex: Who is your teacher? = Qui est ton professeur ?',
-        hints: ['Pour parler de personnes', 'C\'est vrai']
+        hints: ['Pour parler de personnes', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -8301,7 +8301,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Why',
         explanation: '"Why" signifie "pourquoi". On répond souvent avec "because" (parce que).',
-        hints: ['La réponse est "because"', 'Why']
+        hints: ['La réponse est "because"', 'Why', 'La réponse est : Why']
       },
       {
         id: 'q6',
@@ -8310,7 +8310,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['What', 'Why', 'How', 'Who'],
         correctAnswer: 'How',
         explanation: '"How" signifie "comment". Ex: How are you? = Comment vas-tu ?',
-        hints: ['Pour la manière', 'How']
+        hints: ['Pour la manière', 'How', 'La réponse est : How']
       },
       {
         id: 'q7',
@@ -8319,7 +8319,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['What', 'Where', 'How', 'Who'],
         correctAnswer: 'How',
         explanation: '"How old" signifie "quel âge". How old are you? = Quel âge as-tu ?',
-        hints: ['Pour demander l\'âge', 'How + old']
+        hints: ['Pour demander l\'âge', 'How + old', 'La réponse est : How']
       },
       {
         id: 'q8',
@@ -8328,7 +8328,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Where do you eat?', 'What do you eat?', 'When do you eat?', 'Who do you eat?'],
         correctAnswer: 'What do you eat?',
         explanation: '"What do you eat?" = Qu\'est-ce que tu manges ? "What" pour demander "quoi".',
-        hints: ['What = quoi', 'What do you eat?']
+        hints: ['What = quoi', 'What do you eat?', 'La réponse est : What do you eat?']
       },
       {
         id: 'q9',
@@ -8336,7 +8336,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "How many" = combien (pour les choses dénombrables). Ex: How many brothers do you have?',
-        hints: ['Pour compter', 'C\'est vrai']
+        hints: ['Pour compter', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -8344,7 +8344,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Where',
         explanation: '"Where" pour demander un lieu. Where do you live? = Où habites-tu ?',
-        hints: ['La réponse est un lieu', 'Where']
+        hints: ['La réponse est un lieu', 'Where', 'La réponse est : Where']
       }
     ]
   },
@@ -8366,7 +8366,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['bathroom', 'bedroom', 'kitchen', 'living room'],
         correctAnswer: 'kitchen',
         explanation: '"Kitchen" signifie "cuisine". C\'est la pièce où on prépare les repas.',
-        hints: ['Là où on cuisine', 'Kitchen']
+        hints: ['Là où on cuisine', 'Kitchen', 'La réponse est : kitchen']
       },
       {
         id: 'q2',
@@ -8374,7 +8374,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chambre',
         explanation: '"Bedroom" = chambre (à coucher). "Bed" signifie lit, donc "bedroom" = la pièce du lit.',
-        hints: ['Là où on dort', 'Bed = lit']
+        hints: ['Là où on dort', 'Bed = lit', 'La réponse est : chambre']
       },
       {
         id: 'q3',
@@ -8383,7 +8383,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['bathroom', 'bedroom', 'kitchen', 'garden'],
         correctAnswer: 'bathroom',
         explanation: '"Bathroom" = salle de bains. "Bath" signifie bain.',
-        hints: ['Bath = bain', 'Bathroom']
+        hints: ['Bath = bain', 'Bathroom', 'La réponse est : bathroom']
       },
       {
         id: 'q4',
@@ -8391,7 +8391,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Living room" signifie "salon" ou "salle de séjour". La salle à manger est "dining room".',
-        hints: ['Living = vivre', 'C\'est le salon']
+        hints: ['Living = vivre', 'C\'est le salon', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -8400,7 +8400,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['chair', 'table', 'sofa', 'bed'],
         correctAnswer: 'sofa',
         explanation: '"Sofa" (ou "couch") signifie "canapé". C\'est un siège long où on peut s\'asseoir à plusieurs.',
-        hints: ['C\'est dans le salon', 'Sofa']
+        hints: ['C\'est dans le salon', 'Sofa', 'La réponse est : sofa']
       },
       {
         id: 'q6',
@@ -8408,7 +8408,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'fenêtre',
         explanation: '"Window" signifie "fenêtre". C\'est par où entre la lumière.',
-        hints: ['Pour voir dehors', 'La lumière entre par là']
+        hints: ['Pour voir dehors', 'La lumière entre par là', 'La réponse est : fenêtre']
       },
       {
         id: 'q7',
@@ -8417,7 +8417,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['garage', 'garden', 'kitchen', 'roof'],
         correctAnswer: 'garden',
         explanation: '"Garden" signifie "jardin". C\'est l\'espace vert à l\'extérieur de la maison.',
-        hints: ['Dehors, avec des plantes', 'Garden']
+        hints: ['Dehors, avec des plantes', 'Garden', 'La réponse est : garden']
       },
       {
         id: 'q8',
@@ -8425,7 +8425,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Door" = porte. On l\'ouvre pour entrer ou sortir d\'une pièce.',
-        hints: ['On l\'ouvre pour entrer', 'C\'est vrai']
+        hints: ['On l\'ouvre pour entrer', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -8434,7 +8434,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['floor', 'roof', 'wall', 'ceiling'],
         correctAnswer: 'roof',
         explanation: '"Roof" signifie "toit". C\'est la partie supérieure de la maison qui protège de la pluie.',
-        hints: ['Tout en haut de la maison', 'Roof']
+        hints: ['Tout en haut de la maison', 'Roof', 'La réponse est : roof']
       },
       {
         id: 'q10',
@@ -8442,7 +8442,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'escalier',
         explanation: '"Stairs" (ou "staircase") signifie "escalier". C\'est ce qu\'on monte pour aller à l\'étage.',
-        hints: ['Pour monter', 'On les monte marche par marche']
+        hints: ['Pour monter', 'On les monte marche par marche', 'La réponse est : escalier']
       }
     ]
   },
@@ -8463,7 +8463,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'is watching',
         explanation: 'Present continuous = BE + verbe-ING. She → is. Watch → watching. Donc "She is watching".',
-        hints: ['Utilise le verbe BE conjugué + ING', 'She IS...']
+        hints: ['Utilise le verbe BE conjugué + ING', 'She IS...', 'La réponse est : is watching']
       },
       {
         id: 'q2',
@@ -8471,7 +8471,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'are playing',
         explanation: 'They (ils/elles) utilise "are" au présent de BE. Play + ING = playing.',
-        hints: ['They → are', 'Play devient playing']
+        hints: ['They → are', 'Play devient playing', 'La réponse est : are playing']
       },
       {
         id: 'q3',
@@ -8479,7 +8479,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'am reading',
         explanation: 'I (je) utilise "am" au présent de BE. Read + ING = reading.',
-        hints: ['I → am', 'Read devient reading']
+        hints: ['I → am', 'Read devient reading', 'La réponse est : am reading']
       },
       {
         id: 'q4',
@@ -8488,7 +8488,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['She plays tennis.', 'She is playing tennis.', 'She played tennis.', 'She will play tennis.'],
         correctAnswer: 'She is playing tennis.',
         explanation: 'Le present continuous se forme avec BE + verbe-ING. "She is playing" est la seule forme correcte.',
-        hints: ['Cherche BE + ING', 'is + playing']
+        hints: ['Cherche BE + ING', 'is + playing', 'La réponse est : She is playing tennis.']
       },
       {
         id: 'q5',
@@ -8496,7 +8496,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'is doing',
         explanation: 'He → is. Do + ING = doing. "He is doing his homework."',
-        hints: ['He → is', 'Do devient doing']
+        hints: ['He → is', 'Do devient doing', 'La réponse est : is doing']
       },
       {
         id: 'q6',
@@ -8504,7 +8504,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le present continuous décrit une action qui se passe maintenant, en ce moment.',
-        hints: ['Pense à "maintenant"', 'Action en cours = continuous']
+        hints: ['Pense à "maintenant"', 'Action en cours = continuous', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -8512,7 +8512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'is sleeping',
         explanation: 'The cat (il/elle) → is. Sleep + ING = sleeping.',
-        hints: ['Un chat = it/he/she → is', 'Sleep + ING']
+        hints: ['Un chat = it/he/she → is', 'Sleep + ING', 'La réponse est : is sleeping']
       },
       {
         id: 'q8',
@@ -8520,7 +8520,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'are listening',
         explanation: 'We (nous) → are. Listen + ING = listening.',
-        hints: ['We → are', 'Listen devient listening']
+        hints: ['We → are', 'Listen devient listening', 'La réponse est : are listening']
       },
       {
         id: 'q9',
@@ -8529,7 +8529,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Yesterday', 'Tomorrow', 'Now / Right now', 'Last week'],
         correctAnswer: 'Now / Right now',
         explanation: '"Now" et "right now" (maintenant) indiquent une action en cours, donc le present continuous.',
-        hints: ['C\'est un mot qui signifie "maintenant"', 'Now !']
+        hints: ['C\'est un mot qui signifie "maintenant"', 'Now !', 'La réponse est : Now / Right now']
       },
       {
         id: 'q10',
@@ -8537,7 +8537,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'are writing',
         explanation: 'The students (pluriel) → are. Write + ING = writing (on double pas le e final, on le supprime).',
-        hints: ['Students = they → are', 'Write perd le e avant ING']
+        hints: ['Students = they → are', 'Write perd le e avant ING', 'La réponse est : are writing']
       }
     ]
   },
@@ -8558,7 +8558,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'cleaned',
         explanation: 'Au simple past, les verbes réguliers prennent -ED. Clean → cleaned.',
-        hints: ['Ajoute -ED', 'Clean + ED']
+        hints: ['Ajoute -ED', 'Clean + ED', 'La réponse est : cleaned']
       },
       {
         id: 'q2',
@@ -8566,7 +8566,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'visited',
         explanation: 'Visit → visited. On ajoute -ED aux verbes réguliers.',
-        hints: ['Verbe régulier + ED', 'Visit + ED']
+        hints: ['Verbe régulier + ED', 'Visit + ED', 'La réponse est : visited']
       },
       {
         id: 'q3',
@@ -8574,7 +8574,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'played',
         explanation: 'Play → played. Quand le verbe finit par une consonne + Y, on garde le Y et on ajoute -ED.',
-        hints: ['Play + ED', 'Le Y reste']
+        hints: ['Play + ED', 'Le Y reste', 'La réponse est : played']
       },
       {
         id: 'q4',
@@ -8583,7 +8583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['On ajoute -ING', 'On ajoute -ED', 'On ajoute -S', 'On ne change rien'],
         correctAnswer: 'On ajoute -ED',
         explanation: 'Les verbes réguliers au simple past prennent la terminaison -ED.',
-        hints: ['C\'est une terminaison du passé', '-ED']
+        hints: ['C\'est une terminaison du passé', '-ED', 'La réponse est : On ajoute -ED']
       },
       {
         id: 'q5',
@@ -8591,7 +8591,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'watched',
         explanation: 'Watch → watched. Simple past régulier avec -ED.',
-        hints: ['Watch + ED', 'Passé = -ED']
+        hints: ['Watch + ED', 'Passé = -ED', 'La réponse est : watched']
       },
       {
         id: 'q6',
@@ -8599,7 +8599,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'travelled',
         explanation: 'Travel → travelled. Quand un verbe finit par consonne-voyelle-consonne, on double la dernière consonne avant -ED.',
-        hints: ['On double le L', 'Travel + L + ED']
+        hints: ['On double le L', 'Travel + L + ED', 'La réponse est : travelled']
       },
       {
         id: 'q7',
@@ -8607,7 +8607,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Yesterday" (hier), "last week", "last year" indiquent le passé → simple past.',
-        hints: ['Yesterday = hier', 'C\'est du passé']
+        hints: ['Yesterday = hier', 'C\'est du passé', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -8615,7 +8615,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finished',
         explanation: 'Finish → finished. On ajoute -ED.',
-        hints: ['Finish + ED', 'Verbe régulier']
+        hints: ['Finish + ED', 'Verbe régulier', 'La réponse est : finished']
       },
       {
         id: 'q9',
@@ -8623,7 +8623,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'started',
         explanation: 'Start → started. Simple past régulier avec -ED.',
-        hints: ['Start + ED', 'Action passée']
+        hints: ['Start + ED', 'Action passée', 'La réponse est : started']
       },
       {
         id: 'q10',
@@ -8631,7 +8631,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'studied',
         explanation: 'Study → studied. Quand le verbe finit par consonne + Y, on change Y en I et on ajoute -ED.',
-        hints: ['Y devient I', 'Study → studi + ED']
+        hints: ['Y devient I', 'Study → studi + ED', 'La réponse est : studied']
       }
     ]
   },
@@ -8653,7 +8653,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Wake up', 'Get up', 'Sleep', 'Go to bed'],
         correctAnswer: 'Wake up',
         explanation: '"Wake up" signifie se réveiller. "Get up" signifie se lever.',
-        hints: ['Wake = s\'éveiller', 'Wake up']
+        hints: ['Wake = s\'éveiller', 'Wake up', 'La réponse est : Wake up']
       },
       {
         id: 'q2',
@@ -8662,7 +8662,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Faire ses devoirs', 'Prendre le petit-déjeuner', 'Aller se coucher', 'Prendre une douche'],
         correctAnswer: 'Prendre le petit-déjeuner',
         explanation: '"Have breakfast" = prendre le petit-déjeuner. Breakfast est le repas du matin.',
-        hints: ['Breakfast = petit-déjeuner', 'Have = prendre/avoir']
+        hints: ['Breakfast = petit-déjeuner', 'Have = prendre/avoir', 'La réponse est : Prendre le petit-déjeuner']
       },
       {
         id: 'q3',
@@ -8670,7 +8670,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'brush my teeth',
         explanation: '"Brush my teeth" = se brosser les dents. Brush = brosser, teeth = dents.',
-        hints: ['Brush = brosser', 'Teeth = dents']
+        hints: ['Brush = brosser', 'Teeth = dents', 'La réponse est : brush my teeth']
       },
       {
         id: 'q4',
@@ -8679,7 +8679,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Prendre un bain', 'Prendre une douche', 'Se maquiller', 'Se coiffer'],
         correctAnswer: 'Prendre une douche',
         explanation: '"Take a shower" = prendre une douche. Shower = douche.',
-        hints: ['Shower = douche', 'Take = prendre']
+        hints: ['Shower = douche', 'Take = prendre', 'La réponse est : Prendre une douche']
       },
       {
         id: 'q5',
@@ -8687,7 +8687,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'get dressed',
         explanation: '"Get dressed" signifie s\'habiller. Dressed vient de dress = vêtement.',
-        hints: ['Get + dressed', 'Dressed = habillé']
+        hints: ['Get + dressed', 'Dressed = habillé', 'La réponse est : get dressed']
       },
       {
         id: 'q6',
@@ -8696,7 +8696,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aller au lit', 'Aller à l\'école', 'Rentrer à la maison', 'Faire du sport'],
         correctAnswer: 'Aller à l\'école',
         explanation: '"Go to school" = aller à l\'école. School = école.',
-        hints: ['School = école', 'Go to = aller à']
+        hints: ['School = école', 'Go to = aller à', 'La réponse est : Aller à l\'école']
       },
       {
         id: 'q7',
@@ -8704,7 +8704,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Have lunch" = déjeuner (repas du midi). Lunch = déjeuner.',
-        hints: ['Lunch = repas du midi', 'Have = prendre']
+        hints: ['Lunch = repas du midi', 'Have = prendre', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -8712,7 +8712,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'do homework',
         explanation: '"Do homework" = faire ses devoirs. Homework = devoirs (à la maison).',
-        hints: ['Do = faire', 'Homework = devoirs']
+        hints: ['Do = faire', 'Homework = devoirs', 'La réponse est : do homework']
       },
       {
         id: 'q9',
@@ -8721,7 +8721,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Se lever', 'Aller se coucher', 'Prendre un bain', 'Dîner'],
         correctAnswer: 'Aller se coucher',
         explanation: '"Go to bed" = aller se coucher. Bed = lit.',
-        hints: ['Bed = lit', 'Go to = aller à']
+        hints: ['Bed = lit', 'Go to = aller à', 'La réponse est : Aller se coucher']
       },
       {
         id: 'q10',
@@ -8754,7 +8754,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Homo sapiens', 'Homo erectus', 'Cro-Magnon', 'Néandertal'],
         correctAnswer: 'Homo erectus',
         explanation: 'Homo erectus a été le premier à maîtriser le feu',
-        hints: ['C\'est un homme ancien', 'Homo erectus']
+        hints: ['C\'est un homme ancien', 'Homo erectus', 'La réponse est : Homo erectus']
       }
     ]
   },
@@ -8776,7 +8776,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '6', '7', '8'],
         correctAnswer: '7',
         explanation: 'Il y a 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie.',
-        hints: ['Plus que 5', 'C\'est 7']
+        hints: ['Plus que 5', 'C\'est 7', 'La réponse est : 7']
       },
       {
         id: 'q2',
@@ -8785,7 +8785,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Afrique', 'L\'Europe', 'L\'Asie', 'L\'Amérique du Nord'],
         correctAnswer: 'L\'Asie',
         explanation: 'L\'Asie est le plus grand continent. Elle couvre environ 30% des terres émergées et abrite plus de la moitié de la population mondiale.',
-        hints: ['C\'est là où se trouvent la Chine et l\'Inde', 'Le plus peuplé aussi']
+        hints: ['C\'est là où se trouvent la Chine et l\'Inde', 'Le plus peuplé aussi', 'La réponse est : L\'Asie']
       },
       {
         id: 'q3',
@@ -8793,7 +8793,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: 'Il y a 5 océans : Pacifique, Atlantique, Indien, Arctique et Antarctique (ou Austral).',
-        hints: ['C\'est un chiffre entre 4 et 6', 'Pacifique, Atlantique, Indien...']
+        hints: ['C\'est un chiffre entre 4 et 6', 'Pacifique, Atlantique, Indien...', 'La réponse est : 5']
       },
       {
         id: 'q4',
@@ -8802,7 +8802,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Atlantique', 'L\'Indien', 'Le Pacifique', 'L\'Arctique'],
         correctAnswer: 'Le Pacifique',
         explanation: 'Le Pacifique est le plus grand océan. Il couvre environ un tiers de la surface de la Terre !',
-        hints: ['Il est entre l\'Asie et l\'Amérique', 'Son nom évoque le calme']
+        hints: ['Il est entre l\'Asie et l\'Amérique', 'Son nom évoque le calme', 'La réponse est : Le Pacifique']
       },
       {
         id: 'q5',
@@ -8810,7 +8810,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'Europe et l\'Asie sont sur la même masse continentale, souvent appelée Eurasie.',
-        hints: ['Elles sont attachées', 'C\'est vrai']
+        hints: ['Elles sont attachées', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -8819,7 +8819,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Afrique', 'L\'Europe', 'L\'Asie', 'L\'Amérique du Nord'],
         correctAnswer: 'L\'Europe',
         explanation: 'La France se trouve en Europe, dans sa partie occidentale.',
-        hints: ['C\'est un continent proche', 'À l\'ouest']
+        hints: ['C\'est un continent proche', 'À l\'ouest', 'La réponse est : L\'Europe']
       },
       {
         id: 'q7',
@@ -8827,7 +8827,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Antarctique',
         explanation: 'L\'Antarctique est le continent situé au Pôle Sud. C\'est le plus froid et le moins peuplé de la planète.',
-        hints: ['C\'est le continent le plus froid', 'Au sud, tout au sud']
+        hints: ['C\'est le continent le plus froid', 'Au sud, tout au sud', 'La réponse est : Antarctique']
       },
       {
         id: 'q8',
@@ -8836,7 +8836,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Pacifique', 'L\'Atlantique', 'L\'Indien', 'L\'Arctique'],
         correctAnswer: 'L\'Atlantique',
         explanation: 'L\'océan Atlantique borde la côte ouest de l\'Afrique et la côte est de l\'Amérique.',
-        hints: ['Il sépare l\'Afrique de l\'Amérique', 'C\'est l\'Atlantique']
+        hints: ['Il sépare l\'Afrique de l\'Amérique', 'C\'est l\'Atlantique', 'La réponse est : L\'Atlantique']
       },
       {
         id: 'q9',
@@ -8875,7 +8875,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De -3000 à 0', 'De 476 à 1492', 'De 1789 à 1900', 'De 1900 à 2000'],
         correctAnswer: 'De 476 à 1492',
         explanation: 'Le Moyen Âge s\'étend de 476 (chute de l\'Empire romain) à 1492 (découverte de l\'Amérique par Christophe Colomb).',
-        hints: ['Entre l\'Antiquité et les Temps modernes', 'Environ 1000 ans']
+        hints: ['Entre l\'Antiquité et les Temps modernes', 'Environ 1000 ans', 'La réponse est : De 476 à 1492']
       },
       {
         id: 'q2',
@@ -8883,7 +8883,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'seigneur',
         explanation: 'Le seigneur est le maître d\'un domaine (la seigneurie). Il possède les terres et protège les paysans en échange de leur travail.',
-        hints: ['Il habite dans un château', 'C\'est le maître des terres']
+        hints: ['Il habite dans un château', 'C\'est le maître des terres', 'La réponse est : seigneur']
       },
       {
         id: 'q3',
@@ -8891,7 +8891,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les châteaux forts étaient des forteresses avec des murailles épaisses, des tours et des douves pour protéger le seigneur et ses sujets.',
-        hints: ['Murailles, tours, douves...', 'C\'est vrai']
+        hints: ['Murailles, tours, douves...', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -8900,7 +8900,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les soldats', 'Les chevaliers', 'Les gladiateurs', 'Les centurions'],
         correctAnswer: 'Les chevaliers',
         explanation: 'Les chevaliers étaient des guerriers nobles qui combattaient à cheval. Ils portaient une armure et suivaient un code d\'honneur.',
-        hints: ['Ils portent une armure', 'Leur nom vient de "cheval"']
+        hints: ['Ils portent une armure', 'Leur nom vient de "cheval"', 'La réponse est : Les chevaliers']
       },
       {
         id: 'q5',
@@ -8908,7 +8908,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'serfs',
         explanation: 'Les serfs étaient des paysans attachés à la terre du seigneur. Ils n\'étaient pas libres de partir et devaient travailler pour lui.',
-        hints: ['Ils n\'étaient pas libres', 'Ça commence par S']
+        hints: ['Ils n\'étaient pas libres', 'Ça commence par S', 'La réponse est : serfs']
       },
       {
         id: 'q6',
@@ -8917,7 +8917,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Louis XIV', 'Louis IX', 'Charlemagne', 'Philippe Auguste'],
         correctAnswer: 'Louis IX',
         explanation: 'Louis IX (1214-1270) a été canonisé (déclaré saint) par l\'Église. Il était connu pour sa piété et sa justice.',
-        hints: ['C\'est un Louis', 'Il a été déclaré saint']
+        hints: ['C\'est un Louis', 'Il a été déclaré saint', 'La réponse est : Louis IX']
       },
       {
         id: 'q7',
@@ -8925,7 +8925,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Charlemagne (742-814) a favorisé l\'éducation en créant des écoles dans les monastères et les cathédrales.',
-        hints: ['Il voulait un peuple instruit', 'C\'est vrai']
+        hints: ['Il voulait un peuple instruit', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -8943,7 +8943,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La mort de Charlemagne', 'La découverte de l\'Amérique en 1492', 'La Révolution française', 'La construction de Notre-Dame'],
         correctAnswer: 'La découverte de l\'Amérique en 1492',
         explanation: 'La découverte de l\'Amérique par Christophe Colomb en 1492 marque conventionnellement la fin du Moyen Âge et le début des Temps modernes.',
-        hints: ['C\'est en 1492', 'Christophe Colomb']
+        hints: ['C\'est en 1492', 'Christophe Colomb', 'La réponse est : La découverte de l\'Amérique en 1492']
       },
       {
         id: 'q10',
@@ -8951,7 +8951,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'peste',
         explanation: 'La peste noire a ravagé l\'Europe au XIVe siècle (1347-1352), tuant environ un tiers de la population européenne.',
-        hints: ['Une terrible maladie', 'On l\'appelle la ___ noire']
+        hints: ['Une terrible maladie', 'On l\'appelle la ___ noire', 'La réponse est : peste']
       }
     ]
   },
@@ -8973,7 +8973,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vasco de Gama', 'Christophe Colomb', 'Marco Polo', 'Magellan'],
         correctAnswer: 'Christophe Colomb',
         explanation: 'Christophe Colomb, navigateur génois au service de l\'Espagne, a atteint l\'Amérique le 12 octobre 1492.',
-        hints: ['Il travaillait pour l\'Espagne', 'Il cherchait les Indes']
+        hints: ['Il travaillait pour l\'Espagne', 'Il cherchait les Indes', 'La réponse est : Christophe Colomb']
       },
       {
         id: 'q2',
@@ -8982,7 +8982,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Afrique', 'L\'Australie', 'Les Indes', 'Le Pôle Nord'],
         correctAnswer: 'Les Indes',
         explanation: 'Colomb voulait atteindre les Indes en passant par l\'ouest. Il pensait que la Terre était ronde (et il avait raison !).',
-        hints: ['Il voulait trouver des épices', 'Il a appelé les habitants "Indiens"']
+        hints: ['Il voulait trouver des épices', 'Il a appelé les habitants "Indiens"', 'La réponse est : Les Indes']
       },
       {
         id: 'q3',
@@ -8990,7 +8990,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'expédition de Magellan (1519-1522) a été la première à faire le tour du monde, prouvant que la Terre est ronde.',
-        hints: ['Son expédition a fait le tour complet', 'C\'est vrai']
+        hints: ['Son expédition a fait le tour complet', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -8999,7 +8999,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Titanic, le France, le Normandie', 'La Niña, la Pinta, la Santa María', 'Le Victory, le Neptune, le Bounty', 'Le Mayflower, le Beagle, le Endeavour'],
         correctAnswer: 'La Niña, la Pinta, la Santa María',
         explanation: 'Colomb est parti avec trois caravelles : la Niña, la Pinta et la Santa María.',
-        hints: ['Des noms espagnols', 'Trois bateaux']
+        hints: ['Des noms espagnols', 'Trois bateaux', 'La réponse est : La Niña, la Pinta, la Santa María']
       },
       {
         id: 'q5',
@@ -9007,7 +9007,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Vasco de Gama',
         explanation: 'Vasco de Gama a contourné l\'Afrique et atteint les Indes en 1498, ouvrant une route maritime vers l\'Asie.',
-        hints: ['Un Portugais', 'Il a contourné l\'Afrique']
+        hints: ['Un Portugais', 'Il a contourné l\'Afrique', 'La réponse est : Vasco de Gama']
       },
       {
         id: 'q6',
@@ -9016,7 +9016,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pour trouver de l\'or uniquement', 'Pour les épices et le commerce', 'Pour les vacances', 'Pour fuir l\'Europe'],
         correctAnswer: 'Pour les épices et le commerce',
         explanation: 'Les épices (poivre, cannelle, muscade) valaient très cher en Europe. Les Européens voulaient commercer directement avec l\'Asie.',
-        hints: ['Les épices coûtaient cher', 'C\'était pour le commerce']
+        hints: ['Les épices coûtaient cher', 'C\'était pour le commerce', 'La réponse est : Pour les épices et le commerce']
       },
       {
         id: 'q7',
@@ -9024,7 +9024,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le continent a été nommé "America" en l\'honneur du navigateur florentin Amerigo Vespucci, qui a compris que c\'était un nouveau continent.',
-        hints: ['Son prénom ressemble à "Amérique"', 'C\'est vrai']
+        hints: ['Son prénom ressemble à "Amérique"', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -9033,7 +9033,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Portugal', 'L\'Angleterre', 'L\'Espagne', 'La France'],
         correctAnswer: 'L\'Espagne',
         explanation: 'La reine Isabelle de Castille et le roi Ferdinand d\'Aragon ont financé l\'expédition de Colomb.',
-        hints: ['Les rois catholiques', 'C\'est un pays ibérique']
+        hints: ['Les rois catholiques', 'C\'est un pays ibérique', 'La réponse est : L\'Espagne']
       },
       {
         id: 'q9',
@@ -9041,7 +9041,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Magellan',
         explanation: 'Le détroit de Magellan, au sud du Chili, permet de passer de l\'Atlantique au Pacifique.',
-        hints: ['Il porte son nom', 'C\'est le détroit de ___']
+        hints: ['Il porte son nom', 'C\'est le détroit de ___', 'La réponse est : Magellan']
       },
       {
         id: 'q10',
@@ -9050,7 +9050,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils sont devenus très riches', 'Maladies, esclavage et colonisation', 'Ils ont tous émigré en Europe', 'Aucune conséquence'],
         correctAnswer: 'Maladies, esclavage et colonisation',
         explanation: 'Les Grandes Découvertes ont eu des conséquences dramatiques : maladies européennes, esclavage et colonisation ont décimé les populations autochtones.',
-        hints: ['Ce n\'était pas positif pour eux', 'Maladies et exploitation']
+        hints: ['Ce n\'était pas positif pour eux', 'Maladies et exploitation', 'La réponse est : Maladies, esclavage et colonisation']
       }
     ]
   },
@@ -9072,7 +9072,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les Grecs', 'Les Romains', 'Les Égyptiens', 'Les Mésopotamiens'],
         correctAnswer: 'Les Égyptiens',
         explanation: 'Les pyramides de Gizeh ont été construites par les Égyptiens anciens, il y a environ 4500 ans.',
-        hints: ['C\'est en Afrique', 'Sur les bords du Nil']
+        hints: ['C\'est en Afrique', 'Sur les bords du Nil', 'La réponse est : Les Égyptiens']
       },
       {
         id: 'q2',
@@ -9080,7 +9080,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'pharaon',
         explanation: 'Le pharaon était le roi d\'Égypte. Il était considéré comme un dieu vivant.',
-        hints: ['Ça commence par P', 'Pharaon']
+        hints: ['Ça commence par P', 'Pharaon', 'La réponse est : pharaon']
       },
       {
         id: 'q3',
@@ -9089,7 +9089,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Tigre', 'L\'Euphrate', 'Le Nil', 'Le Congo'],
         correctAnswer: 'Le Nil',
         explanation: 'Le Nil est le plus long fleuve d\'Afrique. Il a permis à la civilisation égyptienne de prospérer.',
-        hints: ['C\'est un fleuve africain', 'Le Nil']
+        hints: ['C\'est un fleuve africain', 'Le Nil', 'La réponse est : Le Nil']
       },
       {
         id: 'q4',
@@ -9098,7 +9098,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'alphabet', 'Les cunéiformes', 'Les hiéroglyphes', 'Les idéogrammes'],
         correctAnswer: 'Les hiéroglyphes',
         explanation: 'Les hiéroglyphes sont l\'écriture sacrée des Égyptiens, composée de dessins et de symboles.',
-        hints: ['Ce sont des dessins', 'Hiéro = sacré']
+        hints: ['Ce sont des dessins', 'Hiéro = sacré', 'La réponse est : Les hiéroglyphes']
       },
       {
         id: 'q5',
@@ -9106,7 +9106,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les Égyptiens momifiaient leurs morts et plaçaient des objets dans les tombes pour la vie dans l\'au-delà.',
-        hints: ['Pense aux momies', 'C\'est vrai']
+        hints: ['Pense aux momies', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -9115,7 +9115,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Osiris', 'Anubis', 'Rê (ou Ra)', 'Isis'],
         correctAnswer: 'Rê (ou Ra)',
         explanation: 'Rê (ou Ra) est le dieu du soleil, l\'un des dieux les plus importants de l\'Égypte ancienne.',
-        hints: ['C\'est le dieu soleil', 'Rê ou Ra']
+        hints: ['C\'est le dieu soleil', 'Rê ou Ra', 'La réponse est : Rê (ou Ra)']
       },
       {
         id: 'q7',
@@ -9124,7 +9124,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un pharaon vivant', 'Un corps conservé après la mort', 'Un temple égyptien', 'Un bateau du Nil'],
         correctAnswer: 'Un corps conservé après la mort',
         explanation: 'Une momie est un corps préservé par un processus d\'embaumement pour la vie après la mort.',
-        hints: ['C\'est lié aux morts', 'Le corps est conservé']
+        hints: ['C\'est lié aux morts', 'Le corps est conservé', 'La réponse est : Un corps conservé après la mort']
       },
       {
         id: 'q8',
@@ -9132,7 +9132,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sphinx',
         explanation: 'Le Sphinx de Gizeh a un corps de lion et une tête humaine. Il garde les pyramides.',
-        hints: ['Corps de lion, tête humaine', 'Le Sphinx']
+        hints: ['Corps de lion, tête humaine', 'Le Sphinx', 'La réponse est : sphinx']
       },
       {
         id: 'q9',
@@ -9141,7 +9141,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ramsès II', 'Khéops', 'Toutânkhamon', 'Cléopâtre'],
         correctAnswer: 'Toutânkhamon',
         explanation: 'Le tombeau de Toutânkhamon a été découvert par Howard Carter en 1922. Il contenait des trésors fabuleux.',
-        hints: ['Un jeune pharaon', 'Toutânkhamon']
+        hints: ['Un jeune pharaon', 'Toutânkhamon', 'La réponse est : Toutânkhamon']
       },
       {
         id: 'q10',
@@ -9171,7 +9171,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sparte', 'Athènes', 'Thèbes', 'Corinthe'],
         correctAnswer: 'Athènes',
         explanation: 'Athènes est le berceau de la démocratie. Les citoyens y votaient les lois et élisaient leurs dirigeants.',
-        hints: ['C\'est la capitale actuelle', 'Athènes']
+        hints: ['C\'est la capitale actuelle', 'Athènes', 'La réponse est : Athènes']
       },
       {
         id: 'q2',
@@ -9179,7 +9179,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Zeus',
         explanation: 'Zeus est le roi des dieux de l\'Olympe. Il est le dieu du ciel et de la foudre.',
-        hints: ['Il lance la foudre', 'Zeus']
+        hints: ['Il lance la foudre', 'Zeus', 'La réponse est : Zeus']
       },
       {
         id: 'q3',
@@ -9188,7 +9188,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Colisée', 'Le Parthénon', 'Le Panthéon', 'L\'Agora'],
         correctAnswer: 'Le Parthénon',
         explanation: 'Le Parthénon est un temple dédié à la déesse Athéna, protectrice de la cité d\'Athènes.',
-        hints: ['Sur l\'Acropole', 'Le Parthénon']
+        hints: ['Sur l\'Acropole', 'Le Parthénon', 'La réponse est : Le Parthénon']
       },
       {
         id: 'q4',
@@ -9197,7 +9197,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les Jeux du Commonwealth', 'Les Jeux Olympiques', 'La Coupe du Monde', 'Les Jeux Panaméricains'],
         correctAnswer: 'Les Jeux Olympiques',
         explanation: 'Les Jeux Olympiques ont été créés à Olympie en 776 av. J.-C. en l\'honneur de Zeus.',
-        hints: ['Ils ont lieu tous les 4 ans', 'Olympiques']
+        hints: ['Ils ont lieu tous les 4 ans', 'Olympiques', 'La réponse est : Les Jeux Olympiques']
       },
       {
         id: 'q5',
@@ -9205,7 +9205,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Sparte était une cité guerrière où les garçons recevaient une formation militaire très stricte.',
-        hints: ['Sparte = guerriers', 'C\'est vrai']
+        hints: ['Sparte = guerriers', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -9213,7 +9213,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Héraclès',
         explanation: 'Héraclès (ou Hercule chez les Romains) a accompli 12 travaux pour expier un crime.',
-        hints: ['Il était très fort', 'Héraclès']
+        hints: ['Il était très fort', 'Héraclès', 'La réponse est : Héraclès']
       },
       {
         id: 'q7',
@@ -9222,7 +9222,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un temple religieux', 'Une place publique pour le commerce et les débats', 'Une forteresse militaire', 'Un théâtre'],
         correctAnswer: 'Une place publique pour le commerce et les débats',
         explanation: 'L\'Agora était le cœur de la cité : on y faisait du commerce et on y discutait politique.',
-        hints: ['C\'est une place publique', 'Commerce et débats']
+        hints: ['C\'est une place publique', 'Commerce et débats', 'La réponse est : Une place publique pour le commerce et les débats']
       },
       {
         id: 'q8',
@@ -9231,7 +9231,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Socrate', 'Platon', 'Aristote', 'Pythagore'],
         correctAnswer: 'Aristote',
         explanation: 'Aristote a été le précepteur d\'Alexandre le Grand. Il fut l\'un des plus grands philosophes grecs.',
-        hints: ['Il a fondé le Lycée', 'Aristote']
+        hints: ['Il a fondé le Lycée', 'Aristote', 'La réponse est : Aristote']
       },
       {
         id: 'q9',
@@ -9240,7 +9240,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les guerres médiques', 'La guerre du Péloponnèse', 'La guerre de Troie', 'Les guerres puniques'],
         correctAnswer: 'La guerre du Péloponnèse',
         explanation: 'La guerre du Péloponnèse (431-404 av. J.-C.) opposa Athènes à Sparte pour la domination de la Grèce.',
-        hints: ['Entre deux cités grecques', 'Péloponnèse']
+        hints: ['Entre deux cités grecques', 'Péloponnèse', 'La réponse est : La guerre du Péloponnèse']
       },
       {
         id: 'q10',
@@ -9248,7 +9248,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Seuls les citoyens hommes libres pouvaient voter. Les femmes, les esclaves et les étrangers étaient exclus.',
-        hints: ['La démocratie était limitée', 'C\'est faux']
+        hints: ['La démocratie était limitée', 'C\'est faux', 'C\'est faux']
       }
     ]
   },
@@ -9270,7 +9270,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '6', '7', '8'],
         correctAnswer: '7',
         explanation: 'Il y a 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie.',
-        hints: ['Plus que 5', 'C\'est 7']
+        hints: ['Plus que 5', 'C\'est 7', 'La réponse est : 7']
       },
       {
         id: 'q2',
@@ -9278,7 +9278,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'équateur',
         explanation: 'L\'équateur est la ligne imaginaire qui divise la Terre en hémisphère Nord et hémisphère Sud.',
-        hints: ['Elle est au milieu', 'L\'équateur']
+        hints: ['Elle est au milieu', 'L\'équateur', 'La réponse est : équateur']
       },
       {
         id: 'q3',
@@ -9296,7 +9296,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La distance par rapport à l\'équateur (Nord-Sud)', 'La distance par rapport au méridien de Greenwich (Est-Ouest)', 'L\'altitude d\'un lieu', 'La température d\'un lieu'],
         correctAnswer: 'La distance par rapport à l\'équateur (Nord-Sud)',
         explanation: 'La latitude mesure la position Nord ou Sud par rapport à l\'équateur, de 0° à 90°.',
-        hints: ['Nord-Sud', 'Par rapport à l\'équateur']
+        hints: ['Nord-Sud', 'Par rapport à l\'équateur', 'La réponse est : La distance par rapport à l\'équateur (Nord-Sud)']
       },
       {
         id: 'q5',
@@ -9312,7 +9312,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Antarctique',
         explanation: 'L\'Antarctique est le continent situé au pôle Sud. C\'est le plus froid et le plus désert.',
-        hints: ['Au pôle Sud', 'C\'est gelé']
+        hints: ['Au pôle Sud', 'C\'est gelé', 'La réponse est : Antarctique']
       },
       {
         id: 'q7',
@@ -9321,7 +9321,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3', '4', '5', '6'],
         correctAnswer: '5',
         explanation: 'Il y a 5 océans : Pacifique, Atlantique, Indien, Arctique et Antarctique (ou Austral).',
-        hints: ['Plus que 4', 'C\'est 5']
+        hints: ['Plus que 4', 'C\'est 5', 'La réponse est : 5']
       },
       {
         id: 'q8',
@@ -9339,7 +9339,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La distance par rapport à l\'équateur', 'La distance par rapport au méridien de Greenwich (Est-Ouest)', 'La hauteur d\'un relief', 'La profondeur de l\'océan'],
         correctAnswer: 'La distance par rapport au méridien de Greenwich (Est-Ouest)',
         explanation: 'La longitude mesure la position Est ou Ouest par rapport au méridien de Greenwich, de 0° à 180°.',
-        hints: ['Est-Ouest', 'Par rapport à Greenwich']
+        hints: ['Est-Ouest', 'Par rapport à Greenwich', 'La réponse est : La distance par rapport au méridien de Greenwich (Est-Ouest)']
       },
       {
         id: 'q10',
@@ -9370,7 +9370,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-2',
         explanation: '(-5) + (+3) = -5 + 3 = -2. On ajoute 3 à -5, donc on "remonte" de 3 sur la droite graduée.',
-        hints: ['Pense à la droite graduée', 'De -5, avance de 3']
+        hints: ['Pense à la droite graduée', 'De -5, avance de 3', 'La réponse est : -2']
       },
       {
         id: 'q2',
@@ -9378,7 +9378,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-3',
         explanation: '(+7) + (-10) = 7 - 10 = -3. On recule de 10 depuis 7.',
-        hints: ['7 - 10 = ?', 'Le résultat est négatif']
+        hints: ['7 - 10 = ?', 'Le résultat est négatif', 'La réponse est : -3']
       },
       {
         id: 'q3',
@@ -9386,7 +9386,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-5',
         explanation: '(-8) - (-3) = -8 + 3 = -5. Soustraire un négatif revient à ajouter son opposé.',
-        hints: ['Moins fois moins = plus', '-8 + 3 = ?']
+        hints: ['Moins fois moins = plus', '-8 + 3 = ?', 'La réponse est : -5']
       },
       {
         id: 'q4',
@@ -9403,7 +9403,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-10',
         explanation: '(-4) + (-6) = -10. Quand on additionne deux négatifs, on additionne les valeurs et on garde le signe moins.',
-        hints: ['Deux négatifs', '4 + 6 = 10, avec le signe -']
+        hints: ['Deux négatifs', '4 + 6 = 10, avec le signe -', 'La réponse est : -10']
       },
       {
         id: 'q6',
@@ -9411,7 +9411,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le produit de deux nombres négatifs est positif. (-3) × (-2) = +6.',
-        hints: ['Moins fois moins = ?', 'C\'est positif']
+        hints: ['Moins fois moins = ?', 'C\'est positif', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -9419,7 +9419,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-4',
         explanation: '(+5) - (+9) = 5 - 9 = -4. On soustrait 9 de 5.',
-        hints: ['5 - 9 = ?', 'Le résultat est négatif']
+        hints: ['5 - 9 = ?', 'Le résultat est négatif', 'La réponse est : -4']
       },
       {
         id: 'q8',
@@ -9428,7 +9428,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-7, -3, 0, 5', '-3, -7, 0, 5', '5, 0, -3, -7', '0, -3, -7, 5'],
         correctAnswer: '-7, -3, 0, 5',
         explanation: 'Sur la droite graduée : -7 < -3 < 0 < 5. Plus un nombre négatif est "grand" en valeur absolue, plus il est petit.',
-        hints: ['Les négatifs sont à gauche de 0', '-7 est plus petit que -3']
+        hints: ['Les négatifs sont à gauche de 0', '-7 est plus petit que -3', 'La réponse est : -7, -3, 0, 5']
       },
       {
         id: 'q9',
@@ -9436,7 +9436,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-10',
         explanation: '(-2) × (+5) = -10. Le produit d\'un négatif et d\'un positif est négatif.',
-        hints: ['Moins fois plus = moins', '2 × 5 = 10 avec le signe -']
+        hints: ['Moins fois plus = moins', '2 × 5 = 10 avec le signe -', 'La réponse est : -10']
       },
       {
         id: 'q10',
@@ -9444,7 +9444,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-3',
         explanation: '(+12) ÷ (-4) = -3. Un positif divisé par un négatif donne un négatif.',
-        hints: ['12 ÷ 4 = 3', 'Plus divisé par moins = moins']
+        hints: ['12 ÷ 4 = 3', 'Plus divisé par moins = moins', 'La réponse est : -3']
       }
     ]
   },
@@ -9466,7 +9466,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3/4', '3/8', '2/4', '1/2'],
         correctAnswer: '3/4',
         explanation: 'Quand les dénominateurs sont identiques, on additionne les numérateurs : 1/4 + 2/4 = 3/4.',
-        hints: ['Même dénominateur', '1 + 2 = 3']
+        hints: ['Même dénominateur', '1 + 2 = 3', 'La réponse est : 3/4']
       },
       {
         id: 'q2',
@@ -9475,7 +9475,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4/6', '3/4', '2/6', '4/9'],
         correctAnswer: '4/6',
         explanation: '2/3 = 4/6. On multiplie numérateur et dénominateur par 2 : (2×2)/(3×2) = 4/6.',
-        hints: ['Multiplie par 2', '2×2 = 4, 3×2 = 6']
+        hints: ['Multiplie par 2', '2×2 = 4, 3×2 = 6', 'La réponse est : 4/6']
       },
       {
         id: 'q3',
@@ -9484,7 +9484,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2/5', '5/6', '2/6', '1/5'],
         correctAnswer: '5/6',
         explanation: 'On met au même dénominateur (6) : 1/2 = 3/6 et 1/3 = 2/6. Donc 3/6 + 2/6 = 5/6.',
-        hints: ['Trouve un dénominateur commun', '6 est divisible par 2 et 3']
+        hints: ['Trouve un dénominateur commun', '6 est divisible par 2 et 3', 'La réponse est : 5/6']
       },
       {
         id: 'q4',
@@ -9493,7 +9493,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3/5', '2/3', 'Elles sont égales', 'On ne peut pas comparer'],
         correctAnswer: '2/3',
         explanation: 'Même dénominateur (15) : 3/5 = 9/15 et 2/3 = 10/15. Donc 2/3 > 3/5.',
-        hints: ['Mets au même dénominateur', '15 est le PPCM de 5 et 3']
+        hints: ['Mets au même dénominateur', '15 est le PPCM de 5 et 3', 'La réponse est : 2/3']
       },
       {
         id: 'q5',
@@ -9502,7 +9502,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4/3', '1/2', '2/3', '4/6'],
         correctAnswer: '1/2',
         explanation: '1/3 = 2/6. Donc 5/6 - 2/6 = 3/6 = 1/2 (simplifié).',
-        hints: ['Convertis 1/3 en sixièmes', '3/6 se simplifie']
+        hints: ['Convertis 1/3 en sixièmes', '3/6 se simplifie', 'La réponse est : 1/2']
       },
       {
         id: 'q6',
@@ -9511,7 +9511,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6/9', '4/6', '2/3', '3/4'],
         correctAnswer: '2/3',
         explanation: '12/18 = 12÷6 / 18÷6 = 2/3. On divise par le PGCD (6).',
-        hints: ['Trouve le PGCD de 12 et 18', 'C\'est 6']
+        hints: ['Trouve le PGCD de 12 et 18', 'C\'est 6', 'La réponse est : 2/3']
       },
       {
         id: 'q7',
@@ -9519,7 +9519,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 3/4 = 6/8 et 6/8 > 5/8.',
-        hints: ['Convertis en huitièmes', '3/4 = 6/8']
+        hints: ['Convertis en huitièmes', '3/4 = 6/8', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -9528,7 +9528,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6/5', '5/5', '2/15', '6/15'],
         correctAnswer: '6/5',
         explanation: '2/5 × 3 = (2×3)/5 = 6/5. On multiplie le numérateur par 3.',
-        hints: ['Multiplie le numérateur', '2 × 3 = 6']
+        hints: ['Multiplie le numérateur', '2 × 3 = 6', 'La réponse est : 6/5']
       },
       {
         id: 'q9',
@@ -9536,7 +9536,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2/3',
         explanation: '8/12 = 8÷4 / 12÷4 = 2/3. Le PGCD de 8 et 12 est 4.',
-        hints: ['Divise par 4', '8÷4 = 2, 12÷4 = 3']
+        hints: ['Divise par 4', '8÷4 = 2, 12÷4 = 3', 'La réponse est : 2/3']
       },
       {
         id: 'q10',
@@ -9545,7 +9545,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4/10', '11/12', '7/12', '5/6'],
         correctAnswer: '11/12',
         explanation: 'Dénominateur commun 12 : 3/4 = 9/12, 1/6 = 2/12. Donc 9/12 + 2/12 = 11/12.',
-        hints: ['PPCM de 4 et 6 = 12', '9 + 2 = 11']
+        hints: ['PPCM de 4 et 6 = 12', '9 + 2 = 11', 'La réponse est : 11/12']
       }
     ]
   },
@@ -9566,15 +9566,15 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '60',
         explanation: '25% de 80 = 80 × 0,25 = 20€. Prix soldé = 80 - 20 = 60€.',
-        hints: ['Calcule 25% de 80', '80 - 20 = ?']
+        hints: ['Calcule 25% de 80', '80 - 20 = ?', 'La réponse est : 60']
       },
       {
         id: 'q2',
         question: 'Si 3 croissants coûtent 2,70€, combien coûtent 5 croissants ?',
         type: 'fill-blank',
-        correctAnswer: '4,50',
+        correctAnswer: ['4.5', '4,5', '4.50', '4,50'],
         explanation: 'Prix unitaire : 2,70 ÷ 3 = 0,90€. Pour 5 : 0,90 × 5 = 4,50€.',
-        hints: ['Calcule le prix d\'un croissant', '0,90 × 5 = ?']
+        hints: ['Calcule le prix d\'un crayon', 'Puis multiplie par 5', 'La réponse est : 4,50']
       },
       {
         id: 'q3',
@@ -9583,7 +9583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un quart', 'Un tiers', 'La moitié', 'Les trois quarts'],
         correctAnswer: 'La moitié',
         explanation: '50% = 50/100 = 1/2 = la moitié.',
-        hints: ['50 sur 100', 'C\'est la moitié']
+        hints: ['50 sur 100', 'C\'est la moitié', 'La réponse est : La moitié']
       },
       {
         id: 'q4',
@@ -9591,7 +9591,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '30',
         explanation: '20% de 150 = 150 × 20/100 = 150 × 0,2 = 30.',
-        hints: ['20/100 = 0,2', '150 × 0,2 = ?']
+        hints: ['20/100 = 0,2', '150 × 0,2 = ?', 'La réponse est : 30']
       },
       {
         id: 'q5',
@@ -9599,7 +9599,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '300',
         explanation: 'Pour 1 personne : 200 ÷ 4 = 50g. Pour 6 : 50 × 6 = 300g.',
-        hints: ['Calcule pour 1 personne', '50 × 6 = ?']
+        hints: ['Calcule pour 1 personne', '50 × 6 = ?', 'La réponse est : 300']
       },
       {
         id: 'q6',
@@ -9607,7 +9607,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le coefficient est constant : 6/2 = 12/4 = 18/6 = 3.',
-        hints: ['Vérifie si y/x est constant', '6÷2 = 12÷4 = 18÷6 = 3']
+        hints: ['Vérifie si y/x est constant', '6÷2 = 12÷4 = 18÷6 = 3', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -9616,7 +9616,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10%', '20%', '25%', '50%'],
         correctAnswer: '25%',
         explanation: 'Augmentation : 50 - 40 = 10€. Pourcentage : 10/40 × 100 = 25%.',
-        hints: ['L\'augmentation est de 10€', '10/40 = 0,25 = 25%']
+        hints: ['L\'augmentation est de 10€', '10/40 = 0,25 = 25%', 'La réponse est : 25%']
       },
       {
         id: 'q8',
@@ -9624,7 +9624,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '150',
         explanation: '75% de 200 = 200 × 0,75 = 150. Ou : 200 × 3/4 = 150.',
-        hints: ['75% = 3/4', '200 × 3 ÷ 4 = ?']
+        hints: ['75% = 3/4', '200 × 3 ÷ 4 = ?', 'La réponse est : 150']
       },
       {
         id: 'q9',
@@ -9632,7 +9632,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '15',
         explanation: '60% de 25 = 25 × 0,6 = 15 filles.',
-        hints: ['60% = 0,6', '25 × 0,6 = ?']
+        hints: ['60% = 0,6', '25 × 0,6 = ?', 'La réponse est : 15']
       },
       {
         id: 'q10',
@@ -9640,7 +9640,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '18',
         explanation: 'Coefficient : 12/8 = 1,5€ par stylo. Pour 12 : 12 × 1,5 = 18€.',
-        hints: ['Calcule le prix d\'un stylo', '1,5 × 12 = ?']
+        hints: ['Calcule le prix d\'un stylo', '1,5 × 12 = ?', 'La réponse est : 18']
       }
     ]
   },
@@ -9682,7 +9682,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans l\'estomac', 'Dans la bouche', 'Dans l\'intestin grêle', 'Dans le gros intestin'],
         correctAnswer: 'Dans l\'intestin grêle',
         explanation: 'L\'intestin grêle, avec ses villosités, absorbe la majorité des nutriments vers le sang.',
-        hints: ['C\'est un long tube de 6-7 mètres', 'Intestin grêle']
+        hints: ['C\'est un long tube de 6-7 mètres', 'Intestin grêle', 'La réponse est : Dans l\'intestin grêle']
       },
       {
         id: 'q4',
@@ -9690,7 +9690,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'foie',
         explanation: 'Le foie produit la bile, stockée dans la vésicule biliaire, qui aide à digérer les graisses.',
-        hints: ['C\'est le plus gros organe interne', 'Le foie']
+        hints: ['C\'est le plus gros organe interne', 'Le foie', 'La réponse est : foie']
       },
       {
         id: 'q5',
@@ -9698,7 +9698,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La salive contient l\'amylase salivaire qui commence à décomposer l\'amidon en sucres.',
-        hints: ['Pense au pain qui devient sucré quand on le mâche', 'C\'est vrai']
+        hints: ['Pense au pain qui devient sucré quand on le mâche', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -9706,7 +9706,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'œsophage',
         explanation: 'L\'œsophage est le tube musculaire qui conduit les aliments de la bouche à l\'estomac par des contractions.',
-        hints: ['Ça commence par O', 'L\'œsophage']
+        hints: ['Ça commence par O', 'L\'œsophage', 'La réponse est : œsophage']
       },
       {
         id: 'q7',
@@ -9715,7 +9715,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Digérer les protéines', 'Absorber l\'eau et former les selles', 'Produire des enzymes', 'Stocker la bile'],
         correctAnswer: 'Absorber l\'eau et former les selles',
         explanation: 'Le gros intestin (côlon) absorbe l\'eau restante et transforme les déchets en selles.',
-        hints: ['Il vient après l\'intestin grêle', 'Il forme les excréments']
+        hints: ['Il vient après l\'intestin grêle', 'Il forme les excréments', 'La réponse est : Absorber l\'eau et former les selles']
       },
       {
         id: 'q8',
@@ -9733,7 +9733,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un nutriment', 'Une substance qui accélère la digestion chimique', 'Un déchet', 'Un muscle'],
         correctAnswer: 'Une substance qui accélère la digestion chimique',
         explanation: 'Les enzymes sont des protéines qui accélèrent les réactions chimiques, ici la décomposition des aliments.',
-        hints: ['C\'est comme un catalyseur', 'Elle accélère les réactions']
+        hints: ['C\'est comme un catalyseur', 'Elle accélère les réactions', 'La réponse est : Une substance qui accélère la digestion chimique']
       },
       {
         id: 'q10',
@@ -9772,7 +9772,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'oxygène', 'L\'azote', 'Le dioxyde de carbone', 'L\'hydrogène'],
         correctAnswer: 'Le dioxyde de carbone',
         explanation: 'Nous expirons du dioxyde de carbone (CO2), déchet de la respiration cellulaire.',
-        hints: ['C\'est CO2', 'Un déchet de la respiration']
+        hints: ['C\'est CO2', 'Un déchet de la respiration', 'La réponse est : Le dioxyde de carbone']
       },
       {
         id: 'q3',
@@ -9781,7 +9781,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans les bronches', 'Dans la trachée', 'Dans les alvéoles pulmonaires', 'Dans le larynx'],
         correctAnswer: 'Dans les alvéoles pulmonaires',
         explanation: 'Les alvéoles sont de petits sacs où l\'O2 passe dans le sang et le CO2 est évacué.',
-        hints: ['Ce sont de petits sacs', 'Les alvéoles']
+        hints: ['Ce sont de petits sacs', 'Les alvéoles', 'La réponse est : Dans les alvéoles pulmonaires']
       },
       {
         id: 'q4',
@@ -9789,7 +9789,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'diaphragme',
         explanation: 'Le diaphragme est le muscle en forme de dôme sous les poumons. Sa contraction permet l\'inspiration.',
-        hints: ['C\'est sous les poumons', 'Le diaphragme']
+        hints: ['C\'est sous les poumons', 'Le diaphragme', 'La réponse est : diaphragme']
       },
       {
         id: 'q5',
@@ -9806,7 +9806,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'œsophage', 'La trachée', 'Le larynx', 'Le pharynx'],
         correctAnswer: 'La trachée',
         explanation: 'La trachée est le tube rigide (avec des anneaux de cartilage) qui conduit l\'air vers les bronches.',
-        hints: ['C\'est un tube rigide', 'La trachée']
+        hints: ['C\'est un tube rigide', 'La trachée', 'La réponse est : La trachée']
       },
       {
         id: 'q7',
@@ -9814,7 +9814,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2',
         explanation: 'Nous avons 2 poumons : le droit (3 lobes) et le gauche (2 lobes, plus petit pour laisser place au cœur).',
-        hints: ['Un de chaque côté', 'C\'est 2']
+        hints: ['Un de chaque côté', 'C\'est 2', 'La réponse est : 2']
       },
       {
         id: 'q8',
@@ -9823,7 +9823,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les globules blancs', 'Les globules rouges', 'Les plaquettes', 'Le plasma'],
         correctAnswer: 'Les globules rouges',
         explanation: 'Les globules rouges contiennent l\'hémoglobine qui fixe l\'oxygène et le transporte.',
-        hints: ['Ils sont rouges grâce au fer', 'Les globules rouges']
+        hints: ['Ils sont rouges grâce au fer', 'Les globules rouges', 'La réponse est : Les globules rouges']
       },
       {
         id: 'q9',
@@ -9832,7 +9832,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5 à 8 respirations/min', '12 à 20 respirations/min', '30 à 40 respirations/min', '50 à 60 respirations/min'],
         correctAnswer: '12 à 20 respirations/min',
         explanation: 'Au repos, un adulte respire environ 12 à 20 fois par minute. Ce rythme augmente à l\'effort.',
-        hints: ['C\'est modéré au repos', 'Entre 12 et 20']
+        hints: ['C\'est modéré au repos', 'Entre 12 et 20', 'La réponse est : 12 à 20 respirations/min']
       },
       {
         id: 'q10',
@@ -9840,7 +9840,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le tabac détruit les alvéoles, réduit les échanges gazeux et peut causer des maladies graves.',
-        hints: ['Le tabac est très nocif', 'C\'est vrai']
+        hints: ['Le tabac est très nocif', 'C\'est vrai', 'C\'est vrai']
       }
     ]
   },
@@ -9862,7 +9862,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie potentielle', 'Énergie cinétique', 'Énergie thermique', 'Énergie lumineuse'],
         correctAnswer: 'Énergie cinétique',
         explanation: 'L\'énergie cinétique est l\'énergie liée au mouvement d\'un objet.',
-        hints: ['Cinétique = mouvement', 'Énergie cinétique']
+        hints: ['Cinétique = mouvement', 'Énergie cinétique', 'La réponse est : Énergie cinétique']
       },
       {
         id: 'q2',
@@ -9871,7 +9871,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie cinétique', 'Énergie potentielle de pesanteur', 'Énergie chimique', 'Énergie électrique'],
         correctAnswer: 'Énergie potentielle de pesanteur',
         explanation: 'Un objet en hauteur possède de l\'énergie potentielle qui peut se transformer en énergie cinétique s\'il tombe.',
-        hints: ['Potentielle = stockée', 'Elle dépend de la hauteur']
+        hints: ['Potentielle = stockée', 'Elle dépend de la hauteur', 'La réponse est : Énergie potentielle de pesanteur']
       },
       {
         id: 'q3',
@@ -9880,7 +9880,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chimique → Électrique', 'Électrique → Lumineuse et thermique', 'Mécanique → Électrique', 'Lumineuse → Chimique'],
         correctAnswer: 'Électrique → Lumineuse et thermique',
         explanation: 'Une ampoule transforme l\'énergie électrique en lumière et en chaleur (une partie est perdue).',
-        hints: ['Elle reçoit de l\'électricité', 'Elle produit lumière et chaleur']
+        hints: ['Elle reçoit de l\'électricité', 'Elle produit lumière et chaleur', 'La réponse est : Électrique → Lumineuse et thermique']
       },
       {
         id: 'q4',
@@ -9888,7 +9888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! L\'énergie ne peut être ni créée ni détruite, seulement transformée (conservation de l\'énergie).',
-        hints: ['Pense à la conservation', 'C\'est faux']
+        hints: ['Pense à la conservation', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q5',
@@ -9897,7 +9897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie nucléaire', 'Énergie mécanique', 'Énergie chimique', 'Énergie solaire'],
         correctAnswer: 'Énergie chimique',
         explanation: 'Une pile stocke de l\'énergie chimique qui se transforme en énergie électrique.',
-        hints: ['Il y a des réactions chimiques', 'Énergie chimique']
+        hints: ['Il y a des réactions chimiques', 'Énergie chimique', 'La réponse est : Énergie chimique']
       },
       {
         id: 'q6',
@@ -9906,7 +9906,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie chimique', 'Énergie nucléaire', 'Énergie électrique', 'Énergie mécanique'],
         correctAnswer: 'Énergie nucléaire',
         explanation: 'Le Soleil produit de l\'énergie par fusion nucléaire de l\'hydrogène en hélium.',
-        hints: ['C\'est de la fusion', 'Énergie nucléaire']
+        hints: ['C\'est de la fusion', 'Énergie nucléaire', 'La réponse est : Énergie nucléaire']
       },
       {
         id: 'q7',
@@ -9914,7 +9914,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'thermique',
         explanation: 'L\'énergie thermique est souvent de l\'énergie "perdue" lors des transformations (frottements, chaleur).',
-        hints: ['C\'est de la chaleur', 'Thermique']
+        hints: ['C\'est de la chaleur', 'Thermique', 'La réponse est : thermique']
       },
       {
         id: 'q8',
@@ -9923,7 +9923,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chimique → Électrique', 'Nucléaire → Électrique', 'Mécanique → Électrique', 'Thermique → Mécanique'],
         correctAnswer: 'Mécanique → Électrique',
         explanation: 'L\'eau en mouvement fait tourner des turbines qui produisent de l\'électricité.',
-        hints: ['L\'eau fait tourner des turbines', 'Mécanique vers électrique']
+        hints: ['L\'eau fait tourner des turbines', 'Mécanique vers électrique', 'La réponse est : Mécanique → Électrique']
       },
       {
         id: 'q9',
@@ -9932,7 +9932,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Watt (W)', 'Le Joule (J)', 'L\'Ampère (A)', 'Le Volt (V)'],
         correctAnswer: 'Le Joule (J)',
         explanation: 'Le Joule (J) est l\'unité d\'énergie. Le Watt est l\'unité de puissance (énergie par seconde).',
-        hints: ['Ce n\'est pas le Watt', 'Le Joule']
+        hints: ['Ce n\'est pas le Watt', 'Le Joule', 'La réponse est : Le Joule (J)']
       },
       {
         id: 'q10',
@@ -9941,7 +9941,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie électrique', 'Énergie solaire', 'Énergie chimique (glucose)', 'Énergie nucléaire'],
         correctAnswer: 'Énergie chimique (glucose)',
         explanation: 'Les muscles utilisent le glucose pour produire de l\'énergie mécanique (mouvement).',
-        hints: ['On mange pour avoir de l\'énergie', 'Le glucose']
+        hints: ['On mange pour avoir de l\'énergie', 'Le glucose', 'La réponse est : Énergie chimique (glucose)']
       }
     ]
   },
@@ -9965,7 +9965,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Habituelle dans le passé', 'Ponctuelle et achevée', 'Qui dure encore', 'Future'],
         correctAnswer: 'Ponctuelle et achevée',
         explanation: 'Le passé simple exprime une action précise, terminée, qui fait avancer le récit.',
-        hints: ['Action de premier plan', 'Ponctuelle']
+        hints: ['Action de premier plan', 'Ponctuelle', 'La réponse est : Ponctuelle et achevée']
       },
       {
         id: 'q2',
@@ -9974,7 +9974,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ponctuelle', 'Qui dure ou se répète', 'Future', 'Immédiate'],
         correctAnswer: 'Qui dure ou se répète',
         explanation: 'L\'imparfait exprime une action en cours, une description ou une habitude dans le passé.',
-        hints: ['Action d\'arrière-plan', 'Durée ou répétition']
+        hints: ['Action d\'arrière-plan', 'Durée ou répétition', 'La réponse est : Qui dure ou se répète']
       },
       {
         id: 'q3',
@@ -9982,7 +9982,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'chanta',
         explanation: 'Il chanta. Les verbes en -er font -a, -as, -a, -âmes, -âtes, -èrent au passé simple.',
-        hints: ['Verbe en -er', 'Il chanta']
+        hints: ['Verbe en -er', 'Il chanta', 'La réponse est : chanta']
       },
       {
         id: 'q4',
@@ -9990,7 +9990,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finissions',
         explanation: 'Nous finissions. L\'imparfait : radical + -ais, -ais, -ait, -ions, -iez, -aient.',
-        hints: ['Terminaison -ions', 'Nous finissions']
+        hints: ['Terminaison -ions', 'Nous finissions', 'La réponse est : finissions']
       },
       {
         id: 'q5',
@@ -9999,7 +9999,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il faisait nuit quand le loup apparut.', 'Il fit nuit quand le loup apparaissait.', 'Il faisait nuit quand le loup apparaissait.', 'Il fit nuit quand le loup apparut.'],
         correctAnswer: 'Il faisait nuit quand le loup apparut.',
         explanation: '"Il faisait nuit" (description, imparfait) + "le loup apparut" (action soudaine, passé simple).',
-        hints: ['Description = imparfait', 'Action soudaine = passé simple']
+        hints: ['Description = imparfait', 'Action soudaine = passé simple', 'La réponse est : Il faisait nuit quand le loup apparut.']
       },
       {
         id: 'q6',
@@ -10007,7 +10007,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'prirent',
         explanation: 'Ils prirent. "Prendre" a un passé simple irrégulier : je pris, tu pris, il prit, nous prîmes, vous prîtes, ils prirent.',
-        hints: ['Verbe irrégulier', 'Ils prirent']
+        hints: ['Verbe irrégulier', 'Ils prirent', 'La réponse est : prirent']
       },
       {
         id: 'q7',
@@ -10015,7 +10015,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les descriptions et l\'arrière-plan sont à l\'imparfait, les actions principales au passé simple.',
-        hints: ['Les descriptions = contexte', 'C\'est vrai']
+        hints: ['Les descriptions = contexte', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -10023,7 +10023,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'était',
         explanation: 'Elle était. "Être" à l\'imparfait : j\'étais, tu étais, il/elle était, nous étions, vous étiez, ils étaient.',
-        hints: ['Du verbe être', 'Elle était']
+        hints: ['Du verbe être', 'Elle était', 'La réponse est : était']
       },
       {
         id: 'q9',
@@ -10031,7 +10031,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vins',
         explanation: 'Je vins. "Venir" au passé simple : je vins, tu vins, il vint, nous vînmes, vous vîntes, ils vinrent.',
-        hints: ['Verbe irrégulier', 'Je vins']
+        hints: ['Verbe irrégulier', 'Je vins', 'La réponse est : vins']
       },
       {
         id: 'q10',
@@ -10040,7 +10040,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'imparfait (dormait)', 'Le passé simple (sonna)', 'Les deux également', 'Aucun des deux'],
         correctAnswer: 'Le passé simple (sonna)',
         explanation: '"Sonna" (passé simple) est l\'action principale qui interrompt "dormait" (imparfait, action en cours).',
-        hints: ['L\'action qui surgit', 'Le passé simple']
+        hints: ['L\'action qui surgit', 'Le passé simple', 'La réponse est : Le passé simple (sonna)']
       }
     ]
   },
@@ -10062,7 +10062,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une phrase complète', 'Une proposition qui dépend d\'une autre', 'Un mot de liaison', 'Un complément du nom'],
         correctAnswer: 'Une proposition qui dépend d\'une autre',
         explanation: 'Une subordonnée dépend d\'une proposition principale. Elle ne peut pas exister seule.',
-        hints: ['Elle est "sous" la principale', 'Elle dépend d\'une autre']
+        hints: ['Elle est "sous" la principale', 'Elle dépend d\'une autre', 'La réponse est : Une proposition qui dépend d\'une autre']
       },
       {
         id: 'q2',
@@ -10071,7 +10071,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je pense', 'qu\'il viendra', 'Je pense qu\'', 'il viendra'],
         correctAnswer: 'qu\'il viendra',
         explanation: '"Qu\'il viendra" est une subordonnée conjonctive introduite par "que", complément de "pense".',
-        hints: ['Elle commence par "que"', 'qu\'il viendra']
+        hints: ['Elle commence par "que"', 'qu\'il viendra', 'La réponse est : qu\'il viendra']
       },
       {
         id: 'q3',
@@ -10080,7 +10080,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Subordonnée conjonctive', 'Subordonnée relative', 'Subordonnée interrogative', 'Subordonnée infinitive'],
         correctAnswer: 'Subordonnée relative',
         explanation: 'Les propositions relatives sont introduites par des pronoms relatifs (qui, que, dont, où, lequel...).',
-        hints: ['Pronom relatif', 'Subordonnée relative']
+        hints: ['Pronom relatif', 'Subordonnée relative', 'La réponse est : Subordonnée relative']
       },
       {
         id: 'q4',
@@ -10089,7 +10089,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le verbe "est"', 'Le nom "homme"', 'Le sujet "je"', 'Le verbe "parle"'],
         correctAnswer: 'Le nom "homme"',
         explanation: '"Qui parle" est une relative qui complète le nom "homme" (son antécédent).',
-        hints: ['Elle précise quel homme', 'Elle complète le nom']
+        hints: ['Elle précise quel homme', 'Elle complète le nom', 'La réponse est : Le nom "homme"']
       },
       {
         id: 'q5',
@@ -10098,7 +10098,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sujet', 'COD', 'COI', 'Complément du nom'],
         correctAnswer: 'COI',
         explanation: '"Dont" remplace "du livre" → je parle du livre. C\'est un COI (parler de quelque chose).',
-        hints: ['Je parle DE quoi ?', 'Complément indirect']
+        hints: ['Je parle DE quoi ?', 'Complément indirect', 'La réponse est : COI']
       },
       {
         id: 'q6',
@@ -10114,7 +10114,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Si tu viens',
         explanation: '"Si tu viens" est une subordonnée circonstancielle de condition (ou hypothèse).',
-        hints: ['Elle exprime une condition', 'Si tu viens']
+        hints: ['Elle exprime une condition', 'Si tu viens', 'La réponse est : Si tu viens']
       },
       {
         id: 'q8',
@@ -10123,7 +10123,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Subordonnée relative', 'Subordonnée conjonctive de cause', 'Subordonnée interrogative', 'Subordonnée infinitive'],
         correctAnswer: 'Subordonnée conjonctive de cause',
         explanation: 'Les subordonnées de cause sont introduites par "parce que", "puisque", "comme", etc.',
-        hints: ['Elle répond à "pourquoi ?"', 'De cause']
+        hints: ['Elle répond à "pourquoi ?"', 'De cause', 'La réponse est : Subordonnée conjonctive de cause']
       },
       {
         id: 'q9',
@@ -10132,7 +10132,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Relative', 'Conjonctive', 'Interrogative indirecte', 'De temps'],
         correctAnswer: 'Interrogative indirecte',
         explanation: '"Où il est" est une interrogative indirecte (question rapportée), COD de "demande".',
-        hints: ['C\'est une question indirecte', 'Interrogative']
+        hints: ['C\'est une question indirecte', 'Interrogative', 'La réponse est : Interrogative indirecte']
       },
       {
         id: 'q10',
@@ -10141,7 +10141,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Parce que', 'Pour que', 'Quand', 'Si'],
         correctAnswer: 'Pour que',
         explanation: '"Pour que", "afin que" introduisent des subordonnées de but (objectif).',
-        hints: ['Elle exprime un objectif', 'Pour que']
+        hints: ['Elle exprime un objectif', 'Pour que', 'La réponse est : Pour que']
       }
     ]
   },
@@ -10163,7 +10163,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un mot de sens contraire', 'Un mot de sens proche', 'Un mot de la même famille', 'Un mot homonyme'],
         correctAnswer: 'Un mot de sens proche',
         explanation: 'Un synonyme est un mot qui a un sens proche ou identique (beau/joli, rapide/vite).',
-        hints: ['Même sens', 'Sens proche']
+        hints: ['Même sens', 'Sens proche', 'La réponse est : Un mot de sens proche']
       },
       {
         id: 'q2',
@@ -10172,7 +10172,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Triste', 'Heureux', 'Fâché', 'Fatigué'],
         correctAnswer: 'Heureux',
         explanation: '"Heureux" est synonyme de "content". Les deux expriment la joie.',
-        hints: ['C\'est positif', 'Heureux']
+        hints: ['C\'est positif', 'Heureux', 'La réponse est : Heureux']
       },
       {
         id: 'q3',
@@ -10181,7 +10181,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un mot de sens proche', 'Un mot de sens contraire', 'Un mot homonyme', 'Un mot de la même famille'],
         correctAnswer: 'Un mot de sens contraire',
         explanation: 'Un antonyme est un mot de sens opposé (grand/petit, beau/laid).',
-        hints: ['Sens opposé', 'Contraire']
+        hints: ['Sens opposé', 'Contraire', 'La réponse est : Un mot de sens contraire']
       },
       {
         id: 'q4',
@@ -10189,7 +10189,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'nouveau',
         explanation: '"Nouveau" (ou "récent", "moderne") est l\'antonyme de "ancien".',
-        hints: ['Le contraire de vieux', 'Nouveau']
+        hints: ['Le contraire de vieux', 'Nouveau', 'La réponse est : nouveau']
       },
       {
         id: 'q5',
@@ -10198,7 +10198,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Terrible, terreur', 'Terrain, terrasse, enterrer', 'Terne, terminé', 'Terrier, territoire, terrible'],
         correctAnswer: 'Terrain, terrasse, enterrer',
         explanation: 'Ces mots ont le même radical "terr-" lié à la terre. "Terrible" vient de "terreur".',
-        hints: ['Même radical terr-', 'Terrain, terrasse']
+        hints: ['Même radical terr-', 'Terrain, terrasse', 'La réponse est : Terrain, terrasse, enterrer']
       },
       {
         id: 'q6',
@@ -10206,7 +10206,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les deux mots expriment la même idée de vitesse, même si leur nature grammaticale diffère.',
-        hints: ['Ils expriment la vitesse', 'C\'est vrai']
+        hints: ['Ils expriment la vitesse', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -10215,7 +10215,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['in-', 'im-', 'dé-', 're-'],
         correctAnswer: 'im-',
         explanation: 'Impossible = im- + possible. Devant p, b, m, le préfixe "in-" devient "im-".',
-        hints: ['Devant p, in devient im', 'im-possible']
+        hints: ['Devant p, in devient im', 'im-possible', 'La réponse est : im-']
       },
       {
         id: 'q8',
@@ -10224,7 +10224,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['lir-', 'lect-', 'li-', 'le-'],
         correctAnswer: 'lect-',
         explanation: 'Le radical latin est "lect-" (du latin legere). "Lire" a subi des transformations.',
-        hints: ['Pense à lecteur', 'lect-']
+        hints: ['Pense à lecteur', 'lect-', 'La réponse est : lect-']
       },
       {
         id: 'q9',
@@ -10232,7 +10232,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'épuisé',
         explanation: '"Épuisé", "las", "exténué" sont des synonymes de "fatigué".',
-        hints: ['Très fatigué', 'Épuisé']
+        hints: ['Très fatigué', 'Épuisé', 'La réponse est : épuisé']
       },
       {
         id: 'q10',
@@ -10240,7 +10240,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'aveugle',
         explanation: '"Aveugle" vient du latin ab (sans) + oculus (œil). Famille de voir : vision, visible, invisible...',
-        hints: ['Sans vision', 'Aveugle']
+        hints: ['Sans vision', 'Aveugle', 'La réponse est : aveugle']
       }
     ]
   },
@@ -10263,7 +10263,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Mahomet',
         explanation: 'Mahomet (ou Muhammad) est le prophète de l\'Islam. Il a reçu la révélation du Coran.',
-        hints: ['Le prophète de l\'Islam', 'Mahomet']
+        hints: ['Le prophète de l\'Islam', 'Mahomet', 'La réponse est : Mahomet']
       },
       {
         id: 'q2',
@@ -10272,7 +10272,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['570', '622', '632', '711'],
         correctAnswer: '622',
         explanation: 'L\'Hégire (622) marque le début du calendrier musulman. Mahomet fuit La Mecque pour Médine.',
-        hints: ['C\'est le début du calendrier musulman', '622']
+        hints: ['C\'est le début du calendrier musulman', '622', 'La réponse est : 622']
       },
       {
         id: 'q3',
@@ -10280,7 +10280,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Coran',
         explanation: 'Le Coran est le livre sacré de l\'Islam, considéré comme la parole de Dieu (Allah) révélée à Mahomet.',
-        hints: ['Le livre sacré', 'Le Coran']
+        hints: ['Le livre sacré', 'Le Coran', 'La réponse est : Coran']
       },
       {
         id: 'q4',
@@ -10289,7 +10289,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les 5 prières quotidiennes', 'Profession de foi, prière, aumône, jeûne, pèlerinage', 'Les 5 livres du Coran', 'Les 5 prophètes'],
         correctAnswer: 'Profession de foi, prière, aumône, jeûne, pèlerinage',
         explanation: 'Les 5 piliers : shahada (foi), salat (prière), zakat (aumône), sawm (jeûne du Ramadan), hajj (pèlerinage).',
-        hints: ['Ce sont les devoirs du musulman', 'Foi, prière, aumône...']
+        hints: ['Ce sont les devoirs du musulman', 'Foi, prière, aumône...', 'La réponse est : Profession de foi, prière, aumône, jeûne, pèlerinage']
       },
       {
         id: 'q5',
@@ -10298,7 +10298,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Médine', 'Jérusalem', 'La Mecque', 'Bagdad'],
         correctAnswer: 'La Mecque',
         explanation: 'La Mecque (Arabie saoudite) abrite la Kaaba. Tout musulman doit y faire un pèlerinage si possible.',
-        hints: ['En Arabie saoudite', 'La Mecque']
+        hints: ['En Arabie saoudite', 'La Mecque', 'La réponse est : La Mecque']
       },
       {
         id: 'q6',
@@ -10315,7 +10315,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Damas', 'Cordoue', 'Bagdad', 'Le Caire'],
         correctAnswer: 'Bagdad',
         explanation: 'Bagdad (Irak actuel) fut la capitale des Abbassides et un grand centre culturel au Moyen Âge.',
-        hints: ['En Irak actuel', 'Bagdad']
+        hints: ['En Irak actuel', 'Bagdad', 'La réponse est : Bagdad']
       },
       {
         id: 'q8',
@@ -10323,7 +10323,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mosquée',
         explanation: 'La mosquée est le lieu de prière des musulmans. Elle possède souvent un minaret.',
-        hints: ['Lieu de prière', 'La mosquée']
+        hints: ['Lieu de prière', 'La mosquée', 'La réponse est : mosquée']
       },
       {
         id: 'q9',
@@ -10332,7 +10332,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'informatique', 'L\'algèbre et l\'astronomie', 'La physique nucléaire', 'La génétique'],
         correctAnswer: 'L\'algèbre et l\'astronomie',
         explanation: 'Les savants arabes ont excellé en mathématiques (algèbre, chiffres arabes), astronomie et médecine.',
-        hints: ['Le mot algèbre vient de l\'arabe', 'Algèbre et astronomie']
+        hints: ['Le mot algèbre vient de l\'arabe', 'Algèbre et astronomie', 'La réponse est : L\'algèbre et l\'astronomie']
       },
       {
         id: 'q10',
@@ -10341,7 +10341,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['622', '711', '800', '1000'],
         correctAnswer: '711',
         explanation: 'En 711, les musulmans traversent Gibraltar et conquièrent l\'Espagne (Al-Andalus).',
-        hints: ['Au 8ème siècle', '711']
+        hints: ['Au 8ème siècle', '711', 'La réponse est : 711']
       }
     ]
   },
@@ -10362,7 +10362,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'féodalité',
         explanation: 'La féodalité est le système où le seigneur accorde une terre (fief) à un vassal en échange de services.',
-        hints: ['Fief → féodal', 'La féodalité']
+        hints: ['Fief → féodal', 'La féodalité', 'La réponse est : féodalité']
       },
       {
         id: 'q2',
@@ -10379,7 +10379,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'fief',
         explanation: 'Le fief est la terre accordée par le seigneur au vassal en échange de sa fidélité et de services.',
-        hints: ['Ça donne féodalité', 'Le fief']
+        hints: ['Ça donne féodalité', 'Le fief', 'La réponse est : fief']
       },
       {
         id: 'q4',
@@ -10388,7 +10388,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La dîme', 'Le cens', 'La banalité', 'La taille'],
         correctAnswer: 'La banalité',
         explanation: 'Les banalités sont des taxes pour utiliser le moulin, le four ou le pressoir du seigneur.',
-        hints: ['Pour les équipements banaux', 'La banalité']
+        hints: ['Pour les équipements banaux', 'La banalité', 'La réponse est : La banalité']
       },
       {
         id: 'q5',
@@ -10396,7 +10396,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Contrairement aux serfs, les paysans libres (vilains) pouvaient partir.',
-        hints: ['Ils ne sont pas attachés à la terre', 'C\'est vrai']
+        hints: ['Ils ne sont pas attachés à la terre', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -10405,7 +10405,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les éduquer', 'Les protéger', 'Les convertir', 'Les divertir'],
         correctAnswer: 'Les protéger',
         explanation: 'Le seigneur doit protection à ses paysans (ban). En échange, ceux-ci travaillent pour lui.',
-        hints: ['C\'est un devoir militaire', 'Les protéger']
+        hints: ['C\'est un devoir militaire', 'Les protéger', 'La réponse est : Les protéger']
       },
       {
         id: 'q7',
@@ -10414,7 +10414,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La réserve', 'Les tenures', 'Les commons', 'Les fiefs'],
         correctAnswer: 'La réserve',
         explanation: 'La réserve est la partie du domaine cultivée directement pour le seigneur. Les tenures sont louées aux paysans.',
-        hints: ['C\'est pour le seigneur', 'La réserve']
+        hints: ['C\'est pour le seigneur', 'La réserve', 'La réponse est : La réserve']
       },
       {
         id: 'q8',
@@ -10422,7 +10422,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dîme',
         explanation: 'La dîme est un impôt de 1/10 des récoltes versé à l\'Église.',
-        hints: ['1/10 des récoltes', 'La dîme']
+        hints: ['1/10 des récoltes', 'La dîme', 'La réponse est : dîme']
       },
       {
         id: 'q9',
@@ -10431,7 +10431,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans une ferme', 'Dans un château fort', 'Dans un monastère', 'Dans un village'],
         correctAnswer: 'Dans un château fort',
         explanation: 'Le château fort est la résidence du seigneur. Il sert aussi de refuge en cas d\'attaque.',
-        hints: ['C\'est une forteresse', 'Le château fort']
+        hints: ['C\'est une forteresse', 'Le château fort', 'La réponse est : Dans un château fort']
       },
       {
         id: 'q10',
@@ -10462,7 +10462,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Air, eau, terre', 'Économique, social, environnemental', 'Passé, présent, futur', 'Local, national, mondial'],
         correctAnswer: 'Économique, social, environnemental',
         explanation: 'Le développement durable repose sur 3 piliers : économie, social et environnement.',
-        hints: ['3 dimensions', 'Économie, social, environnement']
+        hints: ['3 dimensions', 'Économie, social, environnement', 'La réponse est : Économique, social, environnemental']
       },
       {
         id: 'q2',
@@ -10471,7 +10471,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un développement rapide', 'Un développement qui répond aux besoins actuels sans compromettre ceux des générations futures', 'Un développement uniquement économique', 'Un développement sans changement'],
         correctAnswer: 'Un développement qui répond aux besoins actuels sans compromettre ceux des générations futures',
         explanation: 'Le développement durable vise à satisfaire nos besoins tout en préservant la planète pour nos enfants.',
-        hints: ['Penser aux générations futures', 'Ne pas compromettre l\'avenir']
+        hints: ['Penser aux générations futures', 'Ne pas compromettre l\'avenir', 'La réponse est : Un développement qui répond aux besoins actuels sans compromettre ceux des générations futures']
       },
       {
         id: 'q3',
@@ -10480,7 +10480,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1972', '1992', '2002', '2015'],
         correctAnswer: '1992',
         explanation: 'Le Sommet de Rio (1992) a popularisé le concept de développement durable et lancé l\'Agenda 21.',
-        hints: ['Dans les années 90', '1992']
+        hints: ['Dans les années 90', '1992', 'La réponse est : 1992']
       },
       {
         id: 'q4',
@@ -10489,7 +10489,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une énergie qui s\'épuise', 'Une énergie qui se régénère naturellement', 'Une énergie nucléaire', 'Une énergie fossile'],
         correctAnswer: 'Une énergie qui se régénère naturellement',
         explanation: 'Les énergies renouvelables (solaire, éolien, hydraulique) se renouvellent naturellement.',
-        hints: ['Elle ne s\'épuise pas', 'Se régénère']
+        hints: ['Elle ne s\'épuise pas', 'Se régénère', 'La réponse est : Une énergie qui se régénère naturellement']
       },
       {
         id: 'q5',
@@ -10506,7 +10506,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Organisation du Développement Durable', 'Objectifs de Développement Durable', 'Office du Développement Durable', 'Options de Développement Durable'],
         correctAnswer: 'Objectifs de Développement Durable',
         explanation: 'Les 17 ODD ont été adoptés par l\'ONU en 2015 pour 2030 (faim, pauvreté, climat, etc.).',
-        hints: ['17 objectifs de l\'ONU', 'Objectifs de Développement Durable']
+        hints: ['17 objectifs de l\'ONU', 'Objectifs de Développement Durable', 'La réponse est : Objectifs de Développement Durable']
       },
       {
         id: 'q7',
@@ -10515,7 +10515,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La trace d\'un animal', 'La surface nécessaire pour produire ce qu\'on consomme et absorber nos déchets', 'La pollution d\'une usine', 'Le nombre d\'arbres plantés'],
         correctAnswer: 'La surface nécessaire pour produire ce qu\'on consomme et absorber nos déchets',
         explanation: 'L\'empreinte écologique mesure notre impact sur la planète en termes de surface nécessaire.',
-        hints: ['Mesure notre impact', 'Surface nécessaire']
+        hints: ['Mesure notre impact', 'Surface nécessaire', 'La réponse est : La surface nécessaire pour produire ce qu\'on consomme et absorber nos déchets']
       },
       {
         id: 'q8',
@@ -10523,7 +10523,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'CO2',
         explanation: 'Le CO2 (dioxyde de carbone) est le principal gaz à effet de serre d\'origine humaine.',
-        hints: ['Dioxyde de carbone', 'CO2']
+        hints: ['Dioxyde de carbone', 'CO2', 'La réponse est : CO2']
       },
       {
         id: 'q9',
@@ -10532,7 +10532,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ranger, Réparer, Revendre', 'Réduire, Réutiliser, Recycler', 'Rénover, Refaire, Replanter', 'Rien, Rarement, Rapidement'],
         correctAnswer: 'Réduire, Réutiliser, Recycler',
         explanation: 'Les 3R : Réduire nos déchets, Réutiliser les objets, Recycler les matériaux.',
-        hints: ['Pour les déchets', 'Réduire, Réutiliser, Recycler']
+        hints: ['Pour les déchets', 'Réduire, Réutiliser, Recycler', 'La réponse est : Réduire, Réutiliser, Recycler']
       },
       {
         id: 'q10',
@@ -10540,7 +10540,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Il concerne aussi l\'économie (emplois, commerce équitable) et le social (éducation, santé).',
-        hints: ['Il y a 3 piliers', 'C\'est faux']
+        hints: ['Il y a 3 piliers', 'C\'est faux', 'C\'est faux']
       }
     ]
   },
@@ -10563,7 +10563,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'went',
         explanation: 'Go → went → gone. C\'est un verbe irrégulier très courant.',
-        hints: ['Très irrégulier', 'Went']
+        hints: ['Très irrégulier', 'Went', 'La réponse est : went']
       },
       {
         id: 'q2',
@@ -10571,7 +10571,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ate',
         explanation: 'Eat → ate → eaten. "She ate pizza yesterday."',
-        hints: ['Verbe irrégulier', 'Ate']
+        hints: ['Verbe irrégulier', 'Ate', 'La réponse est : ate']
       },
       {
         id: 'q3',
@@ -10580,7 +10580,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Seed', 'Saw', 'Seen', 'Sew'],
         correctAnswer: 'Saw',
         explanation: 'See → saw → seen. "I saw a movie yesterday."',
-        hints: ['Verbe irrégulier', 'Saw']
+        hints: ['Verbe irrégulier', 'Saw', 'La réponse est : Saw']
       },
       {
         id: 'q4',
@@ -10588,7 +10588,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bought',
         explanation: 'Buy → bought → bought. "They bought a new car."',
-        hints: ['Acheté', 'Bought']
+        hints: ['Acheté', 'Bought', 'La réponse est : bought']
       },
       {
         id: 'q5',
@@ -10596,7 +10596,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Have → had → had. C\'est un verbe irrégulier.',
-        hints: ['Have est irrégulier', 'C\'est faux']
+        hints: ['Have est irrégulier', 'C\'est faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -10604,7 +10604,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'took',
         explanation: 'Take → took → taken. "He took the bus."',
-        hints: ['Verbe irrégulier', 'Took']
+        hints: ['Verbe irrégulier', 'Took', 'La réponse est : took']
       },
       {
         id: 'q7',
@@ -10613,7 +10613,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Writed', 'Wrote', 'Written', 'Writ'],
         correctAnswer: 'Wrote',
         explanation: 'Write → wrote → written. "She wrote a letter."',
-        hints: ['Verbe irrégulier', 'Wrote']
+        hints: ['Verbe irrégulier', 'Wrote', 'La réponse est : Wrote']
       },
       {
         id: 'q8',
@@ -10621,7 +10621,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'thought',
         explanation: 'Think → thought → thought. "I thought it was good."',
-        hints: ['Penser au passé', 'Thought']
+        hints: ['Penser au passé', 'Thought', 'La réponse est : thought']
       },
       {
         id: 'q9',
@@ -10629,7 +10629,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'came',
         explanation: 'Come → came → come. "She came to the party."',
-        hints: ['Venir au passé', 'Came']
+        hints: ['Venir au passé', 'Came', 'La réponse est : came']
       },
       {
         id: 'q10',
@@ -10637,7 +10637,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'knew',
         explanation: 'Know → knew → known. "We knew the answer."',
-        hints: ['Savoir au passé', 'Knew']
+        hints: ['Savoir au passé', 'Knew', 'La réponse est : knew']
       }
     ]
   },
@@ -10659,7 +10659,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['More big', 'Biger', 'Bigger', 'Most big'],
         correctAnswer: 'Bigger',
         explanation: 'Adjectifs courts : on double la consonne finale + -er. Big → bigger.',
-        hints: ['Adjectif court', 'On double le g']
+        hints: ['Adjectif court', 'On double le g', 'La réponse est : Bigger']
       },
       {
         id: 'q2',
@@ -10667,7 +10667,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'taller',
         explanation: 'Tall → taller. Adjectif court + -er pour le comparatif.',
-        hints: ['Adjectif court + er', 'Taller']
+        hints: ['Adjectif court + er', 'Taller', 'La réponse est : taller']
       },
       {
         id: 'q3',
@@ -10676,7 +10676,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Most beautiful', 'Beautifulest', 'More beautiful', 'Beautifuller'],
         correctAnswer: 'Most beautiful',
         explanation: 'Adjectifs longs (3+ syllabes) : most + adjectif. The most beautiful.',
-        hints: ['Adjectif long', 'Most + adjectif']
+        hints: ['Adjectif long', 'Most + adjectif', 'La réponse est : Most beautiful']
       },
       {
         id: 'q4',
@@ -10684,7 +10684,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'best',
         explanation: 'Good → better → best. C\'est un adjectif irrégulier.',
-        hints: ['Irrégulier', 'Best']
+        hints: ['Irrégulier', 'Best', 'La réponse est : best']
       },
       {
         id: 'q5',
@@ -10692,7 +10692,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'heavier',
         explanation: 'Heavy → heavier. Y devient I + -er.',
-        hints: ['Y → ier', 'Heavier']
+        hints: ['Y → ier', 'Heavier', 'La réponse est : heavier']
       },
       {
         id: 'q6',
@@ -10700,7 +10700,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Bad → worse → worst. C\'est irrégulier.',
-        hints: ['Bad est irrégulier', 'C\'est vrai']
+        hints: ['Bad est irrégulier', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -10708,7 +10708,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'more interesting',
         explanation: 'Interesting est long (4 syllabes) : more + adjectif.',
-        hints: ['Adjectif long', 'More + adjectif']
+        hints: ['Adjectif long', 'More + adjectif', 'La réponse est : more interesting']
       },
       {
         id: 'q8',
@@ -10716,7 +10716,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'youngest',
         explanation: 'Young → younger → youngest. The youngest = le/la plus jeune.',
-        hints: ['Superlatif', 'Youngest']
+        hints: ['Superlatif', 'Youngest', 'La réponse est : youngest']
       },
       {
         id: 'q9',
@@ -10725,7 +10725,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Farer', 'More far', 'Farther/Further', 'Farrest'],
         correctAnswer: 'Farther/Further',
         explanation: 'Far → farther/further → farthest/furthest. C\'est irrégulier.',
-        hints: ['Irrégulier', 'Farther ou further']
+        hints: ['Irrégulier', 'Farther ou further', 'La réponse est : Farther/Further']
       },
       {
         id: 'q10',
@@ -10733,7 +10733,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'most expensive',
         explanation: 'Expensive est long : the most expensive = le plus cher.',
-        hints: ['Adjectif long', 'Most expensive']
+        hints: ['Adjectif long', 'Most expensive', 'La réponse est : most expensive']
       }
     ]
   },
@@ -10755,7 +10755,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Homework', 'Timetable', 'Notebook', 'Blackboard'],
         correctAnswer: 'Timetable',
         explanation: '"Timetable" ou "schedule" = emploi du temps.',
-        hints: ['Time = temps', 'Timetable']
+        hints: ['Time = temps', 'Timetable', 'La réponse est : Timetable']
       },
       {
         id: 'q2',
@@ -10764,7 +10764,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le travail de groupe', 'Les devoirs à la maison', 'Le cours', 'L\'examen'],
         correctAnswer: 'Les devoirs à la maison',
         explanation: '"Homework" = devoirs. Home = maison, work = travail.',
-        hints: ['À faire à la maison', 'Devoirs']
+        hints: ['À faire à la maison', 'Devoirs', 'La réponse est : Les devoirs à la maison']
       },
       {
         id: 'q3',
@@ -10772,7 +10772,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'break',
         explanation: '"Break" ou "recess" (US) = la récréation, la pause.',
-        hints: ['Une pause', 'Break']
+        hints: ['Une pause', 'Break', 'La réponse est : break']
       },
       {
         id: 'q4',
@@ -10781,7 +10781,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Physique-chimie', 'Éducation physique (EPS)', 'Premier emploi', 'Philosophie'],
         correctAnswer: 'Éducation physique (EPS)',
         explanation: '"PE" = Physical Education = EPS (sport).',
-        hints: ['C\'est du sport', 'Éducation physique']
+        hints: ['C\'est du sport', 'Éducation physique', 'La réponse est : Éducation physique (EPS)']
       },
       {
         id: 'q5',
@@ -10790,7 +10790,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Teacher', 'Student / Pupil', 'Principal', 'Parent'],
         correctAnswer: 'Student / Pupil',
         explanation: '"Student" (collège/lycée) ou "pupil" (primaire) = élève.',
-        hints: ['Celui qui apprend', 'Student ou pupil']
+        hints: ['Celui qui apprend', 'Student ou pupil', 'La réponse est : Student / Pupil']
       },
       {
         id: 'q6',
@@ -10806,7 +10806,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'lesson',
         explanation: '"Lesson" ou "class" = un cours.',
-        hints: ['Une leçon', 'Lesson']
+        hints: ['Une leçon', 'Lesson', 'La réponse est : lesson']
       },
       {
         id: 'q8',
@@ -10815,7 +10815,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Passer un examen', 'Réussir un examen', 'Rater un examen', 'Réviser un examen'],
         correctAnswer: 'Réussir un examen',
         explanation: '"To pass" = réussir. "To take an exam" = passer un examen.',
-        hints: ['Attention au faux ami', 'Réussir']
+        hints: ['Attention au faux ami', 'Réussir', 'La réponse est : Réussir un examen']
       },
       {
         id: 'q9',
@@ -10824,7 +10824,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Book', 'Notebook / Exercise book', 'Textbook', 'Copybook'],
         correctAnswer: 'Notebook / Exercise book',
         explanation: '"Notebook" ou "exercise book" = cahier. "Textbook" = manuel.',
-        hints: ['Pour écrire', 'Notebook']
+        hints: ['Pour écrire', 'Notebook', 'La réponse est : Notebook / Exercise book']
       },
       {
         id: 'q10',
@@ -10832,7 +10832,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'directeur',
         explanation: '"Headmaster" (UK) ou "principal" (US) = directeur/directrice d\'école.',
-        hints: ['Le chef de l\'établissement', 'Directeur']
+        hints: ['Le chef de l\'établissement', 'Directeur', 'La réponse est : directeur']
       }
     ]
   },
@@ -10855,7 +10855,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hypoténuse',
         explanation: 'L\'hypoténuse est le plus grand côté du triangle rectangle, opposé à l\'angle droit.',
-        hints: ['C\'est le plus grand côté', 'Hypoténuse']
+        hints: ['C\'est le plus grand côté', 'Hypoténuse', 'La réponse est : hypoténuse']
       },
       {
         id: 'q2',
@@ -10864,7 +10864,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['a + b = c', 'a² + b² = c²', 'a × b = c', '2a + 2b = c'],
         correctAnswer: 'a² + b² = c²',
         explanation: 'Dans un triangle rectangle, le carré de l\'hypoténuse égale la somme des carrés des deux autres côtés.',
-        hints: ['Il y a des carrés', 'a² + b² = c²']
+        hints: ['Il y a des carrés', 'a² + b² = c²', 'La réponse est : a² + b² = c²']
       },
       {
         id: 'q3',
@@ -10872,7 +10872,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '3² + 4² = 9 + 16 = 25 = 5². L\'hypoténuse mesure 5 cm.',
-        hints: ['3² + 4² = ?', '9 + 16 = 25 = 5²']
+        hints: ['3² + 4² = ?', '9 + 16 = 25 = 5²', 'La réponse est : 5']
       },
       {
         id: 'q4',
@@ -10880,7 +10880,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: '5² + x² = 13² → 25 + x² = 169 → x² = 144 → x = 12 cm.',
-        hints: ['13² - 5² = x²', '169 - 25 = 144']
+        hints: ['13² - 5² = x²', '169 - 25 = 144', 'La réponse est : 12']
       },
       {
         id: 'q5',
@@ -10888,7 +10888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le théorème de Pythagore s\'applique uniquement aux triangles rectangles.',
-        hints: ['C\'est une condition nécessaire', 'Vrai']
+        hints: ['C\'est une condition nécessaire', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -10897,7 +10897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui', 'Non', 'On ne peut pas savoir', 'Seulement si l\'angle est marqué'],
         correctAnswer: 'Oui',
         explanation: '6² + 8² = 36 + 64 = 100 = 10². L\'égalité est vérifiée, donc le triangle est rectangle.',
-        hints: ['Vérifie si a² + b² = c²', '36 + 64 = 100 ✓']
+        hints: ['Vérifie si a² + b² = c²', '36 + 64 = 100 ✓', 'La réponse est : Oui']
       },
       {
         id: 'q7',
@@ -10905,7 +10905,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: '√144 = 12 car 12² = 144.',
-        hints: ['Quel nombre au carré donne 144 ?', '12 × 12 = 144']
+        hints: ['Quel nombre au carré donne 144 ?', '12 × 12 = 144', 'La réponse est : 12']
       },
       {
         id: 'q8',
@@ -10914,7 +10914,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['AB² + AC²', 'AB² - AC²', 'AB × AC', '2 × AB × AC'],
         correctAnswer: 'AB² + AC²',
         explanation: 'BC est l\'hypoténuse (opposée à l\'angle droit A), donc BC² = AB² + AC².',
-        hints: ['BC est l\'hypoténuse', 'Somme des carrés des autres côtés']
+        hints: ['BC est l\'hypoténuse', 'Somme des carrés des autres côtés', 'La réponse est : AB² + AC²']
       },
       {
         id: 'q9',
@@ -10922,7 +10922,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: 'La diagonale forme un triangle rectangle : d² = 6² + 8² = 36 + 64 = 100, donc d = 10 cm.',
-        hints: ['Utilise Pythagore', '6² + 8² = 100']
+        hints: ['Utilise Pythagore', '6² + 8² = 100', 'La réponse est : 10']
       },
       {
         id: 'q10',
@@ -10930,7 +10930,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 5² + 12² = 25 + 144 = 169 = 13².',
-        hints: ['Vérifie 5² + 12² = 13²', '25 + 144 = 169 ✓']
+        hints: ['Vérifie 5² + 12² = 13²', '25 + 144 = 169 ✓', 'C\'est vrai']
       }
     ]
   },
@@ -10951,7 +10951,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '8',
         explanation: '2³ = 2 × 2 × 2 = 8.',
-        hints: ['2 multiplié 3 fois', '2 × 2 × 2']
+        hints: ['2 multiplié 3 fois', '2 × 2 × 2', 'La réponse est : 8']
       },
       {
         id: 'q2',
@@ -10960,7 +10960,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10⁶', '10⁸', '10²', '20⁶'],
         correctAnswer: '10⁶',
         explanation: 'Même base : on additionne les exposants. 10⁴ × 10² = 10⁴⁺² = 10⁶.',
-        hints: ['Même base → on additionne les exposants', '4 + 2 = 6']
+        hints: ['Même base → on additionne les exposants', '4 + 2 = 6', 'La réponse est : 10⁶']
       },
       {
         id: 'q3',
@@ -10968,7 +10968,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1',
         explanation: 'Tout nombre (sauf 0) à la puissance 0 égale 1. 5⁰ = 1.',
-        hints: ['Règle spéciale', 'Exposant 0 = 1']
+        hints: ['Règle spéciale', 'Exposant 0 = 1', 'La réponse est : 1']
       },
       {
         id: 'q4',
@@ -10977,7 +10977,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3³', '3⁷', '3¹⁰', '1³'],
         correctAnswer: '3³',
         explanation: 'Même base : on soustrait les exposants. 3⁵ ÷ 3² = 3⁵⁻² = 3³.',
-        hints: ['Division → soustraction des exposants', '5 - 2 = 3']
+        hints: ['Division → soustraction des exposants', '5 - 2 = 3', 'La réponse est : 3³']
       },
       {
         id: 'q5',
@@ -10986,7 +10986,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-100', '0.01', '100', '-0.01'],
         correctAnswer: '0.01',
         explanation: '10⁻² = 1/10² = 1/100 = 0.01. Exposant négatif = inverse.',
-        hints: ['Exposant négatif = fraction', '1 divisé par 10²']
+        hints: ['Exposant négatif = fraction', '1 divisé par 10²', 'La réponse est : 0.01']
       },
       {
         id: 'q6',
@@ -10994,7 +10994,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '64',
         explanation: '(2³)² = 2³ˣ² = 2⁶ = 64. Puissance de puissance : on multiplie les exposants.',
-        hints: ['Multiplie les exposants', '2⁶ = 64']
+        hints: ['Multiplie les exposants', '2⁶ = 64', 'La réponse est : 64']
       },
       {
         id: 'q7',
@@ -11003,7 +11003,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['3.5 × 10⁶', '35 × 10⁵', '3.5 × 10⁷', '0.35 × 10⁷'],
         correctAnswer: '3.5 × 10⁶',
         explanation: '3 500 000 = 3.5 × 10⁶. On déplace la virgule de 6 rangs vers la gauche.',
-        hints: ['Un chiffre avant la virgule', '3.5 × 10⁶']
+        hints: ['Un chiffre avant la virgule', '3.5 × 10⁶', 'La réponse est : 3.5 × 10⁶']
       },
       {
         id: 'q8',
@@ -11011,7 +11011,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Même exposant : (a × b)ⁿ = aⁿ × bⁿ, donc 2⁴ × 3⁴ = (2×3)⁴ = 6⁴.',
-        hints: ['Même exposant, bases différentes', 'C\'est vrai']
+        hints: ['Même exposant, bases différentes', 'C\'est vrai', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -11019,7 +11019,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1024',
         explanation: '4² × 4³ = 4⁵ = 1024.',
-        hints: ['4⁵ = ?', '4 × 4 × 4 × 4 × 4']
+        hints: ['4⁵ = ?', '4 × 4 × 4 × 4 × 4', 'La réponse est : 1024']
       },
       {
         id: 'q10',
@@ -11028,7 +11028,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4.5 × 10⁻⁴', '45 × 10⁻⁵', '4.5 × 10⁻³', '0.45 × 10⁻³'],
         correctAnswer: '4.5 × 10⁻⁴',
         explanation: '0.00045 = 4.5 × 10⁻⁴. On déplace la virgule de 4 rangs vers la droite.',
-        hints: ['Nombre entre 1 et 10', 'Exposant négatif car < 1']
+        hints: ['Nombre entre 1 et 10', 'Exposant négatif car < 1', 'La réponse est : 4.5 × 10⁻⁴']
       }
     ]
   },
@@ -11049,7 +11049,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7',
         explanation: 'x + 5 = 12 → x = 12 - 5 = 7.',
-        hints: ['Isole x', '12 - 5 = ?']
+        hints: ['Isole x', '12 - 5 = ?', 'La réponse est : 7']
       },
       {
         id: 'q2',
@@ -11057,7 +11057,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '3x = 15 → x = 15 ÷ 3 = 5.',
-        hints: ['Divise par 3', '15 ÷ 3 = ?']
+        hints: ['Divise par 3', '15 ÷ 3 = ?', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -11065,7 +11065,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: '2x + 3 = 11 → 2x = 8 → x = 4.',
-        hints: ['D\'abord enlève 3', 'Puis divise par 2']
+        hints: ['D\'abord enlève 3', 'Puis divise par 2', 'La réponse est : 4']
       },
       {
         id: 'q4',
@@ -11073,7 +11073,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '5x - 7 = 18 → 5x = 25 → x = 5.',
-        hints: ['Ajoute 7 des deux côtés', '25 ÷ 5 = ?']
+        hints: ['Ajoute 7 des deux côtés', '25 ÷ 5 = ?', 'La réponse est : 5']
       },
       {
         id: 'q5',
@@ -11081,7 +11081,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: 'x/4 = 3 → x = 3 × 4 = 12.',
-        hints: ['Multiplie par 4', '3 × 4 = ?']
+        hints: ['Multiplie par 4', '3 × 4 = ?', 'La réponse est : 12']
       },
       {
         id: 'q6',
@@ -11089,7 +11089,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: '4x + 2 = 2x + 10 → 4x - 2x = 10 - 2 → 2x = 8 → x = 4.',
-        hints: ['Regroupe les x d\'un côté', '2x = 8']
+        hints: ['Regroupe les x d\'un côté', '2x = 8', 'La réponse est : 4']
       },
       {
         id: 'q7',
@@ -11097,7 +11097,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 3x = 6 → x = 2. Vérifions : 3(2) - 6 = 6 - 6 = 0 ✓',
-        hints: ['3x = 6', 'x = 6 ÷ 3']
+        hints: ['3x = 6', 'x = 6 ÷ 3', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -11105,7 +11105,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '2',
         explanation: '-2x + 5 = 1 → -2x = -4 → x = 2.',
-        hints: ['Enlève 5', '-4 ÷ (-2) = 2']
+        hints: ['Enlève 5', '-4 ÷ (-2) = 2', 'La réponse est : 2']
       },
       {
         id: 'q9',
@@ -11113,7 +11113,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3',
         explanation: '3(x + 2) = 15 → x + 2 = 5 → x = 3. Ou : 3x + 6 = 15 → 3x = 9 → x = 3.',
-        hints: ['Divise par 3 d\'abord', 'x + 2 = 5']
+        hints: ['Divise par 3 d\'abord', 'x + 2 = 5', 'La réponse est : 3']
       },
       {
         id: 'q10',
@@ -11121,7 +11121,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: '7 - x = 3 → -x = -4 → x = 4.',
-        hints: ['Enlève 7', '7 - 3 = 4']
+        hints: ['Enlève 7', '7 - 3 = 4', 'La réponse est : 4']
       }
     ]
   },
@@ -11145,7 +11145,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La plus grande particule de matière', 'La plus petite particule de matière conservant les propriétés chimiques', 'Un assemblage de molécules', 'Une particule chargée'],
         correctAnswer: 'La plus petite particule de matière conservant les propriétés chimiques',
         explanation: 'L\'atome est la plus petite particule d\'un élément chimique.',
-        hints: ['C\'est très petit', 'Particule de base']
+        hints: ['C\'est très petit', 'Particule de base', 'La réponse est : La plus petite particule de matière conservant les propriétés chimiques']
       },
       {
         id: 'q2',
@@ -11153,7 +11153,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'O',
         explanation: 'L\'oxygène a pour symbole O (du latin Oxygenium).',
-        hints: ['Une seule lettre', 'O']
+        hints: ['Une seule lettre', 'O', 'La réponse est : O']
       },
       {
         id: 'q3',
@@ -11161,7 +11161,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'H2O',
         explanation: 'L\'eau est composée de 2 atomes d\'hydrogène (H) et 1 atome d\'oxygène (O) : H₂O.',
-        hints: ['2 hydrogènes, 1 oxygène', 'H2O']
+        hints: ['2 hydrogènes, 1 oxygène', 'H2O', 'La réponse est : H2O']
       },
       {
         id: 'q4',
@@ -11170,7 +11170,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un atome seul', 'Un assemblage d\'atomes liés entre eux', 'Un électron', 'Un noyau atomique'],
         correctAnswer: 'Un assemblage d\'atomes liés entre eux',
         explanation: 'Une molécule est un groupe d\'atomes liés par des liaisons chimiques.',
-        hints: ['Plusieurs atomes ensemble', 'Assemblage d\'atomes']
+        hints: ['Plusieurs atomes ensemble', 'Assemblage d\'atomes', 'La réponse est : Un assemblage d\'atomes liés entre eux']
       },
       {
         id: 'q5',
@@ -11178,7 +11178,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'C',
         explanation: 'Le carbone a pour symbole C (du latin Carboneum).',
-        hints: ['Une seule lettre', 'C']
+        hints: ['Une seule lettre', 'C', 'La réponse est : C']
       },
       {
         id: 'q6',
@@ -11187,7 +11187,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2', '3', '4', '12'],
         correctAnswer: '3',
         explanation: 'CO₂ = 1 atome de carbone + 2 atomes d\'oxygène = 3 atomes.',
-        hints: ['C = 1, O₂ = 2', '1 + 2 = 3']
+        hints: ['C = 1, O₂ = 2', '1 + 2 = 3', 'La réponse est : 3']
       },
       {
         id: 'q7',
@@ -11204,7 +11204,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['CH₄', 'CO₂', 'H₂O', 'O₂'],
         correctAnswer: 'CH₄',
         explanation: 'Le méthane CH₄ est composé d\'1 carbone et 4 hydrogènes.',
-        hints: ['Gaz naturel', 'CH₄']
+        hints: ['Gaz naturel', 'CH₄', 'La réponse est : CH₄']
       },
       {
         id: 'q9',
@@ -11221,7 +11221,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Fe',
         explanation: 'Le fer a pour symbole Fe (du latin Ferrum).',
-        hints: ['Du latin Ferrum', 'Fe']
+        hints: ['Du latin Ferrum', 'Fe', 'La réponse est : Fe']
       }
     ]
   },
@@ -11242,7 +11242,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'volt',
         explanation: 'La tension se mesure en Volts (V), du nom d\'Alessandro Volta.',
-        hints: ['Du nom d\'un scientifique italien', 'Volt']
+        hints: ['Du nom d\'un scientifique italien', 'Volt', 'La réponse est : volt']
       },
       {
         id: 'q2',
@@ -11250,7 +11250,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ampère',
         explanation: 'L\'intensité se mesure en Ampères (A), du nom d\'André-Marie Ampère.',
-        hints: ['Scientifique français', 'Ampère']
+        hints: ['Scientifique français', 'Ampère', 'La réponse est : ampère']
       },
       {
         id: 'q3',
@@ -11259,7 +11259,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ampèremètre', 'Voltmètre', 'Ohmmètre', 'Wattmètre'],
         correctAnswer: 'Voltmètre',
         explanation: 'Le voltmètre mesure la tension. Il se branche en dérivation (parallèle).',
-        hints: ['Volt → Voltmètre', 'Voltmètre']
+        hints: ['Volt → Voltmètre', 'Voltmètre', 'La réponse est : Voltmètre']
       },
       {
         id: 'q4',
@@ -11268,7 +11268,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['En dérivation', 'En série', 'N\'importe comment', 'Hors du circuit'],
         correctAnswer: 'En série',
         explanation: 'L\'ampèremètre se branche en série (dans le circuit) pour mesurer l\'intensité.',
-        hints: ['Le courant doit traverser l\'appareil', 'En série']
+        hints: ['Le courant doit traverser l\'appareil', 'En série', 'La réponse est : En série']
       },
       {
         id: 'q5',
@@ -11277,7 +11277,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['U = R × I', 'U = R + I', 'U = R / I', 'U = R - I'],
         correctAnswer: 'U = R × I',
         explanation: 'Loi d\'Ohm : U = R × I (Tension = Résistance × Intensité).',
-        hints: ['C\'est une multiplication', 'U = R × I']
+        hints: ['C\'est une multiplication', 'U = R × I', 'La réponse est : U = R × I']
       },
       {
         id: 'q6',
@@ -11285,7 +11285,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '20',
         explanation: 'U = R × I = 10 × 2 = 20 V.',
-        hints: ['U = R × I', '10 × 2 = ?']
+        hints: ['U = R × I', '10 × 2 = ?', 'La réponse est : 20']
       },
       {
         id: 'q7',
@@ -11293,7 +11293,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! En série, le courant n\'a qu\'un seul chemin, donc I est constante.',
-        hints: ['Un seul chemin pour le courant', 'Vrai']
+        hints: ['Un seul chemin pour le courant', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -11301,7 +11301,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ohm',
         explanation: 'La résistance se mesure en Ohms (Ω), du nom de Georg Ohm.',
-        hints: ['Symbole Ω', 'Ohm']
+        hints: ['Symbole Ω', 'Ohm', 'La réponse est : ohm']
       },
       {
         id: 'q9',
@@ -11309,7 +11309,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: 'R = U / I = 6 / 0.5 = 12 Ω.',
-        hints: ['R = U / I', '6 ÷ 0.5 = ?']
+        hints: ['R = U / I', '6 ÷ 0.5 = ?', 'La réponse est : 12']
       },
       {
         id: 'q10',
@@ -11318,7 +11318,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'intensité', 'La tension', 'La résistance', 'La puissance'],
         correctAnswer: 'La tension',
         explanation: 'En dérivation, chaque branche est soumise à la même tension.',
-        hints: ['Chaque branche est reliée aux mêmes points', 'La tension']
+        hints: ['Chaque branche est reliée aux mêmes points', 'La tension', 'La réponse est : La tension']
       }
     ]
   },
@@ -11340,7 +11340,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rouge, Jaune, Bleu', 'Rouge, Vert, Bleu', 'Cyan, Magenta, Jaune', 'Blanc, Noir, Gris'],
         correctAnswer: 'Rouge, Vert, Bleu',
         explanation: 'En synthèse additive (lumière), les primaires sont Rouge, Vert, Bleu (RVB ou RGB).',
-        hints: ['Pense aux écrans', 'RGB']
+        hints: ['Pense aux écrans', 'RGB', 'La réponse est : Rouge, Vert, Bleu']
       },
       {
         id: 'q2',
@@ -11348,7 +11348,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'spectre',
         explanation: 'Le spectre est l\'ensemble des couleurs obtenues par décomposition de la lumière blanche.',
-        hints: ['Arc-en-ciel', 'Spectre']
+        hints: ['Arc-en-ciel', 'Spectre', 'La réponse est : spectre']
       },
       {
         id: 'q3',
@@ -11357,7 +11357,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un miroir', 'Un prisme', 'Une loupe', 'Un filtre'],
         correctAnswer: 'Un prisme',
         explanation: 'Le prisme décompose la lumière blanche en ses différentes couleurs.',
-        hints: ['Objet triangulaire en verre', 'Prisme']
+        hints: ['Objet triangulaire en verre', 'Prisme', 'La réponse est : Un prisme']
       },
       {
         id: 'q4',
@@ -11365,7 +11365,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jaune',
         explanation: 'Rouge + Vert = Jaune (synthèse additive).',
-        hints: ['Synthèse additive', 'Jaune']
+        hints: ['Synthèse additive', 'Jaune', 'La réponse est : jaune']
       },
       {
         id: 'q5',
@@ -11373,7 +11373,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! La lumière blanche contient toutes les couleurs du spectre visible.',
-        hints: ['Pense au prisme', 'Vrai']
+        hints: ['Pense au prisme', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -11381,7 +11381,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'blanc',
         explanation: 'Rouge + Vert + Bleu = Blanc (synthèse additive complète).',
-        hints: ['Toutes les couleurs ensemble', 'Blanc']
+        hints: ['Toutes les couleurs ensemble', 'Blanc', 'La réponse est : blanc']
       },
       {
         id: 'q7',
@@ -11390,7 +11390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il émet de la lumière rouge', 'Il absorbe le rouge et diffuse les autres', 'Il diffuse le rouge et absorbe les autres', 'Il transforme la lumière en rouge'],
         correctAnswer: 'Il diffuse le rouge et absorbe les autres',
         explanation: 'L\'objet absorbe toutes les couleurs sauf le rouge qu\'il diffuse vers nos yeux.',
-        hints: ['Il renvoie le rouge', 'Absorbe les autres']
+        hints: ['Il renvoie le rouge', 'Absorbe les autres', 'La réponse est : Il diffuse le rouge et absorbe les autres']
       },
       {
         id: 'q8',
@@ -11398,7 +11398,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'rouge',
         explanation: 'Un objet blanc diffuse toutes les couleurs qu\'il reçoit. En lumière rouge, il apparaît rouge.',
-        hints: ['Il diffuse ce qu\'il reçoit', 'Rouge']
+        hints: ['Il diffuse ce qu\'il reçoit', 'Rouge', 'La réponse est : rouge']
       },
       {
         id: 'q9',
@@ -11407,7 +11407,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Violet', 'Magenta', 'Cyan', 'Orange'],
         correctAnswer: 'Magenta',
         explanation: 'Rouge + Bleu = Magenta (synthèse additive).',
-        hints: ['Un rose foncé', 'Magenta']
+        hints: ['Un rose foncé', 'Magenta', 'La réponse est : Magenta']
       },
       {
         id: 'q10',
@@ -11415,7 +11415,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Un objet ne peut diffuser que les couleurs présentes dans la lumière incidente.',
-        hints: ['Pense à l\'objet rouge en lumière bleue', 'Vrai']
+        hints: ['Pense à l\'objet rouge en lumière bleue', 'Vrai', 'C\'est vrai']
       }
     ]
   },
@@ -11439,7 +11439,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent d\'énonciation', 'Présent de vérité générale', 'Présent de narration', 'Présent d\'habitude'],
         correctAnswer: 'Présent de vérité générale',
         explanation: 'Le présent de vérité générale exprime un fait toujours vrai.',
-        hints: ['C\'est toujours vrai', 'Vérité générale']
+        hints: ['C\'est toujours vrai', 'Vérité générale', 'La réponse est : Présent de vérité générale']
       },
       {
         id: 'q2',
@@ -11448,7 +11448,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent de vérité générale', 'Présent d\'énonciation', 'Présent de narration', 'Présent d\'habitude'],
         correctAnswer: 'Présent d\'énonciation',
         explanation: 'Le présent d\'énonciation indique que l\'action se passe au moment où l\'on parle.',
-        hints: ['Maintenant, en ce moment', 'Énonciation']
+        hints: ['Maintenant, en ce moment', 'Énonciation', 'La réponse est : Présent d\'énonciation']
       },
       {
         id: 'q3',
@@ -11457,7 +11457,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent d\'énonciation', 'Présent de vérité générale', 'Présent de narration', 'Présent d\'habitude'],
         correctAnswer: 'Présent d\'habitude',
         explanation: 'Le présent d\'habitude exprime une action qui se répète régulièrement.',
-        hints: ['Tous les matins = répétition', 'Habitude']
+        hints: ['Tous les matins = répétition', 'Habitude', 'La réponse est : Présent d\'habitude']
       },
       {
         id: 'q4',
@@ -11466,7 +11466,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent d\'énonciation', 'Présent de narration', 'Présent de vérité générale', 'Présent d\'habitude'],
         correctAnswer: 'Présent de narration',
         explanation: 'Le présent de narration (ou historique) rend vivant un événement passé.',
-        hints: ['Fait passé raconté au présent', 'Narration']
+        hints: ['Fait passé raconté au présent', 'Narration', 'La réponse est : Présent de narration']
       },
       {
         id: 'q5',
@@ -11483,7 +11483,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Exemple : "Je pars demain" (présent à valeur de futur proche).',
-        hints: ['Je pars demain = futur proche', 'Vrai']
+        hints: ['Je pars demain = futur proche', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -11492,7 +11492,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['C\'est une erreur', 'Le présent exprime une condition', 'Le futur est interdit après si', 'C\'est du présent de narration'],
         correctAnswer: 'Le présent exprime une condition',
         explanation: 'Après "si" de condition, on utilise le présent (pas le futur) pour exprimer l\'hypothèse.',
-        hints: ['Règle : si + présent', 'Condition']
+        hints: ['Règle : si + présent', 'Condition', 'La réponse est : Le présent exprime une condition']
       },
       {
         id: 'q8',
@@ -11501,7 +11501,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Futur de certitude', 'Futur d\'ordre', 'Futur de supposition', 'Futur proche'],
         correctAnswer: 'Futur de supposition',
         explanation: 'Le futur antérieur peut exprimer une supposition, une probabilité.',
-        hints: ['C\'est une hypothèse', 'Supposition']
+        hints: ['C\'est une hypothèse', 'Supposition', 'La réponse est : Futur de supposition']
       },
       {
         id: 'q9',
@@ -11509,7 +11509,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finirons',
         explanation: 'Nous finirons. Futur : infinitif + -ons pour nous.',
-        hints: ['Infinitif + terminaison', 'Finirons']
+        hints: ['Infinitif + terminaison', 'Finirons', 'La réponse est : finirons']
       },
       {
         id: 'q10',
@@ -11518,7 +11518,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent d\'habitude', 'Présent de narration', 'Présent de vérité générale', 'Présent d\'énonciation'],
         correctAnswer: 'Présent de vérité générale',
         explanation: 'C\'est un fait scientifique toujours vrai : présent de vérité générale.',
-        hints: ['Fait scientifique permanent', 'Vérité générale']
+        hints: ['Fait scientifique permanent', 'Vérité générale', 'La réponse est : Présent de vérité générale']
       }
     ]
   },
@@ -11540,7 +11540,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les paroles sont rapportées telles quelles', 'Les paroles sont modifiées', 'Les paroles sont supprimées', 'Les paroles sont résumées'],
         correctAnswer: 'Les paroles sont rapportées telles quelles',
         explanation: 'Le discours direct rapporte les paroles exactes, avec guillemets.',
-        hints: ['Avec guillemets', 'Paroles exactes']
+        hints: ['Avec guillemets', 'Paroles exactes', 'La réponse est : Les paroles sont rapportées telles quelles']
       },
       {
         id: 'q2',
@@ -11549,7 +11549,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il dit qu\'il est fatigué.', 'Il dit qu\'il était fatigué.', 'Il dit : il est fatigué.', 'Il dit je suis fatigué.'],
         correctAnswer: 'Il dit qu\'il est fatigué.',
         explanation: 'Discours indirect : que + changement de pronom (je → il). Le présent reste au présent si le verbe introducteur est au présent.',
-        hints: ['Il dit que...', 'Je devient il']
+        hints: ['Il dit que...', 'Je devient il', 'La réponse est : Il dit qu\'il est fatigué.']
       },
       {
         id: 'q3',
@@ -11558,7 +11558,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle a demandé si tu venais le lendemain.', 'Elle a demandé que tu viens demain.', 'Elle a demandé : tu viens demain ?', 'Elle a demandé si tu viens demain.'],
         correctAnswer: 'Elle a demandé si tu venais le lendemain.',
         explanation: 'Question → si. Verbe au passé → concordance des temps (viens → venais). Demain → le lendemain.',
-        hints: ['Question = si', 'Demain → le lendemain']
+        hints: ['Question = si', 'Demain → le lendemain', 'La réponse est : Elle a demandé si tu venais le lendemain.']
       },
       {
         id: 'q4',
@@ -11567,7 +11567,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Présent → Imparfait', 'Présent → Passé simple', 'Présent → Futur', 'Aucun changement'],
         correctAnswer: 'Présent → Imparfait',
         explanation: 'Concordance des temps : si le verbe introducteur est au passé, le présent devient imparfait.',
-        hints: ['Concordance des temps', 'Présent → Imparfait']
+        hints: ['Concordance des temps', 'Présent → Imparfait', 'La réponse est : Présent → Imparfait']
       },
       {
         id: 'q5',
@@ -11575,7 +11575,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'là',
         explanation: 'Ici → là (changement de repère spatial).',
-        hints: ['Changement de lieu', 'Là']
+        hints: ['Changement de lieu', 'Là', 'La réponse est : là']
       },
       {
         id: 'q6',
@@ -11583,7 +11583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les guillemets disparaissent au discours indirect.',
-        hints: ['Les guillemets sont pour le discours direct', 'Faux']
+        hints: ['Les guillemets sont pour le discours direct', 'Faux', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -11592,7 +11592,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il m\'a dit qu\'il viendrait le lendemain.', 'Il m\'a dit qu\'il viendra demain.', 'Il m\'a dit il viendra demain.', 'Il m\'a dit que je viendrai demain.'],
         correctAnswer: 'Il m\'a dit qu\'il viendrait le lendemain.',
         explanation: 'Futur → conditionnel présent. Demain → le lendemain. Je → il.',
-        hints: ['Futur → Conditionnel', 'Demain → le lendemain']
+        hints: ['Futur → Conditionnel', 'Demain → le lendemain', 'La réponse est : Il m\'a dit qu\'il viendrait le lendemain.']
       },
       {
         id: 'q8',
@@ -11600,7 +11600,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'la veille',
         explanation: 'Hier → la veille (changement de repère temporel).',
-        hints: ['Le jour d\'avant', 'La veille']
+        hints: ['Le jour d\'avant', 'La veille', 'La réponse est : la veille']
       },
       {
         id: 'q9',
@@ -11609,7 +11609,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avec "que"', 'Avec "si" ou un mot interrogatif', 'Avec des guillemets', 'Avec "car"'],
         correctAnswer: 'Avec "si" ou un mot interrogatif',
         explanation: 'Question fermée → si. Question ouverte → mot interrogatif (qui, que, où, comment...).',
-        hints: ['Pas de guillemets', 'Si ou mot interrogatif']
+        hints: ['Pas de guillemets', 'Si ou mot interrogatif', 'La réponse est : Avec "si" ou un mot interrogatif']
       },
       {
         id: 'q10',
@@ -11618,7 +11618,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle demanda où il allait.', 'Elle demanda si il va.', 'Elle demanda que où vas-tu.', 'Elle demanda où tu vas.'],
         correctAnswer: 'Elle demanda où il allait.',
         explanation: 'Mot interrogatif conservé (où). Tu → il. Vas → allait (concordance).',
-        hints: ['Garde le mot interrogatif', 'Concordance des temps']
+        hints: ['Garde le mot interrogatif', 'Concordance des temps', 'La réponse est : Elle demanda où il allait.']
       }
     ]
   },
@@ -11639,7 +11639,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comparaison',
         explanation: 'La comparaison utilise un outil de comparaison (comme, tel, semblable à...).',
-        hints: ['Avec un outil de comparaison', 'Comparaison']
+        hints: ['Avec un outil de comparaison', 'Comparaison', 'La réponse est : comparaison']
       },
       {
         id: 'q2',
@@ -11648,7 +11648,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comparaison', 'Métaphore', 'Personnification', 'Hyperbole'],
         correctAnswer: 'Métaphore',
         explanation: 'La métaphore compare sans outil de comparaison. L\'homme EST un lion (pas "comme").',
-        hints: ['Pas de mot de comparaison', 'Métaphore']
+        hints: ['Pas de mot de comparaison', 'Métaphore', 'La réponse est : Métaphore']
       },
       {
         id: 'q3',
@@ -11657,7 +11657,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Métaphore', 'Comparaison', 'Personnification', 'Antithèse'],
         correctAnswer: 'Personnification',
         explanation: 'La personnification attribue des caractéristiques humaines à un objet ou animal.',
-        hints: ['Le vent agit comme un humain', 'Personnification']
+        hints: ['Le vent agit comme un humain', 'Personnification', 'La réponse est : Personnification']
       },
       {
         id: 'q4',
@@ -11665,7 +11665,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hyperbole',
         explanation: 'L\'hyperbole est une exagération volontaire pour créer un effet.',
-        hints: ['Exagération', 'Hyperbole']
+        hints: ['Exagération', 'Hyperbole', 'La réponse est : hyperbole']
       },
       {
         id: 'q5',
@@ -11674,7 +11674,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Euphémisme', 'Hyperbole', 'Oxymore', 'Pléonasme'],
         correctAnswer: 'Euphémisme',
         explanation: 'L\'euphémisme atténue une réalité brutale ou désagréable.',
-        hints: ['Atténuation', 'Euphémisme']
+        hints: ['Atténuation', 'Euphémisme', 'La réponse est : Euphémisme']
       },
       {
         id: 'q6',
@@ -11682,7 +11682,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'oxymore',
         explanation: 'L\'oxymore associe deux termes contradictoires.',
-        hints: ['Silence + assourdissant = contradiction', 'Oxymore']
+        hints: ['Silence + assourdissant = contradiction', 'Oxymore', 'La réponse est : oxymore']
       },
       {
         id: 'q7',
@@ -11690,7 +11690,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'anaphore répète un mot ou groupe de mots en début de vers ou phrases successives.',
-        hints: ['Répétition en début', 'Vrai']
+        hints: ['Répétition en début', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -11699,7 +11699,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Métaphore', 'Anaphore', 'Antithèse', 'Euphémisme'],
         correctAnswer: 'Anaphore',
         explanation: 'Paris est répété en début de chaque proposition : c\'est une anaphore.',
-        hints: ['Répétition de Paris', 'Anaphore']
+        hints: ['Répétition de Paris', 'Anaphore', 'La réponse est : Anaphore']
       },
       {
         id: 'q9',
@@ -11707,7 +11707,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'antithèse',
         explanation: 'L\'antithèse oppose deux idées, deux termes contraires.',
-        hints: ['Opposition', 'Antithèse']
+        hints: ['Opposition', 'Antithèse', 'La réponse est : antithèse']
       },
       {
         id: 'q10',
@@ -11716,7 +11716,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Métonymie', 'Litote', 'Périphrase', 'Hyperbole'],
         correctAnswer: 'Métonymie',
         explanation: 'La métonymie désigne quelque chose par un élément lié (l\'auteur pour ses œuvres).',
-        hints: ['L\'auteur pour ses œuvres', 'Métonymie']
+        hints: ['L\'auteur pour ses œuvres', 'Métonymie', 'La réponse est : Métonymie']
       }
     ]
   },
@@ -11739,7 +11739,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1789',
         explanation: 'Le 14 juillet 1789, le peuple de Paris prend la Bastille, symbole du pouvoir royal.',
-        hints: ['14 juillet...', '1789']
+        hints: ['14 juillet...', '1789', 'La réponse est : 1789']
       },
       {
         id: 'q2',
@@ -11748,7 +11748,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les castes', 'Les ordres', 'Les classes', 'Les rangs'],
         correctAnswer: 'Les ordres',
         explanation: 'Les trois ordres : le clergé, la noblesse et le tiers état.',
-        hints: ['Clergé, Noblesse, Tiers état', 'Les ordres']
+        hints: ['Clergé, Noblesse, Tiers état', 'Les ordres', 'La réponse est : Les ordres']
       },
       {
         id: 'q3',
@@ -11757,7 +11757,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La monarchie absolue', 'Les droits et libertés fondamentaux', 'La guerre aux autres pays', 'Le retour à l\'Ancien Régime'],
         correctAnswer: 'Les droits et libertés fondamentaux',
         explanation: 'Adoptée le 26 août 1789, elle proclame les droits naturels : liberté, égalité, propriété.',
-        hints: ['Liberté, égalité', 'Droits fondamentaux']
+        hints: ['Liberté, égalité', 'Droits fondamentaux', 'La réponse est : Les droits et libertés fondamentaux']
       },
       {
         id: 'q4',
@@ -11765,7 +11765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Louis XVI',
         explanation: 'Louis XVI régnait depuis 1774. Il sera guillotiné en 1793.',
-        hints: ['Un Louis', 'Louis XVI']
+        hints: ['Un Louis', 'Louis XVI', 'La réponse est : Louis XVI']
       },
       {
         id: 'q5',
@@ -11774,7 +11774,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le clergé', 'La noblesse', 'Le reste de la population (98%)', 'Les soldats'],
         correctAnswer: 'Le reste de la population (98%)',
         explanation: 'Le tiers état représentait 98% de la population : bourgeois, paysans, artisans...',
-        hints: ['Ni clergé, ni noblesse', 'Le peuple']
+        hints: ['Ni clergé, ni noblesse', 'Le peuple', 'La réponse est : Le reste de la population (98%)']
       },
       {
         id: 'q6',
@@ -11782,7 +11782,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Cette devise est née pendant la Révolution française.',
-        hints: ['C\'est la devise de la République', 'Vrai']
+        hints: ['C\'est la devise de la République', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -11790,7 +11790,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Terreur',
         explanation: 'La Terreur (1793-1794) est une période de répression violente menée par Robespierre.',
-        hints: ['Période sanglante', 'La Terreur']
+        hints: ['Période sanglante', 'La Terreur', 'La réponse est : Terreur']
       },
       {
         id: 'q8',
@@ -11799,7 +11799,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La prise de la Bastille', 'L\'exécution de Louis XVI', 'La fuite à Varennes', 'Le serment du Jeu de paume'],
         correctAnswer: 'L\'exécution de Louis XVI',
         explanation: 'Louis XVI est guillotiné le 21 janvier 1793, mettant fin à la monarchie.',
-        hints: ['En 1793', 'Guillotine']
+        hints: ['En 1793', 'Guillotine', 'La réponse est : L\'exécution de Louis XVI']
       },
       {
         id: 'q9',
@@ -11808,7 +11808,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une assemblée des trois ordres', 'Une armée', 'Un tribunal', 'Un impôt'],
         correctAnswer: 'Une assemblée des trois ordres',
         explanation: 'Les États généraux réunissaient les représentants des trois ordres. Convoqués en 1789.',
-        hints: ['Assemblée convoquée par le roi', 'Trois ordres']
+        hints: ['Assemblée convoquée par le roi', 'Trois ordres', 'La réponse est : Une assemblée des trois ordres']
       },
       {
         id: 'q10',
@@ -11816,7 +11816,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Robespierre',
         explanation: 'Maximilien de Robespierre dirigea la Terreur avant d\'être lui-même guillotiné en 1794.',
-        hints: ['L\'Incorruptible', 'Robespierre']
+        hints: ['L\'Incorruptible', 'Robespierre', 'La réponse est : Robespierre']
       }
     ]
   },
@@ -11837,7 +11837,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Angleterre',
         explanation: 'La révolution industrielle a débuté en Angleterre vers 1750-1780.',
-        hints: ['Une île européenne', 'Angleterre']
+        hints: ['Une île européenne', 'Angleterre', 'La réponse est : Angleterre']
       },
       {
         id: 'q2',
@@ -11846,7 +11846,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'électricité', 'La machine à vapeur', 'L\'ordinateur', 'L\'automobile'],
         correctAnswer: 'La machine à vapeur',
         explanation: 'La machine à vapeur de James Watt (1769) a révolutionné l\'industrie et les transports.',
-        hints: ['Utilise le charbon', 'Machine à vapeur']
+        hints: ['Utilise le charbon', 'Machine à vapeur', 'La réponse est : La machine à vapeur']
       },
       {
         id: 'q3',
@@ -11854,7 +11854,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'charbon',
         explanation: 'Le charbon était la principale source d\'énergie de la révolution industrielle.',
-        hints: ['Combustible fossile noir', 'Charbon']
+        hints: ['Combustible fossile noir', 'Charbon', 'La réponse est : charbon']
       },
       {
         id: 'q4',
@@ -11863,7 +11863,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'immigration', 'L\'exode rural', 'L\'émigration', 'La colonisation'],
         correctAnswer: 'L\'exode rural',
         explanation: 'L\'exode rural désigne le départ massif des campagnes vers les villes industrielles.',
-        hints: ['Rural = campagne', 'Exode rural']
+        hints: ['Rural = campagne', 'Exode rural', 'La réponse est : L\'exode rural']
       },
       {
         id: 'q5',
@@ -11871,7 +11871,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Les ouvriers travaillaient 12-16h/jour, y compris les enfants, dans des conditions difficiles.',
-        hints: ['Travail des enfants, journées très longues', 'Faux']
+        hints: ['Travail des enfants, journées très longues', 'Faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -11880,7 +11880,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'avion', 'Le train', 'La voiture', 'Le vélo'],
         correctAnswer: 'Le train',
         explanation: 'Le chemin de fer s\'est développé grâce à la locomotive à vapeur (Stephenson, 1825).',
-        hints: ['Sur des rails', 'Le train']
+        hints: ['Sur des rails', 'Le train', 'La réponse est : Le train']
       },
       {
         id: 'q7',
@@ -11888,7 +11888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bourgeoisie',
         explanation: 'La bourgeoisie industrielle possédait les moyens de production (usines, capitaux).',
-        hints: ['Classe sociale riche', 'Bourgeoisie']
+        hints: ['Classe sociale riche', 'Bourgeoisie', 'La réponse est : bourgeoisie']
       },
       {
         id: 'q8',
@@ -11897,7 +11897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Napoléon', 'Karl Marx', 'Louis XIV', 'Victor Hugo'],
         correctAnswer: 'Karl Marx',
         explanation: 'Karl Marx (Le Capital, 1867) a analysé le capitalisme et proposé le communisme.',
-        hints: ['Auteur du Capital', 'Karl Marx']
+        hints: ['Auteur du Capital', 'Karl Marx', 'La réponse est : Karl Marx']
       },
       {
         id: 'q9',
@@ -11905,7 +11905,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'prolétariat',
         explanation: 'Le prolétariat désigne la classe ouvrière qui ne possède que sa force de travail.',
-        hints: ['Les ouvriers', 'Prolétariat']
+        hints: ['Les ouvriers', 'Prolétariat', 'La réponse est : prolétariat']
       },
       {
         id: 'q10',
@@ -11914,7 +11914,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le procédé Bessemer', 'La machine à coudre', 'Le métier à tisser', 'La dynamo'],
         correctAnswer: 'Le procédé Bessemer',
         explanation: 'Le procédé Bessemer (1856) a révolutionné la production d\'acier.',
-        hints: ['Pour faire de l\'acier', 'Bessemer']
+        hints: ['Pour faire de l\'acier', 'Bessemer', 'La réponse est : Le procédé Bessemer']
       }
     ]
   },
@@ -11936,7 +11936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'isolation des pays', 'L\'intégration des économies et sociétés à l\'échelle mondiale', 'La fin du commerce', 'La disparition des frontières physiques'],
         correctAnswer: 'L\'intégration des économies et sociétés à l\'échelle mondiale',
         explanation: 'La mondialisation est le processus d\'intégration des marchés et des sociétés à l\'échelle planétaire.',
-        hints: ['Échanges mondiaux', 'Intégration planétaire']
+        hints: ['Échanges mondiaux', 'Intégration planétaire', 'La réponse est : L\'intégration des économies et sociétés à l\'échelle mondiale']
       },
       {
         id: 'q2',
@@ -11945,7 +11945,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fonds Monétaire National', 'Firme MultiNationale', 'Fédération Mondiale du Nord', 'Finance et Monnaie Nationale'],
         correctAnswer: 'Firme MultiNationale',
         explanation: 'Une FMN (ou multinationale) est une entreprise présente dans plusieurs pays.',
-        hints: ['Grande entreprise internationale', 'Multinationale']
+        hints: ['Grande entreprise internationale', 'Multinationale', 'La réponse est : Firme MultiNationale']
       },
       {
         id: 'q3',
@@ -11954,7 +11954,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Flux de marchandises', 'Flux d\'informations', 'Flux de personnes', 'Flux de pétrole'],
         correctAnswer: 'Flux d\'informations',
         explanation: 'Internet permet la circulation instantanée d\'informations à travers le monde.',
-        hints: ['Données numériques', 'Informations']
+        hints: ['Données numériques', 'Informations', 'La réponse est : Flux d\'informations']
       },
       {
         id: 'q4',
@@ -11963,7 +11963,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pays du Sud', 'Pays en développement', 'Pays du Nord', 'Pays émergents'],
         correctAnswer: 'Pays du Nord',
         explanation: 'Les "pays du Nord" désignent les pays développés (Europe, USA, Japon...).',
-        hints: ['Pays riches', 'Pays du Nord']
+        hints: ['Pays riches', 'Pays du Nord', 'La réponse est : Pays du Nord']
       },
       {
         id: 'q5',
@@ -11971,7 +11971,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! La mondialisation a creusé certaines inégalités, même si des pays émergents ont progressé.',
-        hints: ['Les inégalités persistent', 'Faux']
+        hints: ['Les inégalités persistent', 'Faux', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -11980,7 +11980,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rotterdam', 'New York', 'Shanghai', 'Le Havre'],
         correctAnswer: 'Shanghai',
         explanation: 'Shanghai (Chine) est le premier port mondial en trafic de conteneurs.',
-        hints: ['En Asie', 'Shanghai']
+        hints: ['En Asie', 'Shanghai', 'La réponse est : Shanghai']
       },
       {
         id: 'q7',
@@ -11988,7 +11988,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'délocalisation',
         explanation: 'La délocalisation consiste à transférer la production vers des pays où les coûts sont plus bas.',
-        hints: ['Déplacer la production', 'Délocalisation']
+        hints: ['Déplacer la production', 'Délocalisation', 'La réponse est : délocalisation']
       },
       {
         id: 'q8',
@@ -11997,7 +11997,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des pays pauvres', 'Des pays émergents', 'Des pays du Nord', 'Des pays isolés'],
         correctAnswer: 'Des pays émergents',
         explanation: 'Les BRICS sont des pays émergents à forte croissance économique.',
-        hints: ['En développement rapide', 'Émergents']
+        hints: ['En développement rapide', 'Émergents', 'La réponse est : Des pays émergents']
       },
       {
         id: 'q9',
@@ -12005,7 +12005,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bateau',
         explanation: 'Le transport maritime assure environ 90% du commerce mondial en volume.',
-        hints: ['Par mer', 'Bateau/navire']
+        hints: ['Par mer', 'Bateau/navire', 'La réponse est : bateau']
       },
       {
         id: 'q10',
@@ -12014,7 +12014,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une zone de guerre', 'Une zone sans impôts ni taxes douanières', 'Une zone interdite', 'Une zone agricole'],
         correctAnswer: 'Une zone sans impôts ni taxes douanières',
         explanation: 'Les zones franches attirent les entreprises avec des avantages fiscaux.',
-        hints: ['Avantages fiscaux', 'Sans taxes']
+        hints: ['Avantages fiscaux', 'Sans taxes', 'La réponse est : Une zone sans impôts ni taxes douanières']
       }
     ]
   },
@@ -12038,7 +12038,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['BE + verb-ING', 'HAVE + past participle', 'DID + verb', 'WILL + verb'],
         correctAnswer: 'HAVE + past participle',
         explanation: 'Present perfect = HAVE/HAS + participe passé (ex: I have eaten).',
-        hints: ['Have ou Has', 'Have + participe passé']
+        hints: ['Have ou Has', 'Have + participe passé', 'La réponse est : HAVE + past participle']
       },
       {
         id: 'q2',
@@ -12046,7 +12046,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'have visited',
         explanation: 'I have visited London twice. Expérience passée avec résultat présent.',
-        hints: ['Have + participe passé', 'Have visited']
+        hints: ['Have + participe passé', 'Have visited', 'La réponse est : have visited']
       },
       {
         id: 'q3',
@@ -12054,7 +12054,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'has never eaten',
         explanation: 'She has never eaten sushi. "Never" se place entre HAVE et le participe.',
-        hints: ['She = has', 'Has never eaten']
+        hints: ['She = has', 'Has never eaten', 'La réponse est : has never eaten']
       },
       {
         id: 'q4',
@@ -12063,7 +12063,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Yesterday', 'Last week', 'Already / Yet / Ever', 'Tomorrow'],
         correctAnswer: 'Already / Yet / Ever',
         explanation: 'Already, yet, ever, never, just, since, for accompagnent le present perfect.',
-        hints: ['Pas de temps passé précis', 'Already, yet, ever']
+        hints: ['Pas de temps passé précis', 'Already, yet, ever', 'La réponse est : Already / Yet / Ever']
       },
       {
         id: 'q5',
@@ -12071,7 +12071,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'have just arrived',
         explanation: 'They have just arrived. "Just" = il y a très peu de temps.',
-        hints: ['Just entre have et participe', 'Have just arrived']
+        hints: ['Just entre have et participe', 'Have just arrived', 'La réponse est : have just arrived']
       },
       {
         id: 'q6',
@@ -12079,7 +12079,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Yesterday" (temps passé précis) → simple past. Present perfect = pas de moment précis.',
-        hints: ['Yesterday = passé précis', 'Faux']
+        hints: ['Yesterday = passé précis', 'Faux', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -12087,7 +12087,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finished',
         explanation: 'Have you finished your homework? Question au present perfect.',
-        hints: ['Participe passé', 'Finished']
+        hints: ['Participe passé', 'Finished', 'La réponse est : finished']
       },
       {
         id: 'q8',
@@ -12096,7 +12096,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aucune différence', 'Since = durée, For = point de départ', 'Since = point de départ, For = durée', 'Since = futur, For = passé'],
         correctAnswer: 'Since = point de départ, For = durée',
         explanation: 'Since 2020 (point de départ). For 3 years (durée).',
-        hints: ['Since = date/moment', 'For = période']
+        hints: ['Since = date/moment', 'For = période', 'La réponse est : Since = point de départ, For = durée']
       },
       {
         id: 'q9',
@@ -12104,7 +12104,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'for',
         explanation: 'For 5 years = pendant 5 ans (durée).',
-        hints: ['5 years = durée', 'For']
+        hints: ['5 years = durée', 'For', 'La réponse est : for']
       },
       {
         id: 'q10',
@@ -12112,7 +12112,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'since',
         explanation: 'Since 2015 = depuis 2015 (point de départ).',
-        hints: ['2015 = date précise', 'Since']
+        hints: ['2015 = date précise', 'Since', 'La réponse est : since']
       }
     ]
   },
@@ -12134,7 +12134,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Devoir', 'Pouvoir / Savoir faire', 'Vouloir', 'Falloir'],
         correctAnswer: 'Pouvoir / Savoir faire',
         explanation: '"Can" exprime la capacité, la possibilité ou la permission.',
-        hints: ['Capacité', 'Pouvoir']
+        hints: ['Capacité', 'Pouvoir', 'La réponse est : Pouvoir / Savoir faire']
       },
       {
         id: 'q2',
@@ -12142,7 +12142,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'can',
         explanation: 'She can speak three languages. (Elle sait parler trois langues.)',
-        hints: ['Capacité', 'Can']
+        hints: ['Capacité', 'Can', 'La réponse est : can']
       },
       {
         id: 'q3',
@@ -12151,7 +12151,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pouvoir', 'Devoir (obligation)', 'Vouloir', 'Aimer'],
         correctAnswer: 'Devoir (obligation)',
         explanation: '"Must" exprime une obligation forte ou une certitude.',
-        hints: ['Obligation', 'Devoir']
+        hints: ['Obligation', 'Devoir', 'La réponse est : Devoir (obligation)']
       },
       {
         id: 'q4',
@@ -12159,7 +12159,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'must',
         explanation: 'You must wear a seatbelt. (Tu dois porter la ceinture.)',
-        hints: ['Obligation', 'Must']
+        hints: ['Obligation', 'Must', 'La réponse est : must']
       },
       {
         id: 'q5',
@@ -12168,7 +12168,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Devoir absolument', 'Pouvoir', 'Devrais (conseil)', 'Vouloir'],
         correctAnswer: 'Devrais (conseil)',
         explanation: '"Should" exprime un conseil, une recommandation.',
-        hints: ['Conseil', 'Devrais']
+        hints: ['Conseil', 'Devrais', 'La réponse est : Devrais (conseil)']
       },
       {
         id: 'q6',
@@ -12176,7 +12176,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'should',
         explanation: 'You should see a doctor. (Tu devrais voir un médecin.)',
-        hints: ['Conseil', 'Should']
+        hints: ['Conseil', 'Should', 'La réponse est : should']
       },
       {
         id: 'q7',
@@ -12184,7 +12184,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Can go (pas "can to go"), must eat (pas "must to eat").',
-        hints: ['Base verbale sans to', 'Vrai']
+        hints: ['Base verbale sans to', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -12193,7 +12193,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['You mustn\'t smoke here.', 'You don\'t must smoke here.', 'You can\'t must smoke here.', 'You shouldn\'t must smoke here.'],
         correctAnswer: 'You mustn\'t smoke here.',
         explanation: 'Mustn\'t = interdiction. "You mustn\'t smoke here."',
-        hints: ['Interdiction = must not', 'Mustn\'t']
+        hints: ['Interdiction = must not', 'Mustn\'t', 'La réponse est : You mustn\'t smoke here.']
       },
       {
         id: 'q9',
@@ -12201,7 +12201,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'could',
         explanation: 'Can → could. "I could swim when I was 5."',
-        hints: ['Can au passé', 'Could']
+        hints: ['Can au passé', 'Could', 'La réponse est : could']
       },
       {
         id: 'q10',
@@ -12210,7 +12210,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Must', 'Should', 'Can / Could', 'Will'],
         correctAnswer: 'Can / Could',
         explanation: '"Can I...?" ou "Could I...?" pour demander poliment la permission.',
-        hints: ['Demande de permission', 'Can ou Could']
+        hints: ['Demande de permission', 'Can ou Could', 'La réponse est : Can / Could']
       }
     ]
   },
@@ -12231,7 +12231,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'global warming',
         explanation: '"Global warming" = réchauffement climatique.',
-        hints: ['Global = mondial', 'Global warming']
+        hints: ['Global = mondial', 'Global warming', 'La réponse est : global warming']
       },
       {
         id: 'q2',
@@ -12240,7 +12240,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Solution', 'Pollution', 'Population', 'Position'],
         correctAnswer: 'Pollution',
         explanation: '"Pollution" se dit de la même façon en anglais et en français.',
-        hints: ['Même mot', 'Pollution']
+        hints: ['Même mot', 'Pollution', 'La réponse est : Pollution']
       },
       {
         id: 'q3',
@@ -12248,7 +12248,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'recycle',
         explanation: '"Recycle" = recycler. To recycle plastic, paper...',
-        hints: ['Presque pareil', 'Recycle']
+        hints: ['Presque pareil', 'Recycle', 'La réponse est : recycle']
       },
       {
         id: 'q4',
@@ -12257,7 +12257,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Espèces dangereuses', 'Espèces en voie de disparition', 'Espèces communes', 'Espèces marines'],
         correctAnswer: 'Espèces en voie de disparition',
         explanation: '"Endangered species" = espèces menacées, en danger d\'extinction.',
-        hints: ['Endangered = en danger', 'Menacées']
+        hints: ['Endangered = en danger', 'Menacées', 'La réponse est : Espèces en voie de disparition']
       },
       {
         id: 'q5',
@@ -12265,7 +12265,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'renewable energy',
         explanation: '"Renewable energy" = énergie renouvelable (solar, wind...).',
-        hints: ['Renewable = renouvelable', 'Renewable energy']
+        hints: ['Renewable = renouvelable', 'Renewable energy', 'La réponse est : renewable energy']
       },
       {
         id: 'q6',
@@ -12273,7 +12273,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Deforestation = déforestation (destruction des forêts).',
-        hints: ['Même mot', 'Vrai']
+        hints: ['Même mot', 'Vrai', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -12282,7 +12282,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sauver / Économiser', 'Détruire', 'Polluer', 'Acheter'],
         correctAnswer: 'Sauver / Économiser',
         explanation: 'Save the planet = sauver la planète. Save water = économiser l\'eau.',
-        hints: ['Sauver ou économiser', 'Save']
+        hints: ['Sauver ou économiser', 'Save', 'La réponse est : Sauver / Économiser']
       },
       {
         id: 'q8',
@@ -12290,7 +12290,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'greenhouse effect',
         explanation: '"Greenhouse effect" = effet de serre. Greenhouse = serre.',
-        hints: ['Green + house', 'Greenhouse effect']
+        hints: ['Green + house', 'Greenhouse effect', 'La réponse est : greenhouse effect']
       },
       {
         id: 'q9',
@@ -12299,7 +12299,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Eau', 'Déchets', 'Nourriture', 'Énergie'],
         correctAnswer: 'Déchets',
         explanation: '"Waste" = déchets. Waste management = gestion des déchets.',
-        hints: ['Ce qu\'on jette', 'Déchets']
+        hints: ['Ce qu\'on jette', 'Déchets', 'La réponse est : Déchets']
       },
       {
         id: 'q10',
@@ -12307,7 +12307,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'carbon footprint',
         explanation: '"Carbon footprint" = empreinte carbone.',
-        hints: ['Carbon + empreinte de pied', 'Carbon footprint']
+        hints: ['Carbon + empreinte de pied', 'Carbon footprint', 'La réponse est : carbon footprint']
       }
     ]
   },
@@ -12334,7 +12334,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['f(x) = ax', 'f(x) = ax + b', 'f(x) = x²', 'f(x) = a/x'],
         correctAnswer: 'f(x) = ax',
         explanation: 'Une fonction linéaire est de la forme f(x) = ax où a est le coefficient.',
-        hints: ['Passe par l\'origine', 'Forme simple']
+        hints: ['Passe par l\'origine', 'Forme simple', 'La réponse est : f(x) = ax']
       },
       {
         id: 'q2',
@@ -12342,7 +12342,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '15',
         explanation: 'f(5) = 3 × 5 = 15',
-        hints: ['Remplace x par 5', '3 × 5']
+        hints: ['Remplace x par 5', '3 × 5', 'La réponse est : 15']
       },
       {
         id: 'q3',
@@ -12351,7 +12351,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Linéaire', 'Affine', 'Carrée', 'Constante'],
         correctAnswer: 'Affine',
         explanation: 'g(x) = 2x + 3 est affine car de la forme ax + b avec b ≠ 0.',
-        hints: ['Il y a une constante +3', 'ax + b']
+        hints: ['Il y a une constante +3', 'ax + b', 'La réponse est : Affine']
       },
       {
         id: 'q4',
@@ -12359,7 +12359,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! f(x) = ax est un cas particulier de ax + b avec b = 0.',
-        hints: ['b peut valoir 0', 'Cas particulier']
+        hints: ['b peut valoir 0', 'Cas particulier', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -12367,7 +12367,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-4',
         explanation: 'Dans f(x) = ax + b, le coefficient directeur est a = -4.',
-        hints: ['Le nombre devant x', 'a = ?']
+        hints: ['Le nombre devant x', 'a = ?', 'La réponse est : -4']
       },
       {
         id: 'q6',
@@ -12376,7 +12376,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['2', '-5', '5', '0'],
         correctAnswer: '-5',
         explanation: 'L\'ordonnée à l\'origine est b = -5 (valeur quand x = 0).',
-        hints: ['La constante', 'f(0) = ?']
+        hints: ['La constante', 'f(0) = ?', 'La réponse est : -5']
       },
       {
         id: 'q7',
@@ -12384,7 +12384,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: 'On cherche x tel que 5x = 20, donc x = 20/5 = 4.',
-        hints: ['5x = 20', 'Diviser par 5']
+        hints: ['5x = 20', 'Diviser par 5', 'La réponse est : 4']
       },
       {
         id: 'q8',
@@ -12393,7 +12393,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une droite', 'Une parabole', 'Une hyperbole', 'Un cercle'],
         correctAnswer: 'Une droite',
         explanation: 'Les fonctions affines sont représentées par des droites.',
-        hints: ['Forme simple', 'Ligne droite']
+        hints: ['Forme simple', 'Ligne droite', 'La réponse est : Une droite']
       },
       {
         id: 'q9',
@@ -12401,7 +12401,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '4',
         explanation: 'f(2) = -3 × 2 + 10 = -6 + 10 = 4',
-        hints: ['-3 × 2 + 10', '-6 + 10']
+        hints: ['-3 × 2 + 10', '-6 + 10', 'La réponse est : 4']
       },
       {
         id: 'q10',
@@ -12409,7 +12409,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Si le coefficient directeur a est négatif, la fonction décroît.',
-        hints: ['Pente négative', 'La droite descend']
+        hints: ['Pente négative', 'La droite descend', 'C\'est vrai']
       }
     ]
   },
@@ -12429,7 +12429,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '3x = 20 - 5 = 15, donc x = 15/3 = 5',
-        hints: ['Isoler x', '3x = 15']
+        hints: ['Isoler x', '3x = 15', 'La réponse est : 5']
       },
       {
         id: 'q2',
@@ -12437,7 +12437,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '10',
         explanation: '2x - x = 3 + 7, donc x = 10',
-        hints: ['Regrouper les x', 'x = 3 + 7']
+        hints: ['Regrouper les x', 'x = 3 + 7', 'La réponse est : 10']
       },
       {
         id: 'q3',
@@ -12446,7 +12446,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['x > 3', 'x < 3', 'x > 15', 'x < 15'],
         correctAnswer: 'x > 3',
         explanation: 'On divise par 5 (positif, donc le sens est conservé) : x > 3',
-        hints: ['Diviser par 5', '15/5 = 3']
+        hints: ['Diviser par 5', '15/5 = 3', 'La réponse est : x > 3']
       },
       {
         id: 'q4',
@@ -12454,7 +12454,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ex: -x > 2 devient x < -2 après multiplication par -1.',
-        hints: ['Règle importante', 'Le signe s\'inverse']
+        hints: ['Règle importante', 'Le signe s\'inverse', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -12462,7 +12462,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '5',
         explanation: '4x - 8 = 12, donc 4x = 20, donc x = 5',
-        hints: ['Développer d\'abord', '4x = 20']
+        hints: ['Développer d\'abord', '4x = 20', 'La réponse est : 5']
       },
       {
         id: 'q6',
@@ -12471,7 +12471,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['[-2 ; +∞[', ']-∞ ; -2]', '[-2 ; 2]', ']-2 ; +∞['],
         correctAnswer: '[-2 ; +∞[',
         explanation: 'x ≥ -2 signifie tous les nombres à partir de -2 inclus.',
-        hints: ['-2 est inclus', 'Crochet fermé']
+        hints: ['-2 est inclus', 'Crochet fermé', 'La réponse est : [-2 ; +∞[']
       },
       {
         id: 'q7',
@@ -12480,7 +12480,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['x > 3', 'x < 3', 'x > -3', 'x < -3'],
         correctAnswer: 'x > 3',
         explanation: '-2x < -6, on divise par -2 (signe change) : x > 3',
-        hints: ['Attention au signe !', 'Division par négatif']
+        hints: ['Attention au signe !', 'Division par négatif', 'La réponse est : x > 3']
       },
       {
         id: 'q8',
@@ -12488,7 +12488,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '7',
         explanation: 'x + 1 = 8, donc x = 7',
-        hints: ['Multiplier par 2', 'x + 1 = 8']
+        hints: ['Multiplier par 2', 'x + 1 = 8', 'La réponse est : 7']
       },
       {
         id: 'q9',
@@ -12497,7 +12497,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aucune', 'Une seule', 'Deux', 'Infinité'],
         correctAnswer: 'Aucune',
         explanation: '0 = 5 est impossible, donc aucune solution.',
-        hints: ['0 ne peut pas égaler 5', 'Impossible']
+        hints: ['0 ne peut pas égaler 5', 'Impossible', 'La réponse est : Aucune']
       },
       {
         id: 'q10',
@@ -12506,7 +12506,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['x = 0', 'x = 1', 'x = -1', 'Pas de solution'],
         correctAnswer: 'Pas de solution',
         explanation: '3x - 3x = 1 + 2, donc 0 = 3, impossible !',
-        hints: ['Simplifier', '0 = 3 ?']
+        hints: ['Simplifier', '0 = 3 ?', 'La réponse est : Pas de solution']
       }
     ]
   },
@@ -12527,7 +12527,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/6', '1/3', '1/2', '6'],
         correctAnswer: '1/6',
         explanation: 'Un dé a 6 faces, une seule est le 6, donc P = 1/6.',
-        hints: ['6 faces possibles', '1 cas favorable']
+        hints: ['6 faces possibles', '1 cas favorable', 'La réponse est : 1/6']
       },
       {
         id: 'q2',
@@ -12535,7 +12535,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '3/10',
         explanation: 'P = 3/(3+7) = 3/10',
-        hints: ['Total de 10 boules', '3 rouges sur 10']
+        hints: ['Total de 10 boules', '3 rouges sur 10', 'La réponse est : 3/10']
       },
       {
         id: 'q3',
@@ -12543,7 +12543,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! 0 ≤ P ≤ 1. P=0 impossible, P=1 certain.',
-        hints: ['Jamais négatif', 'Jamais supérieur à 1']
+        hints: ['Jamais négatif', 'Jamais supérieur à 1', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -12552,7 +12552,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1/4', '1/2', '1/3', '2/4'],
         correctAnswer: '1/4',
         explanation: 'P = 1/2 × 1/2 = 1/4 (événements indépendants)',
-        hints: ['Multiplier les probas', '1/2 × 1/2']
+        hints: ['Multiplier les probas', '1/2 × 1/2', 'La réponse est : 1/4']
       },
       {
         id: 'q5',
@@ -12560,7 +12560,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '0.7',
         explanation: 'P(Ā) = 1 - P(A) = 1 - 0.3 = 0.7',
-        hints: ['Somme = 1', '1 - 0.3']
+        hints: ['Somme = 1', '1 - 0.3', 'La réponse est : 0.7']
       },
       {
         id: 'q6',
@@ -12569,7 +12569,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4/52 = 1/13', '1/52', '13/52', '4/13'],
         correctAnswer: '4/52 = 1/13',
         explanation: 'Il y a 4 as sur 52 cartes, donc P = 4/52 = 1/13.',
-        hints: ['4 as dans le jeu', 'Simplifier']
+        hints: ['4 as dans le jeu', 'Simplifier', 'La réponse est : 4/52 = 1/13']
       },
       {
         id: 'q7',
@@ -12578,7 +12578,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Certain', 'Impossible', 'Probable', 'Rare'],
         correctAnswer: 'Certain',
         explanation: 'P = 1 signifie que l\'événement se produit toujours.',
-        hints: ['100% de chances', 'Sûr']
+        hints: ['100% de chances', 'Sûr', 'La réponse est : Certain']
       },
       {
         id: 'q8',
@@ -12586,7 +12586,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1/2',
         explanation: 'Nombres pairs : 2, 4, 6 soit 3 sur 6 = 1/2',
-        hints: ['3 nombres pairs', '3/6 simplifié']
+        hints: ['3 nombres pairs', '3/6 simplifié', 'La réponse est : 1/2']
       },
       {
         id: 'q9',
@@ -12603,7 +12603,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['P(A) + P(B)', 'P(A) × P(B)', 'P(A) - P(B)', 'P(A) / P(B)'],
         correctAnswer: 'P(A) + P(B)',
         explanation: 'Pour des événements incompatibles, on additionne les probabilités.',
-        hints: ['Addition', 'Pas de chevauchement']
+        hints: ['Addition', 'Pas de chevauchement', 'La réponse est : P(A) + P(B)']
       }
     ]
   },
@@ -12626,7 +12626,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Acide DésoxyriboNucléique', 'Atome De Nitrogène', 'Acide DiNitrique', 'Aucune réponse'],
         correctAnswer: 'Acide DésoxyriboNucléique',
         explanation: 'ADN = Acide DésoxyriboNucléique, molécule porteuse de l\'information génétique.',
-        hints: ['Molécule génétique', 'Acide...']
+        hints: ['Molécule génétique', 'Acide...', 'La réponse est : Acide DésoxyriboNucléique']
       },
       {
         id: 'q2',
@@ -12635,7 +12635,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans le noyau', 'Dans la membrane', 'Dans le cytoplasme uniquement', 'À l\'extérieur'],
         correctAnswer: 'Dans le noyau',
         explanation: 'L\'ADN est principalement localisé dans le noyau des cellules.',
-        hints: ['Centre de la cellule', 'Noyau']
+        hints: ['Centre de la cellule', 'Noyau', 'La réponse est : Dans le noyau']
       },
       {
         id: 'q3',
@@ -12643,7 +12643,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '46',
         explanation: 'Les cellules humaines contiennent 46 chromosomes (23 paires).',
-        hints: ['23 paires', '23 × 2']
+        hints: ['23 paires', '23 × 2', 'La réponse est : 46']
       },
       {
         id: 'q4',
@@ -12651,7 +12651,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les gènes portent l\'information pour fabriquer des protéines.',
-        hints: ['Unité d\'information', 'Code génétique']
+        hints: ['Unité d\'information', 'Code génétique', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -12659,7 +12659,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'C',
         explanation: 'Les 4 bases : Adénine (A), Thymine (T), Guanine (G), Cytosine (C).',
-        hints: ['Cytosine', 'Commence par C']
+        hints: ['Cytosine', 'Commence par C', 'La réponse est : C']
       },
       {
         id: 'q6',
@@ -12668,7 +12668,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Thymine (T)', 'Guanine (G)', 'Cytosine (C)', 'Adénine (A)'],
         correctAnswer: 'Thymine (T)',
         explanation: 'A s\'apparie avec T, et G s\'apparie avec C.',
-        hints: ['A-T', 'Complémentarité']
+        hints: ['A-T', 'Complémentarité', 'La réponse est : Thymine (T)']
       },
       {
         id: 'q7',
@@ -12677,7 +12677,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une mutation', 'Une division', 'Une fusion', 'Une réplication'],
         correctAnswer: 'Une mutation',
         explanation: 'Une mutation est un changement dans la séquence d\'ADN.',
-        hints: ['Changement génétique', 'Mutation']
+        hints: ['Changement génétique', 'Mutation', 'La réponse est : Une mutation']
       },
       {
         id: 'q8',
@@ -12685,7 +12685,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'ADN est universel chez tous les êtres vivants.',
-        hints: ['Universel', 'Même molécule']
+        hints: ['Universel', 'Même molécule', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -12693,7 +12693,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'réplication',
         explanation: 'La réplication permet de copier l\'ADN avant la division cellulaire.',
-        hints: ['Copie identique', 'Réplication']
+        hints: ['Copie identique', 'Réplication', 'La réponse est : réplication']
       },
       {
         id: 'q10',
@@ -12702,7 +12702,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une double hélice', 'Un cercle', 'Un carré', 'Un triangle'],
         correctAnswer: 'Une double hélice',
         explanation: 'L\'ADN a une structure en double hélice (découverte par Watson et Crick).',
-        hints: ['Forme en spirale', 'Double']
+        hints: ['Forme en spirale', 'Double', 'La réponse est : Une double hélice']
       }
     ]
   },
@@ -12723,7 +12723,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Joule (J)', 'Le Watt (W)', 'Le Newton (N)', 'Le Volt (V)'],
         correctAnswer: 'Le Joule (J)',
         explanation: 'L\'énergie se mesure en Joules (J).',
-        hints: ['J', 'Joule']
+        hints: ['J', 'Joule', 'La réponse est : Le Joule (J)']
       },
       {
         id: 'q2',
@@ -12731,7 +12731,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! L\'énergie se conserve, elle ne peut être ni créée ni détruite.',
-        hints: ['Conservation', 'Transformation']
+        hints: ['Conservation', 'Transformation', 'C\'est faux']
       },
       {
         id: 'q3',
@@ -12740,7 +12740,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Énergie cinétique', 'Énergie potentielle', 'Énergie thermique', 'Énergie chimique'],
         correctAnswer: 'Énergie cinétique',
         explanation: 'L\'énergie cinétique est l\'énergie du mouvement : Ec = ½mv²',
-        hints: ['Mouvement', 'Cinétique']
+        hints: ['Mouvement', 'Cinétique', 'La réponse est : Énergie cinétique']
       },
       {
         id: 'q4',
@@ -12748,7 +12748,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'v²',
         explanation: 'Ec = ½mv² où m est la masse et v la vitesse.',
-        hints: ['Vitesse au carré', 'v²']
+        hints: ['Vitesse au carré', 'v²', 'La réponse est : v²']
       },
       {
         id: 'q5',
@@ -12757,7 +12757,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Potentielle de pesanteur', 'Cinétique', 'Électrique', 'Sonore'],
         correctAnswer: 'Potentielle de pesanteur',
         explanation: 'En hauteur, un objet a une énergie potentielle : Ep = mgh',
-        hints: ['Position en hauteur', 'Potentielle']
+        hints: ['Position en hauteur', 'Potentielle', 'La réponse est : Potentielle de pesanteur']
       },
       {
         id: 'q6',
@@ -12765,7 +12765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'lampe',
         explanation: 'Une lampe (ou ampoule) convertit l\'électricité en lumière.',
-        hints: ['Éclairage', 'Ampoule']
+        hints: ['Éclairage', 'Ampoule', 'La réponse est : lampe']
       },
       {
         id: 'q7',
@@ -12773,7 +12773,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les réactions chimiques dans la pile produisent de l\'électricité.',
-        hints: ['Réaction chimique', 'Produit du courant']
+        hints: ['Réaction chimique', 'Produit du courant', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -12782,7 +12782,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Watts (W)', 'Joules (J)', 'Ampères (A)', 'Volts (V)'],
         correctAnswer: 'Watts (W)',
         explanation: 'La puissance se mesure en Watts. P = E/t',
-        hints: ['W', 'Watt']
+        hints: ['W', 'Watt', 'La réponse est : Watts (W)']
       },
       {
         id: 'q9',
@@ -12790,7 +12790,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'mécanique',
         explanation: 'Un moteur électrique produit du mouvement (énergie mécanique).',
-        hints: ['Mouvement', 'Mécanique']
+        hints: ['Mouvement', 'Mécanique', 'La réponse est : mécanique']
       },
       {
         id: 'q10',
@@ -12799,7 +12799,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Inférieur à 100%', 'Égal à 100%', 'Supérieur à 100%', 'Négatif'],
         correctAnswer: 'Inférieur à 100%',
         explanation: 'Il y a toujours des pertes (chaleur, frottements), donc η < 100%.',
-        hints: ['Pertes inévitables', 'Moins de 100%']
+        hints: ['Pertes inévitables', 'Moins de 100%', 'La réponse est : Inférieur à 100%']
       }
     ]
   },
@@ -12820,7 +12820,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cerveau', 'Le cœur', 'Les poumons', 'Le foie'],
         correctAnswer: 'Le cerveau',
         explanation: 'Le cerveau coordonne toutes les fonctions du corps.',
-        hints: ['Dans la tête', 'Centre de contrôle']
+        hints: ['Dans la tête', 'Centre de contrôle', 'La réponse est : Le cerveau']
       },
       {
         id: 'q2',
@@ -12828,7 +12828,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'neurone',
         explanation: 'Le neurone est la cellule nerveuse qui transmet l\'information.',
-        hints: ['Cellule nerveuse', 'Neurone']
+        hints: ['Cellule nerveuse', 'Neurone', 'La réponse est : neurone']
       },
       {
         id: 'q3',
@@ -12837,7 +12837,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Électrique', 'Mécanique', 'Thermique', 'Lumineuse'],
         correctAnswer: 'Électrique',
         explanation: 'Le message nerveux est un signal électrique (influx nerveux).',
-        hints: ['Influx', 'Signal électrique']
+        hints: ['Influx', 'Signal électrique', 'La réponse est : Électrique']
       },
       {
         id: 'q4',
@@ -12845,7 +12845,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le SNC = cerveau + moelle épinière.',
-        hints: ['Protégée par la colonne', 'Centrale']
+        hints: ['Protégée par la colonne', 'Centrale', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -12853,7 +12853,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'synapse',
         explanation: 'La synapse est la zone de communication entre deux neurones.',
-        hints: ['Zone de jonction', 'Synapse']
+        hints: ['Zone de jonction', 'Synapse', 'La réponse est : synapse']
       },
       {
         id: 'q6',
@@ -12862,7 +12862,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une réponse automatique et rapide', 'Une réponse volontaire', 'Une maladie', 'Un muscle'],
         correctAnswer: 'Une réponse automatique et rapide',
         explanation: 'Un réflexe est une réponse involontaire à un stimulus.',
-        hints: ['Automatique', 'Rapide']
+        hints: ['Automatique', 'Rapide', 'La réponse est : Une réponse automatique et rapide']
       },
       {
         id: 'q7',
@@ -12871,7 +12871,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Entre neurones au niveau des synapses', 'Entre muscles', 'Entre os', 'Entre cellules sanguines'],
         correctAnswer: 'Entre neurones au niveau des synapses',
         explanation: 'Les neurotransmetteurs sont des messagers chimiques libérés dans la synapse.',
-        hints: ['Messagers chimiques', 'Synapse']
+        hints: ['Messagers chimiques', 'Synapse', 'La réponse est : Entre neurones au niveau des synapses']
       },
       {
         id: 'q8',
@@ -12879,7 +12879,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les récepteurs (yeux, oreilles, peau...) détectent les stimuli.',
-        hints: ['Capteurs', 'Sens']
+        hints: ['Capteurs', 'Sens', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -12888,7 +12888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'alcool', 'L\'eau', 'L\'oxygène', 'Le glucose'],
         correctAnswer: 'L\'alcool',
         explanation: 'L\'alcool et les drogues perturbent la transmission nerveuse.',
-        hints: ['Substance nocive', 'Drogue']
+        hints: ['Substance nocive', 'Drogue', 'La réponse est : L\'alcool']
       },
       {
         id: 'q10',
@@ -12896,7 +12896,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'axone',
         explanation: 'L\'axone est le prolongement qui conduit l\'influx nerveux.',
-        hints: ['Long prolongement', 'Axone']
+        hints: ['Long prolongement', 'Axone', 'La réponse est : axone']
       }
     ]
   },
@@ -12919,7 +12919,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'opinion défendue par l\'auteur', 'Un exemple', 'Une question', 'Un résumé'],
         correctAnswer: 'L\'opinion défendue par l\'auteur',
         explanation: 'La thèse est l\'idée principale que l\'auteur veut démontrer.',
-        hints: ['Point de vue', 'Idée défendue']
+        hints: ['Point de vue', 'Idée défendue', 'La réponse est : L\'opinion défendue par l\'auteur']
       },
       {
         id: 'q2',
@@ -12928,7 +12928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une raison qui justifie la thèse', 'Un fait divers', 'Un personnage', 'Un titre'],
         correctAnswer: 'Une raison qui justifie la thèse',
         explanation: 'L\'argument est une idée qui soutient et justifie la thèse.',
-        hints: ['Justification', 'Raison']
+        hints: ['Justification', 'Raison', 'La réponse est : Une raison qui justifie la thèse']
       },
       {
         id: 'q3',
@@ -12936,7 +12936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'exemple rend l\'argument concret et plus convaincant.',
-        hints: ['Illustration', 'Concret']
+        hints: ['Illustration', 'Concret', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -12945,7 +12945,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Cependant', 'Donc', 'De plus', 'Ainsi'],
         correctAnswer: 'Cependant',
         explanation: 'Cependant, mais, néanmoins, toutefois marquent l\'opposition.',
-        hints: ['Opposition', 'Contraste']
+        hints: ['Opposition', 'Contraste', 'La réponse est : Cependant']
       },
       {
         id: 'q5',
@@ -12953,7 +12953,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'conséquence',
         explanation: '"Par conséquent" introduit une conséquence ou conclusion.',
-        hints: ['Résultat', 'Conséquence']
+        hints: ['Résultat', 'Conséquence', 'La réponse est : conséquence']
       },
       {
         id: 'q6',
@@ -12962,7 +12962,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Réfuter l\'opinion adverse', 'Confirmer sa thèse', 'Raconter une histoire', 'Décrire un lieu'],
         correctAnswer: 'Réfuter l\'opinion adverse',
         explanation: 'Le contre-argument anticipe et réfute les objections possibles.',
-        hints: ['Réfutation', 'Opinion contraire']
+        hints: ['Réfutation', 'Opinion contraire', 'La réponse est : Réfuter l\'opinion adverse']
       },
       {
         id: 'q7',
@@ -12970,7 +12970,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Certes... mais..." est une concession.',
-        hints: ['Certes... mais', 'Admettre puis réfuter']
+        hints: ['Certes... mais', 'Admettre puis réfuter', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -12978,7 +12978,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'argumentatif',
         explanation: 'Le texte argumentatif cherche à persuader ou convaincre.',
-        hints: ['Arguments', 'Convaincre']
+        hints: ['Arguments', 'Convaincre', 'La réponse est : argumentatif']
       },
       {
         id: 'q9',
@@ -12987,7 +12987,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['D\'addition', 'D\'opposition', 'De cause', 'De temps'],
         correctAnswer: 'D\'addition',
         explanation: 'Ces connecteurs ajoutent un argument supplémentaire.',
-        hints: ['Ajouter', 'En plus']
+        hints: ['Ajouter', 'En plus', 'La réponse est : D\'addition']
       },
       {
         id: 'q10',
@@ -12996,7 +12996,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Reformuler la thèse et ouvrir le débat', 'Ajouter de nouveaux arguments', 'Raconter une anecdote', 'Poser des questions sans réponse'],
         correctAnswer: 'Reformuler la thèse et ouvrir le débat',
         explanation: 'La conclusion synthétise et peut élargir la réflexion.',
-        hints: ['Synthèse', 'Ouverture']
+        hints: ['Synthèse', 'Ouverture', 'La réponse est : Reformuler la thèse et ouvrir le débat']
       }
     ]
   },
@@ -13017,7 +13017,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Trois', 'Deux', 'Quatre', 'Cinq'],
         correctAnswer: 'Trois',
         explanation: 'Familier, courant et soutenu sont les trois registres principaux.',
-        hints: ['Familier, courant...', 'Trois niveaux']
+        hints: ['Familier, courant...', 'Trois niveaux', 'La réponse est : Trois']
       },
       {
         id: 'q2',
@@ -13025,7 +13025,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'familier',
         explanation: '"Bouquin" est familier, "livre" est courant, "ouvrage" est soutenu.',
-        hints: ['Langage oral', 'Familier']
+        hints: ['Langage oral', 'Familier', 'La réponse est : familier']
       },
       {
         id: 'q3',
@@ -13034,7 +13034,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Se restaurer', 'Bouffer', 'Manger', 'Grailler'],
         correctAnswer: 'Se restaurer',
         explanation: '"Se restaurer" est soutenu, "bouffer/grailler" sont familiers.',
-        hints: ['Langage élégant', 'Formel']
+        hints: ['Langage élégant', 'Formel', 'La réponse est : Se restaurer']
       },
       {
         id: 'q4',
@@ -13042,7 +13042,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le registre courant est le plus utilisé au quotidien.',
-        hints: ['Standard', 'Quotidien']
+        hints: ['Standard', 'Quotidien', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -13050,7 +13050,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'soutenu',
         explanation: '"Bagnole" = familier, "voiture" = courant, "véhicule automobile" = soutenu.',
-        hints: ['Très formel', 'Soutenu']
+        hints: ['Très formel', 'Soutenu', 'La réponse est : soutenu']
       },
       {
         id: 'q6',
@@ -13059,7 +13059,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Discours officiel, littérature', 'Entre amis', 'Messages SMS', 'Argot de rue'],
         correctAnswer: 'Discours officiel, littérature',
         explanation: 'Le registre soutenu est réservé aux contextes formels et littéraires.',
-        hints: ['Formel', 'Officiel']
+        hints: ['Formel', 'Officiel', 'La réponse est : Discours officiel, littérature']
       },
       {
         id: 'q7',
@@ -13068,7 +13068,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Familier', 'Courant', 'Soutenu', 'Argotique'],
         correctAnswer: 'Familier',
         explanation: '"Chouette" = familier, "agréable" = courant, "délectable" = soutenu.',
-        hints: ['Langage décontracté', 'Oral']
+        hints: ['Langage décontracté', 'Oral', 'La réponse est : Familier']
       },
       {
         id: 'q8',
@@ -13076,7 +13076,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! L\'argot est un langage codé, très informel.',
-        hints: ['Très informel', 'Populaire']
+        hints: ['Très informel', 'Populaire', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -13084,7 +13084,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'habiter',
         explanation: '"Crécher" = familier, "habiter" = courant, "demeurer" = soutenu.',
-        hints: ['Vivre quelque part', 'Standard']
+        hints: ['Vivre quelque part', 'Standard', 'La réponse est : habiter']
       },
       {
         id: 'q10',
@@ -13093,7 +13093,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Soutenu ou courant soigné', 'Familier', 'Argotique', 'SMS'],
         correctAnswer: 'Soutenu ou courant soigné',
         explanation: 'Les documents officiels exigent un langage formel et soigné.',
-        hints: ['Professionnel', 'Formel']
+        hints: ['Professionnel', 'Formel', 'La réponse est : Soutenu ou courant soigné']
       }
     ]
   },
@@ -13114,7 +13114,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['D\'une proposition principale', 'D\'une autre subordonnée', 'De rien', 'Du titre'],
         correctAnswer: 'D\'une proposition principale',
         explanation: 'La subordonnée ne peut exister seule, elle dépend de la principale.',
-        hints: ['Dépendance', 'Principale']
+        hints: ['Dépendance', 'Principale', 'La réponse est : D\'une proposition principale']
       },
       {
         id: 'q2',
@@ -13123,7 +13123,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Qui, que, dont, où', 'Et, ou, ni', 'Car, parce que', 'Si, quand'],
         correctAnswer: 'Qui, que, dont, où',
         explanation: 'Les pronoms relatifs introduisent les subordonnées relatives.',
-        hints: ['Pronom relatif', 'Qui, que...']
+        hints: ['Pronom relatif', 'Qui, que...', 'La réponse est : Qui, que, dont, où']
       },
       {
         id: 'q3',
@@ -13131,7 +13131,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'qu\'il viendra',
         explanation: '"Qu\'il viendra" est une proposition subordonnée complétive.',
-        hints: ['Après "que"', 'Complétive']
+        hints: ['Après "que"', 'Complétive', 'La réponse est : qu\'il viendra']
       },
       {
         id: 'q4',
@@ -13140,7 +13140,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand ?', 'Pourquoi ?', 'Comment ?', 'Combien ?'],
         correctAnswer: 'Quand ?',
         explanation: 'La subordonnée de temps indique le moment de l\'action.',
-        hints: ['Temporelle', 'Moment']
+        hints: ['Temporelle', 'Moment', 'La réponse est : Quand ?']
       },
       {
         id: 'q5',
@@ -13148,7 +13148,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Parce que", "puisque", "comme" introduisent la cause.',
-        hints: ['Pourquoi ?', 'Cause']
+        hints: ['Pourquoi ?', 'Cause', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -13157,7 +13157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De concession', 'De cause', 'De but', 'De temps'],
         correctAnswer: 'De concession',
         explanation: '"Bien que", "quoique" introduisent une opposition/concession.',
-        hints: ['Opposition', 'Malgré']
+        hints: ['Opposition', 'Malgré', 'La réponse est : De concession']
       },
       {
         id: 'q7',
@@ -13165,7 +13165,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'complément de l\'antécédent',
         explanation: 'La relative "qui parle" complète "l\'homme" (antécédent).',
-        hints: ['Relative', 'Complète le nom']
+        hints: ['Relative', 'Complète le nom', 'La réponse est : complément de l\'antécédent']
       },
       {
         id: 'q8',
@@ -13174,7 +13174,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['But', 'Cause', 'Temps', 'Condition'],
         correctAnswer: 'But',
         explanation: '"Pour que", "afin que" expriment le but (objectif).',
-        hints: ['Objectif', 'Finalité']
+        hints: ['Objectif', 'Finalité', 'La réponse est : But']
       },
       {
         id: 'q9',
@@ -13182,7 +13182,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Si" introduit une condition (hypothèse).',
-        hints: ['Si...', 'Hypothèse']
+        hints: ['Si...', 'Hypothèse', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -13191,7 +13191,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le subjonctif', 'L\'indicatif', 'L\'impératif', 'Le conditionnel'],
         correctAnswer: 'Le subjonctif',
         explanation: '"Bien que" est toujours suivi du subjonctif.',
-        hints: ['Mode du doute', 'Subjonctif']
+        hints: ['Mode du doute', 'Subjonctif', 'La réponse est : Le subjonctif']
       }
     ]
   },
@@ -13213,7 +13213,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1914',
         explanation: 'La Première Guerre mondiale a débuté en 1914 et s\'est terminée en 1918.',
-        hints: ['19...', 'Avant 1918']
+        hints: ['19...', 'Avant 1918', 'La réponse est : 1914']
       },
       {
         id: 'q2',
@@ -13222,7 +13222,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'assassinat de l\'archiduc François-Ferdinand', 'L\'invasion de la Pologne', 'La révolution russe', 'Le traité de Versailles'],
         correctAnswer: 'L\'assassinat de l\'archiduc François-Ferdinand',
         explanation: 'L\'assassinat à Sarajevo le 28 juin 1914 a déclenché le conflit.',
-        hints: ['À Sarajevo', 'Archiduc autrichien']
+        hints: ['À Sarajevo', 'Archiduc autrichien', 'La réponse est : L\'assassinat de l\'archiduc François-Ferdinand']
       },
       {
         id: 'q3',
@@ -13230,7 +13230,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1916',
         explanation: 'Verdun (février-décembre 1916) fut une bataille très meurtrière.',
-        hints: ['Milieu de la guerre', '19...']
+        hints: ['Milieu de la guerre', '19...', 'La réponse est : 1916']
       },
       {
         id: 'q4',
@@ -13238,7 +13238,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les soldats vivaient dans des tranchées face à face.',
-        hints: ['Front statique', 'Vie dans les tranchées']
+        hints: ['Front statique', 'Vie dans les tranchées', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -13246,7 +13246,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'poilus',
         explanation: 'Les "poilus" étaient les soldats français de la Grande Guerre.',
-        hints: ['Surnom affectueux', 'Poilus']
+        hints: ['Surnom affectueux', 'Poilus', 'La réponse est : poilus']
       },
       {
         id: 'q6',
@@ -13255,7 +13255,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les États-Unis', 'Le Japon', 'La Chine', 'Le Brésil'],
         correctAnswer: 'Les États-Unis',
         explanation: 'Les USA sont entrés en guerre en avril 1917.',
-        hints: ['Puissance américaine', 'Wilson']
+        hints: ['Puissance américaine', 'Wilson', 'La réponse est : Les États-Unis']
       },
       {
         id: 'q7',
@@ -13264,7 +13264,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['11 novembre 1918', '8 mai 1945', '14 juillet 1914', '28 juin 1919'],
         correctAnswer: '11 novembre 1918',
         explanation: 'L\'armistice du 11 novembre 1918 a mis fin aux combats.',
-        hints: ['Jour férié', 'Novembre']
+        hints: ['Jour férié', 'Novembre', 'La réponse est : 11 novembre 1918']
       },
       {
         id: 'q8',
@@ -13272,7 +13272,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Le génocide arménien (1915-1916) par l\'Empire ottoman.',
-        hints: ['Empire ottoman', '1915']
+        hints: ['Empire ottoman', '1915', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -13281,7 +13281,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10 millions', '1 million', '50 millions', '100 millions'],
         correctAnswer: '10 millions',
         explanation: 'Environ 10 millions de morts militaires, plus les civils.',
-        hints: ['Des millions', 'Dizaine de millions']
+        hints: ['Des millions', 'Dizaine de millions', 'La réponse est : 10 millions']
       },
       {
         id: 'q10',
@@ -13289,7 +13289,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Versailles',
         explanation: 'Le traité de Versailles fut signé le 28 juin 1919.',
-        hints: ['Château français', 'Traité de...']
+        hints: ['Château français', 'Traité de...', 'La réponse est : Versailles']
       }
     ]
   },
@@ -13309,7 +13309,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '1939',
         explanation: 'Le 1er septembre 1939, l\'Allemagne envahit la Pologne.',
-        hints: ['Fin des années 30', '19..']
+        hints: ['Fin des années 30', '19..', 'La réponse est : 1939']
       },
       {
         id: 'q2',
@@ -13318,7 +13318,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le nazisme (totalitarisme)', 'La démocratie', 'La monarchie', 'L\'anarchie'],
         correctAnswer: 'Le nazisme (totalitarisme)',
         explanation: 'Hitler dirigeait un régime totalitaire nazi.',
-        hints: ['Hitler', 'Totalitaire']
+        hints: ['Hitler', 'Totalitaire', 'La réponse est : Le nazisme (totalitarisme)']
       },
       {
         id: 'q3',
@@ -13326,7 +13326,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Après la défaite de juin 1940, la France fut occupée.',
-        hints: ['Occupation', '4 ans']
+        hints: ['Occupation', '4 ans', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -13334,7 +13334,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Shoah',
         explanation: 'La Shoah (ou Holocauste) désigne le génocide des Juifs.',
-        hints: ['Génocide juif', 'Holocauste']
+        hints: ['Génocide juif', 'Holocauste', 'La réponse est : Shoah']
       },
       {
         id: 'q5',
@@ -13343,7 +13343,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6 juin 1944', '8 mai 1945', '11 novembre 1918', '1er septembre 1939'],
         correctAnswer: '6 juin 1944',
         explanation: 'Le D-Day, 6 juin 1944, marque le début de la libération.',
-        hints: ['D-Day', 'Juin 1944']
+        hints: ['D-Day', 'Juin 1944', 'La réponse est : 6 juin 1944']
       },
       {
         id: 'q6',
@@ -13351,7 +13351,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'de Gaulle',
         explanation: 'Le général de Gaulle a lancé l\'appel du 18 juin 1940.',
-        hints: ['Général français', 'Appel du 18 juin']
+        hints: ['Général français', 'Appel du 18 juin', 'La réponse est : de Gaulle']
       },
       {
         id: 'q7',
@@ -13359,7 +13359,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les USA ont largué des bombes atomiques en août 1945.',
-        hints: ['Japon', 'Août 1945']
+        hints: ['Japon', 'Août 1945', 'C\'est vrai']
       },
       {
         id: 'q8',
@@ -13368,7 +13368,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['8 mai 1945', '6 juin 1944', '11 novembre 1918', '2 septembre 1945'],
         correctAnswer: '8 mai 1945',
         explanation: 'Le 8 mai 1945 marque la capitulation de l\'Allemagne.',
-        hints: ['Mai 1945', 'Victoire en Europe']
+        hints: ['Mai 1945', 'Victoire en Europe', 'La réponse est : 8 mai 1945']
       },
       {
         id: 'q9',
@@ -13377,7 +13377,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['60 millions', '10 millions', '100 millions', '5 millions'],
         correctAnswer: '60 millions',
         explanation: 'Environ 60 millions de morts, dont beaucoup de civils.',
-        hints: ['Beaucoup plus que la 1ère', 'Dizaines de millions']
+        hints: ['Beaucoup plus que la 1ère', 'Dizaines de millions', 'La réponse est : 60 millions']
       },
       {
         id: 'q10',
@@ -13385,7 +13385,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Vichy',
         explanation: 'Le régime de Vichy (1940-1944) dirigé par Pétain a collaboré.',
-        hints: ['Pétain', 'État français']
+        hints: ['Pétain', 'État français', 'La réponse est : Vichy']
       }
     ]
   },
@@ -13405,7 +13405,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '27',
         explanation: 'Après le départ du Royaume-Uni, l\'UE compte 27 membres.',
-        hints: ['Moins de 30', 'Après le Brexit']
+        hints: ['Moins de 30', 'Après le Brexit', 'La réponse est : 27']
       },
       {
         id: 'q2',
@@ -13414,7 +13414,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1957', '1992', '2007', '1945'],
         correctAnswer: '1957',
         explanation: 'Le traité de Rome (1957) a créé la CEE à 6 pays.',
-        hints: ['Années 50', 'Début de la construction']
+        hints: ['Années 50', 'Début de la construction', 'La réponse est : 1957']
       },
       {
         id: 'q3',
@@ -13423,7 +13423,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg', 'France, UK, Espagne, Portugal, Italie, Grèce', 'Allemagne, Pologne, Tchéquie, Autriche, Suisse, France', 'France, UK, USA, Canada, Belgique, Pays-Bas'],
         correctAnswer: 'France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg',
         explanation: 'Les 6 fondateurs en 1957 : France, RFA, Italie, Benelux.',
-        hints: ['Benelux inclus', 'Pas le UK']
+        hints: ['Benelux inclus', 'Pas le UK', 'La réponse est : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg']
       },
       {
         id: 'q4',
@@ -13431,7 +13431,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'euro',
         explanation: 'L\'euro est la monnaie unique depuis 2002 (en circulation).',
-        hints: ['€', 'Monnaie unique']
+        hints: ['€', 'Monnaie unique', 'La réponse est : euro']
       },
       {
         id: 'q5',
@@ -13439,7 +13439,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Certains pays gardent leur monnaie (Pologne, Suède...).',
-        hints: ['Exceptions', 'Zone euro ≠ UE']
+        hints: ['Exceptions', 'Zone euro ≠ UE', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -13448,7 +13448,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Strasbourg (et Bruxelles)', 'Paris', 'Berlin', 'Rome'],
         correctAnswer: 'Strasbourg (et Bruxelles)',
         explanation: 'Le Parlement siège à Strasbourg et travaille aussi à Bruxelles.',
-        hints: ['France', 'Alsace']
+        hints: ['France', 'Alsace', 'La réponse est : Strasbourg (et Bruxelles)']
       },
       {
         id: 'q7',
@@ -13456,7 +13456,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Schengen',
         explanation: 'L\'espace Schengen permet de circuler sans contrôle aux frontières.',
-        hints: ['Pas de frontières', 'Schengen']
+        hints: ['Pas de frontières', 'Schengen', 'La réponse est : Schengen']
       },
       {
         id: 'q8',
@@ -13464,7 +13464,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Brexit = Britain + Exit. Effectif le 31 janvier 2020.',
-        hints: ['Britain + Exit', 'Sortie UK']
+        hints: ['Britain + Exit', 'Sortie UK', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -13473,7 +13473,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Commission européenne', 'Le Parlement européen', 'Le Conseil de l\'Europe', 'La Cour de justice'],
         correctAnswer: 'La Commission européenne',
         explanation: 'La Commission propose les lois, le Parlement et le Conseil les votent.',
-        hints: ['Initiative législative', 'Commission']
+        hints: ['Initiative législative', 'Commission', 'La réponse est : La Commission européenne']
       },
       {
         id: 'q10',
@@ -13481,7 +13481,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '12',
         explanation: '12 étoiles symbolisent l\'unité (pas le nombre de pays).',
-        hints: ['Cercle d\'étoiles', 'Symbolique']
+        hints: ['Cercle d\'étoiles', 'Symbolique', 'La réponse est : 12']
       }
     ]
   },
@@ -13504,7 +13504,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Had + participe passé', 'Have + participe passé', 'Was/Were + -ing', 'Did + base verbale'],
         correctAnswer: 'Had + participe passé',
         explanation: 'Past Perfect = HAD + participe passé (pour tous les sujets).',
-        hints: ['Had pour tous', 'Comme le Present Perfect mais au passé']
+        hints: ['Had pour tous', 'Comme le Present Perfect mais au passé', 'La réponse est : Had + participe passé']
       },
       {
         id: 'q2',
@@ -13512,7 +13512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'had already left',
         explanation: '"Had already left" = elle était déjà partie (action antérieure).',
-        hints: ['Action avant "arrived"', 'Had + left']
+        hints: ['Action avant "arrived"', 'Had + left', 'La réponse est : had already left']
       },
       {
         id: 'q3',
@@ -13521,7 +13521,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Antérieure à une autre action passée', 'Future', 'Présente', 'Habituelle'],
         correctAnswer: 'Antérieure à une autre action passée',
         explanation: 'Le Past Perfect = "passé du passé", avant une autre action passée.',
-        hints: ['Avant quelque chose', 'Passé du passé']
+        hints: ['Avant quelque chose', 'Passé du passé', 'La réponse est : Antérieure à une autre action passée']
       },
       {
         id: 'q4',
@@ -13529,7 +13529,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! I/You/He/She/It/We/They HAD + participe passé.',
-        hints: ['Invariable', 'Toujours had']
+        hints: ['Invariable', 'Toujours had', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -13537,7 +13537,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'had started',
         explanation: 'Le film avait commencé AVANT notre arrivée.',
-        hints: ['Action antérieure', 'Had started']
+        hints: ['Action antérieure', 'Had started', 'La réponse est : had started']
       },
       {
         id: 'q6',
@@ -13546,7 +13546,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['I had never seen such a thing before.', 'I never had seen such a thing before.', 'I had seen never such a thing before.', 'I have had never seen such a thing.'],
         correctAnswer: 'I had never seen such a thing before.',
         explanation: 'HAD + adverbe + participe passé (had never seen).',
-        hints: ['Had + never + seen', 'Ordre correct']
+        hints: ['Had + never + seen', 'Ordre correct', 'La réponse est : I had never seen such a thing before.']
       },
       {
         id: 'q7',
@@ -13554,7 +13554,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'had not eaten',
         explanation: 'Forme négative : had not (hadn\'t) + participe passé.',
-        hints: ['Had + not', 'Hadn\'t eaten']
+        hints: ['Had + not', 'Hadn\'t eaten', 'La réponse est : had not eaten']
       },
       {
         id: 'q8',
@@ -13562,7 +13562,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! After/before/when/by the time + Past Perfect.',
-        hints: ['Marqueurs temporels', 'After, before...']
+        hints: ['Marqueurs temporels', 'After, before...', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -13570,7 +13570,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'had not finished',
         explanation: 'Hadn\'t finished = ils n\'avaient pas fini (avant l\'arrivée de maman).',
-        hints: ['Négatif', 'Had not + finished']
+        hints: ['Négatif', 'Had not + finished', 'La réponse est : had not finished']
       },
       {
         id: 'q10',
@@ -13579,7 +13579,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Had + sujet + participe passé ?', 'Did + sujet + had + participe passé ?', 'Have + sujet + had ?', 'Was + sujet + had ?'],
         correctAnswer: 'Had + sujet + participe passé ?',
         explanation: 'Question : Had you eaten? Had she finished?',
-        hints: ['Had en premier', 'Had + sujet + PP']
+        hints: ['Had en premier', 'Had + sujet + PP', 'La réponse est : Had + sujet + participe passé ?']
       }
     ]
   },
@@ -13600,7 +13600,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['If + present, will + base verbale', 'If + past, would + base verbale', 'If + past perfect, would have + PP', 'If + will, present'],
         correctAnswer: 'If + present, will + base verbale',
         explanation: 'Type 1 : If it rains, I will stay home. (situation probable)',
-        hints: ['Réel, probable', 'Present + will']
+        hints: ['Réel, probable', 'Present + will', 'La réponse est : If + present, will + base verbale']
       },
       {
         id: 'q2',
@@ -13608,7 +13608,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'were',
         explanation: 'Type 2 (irréel présent) : If I were you... (même avec I/he/she).',
-        hints: ['Irréel', 'Were pour tous']
+        hints: ['Irréel', 'Were pour tous', 'La réponse est : were']
       },
       {
         id: 'q3',
@@ -13617,7 +13617,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une situation hypothétique présente/future', 'Un fait certain', 'Une action passée', 'Un ordre'],
         correctAnswer: 'Une situation hypothétique présente/future',
         explanation: 'Type 2 = hypothèse irréelle : If I won the lottery, I would travel.',
-        hints: ['Imaginaire', 'Hypothétique']
+        hints: ['Imaginaire', 'Hypothétique', 'La réponse est : Une situation hypothétique présente/future']
       },
       {
         id: 'q4',
@@ -13625,7 +13625,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'will pass',
         explanation: 'Type 1 (réel) : If + present, WILL + verbe.',
-        hints: ['Probable', 'Will + verbe']
+        hints: ['Probable', 'Will + verbe', 'La réponse est : will pass']
       },
       {
         id: 'q5',
@@ -13633,7 +13633,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! If + past, WOULD + base verbale.',
-        hints: ['Would dans la principale', 'If... would...']
+        hints: ['Would dans la principale', 'If... would...', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -13642,7 +13642,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['If you heat water, it boils.', 'If I won, I would buy a car.', 'If it rains, I will stay home.', 'If I had known, I would have come.'],
         correctAnswer: 'If you heat water, it boils.',
         explanation: 'Type 0 = vérité scientifique : If + present, present.',
-        hints: ['Fait scientifique', 'Toujours vrai']
+        hints: ['Fait scientifique', 'Toujours vrai', 'La réponse est : If you heat water, it boils.']
       },
       {
         id: 'q7',
@@ -13650,7 +13650,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'would have come',
         explanation: 'Type 3 (irréel passé) : would have + participe passé.',
-        hints: ['Regret du passé', 'Would have + PP']
+        hints: ['Regret du passé', 'Would have + PP', 'La réponse est : would have come']
       },
       {
         id: 'q8',
@@ -13659,7 +13659,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un regret sur le passé', 'Une certitude', 'Un fait présent', 'Un ordre'],
         correctAnswer: 'Un regret sur le passé',
         explanation: 'Type 3 = situation passée qui ne s\'est pas réalisée.',
-        hints: ['Passé irréel', 'Regret']
+        hints: ['Passé irréel', 'Regret', 'La réponse est : Un regret sur le passé']
       },
       {
         id: 'q9',
@@ -13667,7 +13667,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Jamais de "will" après "if" (sauf cas très rares).',
-        hints: ['Règle importante', 'Pas de will après if']
+        hints: ['Règle importante', 'Pas de will après if', 'C\'est faux']
       },
       {
         id: 'q10',
@@ -13675,7 +13675,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'had',
         explanation: 'Type 2 : If + PAST (had), would + verbe.',
-        hints: ['Hypothétique présent', 'Past simple']
+        hints: ['Hypothétique présent', 'Past simple', 'La réponse est : had']
       }
     ]
   },
@@ -13696,7 +13696,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Past Simple', 'Present Perfect', 'Future', 'Present Continuous'],
         correctAnswer: 'Past Simple',
         explanation: '"I like" → He said he liked (recul d\'un temps).',
-        hints: ['Recul d\'un cran', 'Present → Past']
+        hints: ['Recul d\'un cran', 'Present → Past', 'La réponse est : Past Simple']
       },
       {
         id: 'q2',
@@ -13704,7 +13704,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'He said he was tired',
         explanation: '"I am" devient "he was" (changement de pronom et de temps).',
-        hints: ['I → he, am → was', 'Recul du temps']
+        hints: ['I → he, am → was', 'Recul du temps', 'La réponse est : He said he was tired']
       },
       {
         id: 'q3',
@@ -13712,7 +13712,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'would',
         explanation: '"I will come" → She said she would come.',
-        hints: ['Will → Would', 'Futur → Conditionnel']
+        hints: ['Will → Would', 'Futur → Conditionnel', 'La réponse est : would']
       },
       {
         id: 'q4',
@@ -13720,7 +13720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! today → that day, tomorrow → the next day, etc.',
-        hints: ['Changement des marqueurs', 'That day']
+        hints: ['Changement des marqueurs', 'That day', 'C\'est vrai']
       },
       {
         id: 'q5',
@@ -13729,7 +13729,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['She said she could swim.', 'She said she can swim.', 'She said she swam.', 'She said she will swim.'],
         correctAnswer: 'She said she could swim.',
         explanation: 'Can → could en discours rapporté.',
-        hints: ['Can → could', 'Recul du modal']
+        hints: ['Can → could', 'Recul du modal', 'La réponse est : She said she could swim.']
       },
       {
         id: 'q6',
@@ -13737,7 +13737,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'there',
         explanation: 'here → there, this → that, these → those.',
-        hints: ['Ici → là-bas', 'There']
+        hints: ['Ici → là-bas', 'There', 'La réponse est : there']
       },
       {
         id: 'q7',
@@ -13746,7 +13746,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['If/whether ou mot interrogatif + ordre affirmatif', 'Point d\'interrogation', 'Do/does', 'Will you'],
         correctAnswer: 'If/whether ou mot interrogatif + ordre affirmatif',
         explanation: '"Are you happy?" → He asked if I was happy.',
-        hints: ['If/whether', 'Pas de point d\'interrogation']
+        hints: ['If/whether', 'Pas de point d\'interrogation', 'La réponse est : If/whether ou mot interrogatif + ordre affirmatif']
       },
       {
         id: 'q8',
@@ -13754,7 +13754,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'He asked where I lived',
         explanation: 'Question avec mot interrogatif : He asked where + ordre affirmatif.',
-        hints: ['Where + sujet + verbe', 'Pas d\'inversion']
+        hints: ['Where + sujet + verbe', 'Pas d\'inversion', 'La réponse est : He asked where I lived']
       },
       {
         id: 'q9',
@@ -13762,7 +13762,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Must peut rester must ou devenir had to.',
-        hints: ['Deux possibilités', 'Must ou had to']
+        hints: ['Deux possibilités', 'Must ou had to', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -13771,7 +13771,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Told + infinitif avec to', 'Said + that', 'Asked + if', 'Said + to'],
         correctAnswer: 'Told + infinitif avec to',
         explanation: '"Close the door!" → He told me to close the door.',
-        hints: ['Told + to + verbe', 'Infinitif']
+        hints: ['Told + to + verbe', 'Infinitif', 'La réponse est : Told + infinitif avec to']
       }
     ]
   },
@@ -13798,7 +13798,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hola', 'Adiós', 'Gracias', 'Por favor'],
         correctAnswer: 'Hola',
         explanation: '"Hola" signifie "Bonjour" ou "Salut" en espagnol.',
-        hints: ['Salutation très courante', 'Commence par H']
+        hints: ['Salutation très courante', 'Commence par H', 'La réponse est : Hola']
       },
       {
         id: 'q2',
@@ -13806,7 +13806,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Me llamo',
         explanation: '"Me llamo" = Je m\'appelle. Ex: Me llamo María.',
-        hints: ['Llamo vient de llamar', 'Me llamo']
+        hints: ['Llamo vient de llamar', 'Me llamo', 'La réponse est : Me llamo']
       },
       {
         id: 'q3',
@@ -13815,7 +13815,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comment t\'appelles-tu ?', 'Comment vas-tu ?', 'Où habites-tu ?', 'Quel âge as-tu ?'],
         correctAnswer: 'Comment t\'appelles-tu ?',
         explanation: '"¿Cómo te llamas?" = Comment t\'appelles-tu ?',
-        hints: ['Llamas = tu t\'appelles', 'Question sur le prénom']
+        hints: ['Llamas = tu t\'appelles', 'Question sur le prénom', 'La réponse est : Comment t\'appelles-tu ?']
       },
       {
         id: 'q4',
@@ -13823,7 +13823,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Adiós',
         explanation: '"Adiós" = Au revoir en espagnol.',
-        hints: ['Commence par A', 'Adiós']
+        hints: ['Commence par A', 'Adiós', 'La réponse est : Adiós']
       },
       {
         id: 'q5',
@@ -13831,7 +13831,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Buenos días" = Bonjour (le matin). "Buenas noches" = Bonne nuit.',
-        hints: ['Días = jours', 'C\'est le matin']
+        hints: ['Días = jours', 'C\'est le matin', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -13840,7 +13840,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Gracias', 'Por favor', 'De nada', 'Perdón'],
         correctAnswer: 'Gracias',
         explanation: '"Gracias" = Merci. "De nada" = De rien.',
-        hints: ['Très utilisé', 'Gracias']
+        hints: ['Très utilisé', 'Gracias', 'La réponse est : Gracias']
       },
       {
         id: 'q7',
@@ -13849,7 +13849,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'ai dix ans', 'J\'ai dix euros', 'Il est dix heures', 'J\'habite au numéro 10'],
         correctAnswer: 'J\'ai dix ans',
         explanation: '"Tengo diez años" = J\'ai dix ans. Años = ans.',
-        hints: ['Años = années/ans', 'Âge']
+        hints: ['Años = années/ans', 'Âge', 'La réponse est : J\'ai dix ans']
       },
       {
         id: 'q8',
@@ -13857,7 +13857,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Por favor',
         explanation: '"Por favor" = S\'il te plaît / S\'il vous plaît.',
-        hints: ['Formule de politesse', 'Por favor']
+        hints: ['Formule de politesse', 'Por favor', 'La réponse est : Por favor']
       },
       {
         id: 'q9',
@@ -13866,7 +13866,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'après-midi', 'Le matin', 'La nuit', 'À minuit'],
         correctAnswer: 'L\'après-midi',
         explanation: '"Buenas tardes" = Bonjour/Bonsoir (l\'après-midi).',
-        hints: ['Tardes = après-midi', 'Entre midi et le soir']
+        hints: ['Tardes = après-midi', 'Entre midi et le soir', 'La réponse est : L\'après-midi']
       },
       {
         id: 'q10',
@@ -13874,7 +13874,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Soy francés',
         explanation: '"Soy francés" (masculin) ou "Soy francesa" (féminin).',
-        hints: ['Soy = je suis', 'Soy francés/francesa']
+        hints: ['Soy = je suis', 'Soy francés/francesa', 'La réponse est : Soy francés']
       }
     ]
   },
@@ -13894,7 +13894,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'uno',
         explanation: '"Uno" = 1 en espagnol.',
-        hints: ['Comme en italien', 'Uno']
+        hints: ['Comme en italien', 'Uno', 'La réponse est : uno']
       },
       {
         id: 'q2',
@@ -13903,7 +13903,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '4', '6', '15'],
         correctAnswer: '5',
         explanation: '"Cinco" = 5 en espagnol.',
-        hints: ['Pense à "cinq"', 'Ressemble au français']
+        hints: ['Pense à "cinq"', 'Ressemble au français', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -13911,7 +13911,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'diez',
         explanation: '"Diez" = 10. Attention à la prononciation : "diéss".',
-        hints: ['Comme "dix"', 'Diez']
+        hints: ['Comme "dix"', 'Diez', 'La réponse est : diez']
       },
       {
         id: 'q4',
@@ -13920,7 +13920,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['15', '5', '50', '14'],
         correctAnswer: '15',
         explanation: '"Quince" = 15. Comme "quinze" en français !',
-        hints: ['Ressemble à quinze', '15']
+        hints: ['Ressemble à quinze', '15', 'La réponse est : 15']
       },
       {
         id: 'q5',
@@ -13928,7 +13928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'veinte',
         explanation: '"Veinte" = 20 en espagnol.',
-        hints: ['Commence par V', 'Veinte']
+        hints: ['Commence par V', 'Veinte', 'La réponse est : veinte']
       },
       {
         id: 'q6',
@@ -13936,7 +13936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Siete" = 7. "Seis" = 6.',
-        hints: ['Siete ressemble à sept', 'C\'est 7']
+        hints: ['Siete ressemble à sept', 'C\'est 7', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -13945,7 +13945,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Doce', 'Dos', 'Diez', 'Dieciséis'],
         correctAnswer: 'Doce',
         explanation: '"Doce" = 12. "Dos" = 2.',
-        hints: ['Comme "douze"', 'Doce']
+        hints: ['Comme "douze"', 'Doce', 'La réponse est : Doce']
       },
       {
         id: 'q8',
@@ -13953,7 +13953,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '8',
         explanation: '"Ocho" = 8 en espagnol.',
-        hints: ['Ressemble à "huit" en italien', '8']
+        hints: ['Ressemble à "huit" en italien', '8', 'La réponse est : 8']
       },
       {
         id: 'q9',
@@ -13962,7 +13962,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tres', 'Trece', 'Treinta', 'Cuatro'],
         correctAnswer: 'Tres',
         explanation: '"Tres" = 3. "Trece" = 13.',
-        hints: ['Comme "trois"', 'Tres']
+        hints: ['Comme "trois"', 'Tres', 'La réponse est : Tres']
       },
       {
         id: 'q10',
@@ -13970,7 +13970,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '17',
         explanation: '"Diecisiete" = 17 (diez + siete = 10 + 7).',
-        hints: ['Diez + siete', '10 + 7']
+        hints: ['Diez + siete', '10 + 7', 'La réponse est : 17']
       }
     ]
   },
@@ -13990,7 +13990,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'rojo',
         explanation: '"Rojo" = rouge en espagnol.',
-        hints: ['Commence par R', 'Rojo']
+        hints: ['Commence par R', 'Rojo', 'La réponse est : rojo']
       },
       {
         id: 'q2',
@@ -13999,7 +13999,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bleu', 'Vert', 'Jaune', 'Blanc'],
         correctAnswer: 'Bleu',
         explanation: '"Azul" = bleu. Comme "azur" en français !',
-        hints: ['Pense à azur', 'Bleu']
+        hints: ['Pense à azur', 'Bleu', 'La réponse est : Bleu']
       },
       {
         id: 'q3',
@@ -14007,7 +14007,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'blanco',
         explanation: '"Blanco" = blanc en espagnol.',
-        hints: ['Ressemble à "blanc"', 'Blanco']
+        hints: ['Ressemble à "blanc"', 'Blanco', 'La réponse est : blanco']
       },
       {
         id: 'q4',
@@ -14016,7 +14016,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Noir', 'Gris', 'Marron', 'Bleu foncé'],
         correctAnswer: 'Noir',
         explanation: '"Negro" = noir en espagnol.',
-        hints: ['Couleur sombre', 'Noir']
+        hints: ['Couleur sombre', 'Noir', 'La réponse est : Noir']
       },
       {
         id: 'q5',
@@ -14024,7 +14024,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'verde',
         explanation: '"Verde" = vert. Comme dans "Cap-Vert" !',
-        hints: ['Couleur de la nature', 'Verde']
+        hints: ['Couleur de la nature', 'Verde', 'La réponse est : verde']
       },
       {
         id: 'q6',
@@ -14032,7 +14032,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Amarillo" = jaune. "Naranja" = orange.',
-        hints: ['Amarillo = couleur du soleil', 'Jaune']
+        hints: ['Amarillo = couleur du soleil', 'Jaune', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -14041,7 +14041,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rosa', 'Rojo', 'Morado', 'Naranja'],
         correctAnswer: 'Rosa',
         explanation: '"Rosa" = rose en espagnol.',
-        hints: ['Comme la fleur', 'Rosa']
+        hints: ['Comme la fleur', 'Rosa', 'La réponse est : Rosa']
       },
       {
         id: 'q8',
@@ -14049,7 +14049,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'gris',
         explanation: '"Gris" = gris. C\'est le même mot !',
-        hints: ['Identique au français', 'Gris']
+        hints: ['Identique au français', 'Gris', 'La réponse est : gris']
       },
       {
         id: 'q9',
@@ -14058,7 +14058,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Marrón', 'Negro', 'Naranja', 'Rojo'],
         correctAnswer: 'Marrón',
         explanation: '"Marrón" = marron en espagnol.',
-        hints: ['Très proche du français', 'Marrón']
+        hints: ['Très proche du français', 'Marrón', 'La réponse est : Marrón']
       },
       {
         id: 'q10',
@@ -14067,7 +14067,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Violet', 'Marron', 'Doré', 'Argenté'],
         correctAnswer: 'Violet',
         explanation: '"Morado" = violet en espagnol.',
-        hints: ['Couleur de l\'aubergine', 'Violet']
+        hints: ['Couleur de l\'aubergine', 'Violet', 'La réponse est : Violet']
       }
     ]
   },
@@ -14090,7 +14090,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-AR, -ER, -IR', '-ER, -IR, -RE', '-AR, -OR, -IR', '-AR, -ER, -UR'],
         correctAnswer: '-AR, -ER, -IR',
         explanation: 'Les 3 groupes : hablar (-AR), comer (-ER), vivir (-IR).',
-        hints: ['Trois terminaisons', '-AR, -ER, -IR']
+        hints: ['Trois terminaisons', '-AR, -ER, -IR', 'La réponse est : -AR, -ER, -IR']
       },
       {
         id: 'q2',
@@ -14098,7 +14098,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hablo',
         explanation: 'Yo hablo = Je parle. On enlève -AR et on ajoute -O.',
-        hints: ['Yo...', 'Hablo']
+        hints: ['Yo...', 'Hablo', 'La réponse est : hablo']
       },
       {
         id: 'q3',
@@ -14107,7 +14107,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il mange', 'Il court', 'Il dort', 'Il parle'],
         correctAnswer: 'Il mange',
         explanation: 'Comer = manger. Él come = Il mange.',
-        hints: ['Comer = manger', 'Il mange']
+        hints: ['Comer = manger', 'Il mange', 'La réponse est : Il mange']
       },
       {
         id: 'q4',
@@ -14115,7 +14115,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vives',
         explanation: 'Tú vives = Tu vis. Terminaison -ES pour les verbes en -IR.',
-        hints: ['Tú...', 'Vives']
+        hints: ['Tú...', 'Vives', 'La réponse est : vives']
       },
       {
         id: 'q5',
@@ -14124,7 +14124,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-amos', '-emos', '-imos', '-an'],
         correctAnswer: '-amos',
         explanation: 'Nosotros hablamos = Nous parlons. -AMOS pour les -AR.',
-        hints: ['Nous...', '-amos']
+        hints: ['Nous...', '-amos', 'La réponse est : -amos']
       },
       {
         id: 'q6',
@@ -14132,7 +14132,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ellos/Ellas hablan = Ils/Elles parlent.',
-        hints: ['Ellos = ils', 'Hablan = parlent']
+        hints: ['Ellos = ils', 'Hablan = parlent', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -14140,7 +14140,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comen',
         explanation: 'Ellos comen = Ils mangent. Terminaison -EN pour les -ER.',
-        hints: ['Ellos...', 'Comen']
+        hints: ['Ellos...', 'Comen', 'La réponse est : comen']
       },
       {
         id: 'q8',
@@ -14149,7 +14149,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vous chantez', 'Ils chantent', 'Nous chantons', 'Tu chantes'],
         correctAnswer: 'Vous chantez',
         explanation: 'Vosotros = vous (pluriel familier en Espagne).',
-        hints: ['Vosotros = vous', 'Vous chantez']
+        hints: ['Vosotros = vous', 'Vous chantez', 'La réponse est : Vous chantez']
       },
       {
         id: 'q9',
@@ -14157,7 +14157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'escribo',
         explanation: 'Yo escribo = J\'écris. -O pour la 1ère personne.',
-        hints: ['J\'écris', 'Escribo']
+        hints: ['J\'écris', 'Escribo', 'La réponse est : escribo']
       },
       {
         id: 'q10',
@@ -14166,7 +14166,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-es', '-as', '-is', '-e'],
         correctAnswer: '-es',
         explanation: 'Tú comes = Tu manges. -ES pour tú avec les verbes en -ER.',
-        hints: ['Même que -IR', '-es']
+        hints: ['Même que -IR', '-es', 'La réponse est : -es']
       }
     ]
   },
@@ -14186,7 +14186,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'madre',
         explanation: '"Madre" = mère. "Mamá" = maman.',
-        hints: ['Comme en français', 'Madre']
+        hints: ['Comme en français', 'Madre', 'La réponse est : madre']
       },
       {
         id: 'q2',
@@ -14195,7 +14195,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Frère', 'Sœur', 'Cousin', 'Oncle'],
         correctAnswer: 'Frère',
         explanation: '"Hermano" = frère. "Hermana" = sœur.',
-        hints: ['Masculin', 'Frère']
+        hints: ['Masculin', 'Frère', 'La réponse est : Frère']
       },
       {
         id: 'q3',
@@ -14203,7 +14203,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'abuelos',
         explanation: '"Abuelos" = grands-parents. "Abuelo" = grand-père, "abuela" = grand-mère.',
-        hints: ['Abuelo + abuela', 'Abuelos']
+        hints: ['Abuelo + abuela', 'Abuelos', 'La réponse est : abuelos']
       },
       {
         id: 'q4',
@@ -14212,7 +14212,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La cuisine', 'La chambre', 'Le salon', 'La salle de bain'],
         correctAnswer: 'La cuisine',
         explanation: '"La cocina" = la cuisine.',
-        hints: ['Où on cuisine', 'Cocina']
+        hints: ['Où on cuisine', 'Cocina', 'La réponse est : La cuisine']
       },
       {
         id: 'q5',
@@ -14220,7 +14220,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'habitación',
         explanation: '"Habitación" ou "dormitorio" = chambre.',
-        hints: ['Pour dormir', 'Habitación']
+        hints: ['Pour dormir', 'Habitación', 'La réponse est : habitación']
       },
       {
         id: 'q6',
@@ -14228,7 +14228,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Tío" = oncle. "Primo" = cousin.',
-        hints: ['Tío = le frère du père/mère', 'Oncle']
+        hints: ['Tío = le frère du père/mère', 'Oncle', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -14237,7 +14237,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La salle de bain', 'La chambre', 'Le salon', 'La cuisine'],
         correctAnswer: 'La salle de bain',
         explanation: '"El cuarto de baño" = la salle de bain.',
-        hints: ['Baño = bain', 'Salle de bain']
+        hints: ['Baño = bain', 'Salle de bain', 'La réponse est : La salle de bain']
       },
       {
         id: 'q8',
@@ -14245,7 +14245,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'salón',
         explanation: '"El salón" ou "la sala de estar" = le salon.',
-        hints: ['Comme en français', 'Salón']
+        hints: ['Comme en français', 'Salón', 'La réponse est : salón']
       },
       {
         id: 'q9',
@@ -14254,7 +14254,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les parents', 'Les pères', 'Les frères', 'Les fils'],
         correctAnswer: 'Les parents',
         explanation: '"Los padres" = les parents (père et mère).',
-        hints: ['Padre + madre', 'Les parents']
+        hints: ['Padre + madre', 'Les parents', 'La réponse est : Les parents']
       },
       {
         id: 'q10',
@@ -14262,7 +14262,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'jardín',
         explanation: '"El jardín" = le jardin.',
-        hints: ['Presque identique', 'Jardín']
+        hints: ['Presque identique', 'Jardín', 'La réponse est : jardín']
       }
     ]
   },
@@ -14283,7 +14283,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une caractéristique permanente', 'Un état temporaire', 'Une localisation', 'Une action'],
         correctAnswer: 'Une caractéristique permanente',
         explanation: 'SER = caractéristiques permanentes (nationalité, profession, caractère...).',
-        hints: ['Permanent', 'Identité']
+        hints: ['Permanent', 'Identité', 'La réponse est : Une caractéristique permanente']
       },
       {
         id: 'q2',
@@ -14291,7 +14291,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'soy',
         explanation: 'Yo soy = Je suis (caractéristique permanente).',
-        hints: ['Je suis', 'Soy']
+        hints: ['Je suis', 'Soy', 'La réponse est : soy']
       },
       {
         id: 'q3',
@@ -14300,7 +14300,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un état temporaire ou une localisation', 'La nationalité', 'La profession', 'L\'heure'],
         correctAnswer: 'Un état temporaire ou une localisation',
         explanation: 'ESTAR = état temporaire (humeur, santé) ou localisation.',
-        hints: ['Temporaire', 'Où on est']
+        hints: ['Temporaire', 'Où on est', 'La réponse est : Un état temporaire ou une localisation']
       },
       {
         id: 'q4',
@@ -14308,7 +14308,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'estás',
         explanation: 'Tú estás = Tu es (état ou position).',
-        hints: ['Tu es', 'Estás']
+        hints: ['Tu es', 'Estás', 'La réponse est : estás']
       },
       {
         id: 'q5',
@@ -14317,7 +14317,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['C\'est une profession (permanent)', 'Elle est fatiguée', 'Elle est à l\'école', 'Elle mange'],
         correctAnswer: 'C\'est une profession (permanent)',
         explanation: 'La profession est une caractéristique stable → SER.',
-        hints: ['Profession', 'Permanent']
+        hints: ['Profession', 'Permanent', 'La réponse est : C\'est une profession (permanent)']
       },
       {
         id: 'q6',
@@ -14325,7 +14325,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! État temporaire → ESTAR. Estoy cansado = Je suis fatigué.',
-        hints: ['Fatigue = temporaire', 'ESTAR']
+        hints: ['Fatigue = temporaire', 'ESTAR', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -14333,7 +14333,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'somos',
         explanation: 'Nosotros somos = Nous sommes.',
-        hints: ['Nous sommes', 'Somos']
+        hints: ['Nous sommes', 'Somos', 'La réponse est : somos']
       },
       {
         id: 'q8',
@@ -14342,7 +14342,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['C\'est une localisation', 'C\'est une profession', 'C\'est une nationalité', 'C\'est une caractéristique'],
         correctAnswer: 'C\'est une localisation',
         explanation: 'Position/localisation → toujours ESTAR.',
-        hints: ['Où est le livre ?', 'Localisation']
+        hints: ['Où est le livre ?', 'Localisation', 'La réponse est : C\'est une localisation']
       },
       {
         id: 'q9',
@@ -14350,7 +14350,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'están',
         explanation: 'Ellos están = Ils sont (état ou position).',
-        hints: ['Ils sont', 'Están']
+        hints: ['Ils sont', 'Están', 'La réponse est : están']
       },
       {
         id: 'q10',
@@ -14358,7 +14358,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'es',
         explanation: 'Mon père EST médecin → profession → SER → es.',
-        hints: ['Profession', 'SER → es']
+        hints: ['Profession', 'SER → es', 'La réponse est : es']
       }
     ]
   },
@@ -14381,7 +14381,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une action passée terminée', 'Une action habituelle', 'Une action future', 'Une description'],
         correctAnswer: 'Une action passée terminée',
         explanation: 'Le pretérito indefinido = action passée, achevée, datée.',
-        hints: ['Passé', 'Action terminée']
+        hints: ['Passé', 'Action terminée', 'La réponse est : Une action passée terminée']
       },
       {
         id: 'q2',
@@ -14389,7 +14389,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hablé',
         explanation: 'Yo hablé = Je parlai / J\'ai parlé.',
-        hints: ['Accent sur le -é', 'Hablé']
+        hints: ['Accent sur le -é', 'Hablé', 'La réponse est : hablé']
       },
       {
         id: 'q3',
@@ -14398,7 +14398,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-ó', '-ió', '-é', '-aba'],
         correctAnswer: '-ó',
         explanation: 'Él habló = Il parla. Terminaison -Ó pour él/ella/usted.',
-        hints: ['Accent', '-ó']
+        hints: ['Accent', '-ó', 'La réponse est : -ó']
       },
       {
         id: 'q4',
@@ -14406,7 +14406,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comiste',
         explanation: 'Tú comiste = Tu mangeas / Tu as mangé.',
-        hints: ['-iste', 'Comiste']
+        hints: ['-iste', 'Comiste', 'La réponse est : comiste']
       },
       {
         id: 'q5',
@@ -14414,7 +14414,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ellos vivieron = Ils vécurent / Ils ont vécu.',
-        hints: ['-ieron', 'Ils vécurent']
+        hints: ['-ieron', 'Ils vécurent', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -14422,7 +14422,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'estudiamos',
         explanation: 'Nosotros estudiamos = Nous étudiâmes. (Même forme qu\'au présent !)',
-        hints: ['-amos', 'Estudiamos']
+        hints: ['-amos', 'Estudiamos', 'La réponse est : estudiamos']
       },
       {
         id: 'q7',
@@ -14431,7 +14431,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hier j\'ai mangé de la paella', 'Demain je mangerai de la paella', 'Je mange de la paella', 'Je mangeais de la paella'],
         correctAnswer: 'Hier j\'ai mangé de la paella',
         explanation: 'Ayer = hier. Comí = j\'ai mangé (passé simple).',
-        hints: ['Ayer = hier', 'Passé']
+        hints: ['Ayer = hier', 'Passé', 'La réponse est : Hier j\'ai mangé de la paella']
       },
       {
         id: 'q8',
@@ -14439,7 +14439,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'escribió',
         explanation: 'Ella escribió = Elle écrivit.',
-        hints: ['-ió', 'Escribió']
+        hints: ['-ió', 'Escribió', 'La réponse est : escribió']
       },
       {
         id: 'q9',
@@ -14448,7 +14448,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-isteis', '-asteis', '-ieron', '-imos'],
         correctAnswer: '-isteis',
         explanation: 'Vosotros comisteis = Vous mangeâtes.',
-        hints: ['-isteis', 'Vosotros']
+        hints: ['-isteis', 'Vosotros', 'La réponse est : -isteis']
       },
       {
         id: 'q10',
@@ -14456,7 +14456,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'bailaron',
         explanation: 'Ellos bailaron = Ils dansèrent.',
-        hints: ['-aron', 'Bailaron']
+        hints: ['-aron', 'Bailaron', 'La réponse est : bailaron']
       }
     ]
   },
@@ -14476,7 +14476,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'voy',
         explanation: 'Yo voy = Je vais. IR est très irrégulier.',
-        hints: ['Complètement irrégulier', 'Voy']
+        hints: ['Complètement irrégulier', 'Voy', 'La réponse est : voy']
       },
       {
         id: 'q2',
@@ -14484,7 +14484,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'tiene',
         explanation: 'Él tiene = Il a. Changement E → IE.',
-        hints: ['E devient IE', 'Tiene']
+        hints: ['E devient IE', 'Tiene', 'La réponse est : tiene']
       },
       {
         id: 'q3',
@@ -14492,7 +14492,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Yo hago = Je fais.',
-        hints: ['Hacer → hago', 'Je fais']
+        hints: ['Hacer → hago', 'Je fais', 'C\'est vrai']
       },
       {
         id: 'q4',
@@ -14500,7 +14500,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'podemos',
         explanation: 'Nosotros podemos = Nous pouvons.',
-        hints: ['O → UE sauf nous/vous', 'Podemos']
+        hints: ['O → UE sauf nous/vous', 'Podemos', 'La réponse est : podemos']
       },
       {
         id: 'q5',
@@ -14509,7 +14509,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Querer (vouloir)', 'Quedar (rester)', 'Quemar (brûler)', 'Quitar (enlever)'],
         correctAnswer: 'Querer (vouloir)',
         explanation: 'Yo quiero = Je veux. Querer = vouloir.',
-        hints: ['E → IE', 'Vouloir']
+        hints: ['E → IE', 'Vouloir', 'La réponse est : Querer (vouloir)']
       },
       {
         id: 'q6',
@@ -14517,7 +14517,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vienes',
         explanation: 'Tú vienes = Tu viens. E → IE.',
-        hints: ['E → IE', 'Vienes']
+        hints: ['E → IE', 'Vienes', 'La réponse est : vienes']
       },
       {
         id: 'q7',
@@ -14526,7 +14526,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Saber et ser', 'Ser et ser', 'Saber et saber', 'Salir et ser'],
         correctAnswer: 'Saber et ser',
         explanation: 'Yo sé = Je sais (saber). Yo soy = Je suis (ser).',
-        hints: ['Deux verbes différents', 'Savoir et être']
+        hints: ['Deux verbes différents', 'Savoir et être', 'La réponse est : Saber et ser']
       },
       {
         id: 'q8',
@@ -14534,7 +14534,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'digo',
         explanation: 'Yo digo = Je dis. Très irrégulier.',
-        hints: ['G apparaît', 'Digo']
+        hints: ['G apparaît', 'Digo', 'La réponse est : digo']
       },
       {
         id: 'q9',
@@ -14543,7 +14543,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils peuvent', 'Ils veulent', 'Ils viennent', 'Ils savent'],
         correctAnswer: 'Ils peuvent',
         explanation: 'Ellos pueden = Ils peuvent (poder).',
-        hints: ['Poder', 'Peuvent']
+        hints: ['Poder', 'Peuvent', 'La réponse est : Ils peuvent']
       },
       {
         id: 'q10',
@@ -14551,7 +14551,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'salgo',
         explanation: 'Yo salgo = Je sors. G à la 1ère personne.',
-        hints: ['-GO à la 1ère personne', 'Salgo']
+        hints: ['-GO à la 1ère personne', 'Salgo', 'La réponse est : salgo']
       }
     ]
   },
@@ -14572,7 +14572,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lo', 'Le', 'La', 'Los'],
         correctAnswer: 'Lo',
         explanation: 'Lo = le (COD masculin singulier). Lo veo = Je le vois.',
-        hints: ['Masculin', 'Lo']
+        hints: ['Masculin', 'Lo', 'La réponse est : Lo']
       },
       {
         id: 'q2',
@@ -14580,7 +14580,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'La veo',
         explanation: 'La = la (COD féminin). La veo = Je la vois.',
-        hints: ['La + verbe', 'La veo']
+        hints: ['La + verbe', 'La veo', 'La réponse est : La veo']
       },
       {
         id: 'q3',
@@ -14589,7 +14589,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avant le verbe conjugué', 'Après le verbe', 'Entre les deux verbes', 'En fin de phrase'],
         correctAnswer: 'Avant le verbe conjugué',
         explanation: 'Le pronom se place AVANT le verbe conjugué. Lo como = Je le mange.',
-        hints: ['Avant', 'Devant le verbe']
+        hints: ['Avant', 'Devant le verbe', 'La réponse est : Avant le verbe conjugué']
       },
       {
         id: 'q4',
@@ -14597,7 +14597,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'los',
         explanation: 'Los = les (masculin pluriel). Las = les (féminin pluriel).',
-        hints: ['Pluriel de "lo"', 'Los']
+        hints: ['Pluriel de "lo"', 'Los', 'La réponse est : los']
       },
       {
         id: 'q5',
@@ -14606,7 +14606,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le', 'Lo', 'La', 'Se'],
         correctAnswer: 'Le',
         explanation: 'Le = lui (COI). Le doy el libro = Je lui donne le livre.',
-        hints: ['COI', 'Le']
+        hints: ['COI', 'Le', 'La réponse est : Le']
       },
       {
         id: 'q6',
@@ -14614,7 +14614,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! "Quiero verlo" ou "Lo quiero ver" = Je veux le voir.',
-        hints: ['Deux positions possibles', 'Attaché ou devant']
+        hints: ['Deux positions possibles', 'Attaché ou devant', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -14622,7 +14622,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Les hablo',
         explanation: 'Les = leur (COI pluriel). Les hablo = Je leur parle.',
-        hints: ['Les + verbe', 'Les hablo']
+        hints: ['Les + verbe', 'Les hablo', 'La réponse est : Les hablo']
       },
       {
         id: 'q8',
@@ -14631,7 +14631,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Me (COD et COI)', 'Toi', 'Lui', 'Nous'],
         correctAnswer: 'Me (COD et COI)',
         explanation: 'Me = me/moi. Me llama = Il m\'appelle. Me da = Il me donne.',
-        hints: ['1ère personne', 'Me']
+        hints: ['1ère personne', 'Me', 'La réponse est : Me (COD et COI)']
       },
       {
         id: 'q9',
@@ -14639,7 +14639,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'se',
         explanation: 'Le/les + lo/la/los/las → SE lo/la... Ex: Se lo doy = Je le lui donne.',
-        hints: ['Transformation', 'Se']
+        hints: ['Transformation', 'Se', 'La réponse est : se']
       },
       {
         id: 'q10',
@@ -14648,7 +14648,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je t\'aime', 'Tu m\'aimes', 'Je te veux', 'Tu me veux'],
         correctAnswer: 'Je t\'aime',
         explanation: 'Te = te. Quiero = je veux/j\'aime. Te quiero = Je t\'aime.',
-        hints: ['Te = toi', 'Je t\'aime']
+        hints: ['Te = toi', 'Je t\'aime', 'La réponse est : Je t\'aime']
       }
     ]
   },
@@ -14671,7 +14671,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Souhait, doute, émotion', 'Certitude', 'Description', 'Action habituelle'],
         correctAnswer: 'Souhait, doute, émotion',
         explanation: 'Subjonctif = souhait, doute, émotion, ordre, conseil...',
-        hints: ['Incertitude', 'Sentiments']
+        hints: ['Incertitude', 'Sentiments', 'La réponse est : Souhait, doute, émotion']
       },
       {
         id: 'q2',
@@ -14680,7 +14680,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-E', '-A', '-I', '-O'],
         correctAnswer: '-E',
         explanation: 'Verbes en -AR → terminaisons en -E : hable, hables, hable...',
-        hints: ['Inverse', '-E pour les -AR']
+        hints: ['Inverse', '-E pour les -AR', 'La réponse est : -E']
       },
       {
         id: 'q3',
@@ -14688,7 +14688,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hable',
         explanation: 'Que yo hable = Que je parle.',
-        hints: ['-E', 'Hable']
+        hints: ['-E', 'Hable', 'La réponse est : hable']
       },
       {
         id: 'q4',
@@ -14697,7 +14697,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'espère que tu viennes', 'J\'espère que tu viens', 'J\'attends ta venue', 'Je veux venir'],
         correctAnswer: 'J\'espère que tu viennes',
         explanation: 'Esperar que + subjonctif. Vengas = que tu viennes.',
-        hints: ['Espero que', 'Subjonctif']
+        hints: ['Espero que', 'Subjonctif', 'La réponse est : J\'espère que tu viennes']
       },
       {
         id: 'q5',
@@ -14705,7 +14705,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'coma',
         explanation: 'Que él coma = Qu\'il mange. -ER/-IR → terminaisons en -A.',
-        hints: ['-A', 'Coma']
+        hints: ['-A', 'Coma', 'La réponse est : coma']
       },
       {
         id: 'q6',
@@ -14713,7 +14713,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ojalá (pourvu que) + subjonctif toujours.',
-        hints: ['Souhait', 'Toujours subjonctif']
+        hints: ['Souhait', 'Toujours subjonctif', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -14721,7 +14721,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vivamos',
         explanation: 'Que nosotros vivamos = Que nous vivions.',
-        hints: ['-amos', 'Vivamos']
+        hints: ['-amos', 'Vivamos', 'La réponse est : vivamos']
       },
       {
         id: 'q8',
@@ -14730,7 +14730,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je veux que tu études', 'Je veux étudier', 'Tu veux que j\'étudie', 'Nous voulons étudier'],
         correctAnswer: 'Je veux que tu études',
         explanation: 'Querer que + subjonctif = vouloir que + subjonctif.',
-        hints: ['Quiero que', 'Je veux que']
+        hints: ['Quiero que', 'Je veux que', 'La réponse est : Je veux que tu études']
       },
       {
         id: 'q9',
@@ -14738,7 +14738,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sea',
         explanation: 'Que yo sea = Que je sois. Ser est irrégulier.',
-        hints: ['Irrégulier', 'Sea']
+        hints: ['Irrégulier', 'Sea', 'La réponse est : sea']
       },
       {
         id: 'q10',
@@ -14747,7 +14747,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Subjonctif', 'Indicatif', 'Infinitif', 'Conditionnel'],
         correctAnswer: 'Subjonctif',
         explanation: 'Les expressions impersonnelles (es importante, es necesario...) + que + subjonctif.',
-        hints: ['Expression impersonnelle', 'Subjonctif']
+        hints: ['Expression impersonnelle', 'Subjonctif', 'La réponse est : Subjonctif']
       }
     ]
   },
@@ -14768,7 +14768,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Infinitif + terminaisons', 'Radical + terminaisons', 'Auxiliaire + participe', 'Ir a + infinitif'],
         correctAnswer: 'Infinitif + terminaisons',
         explanation: 'Futur = infinitif entier + terminaisons (-é, -ás, -á, -emos, -éis, -án).',
-        hints: ['Infinitif complet', 'Infinitif + terminaisons']
+        hints: ['Infinitif complet', 'Infinitif + terminaisons', 'La réponse est : Infinitif + terminaisons']
       },
       {
         id: 'q2',
@@ -14776,7 +14776,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hablaré',
         explanation: 'Yo hablaré = Je parlerai. Hablar + é.',
-        hints: ['Infinitif + é', 'Hablaré']
+        hints: ['Infinitif + é', 'Hablaré', 'La réponse est : hablaré']
       },
       {
         id: 'q3',
@@ -14785,7 +14785,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-emos', '-amos', '-imos', '-eremos'],
         correctAnswer: '-emos',
         explanation: 'Nosotros hablaremos, comeremos, viviremos.',
-        hints: ['-emos', 'Nous']
+        hints: ['-emos', 'Nous', 'La réponse est : -emos']
       },
       {
         id: 'q4',
@@ -14793,7 +14793,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comerán',
         explanation: 'Ellos comerán = Ils mangeront. Comer + án.',
-        hints: ['-án', 'Comerán']
+        hints: ['-án', 'Comerán', 'La réponse est : comerán']
       },
       {
         id: 'q5',
@@ -14801,7 +14801,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! Tener → tendr-. Yo tendré = J\'aurai.',
-        hints: ['Irrégulier', 'Tendr-']
+        hints: ['Irrégulier', 'Tendr-', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -14809,7 +14809,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'podr',
         explanation: 'Poder → podr-. Yo podré = Je pourrai.',
-        hints: ['Perd le -e-', 'Podr-']
+        hints: ['Perd le -e-', 'Podr-', 'La réponse est : podr']
       },
       {
         id: 'q7',
@@ -14818,7 +14818,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hacer', 'Haber', 'Hablar', 'Hallar'],
         correctAnswer: 'Hacer',
         explanation: 'Hacer → har-. Yo haré = Je ferai.',
-        hints: ['Faire', 'Hacer']
+        hints: ['Faire', 'Hacer', 'La réponse est : Hacer']
       },
       {
         id: 'q8',
@@ -14826,7 +14826,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'saldrás',
         explanation: 'Salir → saldr-. Tú saldrás = Tu sortiras.',
-        hints: ['Saldr-', 'Saldrás']
+        hints: ['Saldr-', 'Saldrás', 'La réponse est : saldrás']
       },
       {
         id: 'q9',
@@ -14835,7 +14835,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Demain j\'irai au cinéma', 'Hier je suis allé au cinéma', 'Je vais au cinéma', 'J\'allais au cinéma'],
         correctAnswer: 'Demain j\'irai au cinéma',
         explanation: 'Mañana = demain. Iré = j\'irai (futur de ir).',
-        hints: ['Mañana = demain', 'Futur']
+        hints: ['Mañana = demain', 'Futur', 'La réponse est : Demain j\'irai au cinéma']
       },
       {
         id: 'q10',
@@ -14843,7 +14843,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'vendrá',
         explanation: 'Venir → vendr-. Ella vendrá = Elle viendra.',
-        hints: ['Vendr-', 'Vendrá']
+        hints: ['Vendr-', 'Vendrá', 'La réponse est : vendrá']
       }
     ]
   },
@@ -14864,7 +14864,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des descriptions et actions habituelles au passé', 'Des actions ponctuelles', 'Des actions futures', 'Des ordres'],
         correctAnswer: 'Des descriptions et actions habituelles au passé',
         explanation: 'Imparfait = descriptions, habitudes, actions en cours dans le passé.',
-        hints: ['Description', 'Habitudes']
+        hints: ['Description', 'Habitudes', 'La réponse est : Des descriptions et actions habituelles au passé']
       },
       {
         id: 'q2',
@@ -14873,7 +14873,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-aba, -abas, -aba, -ábamos, -abais, -aban', '-ía, -ías, -ía, -íamos, -íais, -ían', '-é, -aste, -ó, -amos, -asteis, -aron', '-o, -as, -a, -amos, -áis, -an'],
         correctAnswer: '-aba, -abas, -aba, -ábamos, -abais, -aban',
         explanation: 'Verbes en -AR : hablaba, hablabas, hablaba...',
-        hints: ['-ABA', 'Verbes -AR']
+        hints: ['-ABA', 'Verbes -AR', 'La réponse est : -aba, -abas, -aba, -ábamos, -abais, -aban']
       },
       {
         id: 'q3',
@@ -14881,7 +14881,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hablaba',
         explanation: 'Yo hablaba = Je parlais.',
-        hints: ['-aba', 'Hablaba']
+        hints: ['-aba', 'Hablaba', 'La réponse est : hablaba']
       },
       {
         id: 'q4',
@@ -14890,7 +14890,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-ía, -ías, -ía, -íamos, -íais, -ían', '-aba, -abas...', '-é, -iste...', '-o, -es...'],
         correctAnswer: '-ía, -ías, -ía, -íamos, -íais, -ían',
         explanation: 'Verbes en -ER/-IR : comía, vivía, etc.',
-        hints: ['-ÍA', 'Mêmes pour -ER et -IR']
+        hints: ['-ÍA', 'Mêmes pour -ER et -IR', 'La réponse est : -ía, -ías, -ía, -íamos, -íais, -ían']
       },
       {
         id: 'q5',
@@ -14898,7 +14898,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'comíamos',
         explanation: 'Nosotros comíamos = Nous mangions.',
-        hints: ['-íamos', 'Comíamos']
+        hints: ['-íamos', 'Comíamos', 'La réponse est : comíamos']
       },
       {
         id: 'q6',
@@ -14906,7 +14906,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ser (era), ir (iba), ver (veía) sont les seuls irréguliers.',
-        hints: ['Très peu', 'Ser, ir, ver']
+        hints: ['Très peu', 'Ser, ir, ver', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -14914,7 +14914,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'era',
         explanation: 'Él era = Il était. Ser est irrégulier.',
-        hints: ['Irrégulier', 'Era']
+        hints: ['Irrégulier', 'Era', 'La réponse est : era']
       },
       {
         id: 'q8',
@@ -14923,7 +14923,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand j\'étais enfant, je jouais beaucoup', 'Quand je serai enfant, je jouerai', 'Hier j\'ai joué', 'Je joue comme un enfant'],
         correctAnswer: 'Quand j\'étais enfant, je jouais beaucoup',
         explanation: 'Era = j\'étais, jugaba = je jouais (imparfait = habitude passée).',
-        hints: ['Imparfait', 'Habitude passée']
+        hints: ['Imparfait', 'Habitude passée', 'La réponse est : Quand j\'étais enfant, je jouais beaucoup']
       },
       {
         id: 'q9',
@@ -14931,7 +14931,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'iban',
         explanation: 'Ellos iban = Ils allaient. Ir est irrégulier.',
-        hints: ['Ib-', 'Iban']
+        hints: ['Ib-', 'Iban', 'La réponse est : iban']
       },
       {
         id: 'q10',
@@ -14940,7 +14940,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il faisait soleil', 'Il fera soleil', 'Il fait soleil', 'Fais du soleil'],
         correctAnswer: 'Il faisait soleil',
         explanation: 'Hacía = il faisait (hacer à l\'imparfait, description météo).',
-        hints: ['Imparfait', 'Description']
+        hints: ['Imparfait', 'Description', 'La réponse est : Il faisait soleil']
       }
     ]
   },
@@ -14967,7 +14967,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Guten Tag', 'Auf Wiedersehen', 'Danke', 'Bitte'],
         correctAnswer: 'Guten Tag',
         explanation: '"Guten Tag" = Bonjour (formel). "Hallo" = Salut (informel).',
-        hints: ['Formel', 'Guten Tag']
+        hints: ['Formel', 'Guten Tag', 'La réponse est : Guten Tag']
       },
       {
         id: 'q2',
@@ -14975,7 +14975,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Ich heiße',
         explanation: '"Ich heiße..." = Je m\'appelle... Ex: Ich heiße Anna.',
-        hints: ['Ich = je', 'Ich heiße']
+        hints: ['Ich = je', 'Ich heiße', 'La réponse est : Ich heiße']
       },
       {
         id: 'q3',
@@ -14984,7 +14984,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comment t\'appelles-tu ?', 'Comment vas-tu ?', 'Où habites-tu ?', 'Quel âge as-tu ?'],
         correctAnswer: 'Comment t\'appelles-tu ?',
         explanation: '"Wie heißt du?" = Comment t\'appelles-tu ?',
-        hints: ['Heißen = s\'appeler', 'Prénom']
+        hints: ['Heißen = s\'appeler', 'Prénom', 'La réponse est : Comment t\'appelles-tu ?']
       },
       {
         id: 'q4',
@@ -14992,7 +14992,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Auf Wiedersehen',
         explanation: '"Auf Wiedersehen" = Au revoir (formel). "Tschüss" = Salut (informel).',
-        hints: ['Formel', 'Auf Wiedersehen']
+        hints: ['Formel', 'Auf Wiedersehen', 'La réponse est : Auf Wiedersehen']
       },
       {
         id: 'q5',
@@ -15000,7 +15000,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Guten Morgen" = Bonjour (le matin). "Gute Nacht" = Bonne nuit.',
-        hints: ['Morgen = matin', 'Le matin']
+        hints: ['Morgen = matin', 'Le matin', 'C\'est faux']
       },
       {
         id: 'q6',
@@ -15009,7 +15009,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Danke', 'Bitte', 'Entschuldigung', 'Ja'],
         correctAnswer: 'Danke',
         explanation: '"Danke" = Merci. "Danke schön" = Merci beaucoup.',
-        hints: ['Très courant', 'Danke']
+        hints: ['Très courant', 'Danke', 'La réponse est : Danke']
       },
       {
         id: 'q7',
@@ -15018,7 +15018,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'ai douze ans', 'J\'ai deux ans', 'Il est midi', 'J\'habite au numéro 12'],
         correctAnswer: 'J\'ai douze ans',
         explanation: '"Ich bin zwölf Jahre alt" = J\'ai douze ans. Jahre = ans.',
-        hints: ['Jahre = années', 'Âge']
+        hints: ['Jahre = années', 'Âge', 'La réponse est : J\'ai douze ans']
       },
       {
         id: 'q8',
@@ -15026,7 +15026,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Bitte',
         explanation: '"Bitte" = S\'il te plaît / De rien.',
-        hints: ['Politesse', 'Bitte']
+        hints: ['Politesse', 'Bitte', 'La réponse est : Bitte']
       },
       {
         id: 'q9',
@@ -15035,7 +15035,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le soir', 'Le matin', 'La nuit', 'L\'après-midi'],
         correctAnswer: 'Le soir',
         explanation: '"Guten Abend" = Bonsoir (le soir).',
-        hints: ['Abend = soir', 'Le soir']
+        hints: ['Abend = soir', 'Le soir', 'La réponse est : Le soir']
       },
       {
         id: 'q10',
@@ -15043,7 +15043,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Ich komme aus Frankreich',
         explanation: '"Ich komme aus Frankreich" = Je viens de France.',
-        hints: ['Aus = de', 'Frankreich = France']
+        hints: ['Aus = de', 'Frankreich = France', 'La réponse est : Ich komme aus Frankreich']
       }
     ]
   },
@@ -15063,7 +15063,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'eins',
         explanation: '"Eins" = 1 en allemand.',
-        hints: ['Commence par E', 'Eins']
+        hints: ['Commence par E', 'Eins', 'La réponse est : eins']
       },
       {
         id: 'q2',
@@ -15072,7 +15072,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '4', '6', '15'],
         correctAnswer: '5',
         explanation: '"Fünf" = 5 en allemand.',
-        hints: ['Comme "five" en anglais', '5']
+        hints: ['Comme "five" en anglais', '5', 'La réponse est : 5']
       },
       {
         id: 'q3',
@@ -15080,7 +15080,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'zehn',
         explanation: '"Zehn" = 10 en allemand.',
-        hints: ['Comme "ten" en anglais', 'Zehn']
+        hints: ['Comme "ten" en anglais', 'Zehn', 'La réponse est : zehn']
       },
       {
         id: 'q4',
@@ -15089,7 +15089,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['15', '5', '50', '14'],
         correctAnswer: '15',
         explanation: '"Fünfzehn" = 15 (fünf + zehn = 5 + 10).',
-        hints: ['Fünf + zehn', '15']
+        hints: ['Fünf + zehn', '15', 'La réponse est : 15']
       },
       {
         id: 'q5',
@@ -15097,7 +15097,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'zwanzig',
         explanation: '"Zwanzig" = 20 en allemand.',
-        hints: ['Commence par Z', 'Zwanzig']
+        hints: ['Commence par Z', 'Zwanzig', 'La réponse est : zwanzig']
       },
       {
         id: 'q6',
@@ -15105,7 +15105,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Sieben" = 7. "Sechs" = 6.',
-        hints: ['Sieben ressemble à seven', 'C\'est 7']
+        hints: ['Sieben ressemble à seven', 'C\'est 7', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -15114,7 +15114,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Zwölf', 'Zwei', 'Zehn', 'Sechzehn'],
         correctAnswer: 'Zwölf',
         explanation: '"Zwölf" = 12. "Zwei" = 2.',
-        hints: ['Comme "twelve"', 'Zwölf']
+        hints: ['Comme "twelve"', 'Zwölf', 'La réponse est : Zwölf']
       },
       {
         id: 'q8',
@@ -15122,7 +15122,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '8',
         explanation: '"Acht" = 8 en allemand.',
-        hints: ['Comme "eight"', '8']
+        hints: ['Comme "eight"', '8', 'La réponse est : 8']
       },
       {
         id: 'q9',
@@ -15131,7 +15131,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Drei', 'Dreizehn', 'Dreißig', 'Vier'],
         correctAnswer: 'Drei',
         explanation: '"Drei" = 3. "Dreizehn" = 13.',
-        hints: ['Comme "three"', 'Drei']
+        hints: ['Comme "three"', 'Drei', 'La réponse est : Drei']
       },
       {
         id: 'q10',
@@ -15139,7 +15139,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '17',
         explanation: '"Siebzehn" = 17 (sieben + zehn, mais sieben perd le "en").',
-        hints: ['7 + 10', '17']
+        hints: ['7 + 10', '17', 'La réponse est : 17']
       }
     ]
   },
@@ -15160,7 +15160,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Trois (masculin, féminin, neutre)', 'Deux (masculin, féminin)', 'Un seul', 'Quatre'],
         correctAnswer: 'Trois (masculin, féminin, neutre)',
         explanation: 'L\'allemand a 3 genres : masculin (der), féminin (die), neutre (das).',
-        hints: ['Plus que le français', 'Trois']
+        hints: ['Plus que le français', 'Trois', 'La réponse est : Trois (masculin, féminin, neutre)']
       },
       {
         id: 'q2',
@@ -15168,7 +15168,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'der',
         explanation: '"Der" = le (masculin). Ex: der Mann = l\'homme.',
-        hints: ['Masculin', 'Der']
+        hints: ['Masculin', 'Der', 'La réponse est : der']
       },
       {
         id: 'q3',
@@ -15177,7 +15177,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La femme', 'L\'homme', 'L\'enfant', 'La maison'],
         correctAnswer: 'La femme',
         explanation: '"Die Frau" = la femme. "Die" = article féminin.',
-        hints: ['Frau = femme', 'Féminin']
+        hints: ['Frau = femme', 'Féminin', 'La réponse est : La femme']
       },
       {
         id: 'q4',
@@ -15185,7 +15185,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'das',
         explanation: '"Das" = le/la (neutre). Ex: das Kind = l\'enfant.',
-        hints: ['Neutre', 'Das']
+        hints: ['Neutre', 'Das', 'La réponse est : das']
       },
       {
         id: 'q5',
@@ -15193,7 +15193,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Les mots en -chen sont toujours neutres en allemand.',
-        hints: ['-chen = neutre', 'Das']
+        hints: ['-chen = neutre', 'Das', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -15202,7 +15202,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Masculin (der)', 'Féminin (die)', 'Neutre (das)', 'Pluriel'],
         correctAnswer: 'Masculin (der)',
         explanation: '"Der Tisch" = la table est masculin en allemand !',
-        hints: ['Der = masculin', 'Masculin']
+        hints: ['Der = masculin', 'Masculin', 'La réponse est : Masculin (der)']
       },
       {
         id: 'q7',
@@ -15210,7 +15210,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ein',
         explanation: '"Ein" = un (masculin/neutre). "Eine" = une (féminin).',
-        hints: ['Un', 'Ein']
+        hints: ['Un', 'Ein', 'La réponse est : ein']
       },
       {
         id: 'q8',
@@ -15219,7 +15219,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les livres', 'Le livre', 'La bibliothèque', 'Un livre'],
         correctAnswer: 'Les livres',
         explanation: '"Die" au pluriel = les. Bücher = livres.',
-        hints: ['Pluriel', 'Les livres']
+        hints: ['Pluriel', 'Les livres', 'La réponse est : Les livres']
       },
       {
         id: 'q9',
@@ -15227,7 +15227,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Quel que soit le genre au singulier, le pluriel prend "die".',
-        hints: ['Pluriel = die', 'Toujours']
+        hints: ['Pluriel = die', 'Toujours', 'C\'est vrai']
       },
       {
         id: 'q10',
@@ -15235,7 +15235,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'eine Frau',
         explanation: '"Eine Frau" = une femme. "Eine" = article indéfini féminin.',
-        hints: ['Féminin indéfini', 'Eine']
+        hints: ['Féminin indéfini', 'Eine', 'La réponse est : eine Frau']
       }
     ]
   },
@@ -15258,7 +15258,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-e et -st', '-e et -t', '-st et -e', '-en et -t'],
         correctAnswer: '-e et -st',
         explanation: 'Ich spiele, du spielst. Terminaisons : -e (ich), -st (du).',
-        hints: ['Ich = -e', 'Du = -st']
+        hints: ['Ich = -e', 'Du = -st', 'La réponse est : -e et -st']
       },
       {
         id: 'q2',
@@ -15266,7 +15266,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'spiele',
         explanation: 'Ich spiele = Je joue. Radical + e.',
-        hints: ['-e', 'Spiele']
+        hints: ['-e', 'Spiele', 'La réponse est : spiele']
       },
       {
         id: 'q3',
@@ -15275,7 +15275,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il parle', 'Il joue', 'Il mange', 'Il dort'],
         correctAnswer: 'Il parle',
         explanation: 'Sprechen = parler. Er spricht = Il parle (verbe fort).',
-        hints: ['Sprechen', 'Il parle']
+        hints: ['Sprechen', 'Il parle', 'La réponse est : Il parle']
       },
       {
         id: 'q4',
@@ -15283,7 +15283,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'wohnst',
         explanation: 'Du wohnst = Tu habites. Radical + st.',
-        hints: ['-st', 'Wohnst']
+        hints: ['-st', 'Wohnst', 'La réponse est : wohnst']
       },
       {
         id: 'q5',
@@ -15292,7 +15292,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-t', '-st', '-e', '-en'],
         correctAnswer: '-t',
         explanation: 'Er/sie/es spielt = Il/elle joue. Terminaison -t.',
-        hints: ['3ème personne', '-t']
+        hints: ['3ème personne', '-t', 'La réponse est : -t']
       },
       {
         id: 'q6',
@@ -15300,7 +15300,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Wir spielen, sie spielen = terminaison -en comme l\'infinitif.',
-        hints: ['-en', 'Comme l\'infinitif']
+        hints: ['-en', 'Comme l\'infinitif', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -15308,7 +15308,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'lernen',
         explanation: 'Wir lernen = Nous apprenons. Même forme que l\'infinitif.',
-        hints: ['-en', 'Lernen']
+        hints: ['-en', 'Lernen', 'La réponse est : lernen']
       },
       {
         id: 'q8',
@@ -15317,7 +15317,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vous jouez', 'Ils jouent', 'Nous jouons', 'Tu joues'],
         correctAnswer: 'Vous jouez',
         explanation: 'Ihr = vous (pluriel familier). Ihr spielt = Vous jouez.',
-        hints: ['Ihr = vous', 'Vous jouez']
+        hints: ['Ihr = vous', 'Vous jouez', 'La réponse est : Vous jouez']
       },
       {
         id: 'q9',
@@ -15325,7 +15325,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'macht',
         explanation: 'Er macht = Il fait. Terminaison -t.',
-        hints: ['-t', 'Macht']
+        hints: ['-t', 'Macht', 'La réponse est : macht']
       },
       {
         id: 'q10',
@@ -15334,7 +15334,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-t', '-st', '-en', '-e'],
         correctAnswer: '-t',
         explanation: 'Ihr spielt, ihr macht. Terminaison -t pour "ihr".',
-        hints: ['Vous pluriel', '-t']
+        hints: ['Vous pluriel', '-t', 'La réponse est : -t']
       }
     ]
   },
@@ -15354,7 +15354,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Mutter',
         explanation: '"Die Mutter" = la mère. "Mutti" = maman.',
-        hints: ['Comme "mother"', 'Mutter']
+        hints: ['Comme "mother"', 'Mutter', 'La réponse est : Mutter']
       },
       {
         id: 'q2',
@@ -15363,7 +15363,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le frère', 'La sœur', 'Le cousin', 'L\'oncle'],
         correctAnswer: 'Le frère',
         explanation: '"Der Bruder" = le frère. Comme "brother".',
-        hints: ['Masculin', 'Brother']
+        hints: ['Masculin', 'Brother', 'La réponse est : Le frère']
       },
       {
         id: 'q3',
@@ -15371,7 +15371,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Großeltern',
         explanation: '"Die Großeltern" = les grands-parents. Groß = grand.',
-        hints: ['Groß + Eltern', 'Großeltern']
+        hints: ['Groß + Eltern', 'Großeltern', 'La réponse est : Großeltern']
       },
       {
         id: 'q4',
@@ -15380,7 +15380,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La cuisine', 'La chambre', 'Le salon', 'La salle de bain'],
         correctAnswer: 'La cuisine',
         explanation: '"Die Küche" = la cuisine.',
-        hints: ['Où on cuisine', 'Kitchen']
+        hints: ['Où on cuisine', 'Kitchen', 'La réponse est : La cuisine']
       },
       {
         id: 'q5',
@@ -15388,7 +15388,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Zimmer',
         explanation: '"Das Zimmer" = la chambre/pièce. "Schlafzimmer" = chambre à coucher.',
-        hints: ['Neutre', 'Zimmer']
+        hints: ['Neutre', 'Zimmer', 'La réponse est : Zimmer']
       },
       {
         id: 'q6',
@@ -15396,7 +15396,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Faux',
         explanation: 'Faux ! "Der Onkel" = l\'oncle. "Der Cousin" = le cousin.',
-        hints: ['Onkel = uncle', 'Oncle']
+        hints: ['Onkel = uncle', 'Oncle', 'C\'est faux']
       },
       {
         id: 'q7',
@@ -15405,7 +15405,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La salle de bain', 'La chambre', 'Le salon', 'La cuisine'],
         correctAnswer: 'La salle de bain',
         explanation: '"Das Badezimmer" = la salle de bain. Bad = bain.',
-        hints: ['Bad = bath', 'Salle de bain']
+        hints: ['Bad = bath', 'Salle de bain', 'La réponse est : La salle de bain']
       },
       {
         id: 'q8',
@@ -15413,7 +15413,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Wohnzimmer',
         explanation: '"Das Wohnzimmer" = le salon. Wohnen = habiter.',
-        hints: ['Wohn + Zimmer', 'Wohnzimmer']
+        hints: ['Wohn + Zimmer', 'Wohnzimmer', 'La réponse est : Wohnzimmer']
       },
       {
         id: 'q9',
@@ -15422,7 +15422,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les parents', 'Les pères', 'Les frères', 'Les enfants'],
         correctAnswer: 'Les parents',
         explanation: '"Die Eltern" = les parents.',
-        hints: ['Vater + Mutter', 'Parents']
+        hints: ['Vater + Mutter', 'Parents', 'La réponse est : Les parents']
       },
       {
         id: 'q10',
@@ -15430,7 +15430,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Garten',
         explanation: '"Der Garten" = le jardin. Comme "garden".',
-        hints: ['Comme garden', 'Garten']
+        hints: ['Comme garden', 'Garten', 'La réponse est : Garten']
       }
     ]
   },
@@ -15451,7 +15451,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pouvoir (capacité)', 'Devoir', 'Vouloir', 'Aimer'],
         correctAnswer: 'Pouvoir (capacité)',
         explanation: '"Können" = pouvoir, être capable de. Ich kann = Je peux.',
-        hints: ['Capacité', 'Can']
+        hints: ['Capacité', 'Can', 'La réponse est : Pouvoir (capacité)']
       },
       {
         id: 'q2',
@@ -15459,7 +15459,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'kann',
         explanation: 'Ich kann = Je peux. Les modaux changent de voyelle.',
-        hints: ['Pas de terminaison -e', 'Kann']
+        hints: ['Pas de terminaison -e', 'Kann', 'La réponse est : kann']
       },
       {
         id: 'q3',
@@ -15468,7 +15468,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Devoir (obligation)', 'Pouvoir', 'Vouloir', 'Aimer'],
         correctAnswer: 'Devoir (obligation)',
         explanation: '"Müssen" = devoir (obligation). Ich muss = Je dois.',
-        hints: ['Obligation', 'Must']
+        hints: ['Obligation', 'Must', 'La réponse est : Devoir (obligation)']
       },
       {
         id: 'q4',
@@ -15476,7 +15476,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'will',
         explanation: 'Er will = Il veut. Pas de -t à la 3ème personne !',
-        hints: ['Pas de terminaison', 'Will']
+        hints: ['Pas de terminaison', 'Will', 'La réponse est : will']
       },
       {
         id: 'q5',
@@ -15484,7 +15484,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ich kann schwimmen = Je sais nager (schwimmen en fin).',
-        hints: ['Infinitif à la fin', 'Structure allemande']
+        hints: ['Infinitif à la fin', 'Structure allemande', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -15493,7 +15493,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La permission', 'L\'obligation', 'La capacité', 'Le souhait'],
         correctAnswer: 'La permission',
         explanation: '"Dürfen" = avoir le droit de. Ich darf = J\'ai le droit.',
-        hints: ['Permission', 'Autorisé']
+        hints: ['Permission', 'Autorisé', 'La réponse est : La permission']
       },
       {
         id: 'q7',
@@ -15501,7 +15501,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'müssen',
         explanation: 'Wir müssen = Nous devons. Même forme que l\'infinitif.',
-        hints: ['Pluriel = infinitif', 'Müssen']
+        hints: ['Pluriel = infinitif', 'Müssen', 'La réponse est : müssen']
       },
       {
         id: 'q8',
@@ -15510,7 +15510,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tu sais bien chanter', 'Tu dois chanter', 'Tu veux chanter', 'Tu chantes bien'],
         correctAnswer: 'Tu sais bien chanter',
         explanation: 'Können = savoir/pouvoir. Du kannst singen = Tu sais chanter.',
-        hints: ['Kannst = tu peux/sais', 'Capacité']
+        hints: ['Kannst = tu peux/sais', 'Capacité', 'La réponse est : Tu sais bien chanter']
       },
       {
         id: 'q9',
@@ -15518,7 +15518,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'darf',
         explanation: 'Ich darf = J\'ai le droit. Changement de voyelle.',
-        hints: ['ü → a', 'Darf']
+        hints: ['ü → a', 'Darf', 'La réponse est : darf']
       },
       {
         id: 'q10',
@@ -15526,7 +15526,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Ich will essen',
         explanation: '"Ich will essen" = Je veux manger. Essen en fin de phrase.',
-        hints: ['Will + infinitif', 'Ich will essen']
+        hints: ['Will + infinitif', 'Ich will essen', 'La réponse est : Ich will essen']
       }
     ]
   },
@@ -15549,7 +15549,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Haben/sein + participe passé', 'Werden + infinitif', 'Sein + infinitif', 'Haben + infinitif'],
         correctAnswer: 'Haben/sein + participe passé',
         explanation: 'Perfekt = haben ou sein + participe passé en fin de phrase.',
-        hints: ['Auxiliaire + participe', 'Haben/sein']
+        hints: ['Auxiliaire + participe', 'Haben/sein', 'La réponse est : Haben/sein + participe passé']
       },
       {
         id: 'q2',
@@ -15558,7 +15558,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['ge- + radical + -t', 'ge- + radical + -en', 'radical + -t', 'ge- + infinitif'],
         correctAnswer: 'ge- + radical + -t',
         explanation: 'Verbes réguliers : ge- + radical + -t. Ex: spielen → gespielt.',
-        hints: ['ge...t', 'Réguliers']
+        hints: ['ge...t', 'Réguliers', 'La réponse est : ge- + radical + -t']
       },
       {
         id: 'q3',
@@ -15566,7 +15566,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'habe',
         explanation: 'Ich habe gespielt = J\'ai joué. Haben pour la plupart des verbes.',
-        hints: ['Auxiliaire haben', 'Habe']
+        hints: ['Auxiliaire haben', 'Habe', 'La réponse est : habe']
       },
       {
         id: 'q4',
@@ -15575,7 +15575,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sein', 'Haben', 'Werden', 'Les deux'],
         correctAnswer: 'Sein',
         explanation: 'Les verbes de mouvement/changement d\'état prennent "sein".',
-        hints: ['Mouvement', 'Sein']
+        hints: ['Mouvement', 'Sein', 'La réponse est : Sein']
       },
       {
         id: 'q5',
@@ -15583,7 +15583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ist',
         explanation: 'Er ist gefahren = Il est allé (en voiture). Fahren → sein.',
-        hints: ['Mouvement', 'Ist']
+        hints: ['Mouvement', 'Ist', 'La réponse est : ist']
       },
       {
         id: 'q6',
@@ -15591,7 +15591,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ich habe gestern Fußball gespielt (gespielt à la fin).',
-        hints: ['Fin de phrase', 'Participe à la fin']
+        hints: ['Fin de phrase', 'Participe à la fin', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -15599,7 +15599,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'gesehen',
         explanation: 'Sehen → gesehen (verbe fort : ge- + radical modifié + -en).',
-        hints: ['Verbe fort', 'ge...en']
+        hints: ['Verbe fort', 'ge...en', 'La réponse est : gesehen']
       },
       {
         id: 'q8',
@@ -15608,7 +15608,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous sommes venus', 'Nous avons couru', 'Nous sommes partis', 'Nous avons mangé'],
         correctAnswer: 'Nous sommes venus',
         explanation: 'Kommen = venir. Wir sind gekommen = Nous sommes venus.',
-        hints: ['Kommen = venir', 'Mouvement → sein']
+        hints: ['Kommen = venir', 'Mouvement → sein', 'La réponse est : Nous sommes venus']
       },
       {
         id: 'q9',
@@ -15616,7 +15616,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'gemacht',
         explanation: 'Machen → gemacht (régulier : ge- + mach + -t).',
-        hints: ['Régulier', 'ge...t']
+        hints: ['Régulier', 'ge...t', 'La réponse est : gemacht']
       },
       {
         id: 'q10',
@@ -15624,7 +15624,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'habe',
         explanation: 'Ich habe gelesen = J\'ai lu. Lesen prend haben.',
-        hints: ['Pas de mouvement', 'Haben']
+        hints: ['Pas de mouvement', 'Haben', 'La réponse est : habe']
       }
     ]
   },
@@ -15645,7 +15645,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nominatif, accusatif, datif, génitif', 'Nominatif, accusatif, datif', 'Masculin, féminin, neutre', 'Singulier, pluriel, neutre'],
         correctAnswer: 'Nominatif, accusatif, datif, génitif',
         explanation: 'L\'allemand a 4 cas qui modifient les articles et pronoms.',
-        hints: ['4 cas', 'NADG']
+        hints: ['4 cas', 'NADG', 'La réponse est : Nominatif, accusatif, datif, génitif']
       },
       {
         id: 'q2',
@@ -15653,7 +15653,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'accusatif',
         explanation: 'Für + accusatif. Ex: für den Mann = pour l\'homme.',
-        hints: ['Für = pour', 'Accusatif']
+        hints: ['Für = pour', 'Accusatif', 'La réponse est : accusatif']
       },
       {
         id: 'q3',
@@ -15662,7 +15662,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Den', 'Der', 'Dem', 'Des'],
         correctAnswer: 'Den',
         explanation: 'Der → den à l\'accusatif masculin. Ich sehe den Mann.',
-        hints: ['Masculin accusatif', 'Den']
+        hints: ['Masculin accusatif', 'Den', 'La réponse est : Den']
       },
       {
         id: 'q4',
@@ -15670,7 +15670,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'datif',
         explanation: 'Mit + datif. Ex: mit dem Mann = avec l\'homme.',
-        hints: ['Mit = avec', 'Datif']
+        hints: ['Mit = avec', 'Datif', 'La réponse est : datif']
       },
       {
         id: 'q5',
@@ -15679,7 +15679,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dem', 'Den', 'Der', 'Des'],
         correctAnswer: 'Dem',
         explanation: 'Der → dem au datif masculin. Mit dem Mann.',
-        hints: ['Datif masculin', 'Dem']
+        hints: ['Datif masculin', 'Dem', 'La réponse est : Dem']
       },
       {
         id: 'q6',
@@ -15687,7 +15687,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! In + accusatif (mouvement), in + datif (position).',
-        hints: ['Préposition mixte', 'Mouvement ou position']
+        hints: ['Préposition mixte', 'Mouvement ou position', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -15696,7 +15696,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Accusatif (mouvement vers)', 'Datif (position)', 'Nominatif', 'Génitif'],
         correctAnswer: 'Accusatif (mouvement vers)',
         explanation: 'Mouvement vers un lieu → accusatif. Die reste die (féminin).',
-        hints: ['Mouvement', 'Accusatif']
+        hints: ['Mouvement', 'Accusatif', 'La réponse est : Accusatif (mouvement vers)']
       },
       {
         id: 'q8',
@@ -15704,7 +15704,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'der',
         explanation: 'Die → der au datif féminin. Mit der Frau = avec la femme.',
-        hints: ['Féminin datif', 'Der']
+        hints: ['Féminin datif', 'Der', 'La réponse est : der']
       },
       {
         id: 'q9',
@@ -15713,7 +15713,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'accusatif', 'Le datif', 'Le nominatif', 'Le génitif'],
         correctAnswer: 'L\'accusatif',
         explanation: 'Durch + accusatif toujours. Durch den Park.',
-        hints: ['Toujours accusatif', 'Accusatif']
+        hints: ['Toujours accusatif', 'Accusatif', 'La réponse est : L\'accusatif']
       },
       {
         id: 'q10',
@@ -15721,7 +15721,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'datif',
         explanation: 'Aus + datif toujours. Aus dem Haus = de la maison.',
-        hints: ['Origine', 'Datif']
+        hints: ['Origine', 'Datif', 'La réponse est : datif']
       }
     ]
   },
@@ -15742,7 +15742,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À la fin', 'Au début', 'En deuxième position', 'Avant le sujet'],
         correctAnswer: 'À la fin',
         explanation: 'Subordonnée : le verbe conjugué va à la FIN !',
-        hints: ['Fin de phrase', 'Règle importante']
+        hints: ['Fin de phrase', 'Règle importante', 'La réponse est : À la fin']
       },
       {
         id: 'q2',
@@ -15751,7 +15751,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Que', 'Parce que', 'Quand', 'Si'],
         correctAnswer: 'Que',
         explanation: '"Dass" = que (conjonction). Ich weiß, dass er kommt.',
-        hints: ['That en anglais', 'Que']
+        hints: ['That en anglais', 'Que', 'La réponse est : Que']
       },
       {
         id: 'q3',
@@ -15759,7 +15759,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'geht',
         explanation: '"...dass er nach Hause geht" - verbe à la fin !',
-        hints: ['Verbe à la fin', 'Geht']
+        hints: ['Verbe à la fin', 'Geht', 'La réponse est : geht']
       },
       {
         id: 'q4',
@@ -15767,7 +15767,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parce que',
         explanation: '"Weil" = parce que. Ich bleibe, weil es regnet.',
-        hints: ['Cause', 'Because']
+        hints: ['Cause', 'Because', 'La réponse est : parce que']
       },
       {
         id: 'q5',
@@ -15775,7 +15775,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Toutes les conjonctions de subordination → verbe à la fin.',
-        hints: ['Subordonnée', 'Verbe à la fin']
+        hints: ['Subordonnée', 'Verbe à la fin', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -15784,7 +15784,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand / Si', 'Parce que', 'Que', 'Mais'],
         correctAnswer: 'Quand / Si',
         explanation: '"Wenn" = quand (répétition) ou si (condition).',
-        hints: ['When / If', 'Quand ou si']
+        hints: ['When / If', 'Quand ou si', 'La réponse est : Quand / Si']
       },
       {
         id: 'q7',
@@ -15792,7 +15792,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'habe',
         explanation: '"...weil ich Hunger habe" = parce que j\'ai faim.',
-        hints: ['Verbe à la fin', 'Habe']
+        hints: ['Verbe à la fin', 'Habe', 'La réponse est : habe']
       },
       {
         id: 'q8',
@@ -15801,7 +15801,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bien que', 'Parce que', 'Quand', 'Si'],
         correctAnswer: 'Bien que',
         explanation: '"Obwohl" = bien que (concession). Verbe à la fin.',
-        hints: ['Concession', 'Although']
+        hints: ['Concession', 'Although', 'La réponse est : Bien que']
       },
       {
         id: 'q9',
@@ -15809,7 +15809,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Ich denke, dass er kommt',
         explanation: '"Dass er kommt" = qu\'il vient. Kommt à la fin.',
-        hints: ['Dass + verbe à la fin', 'Kommt à la fin']
+        hints: ['Dass + verbe à la fin', 'Kommt à la fin', 'La réponse est : Ich denke, dass er kommt']
       },
       {
         id: 'q10',
@@ -15818,7 +15818,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'auxiliaire conjugué', 'Le participe passé', 'Les deux à la fin', 'L\'infinitif'],
         correctAnswer: 'L\'auxiliaire conjugué',
         explanation: '...dass er nach Hause gegangen IST. Auxiliaire en dernier.',
-        hints: ['Auxiliaire à la fin', 'Conjugué = fin']
+        hints: ['Auxiliaire à la fin', 'Conjugué = fin', 'La réponse est : L\'auxiliaire conjugué']
       }
     ]
   },
@@ -15841,7 +15841,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À l\'écrit et dans les récits', 'À l\'oral uniquement', 'Pour le futur', 'Jamais'],
         correctAnswer: 'À l\'écrit et dans les récits',
         explanation: 'Le prétérit est le temps du récit écrit (contes, romans...).',
-        hints: ['Écrit', 'Récit']
+        hints: ['Écrit', 'Récit', 'La réponse est : À l\'écrit et dans les récits']
       },
       {
         id: 'q2',
@@ -15849,7 +15849,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'war',
         explanation: 'Ich war = J\'étais. Sein est irrégulier.',
-        hints: ['Irrégulier', 'War']
+        hints: ['Irrégulier', 'War', 'La réponse est : war']
       },
       {
         id: 'q3',
@@ -15857,7 +15857,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hatte',
         explanation: 'Er hatte = Il avait. Haben → hatte.',
-        hints: ['Avait', 'Hatte']
+        hints: ['Avait', 'Hatte', 'La réponse est : hatte']
       },
       {
         id: 'q4',
@@ -15866,7 +15866,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Radical + -te + terminaisons', 'ge- + radical + -t', 'Radical + -en', 'Werden + infinitif'],
         correctAnswer: 'Radical + -te + terminaisons',
         explanation: 'Réguliers : spielen → ich spielte, du spieltest...',
-        hints: ['-te-', 'Réguliers']
+        hints: ['-te-', 'Réguliers', 'La réponse est : Radical + -te + terminaisons']
       },
       {
         id: 'q5',
@@ -15874,7 +15874,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ging',
         explanation: 'Gehen → ging (verbe fort, changement de voyelle).',
-        hints: ['Verbe fort', 'Ging']
+        hints: ['Verbe fort', 'Ging', 'La réponse est : ging']
       },
       {
         id: 'q6',
@@ -15882,7 +15882,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Ich war, er war / ich spielte, er spielte.',
-        hints: ['Pas de terminaison', 'Identiques']
+        hints: ['Pas de terminaison', 'Identiques', 'C\'est vrai']
       },
       {
         id: 'q7',
@@ -15890,7 +15890,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'kam',
         explanation: 'Kommen → kam. Verbe fort.',
-        hints: ['Verbe fort', 'Kam']
+        hints: ['Verbe fort', 'Kam', 'La réponse est : kam']
       },
       {
         id: 'q8',
@@ -15899,7 +15899,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il était une fois...', 'Il sera une fois...', 'C\'est une fois...', 'Il y a une fois...'],
         correctAnswer: 'Il était une fois...',
         explanation: 'Formule typique des contes. War = était (prétérit).',
-        hints: ['Contes', 'Il était une fois']
+        hints: ['Contes', 'Il était une fois', 'La réponse est : Il était une fois...']
       },
       {
         id: 'q9',
@@ -15907,7 +15907,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sahen',
         explanation: 'Sehen → sahen (nous vîmes/voyions).',
-        hints: ['Verbe fort', 'Sahen']
+        hints: ['Verbe fort', 'Sahen', 'La réponse est : sahen']
       },
       {
         id: 'q10',
@@ -15915,7 +15915,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'konnte',
         explanation: 'Können → konnte (je pouvais). Modaux au prétérit.',
-        hints: ['Modal', 'Konnte']
+        hints: ['Modal', 'Konnte', 'La réponse est : konnte']
       }
     ]
   },
@@ -15936,7 +15936,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Werden + infinitif', 'Haben + infinitif', 'Sein + participe', 'Werden + participe'],
         correctAnswer: 'Werden + infinitif',
         explanation: 'Futur = werden (conjugué) + infinitif en fin de phrase.',
-        hints: ['Werden', 'Infinitif à la fin']
+        hints: ['Werden', 'Infinitif à la fin', 'La réponse est : Werden + infinitif']
       },
       {
         id: 'q2',
@@ -15944,7 +15944,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'werde',
         explanation: 'Ich werde = Je vais (futur). Ich werde spielen = Je jouerai.',
-        hints: ['Werde', '1ère personne']
+        hints: ['Werde', '1ère personne', 'La réponse est : werde']
       },
       {
         id: 'q3',
@@ -15953,7 +15953,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il viendra', 'Il est venu', 'Il vient', 'Il venait'],
         correctAnswer: 'Il viendra',
         explanation: 'Wird + infinitif = futur. Er wird kommen = Il viendra.',
-        hints: ['Futur', 'Viendra']
+        hints: ['Futur', 'Viendra', 'La réponse est : Il viendra']
       },
       {
         id: 'q4',
@@ -15961,7 +15961,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'wirst',
         explanation: 'Du wirst = Tu vas (futur). Du wirst sehen = Tu verras.',
-        hints: ['2ème personne', 'Wirst']
+        hints: ['2ème personne', 'Wirst', 'La réponse est : wirst']
       },
       {
         id: 'q5',
@@ -15969,7 +15969,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'wäre',
         explanation: 'Ich wäre = Je serais. Konjunktiv II de sein.',
-        hints: ['Conditionnel', 'Wäre']
+        hints: ['Conditionnel', 'Wäre', 'La réponse est : wäre']
       },
       {
         id: 'q6',
@@ -15977,7 +15977,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'hätte',
         explanation: 'Ich hätte = J\'aurais. Konjunktiv II de haben.',
-        hints: ['Conditionnel', 'Hätte']
+        hints: ['Conditionnel', 'Hätte', 'La réponse est : hätte']
       },
       {
         id: 'q7',
@@ -15986,7 +15986,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le conditionnel (forme périphrastique)', 'Le futur', 'Le passé', 'L\'impératif'],
         correctAnswer: 'Le conditionnel (forme périphrastique)',
         explanation: 'Ich würde spielen = Je jouerais. Forme courante du conditionnel.',
-        hints: ['Conditionnel', 'Je ferais']
+        hints: ['Conditionnel', 'Je ferais', 'La réponse est : Le conditionnel (forme périphrastique)']
       },
       {
         id: 'q8',
@@ -15994,7 +15994,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Wenn + Konjunktiv II = condition irréelle.',
-        hints: ['Wenn = si', 'Hypothèse']
+        hints: ['Wenn = si', 'Hypothèse', 'C\'est vrai']
       },
       {
         id: 'q9',
@@ -16003,7 +16003,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'aimerais aller en Allemagne', 'Je vais en Allemagne', 'J\'allais en Allemagne', 'Je suis allé en Allemagne'],
         correctAnswer: 'J\'aimerais aller en Allemagne',
         explanation: 'Würde + infinitif = conditionnel. Gern = volontiers.',
-        hints: ['Würde = conditionnel', 'J\'aimerais']
+        hints: ['Würde = conditionnel', 'J\'aimerais', 'La réponse est : J\'aimerais aller en Allemagne']
       },
       {
         id: 'q10',
@@ -16011,7 +16011,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'werden',
         explanation: 'Wir werden kommen = Nous viendrons. Werden pour wir.',
-        hints: ['Nous', 'Werden']
+        hints: ['Nous', 'Werden', 'La réponse est : werden']
       }
     ]
   },
@@ -16032,7 +16032,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'antécédent en genre et nombre', 'Le verbe', 'Le sujet de la principale', 'Rien'],
         correctAnswer: 'L\'antécédent en genre et nombre',
         explanation: 'Der Mann, DER kommt = l\'homme QUI vient (masculin).',
-        hints: ['Genre et nombre', 'Antécédent']
+        hints: ['Genre et nombre', 'Antécédent', 'La réponse est : L\'antécédent en genre et nombre']
       },
       {
         id: 'q2',
@@ -16040,7 +16040,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'der',
         explanation: 'Der Mann, der kommt... (qui = sujet → nominatif).',
-        hints: ['Nominatif', 'Der']
+        hints: ['Nominatif', 'Der', 'La réponse est : der']
       },
       {
         id: 'q3',
@@ -16049,7 +16049,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Accusatif', 'Nominatif', 'Datif', 'Génitif'],
         correctAnswer: 'Accusatif',
         explanation: 'Die ich sehe = que je vois. "Die" est COD → accusatif.',
-        hints: ['Que = COD', 'Accusatif']
+        hints: ['Que = COD', 'Accusatif', 'La réponse est : Accusatif']
       },
       {
         id: 'q4',
@@ -16057,7 +16057,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dem',
         explanation: 'Der Mann, dem ich helfe = l\'homme à qui j\'aide.',
-        hints: ['Datif', 'Dem']
+        hints: ['Datif', 'Dem', 'La réponse est : dem']
       },
       {
         id: 'q5',
@@ -16065,7 +16065,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'true-false',
         correctAnswer: 'Vrai',
         explanation: 'Vrai ! Comme toutes les subordonnées. Der Mann, der hier wohnt.',
-        hints: ['Subordonnée', 'Verbe à la fin']
+        hints: ['Subordonnée', 'Verbe à la fin', 'C\'est vrai']
       },
       {
         id: 'q6',
@@ -16074,7 +16074,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le livre que je lis', 'Le livre qui lit', 'Le livre dont je parle', 'Le livre où je lis'],
         correctAnswer: 'Le livre que je lis',
         explanation: 'Das ich lese = que je lis. Das = COD (accusatif neutre).',
-        hints: ['Que = COD', 'Le livre que je lis']
+        hints: ['Que = COD', 'Le livre que je lis', 'La réponse est : Le livre que je lis']
       },
       {
         id: 'q7',
@@ -16082,7 +16082,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'den',
         explanation: 'Der Mann, den ich sehe = l\'homme que je vois.',
-        hints: ['Accusatif masculin', 'Den']
+        hints: ['Accusatif masculin', 'Den', 'La réponse est : den']
       },
       {
         id: 'q8',
@@ -16091,7 +16091,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nominatif pluriel', 'Accusatif pluriel', 'Datif pluriel', 'Génitif pluriel'],
         correctAnswer: 'Nominatif pluriel',
         explanation: 'Die spielen = qui jouent. Sujet → nominatif. Pluriel → die.',
-        hints: ['Sujet', 'Nominatif pluriel']
+        hints: ['Sujet', 'Nominatif pluriel', 'La réponse est : Nominatif pluriel']
       },
       {
         id: 'q9',
@@ -16099,7 +16099,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'der',
         explanation: 'Die Frau, der ich helfe = la femme à qui j\'aide.',
-        hints: ['Datif féminin', 'Der']
+        hints: ['Datif féminin', 'Der', 'La réponse est : der']
       },
       {
         id: 'q10',
@@ -16107,7 +16107,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'den',
         explanation: 'Den ich gesehen habe = que j\'ai vu. Film = masculin, COD = accusatif.',
-        hints: ['Masculin accusatif', 'Den']
+        hints: ['Masculin accusatif', 'Den', 'La réponse est : den']
       }
     ]
   },
@@ -16134,7 +16134,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Buongiorno', 'Arrivederci', 'Grazie', 'Prego'],
         correctAnswer: 'Buongiorno',
         explanation: '"Buongiorno" = Bonjour. "Ciao" est informel.',
-        hints: ['Formel', 'Bon + jour']
+        hints: ['Formel', 'Bon + jour', 'La réponse est : Buongiorno']
       },
       {
         id: 'q2',
@@ -16143,7 +16143,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mi chiamo Marco', 'Io sono Marco', 'Mi piace Marco', 'Io ho Marco'],
         correctAnswer: 'Mi chiamo Marco',
         explanation: '"Mi chiamo" = Je m\'appelle (littéralement : je me nomme).',
-        hints: ['Chiamare = appeler', 'Mi chiamo']
+        hints: ['Chiamare = appeler', 'Mi chiamo', 'La réponse est : Mi chiamo Marco']
       },
       {
         id: 'q3',
@@ -16152,7 +16152,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Arrivederci', 'Ciao', 'Buonanotte', 'Salve'],
         correctAnswer: 'Arrivederci',
         explanation: '"Arrivederci" = Au revoir (formel). "Ciao" peut être informel.',
-        hints: ['Formel', 'Arrivederci']
+        hints: ['Formel', 'Arrivederci', 'La réponse est : Arrivederci']
       },
       {
         id: 'q4',
@@ -16161,7 +16161,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Enchanté', 'Merci', 'S\'il vous plaît', 'De rien'],
         correctAnswer: 'Enchanté',
         explanation: '"Piacere" = Enchanté (plaisir de vous rencontrer).',
-        hints: ['Rencontre', 'Plaisir']
+        hints: ['Rencontre', 'Plaisir', 'La réponse est : Enchanté']
       },
       {
         id: 'q5',
@@ -16170,7 +16170,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Come ti chiami?', 'Dove abiti?', 'Quanti anni hai?', 'Come stai?'],
         correctAnswer: 'Come ti chiami?',
         explanation: '"Come ti chiami?" = Comment t\'appelles-tu ?',
-        hints: ['Come = comment', 'Ti chiami']
+        hints: ['Come = comment', 'Ti chiami', 'La réponse est : Come ti chiami?']
       },
       {
         id: 'q6',
@@ -16179,7 +16179,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ho dodici anni', 'Sono dodici anni', 'Hai dodici anni', 'Ha dodici anni'],
         correctAnswer: 'Ho dodici anni',
         explanation: 'En italien on dit "j\'ai X ans" avec le verbe avere (avoir).',
-        hints: ['Ho = j\'ai', 'Anni = ans']
+        hints: ['Ho = j\'ai', 'Anni = ans', 'La réponse est : Ho dodici anni']
       },
       {
         id: 'q7',
@@ -16187,7 +16187,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Buonasera',
         explanation: '"Buonasera" = Bonsoir (Buona + sera = bonne soirée).',
-        hints: ['Buona + sera', 'Buonasera']
+        hints: ['Buona + sera', 'Buonasera', 'La réponse est : Buonasera']
       },
       {
         id: 'q8',
@@ -16196,7 +16196,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comment vas-tu ?', 'Où habites-tu ?', 'Quel âge as-tu ?', 'Comment t\'appelles-tu ?'],
         correctAnswer: 'Comment vas-tu ?',
         explanation: '"Come stai?" = Comment vas-tu ? (informel). "Come sta?" = formel.',
-        hints: ['Stai = tu vas', 'Santé']
+        hints: ['Stai = tu vas', 'Santé', 'La réponse est : Comment vas-tu ?']
       },
       {
         id: 'q9',
@@ -16205,7 +16205,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je vais bien', 'Je suis fatigué', 'J\'ai faim', 'Je suis content'],
         correctAnswer: 'Je vais bien',
         explanation: '"Sto bene" = Je vais bien. "Sto male" = Je vais mal.',
-        hints: ['Bene = bien', 'Réponse à "Come stai?"']
+        hints: ['Bene = bien', 'Réponse à "Come stai?"', 'La réponse est : Je vais bien']
       },
       {
         id: 'q10',
@@ -16213,7 +16213,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Buonanotte',
         explanation: '"Buonanotte" = Bonne nuit (Buona + notte).',
-        hints: ['Buona + notte', 'Avant de dormir']
+        hints: ['Buona + notte', 'Avant de dormir', 'La réponse est : Buonanotte']
       }
     ]
   },
@@ -16236,7 +16236,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Uno', 'Due', 'Tre', 'Zero'],
         correctAnswer: 'Uno',
         explanation: '"Uno" = 1 en italien.',
-        hints: ['Premier nombre', 'Uno']
+        hints: ['Premier nombre', 'Uno', 'La réponse est : Uno']
       },
       {
         id: 'q2',
@@ -16244,7 +16244,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Cinque',
         explanation: '"Cinque" = 5 en italien.',
-        hints: ['Comme "cinq" en français', 'Cinque']
+        hints: ['Comme "cinq" en français', 'Cinque', 'La réponse est : Cinque']
       },
       {
         id: 'q3',
@@ -16253,7 +16253,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10', '12', '15', '20'],
         correctAnswer: '10',
         explanation: '"Dieci" = 10 en italien.',
-        hints: ['Décimal', 'Dix']
+        hints: ['Décimal', 'Dix', 'La réponse est : 10']
       },
       {
         id: 'q4',
@@ -16262,7 +16262,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sette', 'Sei', 'Otto', 'Nove'],
         correctAnswer: 'Sette',
         explanation: '"Sette" = 7. "Sei" = 6, "Otto" = 8, "Nove" = 9.',
-        hints: ['Sept', 'Sette']
+        hints: ['Sept', 'Sette', 'La réponse est : Sette']
       },
       {
         id: 'q5',
@@ -16271,7 +16271,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['15', '14', '16', '13'],
         correctAnswer: '15',
         explanation: '"Quindici" = 15 (cinque + dieci modifié).',
-        hints: ['10 + 5', 'Quinze']
+        hints: ['10 + 5', 'Quinze', 'La réponse est : 15']
       },
       {
         id: 'q6',
@@ -16279,7 +16279,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Tre',
         explanation: '"Tre" = 3 en italien.',
-        hints: ['Trois', 'Tre']
+        hints: ['Trois', 'Tre', 'La réponse est : Tre']
       },
       {
         id: 'q7',
@@ -16288,7 +16288,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['20', '21', '12', '2'],
         correctAnswer: '20',
         explanation: '"Venti" = 20 en italien.',
-        hints: ['Vingt', 'Venti']
+        hints: ['Vingt', 'Venti', 'La réponse est : 20']
       },
       {
         id: 'q8',
@@ -16297,7 +16297,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Otto', 'Nove', 'Sette', 'Sei'],
         correctAnswer: 'Otto',
         explanation: '"Otto" = 8 en italien.',
-        hints: ['Huit', 'Octogone']
+        hints: ['Huit', 'Octogone', 'La réponse est : Otto']
       },
       {
         id: 'q9',
@@ -16306,7 +16306,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['12', '10', '11', '2'],
         correctAnswer: '12',
         explanation: '"Dodici" = 12 (due + dieci modifié = douze).',
-        hints: ['10 + 2', 'Douze']
+        hints: ['10 + 2', 'Douze', 'La réponse est : 12']
       },
       {
         id: 'q10',
@@ -16314,7 +16314,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Quattro',
         explanation: '"Quattro" = 4 en italien.',
-        hints: ['Quatre', 'Quattro']
+        hints: ['Quatre', 'Quattro', 'La réponse est : Quattro']
       }
     ]
   },
@@ -16337,7 +16337,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il', 'Lo', 'La', 'I'],
         correctAnswer: 'Il',
         explanation: '"Il" = le (devant consonne). "Lo" devant s+consonne, z, gn, ps.',
-        hints: ['Masculin', 'Consonne simple']
+        hints: ['Masculin', 'Consonne simple', 'La réponse est : Il']
       },
       {
         id: 'q2',
@@ -16346,7 +16346,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La', 'Il', 'Lo', 'L\''],
         correctAnswer: 'La',
         explanation: '"La ragazza" = la fille. "Ragazza" est féminin.',
-        hints: ['Féminin', 'La']
+        hints: ['Féminin', 'La', 'La réponse est : La']
       },
       {
         id: 'q3',
@@ -16355,7 +16355,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['I ragazzi', 'Il ragazzi', 'Gli ragazzi', 'Lo ragazzi'],
         correctAnswer: 'I ragazzi',
         explanation: '"I" est l\'article défini masculin pluriel devant consonne.',
-        hints: ['Masculin pluriel', 'I']
+        hints: ['Masculin pluriel', 'I', 'La réponse est : I ragazzi']
       },
       {
         id: 'q4',
@@ -16364,7 +16364,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lo', 'Il', 'La', 'L\''],
         correctAnswer: 'Lo',
         explanation: '"Lo studente" - on utilise "lo" devant s + consonne.',
-        hints: ['S + consonne', 'Lo']
+        hints: ['S + consonne', 'Lo', 'La réponse est : Lo']
       },
       {
         id: 'q5',
@@ -16373,7 +16373,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un livre', 'Le livre', 'Les livres', 'Des livres'],
         correctAnswer: 'Un livre',
         explanation: '"Un" est l\'article indéfini masculin singulier.',
-        hints: ['Indéfini', 'Un seul']
+        hints: ['Indéfini', 'Un seul', 'La réponse est : Un livre']
       },
       {
         id: 'q6',
@@ -16382,7 +16382,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un\'', 'Una', 'Un', 'La'],
         correctAnswer: 'Un\'',
         explanation: '"Un\'amica" - apostrophe devant voyelle au féminin indéfini.',
-        hints: ['Féminin', 'Voyelle']
+        hints: ['Féminin', 'Voyelle', 'La réponse est : Un\'']
       },
       {
         id: 'q7',
@@ -16390,7 +16390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Le ragazze',
         explanation: '"Le" est l\'article défini féminin pluriel.',
-        hints: ['Féminin pluriel', 'Le ragazze']
+        hints: ['Féminin pluriel', 'Le ragazze', 'La réponse est : Le ragazze']
       },
       {
         id: 'q8',
@@ -16399,7 +16399,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'', 'Il', 'Lo', 'Un'],
         correctAnswer: 'L\'',
         explanation: '"L\'amico" - élision devant voyelle pour le défini.',
-        hints: ['Voyelle', 'Élision']
+        hints: ['Voyelle', 'Élision', 'La réponse est : L\'']
       },
       {
         id: 'q9',
@@ -16408,7 +16408,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les étudiants', 'L\'étudiant', 'Un étudiant', 'Des étudiants'],
         correctAnswer: 'Les étudiants',
         explanation: '"Gli" = article défini masculin pluriel devant voyelle ou s+cons.',
-        hints: ['Pluriel', 'Défini']
+        hints: ['Pluriel', 'Défini', 'La réponse est : Les étudiants']
       },
       {
         id: 'q10',
@@ -16416,7 +16416,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'La',
         explanation: '"La casa" = la maison. Casa est féminin.',
-        hints: ['Féminin singulier', 'La']
+        hints: ['Féminin singulier', 'La', 'La réponse est : La']
       }
     ]
   },
@@ -16438,7 +16438,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlo',
         explanation: 'Verbes en -are : io parlo, tu parli, lui/lei parla...',
-        hints: ['Io', '-o pour je']
+        hints: ['Io', '-o pour je', 'La réponse est : parlo']
       },
       {
         id: 'q2',
@@ -16447,7 +16447,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tu mangi', 'Tu mangia', 'Tu mangio', 'Tu mangiamo'],
         correctAnswer: 'Tu mangi',
         explanation: 'Verbes en -are : tu = -i. "Tu mangi" = tu manges.',
-        hints: ['Tu = -i', 'Mangi']
+        hints: ['Tu = -i', 'Mangi', 'La réponse est : Tu mangi']
       },
       {
         id: 'q3',
@@ -16455,7 +16455,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'legge',
         explanation: 'Verbes en -ere : lui/lei legge.',
-        hints: ['Lui/lei', '-e']
+        hints: ['Lui/lei', '-e', 'La réponse est : legge']
       },
       {
         id: 'q4',
@@ -16464,7 +16464,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous parlons', 'Ils parlent', 'Vous parlez', 'Je parle'],
         correctAnswer: 'Nous parlons',
         explanation: '"Noi" = nous, "-iamo" = terminaison de la 1ère personne du pluriel.',
-        hints: ['Noi = nous', '-iamo']
+        hints: ['Noi = nous', '-iamo', 'La réponse est : Nous parlons']
       },
       {
         id: 'q5',
@@ -16473,7 +16473,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Voi dormite', 'Voi dormono', 'Voi dormiamo', 'Voi dormi'],
         correctAnswer: 'Voi dormite',
         explanation: 'Verbes en -ire : voi = -ite. "Voi dormite" = vous dormez.',
-        hints: ['Voi = vous', '-ite']
+        hints: ['Voi = vous', '-ite', 'La réponse est : Voi dormite']
       },
       {
         id: 'q6',
@@ -16481,7 +16481,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlano',
         explanation: '"Loro parlano" = ils/elles parlent. -ano pour verbes en -are.',
-        hints: ['Loro', '-ano']
+        hints: ['Loro', '-ano', 'La réponse est : parlano']
       },
       {
         id: 'q7',
@@ -16490,7 +16490,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Scrivo', 'Scrive', 'Scrivi', 'Scrivono'],
         correctAnswer: 'Scrivo',
         explanation: 'Verbes en -ere : io = -o. "Io scrivo" = j\'écris.',
-        hints: ['Io = je', '-o']
+        hints: ['Io = je', '-o', 'La réponse est : Scrivo']
       },
       {
         id: 'q8',
@@ -16499,7 +16499,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ajout de -isc-', 'Irrégulier total', 'Double consonne', 'Accent tonique'],
         correctAnswer: 'Ajout de -isc-',
         explanation: 'Certains verbes en -ire ajoutent -isc- : capisco, capisci, capisce, capiamo, capite, capiscono.',
-        hints: ['Verbes en -ire', '-isc-']
+        hints: ['Verbes en -ire', '-isc-', 'La réponse est : Ajout de -isc-']
       },
       {
         id: 'q9',
@@ -16507,7 +16507,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'abita',
         explanation: 'Verbes en -are : lui/lei = -a. "Lui abita" = il habite.',
-        hints: ['3ème personne', '-a']
+        hints: ['3ème personne', '-a', 'La réponse est : abita']
       },
       {
         id: 'q10',
@@ -16516,7 +16516,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils lisent', 'Il lit', 'Nous lisons', 'Vous lisez'],
         correctAnswer: 'Ils lisent',
         explanation: '"Loro leggono" = ils/elles lisent. -ono pour verbes en -ere.',
-        hints: ['Loro', '-ono']
+        hints: ['Loro', '-ono', 'La réponse est : Ils lisent']
       }
     ]
   },
@@ -16539,7 +16539,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Madre', 'Padre', 'Fratello', 'Sorella'],
         correctAnswer: 'Madre',
         explanation: '"Madre" = mère. "Mamma" est plus affectueux.',
-        hints: ['Maternel', 'Madre']
+        hints: ['Maternel', 'Madre', 'La réponse est : Madre']
       },
       {
         id: 'q2',
@@ -16547,7 +16547,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Fratello',
         explanation: '"Fratello" = frère. "Fratelli" = frères.',
-        hints: ['Fraternel', 'Fratello']
+        hints: ['Fraternel', 'Fratello', 'La réponse est : Fratello']
       },
       {
         id: 'q3',
@@ -16556,7 +16556,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La sœur', 'La mère', 'La grand-mère', 'La tante'],
         correctAnswer: 'La sœur',
         explanation: '"Sorella" = sœur. "Sorelle" = sœurs.',
-        hints: ['Féminin de fratello', 'Sœur']
+        hints: ['Féminin de fratello', 'Sœur', 'La réponse est : La sœur']
       },
       {
         id: 'q4',
@@ -16565,7 +16565,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['I nonni', 'I genitori', 'I zii', 'I cugini'],
         correctAnswer: 'I nonni',
         explanation: '"I nonni" = les grands-parents. Nonno = grand-père, Nonna = grand-mère.',
-        hints: ['Non-', 'Nonni']
+        hints: ['Non-', 'Nonni', 'La réponse est : I nonni']
       },
       {
         id: 'q5',
@@ -16573,7 +16573,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Cucina',
         explanation: '"La cucina" = la cuisine.',
-        hints: ['Cuisine', 'Cucina']
+        hints: ['Cuisine', 'Cucina', 'La réponse est : Cucina']
       },
       {
         id: 'q6',
@@ -16582,7 +16582,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La salle de bain', 'La chambre', 'Le salon', 'Le jardin'],
         correctAnswer: 'La salle de bain',
         explanation: '"Il bagno" = la salle de bain (le bain).',
-        hints: ['Bain', 'Bagno']
+        hints: ['Bain', 'Bagno', 'La réponse est : La salle de bain']
       },
       {
         id: 'q7',
@@ -16591,7 +16591,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Camera', 'Cucina', 'Sala', 'Bagno'],
         correctAnswer: 'Camera',
         explanation: '"La camera" = la chambre. "Camera da letto" = chambre à coucher.',
-        hints: ['Chambre', 'Camera']
+        hints: ['Chambre', 'Camera', 'La réponse est : Camera']
       },
       {
         id: 'q8',
@@ -16600,7 +16600,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les parents', 'Les grands-parents', 'Les enfants', 'Les oncles'],
         correctAnswer: 'Les parents',
         explanation: '"I genitori" = les parents (père et mère).',
-        hints: ['Géniteurs', 'Parents']
+        hints: ['Géniteurs', 'Parents', 'La réponse est : Les parents']
       },
       {
         id: 'q9',
@@ -16608,7 +16608,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Giardino',
         explanation: '"Il giardino" = le jardin.',
-        hints: ['Jardin', 'Giardino']
+        hints: ['Jardin', 'Giardino', 'La réponse est : Giardino']
       },
       {
         id: 'q10',
@@ -16617,7 +16617,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'oncle', 'Le cousin', 'Le neveu', 'Le beau-père'],
         correctAnswer: 'L\'oncle',
         explanation: '"Lo zio" = l\'oncle. "La zia" = la tante.',
-        hints: ['Oncle', 'Zio']
+        hints: ['Oncle', 'Zio', 'La réponse est : L\'oncle']
       }
     ]
   },
@@ -16639,7 +16639,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sono',
         explanation: '"Io sono" = je suis. Essere est irrégulier.',
-        hints: ['Je suis', 'Sono']
+        hints: ['Je suis', 'Sono', 'La réponse est : sono']
       },
       {
         id: 'q2',
@@ -16648,7 +16648,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tu hai', 'Tu ho', 'Tu ha', 'Tu hanno'],
         correctAnswer: 'Tu hai',
         explanation: '"Tu hai" = tu as. Avere : ho, hai, ha, abbiamo, avete, hanno.',
-        hints: ['Tu', 'Hai']
+        hints: ['Tu', 'Hai', 'La réponse est : Tu hai']
       },
       {
         id: 'q3',
@@ -16657,7 +16657,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle est italienne', 'Elle a Italien', 'Ils sont italiens', 'Tu es italien'],
         correctAnswer: 'Elle est italienne',
         explanation: '"Lei è" = elle est. "È" = 3ème personne de essere.',
-        hints: ['Lei = elle', 'È = est']
+        hints: ['Lei = elle', 'È = est', 'La réponse est : Elle est italienne']
       },
       {
         id: 'q4',
@@ -16665,7 +16665,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'abbiamo',
         explanation: '"Noi abbiamo" = nous avons.',
-        hints: ['Nous avons', 'Abbiamo']
+        hints: ['Nous avons', 'Abbiamo', 'La réponse est : abbiamo']
       },
       {
         id: 'q5',
@@ -16674,7 +16674,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vous êtes fatigués', 'Ils sont fatigués', 'Nous sommes fatigués', 'Tu es fatigué'],
         correctAnswer: 'Vous êtes fatigués',
         explanation: '"Siete" = vous êtes (2ème personne pluriel de essere).',
-        hints: ['Voi siete', 'Vous êtes']
+        hints: ['Voi siete', 'Vous êtes', 'La réponse est : Vous êtes fatigués']
       },
       {
         id: 'q6',
@@ -16683,7 +16683,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sono', 'Siamo', 'Siete', 'È'],
         correctAnswer: 'Sono',
         explanation: '"Loro sono" = ils/elles sont. Même forme que "io sono".',
-        hints: ['Ils sont', 'Sono']
+        hints: ['Ils sont', 'Sono', 'La réponse est : Sono']
       },
       {
         id: 'q7',
@@ -16692,7 +16692,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'ai faim', 'Je suis affamé', 'Il a faim', 'J\'ai soif'],
         correctAnswer: 'J\'ai faim',
         explanation: 'En italien on dit "avoir faim" comme en français. "Ho" = j\'ai.',
-        hints: ['Ho = j\'ai', 'Fame = faim']
+        hints: ['Ho = j\'ai', 'Fame = faim', 'La réponse est : J\'ai faim']
       },
       {
         id: 'q8',
@@ -16700,7 +16700,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sei',
         explanation: '"Tu sei" = tu es.',
-        hints: ['Tu es', 'Sei']
+        hints: ['Tu es', 'Sei', 'La réponse est : sei']
       },
       {
         id: 'q9',
@@ -16709,7 +16709,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils ont une voiture', 'Il a une voiture', 'Nous avons une voiture', 'Vous avez une voiture'],
         correctAnswer: 'Ils ont une voiture',
         explanation: '"Hanno" = ils/elles ont. "Macchina" = voiture.',
-        hints: ['Hanno = ils ont', 'Pluriel']
+        hints: ['Hanno = ils ont', 'Pluriel', 'La réponse est : Ils ont une voiture']
       },
       {
         id: 'q10',
@@ -16717,7 +16717,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'siamo',
         explanation: '"Noi siamo" = nous sommes.',
-        hints: ['Nous sommes', 'Siamo']
+        hints: ['Nous sommes', 'Siamo', 'La réponse est : siamo']
       }
     ]
   },
@@ -16740,7 +16740,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Essere/avere + participe passé', 'Verbe + terminaison -ato', 'Avere seul + infinitif', 'Essere seul'],
         correctAnswer: 'Essere/avere + participe passé',
         explanation: 'Le passato prossimo = auxiliaire (essere ou avere) + participe passé.',
-        hints: ['Auxiliaire', 'Participe']
+        hints: ['Auxiliaire', 'Participe', 'La réponse est : Essere/avere + participe passé']
       },
       {
         id: 'q2',
@@ -16748,7 +16748,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ho parlato',
         explanation: '"Ho parlato" = j\'ai parlé. Verbes en -are → -ato.',
-        hints: ['Avere', '-ato']
+        hints: ['Avere', '-ato', 'La réponse est : ho parlato']
       },
       {
         id: 'q3',
@@ -16757,7 +16757,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Essere', 'Avere', 'Les deux', 'Aucun'],
         correctAnswer: 'Essere',
         explanation: 'Les verbes de mouvement utilisent essere. "Sono andato/a".',
-        hints: ['Mouvement', 'Essere']
+        hints: ['Mouvement', 'Essere', 'La réponse est : Essere']
       },
       {
         id: 'q4',
@@ -16766,7 +16766,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle est partie', 'Elle a participé', 'Il est parti', 'Elles sont parties'],
         correctAnswer: 'Elle est partie',
         explanation: 'Avec essere, le participe s\'accorde. "Partita" = féminin singulier.',
-        hints: ['Féminin', 'Accord']
+        hints: ['Féminin', 'Accord', 'La réponse est : Elle est partie']
       },
       {
         id: 'q5',
@@ -16774,7 +16774,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'scritto',
         explanation: '"Scritto" est irrégulier. "Ho scritto" = j\'ai écrit.',
-        hints: ['Irrégulier', 'Scritto']
+        hints: ['Irrégulier', 'Scritto', 'La réponse est : scritto']
       },
       {
         id: 'q6',
@@ -16783,7 +16783,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous avons mangé', 'Ils ont mangé', 'Vous avez mangé', 'J\'ai mangé'],
         correctAnswer: 'Nous avons mangé',
         explanation: '"Abbiamo" = nous avons. "Mangiato" = mangé.',
-        hints: ['Abbiamo = nous avons', 'Noi']
+        hints: ['Abbiamo = nous avons', 'Noi', 'La réponse est : Nous avons mangé']
       },
       {
         id: 'q7',
@@ -16792,7 +16792,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sei venuto/a', 'Hai venuto', 'Sei venire', 'Hai venire'],
         correctAnswer: 'Sei venuto/a',
         explanation: '"Venire" utilise essere. "Venuto" = venu (accord au féminin : venuta).',
-        hints: ['Essere', 'Accord']
+        hints: ['Essere', 'Accord', 'La réponse est : Sei venuto/a']
       },
       {
         id: 'q8',
@@ -16800,7 +16800,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'letto',
         explanation: '"Letto" est irrégulier. "Ho letto" = j\'ai lu.',
-        hints: ['Irrégulier', 'Letto']
+        hints: ['Irrégulier', 'Letto', 'La réponse est : letto']
       },
       {
         id: 'q9',
@@ -16809,7 +16809,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils sont restés à la maison', 'Je suis resté à la maison', 'Nous sommes restés', 'Tu es resté'],
         correctAnswer: 'Ils sont restés à la maison',
         explanation: '"Sono rimasti" = ils sont restés. Accord masculin pluriel.',
-        hints: ['Sono = ils sont', 'Rimasti = restés']
+        hints: ['Sono = ils sont', 'Rimasti = restés', 'La réponse est : Ils sont restés à la maison']
       },
       {
         id: 'q10',
@@ -16817,7 +16817,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'ho fatto',
         explanation: '"Fatto" est le participe irrégulier de "fare".',
-        hints: ['Avere', 'Irrégulier']
+        hints: ['Avere', 'Irrégulier', 'La réponse est : ho fatto']
       }
     ]
   },
@@ -16840,7 +16840,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Alla', 'Nella', 'Della', 'Sulla'],
         correctAnswer: 'Alla',
         explanation: 'A + la = alla. Ex: "Vado alla stazione" = Je vais à la gare.',
-        hints: ['A + la', 'Alla']
+        hints: ['A + la', 'Alla', 'La réponse est : Alla']
       },
       {
         id: 'q2',
@@ -16848,7 +16848,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'del',
         explanation: 'Di + il = del. Ex: "Il libro del ragazzo" = le livre du garçon.',
-        hints: ['Di + il', 'Del']
+        hints: ['Di + il', 'Del', 'La réponse est : del']
       },
       {
         id: 'q3',
@@ -16857,7 +16857,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans le jardin', 'Sur le jardin', 'Du jardin', 'Au jardin'],
         correctAnswer: 'Dans le jardin',
         explanation: 'In + il = nel. "Nel" = dans le.',
-        hints: ['In + il', 'Dans']
+        hints: ['In + il', 'Dans', 'La réponse est : Dans le jardin']
       },
       {
         id: 'q4',
@@ -16865,7 +16865,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sulla',
         explanation: 'Su + la = sulla. Ex: "Sulla tavola" = sur la table.',
-        hints: ['Su + la', 'Sulla']
+        hints: ['Su + la', 'Sulla', 'La réponse est : sulla']
       },
       {
         id: 'q5',
@@ -16874,7 +16874,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chez les grands-parents', 'Des grands-parents', 'Aux grands-parents', 'Pour les grands-parents'],
         correctAnswer: 'Chez les grands-parents',
         explanation: 'Da + i = dai. "Da" peut signifier "chez".',
-        hints: ['Da + i', 'Chez']
+        hints: ['Da + i', 'Chez', 'La réponse est : Chez les grands-parents']
       },
       {
         id: 'q6',
@@ -16883,7 +16883,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Delle', 'Dei', 'Degli', 'Del'],
         correctAnswer: 'Delle',
         explanation: 'Di + le = delle. Ex: "Le case delle amiche" = les maisons des amies.',
-        hints: ['Di + le', 'Féminin pluriel']
+        hints: ['Di + le', 'Féminin pluriel', 'La réponse est : Delle']
       },
       {
         id: 'q7',
@@ -16892,7 +16892,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aux étudiants', 'Des étudiants', 'Chez les étudiants', 'Pour les étudiants'],
         correctAnswer: 'Aux étudiants',
         explanation: 'A + gli = agli. "Gli" est utilisé devant voyelle ou s+cons.',
-        hints: ['A + gli', 'Aux']
+        hints: ['A + gli', 'Aux', 'La réponse est : Aux étudiants']
       },
       {
         id: 'q8',
@@ -16900,7 +16900,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'al',
         explanation: 'A + il = al. "Al professore" = au professeur.',
-        hints: ['A + il', 'Al']
+        hints: ['A + il', 'Al', 'La réponse est : al']
       },
       {
         id: 'q9',
@@ -16909,7 +16909,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dans les yeux', 'Des yeux', 'Aux yeux', 'Sur les yeux'],
         correctAnswer: 'Dans les yeux',
         explanation: 'In + gli = negli. "Negli occhi" = dans les yeux.',
-        hints: ['In + gli', 'Dans']
+        hints: ['In + gli', 'Dans', 'La réponse est : Dans les yeux']
       },
       {
         id: 'q10',
@@ -16917,7 +16917,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'dei',
         explanation: 'Di + i = dei. Ex: "I libri dei ragazzi" = les livres des garçons.',
-        hints: ['Di + i', 'Masculin pluriel']
+        hints: ['Di + i', 'Masculin pluriel', 'La réponse est : dei']
       }
     ]
   },
@@ -16940,7 +16940,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Lo', 'La', 'Li', 'Le'],
         correctAnswer: 'Lo',
         explanation: '"Lo" = le (COD masc. sing.). "Lo vedo" = je le vois.',
-        hints: ['Masculin', 'Lo']
+        hints: ['Masculin', 'Lo', 'La réponse est : Lo']
       },
       {
         id: 'q2',
@@ -16949,7 +16949,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je t\'appelle demain', 'Il t\'appelle demain', 'Tu m\'appelles demain', 'Je l\'appelle demain'],
         correctAnswer: 'Je t\'appelle demain',
         explanation: '"Ti" = te. "Ti chiamo" = je t\'appelle.',
-        hints: ['Ti = te', 'COD']
+        hints: ['Ti = te', 'COD', 'La réponse est : Je t\'appelle demain']
       },
       {
         id: 'q3',
@@ -16957,7 +16957,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'le',
         explanation: '"Le" = les (COD fém. plur.). "Le vedo" = je les vois (elles).',
-        hints: ['Féminin pluriel', 'Le']
+        hints: ['Féminin pluriel', 'Le', 'La réponse est : le']
       },
       {
         id: 'q4',
@@ -16966,7 +16966,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je lui parle (à lui)', 'Je leur parle', 'Il me parle', 'Je les vois'],
         correctAnswer: 'Je lui parle (à lui)',
         explanation: '"Gli" = lui (COI masculin). "Gli parlo" = je lui parle.',
-        hints: ['COI masculin', 'Lui']
+        hints: ['COI masculin', 'Lui', 'La réponse est : Je lui parle (à lui)']
       },
       {
         id: 'q5',
@@ -16975,7 +16975,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Gli (loro)', 'Li', 'Le', 'Vi'],
         correctAnswer: 'Gli (loro)',
         explanation: '"Gli" ou "loro" = leur. "Gli parlo" = je leur parle.',
-        hints: ['Pluriel COI', 'Gli/loro']
+        hints: ['Pluriel COI', 'Gli/loro', 'La réponse est : Gli (loro)']
       },
       {
         id: 'q6',
@@ -16984,7 +16984,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La pizza me plaît', 'J\'aime la pizza', 'Je mange la pizza', 'Je veux la pizza'],
         correctAnswer: 'La pizza me plaît',
         explanation: '"Mi" = me (COI). "Mi piace" = ça me plaît.',
-        hints: ['Mi = me', 'Plaire']
+        hints: ['Mi = me', 'Plaire', 'La réponse est : La pizza me plaît']
       },
       {
         id: 'q7',
@@ -16992,7 +16992,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'li',
         explanation: '"Li" = les (COD masc. plur.). "Li vedo" = je les vois (eux).',
-        hints: ['Masculin pluriel', 'Li']
+        hints: ['Masculin pluriel', 'Li', 'La réponse est : li']
       },
       {
         id: 'q8',
@@ -17001,7 +17001,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je lui écris une lettre (à elle)', 'Je leur écris une lettre', 'Je les écris', 'Elle m\'écrit'],
         correctAnswer: 'Je lui écris une lettre (à elle)',
         explanation: '"Le" = lui (COI féminin). "Le scrivo" = je lui écris (à elle).',
-        hints: ['COI féminin', 'Lui (à elle)']
+        hints: ['COI féminin', 'Lui (à elle)', 'La réponse est : Je lui écris une lettre (à elle)']
       },
       {
         id: 'q9',
@@ -17010,7 +17010,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avant le verbe', 'Après le verbe', 'Entre auxiliaire et participe', 'À la fin de la phrase'],
         correctAnswer: 'Avant le verbe',
         explanation: 'En italien, le pronom se place avant le verbe conjugué : "Lo vedo".',
-        hints: ['Avant', 'Comme en français']
+        hints: ['Avant', 'Comme en français', 'La réponse est : Avant le verbe']
       },
       {
         id: 'q10',
@@ -17019,7 +17019,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['On se voit demain', 'Je vous vois demain', 'Il nous voit demain', 'Nous les voyons demain'],
         correctAnswer: 'On se voit demain',
         explanation: '"Ci" peut être réfléchi (nous). "Ci vediamo" = on se voit.',
-        hints: ['Ci = nous/se', 'Réciproque']
+        hints: ['Ci = nous/se', 'Réciproque', 'La réponse est : On se voit demain']
       }
     ]
   },
@@ -17042,7 +17042,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Après des verbes d\'opinion/souhait', 'Pour le passé', 'Pour le futur', 'Pour le conditionnel'],
         correctAnswer: 'Après des verbes d\'opinion/souhait',
         explanation: 'Le subjonctif s\'utilise après pensare, credere, volere, sperare...',
-        hints: ['Opinion', 'Souhait']
+        hints: ['Opinion', 'Souhait', 'La réponse est : Après des verbes d\'opinion/souhait']
       },
       {
         id: 'q2',
@@ -17050,7 +17050,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parli',
         explanation: 'Verbes en -are : che io parli, che tu parli, che lui parli...',
-        hints: ['Che io', '-i']
+        hints: ['Che io', '-i', 'La réponse est : parli']
       },
       {
         id: 'q3',
@@ -17059,7 +17059,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je pense que tu as raison', 'Je pensais que tu avais raison', 'Tu penses avoir raison', 'Il pense que j\'ai raison'],
         correctAnswer: 'Je pense que tu as raison',
         explanation: '"Abbia" = subjonctif de avere. Après "penso che" → subjonctif.',
-        hints: ['Penso che', 'Subjonctif']
+        hints: ['Penso che', 'Subjonctif', 'La réponse est : Je pense que tu as raison']
       },
       {
         id: 'q4',
@@ -17068,7 +17068,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sia', 'È', 'Sono', 'Siamo'],
         correctAnswer: 'Sia',
         explanation: '"Che lui sia" = qu\'il soit. Essere est irrégulier au subjonctif.',
-        hints: ['Irrégulier', 'Sia']
+        hints: ['Irrégulier', 'Sia', 'La réponse est : Sia']
       },
       {
         id: 'q5',
@@ -17077,7 +17077,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je veux que tu viennes', 'Je voulais que tu viennes', 'Tu veux que je vienne', 'Il veut venir'],
         correctAnswer: 'Je veux que tu viennes',
         explanation: 'Après "volere che" → subjonctif. "Venga" = subj. de venire.',
-        hints: ['Voglio che', 'Subjonctif']
+        hints: ['Voglio che', 'Subjonctif', 'La réponse est : Je veux que tu viennes']
       },
       {
         id: 'q6',
@@ -17085,7 +17085,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'finiamo',
         explanation: '"Che noi finiamo" = que nous finissions. -iamo comme à l\'indicatif.',
-        hints: ['Che noi', '-iamo']
+        hints: ['Che noi', '-iamo', 'La réponse est : finiamo']
       },
       {
         id: 'q7',
@@ -17094,7 +17094,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'espère qu\'il fait beau', 'Je savais qu\'il faisait beau', 'Il fait beau', 'S\'il fait beau'],
         correctAnswer: 'J\'espère qu\'il fait beau',
         explanation: '"Faccia" = subjonctif de fare. Après "spero che" → subjonctif.',
-        hints: ['Spero che', 'Espérer']
+        hints: ['Spero che', 'Espérer', 'La réponse est : J\'espère qu\'il fait beau']
       },
       {
         id: 'q8',
@@ -17102,7 +17102,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'abbiate',
         explanation: '"Che voi abbiate" = que vous ayez.',
-        hints: ['Che voi', 'Abbiate']
+        hints: ['Che voi', 'Abbiate', 'La réponse est : abbiate']
       },
       {
         id: 'q9',
@@ -17111,7 +17111,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je crois qu\'ils sont partis', 'Je croyais qu\'ils partaient', 'Ils croient partir', 'Je suis parti'],
         correctAnswer: 'Je crois qu\'ils sont partis',
         explanation: '"Siano" = subjonctif de essere. Utilisé au passé composé du subjonctif.',
-        hints: ['Credo che', 'Subjonctif passé']
+        hints: ['Credo che', 'Subjonctif passé', 'La réponse est : Je crois qu\'ils sont partis']
       },
       {
         id: 'q10',
@@ -17120,7 +17120,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Che', 'Quando', 'Perché', 'Come'],
         correctAnswer: 'Che',
         explanation: '"Che" (que) introduit la subordonnée au subjonctif après certains verbes.',
-        hints: ['Que', 'Che']
+        hints: ['Que', 'Che', 'La réponse est : Che']
       }
     ]
   },
@@ -17143,7 +17143,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Radical du futur + terminaisons', 'Infinitif + terminaisons', 'Radical du présent + terminaisons', 'Participe + auxiliaire'],
         correctAnswer: 'Radical du futur + terminaisons',
         explanation: 'Le conditionnel utilise le même radical que le futur.',
-        hints: ['Futur', 'Radical']
+        hints: ['Futur', 'Radical', 'La réponse est : Radical du futur + terminaisons']
       },
       {
         id: 'q2',
@@ -17151,7 +17151,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlerei',
         explanation: '"Parlerei" = je parlerais. Terminaison : -ei, -esti, -ebbe...',
-        hints: ['Parler-', '-ei']
+        hints: ['Parler-', '-ei', 'La réponse est : parlerei']
       },
       {
         id: 'q3',
@@ -17160,7 +17160,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je voudrais un café', 'Je veux un café', 'J\'ai voulu un café', 'Je voudrai un café'],
         correctAnswer: 'Je voudrais un café',
         explanation: '"Vorrei" = je voudrais (conditionnel de volere).',
-        hints: ['Politesse', 'Conditionnel']
+        hints: ['Politesse', 'Conditionnel', 'La réponse est : Je voudrais un café']
       },
       {
         id: 'q4',
@@ -17169,7 +17169,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avresti', 'Avrei', 'Avrebbe', 'Avremmo'],
         correctAnswer: 'Avresti',
         explanation: '"Tu avresti" = tu aurais. Avere → avr- au futur/conditionnel.',
-        hints: ['Tu', '-esti']
+        hints: ['Tu', '-esti', 'La réponse est : Avresti']
       },
       {
         id: 'q5',
@@ -17178,7 +17178,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pourriez-vous m\'aider ?', 'Pouvez-vous m\'aider ?', 'Puis-je vous aider ?', 'Il pourrait m\'aider'],
         correctAnswer: 'Pourriez-vous m\'aider ?',
         explanation: '"Potrebbe" = pourrait (politesse formelle avec Lei).',
-        hints: ['Potere', 'Politesse']
+        hints: ['Potere', 'Politesse', 'La réponse est : Pourriez-vous m\'aider ?']
       },
       {
         id: 'q6',
@@ -17186,7 +17186,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'saremmo',
         explanation: '"Noi saremmo" = nous serions. Essere → sar- au futur/cond.',
-        hints: ['Essere', 'Sar-']
+        hints: ['Essere', 'Sar-', 'La réponse est : saremmo']
       },
       {
         id: 'q7',
@@ -17195,7 +17195,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hypothèse irréelle', 'Hypothèse réelle', 'Souhait', 'Ordre'],
         correctAnswer: 'Hypothèse irréelle',
         explanation: 'Se + imparfait du subjonctif + conditionnel = hypothèse irréelle.',
-        hints: ['Se + subjonctif', 'Irréel']
+        hints: ['Se + subjonctif', 'Irréel', 'La réponse est : Hypothèse irréelle']
       },
       {
         id: 'q8',
@@ -17204,7 +17204,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Farebbero', 'Farei', 'Farebbe', 'Faremmo'],
         correctAnswer: 'Farebbero',
         explanation: '"Loro farebbero" = ils feraient. Fare → far- au futur/cond.',
-        hints: ['Loro', '-ebbero']
+        hints: ['Loro', '-ebbero', 'La réponse est : Farebbero']
       },
       {
         id: 'q9',
@@ -17213,7 +17213,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['J\'aurais dû étudier', 'Je devrais étudier', 'Je dois étudier', 'J\'ai dû étudier'],
         correctAnswer: 'J\'aurais dû étudier',
         explanation: 'Conditionnel passé = conditionnel de avere/essere + participe passé.',
-        hints: ['Passé', 'Regret']
+        hints: ['Passé', 'Regret', 'La réponse est : J\'aurais dû étudier']
       },
       {
         id: 'q10',
@@ -17221,7 +17221,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'andrei',
         explanation: '"Andrei" = j\'irais. Andare → andr- au futur/conditionnel.',
-        hints: ['Andare', 'Andr-']
+        hints: ['Andare', 'Andr-', 'La réponse est : andrei']
       }
     ]
   },
@@ -17244,7 +17244,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Actions habituelles/descriptions au passé', 'Actions ponctuelles au passé', 'Actions futures', 'Ordres'],
         correctAnswer: 'Actions habituelles/descriptions au passé',
         explanation: 'L\'imperfetto décrit des habitudes, états, descriptions passées.',
-        hints: ['Habitude', 'Description']
+        hints: ['Habitude', 'Description', 'La réponse est : Actions habituelles/descriptions au passé']
       },
       {
         id: 'q2',
@@ -17252,7 +17252,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'parlavo',
         explanation: '"Parlavo" = je parlais. Verbes en -are : -avo, -avi, -ava...',
-        hints: ['Io', '-avo']
+        hints: ['Io', '-avo', 'La réponse est : parlavo']
       },
       {
         id: 'q3',
@@ -17261,7 +17261,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand j\'étais enfant, je jouais beaucoup', 'Quand je suis enfant, je joue', 'Quand j\'ai été enfant', 'Si j\'étais enfant'],
         correctAnswer: 'Quand j\'étais enfant, je jouais beaucoup',
         explanation: 'Imparfait pour décrire une époque passée et une habitude.',
-        hints: ['Passé', 'Habitude']
+        hints: ['Passé', 'Habitude', 'La réponse est : Quand j\'étais enfant, je jouais beaucoup']
       },
       {
         id: 'q4',
@@ -17270,7 +17270,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avevi', 'Avevo', 'Aveva', 'Avevamo'],
         correctAnswer: 'Avevi',
         explanation: '"Tu avevi" = tu avais.',
-        hints: ['Tu', '-evi']
+        hints: ['Tu', '-evi', 'La réponse est : Avevi']
       },
       {
         id: 'q5',
@@ -17279,7 +17279,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il faisait froid', 'Il fait froid', 'Il a fait froid', 'Il fera froid'],
         correctAnswer: 'Il faisait froid',
         explanation: '"Faceva" = il faisait (imparfait de fare). Météo/description.',
-        hints: ['Description', 'Imparfait']
+        hints: ['Description', 'Imparfait', 'La réponse est : Il faisait froid']
       },
       {
         id: 'q6',
@@ -17287,7 +17287,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'eravamo',
         explanation: '"Noi eravamo" = nous étions. Essere est légèrement irrégulier.',
-        hints: ['Essere', 'Er-']
+        hints: ['Essere', 'Er-', 'La réponse est : eravamo']
       },
       {
         id: 'q7',
@@ -17296,7 +17296,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Imparfait + passé composé', 'Passé composé + passé composé', 'Imparfait + imparfait', 'Présent + passé'],
         correctAnswer: 'Imparfait + passé composé',
         explanation: 'Action en cours (imparfait) interrompue par action ponctuelle (passé composé).',
-        hints: ['Dormivo', 'Ha suonato']
+        hints: ['Dormivo', 'Ha suonato', 'La réponse est : Imparfait + passé composé']
       },
       {
         id: 'q8',
@@ -17304,7 +17304,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'leggevano',
         explanation: '"Loro leggevano" = ils lisaient. Verbes en -ere : -evo...',
-        hints: ['Loro', '-evano']
+        hints: ['Loro', '-evano', 'La réponse est : leggevano']
       },
       {
         id: 'q9',
@@ -17313,7 +17313,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il y avait beaucoup de gens', 'Il y a beaucoup de gens', 'Il y aura beaucoup de gens', 'Il y aurait beaucoup de gens'],
         correctAnswer: 'Il y avait beaucoup de gens',
         explanation: '"C\'erano" = il y avait (pluriel). "C\'era" au singulier.',
-        hints: ['Esserci', 'Imparfait']
+        hints: ['Esserci', 'Imparfait', 'La réponse est : Il y avait beaucoup de gens']
       },
       {
         id: 'q10',
@@ -17322,7 +17322,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dicevo', 'Divo', 'Dicevo', 'Dissi'],
         correctAnswer: 'Dicevo',
         explanation: '"Dicevo" = je disais. Dire garde son radical dic- à l\'imparfait.',
-        hints: ['Dire', 'Dic-']
+        hints: ['Dire', 'Dic-', 'La réponse est : Dicevo']
       }
     ]
   },
@@ -17349,7 +17349,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['23 lettres', '26 lettres', '21 lettres', '24 lettres'],
         correctAnswer: '23 lettres',
         explanation: 'L\'alphabet latin classique compte 23 lettres (pas de J, U, W).',
-        hints: ['Pas de J, U, W', '23']
+        hints: ['Pas de J, U, W', '23', 'La réponse est : 23 lettres']
       },
       {
         id: 'q2',
@@ -17358,7 +17358,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Toujours [k]', 'Comme en français', '[s] devant e/i', '[ch]'],
         correctAnswer: 'Toujours [k]',
         explanation: 'En latin classique, C se prononce toujours [k] : Caesar = [kaesar].',
-        hints: ['Dur', '[k]']
+        hints: ['Dur', 'Pense à ce que tu as appris', 'La réponse est : Toujours [k]']
       },
       {
         id: 'q3',
@@ -17367,7 +17367,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['[w] ou [ou]', '[v] comme en français', '[f]', '[b]'],
         correctAnswer: '[w] ou [ou]',
         explanation: 'V se prononce [w] en latin : Veni = [weni].',
-        hints: ['Comme "w" anglais', '[w]']
+        hints: ['Comme ', ' anglais', 'La réponse est : [w] ou [ou]']
       },
       {
         id: 'q4',
@@ -17376,7 +17376,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Senatus Populusque Romanus', 'Salus Populi Romani', 'Sic Placet Quaestor Rex', 'Sum Pater Quintus Rex'],
         correctAnswer: 'Senatus Populusque Romanus',
         explanation: '"Le Sénat et le Peuple romain" - devise de la République romaine.',
-        hints: ['Sénat', 'Peuple romain']
+        hints: ['Sénat', 'Peuple romain', 'La réponse est : Senatus Populusque Romanus']
       },
       {
         id: 'q5',
@@ -17385,7 +17385,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['[aé] ou [è]', '[a]', '[é]', '[i]'],
         correctAnswer: '[aé] ou [è]',
         explanation: 'La diphtongue AE se prononce [aé] ou [è] : Caesaris = [kaisaris] ou [késaris].',
-        hints: ['Diphtongue', '[aé]']
+        hints: ['Diphtongue', 'Pense à ce que tu as appris', 'La réponse est : [aé] ou [è]']
       },
       {
         id: 'q6',
@@ -17393,7 +17393,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'I',
         explanation: 'Le I latin devant voyelle a évolué en J : Iulius → Julius.',
-        hints: ['Voyelle', 'I']
+        hints: ['Voyelle', 'I', 'La réponse est : I']
       },
       {
         id: 'q7',
@@ -17402,7 +17402,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Toujours [g] dur', '[j] devant e/i', 'Comme en français', '[gn]'],
         correctAnswer: 'Toujours [g] dur',
         explanation: 'G se prononce toujours [g] dur : gens = [guèns].',
-        hints: ['Dur', '[g]']
+        hints: ['Dur', 'Pense à ce que tu as appris', 'La réponse est : Toujours [g] dur']
       },
       {
         id: 'q8',
@@ -17411,7 +17411,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Majuscules uniquement', 'Minuscules uniquement', 'Les deux', 'Ni l\'un ni l\'autre'],
         correctAnswer: 'Majuscules uniquement',
         explanation: 'Les Romains n\'utilisaient que les capitales. Les minuscules sont apparues au Moyen Âge.',
-        hints: ['Capitales', 'Majuscules']
+        hints: ['Capitales', 'Majuscules', 'La réponse est : Majuscules uniquement']
       },
       {
         id: 'q9',
@@ -17419,7 +17419,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'et les autres choses',
         explanation: '"Et cetera" = et les autres choses, et le reste.',
-        hints: ['Et', 'Les autres']
+        hints: ['Et', 'Les autres', 'La réponse est : et les autres choses']
       },
       {
         id: 'q10',
@@ -17427,7 +17427,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'X',
         explanation: 'X = 10 en chiffres romains.',
-        hints: ['Une lettre', 'X']
+        hints: ['Une lettre', 'X', 'La réponse est : X']
       }
     ]
   },
@@ -17450,7 +17450,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Féminin', 'Masculin', 'Neutre', 'Tous les genres'],
         correctAnswer: 'Féminin',
         explanation: 'La 1ère déclinaison contient principalement des noms féminins en -a.',
-        hints: ['Rosa', 'Féminin']
+        hints: ['Rosa', 'Féminin', 'La réponse est : Féminin']
       },
       {
         id: 'q2',
@@ -17459,7 +17459,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nominatif', 'Accusatif', 'Génitif', 'Datif'],
         correctAnswer: 'Nominatif',
         explanation: 'Le nominatif est le cas du sujet et de l\'attribut du sujet.',
-        hints: ['Sujet', 'Nominatif']
+        hints: ['Sujet', 'Nominatif', 'La réponse est : Nominatif']
       },
       {
         id: 'q3',
@@ -17467,7 +17467,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-a',
         explanation: 'Rosa, puella, terra... tous en -a au nominatif singulier.',
-        hints: ['Rosa', '-a']
+        hints: ['Rosa', '-a', 'La réponse est : -a']
       },
       {
         id: 'q4',
@@ -17476,7 +17476,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Accusatif', 'Nominatif', 'Génitif', 'Ablatif'],
         correctAnswer: 'Accusatif',
         explanation: 'L\'accusatif est le cas du complément d\'objet direct.',
-        hints: ['COD', 'Accusatif']
+        hints: ['COD', 'Accusatif', 'La réponse est : Accusatif']
       },
       {
         id: 'q5',
@@ -17484,7 +17484,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-am',
         explanation: 'Rosam, puellam, terram... tous en -am à l\'accusatif singulier.',
-        hints: ['Rosam', '-am']
+        hints: ['Rosam', '-am', 'La réponse est : -am']
       },
       {
         id: 'q6',
@@ -17493,7 +17493,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6 cas', '4 cas', '5 cas', '7 cas'],
         correctAnswer: '6 cas',
         explanation: 'Nominatif, vocatif, accusatif, génitif, datif, ablatif.',
-        hints: ['Six', '6']
+        hints: ['Six', '6', 'La réponse est : 6 cas']
       },
       {
         id: 'q7',
@@ -17502,7 +17502,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Génitif', 'Datif', 'Ablatif', 'Accusatif'],
         correctAnswer: 'Génitif',
         explanation: 'Le génitif exprime la possession : "la rose de la fille" = rosa puellae.',
-        hints: ['Possession', 'Génitif']
+        hints: ['Possession', 'Génitif', 'La réponse est : Génitif']
       },
       {
         id: 'q8',
@@ -17510,7 +17510,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-ae',
         explanation: 'Rosae, puellae, terrae... tous en -ae au génitif singulier.',
-        hints: ['Rosae', '-ae']
+        hints: ['Rosae', '-ae', 'La réponse est : -ae']
       },
       {
         id: 'q9',
@@ -17519,7 +17519,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La fille aime la rose', 'La rose aime la fille', 'Les filles aiment les roses', 'La fille est aimée'],
         correctAnswer: 'La fille aime la rose',
         explanation: 'Puella (nominatif) = sujet, rosam (accusatif) = COD.',
-        hints: ['Puella = sujet', 'Rosam = COD']
+        hints: ['Puella = sujet', 'Rosam = COD', 'La réponse est : La fille aime la rose']
       },
       {
         id: 'q10',
@@ -17527,7 +17527,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-ae',
         explanation: 'Rosae, puellae au nominatif pluriel (même forme que le génitif singulier).',
-        hints: ['Pluriel', '-ae']
+        hints: ['Pluriel', '-ae', 'La réponse est : -ae']
       }
     ]
   },
@@ -17550,7 +17550,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Eau', 'Air', 'Feu', 'Terre'],
         correctAnswer: 'Eau',
         explanation: '"Aqua" = eau. A donné aquarium, aquatique...',
-        hints: ['Aquatique', 'Eau']
+        hints: ['Aquatique', 'Eau', 'La réponse est : Eau']
       },
       {
         id: 'q2',
@@ -17558,7 +17558,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'terre',
         explanation: '"Terra" = terre. A donné terrain, terrestre, territoire...',
-        hints: ['Terrestre', 'Terre']
+        hints: ['Terrestre', 'Terre', 'La réponse est : terre']
       },
       {
         id: 'q3',
@@ -17567,7 +17567,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rosa', 'Flora', 'Silva', 'Via'],
         correctAnswer: 'Rosa',
         explanation: '"Rosa" = rose. C\'est le mot type de la 1ère déclinaison.',
-        hints: ['Rosacée', 'Rosa']
+        hints: ['Rosacée', 'Rosa', 'La réponse est : Rosa']
       },
       {
         id: 'q4',
@@ -17576,7 +17576,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fille/jeune fille', 'Femme', 'Mère', 'Sœur'],
         correctAnswer: 'Fille/jeune fille',
         explanation: '"Puella" = jeune fille. "Puer" = garçon.',
-        hints: ['Jeune', 'Fille']
+        hints: ['Jeune', 'Fille', 'La réponse est : Fille/jeune fille']
       },
       {
         id: 'q5',
@@ -17584,7 +17584,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'aimer',
         explanation: '"Amare" = aimer. A donné amour, amateur, amical...',
-        hints: ['Amour', 'Aimer']
+        hints: ['Amour', 'Aimer', 'La réponse est : aimer']
       },
       {
         id: 'q6',
@@ -17593,7 +17593,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vita', 'Via', 'Villa', 'Vinum'],
         correctAnswer: 'Vita',
         explanation: '"Vita" = vie. A donné vital, vitalité, vitamine...',
-        hints: ['Vital', 'Vita']
+        hints: ['Vital', 'Vita', 'La réponse est : Vita']
       },
       {
         id: 'q7',
@@ -17602,7 +17602,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['École', 'Salle', 'Maison', 'Ville'],
         correctAnswer: 'École',
         explanation: '"Schola" (du grec) = école. A donné scolaire, scolarité...',
-        hints: ['Scolaire', 'École']
+        hints: ['Scolaire', 'École', 'La réponse est : École']
       },
       {
         id: 'q8',
@@ -17610,7 +17610,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amicus',
         explanation: '"Amicus" = ami (masc.), "amica" = amie (fém.).',
-        hints: ['Amical', 'Amicus']
+        hints: ['Amical', 'Amicus', 'La réponse est : amicus']
       },
       {
         id: 'q9',
@@ -17619,7 +17619,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je vois', 'Je viens', 'Je vais', 'Je veux'],
         correctAnswer: 'Je vois',
         explanation: '"Video" = je vois. A donné vidéo, vision, évident...',
-        hints: ['Vision', 'Voir']
+        hints: ['Vision', 'Voir', 'La réponse est : Je vois']
       },
       {
         id: 'q10',
@@ -17627,7 +17627,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'j\'entends',
         explanation: '"Audio" = j\'entends. A donné audio, audition, auditoire...',
-        hints: ['Audition', 'Entendre']
+        hints: ['Audition', 'Entendre', 'La réponse est : j\'entends']
       }
     ]
   },
@@ -17650,7 +17650,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Masculin et neutre', 'Féminin uniquement', 'Masculin uniquement', 'Les trois genres'],
         correctAnswer: 'Masculin et neutre',
         explanation: 'La 2ème déclinaison : masculins en -us (dominus) et neutres en -um (templum).',
-        hints: ['Dominus', 'Templum']
+        hints: ['Dominus', 'Templum', 'La réponse est : Masculin et neutre']
       },
       {
         id: 'q2',
@@ -17658,7 +17658,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-us',
         explanation: 'Dominus, servus, amicus... tous en -us.',
-        hints: ['Dominus', '-us']
+        hints: ['Dominus', '-us', 'La réponse est : -us']
       },
       {
         id: 'q3',
@@ -17667,7 +17667,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils ont la même forme', 'Ils sont différents', 'Ils n\'existent pas', 'Ils sont irréguliers'],
         correctAnswer: 'Ils ont la même forme',
         explanation: 'Au neutre, nominatif = vocatif = accusatif. Ex: templum (sing.), templa (plur.).',
-        hints: ['Identiques', 'Même forme']
+        hints: ['Identiques', 'Même forme', 'La réponse est : Ils ont la même forme']
       },
       {
         id: 'q4',
@@ -17675,7 +17675,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-um',
         explanation: 'Dominum, servum, amicum... tous en -um à l\'accusatif singulier.',
-        hints: ['Dominum', '-um']
+        hints: ['Dominum', '-um', 'La réponse est : -um']
       },
       {
         id: 'q5',
@@ -17684,7 +17684,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Maître/seigneur', 'Esclave', 'Soldat', 'Ami'],
         correctAnswer: 'Maître/seigneur',
         explanation: '"Dominus" = maître, seigneur. A donné dominer, domination...',
-        hints: ['Dominer', 'Maître']
+        hints: ['Dominer', 'Maître', 'La réponse est : Maître/seigneur']
       },
       {
         id: 'q6',
@@ -17692,7 +17692,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-i',
         explanation: 'Domini, servi, amici, templi... tous en -i au génitif singulier.',
-        hints: ['Domini', '-i']
+        hints: ['Domini', '-i', 'La réponse est : -i']
       },
       {
         id: 'q7',
@@ -17701,7 +17701,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'esclave voit le maître', 'Le maître voit l\'esclave', 'Les esclaves voient', 'Le maître est vu'],
         correctAnswer: 'L\'esclave voit le maître',
         explanation: 'Servus (nominatif) = sujet, dominum (accusatif) = COD.',
-        hints: ['Servus = sujet', 'Dominum = COD']
+        hints: ['Servus = sujet', 'Dominum = COD', 'La réponse est : L\'esclave voit le maître']
       },
       {
         id: 'q8',
@@ -17710,7 +17710,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Deorum', 'Deis', 'Deos', 'Dei'],
         correctAnswer: 'Deorum',
         explanation: 'Le génitif pluriel de la 2ème déclinaison est en -orum.',
-        hints: ['Génitif pluriel', '-orum']
+        hints: ['Génitif pluriel', '-orum', 'La réponse est : Deorum']
       },
       {
         id: 'q9',
@@ -17718,7 +17718,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'guerre',
         explanation: '"Bellum" = guerre (neutre). A donné belliqueux, belligérant...',
-        hints: ['Belliqueux', 'Guerre']
+        hints: ['Belliqueux', 'Guerre', 'La réponse est : guerre']
       },
       {
         id: 'q10',
@@ -17726,7 +17726,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-a',
         explanation: 'Templa, bella, dona... Le pluriel neutre en -a.',
-        hints: ['Templa', '-a']
+        hints: ['Templa', '-a', 'La réponse est : -a']
       }
     ]
   },
@@ -17749,7 +17749,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5 conjugaisons', '3 conjugaisons', '4 conjugaisons', '2 conjugaisons'],
         correctAnswer: '5 conjugaisons',
         explanation: '5 conjugaisons : 1ère (-are), 2ème (-ere long), 3ème (-ere bref), 3ème mixte (-ere/-io), 4ème (-ire).',
-        hints: ['Cinq', '5']
+        hints: ['Cinq', '5', 'La réponse est : 5 conjugaisons']
       },
       {
         id: 'q2',
@@ -17757,7 +17757,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-o',
         explanation: 'Amo, video, lego, audio... Toutes les conjugaisons ont -o à la 1ère pers. sing.',
-        hints: ['Amo', '-o']
+        hints: ['Amo', '-o', 'La réponse est : -o']
       },
       {
         id: 'q3',
@@ -17765,7 +17765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amas',
         explanation: '1ère conjugaison : amo, amas, amat, amamus, amatis, amant.',
-        hints: ['Tu aimes', 'Amas']
+        hints: ['Tu aimes', 'Amas', 'La réponse est : amas']
       },
       {
         id: 'q4',
@@ -17774,7 +17774,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous lisons', 'Ils lisent', 'Vous lisez', 'Je lis'],
         correctAnswer: 'Nous lisons',
         explanation: '-mus est la terminaison de la 1ère personne du pluriel.',
-        hints: ['-mus', 'Nous']
+        hints: ['-mus', 'Nous', 'La réponse est : Nous lisons']
       },
       {
         id: 'q5',
@@ -17783,7 +17783,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-nt', '-mus', '-tis', '-t'],
         correctAnswer: '-nt',
         explanation: 'Amant, vident, legunt, audiunt... -nt pour "ils/elles".',
-        hints: ['Ils', '-nt']
+        hints: ['Ils', '-nt', 'La réponse est : -nt']
       },
       {
         id: 'q6',
@@ -17791,7 +17791,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'videt',
         explanation: '2ème conjugaison : video, vides, videt, videmus, videtis, vident.',
-        hints: ['Il voit', 'Videt']
+        hints: ['Il voit', 'Videt', 'La réponse est : videt']
       },
       {
         id: 'q7',
@@ -17800,7 +17800,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils entendent', 'Il entend', 'Nous entendons', 'Vous entendez'],
         correctAnswer: 'Ils entendent',
         explanation: '"Audiunt" = ils entendent. 4ème conjugaison, 3ème pers. pluriel.',
-        hints: ['-unt', 'Ils']
+        hints: ['-unt', 'Ils', 'La réponse est : Ils entendent']
       },
       {
         id: 'q8',
@@ -17808,7 +17808,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sum',
         explanation: '"Sum" = je suis. Esse est irrégulier : sum, es, est, sumus, estis, sunt.',
-        hints: ['Je suis', 'Sum']
+        hints: ['Je suis', 'Sum', 'La réponse est : sum']
       },
       {
         id: 'q9',
@@ -17817,7 +17817,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils sont', 'Il est', 'Nous sommes', 'Tu es'],
         correctAnswer: 'Ils sont',
         explanation: '"Sunt" = ils/elles sont. 3ème personne du pluriel de esse.',
-        hints: ['Esse', 'Ils sont']
+        hints: ['Esse', 'Ils sont', 'La réponse est : Ils sont']
       },
       {
         id: 'q10',
@@ -17825,7 +17825,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amatis',
         explanation: '-tis est la terminaison de la 2ème personne du pluriel.',
-        hints: ['Vous aimez', '-tis']
+        hints: ['Vous aimez', '-tis', 'La réponse est : amatis']
       }
     ]
   },
@@ -17848,7 +17848,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Jupiter', 'Mars', 'Neptune', 'Apollon'],
         correctAnswer: 'Jupiter',
         explanation: 'Jupiter (Zeus chez les Grecs) est le roi des dieux, dieu du ciel et de la foudre.',
-        hints: ['Zeus', 'Roi']
+        hints: ['Zeus', 'Roi', 'La réponse est : Jupiter']
       },
       {
         id: 'q2',
@@ -17856,7 +17856,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Junon',
         explanation: 'Junon (Héra chez les Grecs) est la déesse du mariage et de la famille.',
-        hints: ['Héra', 'Épouse']
+        hints: ['Héra', 'Épouse', 'La réponse est : Junon']
       },
       {
         id: 'q3',
@@ -17865,7 +17865,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La guerre', 'La mer', 'Le feu', 'L\'amour'],
         correctAnswer: 'La guerre',
         explanation: 'Mars (Arès) est le dieu de la guerre. Le mois de mars porte son nom.',
-        hints: ['Martial', 'Guerre']
+        hints: ['Martial', 'Guerre', 'La réponse est : La guerre']
       },
       {
         id: 'q4',
@@ -17874,7 +17874,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vénus', 'Diane', 'Minerve', 'Cérès'],
         correctAnswer: 'Vénus',
         explanation: 'Vénus (Aphrodite) est la déesse de l\'amour et de la beauté.',
-        hints: ['Aphrodite', 'Beauté']
+        hints: ['Aphrodite', 'Beauté', 'La réponse est : Vénus']
       },
       {
         id: 'q5',
@@ -17882,7 +17882,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'la mer',
         explanation: 'Neptune (Poséidon) est le dieu de la mer et des océans.',
-        hints: ['Poséidon', 'Océan']
+        hints: ['Poséidon', 'Océan', 'La réponse est : la mer']
       },
       {
         id: 'q6',
@@ -17891,7 +17891,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pluton', 'Vulcain', 'Mercure', 'Saturne'],
         correctAnswer: 'Pluton',
         explanation: 'Pluton (Hadès) règne sur les Enfers, le royaume des morts.',
-        hints: ['Hadès', 'Morts']
+        hints: ['Hadès', 'Morts', 'La réponse est : Pluton']
       },
       {
         id: 'q7',
@@ -17900,7 +17900,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La sagesse et des arts', 'La chasse', 'L\'agriculture', 'La lune'],
         correctAnswer: 'La sagesse et des arts',
         explanation: 'Minerve (Athéna) est la déesse de la sagesse, des arts et de la guerre stratégique.',
-        hints: ['Athéna', 'Sagesse']
+        hints: ['Athéna', 'Sagesse', 'La réponse est : La sagesse et des arts']
       },
       {
         id: 'q8',
@@ -17908,7 +17908,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Mercure',
         explanation: 'Mercure (Hermès) est le messager des dieux, dieu du commerce et des voyageurs.',
-        hints: ['Hermès', 'Messager']
+        hints: ['Hermès', 'Messager', 'La réponse est : Mercure']
       },
       {
         id: 'q9',
@@ -17917,7 +17917,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La chasse et de la lune', 'L\'amour', 'La mer', 'La terre'],
         correctAnswer: 'La chasse et de la lune',
         explanation: 'Diane (Artémis) est la déesse de la chasse et de la lune.',
-        hints: ['Artémis', 'Chasse']
+        hints: ['Artémis', 'Chasse', 'La réponse est : La chasse et de la lune']
       },
       {
         id: 'q10',
@@ -17926,7 +17926,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le feu et la forge', 'La guerre', 'Le vin', 'La mer'],
         correctAnswer: 'Le feu et la forge',
         explanation: 'Vulcain (Héphaïstos) est le dieu du feu et de la forge. A donné "volcan".',
-        hints: ['Héphaïstos', 'Forge']
+        hints: ['Héphaïstos', 'Forge', 'La réponse est : Le feu et la forge']
       }
     ]
   },
@@ -17949,7 +17949,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle contient les 3 genres', 'Elle est uniquement féminine', 'Elle n\'a pas de neutre', 'Elle est régulière'],
         correctAnswer: 'Elle contient les 3 genres',
         explanation: 'La 3ème déclinaison contient masculin, féminin et neutre.',
-        hints: ['Trois genres', 'Variée']
+        hints: ['Trois genres', 'Variée', 'La réponse est : Elle contient les 3 genres']
       },
       {
         id: 'q2',
@@ -17958,7 +17958,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Au génitif singulier', 'Au nominatif', 'À l\'accusatif', 'Au datif'],
         correctAnswer: 'Au génitif singulier',
         explanation: 'Le radical se trouve en enlevant la terminaison -is du génitif singulier.',
-        hints: ['Génitif', 'Radical']
+        hints: ['Génitif', 'Radical', 'La réponse est : Au génitif singulier']
       },
       {
         id: 'q3',
@@ -17966,7 +17966,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-is',
         explanation: 'Regis, consulis, temporis... tous en -is au génitif singulier.',
-        hints: ['Regis', '-is']
+        hints: ['Regis', '-is', 'La réponse est : -is']
       },
       {
         id: 'q4',
@@ -17975,7 +17975,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Roi', 'Loi', 'Droit', 'Chef'],
         correctAnswer: 'Roi',
         explanation: '"Rex, regis" (m.) = roi. A donné régal, régner, royal...',
-        hints: ['Royal', 'Roi']
+        hints: ['Royal', 'Roi', 'La réponse est : Roi']
       },
       {
         id: 'q5',
@@ -17983,7 +17983,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-em',
         explanation: 'Regem, legem, consulem... -em à l\'accusatif singulier.',
-        hints: ['Regem', '-em']
+        hints: ['Regem', '-em', 'La réponse est : -em']
       },
       {
         id: 'q6',
@@ -17992,7 +17992,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Temps', 'Temple', 'Tête', 'Terre'],
         correctAnswer: 'Temps',
         explanation: '"Tempus, temporis" (n.) = temps. A donné temporel, temporaire...',
-        hints: ['Temporel', 'Temps']
+        hints: ['Temporel', 'Temps', 'La réponse est : Temps']
       },
       {
         id: 'q7',
@@ -18000,7 +18000,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: '-a',
         explanation: 'Tempora, corpora, nomina... -a au pluriel neutre.',
-        hints: ['Tempora', '-a']
+        hints: ['Tempora', '-a', 'La réponse est : -a']
       },
       {
         id: 'q8',
@@ -18009,7 +18009,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le consul voit le roi', 'Le roi voit le consul', 'Les consuls voient', 'Le roi est consul'],
         correctAnswer: 'Le consul voit le roi',
         explanation: 'Consul (nominatif) = sujet, regem (accusatif) = COD.',
-        hints: ['Consul = sujet', 'Regem = COD']
+        hints: ['Consul = sujet', 'Regem = COD', 'La réponse est : Le consul voit le roi']
       },
       {
         id: 'q9',
@@ -18017,7 +18017,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'loi',
         explanation: '"Lex, legis" (f.) = loi. A donné légal, législation, légitime...',
-        hints: ['Légal', 'Loi']
+        hints: ['Légal', 'Loi', 'La réponse est : loi']
       },
       {
         id: 'q10',
@@ -18026,7 +18026,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-um', '-orum', '-arum', '-ibus'],
         correctAnswer: '-um',
         explanation: 'Regum, legum, temporum... -um au génitif pluriel.',
-        hints: ['Regum', '-um']
+        hints: ['Regum', '-um', 'La réponse est : -um']
       }
     ]
   },
@@ -18049,7 +18049,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-ba-', '-bi-', '-bo-', '-be-'],
         correctAnswer: '-ba-',
         explanation: 'L\'imparfait se forme avec le suffixe -ba- : amabam, videbam...',
-        hints: ['Amabam', '-ba-']
+        hints: ['Amabam', '-ba-', 'La réponse est : -ba-']
       },
       {
         id: 'q2',
@@ -18057,7 +18057,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amabam',
         explanation: '"Amabam" = j\'aimais. Radical + ba + m.',
-        hints: ['J\'aimais', 'Amabam']
+        hints: ['J\'aimais', 'Amabam', 'La réponse est : amabam']
       },
       {
         id: 'q3',
@@ -18066,7 +18066,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous voyions', 'Ils voyaient', 'Vous voyiez', 'Je voyais'],
         correctAnswer: 'Nous voyions',
         explanation: '-mus = 1ère personne du pluriel. "Videbamus" = nous voyions.',
-        hints: ['-mus', 'Nous']
+        hints: ['-mus', 'Nous', 'La réponse est : Nous voyions']
       },
       {
         id: 'q4',
@@ -18075,7 +18075,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Radical du parfait + terminaisons', 'Présent + -ba-', 'Auxiliaire + participe', 'Infinitif + terminaisons'],
         correctAnswer: 'Radical du parfait + terminaisons',
         explanation: 'Le parfait a son propre radical : amav- (amare), vid- (videre)...',
-        hints: ['Radical spécial', 'Parfait']
+        hints: ['Radical spécial', 'Parfait', 'La réponse est : Radical du parfait + terminaisons']
       },
       {
         id: 'q5',
@@ -18083,7 +18083,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amavi',
         explanation: '"Amavi" = j\'ai aimé / j\'aimai. Radical amav- + i.',
-        hints: ['J\'ai aimé', 'Amavi']
+        hints: ['J\'ai aimé', 'Amavi', 'La réponse est : amavi']
       },
       {
         id: 'q6',
@@ -18092,7 +18092,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-i, -isti, -it, -imus, -istis, -erunt', '-o, -s, -t, -mus, -tis, -nt', '-m, -s, -t, -mus, -tis, -nt', '-am, -as, -at, -amus, -atis, -ant'],
         correctAnswer: '-i, -isti, -it, -imus, -istis, -erunt',
         explanation: 'Le parfait a des terminaisons propres : -i, -isti, -it, -imus, -istis, -erunt.',
-        hints: ['-i, -isti', 'Terminaisons']
+        hints: ['-i, -isti', 'Terminaisons', 'La réponse est : -i, -isti, -it, -imus, -istis, -erunt']
       },
       {
         id: 'q7',
@@ -18101,7 +18101,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils ont vu', 'Nous avons vu', 'Vous avez vu', 'J\'ai vu'],
         correctAnswer: 'Ils ont vu',
         explanation: '-erunt = 3ème personne du pluriel du parfait.',
-        hints: ['-erunt', 'Ils']
+        hints: ['-erunt', 'Ils', 'La réponse est : Ils ont vu']
       },
       {
         id: 'q8',
@@ -18109,7 +18109,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'fuit',
         explanation: '"Fuit" = il fut / il a été. Esse → fui, fuisti, fuit...',
-        hints: ['Il fut', 'Fuit']
+        hints: ['Il fut', 'Fuit', 'La réponse est : fuit']
       },
       {
         id: 'q9',
@@ -18118,7 +18118,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dicere (dire)', 'Ducere (conduire)', 'Dare (donner)', 'Docere (enseigner)'],
         correctAnswer: 'Dicere (dire)',
         explanation: 'Dicere → parfait dix- : dixi, dixisti, dixit, diximus, dixistis, dixerunt.',
-        hints: ['Dire', 'Dix-']
+        hints: ['Dire', 'Dix-', 'La réponse est : Dicere (dire)']
       },
       {
         id: 'q10',
@@ -18126,7 +18126,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'videbant',
         explanation: '"Videbant" = ils voyaient. Radical + eba + nt.',
-        hints: ['Ils voyaient', '-bant']
+        hints: ['Ils voyaient', '-bant', 'La réponse est : videbant']
       }
     ]
   },
@@ -18149,7 +18149,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Romulus', 'Rémus', 'Énée', 'César'],
         correctAnswer: 'Romulus',
         explanation: 'Romulus, après avoir tué son frère Rémus, fonde Rome sur le Palatin.',
-        hints: ['Frère de Rémus', 'Fondateur']
+        hints: ['Frère de Rémus', 'Fondateur', 'La réponse est : Romulus']
       },
       {
         id: 'q2',
@@ -18157,7 +18157,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Tarquin le Superbe',
         explanation: 'Tarquin le Superbe fut chassé en 509 av. J.-C., fin de la royauté.',
-        hints: ['Tarquin', 'Superbe']
+        hints: ['Tarquin', 'Superbe', 'La réponse est : Tarquin le Superbe']
       },
       {
         id: 'q3',
@@ -18166,7 +18166,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Royauté, République, Empire', 'Antiquité, Moyen Âge, Renaissance', 'Fondation, Expansion, Déclin', 'Monarchie, Démocratie, Dictature'],
         correctAnswer: 'Royauté, République, Empire',
         explanation: 'Royauté (753-509), République (509-27), Empire (27 av. J.-C. - 476 ap. J.-C.).',
-        hints: ['Trois', 'Royauté']
+        hints: ['Trois', 'Royauté', 'La réponse est : Royauté, République, Empire']
       },
       {
         id: 'q4',
@@ -18175,7 +18175,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Jules César', 'Auguste', 'Pompée', 'Cicéron'],
         correctAnswer: 'Jules César',
         explanation: 'César franchit le Rubicon avec son armée, déclenchant la guerre civile.',
-        hints: ['Alea jacta est', 'César']
+        hints: ['Alea jacta est', 'César', 'La réponse est : Jules César']
       },
       {
         id: 'q5',
@@ -18183,7 +18183,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Auguste',
         explanation: 'Auguste (Octave) devint le premier empereur en 27 av. J.-C.',
-        hints: ['Octave', 'Premier']
+        hints: ['Octave', 'Premier', 'La réponse est : Auguste']
       },
       {
         id: 'q6',
@@ -18192,7 +18192,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['410 ap. J.-C.', '476 ap. J.-C.', '395 ap. J.-C.', '455 ap. J.-C.'],
         correctAnswer: '410 ap. J.-C.',
         explanation: 'Alaric Ier et les Wisigoths saccagent Rome en 410.',
-        hints: ['Ve siècle', '410']
+        hints: ['Ve siècle', '410', 'La réponse est : 410 ap. J.-C.']
       },
       {
         id: 'q7',
@@ -18201,7 +18201,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je suis venu, j\'ai vu, j\'ai vaincu', 'Je vis, je vois, je vaincs', 'Venir, voir, vaincre', 'Il vint, il vit, il vainquit'],
         correctAnswer: 'Je suis venu, j\'ai vu, j\'ai vaincu',
         explanation: 'Phrase célèbre de César après sa victoire rapide à Zéla (47 av. J.-C.).',
-        hints: ['César', 'Victoire']
+        hints: ['César', 'Victoire', 'La réponse est : Je suis venu, j\'ai vu, j\'ai vaincu']
       },
       {
         id: 'q8',
@@ -18209,7 +18209,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Hannibal',
         explanation: 'Hannibal Barca traversa les Alpes avec ses éléphants pendant la 2e guerre punique.',
-        hints: ['Carthage', 'Éléphants']
+        hints: ['Carthage', 'Éléphants', 'La réponse est : Hannibal']
       },
       {
         id: 'q9',
@@ -18218,7 +18218,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La frontière fortifiée de l\'Empire', 'Une monnaie romaine', 'Un grade militaire', 'Un type de route'],
         correctAnswer: 'La frontière fortifiée de l\'Empire',
         explanation: 'Le limes était la ligne de fortifications marquant les frontières de l\'Empire.',
-        hints: ['Limite', 'Frontière']
+        hints: ['Limite', 'Frontière', 'La réponse est : La frontière fortifiée de l\'Empire']
       },
       {
         id: 'q10',
@@ -18227,7 +18227,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['476 ap. J.-C.', '410 ap. J.-C.', '395 ap. J.-C.', '500 ap. J.-C.'],
         correctAnswer: '476 ap. J.-C.',
         explanation: 'Le dernier empereur Romulus Augustule est déposé par Odoacre en 476.',
-        hints: ['Ve siècle', 'Fin']
+        hints: ['Ve siècle', 'Fin', 'La réponse est : 476 ap. J.-C.']
       }
     ]
   },
@@ -18250,7 +18250,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-e-', '-a-', '-i-', '-u-'],
         correctAnswer: '-e-',
         explanation: 'La 1ère conjugaison utilise -e- au subjonctif présent : amem, ames, amet...',
-        hints: ['Amem', '-e-']
+        hints: ['Amem', '-e-', 'La réponse est : -e-']
       },
       {
         id: 'q2',
@@ -18258,7 +18258,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'amem',
         explanation: '"Amem" = que j\'aime. 1ère conj. : radical + e + terminaisons.',
-        hints: ['Que j\'aime', 'Amem']
+        hints: ['Que j\'aime', 'Amem', 'La réponse est : amem']
       },
       {
         id: 'q3',
@@ -18267,7 +18267,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-a-', '-e-', '-i-', '-o-'],
         correctAnswer: '-a-',
         explanation: 'Les autres conjugaisons utilisent -a- : videam, legam, audiam...',
-        hints: ['Videam', '-a-']
+        hints: ['Videam', '-a-', 'La réponse est : -a-']
       },
       {
         id: 'q4',
@@ -18276,7 +18276,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pour qu\'il vienne', 'Il vient', 'Qu\'il vienne', 'S\'il venait'],
         correctAnswer: 'Pour qu\'il vienne',
         explanation: '"Ut" + subjonctif exprime le but. "Ut veniat" = pour qu\'il vienne.',
-        hints: ['Ut', 'But']
+        hints: ['Ut', 'But', 'La réponse est : Pour qu\'il vienne']
       },
       {
         id: 'q5',
@@ -18285,7 +18285,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['-re-', '-ba-', '-bi-', '-se-'],
         correctAnswer: '-re-',
         explanation: 'Le subjonctif imparfait = infinitif présent + terminaisons : amarem, viderem...',
-        hints: ['Amarem', 'Infinitif']
+        hints: ['Amarem', 'Infinitif', 'La réponse est : -re-']
       },
       {
         id: 'q6',
@@ -18293,7 +18293,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'viderem',
         explanation: '"Viderem" = que je visse. Infinitif videre + m.',
-        hints: ['Que je visse', 'Viderem']
+        hints: ['Que je visse', 'Viderem', 'La réponse est : viderem']
       },
       {
         id: 'q7',
@@ -18302,7 +18302,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comme il était venu', 'Quand il viendra', 'S\'il venait', 'Pour qu\'il vienne'],
         correctAnswer: 'Comme il était venu',
         explanation: '"Cum" + subjonctif plus-que-parfait = circonstance passée.',
-        hints: ['Cum', 'Plus-que-parfait']
+        hints: ['Cum', 'Plus-que-parfait', 'La réponse est : Comme il était venu']
       },
       {
         id: 'q8',
@@ -18311,7 +18311,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le souhait, le but, l\'ordre', 'Uniquement le souhait', 'Uniquement le but', 'Uniquement l\'ordre'],
         correctAnswer: 'Le souhait, le but, l\'ordre',
         explanation: 'Le subjonctif latin a de nombreux emplois : souhait, but, ordre, concession...',
-        hints: ['Multiple', 'Plusieurs emplois']
+        hints: ['Multiple', 'Plusieurs emplois', 'La réponse est : Le souhait, le but, l\'ordre']
       },
       {
         id: 'q9',
@@ -18320,7 +18320,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pourvu qu\'il vienne !', 'Il vient !', 'Qu\'il vienne !', 'S\'il venait !'],
         correctAnswer: 'Pourvu qu\'il vienne !',
         explanation: '"Utinam" + subjonctif exprime le souhait.',
-        hints: ['Utinam', 'Souhait']
+        hints: ['Utinam', 'Souhait', 'La réponse est : Pourvu qu\'il vienne !']
       },
       {
         id: 'q10',
@@ -18328,7 +18328,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'sit',
         explanation: '"Sit" = qu\'il soit. Esse au subj. prés. : sim, sis, sit, simus, sitis, sint.',
-        hints: ['Qu\'il soit', 'Sit']
+        hints: ['Qu\'il soit', 'Sit', 'La réponse est : sit']
       }
     ]
   },
@@ -18351,7 +18351,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ut', 'Quod', 'Si', 'Cum'],
         correctAnswer: 'Ut',
         explanation: '"Ut" + subjonctif introduit une proposition de but : "Venit ut videat" = Il vient pour voir.',
-        hints: ['But', 'Ut']
+        hints: ['But', 'Ut', 'La réponse est : Ut']
       },
       {
         id: 'q2',
@@ -18360,7 +18360,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je dis que tu viens', 'Je te dis de venir', 'Tu dis que je viens', 'Dis-moi que tu viens'],
         correctAnswer: 'Je dis que tu viens',
         explanation: 'Proposition infinitive : accusatif sujet (te) + infinitif (venire).',
-        hints: ['Infinitive', 'Accusatif + infinitif']
+        hints: ['Infinitive', 'Accusatif + infinitif', 'La réponse est : Je dis que tu viens']
       },
       {
         id: 'q3',
@@ -18369,7 +18369,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand/lorsque', 'Bien que', 'Pour que', 'Si'],
         correctAnswer: 'Quand/lorsque',
         explanation: '"Cum" + indicatif = quand (temps). "Cum" + subjonctif = comme, alors que.',
-        hints: ['Temps', 'Quand']
+        hints: ['Temps', 'Quand', 'La réponse est : Quand/lorsque']
       },
       {
         id: 'q4',
@@ -18378,7 +18378,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Conditionnelle (potentiel)', 'Finale', 'Causale', 'Concessive'],
         correctAnswer: 'Conditionnelle (potentiel)',
         explanation: 'Si + subjonctif présent = condition possible (potentiel).',
-        hints: ['Si', 'Condition']
+        hints: ['Si', 'Condition', 'La réponse est : Conditionnelle (potentiel)']
       },
       {
         id: 'q5',
@@ -18386,7 +18386,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'infinitif',
         explanation: 'La proposition infinitive a son verbe à l\'infinitif et son sujet à l\'accusatif.',
-        hints: ['Accusatif + infinitif', 'Infinitif']
+        hints: ['Accusatif + infinitif', 'Infinitif', 'La réponse est : infinitif']
       },
       {
         id: 'q6',
@@ -18395,7 +18395,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Causale', 'Finale', 'Conditionnelle', 'Concessive'],
         correctAnswer: 'Causale',
         explanation: '"Quod" + indicatif = parce que (cause réelle).',
-        hints: ['Cause', 'Parce que']
+        hints: ['Cause', 'Parce que', 'La réponse est : Causale']
       },
       {
         id: 'q7',
@@ -18404,7 +18404,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je crains qu\'il ne vienne', 'Je crains qu\'il ne vienne pas', 'J\'espère qu\'il vient', 'Je sais qu\'il vient'],
         correctAnswer: 'Je crains qu\'il ne vienne',
         explanation: 'Après verbes de crainte, "ne" = que (craint), "ne non" = que ne pas.',
-        hints: ['Crainte', 'Ne']
+        hints: ['Crainte', 'Ne', 'La réponse est : Je crains qu\'il ne vienne']
       },
       {
         id: 'q8',
@@ -18412,7 +18412,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'proposition infinitive',
         explanation: 'La proposition infinitive est caractéristique du latin.',
-        hints: ['Infinitive', 'Accusatif']
+        hints: ['Infinitive', 'Accusatif', 'La réponse est : proposition infinitive']
       },
       {
         id: 'q9',
@@ -18421,7 +18421,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Concessive', 'Causale', 'Finale', 'Conditionnelle'],
         correctAnswer: 'Concessive',
         explanation: '"Quamquam" + indicatif = bien que, quoique (concession).',
-        hints: ['Bien que', 'Concession']
+        hints: ['Bien que', 'Concession', 'La réponse est : Concessive']
       },
       {
         id: 'q10',
@@ -18430,7 +18430,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quand il vint, je fus heureux', 'Où il vient, je suis heureux', 'S\'il venait, je serais heureux', 'Pour qu\'il vienne'],
         correctAnswer: 'Quand il vint, je fus heureux',
         explanation: '"Ubi" + indicatif parfait = quand (temps ponctuel passé).',
-        hints: ['Ubi', 'Quand']
+        hints: ['Ubi', 'Quand', 'La réponse est : Quand il vint, je fus heureux']
       }
     ]
   },
@@ -18453,7 +18453,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Virgile', 'Homère', 'Ovide', 'Horace'],
         correctAnswer: 'Virgile',
         explanation: 'Virgile (70-19 av. J.-C.) a écrit l\'Énéide, épopée fondatrice de Rome.',
-        hints: ['Épopée', 'Énée']
+        hints: ['Épopée', 'Énée', 'La réponse est : Virgile']
       },
       {
         id: 'q2',
@@ -18461,7 +18461,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'César',
         explanation: 'Jules César a écrit ses Commentaires sur la Guerre des Gaules.',
-        hints: ['Gaules', 'Général']
+        hints: ['Gaules', 'Général', 'La réponse est : César']
       },
       {
         id: 'q3',
@@ -18470,7 +18470,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ovide', 'Virgile', 'Tite-Live', 'Cicéron'],
         correctAnswer: 'Ovide',
         explanation: 'Ovide (43 av. J.-C. - 17 ap. J.-C.) a écrit les Métamorphoses, recueil de mythes.',
-        hints: ['Mythologie', 'Transformations']
+        hints: ['Mythologie', 'Transformations', 'La réponse est : Ovide']
       },
       {
         id: 'q4',
@@ -18479,7 +18479,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Cicéron', 'César', 'Sénèque', 'Pline'],
         correctAnswer: 'Cicéron',
         explanation: 'Cicéron (106-43 av. J.-C.) est le maître de l\'éloquence latine.',
-        hints: ['Orateur', 'Éloquence']
+        hints: ['Orateur', 'Éloquence', 'La réponse est : Cicéron']
       },
       {
         id: 'q5',
@@ -18487,7 +18487,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Sénèque',
         explanation: 'Sénèque (4 av. J.-C. - 65 ap. J.-C.), philosophe stoïcien et précepteur de Néron.',
-        hints: ['Stoïcien', 'Néron']
+        hints: ['Stoïcien', 'Néron', 'La réponse est : Sénèque']
       },
       {
         id: 'q6',
@@ -18496,7 +18496,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tite-Live', 'Tacite', 'Suétone', 'Salluste'],
         correctAnswer: 'Tite-Live',
         explanation: 'Tite-Live a écrit "Depuis la fondation de la Ville", histoire de Rome.',
-        hints: ['Histoire', 'Rome']
+        hints: ['Histoire', 'Rome', 'La réponse est : Tite-Live']
       },
       {
         id: 'q7',
@@ -18505,7 +18505,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Tacite', 'Tite-Live', 'Suétone', 'Cicéron'],
         correctAnswer: 'Tacite',
         explanation: 'Tacite (55-120 ap. J.-C.) est l\'historien des premiers empereurs.',
-        hints: ['Empereurs', 'Historien']
+        hints: ['Empereurs', 'Historien', 'La réponse est : Tacite']
       },
       {
         id: 'q8',
@@ -18513,7 +18513,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         type: 'fill-blank',
         correctAnswer: 'Horace',
         explanation: 'Horace (65-8 av. J.-C.), poète ami de Virgile et protégé de Mécène.',
-        hints: ['Mécène', 'Odes']
+        hints: ['Mécène', 'Odes', 'La réponse est : Horace']
       },
       {
         id: 'q9',
@@ -18522,7 +18522,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Suétone', 'Tacite', 'Tite-Live', 'Pline'],
         correctAnswer: 'Suétone',
         explanation: 'Suétone (70-122 ap. J.-C.) a écrit les biographies des premiers empereurs.',
-        hints: ['Césars', 'Biographies']
+        hints: ['Césars', 'Biographies', 'La réponse est : Suétone']
       },
       {
         id: 'q10',
@@ -18531,7 +18531,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Horace', 'Virgile', 'Ovide', 'Cicéron'],
         correctAnswer: 'Horace',
         explanation: '"Carpe diem" vient des Odes d\'Horace : profite du moment présent.',
-        hints: ['Odes', 'Moment présent']
+        hints: ['Odes', 'Moment présent', 'La réponse est : Horace']
       }
     ]
   },
@@ -18558,7 +18558,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['28 lettres', '26 lettres', '30 lettres', '24 lettres'],
         correctAnswer: '28 lettres',
         explanation: 'L\'alphabet arabe compte 28 lettres, toutes des consonnes.',
-        hints: ['Plus que le français', '28']
+        hints: ['Plus que le français', '28', 'La réponse est : 28 lettres']
       },
       {
         id: 'q2',
@@ -18567,7 +18567,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De droite à gauche', 'De gauche à droite', 'De haut en bas', 'De bas en haut'],
         correctAnswer: 'De droite à gauche',
         explanation: 'L\'arabe s\'écrit et se lit de droite à gauche.',
-        hints: ['Contraire du français', 'Droite à gauche']
+        hints: ['Contraire du français', 'Droite à gauche', 'La réponse est : De droite à gauche']
       },
       {
         id: 'q3',
@@ -18576,7 +18576,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Alif (ا)', 'Ba (ب)', 'Ta (ت)', 'Jim (ج)'],
         correctAnswer: 'Alif (ا)',
         explanation: 'Alif (ا) est la première lettre, équivalent de notre A.',
-        hints: ['Première', 'A']
+        hints: ['Première', 'A', 'La réponse est : Alif (ا)']
       },
       {
         id: 'q4',
@@ -18585,7 +18585,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les tashkil/voyelles', 'Les hamza', 'Les points', 'Les barres'],
         correctAnswer: 'Les tashkil/voyelles',
         explanation: 'Les tashkil (harakât) sont les signes diacritiques pour les voyelles courtes.',
-        hints: ['Voyelles', 'Tashkil']
+        hints: ['Voyelles', 'Tashkil', 'La réponse est : Les tashkil/voyelles']
       },
       {
         id: 'q5',
@@ -18594,7 +18594,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['4 positions', '2 positions', '3 positions', '1 position'],
         correctAnswer: '4 positions',
         explanation: 'Isolée, initiale, médiane, finale - la lettre change de forme selon sa position.',
-        hints: ['Plusieurs formes', '4']
+        hints: ['Plusieurs formes', '4', 'La réponse est : 4 positions']
       },
       {
         id: 'q6',
@@ -18603,7 +18603,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fatha (ـَ)', 'Kasra (ـِ)', 'Damma (ـُ)', 'Sukun (ـْ)'],
         correctAnswer: 'Fatha (ـَ)',
         explanation: 'La fatha est un petit trait au-dessus de la lettre qui donne le son "a".',
-        hints: ['Son "a"', 'Trait au-dessus']
+        hints: ['Son "a"', 'Trait au-dessus', 'La réponse est : Fatha (ـَ)']
       },
       {
         id: 'q7',
@@ -18612,7 +18612,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il n\'y a pas de distinction', 'Majuscules uniquement', 'Minuscules uniquement', 'Les deux existent'],
         correctAnswer: 'Il n\'y a pas de distinction',
         explanation: 'L\'arabe ne fait pas de distinction majuscule/minuscule.',
-        hints: ['Pas de différence', 'Une seule forme']
+        hints: ['Pas de différence', 'Une seule forme', 'La réponse est : Il n\'y a pas de distinction']
       },
       {
         id: 'q8',
@@ -18621,7 +18621,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ba (ب)', 'Ta (ت)', 'Tha (ث)', 'Nun (ن)'],
         correctAnswer: 'Ba (ب)',
         explanation: 'Ba (ب) est la deuxième lettre, avec un point en dessous.',
-        hints: ['Deuxième lettre', 'Un point en bas']
+        hints: ['Deuxième lettre', 'Un point en bas', 'La réponse est : Ba (ب)']
       },
       {
         id: 'q9',
@@ -18630,7 +18630,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pas de voyelle', 'Voyelle "a"', 'Voyelle "i"', 'Voyelle "ou"'],
         correctAnswer: 'Pas de voyelle',
         explanation: 'Le sukun (petit cercle) indique l\'absence de voyelle après la consonne.',
-        hints: ['Silence', 'Pas de voyelle']
+        hints: ['Silence', 'Pas de voyelle', 'La réponse est : Pas de voyelle']
       },
       {
         id: 'q10',
@@ -18639,7 +18639,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Non, de gauche à droite', 'Oui, de droite à gauche', 'De haut en bas', 'Dans les deux sens'],
         correctAnswer: 'Non, de gauche à droite',
         explanation: 'Les chiffres s\'écrivent de gauche à droite, même en arabe.',
-        hints: ['Nombres', 'Gauche à droite']
+        hints: ['Nombres', 'Gauche à droite', 'La réponse est : Non, de gauche à droite']
       }
     ]
   },
@@ -18662,7 +18662,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['As-salamu alaykum', 'Marhaba', 'Sabah al-khayr', 'Masa\' al-khayr'],
         correctAnswer: 'As-salamu alaykum',
         explanation: '"السلام عليكم" (As-salamu alaykum) = Que la paix soit sur vous.',
-        hints: ['Paix', 'Salutation islamique']
+        hints: ['Paix', 'Salutation islamique', 'La réponse est : As-salamu alaykum']
       },
       {
         id: 'q2',
@@ -18671,7 +18671,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Wa alaykum as-salam', 'Shukran', 'Marhaba', 'Afwan'],
         correctAnswer: 'Wa alaykum as-salam',
         explanation: '"وعليكم السلام" = Et que la paix soit sur vous aussi.',
-        hints: ['Et sur vous', 'Réponse']
+        hints: ['Et sur vous', 'Réponse', 'La réponse est : Wa alaykum as-salam']
       },
       {
         id: 'q3',
@@ -18680,7 +18680,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sabah al-khayr', 'Masa\' al-khayr', 'Marhaba', 'Ahlan'],
         correctAnswer: 'Sabah al-khayr',
         explanation: '"صباح الخير" (Sabah al-khayr) = Bonjour (le matin).',
-        hints: ['Matin', 'Sabah']
+        hints: ['Matin', 'Sabah', 'La réponse est : Sabah al-khayr']
       },
       {
         id: 'q4',
@@ -18689,7 +18689,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ismi...', 'Ana...', 'Huwa...', 'Anta...'],
         correctAnswer: 'Ismi...',
         explanation: '"اسمي" (Ismi) = Mon nom est...',
-        hints: ['Nom', 'Ismi']
+        hints: ['Nom', 'Ismi', 'La réponse est : Ismi...']
       },
       {
         id: 'q5',
@@ -18698,7 +18698,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Merci', 'S\'il vous plaît', 'De rien', 'Au revoir'],
         correctAnswer: 'Merci',
         explanation: '"شكراً" (Shukran) = Merci.',
-        hints: ['Gratitude', 'Shukran']
+        hints: ['Gratitude', 'Shukran', 'La réponse est : Merci']
       },
       {
         id: 'q6',
@@ -18707,7 +18707,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Masa\' al-khayr', 'Sabah al-khayr', 'Layla sa\'ida', 'Marhaba'],
         correctAnswer: 'Masa\' al-khayr',
         explanation: '"مساء الخير" (Masa\' al-khayr) = Bonsoir.',
-        hints: ['Soir', 'Masa']
+        hints: ['Soir', 'Masa', 'La réponse est : Masa\' al-khayr']
       },
       {
         id: 'q7',
@@ -18716,7 +18716,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De rien / Pardon', 'Merci', 'Bonjour', 'Au revoir'],
         correctAnswer: 'De rien / Pardon',
         explanation: '"عفواً" (Afwan) = De rien / Excuse-moi.',
-        hints: ['Réponse à shukran', 'Pardon']
+        hints: ['Réponse à shukran', 'Pardon', 'La réponse est : De rien / Pardon']
       },
       {
         id: 'q8',
@@ -18725,7 +18725,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Kayfa haluka?', 'Kayfa haluki?', 'Ma ismuka?', 'Min ayna anta?'],
         correctAnswer: 'Kayfa haluka?',
         explanation: '"كيف حالك؟" (Kayfa haluka?) au masculin.',
-        hints: ['Masculin', 'Haluka']
+        hints: ['Masculin', 'Haluka', 'La réponse est : Kayfa haluka?']
       },
       {
         id: 'q9',
@@ -18734,7 +18734,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ma\'a as-salama', 'As-salamu alaykum', 'Shukran', 'Marhaba'],
         correctAnswer: 'Ma\'a as-salama',
         explanation: '"مع السلامة" (Ma\'a as-salama) = Avec la paix / Au revoir.',
-        hints: ['Départ', 'Salama']
+        hints: ['Départ', 'Salama', 'La réponse est : Ma\'a as-salama']
       },
       {
         id: 'q10',
@@ -18743,7 +18743,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je vais bien', 'Je suis fatigué', 'J\'ai faim', 'Je suis content'],
         correctAnswer: 'Je vais bien',
         explanation: '"أنا بخير" (Ana bikhayr) = Je vais bien (réponse à Kayfa haluk).',
-        hints: ['Bien', 'Réponse']
+        hints: ['Bien', 'Réponse', 'La réponse est : Je vais bien']
       }
     ]
   },
@@ -18766,7 +18766,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Wahid', 'Ithnan', 'Thalatha', 'Sifr'],
         correctAnswer: 'Wahid',
         explanation: '"واحد" (Wahid) = 1.',
-        hints: ['Premier', 'Wahid']
+        hints: ['Premier', 'Wahid', 'La réponse est : Wahid']
       },
       {
         id: 'q2',
@@ -18775,7 +18775,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ithnan', 'Wahid', 'Thalatha', 'Arba\'a'],
         correctAnswer: 'Ithnan',
         explanation: '"اثنان" (Ithnan) = 2.',
-        hints: ['Deuxième', 'Ithnan']
+        hints: ['Deuxième', 'Ithnan', 'La réponse est : Ithnan']
       },
       {
         id: 'q3',
@@ -18784,7 +18784,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5', '4', '6', '7'],
         correctAnswer: '5',
         explanation: '"خمسة" (Khamsa) = 5.',
-        hints: ['Main', 'Cinq doigts']
+        hints: ['Main', 'Cinq doigts', 'La réponse est : 5']
       },
       {
         id: 'q4',
@@ -18793,7 +18793,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['\'Ashara', 'Tis\'a', 'Thamaniya', 'Sab\'a'],
         correctAnswer: '\'Ashara',
         explanation: '"عشرة" (\'Ashara) = 10.',
-        hints: ['Dizaine', '\'Ashara']
+        hints: ['Dizaine', 'Le nombre 10 en arabe', 'La réponse est : \'Ashara']
       },
       {
         id: 'q5',
@@ -18802,7 +18802,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['7', '6', '8', '9'],
         correctAnswer: '7',
         explanation: '"سبعة" (Sab\'a) = 7.',
-        hints: ['Sept', 'Sab\'a']
+        hints: ['Sept', 'Sab\'a', 'La réponse est : 7']
       },
       {
         id: 'q6',
@@ -18811,7 +18811,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Thalatha', 'Ithnan', 'Arba\'a', 'Wahid'],
         correctAnswer: 'Thalatha',
         explanation: '"ثلاثة" (Thalatha) = 3.',
-        hints: ['Trois', 'Thalatha']
+        hints: ['Trois', 'Thalatha', 'La réponse est : Thalatha']
       },
       {
         id: 'q7',
@@ -18820,7 +18820,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['6', '5', '7', '4'],
         correctAnswer: '6',
         explanation: '"ستة" (Sitta) = 6.',
-        hints: ['Six', 'Sitta']
+        hints: ['Six', 'Sitta', 'La réponse est : 6']
       },
       {
         id: 'q8',
@@ -18829,7 +18829,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sifr', 'Wahid', 'Null', 'Zero'],
         correctAnswer: 'Sifr',
         explanation: '"صفر" (Sifr) = 0. Ce mot a donné "chiffre" en français !',
-        hints: ['Rien', 'Origine du mot chiffre']
+        hints: ['Rien', 'Origine du mot chiffre', 'La réponse est : Sifr']
       },
       {
         id: 'q9',
@@ -18838,7 +18838,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['9', '8', '10', '7'],
         correctAnswer: '9',
         explanation: '"تسعة" (Tis\'a) = 9.',
-        hints: ['Neuf', 'Avant dix']
+        hints: ['Neuf', 'Avant dix', 'La réponse est : 9']
       },
       {
         id: 'q10',
@@ -18847,7 +18847,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Arba\'a', 'Thalatha', 'Khamsa', 'Sitta'],
         correctAnswer: 'Arba\'a',
         explanation: '"أربعة" (Arba\'a) = 4.',
-        hints: ['Quatre', 'Arba\'a']
+        hints: ['Quatre', 'Arba\'a', 'La réponse est : Arba\'a']
       }
     ]
   },
@@ -18870,7 +18870,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ana', 'Anta', 'Huwa', 'Nahnu'],
         correctAnswer: 'Ana',
         explanation: '"أنا" (Ana) = Je.',
-        hints: ['Première personne', 'Ana']
+        hints: ['Première personne', 'Ana', 'La réponse est : Ana']
       },
       {
         id: 'q2',
@@ -18879,7 +18879,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Anta', 'Anti', 'Ana', 'Huwa'],
         correctAnswer: 'Anta',
         explanation: '"أنتَ" (Anta) = Tu (masculin).',
-        hints: ['Masculin', 'Anta']
+        hints: ['Masculin', 'Anta', 'La réponse est : Anta']
       },
       {
         id: 'q3',
@@ -18888,7 +18888,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Masculin vs féminin', 'Singulier vs pluriel', 'Formel vs informel', 'Aucune différence'],
         correctAnswer: 'Masculin vs féminin',
         explanation: '"Anta" = tu (masc.), "Anti" = tu (fém.). L\'arabe distingue le genre.',
-        hints: ['Genre', 'Masculin/féminin']
+        hints: ['Genre', 'Masculin/féminin', 'La réponse est : Masculin vs féminin']
       },
       {
         id: 'q4',
@@ -18897,7 +18897,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Huwa', 'Hiya', 'Anta', 'Ana'],
         correctAnswer: 'Huwa',
         explanation: '"هو" (Huwa) = Il.',
-        hints: ['3e personne masculin', 'Huwa']
+        hints: ['3e personne masculin', 'Huwa', 'La réponse est : Huwa']
       },
       {
         id: 'q5',
@@ -18906,7 +18906,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hiya', 'Huwa', 'Anti', 'Ana'],
         correctAnswer: 'Hiya',
         explanation: '"هي" (Hiya) = Elle.',
-        hints: ['3e personne féminin', 'Hiya']
+        hints: ['3e personne féminin', 'Hiya', 'La réponse est : Hiya']
       },
       {
         id: 'q6',
@@ -18915,7 +18915,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nahnu', 'Hum', 'Antum', 'Ana'],
         correctAnswer: 'Nahnu',
         explanation: '"نحن" (Nahnu) = Nous.',
-        hints: ['1re personne pluriel', 'Nahnu']
+        hints: ['1re personne pluriel', 'Nahnu', 'La réponse est : Nahnu']
       },
       {
         id: 'q7',
@@ -18924,7 +18924,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Antum', 'Antunna', 'Nahnu', 'Hum'],
         correctAnswer: 'Antum',
         explanation: '"أنتم" (Antum) = Vous (masculin pluriel ou mixte).',
-        hints: ['Pluriel masculin', 'Antum']
+        hints: ['Pluriel masculin', 'Antum', 'La réponse est : Antum']
       },
       {
         id: 'q8',
@@ -18933,7 +18933,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Hum', 'Hunna', 'Huwa', 'Nahnu'],
         correctAnswer: 'Hum',
         explanation: '"هم" (Hum) = Ils.',
-        hints: ['3e personne masculin pluriel', 'Hum']
+        hints: ['3e personne masculin pluriel', 'Hum', 'La réponse est : Hum']
       },
       {
         id: 'q9',
@@ -18942,7 +18942,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elles', 'Ils', 'Vous (fém.)', 'Nous'],
         correctAnswer: 'Elles',
         explanation: '"هن" (Hunna) = Elles (féminin pluriel).',
-        hints: ['Féminin pluriel', 'Elles']
+        hints: ['Féminin pluriel', 'Elles', 'La réponse est : Elles']
       },
       {
         id: 'q10',
@@ -18951,7 +18951,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui', 'Non', 'Seulement pour les objets', 'Seulement à l\'écrit'],
         correctAnswer: 'Oui',
         explanation: 'L\'arabe a un duel pour 2 personnes/choses : "huma" (eux deux), "antuma" (vous deux).',
-        hints: ['Deux', 'Duel']
+        hints: ['Deux', 'Duel', 'La réponse est : Oui']
       }
     ]
   },
@@ -18974,7 +18974,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ab', 'Umm', 'Akh', 'Ibn'],
         correctAnswer: 'Ab',
         explanation: '"أب" (Ab) = Père.',
-        hints: ['Papa', 'Ab']
+        hints: ['Papa', 'Ab', 'La réponse est : Ab']
       },
       {
         id: 'q2',
@@ -18983,7 +18983,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Umm', 'Ab', 'Ukht', 'Bint'],
         correctAnswer: 'Umm',
         explanation: '"أم" (Umm) = Mère.',
-        hints: ['Maman', 'Umm']
+        hints: ['Maman', 'Umm', 'La réponse est : Umm']
       },
       {
         id: 'q3',
@@ -18992,7 +18992,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Frère', 'Sœur', 'Oncle', 'Cousin'],
         correctAnswer: 'Frère',
         explanation: '"أخ" (Akh) = Frère.',
-        hints: ['Masculin', 'Frère']
+        hints: ['Masculin', 'Frère', 'La réponse est : Frère']
       },
       {
         id: 'q4',
@@ -19001,7 +19001,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ukht', 'Akh', 'Bint', 'Umm'],
         correctAnswer: 'Ukht',
         explanation: '"أخت" (Ukht) = Sœur.',
-        hints: ['Féminin de akh', 'Ukht']
+        hints: ['Féminin de akh', 'Ukht', 'La réponse est : Ukht']
       },
       {
         id: 'q5',
@@ -19010,7 +19010,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fils', 'Fille', 'Frère', 'Père'],
         correctAnswer: 'Fils',
         explanation: '"ابن" (Ibn) = Fils. Très courant dans les noms arabes.',
-        hints: ['Masculin', 'Fils']
+        hints: ['Masculin', 'Fils', 'La réponse est : Fils']
       },
       {
         id: 'q6',
@@ -19019,7 +19019,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bint', 'Ibn', 'Ukht', 'Umm'],
         correctAnswer: 'Bint',
         explanation: '"بنت" (Bint) = Fille.',
-        hints: ['Féminin de ibn', 'Bint']
+        hints: ['Féminin de ibn', 'Bint', 'La réponse est : Bint']
       },
       {
         id: 'q7',
@@ -19028,7 +19028,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Grand-père', 'Grand-mère', 'Oncle', 'Cousin'],
         correctAnswer: 'Grand-père',
         explanation: '"جد" (Jadd) = Grand-père.',
-        hints: ['Masculin', 'Aîné']
+        hints: ['Masculin', 'Aîné', 'La réponse est : Grand-père']
       },
       {
         id: 'q8',
@@ -19037,7 +19037,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Jadda', 'Jadd', 'Umm', 'Khala'],
         correctAnswer: 'Jadda',
         explanation: '"جدة" (Jadda) = Grand-mère.',
-        hints: ['Féminin de jadd', 'Jadda']
+        hints: ['Féminin de jadd', 'Jadda', 'La réponse est : Jadda']
       },
       {
         id: 'q9',
@@ -19046,7 +19046,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oncle paternel', 'Oncle maternel', 'Cousin', 'Neveu'],
         correctAnswer: 'Oncle paternel',
         explanation: '"عم" (\'Amm) = Oncle paternel (frère du père).',
-        hints: ['Côté père', 'Oncle']
+        hints: ['Côté père', 'Oncle', 'La réponse est : Oncle paternel']
       },
       {
         id: 'q10',
@@ -19055,7 +19055,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Usra / A\'ila', 'Bayt', 'Nas', 'Qawm'],
         correctAnswer: 'Usra / A\'ila',
         explanation: '"أسرة" (Usra) ou "عائلة" (A\'ila) = Famille.',
-        hints: ['Groupe familial', 'Usra']
+        hints: ['Groupe familial', 'Usra', 'La réponse est : Usra / A\'ila']
       }
     ]
   },
@@ -19078,7 +19078,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al- (ال)', 'Un (أن)', 'La (لا)', 'Wa (و)'],
         correctAnswer: 'Al- (ال)',
         explanation: '"ال" (Al-) est l\'article défini unique en arabe.',
-        hints: ['Le/la/les', 'Al']
+        hints: ['Le/la/les', 'Al', 'La réponse est : Al- (ال)']
       },
       {
         id: 'q2',
@@ -19087,7 +19087,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Non, absence d\'article = indéfini', 'Oui, c\'est "un"', 'Oui, c\'est "wa"', 'Oui, c\'est "bi"'],
         correctAnswer: 'Non, absence d\'article = indéfini',
         explanation: 'L\'arabe n\'a pas d\'article indéfini. Un nom sans "al" est indéfini.',
-        hints: ['Pas d\'article', 'Indéfini']
+        hints: ['Pas d\'article', 'Indéfini', 'La réponse est : Non, absence d\'article = indéfini']
       },
       {
         id: 'q3',
@@ -19096,7 +19096,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-kitab', 'Kitab al', 'Al kitab al', 'Kitabun'],
         correctAnswer: 'Al-kitab',
         explanation: 'On ajoute "al-" devant le nom : "الكتاب" (al-kitab) = le livre.',
-        hints: ['Al + nom', 'Al-kitab']
+        hints: ['Al + nom', 'Al-kitab', 'La réponse est : Al-kitab']
       },
       {
         id: 'q4',
@@ -19105,7 +19105,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il se termine par "a" (ة)', 'Il se termine par "un"', 'Il commence par "al"', 'Il n\'y a pas de règle'],
         correctAnswer: 'Il se termine par "a" (ة)',
         explanation: 'La marque du féminin est souvent "ة" (ta marbuta) qui se prononce "a".',
-        hints: ['Ta marbuta', 'ة']
+        hints: ['Ta marbuta', 'ة', 'La réponse est : Il se termine par "a" (ة)']
       },
       {
         id: 'q5',
@@ -19114,7 +19114,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mudarrisa', 'Mudarrisun', 'Al-mudarris', 'Mudarrisat'],
         correctAnswer: 'Mudarrisa',
         explanation: 'On ajoute "a" (ة) pour le féminin : "مدرسة" (mudarrisa).',
-        hints: ['Ajout de a', 'Féminin']
+        hints: ['Ajout de a', 'Féminin', 'La réponse est : Mudarrisa']
       },
       {
         id: 'q6',
@@ -19123,7 +19123,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Non, seulement masculin et féminin', 'Oui', 'Seulement pour les objets', 'Parfois'],
         correctAnswer: 'Non, seulement masculin et féminin',
         explanation: 'L\'arabe n\'a que deux genres : masculin et féminin.',
-        hints: ['Deux genres', 'Pas de neutre']
+        hints: ['Deux genres', 'Pas de neutre', 'La réponse est : Non, seulement masculin et féminin']
       },
       {
         id: 'q7',
@@ -19132,7 +19132,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le "l" s\'assimile', 'On double le "al"', 'On supprime le "al"', 'Rien ne change'],
         correctAnswer: 'Le "l" s\'assimile',
         explanation: 'Devant les lettres solaires (t, d, n, r...), le "l" de "al" se prononce comme cette lettre.',
-        hints: ['Assimilation', 'Lettre solaire']
+        hints: ['Assimilation', 'Lettre solaire', 'La réponse est : Le "l" s\'assimile']
       },
       {
         id: 'q8',
@@ -19141,7 +19141,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ash-shams', 'Al-shams', 'A-shams', 'Alsh-shams'],
         correctAnswer: 'Ash-shams',
         explanation: '"ش" (shin) est une lettre solaire, donc "الشمس" se prononce "ash-shams".',
-        hints: ['Lettre solaire', 'Assimilation']
+        hints: ['Lettre solaire', 'Assimilation', 'La réponse est : Ash-shams']
       },
       {
         id: 'q9',
@@ -19150,7 +19150,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-qamar', 'Aq-qamar', 'A-qamar', 'Alq-qamar'],
         correctAnswer: 'Al-qamar',
         explanation: '"ق" (qaf) est une lettre lunaire, donc "القمر" se prononce "al-qamar".',
-        hints: ['Lettre lunaire', 'Pas d\'assimilation']
+        hints: ['Lettre lunaire', 'Pas d\'assimilation', 'La réponse est : Al-qamar']
       },
       {
         id: 'q10',
@@ -19159,7 +19159,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-kutub', 'Al-kitaban', 'Kitabat', 'Kutubun'],
         correctAnswer: 'Al-kutub',
         explanation: '"الكتب" (al-kutub) = les livres. Le pluriel en arabe est souvent irrégulier.',
-        hints: ['Pluriel brisé', 'Kutub']
+        hints: ['Pluriel brisé', 'Kutub', 'La réponse est : Al-kutub']
       }
     ]
   },
@@ -19182,7 +19182,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-mudari\'', 'Al-madi', 'Al-amr', 'Al-masdar'],
         correctAnswer: 'Al-mudari\'',
         explanation: '"المضارع" (al-mudari\') = le présent/inaccompli.',
-        hints: ['Inaccompli', 'Mudari\'']
+        hints: ['Inaccompli', 'Mudari\'', 'La réponse est : Al-mudari\'']
       },
       {
         id: 'q2',
@@ -19191,7 +19191,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['أ (a-)', 'ي (ya-)', 'ت (ta-)', 'ن (na-)'],
         correctAnswer: 'أ (a-)',
         explanation: 'Pour "ana" (je), on utilise le préfixe "أ" : أكتب (aktub) = j\'écris.',
-        hints: ['Ana', 'Alif']
+        hints: ['Ana', 'Alif', 'La réponse est : أ (a-)']
       },
       {
         id: 'q3',
@@ -19200,7 +19200,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Yaktub', 'Aktub', 'Taktub', 'Naktub'],
         correctAnswer: 'Yaktub',
         explanation: '"يكتب" (yaktub) = il écrit. Préfixe "ي" pour huwa.',
-        hints: ['Ya-', 'Il']
+        hints: ['Ya-', 'Il', 'La réponse est : Yaktub']
       },
       {
         id: 'q4',
@@ -19209,7 +19209,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['ت (ta-)', 'أ (a-)', 'ي (ya-)', 'ن (na-)'],
         correctAnswer: 'ت (ta-)',
         explanation: 'Pour "anta", préfixe "ت" : تكتب (taktub) = tu écris (masc.).',
-        hints: ['Anta', 'Ta']
+        hints: ['Anta', 'Ta', 'La réponse est : ت (ta-)']
       },
       {
         id: 'q5',
@@ -19218,7 +19218,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous écrivons', 'Ils écrivent', 'Tu écris', 'J\'écris'],
         correctAnswer: 'Nous écrivons',
         explanation: '"نكتب" (naktub) = nous écrivons. Préfixe "ن" pour nahnu.',
-        hints: ['Na-', 'Nous']
+        hints: ['Na-', 'Nous', 'La réponse est : Nous écrivons']
       },
       {
         id: 'q6',
@@ -19227,7 +19227,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['K-T-B', 'K-A-T', 'T-A-B', 'K-T-A'],
         correctAnswer: 'K-T-B',
         explanation: 'La racine trilittère est ك-ت-ب (K-T-B), liée à l\'écriture.',
-        hints: ['Trois consonnes', 'K-T-B']
+        hints: ['Trois consonnes', 'K-T-B', 'La réponse est : K-T-B']
       },
       {
         id: 'q7',
@@ -19236,7 +19236,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Taktub', 'Yaktub', 'Aktub', 'Naktub'],
         correctAnswer: 'Taktub',
         explanation: '"تكتب" (taktub) = elle écrit. Même préfixe que "tu" mais contexte différent.',
-        hints: ['Ta-', 'Elle aussi']
+        hints: ['Ta-', 'Elle aussi', 'La réponse est : Taktub']
       },
       {
         id: 'q8',
@@ -19245,7 +19245,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il lit', 'Il écrit', 'Il parle', 'Il mange'],
         correctAnswer: 'Il lit',
         explanation: '"يقرأ" (yaqra\') = il lit. Racine Q-R-\' (lecture, Coran).',
-        hints: ['Qur\'an', 'Lecture']
+        hints: ['Qur\'an', 'Lecture', 'La réponse est : Il lit']
       },
       {
         id: 'q9',
@@ -19254,7 +19254,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Yaktubun', 'Taktubun', 'Yaktub', 'Naktub'],
         correctAnswer: 'Yaktubun',
         explanation: '"يكتبون" (yaktubun) = ils écrivent. Préfixe "ي" + suffixe "-un".',
-        hints: ['Ya- + -un', 'Pluriel']
+        hints: ['Ya- + -un', 'Pluriel', 'La réponse est : Yaktubun']
       },
       {
         id: 'q10',
@@ -19263,7 +19263,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Genre et nombre', 'Nombre seulement', 'Genre seulement', 'Rien'],
         correctAnswer: 'Genre et nombre',
         explanation: 'Le verbe arabe s\'accorde en genre (masc./fém.) et en nombre (sing./duel/plur.).',
-        hints: ['Deux critères', 'Genre et nombre']
+        hints: ['Deux critères', 'Genre et nombre', 'La réponse est : Genre et nombre']
       }
     ]
   },
@@ -19286,7 +19286,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-madi', 'Al-mudari\'', 'Al-amr', 'Al-masdar'],
         correctAnswer: 'Al-madi',
         explanation: '"الماضي" (al-madi) = le passé/accompli.',
-        hints: ['Accompli', 'Madi']
+        hints: ['Accompli', 'Madi', 'La réponse est : Al-madi']
       },
       {
         id: 'q2',
@@ -19295,7 +19295,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il a écrit', 'Il écrit', 'Écris !', 'Écrire'],
         correctAnswer: 'Il a écrit',
         explanation: '"كتب" (kataba) = il a écrit. Forme de base du verbe arabe.',
-        hints: ['Passé', '3e pers. masc.']
+        hints: ['Passé', '3e pers. masc.', 'La réponse est : Il a écrit']
       },
       {
         id: 'q3',
@@ -19304,7 +19304,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des suffixes', 'Des préfixes', 'Les deux', 'Aucun'],
         correctAnswer: 'Des suffixes',
         explanation: 'Au passé (madi), on ajoute des suffixes : katabtu (j\'ai écrit), katabta (tu as écrit)...',
-        hints: ['Fin du mot', 'Suffixes']
+        hints: ['Fin du mot', 'Suffixes', 'La réponse est : Des suffixes']
       },
       {
         id: 'q4',
@@ -19313,7 +19313,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Katabtu', 'Kataba', 'Katabta', 'Katabna'],
         correctAnswer: 'Katabtu',
         explanation: '"كتبت" (katabtu) = j\'ai écrit. Suffixe "-tu" pour ana.',
-        hints: ['-tu', 'Je']
+        hints: ['-tu', 'Je', 'La réponse est : Katabtu']
       },
       {
         id: 'q5',
@@ -19322,7 +19322,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Katabta', 'Katabti', 'Katabtu', 'Kataba'],
         correctAnswer: 'Katabta',
         explanation: '"كتبتَ" (katabta) = tu as écrit (masc.). Suffixe "-ta".',
-        hints: ['-ta', 'Masculin']
+        hints: ['-ta', 'Masculin', 'La réponse est : Katabta']
       },
       {
         id: 'q6',
@@ -19331,7 +19331,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Masculin vs féminin', 'Singulier vs pluriel', 'Passé vs présent', 'Aucune'],
         correctAnswer: 'Masculin vs féminin',
         explanation: 'Katabta = tu as écrit (masc.), Katabti = tu as écrit (fém.).',
-        hints: ['Genre', 'Tu (masc./fém.)']
+        hints: ['Genre', 'Tu (masc./fém.)', 'La réponse est : Masculin vs féminin']
       },
       {
         id: 'q7',
@@ -19340,7 +19340,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nous avons écrit', 'Ils ont écrit', 'Elles ont écrit', 'Vous avez écrit'],
         correctAnswer: 'Nous avons écrit',
         explanation: '"كتبنا" (katabna) = nous avons écrit. Suffixe "-na".',
-        hints: ['-na', 'Nous']
+        hints: ['-na', 'Nous', 'La réponse est : Nous avons écrit']
       },
       {
         id: 'q8',
@@ -19349,7 +19349,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Katabat', 'Kataba', 'Katabta', 'Katabti'],
         correctAnswer: 'Katabat',
         explanation: '"كتبت" (katabat) = elle a écrit. Suffixe "-at" pour hiya.',
-        hints: ['-at', 'Elle']
+        hints: ['-at', 'Elle', 'La réponse est : Katabat']
       },
       {
         id: 'q9',
@@ -19358,7 +19358,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ils ont écrit', 'Elles ont écrit', 'Nous avons écrit', 'Vous avez écrit'],
         correctAnswer: 'Ils ont écrit',
         explanation: '"كتبوا" (katabu) = ils ont écrit. Suffixe "-u" pour hum.',
-        hints: ['-u', 'Ils']
+        hints: ['-u', 'Ils', 'La réponse est : Ils ont écrit']
       },
       {
         id: 'q10',
@@ -19367,7 +19367,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['C\'est la forme la plus simple', 'C\'est la plus utilisée', 'Elle est alphabétique', 'Elle est neutre'],
         correctAnswer: 'C\'est la forme la plus simple',
         explanation: 'La 3e personne masculin singulier du passé est la forme de base, sans affixes.',
-        hints: ['Base', 'Simple']
+        hints: ['Base', 'Simple', 'La réponse est : C\'est la forme la plus simple']
       }
     ]
   },
@@ -19390,7 +19390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un nom ou pronom', 'Un verbe', 'Une préposition', 'Un adverbe'],
         correctAnswer: 'Un nom ou pronom',
         explanation: 'La phrase nominale (jumla ismiyya) commence par un nom ou pronom.',
-        hints: ['Ismiyya', 'Nom']
+        hints: ['Ismiyya', 'Nom', 'La réponse est : Un nom ou pronom']
       },
       {
         id: 'q2',
@@ -19399,7 +19399,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mubtada\'', 'Khabar', 'Fa\'il', 'Maf\'ul'],
         correctAnswer: 'Mubtada\'',
         explanation: '"مبتدأ" (mubtada\') = le sujet/thème de la phrase nominale.',
-        hints: ['Début', 'Sujet']
+        hints: ['Début', 'Sujet', 'La réponse est : Mubtada\'']
       },
       {
         id: 'q3',
@@ -19408,7 +19408,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Khabar', 'Mubtada\'', 'Fa\'il', 'Sifa'],
         correctAnswer: 'Khabar',
         explanation: '"خبر" (khabar) = le prédicat/information sur le sujet.',
-        hints: ['Information', 'Prédicat']
+        hints: ['Information', 'Prédicat', 'La réponse est : Khabar']
       },
       {
         id: 'q4',
@@ -19417,7 +19417,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La maison est grande', 'La grande maison', 'Une maison grande', 'Dans la maison'],
         correctAnswer: 'La maison est grande',
         explanation: 'Phrase nominale : al-bayt (mubtada\') + kabirun (khabar) = La maison [est] grande.',
-        hints: ['Sujet + attribut', 'Sans verbe être']
+        hints: ['Sujet + attribut', 'Sans verbe être', 'La réponse est : La maison est grande']
       },
       {
         id: 'q5',
@@ -19426,7 +19426,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Non, il est sous-entendu', 'Oui, toujours', 'Seulement à l\'écrit', 'Seulement au pluriel'],
         correctAnswer: 'Non, il est sous-entendu',
         explanation: 'En arabe, le verbe "être" au présent est généralement omis.',
-        hints: ['Pas de "est"', 'Sous-entendu']
+        hints: ['Pas de "est"', 'Sous-entendu', 'La réponse est : Non, il est sous-entendu']
       },
       {
         id: 'q6',
@@ -19435,7 +19435,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Je suis étudiant', 'L\'étudiant', 'Un étudiant', 'Mon étudiant'],
         correctAnswer: 'Je suis étudiant',
         explanation: 'Ana (je) + talib (étudiant) = Je [suis] étudiant.',
-        hints: ['Ana = je', 'Phrase nominale']
+        hints: ['Ana = je', 'Phrase nominale', 'La réponse est : Je suis étudiant']
       },
       {
         id: 'q7',
@@ -19444,7 +19444,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-kitab', 'Jadid', 'Al', 'Kitab'],
         correctAnswer: 'Al-kitab',
         explanation: '"Al-kitab" (le livre) est le sujet, "jadid" (nouveau) est le prédicat.',
-        hints: ['Le livre', 'Sujet']
+        hints: ['Le livre', 'Sujet', 'La réponse est : Al-kitab']
       },
       {
         id: 'q8',
@@ -19453,7 +19453,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui, en genre et nombre', 'Non', 'Seulement en genre', 'Seulement en nombre'],
         correctAnswer: 'Oui, en genre et nombre',
         explanation: 'Le khabar s\'accorde avec le mubtada\' : al-bint jamila (la fille est belle).',
-        hints: ['Accord', 'Genre et nombre']
+        hints: ['Accord', 'Genre et nombre', 'La réponse est : Oui, en genre et nombre']
       },
       {
         id: 'q9',
@@ -19462,7 +19462,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle est étudiante', 'L\'étudiante', 'Une étudiante', 'Il est étudiant'],
         correctAnswer: 'Elle est étudiante',
         explanation: 'Hiya (elle) + taaliba (étudiante) = Elle [est] étudiante.',
-        hints: ['Hiya = elle', 'Féminin']
+        hints: ['Hiya = elle', 'Féminin', 'La réponse est : Elle est étudiante']
       },
       {
         id: 'q10',
@@ -19471,7 +19471,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nominale commence par un nom, verbale par un verbe', 'Aucune différence', 'Nominale est au présent', 'Verbale est plus formelle'],
         correctAnswer: 'Nominale commence par un nom, verbale par un verbe',
         explanation: 'Phrase nominale : nom/pronom en premier. Phrase verbale : verbe en premier.',
-        hints: ['Premier mot', 'Nom vs verbe']
+        hints: ['Premier mot', 'Nom vs verbe', 'La réponse est : Nominale commence par un nom, verbale par un verbe']
       }
     ]
   },
@@ -19494,7 +19494,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['10 formes', '5 formes', '3 formes', '15 formes'],
         correctAnswer: '10 formes',
         explanation: 'Il y a 10 formes principales (I à X), chacune avec un sens particulier.',
-        hints: ['Dix', '10']
+        hints: ['Dix', '10', 'La réponse est : 10 formes']
       },
       {
         id: 'q2',
@@ -19503,7 +19503,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La forme de base', 'Une forme intensive', 'Une forme passive', 'Une forme réciproque'],
         correctAnswer: 'La forme de base',
         explanation: 'La forme I est la forme simple, de base, du verbe.',
-        hints: ['Simple', 'Base']
+        hints: ['Simple', 'Base', 'La réponse est : La forme de base']
       },
       {
         id: 'q3',
@@ -19512,7 +19512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'intensif ou le causatif', 'Le réciproque', 'Le passif', 'Le réfléchi'],
         correctAnswer: 'L\'intensif ou le causatif',
         explanation: 'La forme II (doublement) : intensif ou causatif. Ex: \'allama (enseigner) de \'alima (savoir).',
-        hints: ['Doublement', 'Intensif']
+        hints: ['Doublement', 'Intensif', 'La réponse est : L\'intensif ou le causatif']
       },
       {
         id: 'q4',
@@ -19521,7 +19521,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Enseigner (faire savoir)', 'Apprendre', 'Savoir beaucoup', 'Ne pas savoir'],
         correctAnswer: 'Enseigner (faire savoir)',
         explanation: 'Forme II causative : faire faire l\'action. \'Alima (savoir) → \'Allama (faire savoir = enseigner).',
-        hints: ['Causatif', 'Faire savoir']
+        hints: ['Causatif', 'Faire savoir', 'La réponse est : Enseigner (faire savoir)']
       },
       {
         id: 'q5',
@@ -19530,7 +19530,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La réciprocité ou l\'effort', 'L\'intensif', 'Le passif', 'Le réfléchi'],
         correctAnswer: 'La réciprocité ou l\'effort',
         explanation: 'Forme III : action réciproque ou tentative. Ex: kataba (écrire) → kataba (correspondre).',
-        hints: ['Réciprocité', 'Avec quelqu\'un']
+        hints: ['Réciprocité', 'Avec quelqu\'un', 'La réponse est : La réciprocité ou l\'effort']
       },
       {
         id: 'q6',
@@ -19539,7 +19539,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le réfléchi de la forme II', 'Le passif', 'L\'intensif', 'Le causatif'],
         correctAnswer: 'Le réfléchi de la forme II',
         explanation: 'Forme V : réfléchi de II. Ex: \'allama (enseigner) → ta\'allama (apprendre/s\'enseigner).',
-        hints: ['Ta- + forme II', 'Réfléchi']
+        hints: ['Ta- + forme II', 'Réfléchi', 'La réponse est : Le réfléchi de la forme II']
       },
       {
         id: 'q7',
@@ -19548,7 +19548,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le passif ou le réfléchi', 'Le causatif', 'L\'intensif', 'Le réciproque'],
         correctAnswer: 'Le passif ou le réfléchi',
         explanation: 'Forme VII : passif ou réfléchi. Ex: kasara (casser) → inkasara (se casser).',
-        hints: ['In-', 'Passif']
+        hints: ['In-', 'Passif', 'La réponse est : Le passif ou le réfléchi']
       },
       {
         id: 'q8',
@@ -19557,7 +19557,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le réfléchi de la forme I', 'Le causatif', 'L\'intensif', 'Le passif'],
         correctAnswer: 'Le réfléchi de la forme I',
         explanation: 'Forme VIII : réfléchi de I. Ex: jama\'a (rassembler) → ijtama\'a (se rassembler).',
-        hints: ['-t- infixe', 'Réfléchi']
+        hints: ['-t- infixe', 'Réfléchi', 'La réponse est : Le réfléchi de la forme I']
       },
       {
         id: 'q9',
@@ -19566,7 +19566,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La demande ou la considération', 'Le passif', 'L\'intensif', 'Le réciproque'],
         correctAnswer: 'La demande ou la considération',
         explanation: 'Forme X : demander/considérer. Ex: \'alima (savoir) → ista\'lama (demander des informations).',
-        hints: ['Ista-', 'Demander']
+        hints: ['Ista-', 'Demander', 'La réponse est : La demande ou la considération']
       },
       {
         id: 'q10',
@@ -19575,7 +19575,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Comprendre et créer des mots à partir d\'une racine', 'Seulement pour la grammaire', 'Pour l\'orthographe', 'Aucun intérêt pratique'],
         correctAnswer: 'Comprendre et créer des mots à partir d\'une racine',
         explanation: 'Les formes permettent de deviner le sens de mots inconnus et d\'enrichir son vocabulaire.',
-        hints: ['Productivité', 'Création de mots']
+        hints: ['Productivité', 'Création de mots', 'La réponse est : Comprendre et créer des mots à partir d\'une racine']
       }
     ]
   },
@@ -19598,7 +19598,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un verbe', 'Un nom', 'Une préposition', 'Un adverbe'],
         correctAnswer: 'Un verbe',
         explanation: 'La phrase verbale commence toujours par le verbe.',
-        hints: ['Fi\'l', 'Verbe']
+        hints: ['Fi\'l', 'Verbe', 'La réponse est : Un verbe']
       },
       {
         id: 'q2',
@@ -19607,7 +19607,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fa\'il', 'Mubtada\'', 'Khabar', 'Maf\'ul bih'],
         correctAnswer: 'Fa\'il',
         explanation: '"فاعل" (fa\'il) = le sujet/agent dans une phrase verbale.',
-        hints: ['Agent', 'Celui qui fait']
+        hints: ['Agent', 'Celui qui fait', 'La réponse est : Fa\'il']
       },
       {
         id: 'q3',
@@ -19616,7 +19616,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Maf\'ul bih', 'Fa\'il', 'Khabar', 'Sifa'],
         correctAnswer: 'Maf\'ul bih',
         explanation: '"مفعول به" (maf\'ul bih) = complément d\'objet direct.',
-        hints: ['Objet', 'Ce qui subit']
+        hints: ['Objet', 'Ce qui subit', 'La réponse est : Maf\'ul bih']
       },
       {
         id: 'q4',
@@ -19625,7 +19625,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Verbe - Sujet - Complément', 'Sujet - Verbe - Complément', 'Complément - Verbe - Sujet', 'Sujet - Complément - Verbe'],
         correctAnswer: 'Verbe - Sujet - Complément',
         explanation: 'L\'ordre classique est VSO : Verbe + Sujet + Objet (complément).',
-        hints: ['VSO', 'Verbe en premier']
+        hints: ['VSO', 'Verbe en premier', 'La réponse est : Verbe - Sujet - Complément']
       },
       {
         id: 'q5',
@@ -19634,7 +19634,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['At-tilmidhu (l\'élève)', 'Kataba (a écrit)', 'Ad-darsa (la leçon)', 'Aucun'],
         correctAnswer: 'At-tilmidhu (l\'élève)',
         explanation: 'Kataba (V) + at-tilmidhu (S) + ad-darsa (COD) = L\'élève a écrit la leçon.',
-        hints: ['Après le verbe', 'Qui fait l\'action']
+        hints: ['Après le verbe', 'Qui fait l\'action', 'La réponse est : At-tilmidhu (l\'élève)']
       },
       {
         id: 'q6',
@@ -19643,7 +19643,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Non, il reste au singulier devant un sujet pluriel', 'Oui, toujours', 'Seulement en genre', 'Jamais'],
         correctAnswer: 'Non, il reste au singulier devant un sujet pluriel',
         explanation: 'Quand le verbe précède un sujet pluriel, il reste au singulier : "Ja\'a at-tullaabu" (les étudiants sont venus).',
-        hints: ['Verbe singulier', 'Sujet pluriel']
+        hints: ['Verbe singulier', 'Sujet pluriel', 'La réponse est : Non, il reste au singulier devant un sujet pluriel']
       },
       {
         id: 'q7',
@@ -19652,7 +19652,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le garçon a mangé la pomme', 'La pomme a mangé le garçon', 'Mange la pomme, garçon', 'Le garçon mange'],
         correctAnswer: 'Le garçon a mangé la pomme',
         explanation: 'Akala (a mangé) + al-waladu (le garçon) + at-tuffaha (la pomme).',
-        hints: ['VSO', 'Le garçon mange']
+        hints: ['VSO', 'Le garçon mange', 'La réponse est : Le garçon a mangé la pomme']
       },
       {
         id: 'q8',
@@ -19661,7 +19661,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Nominatif (marfu\')', 'Accusatif (mansub)', 'Génitif (majrur)', 'Aucun cas'],
         correctAnswer: 'Nominatif (marfu\')',
         explanation: 'Le fa\'il est au cas nominatif (marfu\'), marqué par -u.',
-        hints: ['Marfu\'', '-u']
+        hints: ['Marfu\'', '-u', 'La réponse est : Nominatif (marfu\')']
       },
       {
         id: 'q9',
@@ -19670,7 +19670,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Accusatif (mansub)', 'Nominatif (marfu\')', 'Génitif (majrur)', 'Aucun cas'],
         correctAnswer: 'Accusatif (mansub)',
         explanation: 'Le maf\'ul bih est au cas accusatif (mansub), marqué par -a.',
-        hints: ['Mansub', '-a']
+        hints: ['Mansub', '-a', 'La réponse est : Accusatif (mansub)']
       },
       {
         id: 'q10',
@@ -19679,7 +19679,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui, s\'il est contenu dans le verbe', 'Non, jamais', 'Seulement au passé', 'Seulement au présent'],
         correctAnswer: 'Oui, s\'il est contenu dans le verbe',
         explanation: 'Le sujet peut être implicite, contenu dans la conjugaison : "katabtu" = j\'ai écrit (pas besoin de "ana").',
-        hints: ['Pronom implicite', 'Dans le verbe']
+        hints: ['Pronom implicite', 'Dans le verbe', 'La réponse est : Oui, s\'il est contenu dans le verbe']
       }
     ]
   },
@@ -19702,7 +19702,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Al-Khwarizmi', 'Ibn Sina', 'Al-Biruni', 'Ibn Rushd'],
         correctAnswer: 'Al-Khwarizmi',
         explanation: 'Al-Khwarizmi (IXe s.) a donné "algorithme" et "algèbre" (al-jabr).',
-        hints: ['Mathématiques', 'Algorithme']
+        hints: ['Mathématiques', 'Algorithme', 'La réponse est : Al-Khwarizmi']
       },
       {
         id: 'q2',
@@ -19711,7 +19711,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ibn Sina', 'Ibn Rushd', 'Al-Razi', 'Ibn Khaldun'],
         correctAnswer: 'Ibn Sina',
         explanation: 'Ibn Sina (Avicenne, 980-1037) était médecin et philosophe persan.',
-        hints: ['Médecin', 'Canon de la médecine']
+        hints: ['Médecin', 'Canon de la médecine', 'La réponse est : Ibn Sina']
       },
       {
         id: 'q3',
@@ -19720,7 +19720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Coran', 'La Sunna', 'Les Hadiths', 'La Sira'],
         correctAnswer: 'Le Coran',
         explanation: '"القرآن" (al-Qur\'an) signifie "la récitation", livre révélé au prophète Muhammad.',
-        hints: ['Livre saint', 'Récitation']
+        hints: ['Livre saint', 'Récitation', 'La réponse est : Le Coran']
       },
       {
         id: 'q4',
@@ -19729,7 +19729,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bagdad (Maison de la Sagesse)', 'Le Caire', 'Damas', 'Cordoue'],
         correctAnswer: 'Bagdad (Maison de la Sagesse)',
         explanation: 'La Maison de la Sagesse (Bayt al-Hikma) à Bagdad était un centre de traduction et de savoir.',
-        hints: ['Abbassides', 'IXe siècle']
+        hints: ['Abbassides', 'IXe siècle', 'La réponse est : Bagdad (Maison de la Sagesse)']
       },
       {
         id: 'q5',
@@ -19738,7 +19738,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La sociologie/historiographie moderne', 'L\'algèbre', 'La médecine', 'L\'astronomie'],
         correctAnswer: 'La sociologie/historiographie moderne',
         explanation: 'Ibn Khaldun a écrit la Muqaddima, fondement de la sociologie et de l\'histoire scientifique.',
-        hints: ['Histoire', 'Société']
+        hints: ['Histoire', 'Société', 'La réponse est : La sociologie/historiographie moderne']
       },
       {
         id: 'q6',
@@ -19747,7 +19747,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Grenade (Espagne)', 'Bagdad (Irak)', 'Le Caire (Égypte)', 'Damas (Syrie)'],
         correctAnswer: 'Grenade (Espagne)',
         explanation: 'L\'Alhambra à Grenade est un chef-d\'œuvre de l\'architecture arabo-andalouse.',
-        hints: ['Andalousie', 'Espagne']
+        hints: ['Andalousie', 'Espagne', 'La réponse est : Grenade (Espagne)']
       },
       {
         id: 'q7',
@@ -19756,7 +19756,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chiffres arabes', 'Chiffres romains', 'Chiffres hindous', 'Chiffres grecs'],
         correctAnswer: 'Chiffres arabes',
         explanation: 'Nos chiffres sont appelés "arabes" car transmis par les Arabes, qui les avaient adoptés des Indiens.',
-        hints: ['Notre système', '0-9']
+        hints: ['Notre système', '0-9', 'La réponse est : Chiffres arabes']
       },
       {
         id: 'q8',
@@ -19765,7 +19765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aristote', 'Platon', 'Hippocrate', 'Euclide'],
         correctAnswer: 'Aristote',
         explanation: 'Ibn Rushd (Averroès, XIIe s.) de Cordoue a commenté toute l\'œuvre d\'Aristote.',
-        hints: ['Philosophie', 'Cordoue']
+        hints: ['Philosophie', 'Cordoue', 'La réponse est : Aristote']
       },
       {
         id: 'q9',
@@ -19774,7 +19774,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'astrolabe perfectionné', 'Le gouvernail', 'La boussole', 'Le sextant'],
         correctAnswer: 'L\'astrolabe perfectionné',
         explanation: 'Les Arabes ont perfectionné l\'astrolabe grec pour la navigation et l\'astronomie.',
-        hints: ['Navigation', 'Étoiles']
+        hints: ['Navigation', 'Étoiles', 'La réponse est : L\'astrolabe perfectionné']
       },
       {
         id: 'q10',
@@ -19783,7 +19783,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un recueil de contes arabes', 'Un traité de médecine', 'Un livre de mathématiques', 'Un texte religieux'],
         correctAnswer: 'Un recueil de contes arabes',
         explanation: '"Alf Layla wa Layla" (Mille et Une Nuits) est un recueil de contes traditionnels arabes.',
-        hints: ['Shéhérazade', 'Contes']
+        hints: ['Shéhérazade', 'Contes', 'La réponse est : Un recueil de contes arabes']
       }
     ]
   },
@@ -19810,7 +19810,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Liberté, Égalité, Fraternité', 'Unité, Force, Travail', 'Paix, Justice, Progrès', 'Honneur, Patrie, Valeur'],
         correctAnswer: 'Liberté, Égalité, Fraternité',
         explanation: 'La devise "Liberté, Égalité, Fraternité" date de la Révolution française.',
-        hints: ['Trois mots', 'Révolution française']
+        hints: ['Trois mots', 'Révolution française', 'La réponse est : Liberté, Égalité, Fraternité']
       },
       {
         id: 'q2',
@@ -19819,7 +19819,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Bleu, blanc, rouge', 'Bleu, jaune, rouge', 'Vert, blanc, rouge', 'Noir, rouge, or'],
         correctAnswer: 'Bleu, blanc, rouge',
         explanation: 'Le drapeau tricolore bleu-blanc-rouge est né pendant la Révolution française.',
-        hints: ['Tricolore', 'Trois bandes verticales']
+        hints: ['Tricolore', 'Trois bandes verticales', 'La réponse est : Bleu, blanc, rouge']
       },
       {
         id: 'q3',
@@ -19828,7 +19828,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Marseillaise', 'Le Chant du Départ', 'L\'Internationale', 'La Parisienne'],
         correctAnswer: 'La Marseillaise',
         explanation: 'La Marseillaise, composée en 1792 par Rouget de Lisle, est l\'hymne national.',
-        hints: ['1792', 'Rouget de Lisle']
+        hints: ['1792', 'Rouget de Lisle', 'La réponse est : La Marseillaise']
       },
       {
         id: 'q4',
@@ -19837,7 +19837,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La République française', 'Une reine de France', 'Une sainte', 'Une héroïne de guerre'],
         correctAnswer: 'La République française',
         explanation: 'Marianne est l\'allégorie de la République et de ses valeurs.',
-        hints: ['Allégorie', 'Bonnet phrygien']
+        hints: ['Allégorie', 'Bonnet phrygien', 'La réponse est : La République française']
       },
       {
         id: 'q5',
@@ -19846,7 +19846,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['14 juillet', '11 novembre', '8 mai', '1er mai'],
         correctAnswer: '14 juillet',
         explanation: 'Le 14 juillet commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790).',
-        hints: ['Prise de la Bastille', 'Été']
+        hints: ['Prise de la Bastille', 'Été', 'La réponse est : 14 juillet']
       },
       {
         id: 'q6',
@@ -19855,7 +19855,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Séparation des religions et de l\'État', 'Interdiction des religions', 'Religion obligatoire', 'Une seule religion autorisée'],
         correctAnswer: 'Séparation des religions et de l\'État',
         explanation: 'La laïcité garantit la liberté de croire ou de ne pas croire, et la neutralité de l\'État.',
-        hints: ['Séparation', 'Neutralité']
+        hints: ['Séparation', 'Neutralité', 'La réponse est : Séparation des religions et de l\'État']
       },
       {
         id: 'q7',
@@ -19864,7 +19864,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les mêmes droits pour tous', 'Les mêmes revenus pour tous', 'Le même travail pour tous', 'La même opinion pour tous'],
         correctAnswer: 'Les mêmes droits pour tous',
         explanation: 'L\'égalité en droit signifie que tous les citoyens ont les mêmes droits devant la loi.',
-        hints: ['Droits', 'Devant la loi']
+        hints: ['Droits', 'Devant la loi', 'La réponse est : Les mêmes droits pour tous']
       },
       {
         id: 'q8',
@@ -19873,7 +19873,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La solidarité entre les citoyens', 'Les liens entre frères', 'L\'amitié internationale', 'La paix mondiale'],
         correctAnswer: 'La solidarité entre les citoyens',
         explanation: 'La fraternité désigne le lien de solidarité qui unit les citoyens.',
-        hints: ['Solidarité', 'Entraide']
+        hints: ['Solidarité', 'Entraide', 'La réponse est : La solidarité entre les citoyens']
       },
       {
         id: 'q9',
@@ -19882,7 +19882,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Exprimer ses opinions dans le respect de la loi', 'Dire tout ce qu\'on veut sans limite', 'Insulter librement', 'Mentir sans conséquence'],
         correctAnswer: 'Exprimer ses opinions dans le respect de la loi',
         explanation: 'La liberté d\'expression a des limites : pas de diffamation, d\'incitation à la haine, etc.',
-        hints: ['Opinions', 'Limites légales']
+        hints: ['Opinions', 'Limites légales', 'La réponse est : Exprimer ses opinions dans le respect de la loi']
       },
       {
         id: 'q10',
@@ -19891,7 +19891,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sur les bâtiments publics', 'Sur les billets de banque uniquement', 'Sur les voitures', 'Nulle part officiellement'],
         correctAnswer: 'Sur les bâtiments publics',
         explanation: 'La devise est inscrite sur les frontons des mairies, écoles et bâtiments publics.',
-        hints: ['Mairies', 'Écoles']
+        hints: ['Mairies', 'Écoles', 'La réponse est : Sur les bâtiments publics']
       }
     ]
   },
@@ -19914,7 +19914,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1989', '1948', '1968', '2000'],
         correctAnswer: '1989',
         explanation: 'La CIDE a été adoptée par l\'ONU le 20 novembre 1989.',
-        hints: ['ONU', 'Fin des années 80']
+        hints: ['ONU', 'Fin des années 80', 'La réponse est : 1989']
       },
       {
         id: 'q2',
@@ -19923,7 +19923,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['18 ans', '16 ans', '21 ans', '15 ans'],
         correctAnswer: '18 ans',
         explanation: 'La CIDE définit l\'enfant comme tout être humain de moins de 18 ans.',
-        hints: ['Majorité', '18']
+        hints: ['Majorité', '18', 'La réponse est : 18 ans']
       },
       {
         id: 'q3',
@@ -19932,7 +19932,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une identité (nom, nationalité)', 'Un téléphone', 'De l\'argent de poche', 'Des vacances à l\'étranger'],
         correctAnswer: 'Une identité (nom, nationalité)',
         explanation: 'Chaque enfant a droit à un nom, une nationalité et à connaître ses parents.',
-        hints: ['Nom', 'Nationalité']
+        hints: ['Nom', 'Nationalité', 'La réponse est : Une identité (nom, nationalité)']
       },
       {
         id: 'q4',
@@ -19941,7 +19941,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'école est obligatoire et gratuite', 'L\'école est facultative', 'Seuls les riches vont à l\'école', 'L\'éducation coûte cher'],
         correctAnswer: 'L\'école est obligatoire et gratuite',
         explanation: 'En France, l\'instruction est obligatoire de 3 à 16 ans et l\'école publique est gratuite.',
-        hints: ['Obligatoire', 'Gratuit']
+        hints: ['Obligatoire', 'Gratuit', 'La réponse est : L\'école est obligatoire et gratuite']
       },
       {
         id: 'q5',
@@ -19950,7 +19950,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Interdit avant 16 ans (sauf exceptions)', 'Autorisé sans limite', 'Autorisé dès 10 ans', 'Encouragé'],
         correctAnswer: 'Interdit avant 16 ans (sauf exceptions)',
         explanation: 'Le travail est interdit avant 16 ans, avec quelques exceptions encadrées.',
-        hints: ['Protection', '16 ans']
+        hints: ['Protection', '16 ans', 'La réponse est : Interdit avant 16 ans (sauf exceptions)']
       },
       {
         id: 'q6',
@@ -19959,7 +19959,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Être protégé contre les violences et l\'exploitation', 'Avoir un garde du corps', 'Ne jamais sortir de chez soi', 'Porter une armure'],
         correctAnswer: 'Être protégé contre les violences et l\'exploitation',
         explanation: 'Les enfants doivent être protégés contre toute forme de violence, maltraitance et exploitation.',
-        hints: ['Violences', 'Maltraitance']
+        hints: ['Violences', 'Maltraitance', 'La réponse est : Être protégé contre les violences et l\'exploitation']
       },
       {
         id: 'q7',
@@ -19968,7 +19968,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des soins médicaux', 'Un smartphone', 'Une voiture', 'Des bonbons'],
         correctAnswer: 'Des soins médicaux',
         explanation: 'Le droit à la santé est un droit fondamental de l\'enfant.',
-        hints: ['Santé', 'Médecin']
+        hints: ['Santé', 'Médecin', 'La réponse est : Des soins médicaux']
       },
       {
         id: 'q8',
@@ -19977,7 +19977,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Donner son avis sur ce qui le concerne', 'Décider de tout seul', 'Désobéir aux adultes', 'Faire ce qu\'il veut'],
         correctAnswer: 'Donner son avis sur ce qui le concerne',
         explanation: 'L\'enfant a le droit d\'être entendu dans les décisions qui le concernent.',
-        hints: ['Avis', 'Être entendu']
+        hints: ['Avis', 'Être entendu', 'La réponse est : Donner son avis sur ce qui le concerne']
       },
       {
         id: 'q9',
@@ -19986,7 +19986,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Défenseur des droits', 'La police', 'Les pompiers', 'L\'armée'],
         correctAnswer: 'Le Défenseur des droits',
         explanation: 'Le Défenseur des droits, avec le Défenseur des enfants, veille au respect de ces droits.',
-        hints: ['Institution', 'Défenseur']
+        hints: ['Institution', 'Défenseur', 'La réponse est : Le Défenseur des droits']
       },
       {
         id: 'q10',
@@ -19995,7 +19995,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La Journée internationale des droits de l\'enfant', 'La fête des mères', 'La journée du sport', 'Un jour férié'],
         correctAnswer: 'La Journée internationale des droits de l\'enfant',
         explanation: 'Le 20 novembre commémore l\'adoption de la CIDE en 1989.',
-        hints: ['CIDE', 'Novembre']
+        hints: ['CIDE', 'Novembre', 'La réponse est : La Journée internationale des droits de l\'enfant']
       }
     ]
   },
@@ -20018,7 +20018,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Organiser la vie collective et garantir les droits de chacun', 'Punir les élèves', 'Favoriser certains élèves', 'Interdire tout'],
         correctAnswer: 'Organiser la vie collective et garantir les droits de chacun',
         explanation: 'Le règlement intérieur fixe les droits et les devoirs de chacun pour bien vivre ensemble.',
-        hints: ['Droits', 'Devoirs']
+        hints: ['Droits', 'Devoirs', 'La réponse est : Organiser la vie collective et garantir les droits de chacun']
       },
       {
         id: 'q2',
@@ -20027,7 +20027,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Élus par les élèves', 'Désignés par le principal', 'Choisis par les parents', 'Tirés au sort'],
         correctAnswer: 'Élus par les élèves',
         explanation: 'Les délégués sont élus au scrutin par les élèves de leur classe.',
-        hints: ['Vote', 'Élection']
+        hints: ['Vote', 'Élection', 'La réponse est : Élus par les élèves']
       },
       {
         id: 'q3',
@@ -20036,7 +20036,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Interdit et puni par la loi', 'Une simple dispute', 'Normal entre élèves', 'Autorisé dans la cour'],
         correctAnswer: 'Interdit et puni par la loi',
         explanation: 'Le harcèlement scolaire est un délit. Les victimes doivent en parler et être aidées.',
-        hints: ['Délit', 'Interdit']
+        hints: ['Délit', 'Interdit', 'La réponse est : Interdit et puni par la loi']
       },
       {
         id: 'q4',
@@ -20045,7 +20045,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Traiter différemment quelqu\'un à cause de son origine, sexe, religion...', 'Être gentil avec tout le monde', 'Choisir ses amis', 'Avoir des préférences'],
         correctAnswer: 'Traiter différemment quelqu\'un à cause de son origine, sexe, religion...',
         explanation: 'La discrimination est interdite par la loi. Elle porte atteinte à l\'égalité.',
-        hints: ['Inégalité', 'Origine']
+        hints: ['Inégalité', 'Origine', 'La réponse est : Traiter différemment quelqu\'un à cause de son origine, sexe, religion...']
       },
       {
         id: 'q5',
@@ -20054,7 +20054,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Est interdit d\'utilisation (sauf cas particuliers)', 'Est autorisé partout', 'Doit être utilisé en classe', 'Est obligatoire'],
         correctAnswer: 'Est interdit d\'utilisation (sauf cas particuliers)',
         explanation: 'La loi interdit l\'usage du téléphone dans les écoles et collèges depuis 2018.',
-        hints: ['Loi 2018', 'Interdit']
+        hints: ['Loi 2018', 'Interdit', 'La réponse est : Est interdit d\'utilisation (sauf cas particuliers)']
       },
       {
         id: 'q6',
@@ -20063,7 +20063,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['En parler à un adulte de confiance', 'Participer au harcèlement', 'Ne rien faire', 'Filmer la scène'],
         correctAnswer: 'En parler à un adulte de confiance',
         explanation: 'Il faut alerter un adulte (parent, CPE, professeur, infirmier...) ou appeler le 3020.',
-        hints: ['Adulte', '3020']
+        hints: ['Adulte', '3020', 'La réponse est : En parler à un adulte de confiance']
       },
       {
         id: 'q7',
@@ -20072,7 +20072,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La politesse et l\'écoute', 'L\'indifférence', 'Les moqueries', 'L\'isolement'],
         correctAnswer: 'La politesse et l\'écoute',
         explanation: 'Respecter les autres, c\'est être poli, écouter, ne pas se moquer.',
-        hints: ['Politesse', 'Écoute']
+        hints: ['Politesse', 'Écoute', 'La réponse est : La politesse et l\'écoute']
       },
       {
         id: 'q8',
@@ -20081,7 +20081,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les signes religieux ostensibles sont interdits pour les élèves', 'La religion est enseignée', 'Les prières sont obligatoires', 'Seuls les athées sont admis'],
         correctAnswer: 'Les signes religieux ostensibles sont interdits pour les élèves',
         explanation: 'Les élèves ne peuvent pas porter de signes religieux ostensibles (loi de 2004).',
-        hints: ['Signes ostensibles', 'Neutralité']
+        hints: ['Signes ostensibles', 'Neutralité', 'La réponse est : Les signes religieux ostensibles sont interdits pour les élèves']
       },
       {
         id: 'q9',
@@ -20090,7 +20090,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les professeurs, les délégués et des représentants des parents', 'Uniquement le principal', 'Les surveillants', 'Les agents d\'entretien'],
         correctAnswer: 'Les professeurs, les délégués et des représentants des parents',
         explanation: 'Le conseil de classe examine les résultats et le comportement des élèves.',
-        hints: ['Professeurs', 'Délégués']
+        hints: ['Professeurs', 'Délégués', 'La réponse est : Les professeurs, les délégués et des représentants des parents']
       },
       {
         id: 'q10',
@@ -20099,7 +20099,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Être présent à tous les cours', 'Venir quand on veut', 'Être bon élève', 'Travailler beaucoup'],
         correctAnswer: 'Être présent à tous les cours',
         explanation: 'L\'assiduité est une obligation légale : l\'élève doit assister à tous les cours.',
-        hints: ['Présence', 'Obligation']
+        hints: ['Présence', 'Obligation', 'La réponse est : Être présent à tous les cours']
       }
     ]
   },
@@ -20122,7 +20122,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Plus de 25', '5', '10', '3'],
         correctAnswer: 'Plus de 25',
         explanation: 'La loi française reconnaît plus de 25 critères de discrimination interdits.',
-        hints: ['Nombreux', 'Plus de 20']
+        hints: ['Nombreux', 'Plus de 20', 'La réponse est : Plus de 25']
       },
       {
         id: 'q2',
@@ -20131,7 +20131,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La couleur des yeux', 'L\'origine', 'Le sexe', 'L\'orientation sexuelle'],
         correctAnswer: 'La couleur des yeux',
         explanation: 'L\'origine, le sexe, l\'orientation sexuelle sont des critères légaux, pas la couleur des yeux.',
-        hints: ['Critères légaux', 'Caractéristique protégée']
+        hints: ['Critères légaux', 'Caractéristique protégée', 'La réponse est : La couleur des yeux']
       },
       {
         id: 'q3',
@@ -20140,7 +20140,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les mêmes droits et opportunités', 'Être identiques', 'Les femmes ont plus de droits', 'Les hommes décident pour tous'],
         correctAnswer: 'Les mêmes droits et opportunités',
         explanation: 'L\'égalité signifie avoir les mêmes droits, pas être identiques.',
-        hints: ['Droits', 'Opportunités']
+        hints: ['Droits', 'Opportunités', 'La réponse est : Les mêmes droits et opportunités']
       },
       {
         id: 'q4',
@@ -20149,7 +20149,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'origine ou la couleur de peau', 'L\'âge', 'Le métier', 'Le lieu d\'habitation'],
         correctAnswer: 'L\'origine ou la couleur de peau',
         explanation: 'Le racisme est la discrimination fondée sur l\'origine ethnique ou la couleur de peau.',
-        hints: ['Origine', 'Ethnie']
+        hints: ['Origine', 'Ethnie', 'La réponse est : L\'origine ou la couleur de peau']
       },
       {
         id: 'q5',
@@ -20158,7 +20158,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La discrimination envers les personnes homosexuelles', 'La peur des humains', 'L\'amour de soi', 'Une maladie'],
         correctAnswer: 'La discrimination envers les personnes homosexuelles',
         explanation: 'L\'homophobie désigne le rejet ou la haine des personnes homosexuelles.',
-        hints: ['Orientation sexuelle', 'Homosexualité']
+        hints: ['Orientation sexuelle', 'Homosexualité', 'La réponse est : La discrimination envers les personnes homosexuelles']
       },
       {
         id: 'q6',
@@ -20167,7 +20167,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1944', '1789', '1900', '1968'],
         correctAnswer: '1944',
         explanation: 'Les femmes françaises ont obtenu le droit de vote le 21 avril 1944.',
-        hints: ['Seconde Guerre mondiale', '1944']
+        hints: ['Seconde Guerre mondiale', '1944', 'La réponse est : 1944']
       },
       {
         id: 'q7',
@@ -20176,7 +20176,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui, c\'est interdit par la loi', 'Non', 'Seulement au travail', 'Seulement à l\'école'],
         correctAnswer: 'Oui, c\'est interdit par la loi',
         explanation: 'Discriminer quelqu\'un en raison de son handicap est interdit par la loi.',
-        hints: ['Critère légal', 'Interdit']
+        hints: ['Critère légal', 'Interdit', 'La réponse est : Oui, c\'est interdit par la loi']
       },
       {
         id: 'q8',
@@ -20185,7 +20185,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Porter plainte et saisir le Défenseur des droits', 'Rien', 'Discriminer en retour', 'Déménager'],
         correctAnswer: 'Porter plainte et saisir le Défenseur des droits',
         explanation: 'Les victimes peuvent porter plainte, saisir le Défenseur des droits ou les associations.',
-        hints: ['Plainte', 'Défenseur des droits']
+        hints: ['Plainte', 'Défenseur des droits', 'La réponse est : Porter plainte et saisir le Défenseur des droits']
       },
       {
         id: 'q9',
@@ -20194,7 +20194,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les personnes juives', 'Les personnes âgées', 'Les personnes handicapées', 'Les femmes'],
         correctAnswer: 'Les personnes juives',
         explanation: 'L\'antisémitisme désigne la haine ou le rejet des personnes juives.',
-        hints: ['Religion', 'Peuple juif']
+        hints: ['Religion', 'Peuple juif', 'La réponse est : Les personnes juives']
       },
       {
         id: 'q10',
@@ -20203,7 +20203,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Refuser un emploi pour des critères discriminatoires', 'Choisir le meilleur candidat', 'Demander un CV', 'Faire un entretien'],
         correctAnswer: 'Refuser un emploi pour des critères discriminatoires',
         explanation: 'Refuser un emploi à cause de l\'origine, du sexe, de l\'âge... est illégal.',
-        hints: ['Travail', 'Critères illégaux']
+        hints: ['Travail', 'Critères illégaux', 'La réponse est : Refuser un emploi pour des critères discriminatoires']
       }
     ]
   },
@@ -20226,7 +20226,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['S\'entraider et partager avec les autres', 'Chacun pour soi', 'Ignorer les autres', 'Être égoïste'],
         correctAnswer: 'S\'entraider et partager avec les autres',
         explanation: 'La solidarité est le lien d\'entraide entre les membres d\'une communauté.',
-        hints: ['Entraide', 'Partage']
+        hints: ['Entraide', 'Partage', 'La réponse est : S\'entraider et partager avec les autres']
       },
       {
         id: 'q2',
@@ -20235,7 +20235,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Solidarité nationale', 'Charité individuelle', 'Aide internationale', 'Assurance privée'],
         correctAnswer: 'Solidarité nationale',
         explanation: 'La Sécurité sociale mutualise les risques : les bien-portants aident les malades.',
-        hints: ['Mutualisation', 'France']
+        hints: ['Mutualisation', 'France', 'La réponse est : Solidarité nationale']
       },
       {
         id: 'q3',
@@ -20244,7 +20244,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une association d\'aide alimentaire', 'Un restaurant gastronomique', 'Une chaîne de fast-food', 'Un ministère'],
         correctAnswer: 'Une association d\'aide alimentaire',
         explanation: 'Les Restos du Cœur, fondés par Coluche, distribuent des repas aux plus démunis.',
-        hints: ['Coluche', 'Aide alimentaire']
+        hints: ['Coluche', 'Aide alimentaire', 'La réponse est : Une association d\'aide alimentaire']
       },
       {
         id: 'q4',
@@ -20253,7 +20253,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Aider gratuitement, sans être payé', 'Travailler pour un salaire', 'Être obligé d\'aider', 'Recevoir de l\'aide'],
         correctAnswer: 'Aider gratuitement, sans être payé',
         explanation: 'Le bénévole donne de son temps gratuitement pour une cause ou une association.',
-        hints: ['Gratuit', 'Volontaire']
+        hints: ['Gratuit', 'Volontaire', 'La réponse est : Aider gratuitement, sans être payé']
       },
       {
         id: 'q5',
@@ -20262,7 +20262,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les populations victimes de catastrophes ou de guerres', 'Les entreprises', 'Les touristes', 'Les gouvernements riches'],
         correctAnswer: 'Les populations victimes de catastrophes ou de guerres',
         explanation: 'L\'aide humanitaire secourt les victimes de crises (guerres, famines, catastrophes).',
-        hints: ['Urgence', 'Catastrophes']
+        hints: ['Urgence', 'Catastrophes', 'La réponse est : Les populations victimes de catastrophes ou de guerres']
       },
       {
         id: 'q6',
@@ -20271,7 +20271,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une ONG médicale internationale', 'Un hôpital français', 'Un syndicat de médecins', 'Une assurance santé'],
         correctAnswer: 'Une ONG médicale internationale',
         explanation: 'MSF est une ONG qui apporte une aide médicale dans les pays en crise.',
-        hints: ['ONG', 'Soins médicaux']
+        hints: ['ONG', 'Soins médicaux', 'La réponse est : Une ONG médicale internationale']
       },
       {
         id: 'q7',
@@ -20280,7 +20280,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Solidarité', 'Commerce', 'Obligation', 'Punition'],
         correctAnswer: 'Solidarité',
         explanation: 'Le don du sang est gratuit et volontaire, il permet de sauver des vies.',
-        hints: ['Gratuit', 'Sauver des vies']
+        hints: ['Gratuit', 'Sauver des vies', 'La réponse est : Solidarité']
       },
       {
         id: 'q8',
@@ -20289,7 +20289,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La recherche contre les maladies génétiques', 'La construction de routes', 'Les vacances des enfants', 'Le sport professionnel'],
         correctAnswer: 'La recherche contre les maladies génétiques',
         explanation: 'Le Téléthon finance la recherche contre les myopathies et maladies génétiques rares.',
-        hints: ['Maladies rares', 'Recherche']
+        hints: ['Maladies rares', 'Recherche', 'La réponse est : La recherche contre les maladies génétiques']
       },
       {
         id: 'q9',
@@ -20298,7 +20298,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une aide pour les personnes sans ressources', 'Un salaire', 'Une prime de travail', 'Un impôt'],
         correctAnswer: 'Une aide pour les personnes sans ressources',
         explanation: 'Le RSA assure un revenu minimum aux personnes sans ressources suffisantes.',
-        hints: ['Minimum', 'Sans emploi']
+        hints: ['Minimum', 'Sans emploi', 'La réponse est : Une aide pour les personnes sans ressources']
       },
       {
         id: 'q10',
@@ -20307,7 +20307,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'entraide entre générations (jeunes et vieux)', 'L\'aide entre pays', 'L\'aide entre voisins', 'L\'aide entre entreprises'],
         correctAnswer: 'L\'entraide entre générations (jeunes et vieux)',
         explanation: 'Les actifs cotisent pour les retraités, les grands-parents aident les petits-enfants...',
-        hints: ['Générations', 'Jeunes/vieux']
+        hints: ['Générations', 'Jeunes/vieux', 'La réponse est : L\'entraide entre générations (jeunes et vieux)']
       }
     ]
   },
@@ -20330,7 +20330,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un droit et un devoir civique', 'Une obligation sanctionnée', 'Réservé aux riches', 'Interdit aux jeunes'],
         correctAnswer: 'Un droit et un devoir civique',
         explanation: 'Voter est un droit fondamental et un devoir moral du citoyen.',
-        hints: ['Droit', 'Devoir']
+        hints: ['Droit', 'Devoir', 'La réponse est : Un droit et un devoir civique']
       },
       {
         id: 'q2',
@@ -20339,7 +20339,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['18 ans', '16 ans', '21 ans', '25 ans'],
         correctAnswer: '18 ans',
         explanation: 'En France, le droit de vote est acquis à 18 ans, âge de la majorité.',
-        hints: ['Majorité', '18']
+        hints: ['Majorité', '18', 'La réponse est : 18 ans']
       },
       {
         id: 'q3',
@@ -20348,7 +20348,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Agir pour une cause qui nous tient à cœur', 'Gagner beaucoup d\'argent', 'Éviter les impôts', 'Ne rien faire'],
         correctAnswer: 'Agir pour une cause qui nous tient à cœur',
         explanation: 'Les associations permettent de s\'engager pour l\'environnement, la solidarité, le sport...',
-        hints: ['Cause', 'Action']
+        hints: ['Cause', 'Action', 'La réponse est : Agir pour une cause qui nous tient à cœur']
       },
       {
         id: 'q4',
@@ -20357,7 +20357,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un engagement citoyen pour les jeunes de 15-17 ans', 'Le service militaire obligatoire', 'Un travail rémunéré', 'Un diplôme scolaire'],
         correctAnswer: 'Un engagement citoyen pour les jeunes de 15-17 ans',
         explanation: 'Le SNU propose un séjour de cohésion et une mission d\'intérêt général.',
-        hints: ['Jeunes', '15-17 ans']
+        hints: ['Jeunes', '15-17 ans', 'La réponse est : Un engagement citoyen pour les jeunes de 15-17 ans']
       },
       {
         id: 'q5',
@@ -20366,7 +20366,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Demander collectivement une action aux autorités', 'Gagner un procès', 'Obtenir de l\'argent', 'Créer une loi'],
         correctAnswer: 'Demander collectivement une action aux autorités',
         explanation: 'La pétition est un moyen de mobilisation citoyenne pour faire entendre une cause.',
-        hints: ['Signatures', 'Demande collective']
+        hints: ['Signatures', 'Demande collective', 'La réponse est : Demander collectivement une action aux autorités']
       },
       {
         id: 'q6',
@@ -20375,7 +20375,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un droit constitutionnel', 'Interdit en France', 'Réservé aux syndicats', 'Puni par la loi'],
         correctAnswer: 'Un droit constitutionnel',
         explanation: 'La liberté de manifestation est un droit fondamental, mais il faut déclarer la manifestation.',
-        hints: ['Droit', 'Déclaration']
+        hints: ['Droit', 'Déclaration', 'La réponse est : Un droit constitutionnel']
       },
       {
         id: 'q7',
@@ -20384,7 +20384,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Agir pour protéger l\'environnement au quotidien', 'Vivre dans la nature', 'Refuser la technologie', 'Être végétarien'],
         correctAnswer: 'Agir pour protéger l\'environnement au quotidien',
         explanation: 'L\'éco-citoyen adopte des gestes écologiques : trier, économiser l\'eau et l\'énergie...',
-        hints: ['Environnement', 'Gestes quotidiens']
+        hints: ['Environnement', 'Gestes quotidiens', 'La réponse est : Agir pour protéger l\'environnement au quotidien']
       },
       {
         id: 'q8',
@@ -20393,7 +20393,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un engagement volontaire de 6 à 12 mois pour les 16-25 ans', 'Un travail obligatoire', 'Un stage scolaire', 'Une punition'],
         correctAnswer: 'Un engagement volontaire de 6 à 12 mois pour les 16-25 ans',
         explanation: 'Le service civique permet de s\'engager dans une mission d\'intérêt général.',
-        hints: ['Volontaire', '16-25 ans']
+        hints: ['Volontaire', '16-25 ans', 'La réponse est : Un engagement volontaire de 6 à 12 mois pour les 16-25 ans']
       },
       {
         id: 'q9',
@@ -20402,7 +20402,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Respecte les lois et participe à la vie collective', 'Fait ce qu\'il veut', 'Ignore les autres', 'Ne vote jamais'],
         correctAnswer: 'Respecte les lois et participe à la vie collective',
         explanation: 'Être citoyen implique des droits mais aussi des responsabilités.',
-        hints: ['Lois', 'Participation']
+        hints: ['Lois', 'Participation', 'La réponse est : Respecte les lois et participe à la vie collective']
       },
       {
         id: 'q10',
@@ -20411,7 +20411,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Refuser d\'acheter certains produits pour protester', 'Acheter beaucoup', 'Voler des produits', 'Une marque'],
         correctAnswer: 'Refuser d\'acheter certains produits pour protester',
         explanation: 'Le boycott est une forme d\'engagement : refuser d\'acheter pour faire pression.',
-        hints: ['Refus', 'Protestation']
+        hints: ['Refus', 'Protestation', 'La réponse est : Refuser d\'acheter certains produits pour protester']
       }
     ]
   },
@@ -20434,7 +20434,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Du peuple français', 'Du Président', 'Des juges', 'De l\'Union européenne'],
         correctAnswer: 'Du peuple français',
         explanation: 'Les décisions de justice sont rendues "au nom du peuple français".',
-        hints: ['Peuple', 'Souveraineté']
+        hints: ['Peuple', 'Souveraineté', 'La réponse est : Du peuple français']
       },
       {
         id: 'q2',
@@ -20443,7 +20443,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['On est innocent jusqu\'à preuve du contraire', 'On est coupable jusqu\'à preuve du contraire', 'Le juge décide seul', 'La police a toujours raison'],
         correctAnswer: 'On est innocent jusqu\'à preuve du contraire',
         explanation: 'Toute personne est présumée innocente tant que sa culpabilité n\'est pas prouvée.',
-        hints: ['Innocent', 'Preuve']
+        hints: ['Innocent', 'Preuve', 'La réponse est : On est innocent jusqu\'à preuve du contraire']
       },
       {
         id: 'q3',
@@ -20452,7 +20452,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les délits', 'Les crimes', 'Les contraventions', 'Les divorces'],
         correctAnswer: 'Les délits',
         explanation: 'Le tribunal correctionnel juge les délits (vol, escroquerie, coups et blessures...).',
-        hints: ['Délits', 'Correctionnel']
+        hints: ['Délits', 'Correctionnel', 'La réponse est : Les délits']
       },
       {
         id: 'q4',
@@ -20461,7 +20461,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les crimes', 'Les délits', 'Les contraventions', 'Les litiges civils'],
         correctAnswer: 'Les crimes',
         explanation: 'La cour d\'assises, avec un jury populaire, juge les crimes (meurtre, viol...).',
-        hints: ['Crimes', 'Jury']
+        hints: ['Crimes', 'Jury', 'La réponse est : Les crimes']
       },
       {
         id: 'q5',
@@ -20470,7 +20470,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des citoyens tirés au sort', 'Des juges professionnels', 'Des policiers', 'Des avocats'],
         correctAnswer: 'Des citoyens tirés au sort',
         explanation: 'Les jurés sont des citoyens ordinaires tirés au sort sur les listes électorales.',
-        hints: ['Citoyens', 'Tirage au sort']
+        hints: ['Citoyens', 'Tirage au sort', 'La réponse est : Des citoyens tirés au sort']
       },
       {
         id: 'q6',
@@ -20479,7 +20479,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un droit fondamental pour tous', 'Réservé aux riches', 'Facultatif', 'Interdit'],
         correctAnswer: 'Un droit fondamental pour tous',
         explanation: 'Toute personne a droit à un avocat. L\'aide juridictionnelle existe pour les plus modestes.',
-        hints: ['Droit', 'Aide juridictionnelle']
+        hints: ['Droit', 'Aide juridictionnelle', 'La réponse est : Un droit fondamental pour tous']
       },
       {
         id: 'q7',
@@ -20488,7 +20488,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Contester une décision de justice', 'Accepter le jugement', 'Appeler son avocat', 'Téléphoner au tribunal'],
         correctAnswer: 'Contester une décision de justice',
         explanation: 'L\'appel permet de faire rejuger l\'affaire par une juridiction supérieure.',
-        hints: ['Contester', 'Second jugement']
+        hints: ['Contester', 'Second jugement', 'La réponse est : Contester une décision de justice']
       },
       {
         id: 'q8',
@@ -20497,7 +20497,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Adaptée et à visée éducative', 'Identique à celle des adultes', 'Plus sévère', 'Inexistante'],
         correctAnswer: 'Adaptée et à visée éducative',
         explanation: 'La justice des mineurs privilégie l\'éducation et la réinsertion.',
-        hints: ['Éducative', 'Mineurs']
+        hints: ['Éducative', 'Mineurs', 'La réponse est : Adaptée et à visée éducative']
       },
       {
         id: 'q9',
@@ -20506,7 +20506,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La justice est indépendante du gouvernement', 'Le Président contrôle la justice', 'Les juges font les lois', 'La police juge les criminels'],
         correctAnswer: 'La justice est indépendante du gouvernement',
         explanation: 'La séparation des pouvoirs garantit l\'indépendance de la justice.',
-        hints: ['Indépendance', 'Trois pouvoirs']
+        hints: ['Indépendance', 'Trois pouvoirs', 'La réponse est : La justice est indépendante du gouvernement']
       },
       {
         id: 'q10',
@@ -20515,7 +20515,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le tribunal de police', 'La cour d\'assises', 'Le tribunal correctionnel', 'La Cour de cassation'],
         correctAnswer: 'Le tribunal de police',
         explanation: 'Le tribunal de police juge les contraventions (infractions mineures).',
-        hints: ['Infractions mineures', 'Police']
+        hints: ['Infractions mineures', 'Police', 'La réponse est : Le tribunal de police']
       }
     ]
   },
@@ -20538,7 +20538,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1789', '1848', '1958', '1945'],
         correctAnswer: '1789',
         explanation: 'La DDHC a été adoptée le 26 août 1789, pendant la Révolution française.',
-        hints: ['Révolution', '1789']
+        hints: ['Révolution', '1789', 'La réponse est : 1789']
       },
       {
         id: 'q2',
@@ -20547,7 +20547,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Circuler librement sur le territoire', 'Entrer dans toutes les propriétés', 'Voyager sans passeport à l\'étranger', 'Conduire sans permis'],
         correctAnswer: 'Circuler librement sur le territoire',
         explanation: 'La liberté de circulation permet de se déplacer librement en France.',
-        hints: ['Circuler', 'Territoire']
+        hints: ['Circuler', 'Territoire', 'La réponse est : Circuler librement sur le territoire']
       },
       {
         id: 'q3',
@@ -20556,7 +20556,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les médias peuvent informer librement', 'Les journaux sont gratuits', 'Tout le monde peut créer un journal', 'La presse dit toujours la vérité'],
         correctAnswer: 'Les médias peuvent informer librement',
         explanation: 'La liberté de la presse garantit l\'indépendance des médias vis-à-vis du pouvoir.',
-        hints: ['Médias', 'Information']
+        hints: ['Médias', 'Information', 'La réponse est : Les médias peuvent informer librement']
       },
       {
         id: 'q4',
@@ -20565,7 +20565,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'intimité et les données personnelles', 'Le droit de se cacher', 'Le secret des affaires', 'Les crimes'],
         correctAnswer: 'L\'intimité et les données personnelles',
         explanation: 'La vie privée inclut l\'image, la correspondance, les données personnelles...',
-        hints: ['Intimité', 'Données']
+        hints: ['Intimité', 'Données', 'La réponse est : L\'intimité et les données personnelles']
       },
       {
         id: 'q5',
@@ -20574,7 +20574,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Croire ou ne pas croire librement', 'Imposer sa religion', 'Interdire les religions', 'Critiquer sans limite'],
         correctAnswer: 'Croire ou ne pas croire librement',
         explanation: 'Chacun est libre d\'avoir les croyances ou convictions de son choix.',
-        hints: ['Croyances', 'Liberté']
+        hints: ['Croyances', 'Liberté', 'La réponse est : Croire ou ne pas croire librement']
       },
       {
         id: 'q6',
@@ -20583,7 +20583,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un droit constitutionnel des travailleurs', 'Interdit en France', 'Réservé aux fonctionnaires', 'Une obligation'],
         correctAnswer: 'Un droit constitutionnel des travailleurs',
         explanation: 'Le droit de grève est reconnu par la Constitution de 1946.',
-        hints: ['Travailleurs', 'Constitution']
+        hints: ['Travailleurs', 'Constitution', 'La réponse est : Un droit constitutionnel des travailleurs']
       },
       {
         id: 'q7',
@@ -20592,7 +20592,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Créer ou rejoindre une association librement', 'Adhérer obligatoirement à un parti', 'Créer une entreprise', 'Avoir des amis'],
         correctAnswer: 'Créer ou rejoindre une association librement',
         explanation: 'La loi de 1901 garantit la liberté de créer des associations.',
-        hints: ['Associations', 'Loi 1901']
+        hints: ['Associations', 'Loi 1901', 'La réponse est : Créer ou rejoindre une association librement']
       },
       {
         id: 'q8',
@@ -20601,7 +20601,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Protéger l\'ordre public et les droits d\'autrui', 'N\'importe quelle raison', 'Plaire au gouvernement', 'Aucune raison'],
         correctAnswer: 'Protéger l\'ordre public et les droits d\'autrui',
         explanation: 'Les libertés ont des limites : ne pas nuire aux autres ni à l\'ordre public.',
-        hints: ['Limites', 'Ordre public']
+        hints: ['Limites', 'Ordre public', 'La réponse est : Protéger l\'ordre public et les droits d\'autrui']
       },
       {
         id: 'q9',
@@ -20610,7 +20610,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['On ne peut pas utiliser ma photo sans mon accord', 'J\'ai droit à un portrait', 'Je peux photographier tout le monde', 'Les photos sont interdites'],
         correctAnswer: 'On ne peut pas utiliser ma photo sans mon accord',
         explanation: 'Publier la photo de quelqu\'un nécessite généralement son autorisation.',
-        hints: ['Photo', 'Autorisation']
+        hints: ['Photo', 'Autorisation', 'La réponse est : On ne peut pas utiliser ma photo sans mon accord']
       },
       {
         id: 'q10',
@@ -20619,7 +20619,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les arrestations arbitraires', 'Les maladies', 'Les impôts', 'Le chômage'],
         correctAnswer: 'Les arrestations arbitraires',
         explanation: 'L\'habeas corpus garantit qu\'on ne peut être détenu sans jugement.',
-        hints: ['Arrestation', 'Détention']
+        hints: ['Arrestation', 'Détention', 'La réponse est : Les arrestations arbitraires']
       }
     ]
   },
@@ -20642,7 +20642,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une fausse information diffusée volontairement', 'Une information vérifiée', 'Un article de journal', 'Une publicité'],
         correctAnswer: 'Une fausse information diffusée volontairement',
         explanation: 'Les fake news sont des informations fausses créées pour tromper ou manipuler.',
-        hints: ['Faux', 'Manipulation']
+        hints: ['Faux', 'Manipulation', 'La réponse est : Une fausse information diffusée volontairement']
       },
       {
         id: 'q2',
@@ -20651,7 +20651,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Faire preuve d\'esprit critique', 'Perdre son temps', 'Être méfiant', 'Être naïf'],
         correctAnswer: 'Faire preuve d\'esprit critique',
         explanation: 'L\'esprit critique consiste à vérifier les sources avant de croire ou partager.',
-        hints: ['Vérifier', 'Sources']
+        hints: ['Vérifier', 'Sources', 'La réponse est : Faire preuve d\'esprit critique']
       },
       {
         id: 'q3',
@@ -20660,7 +20660,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un média reconnu qui cite ses sources', 'Un post anonyme sur les réseaux', 'Une rumeur entendue', 'Un message WhatsApp'],
         correctAnswer: 'Un média reconnu qui cite ses sources',
         explanation: 'Les médias sérieux citent leurs sources et vérifient les informations.',
-        hints: ['Sources', 'Vérification']
+        hints: ['Sources', 'Vérification', 'La réponse est : Un média reconnu qui cite ses sources']
       },
       {
         id: 'q4',
@@ -20669,7 +20669,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'existence de médias d\'opinions différentes', 'Un seul média officiel', 'Tous les médias disent la même chose', 'Les médias sont interdits'],
         correctAnswer: 'L\'existence de médias d\'opinions différentes',
         explanation: 'Le pluralisme garantit la diversité des points de vue dans les médias.',
-        hints: ['Diversité', 'Opinions']
+        hints: ['Diversité', 'Opinions', 'La réponse est : L\'existence de médias d\'opinions différentes']
       },
       {
         id: 'q5',
@@ -20678,7 +20678,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'audiovisuel et le numérique', 'La presse écrite uniquement', 'Les livres', 'Les jeux vidéo'],
         correctAnswer: 'L\'audiovisuel et le numérique',
         explanation: 'L\'Arcom régule la radio, la télévision et les plateformes numériques.',
-        hints: ['Radio', 'Télévision']
+        hints: ['Radio', 'Télévision', 'La réponse est : L\'audiovisuel et le numérique']
       },
       {
         id: 'q6',
@@ -20687,7 +20687,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Identifiable comme telle', 'Cachée dans les articles', 'Mensongère', 'Absente des médias'],
         correctAnswer: 'Identifiable comme telle',
         explanation: 'La publicité doit être clairement identifiée pour ne pas tromper le public.',
-        hints: ['Identification', 'Transparence']
+        hints: ['Identification', 'Transparence', 'La réponse est : Identifiable comme telle']
       },
       {
         id: 'q7',
@@ -20696,7 +20696,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Créer une bulle de filtre qui limite notre vision', 'Nous montrer toutes les opinions', 'Vérifier les fake news', 'Nous protéger des manipulations'],
         correctAnswer: 'Créer une bulle de filtre qui limite notre vision',
         explanation: 'Les algorithmes nous montrent surtout ce qui nous plaît, limitant notre vision.',
-        hints: ['Bulle de filtre', 'Personnalisation']
+        hints: ['Bulle de filtre', 'Personnalisation', 'La réponse est : Créer une bulle de filtre qui limite notre vision']
       },
       {
         id: 'q8',
@@ -20705,7 +20705,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une personne mise en cause de s\'exprimer', 'N\'importe qui d\'écrire dans un journal', 'Un journaliste de se défendre', 'Critiquer un article'],
         correctAnswer: 'Une personne mise en cause de s\'exprimer',
         explanation: 'Le droit de réponse permet de répondre à une information personnellement préjudiciable.',
-        hints: ['Réponse', 'Mis en cause']
+        hints: ['Réponse', 'Mis en cause', 'La réponse est : Une personne mise en cause de s\'exprimer']
       },
       {
         id: 'q9',
@@ -20714,7 +20714,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'explication de tout par des forces cachées', 'Une analyse scientifique', 'Des preuves vérifiables', 'Un journalisme d\'investigation'],
         correctAnswer: 'L\'explication de tout par des forces cachées',
         explanation: 'Les théories du complot attribuent les événements à des complots secrets sans preuves.',
-        hints: ['Complot', 'Forces cachées']
+        hints: ['Complot', 'Forces cachées', 'La réponse est : L\'explication de tout par des forces cachées']
       },
       {
         id: 'q10',
@@ -20723,7 +20723,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Faire une recherche d\'image inversée', 'La regarder attentivement', 'Demander à un ami', 'Rien, les images ne mentent pas'],
         correctAnswer: 'Faire une recherche d\'image inversée',
         explanation: 'La recherche d\'image inversée permet de trouver l\'origine d\'une photo.',
-        hints: ['Recherche inversée', 'Origine']
+        hints: ['Recherche inversée', 'Origine', 'La réponse est : Faire une recherche d\'image inversée']
       }
     ]
   },
@@ -20746,7 +20746,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1958', '1946', '1789', '1968'],
         correctAnswer: '1958',
         explanation: 'La Ve République a été instaurée par la Constitution du 4 octobre 1958.',
-        hints: ['De Gaulle', '1958']
+        hints: ['De Gaulle', '1958', 'La réponse est : 1958']
       },
       {
         id: 'q2',
@@ -20755,7 +20755,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['5 ans', '7 ans', '4 ans', '6 ans'],
         correctAnswer: '5 ans',
         explanation: 'Depuis 2000, le mandat présidentiel est de 5 ans (quinquennat).',
-        hints: ['Quinquennat', '5']
+        hints: ['Quinquennat', '5', 'La réponse est : 5 ans']
       },
       {
         id: 'q3',
@@ -20764,7 +20764,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['577 députés', '348 sénateurs', '100 députés', '500 sénateurs'],
         correctAnswer: '577 députés',
         explanation: 'L\'Assemblée nationale compte 577 députés élus au suffrage universel direct.',
-        hints: ['Députés', '577']
+        hints: ['Députés', '577', 'La réponse est : 577 députés']
       },
       {
         id: 'q4',
@@ -20773,7 +20773,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Président de la République', 'L\'Assemblée nationale', 'Le Sénat', 'Le peuple'],
         correctAnswer: 'Le Président de la République',
         explanation: 'Le Président nomme le Premier ministre, généralement issu de la majorité parlementaire.',
-        hints: ['Président', 'Nomination']
+        hints: ['Président', 'Nomination', 'La réponse est : Le Président de la République']
       },
       {
         id: 'q5',
@@ -20782,7 +20782,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Parlement (Assemblée nationale et Sénat)', 'Le Président', 'Le gouvernement', 'Les juges'],
         correctAnswer: 'Le Parlement (Assemblée nationale et Sénat)',
         explanation: 'Le Parlement vote les lois. Il est composé de l\'Assemblée nationale et du Sénat.',
-        hints: ['Lois', 'Parlement']
+        hints: ['Lois', 'Parlement', 'La réponse est : Le Parlement (Assemblée nationale et Sénat)']
       },
       {
         id: 'q6',
@@ -20791,7 +20791,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La conformité des lois à la Constitution', 'Les comptes de l\'État', 'Les élections locales', 'Les impôts'],
         correctAnswer: 'La conformité des lois à la Constitution',
         explanation: 'Le Conseil constitutionnel peut censurer une loi contraire à la Constitution.',
-        hints: ['Constitution', 'Conformité']
+        hints: ['Constitution', 'Conformité', 'La réponse est : La conformité des lois à la Constitution']
       },
       {
         id: 'q7',
@@ -20800,7 +20800,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les grands électeurs (élus locaux)', 'Le peuple directement', 'Le Président', 'L\'Assemblée nationale'],
         correctAnswer: 'Les grands électeurs (élus locaux)',
         explanation: 'Les sénateurs sont élus au suffrage universel indirect par les grands électeurs.',
-        hints: ['Indirect', 'Grands électeurs']
+        hints: ['Indirect', 'Grands électeurs', 'La réponse est : Les grands électeurs (élus locaux)']
       },
       {
         id: 'q8',
@@ -20809,7 +20809,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Renverser le gouvernement', 'Destituer le Président', 'Dissoudre l\'Assemblée', 'Annuler une loi'],
         correctAnswer: 'Renverser le gouvernement',
         explanation: 'Si votée par la majorité des députés, la motion de censure oblige le gouvernement à démissionner.',
-        hints: ['Gouvernement', 'Démission']
+        hints: ['Gouvernement', 'Démission', 'La réponse est : Renverser le gouvernement']
       },
       {
         id: 'q9',
@@ -20818,7 +20818,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Assemblée nationale', 'Le Sénat', 'Le Conseil constitutionnel', 'Le gouvernement'],
         correctAnswer: 'L\'Assemblée nationale',
         explanation: 'Le Président peut dissoudre l\'Assemblée nationale, provoquant de nouvelles élections.',
-        hints: ['Dissolution', 'Assemblée']
+        hints: ['Dissolution', 'Assemblée', 'La réponse est : L\'Assemblée nationale']
       },
       {
         id: 'q10',
@@ -20827,7 +20827,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Voter directement sur une question', 'Élire le Président', 'Choisir les ministres', 'Juger les criminels'],
         correctAnswer: 'Voter directement sur une question',
         explanation: 'Le référendum est un vote direct du peuple sur une question précise.',
-        hints: ['Vote direct', 'Question']
+        hints: ['Vote direct', 'Question', 'La réponse est : Voter directement sur une question']
       }
     ]
   },
@@ -20850,7 +20850,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le Président de la République', 'Le Premier ministre', 'Le ministre de la Défense', 'Un général'],
         correctAnswer: 'Le Président de la République',
         explanation: 'La Constitution fait du Président le chef des armées.',
-        hints: ['Constitution', 'Chef']
+        hints: ['Constitution', 'Chef', 'La réponse est : Le Président de la République']
       },
       {
         id: 'q2',
@@ -20859,7 +20859,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Oui, c\'est une puissance nucléaire', 'Non', 'Seulement pour la recherche', 'Elle l\'a abandonnée'],
         correctAnswer: 'Oui, c\'est une puissance nucléaire',
         explanation: 'La France est une des puissances nucléaires mondiales (dissuasion nucléaire).',
-        hints: ['Dissuasion', 'Nucléaire']
+        hints: ['Dissuasion', 'Nucléaire', 'La réponse est : Oui, c\'est une puissance nucléaire']
       },
       {
         id: 'q3',
@@ -20868,7 +20868,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Obligatoire pour tous les jeunes Français', 'Facultative', 'Réservée aux volontaires', 'Uniquement pour les garçons'],
         correctAnswer: 'Obligatoire pour tous les jeunes Français',
         explanation: 'La JDC est obligatoire pour tous les Français entre 16 et 25 ans.',
-        hints: ['Obligatoire', '16-25 ans']
+        hints: ['Obligatoire', '16-25 ans', 'La réponse est : Obligatoire pour tous les jeunes Français']
       },
       {
         id: 'q4',
@@ -20877,7 +20877,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une alliance militaire dont la France fait partie', 'Une ONG humanitaire', 'Une organisation européenne', 'Un pays'],
         correctAnswer: 'Une alliance militaire dont la France fait partie',
         explanation: 'L\'OTAN (Organisation du Traité de l\'Atlantique Nord) est une alliance de défense.',
-        hints: ['Alliance', 'Atlantique']
+        hints: ['Alliance', 'Atlantique', 'La réponse est : Une alliance militaire dont la France fait partie']
       },
       {
         id: 'q5',
@@ -20886,7 +20886,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La lutte contre le terrorisme', 'La défense des frontières', 'Les catastrophes naturelles', 'La cybersécurité'],
         correctAnswer: 'La lutte contre le terrorisme',
         explanation: 'Vigipirate est le plan national de vigilance et de prévention du terrorisme.',
-        hints: ['Terrorisme', 'Vigilance']
+        hints: ['Terrorisme', 'Vigilance', 'La réponse est : La lutte contre le terrorisme']
       },
       {
         id: 'q6',
@@ -20895,7 +20895,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['1997', '1970', '2000', '2010'],
         correctAnswer: '1997',
         explanation: 'La conscription a été suspendue en 1997 sous Jacques Chirac.',
-        hints: ['Chirac', 'Suspension']
+        hints: ['Chirac', 'Suspension', 'La réponse est : 1997']
       },
       {
         id: 'q7',
@@ -20904,7 +20904,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des missions militaires à l\'étranger', 'Des exercices en France', 'Des parades militaires', 'Des formations'],
         correctAnswer: 'Des missions militaires à l\'étranger',
         explanation: 'Les OPEX sont des interventions de l\'armée française à l\'étranger.',
-        hints: ['Étranger', 'Missions']
+        hints: ['Étranger', 'Missions', 'La réponse est : Des missions militaires à l\'étranger']
       },
       {
         id: 'q8',
@@ -20913,7 +20913,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les systèmes informatiques contre les attaques', 'Les frontières terrestres', 'L\'espace aérien', 'Les mers'],
         correctAnswer: 'Les systèmes informatiques contre les attaques',
         explanation: 'La cyberdéfense protège les infrastructures numériques contre les cyberattaques.',
-        hints: ['Informatique', 'Cyberattaques']
+        hints: ['Informatique', 'Cyberattaques', 'La réponse est : Les systèmes informatiques contre les attaques']
       },
       {
         id: 'q9',
@@ -20922,7 +20922,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Du ministère de l\'Intérieur et des Armées', 'Uniquement de la Défense', 'Uniquement de l\'Intérieur', 'De la Justice'],
         correctAnswer: 'Du ministère de l\'Intérieur et des Armées',
         explanation: 'La gendarmerie a une double tutelle : Intérieur et Armées.',
-        hints: ['Double tutelle', 'Militaire']
+        hints: ['Double tutelle', 'Militaire', 'La réponse est : Du ministère de l\'Intérieur et des Armées']
       },
       {
         id: 'q10',
@@ -20931,7 +20931,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Protéger la sécurité nationale', 'Espionner les citoyens français', 'Contrôler Internet', 'Surveiller les élections'],
         correctAnswer: 'Protéger la sécurité nationale',
         explanation: 'Les services de renseignement protègent la France contre les menaces extérieures et intérieures.',
-        hints: ['Sécurité', 'Renseignement']
+        hints: ['Sécurité', 'Renseignement', 'La réponse est : Protéger la sécurité nationale']
       }
     ]
   },
@@ -20954,7 +20954,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['27 pays', '28 pays', '25 pays', '30 pays'],
         correctAnswer: '27 pays',
         explanation: 'Depuis le Brexit (2020), l\'UE compte 27 États membres.',
-        hints: ['Brexit', '27']
+        hints: ['Brexit', '27', 'La réponse est : 27 pays']
       },
       {
         id: 'q2',
@@ -20963,7 +20963,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Citoyen européen', 'Citoyen français', 'Apatride', 'Résident permanent'],
         correctAnswer: 'Citoyen européen',
         explanation: 'La citoyenneté européenne s\'ajoute à la citoyenneté nationale.',
-        hints: ['Double citoyenneté', 'Automatique']
+        hints: ['Double citoyenneté', 'Automatique', 'La réponse est : Citoyen européen']
       },
       {
         id: 'q3',
@@ -20972,7 +20972,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Au suffrage universel direct par les citoyens', 'Par les gouvernements', 'Par la Commission', 'Par le Conseil'],
         correctAnswer: 'Au suffrage universel direct par les citoyens',
         explanation: 'Les citoyens européens élisent directement les eurodéputés tous les 5 ans.',
-        hints: ['Vote direct', '5 ans']
+        hints: ['Vote direct', '5 ans', 'La réponse est : Au suffrage universel direct par les citoyens']
       },
       {
         id: 'q4',
@@ -20981,7 +20981,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Propose les lois européennes', 'Vote les lois', 'Juge les affaires', 'Élit le président'],
         correctAnswer: 'Propose les lois européennes',
         explanation: 'La Commission propose les textes de loi et veille à leur application.',
-        hints: ['Proposer', 'Initiative']
+        hints: ['Proposer', 'Initiative', 'La réponse est : Propose les lois européennes']
       },
       {
         id: 'q5',
@@ -20990,7 +20990,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Voyager, travailler et s\'installer dans un autre pays de l\'UE', 'Voyager seulement', 'Travailler seulement', 'Rien de spécial'],
         correctAnswer: 'Voyager, travailler et s\'installer dans un autre pays de l\'UE',
         explanation: 'Les citoyens européens peuvent circuler, travailler et résider librement dans l\'UE.',
-        hints: ['Liberté', 'Circulation']
+        hints: ['Liberté', 'Circulation', 'La réponse est : Voyager, travailler et s\'installer dans un autre pays de l\'UE']
       },
       {
         id: 'q6',
@@ -20999,7 +20999,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De voyager sans contrôle aux frontières', 'D\'avoir la même monnaie', 'De voter aux élections', 'D\'avoir le même droit du travail'],
         correctAnswer: 'De voyager sans contrôle aux frontières',
         explanation: 'L\'espace Schengen a supprimé les contrôles aux frontières intérieures.',
-        hints: ['Frontières', 'Sans contrôle']
+        hints: ['Frontières', 'Sans contrôle', 'La réponse est : De voyager sans contrôle aux frontières']
       },
       {
         id: 'q7',
@@ -21008,7 +21008,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Utilisent l\'euro comme monnaie', 'Sont dans l\'UE', 'Sont dans Schengen', 'Ont signé le traité de Rome'],
         correctAnswer: 'Utilisent l\'euro comme monnaie',
         explanation: 'Tous les pays de l\'UE n\'utilisent pas l\'euro (ex: Pologne, Suède).',
-        hints: ['Monnaie', 'Euro']
+        hints: ['Monnaie', 'Euro', 'La réponse est : Utilisent l\'euro comme monnaie']
       },
       {
         id: 'q8',
@@ -21017,7 +21017,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Municipales et européennes dans son pays de résidence', 'Présidentielles partout', 'Législatives partout', 'À toutes les élections'],
         correctAnswer: 'Municipales et européennes dans son pays de résidence',
         explanation: 'Un Européen résidant en France peut voter aux municipales et européennes.',
-        hints: ['Municipales', 'Européennes']
+        hints: ['Municipales', 'Européennes', 'La réponse est : Municipales et européennes dans son pays de résidence']
       },
       {
         id: 'q9',
@@ -21026,7 +21026,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les ministres des États membres', 'Les eurodéputés', 'Les commissaires', 'Les citoyens'],
         correctAnswer: 'Les ministres des États membres',
         explanation: 'Le Conseil réunit les ministres selon les sujets traités (agriculture, économie...).',
-        hints: ['Ministres', 'États']
+        hints: ['Ministres', 'États', 'La réponse est : Les ministres des États membres']
       },
       {
         id: 'q10',
@@ -21035,7 +21035,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Étudier dans un autre pays européen', 'Obtenir un diplôme européen', 'Travailler gratuitement', 'Devenir fonctionnaire européen'],
         correctAnswer: 'Étudier dans un autre pays européen',
         explanation: 'Erasmus+ finance des échanges d\'étudiants entre universités européennes.',
-        hints: ['Étudiants', 'Échange']
+        hints: ['Étudiants', 'Échange', 'La réponse est : Étudier dans un autre pays européen']
       }
     ]
   },
@@ -21060,7 +21060,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un objet fabriqué par l\'homme pour répondre à un besoin', 'Un objet naturel', 'Un objet ancien', 'Un objet compliqué'],
         correctAnswer: 'Un objet fabriqué par l\'homme pour répondre à un besoin',
         explanation: 'Un objet technique est créé par l\'homme pour satisfaire un besoin.',
-        hints: ['Fabriqué', 'Besoin']
+        hints: ['Fabriqué', 'Besoin', 'La réponse est : Un objet fabriqué par l\'homme pour répondre à un besoin']
       },
       {
         id: 'q2',
@@ -21069,7 +21069,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À quoi sert-il ?', 'Comment fonctionne-t-il ?', 'De quoi est-il fait ?', 'Qui l\'a inventé ?'],
         correctAnswer: 'À quoi sert-il ?',
         explanation: 'La fonction d\'usage définit le service rendu par l\'objet.',
-        hints: ['Service rendu', 'Utilité']
+        hints: ['Service rendu', 'Utilité', 'La réponse est : À quoi sert-il ?']
       },
       {
         id: 'q3',
@@ -21078,7 +21078,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'apparence et l\'attrait de l\'objet', 'Son prix', 'Sa solidité', 'Sa taille'],
         correctAnswer: 'L\'apparence et l\'attrait de l\'objet',
         explanation: 'La fonction d\'estime est liée au design, à la marque, à l\'esthétique.',
-        hints: ['Apparence', 'Design']
+        hints: ['Apparence', 'Design', 'La réponse est : L\'apparence et l\'attrait de l\'objet']
       },
       {
         id: 'q4',
@@ -21087,7 +21087,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les contraintes et besoins à respecter', 'Les étapes de fabrication', 'Le prix de vente', 'Le nom du fabricant'],
         correctAnswer: 'Les contraintes et besoins à respecter',
         explanation: 'Le cahier des charges liste toutes les exigences du produit.',
-        hints: ['Contraintes', 'Exigences']
+        hints: ['Contraintes', 'Exigences', 'La réponse est : Les contraintes et besoins à respecter']
       },
       {
         id: 'q5',
@@ -21096,7 +21096,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Se déplacer', 'Faire du sport', 'S\'amuser', 'Transporter des marchandises'],
         correctAnswer: 'Se déplacer',
         explanation: 'La fonction principale du vélo est le déplacement d\'une personne.',
-        hints: ['Déplacement', 'Transport']
+        hints: ['Déplacement', 'Transport', 'La réponse est : Se déplacer']
       },
       {
         id: 'q6',
@@ -21105,7 +21105,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Son impact sur la nature', 'Son poids', 'Sa couleur', 'Son prix'],
         correctAnswer: 'Son impact sur la nature',
         explanation: 'Les contraintes environnementales concernent l\'écologie et le développement durable.',
-        hints: ['Écologie', 'Nature']
+        hints: ['Écologie', 'Nature', 'La réponse est : Son impact sur la nature']
       },
       {
         id: 'q7',
@@ -21114,7 +21114,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les progrès technologiques et les nouveaux besoins', 'Le hasard', 'La mode uniquement', 'Les lois'],
         correctAnswer: 'Les progrès technologiques et les nouveaux besoins',
         explanation: 'Les objets évoluent grâce aux innovations et aux nouveaux usages.',
-        hints: ['Progrès', 'Innovation']
+        hints: ['Progrès', 'Innovation', 'La réponse est : Les progrès technologiques et les nouveaux besoins']
       },
       {
         id: 'q8',
@@ -21123,7 +21123,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ne pas être dangereux pour l\'utilisateur', 'Être solide', 'Être cher', 'Être beau'],
         correctAnswer: 'Ne pas être dangereux pour l\'utilisateur',
         explanation: 'La sécurité de l\'utilisateur est une contrainte prioritaire.',
-        hints: ['Danger', 'Utilisateur']
+        hints: ['Danger', 'Utilisateur', 'La réponse est : Ne pas être dangereux pour l\'utilisateur']
       },
       {
         id: 'q9',
@@ -21132,7 +21132,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Chauffer une maison', 'Communiquer', 'Se divertir', 'S\'informer'],
         correctAnswer: 'Chauffer une maison',
         explanation: 'Le smartphone permet de communiquer, se divertir et s\'informer, mais pas de chauffer.',
-        hints: ['Chauffage', 'Téléphone']
+        hints: ['Chauffage', 'Téléphone', 'La réponse est : Chauffer une maison']
       },
       {
         id: 'q10',
@@ -21141,7 +21141,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Définir le besoin auquel répond l\'objet', 'Dessiner l\'objet', 'Calculer son prix', 'Lister ses matériaux'],
         correctAnswer: 'Définir le besoin auquel répond l\'objet',
         explanation: 'Ce diagramme identifie à qui rend service l\'objet et sur quoi il agit.',
-        hints: ['Besoin', 'Service']
+        hints: ['Besoin', 'Service', 'La réponse est : Définir le besoin auquel répond l\'objet']
       }
     ]
   },
@@ -21164,7 +21164,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les métaux', 'Les plastiques', 'Les céramiques', 'Les composites'],
         correctAnswer: 'Les métaux',
         explanation: 'Le fer, l\'aluminium et le cuivre sont des métaux.',
-        hints: ['Conducteurs', 'Brillants']
+        hints: ['Conducteurs', 'Brillants', 'La réponse est : Les métaux']
       },
       {
         id: 'q2',
@@ -21173,7 +21173,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Végétale', 'Animale', 'Minérale', 'Synthétique'],
         correctAnswer: 'Végétale',
         explanation: 'Le bois provient des arbres, c\'est donc un matériau d\'origine végétale.',
-        hints: ['Arbres', 'Plantes']
+        hints: ['Arbres', 'Plantes', 'La réponse est : Végétale']
       },
       {
         id: 'q3',
@@ -21182,7 +21182,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le courant électrique', 'La lumière', 'L\'eau', 'Le son'],
         correctAnswer: 'Le courant électrique',
         explanation: 'Les métaux sont de bons conducteurs électriques.',
-        hints: ['Électricité', 'Courant']
+        hints: ['Électricité', 'Courant', 'La réponse est : Le courant électrique']
       },
       {
         id: 'q4',
@@ -21191,7 +21191,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pétrole', 'Bois', 'Fer', 'Sable'],
         correctAnswer: 'Pétrole',
         explanation: 'La plupart des plastiques sont issus de la pétrochimie.',
-        hints: ['Hydrocarbures', 'Industrie chimique']
+        hints: ['Hydrocarbures', 'Industrie chimique', 'La réponse est : Pétrole']
       },
       {
         id: 'q5',
@@ -21200,7 +21200,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Réutilisé après transformation', 'Jeté sans problème', 'Utilisé une seule fois', 'Brûlé facilement'],
         correctAnswer: 'Réutilisé après transformation',
         explanation: 'Le recyclage permet de créer de nouveaux objets à partir de matériaux usagés.',
-        hints: ['Réutilisation', 'Transformation']
+        hints: ['Réutilisation', 'Transformation', 'La réponse est : Réutilisé après transformation']
       },
       {
         id: 'q6',
@@ -21209,7 +21209,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Supporter des efforts sans se casser', 'Conduire l\'électricité', 'Flotter sur l\'eau', 'Changer de couleur'],
         correctAnswer: 'Supporter des efforts sans se casser',
         explanation: 'La résistance mécanique indique la solidité du matériau.',
-        hints: ['Solidité', 'Efforts']
+        hints: ['Solidité', 'Efforts', 'La réponse est : Supporter des efforts sans se casser']
       },
       {
         id: 'q7',
@@ -21218,7 +21218,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Céramiques', 'Métaux', 'Plastiques', 'Composites'],
         correctAnswer: 'Céramiques',
         explanation: 'Le verre est fabriqué à partir de sable, comme les céramiques.',
-        hints: ['Sable', 'Minéral']
+        hints: ['Sable', 'Minéral', 'La réponse est : Céramiques']
       },
       {
         id: 'q8',
@@ -21227,7 +21227,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Plusieurs matériaux différents associés', 'Un seul matériau pur', 'Du bois uniquement', 'Du plastique recyclé'],
         correctAnswer: 'Plusieurs matériaux différents associés',
         explanation: 'Les composites combinent les propriétés de plusieurs matériaux (ex: fibre de carbone).',
-        hints: ['Association', 'Plusieurs']
+        hints: ['Association', 'Plusieurs', 'La réponse est : Plusieurs matériaux différents associés']
       },
       {
         id: 'q9',
@@ -21236,7 +21236,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Se décomposer naturellement', 'Résister à l\'eau', 'Conduire la chaleur', 'Être très solide'],
         correctAnswer: 'Se décomposer naturellement',
         explanation: 'Un matériau biodégradable est dégradé par les micro-organismes.',
-        hints: ['Nature', 'Décomposition']
+        hints: ['Nature', 'Décomposition', 'La réponse est : Se décomposer naturellement']
       },
       {
         id: 'q10',
@@ -21245,7 +21245,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le cuivre', 'Le bois', 'Le plastique', 'Le caoutchouc'],
         correctAnswer: 'Le cuivre',
         explanation: 'Le cuivre est un excellent conducteur thermique, utilisé dans les casseroles.',
-        hints: ['Métal', 'Casseroles']
+        hints: ['Métal', 'Casseroles', 'La réponse est : Le cuivre']
       }
     ]
   },
@@ -21268,7 +21268,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Qui se reconstitue naturellement', 'Qui coûte cher', 'Qui pollue beaucoup', 'Qui est rare'],
         correctAnswer: 'Qui se reconstitue naturellement',
         explanation: 'Les énergies renouvelables se régénèrent naturellement (soleil, vent, eau).',
-        hints: ['Inépuisable', 'Nature']
+        hints: ['Inépuisable', 'Nature', 'La réponse est : Qui se reconstitue naturellement']
       },
       {
         id: 'q2',
@@ -21277,7 +21277,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'énergie solaire', 'L\'énergie éolienne', 'L\'énergie hydraulique', 'L\'énergie nucléaire'],
         correctAnswer: 'L\'énergie solaire',
         explanation: 'Le soleil produit de l\'énergie lumineuse et thermique.',
-        hints: ['Lumière', 'Chaleur']
+        hints: ['Lumière', 'Chaleur', 'La réponse est : L\'énergie solaire']
       },
       {
         id: 'q3',
@@ -21286,7 +21286,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Du vent', 'De l\'eau', 'Du soleil', 'Du pétrole'],
         correctAnswer: 'Du vent',
         explanation: 'Les éoliennes transforment l\'énergie du vent en électricité.',
-        hints: ['Éoliennes', 'Air']
+        hints: ['Éoliennes', 'Air', 'La réponse est : Du vent']
       },
       {
         id: 'q4',
@@ -21295,7 +21295,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fossiles', 'Renouvelables', 'Nucléaires', 'Hydrauliques'],
         correctAnswer: 'Fossiles',
         explanation: 'Ces énergies proviennent de la décomposition d\'organismes sur des millions d\'années.',
-        hints: ['Anciennes', 'Millions d\'années']
+        hints: ['Anciennes', 'Millions d\'années', 'La réponse est : Fossiles']
       },
       {
         id: 'q5',
@@ -21304,7 +21304,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'énergie électrique', 'L\'énergie chimique', 'L\'énergie nucléaire', 'L\'énergie thermique'],
         correctAnswer: 'L\'énergie électrique',
         explanation: 'Les barrages transforment l\'énergie de l\'eau en électricité.',
-        hints: ['Électricité', 'Eau']
+        hints: ['Électricité', 'Eau', 'La réponse est : L\'énergie électrique']
       },
       {
         id: 'q6',
@@ -21313,7 +21313,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le parcours de l\'énergie de la source à l\'action', 'Le prix de l\'énergie', 'La couleur de l\'objet', 'Le poids de l\'objet'],
         correctAnswer: 'Le parcours de l\'énergie de la source à l\'action',
         explanation: 'La chaîne d\'énergie montre comment l\'énergie est transformée et transmise.',
-        hints: ['Parcours', 'Transformation']
+        hints: ['Parcours', 'Transformation', 'La réponse est : Le parcours de l\'énergie de la source à l\'action']
       },
       {
         id: 'q7',
@@ -21322,7 +21322,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La lumière en électricité', 'Le vent en électricité', 'L\'eau en électricité', 'La chaleur en froid'],
         correctAnswer: 'La lumière en électricité',
         explanation: 'Les cellules photovoltaïques convertissent la lumière solaire en courant électrique.',
-        hints: ['Soleil', 'Cellules']
+        hints: ['Soleil', 'Cellules', 'La réponse est : La lumière en électricité']
       },
       {
         id: 'q8',
@@ -21331,7 +21331,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Joule', 'Mètre', 'Kilogramme', 'Litre'],
         correctAnswer: 'Joule',
         explanation: 'L\'énergie se mesure en joules (J) ou en kilowattheures (kWh).',
-        hints: ['J', 'kWh']
+        hints: ['J', 'kWh', 'La réponse est : Joule']
       },
       {
         id: 'q9',
@@ -21340,7 +21340,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Matière organique (bois, déchets végétaux)', 'Du pétrole', 'De l\'uranium', 'Du vent'],
         correctAnswer: 'Matière organique (bois, déchets végétaux)',
         explanation: 'La biomasse utilise des matières organiques pour produire de l\'énergie.',
-        hints: ['Végétaux', 'Organique']
+        hints: ['Végétaux', 'Organique', 'La réponse est : Matière organique (bois, déchets végétaux)']
       },
       {
         id: 'q10',
@@ -21349,7 +21349,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Protéger l\'environnement et réduire les coûts', 'Augmenter la pollution', 'Gaspiller les ressources', 'Utiliser plus de pétrole'],
         correctAnswer: 'Protéger l\'environnement et réduire les coûts',
         explanation: 'Les économies d\'énergie réduisent les émissions de CO2 et les factures.',
-        hints: ['Environnement', 'Économies']
+        hints: ['Environnement', 'Économies', 'La réponse est : Protéger l\'environnement et réduire les coûts']
       }
     ]
   },
@@ -21372,7 +21372,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une suite d\'instructions pour résoudre un problème', 'Un type d\'ordinateur', 'Un langage de programmation', 'Un composant électronique'],
         correctAnswer: 'Une suite d\'instructions pour résoudre un problème',
         explanation: 'Un algorithme décrit les étapes à suivre pour atteindre un objectif.',
-        hints: ['Instructions', 'Étapes']
+        hints: ['Instructions', 'Étapes', 'La réponse est : Une suite d\'instructions pour résoudre un problème']
       },
       {
         id: 'q2',
@@ -21381,7 +21381,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une boucle "répéter 10 fois"', 'Un bloc "si... alors"', 'Un bloc "attendre"', 'Un bloc "dire"'],
         correctAnswer: 'Une boucle "répéter 10 fois"',
         explanation: 'Les boucles permettent de répéter des instructions un certain nombre de fois.',
-        hints: ['Boucle', 'Répétition']
+        hints: ['Boucle', 'Répétition', 'La réponse est : Une boucle "répéter 10 fois"']
       },
       {
         id: 'q3',
@@ -21390,7 +21390,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Stocker une valeur qui peut changer', 'Dessiner un sprite', 'Jouer un son', 'Arrêter le programme'],
         correctAnswer: 'Stocker une valeur qui peut changer',
         explanation: 'Une variable est comme une boîte qui contient une valeur (nombre, texte...).',
-        hints: ['Stockage', 'Valeur']
+        hints: ['Stockage', 'Valeur', 'La réponse est : Stocker une valeur qui peut changer']
       },
       {
         id: 'q4',
@@ -21399,7 +21399,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Exécuter du code seulement si une condition est vraie', 'Répéter du code', 'Créer un personnage', 'Jouer de la musique'],
         correctAnswer: 'Exécuter du code seulement si une condition est vraie',
         explanation: 'Les conditions permettent au programme de prendre des décisions.',
-        hints: ['Test', 'Décision']
+        hints: ['Test', 'Décision', 'La réponse est : Exécuter du code seulement si une condition est vraie']
       },
       {
         id: 'q5',
@@ -21408,7 +21408,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une erreur dans le programme', 'Un nouveau personnage', 'Un effet spécial', 'Un raccourci clavier'],
         correctAnswer: 'Une erreur dans le programme',
         explanation: 'Un bug est un dysfonctionnement causé par une erreur dans le code.',
-        hints: ['Erreur', 'Problème']
+        hints: ['Erreur', 'Problème', 'La réponse est : Une erreur dans le programme']
       },
       {
         id: 'q6',
@@ -21417,7 +21417,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Elle augmente la valeur de x de 1', 'Elle met x à zéro', 'Elle supprime x', 'Elle crée une boucle'],
         correctAnswer: 'Elle augmente la valeur de x de 1',
         explanation: 'Cette instruction ajoute 1 à la valeur actuelle de x.',
-        hints: ['Incrémentation', 'Ajouter 1']
+        hints: ['Incrémentation', 'Ajouter 1', 'La réponse est : Elle augmente la valeur de x de 1']
       },
       {
         id: 'q7',
@@ -21426,7 +21426,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['On arrête le programme', 'Elle a fait 100 répétitions', 'Le personnage touche le bord', 'La variable vaut 0'],
         correctAnswer: 'On arrête le programme',
         explanation: 'Une boucle infinie continue jusqu\'à ce qu\'on stoppe le programme.',
-        hints: ['Infini', 'Stop']
+        hints: ['Infini', 'Stop', 'La réponse est : On arrête le programme']
       },
       {
         id: 'q8',
@@ -21435,7 +21435,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Corriger les erreurs d\'un programme', 'Créer un nouveau programme', 'Supprimer un fichier', 'Installer un logiciel'],
         correctAnswer: 'Corriger les erreurs d\'un programme',
         explanation: 'Débugger consiste à trouver et corriger les bugs.',
-        hints: ['Corriger', 'Erreurs']
+        hints: ['Corriger', 'Erreurs', 'La réponse est : Corriger les erreurs d\'un programme']
       },
       {
         id: 'q9',
@@ -21444,7 +21444,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un personnage ou objet qu\'on peut programmer', 'Un fichier musical', 'Un type de variable', 'Un outil de dessin'],
         correctAnswer: 'Un personnage ou objet qu\'on peut programmer',
         explanation: 'Les sprites sont les éléments visuels qu\'on anime dans Scratch.',
-        hints: ['Personnage', 'Image']
+        hints: ['Personnage', 'Image', 'La réponse est : Un personnage ou objet qu\'on peut programmer']
       },
       {
         id: 'q10',
@@ -21453,7 +21453,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les deux conditions doivent être vraies', 'Une seule condition suffit', 'Aucune condition n\'est nécessaire', 'Les conditions sont inversées'],
         correctAnswer: 'Les deux conditions doivent être vraies',
         explanation: 'L\'opérateur ET exige que toutes les conditions soient satisfaites.',
-        hints: ['Deux', 'Toutes vraies']
+        hints: ['Deux', 'Toutes vraies', 'La réponse est : Les deux conditions doivent être vraies']
       }
     ]
   },
@@ -21476,7 +21476,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un réseau mondial d\'ordinateurs interconnectés', 'Un logiciel', 'Un moteur de recherche', 'Un navigateur web'],
         correctAnswer: 'Un réseau mondial d\'ordinateurs interconnectés',
         explanation: 'Internet relie des millions d\'ordinateurs dans le monde entier.',
-        hints: ['Mondial', 'Connexion']
+        hints: ['Mondial', 'Connexion', 'La réponse est : Un réseau mondial d\'ordinateurs interconnectés']
       },
       {
         id: 'q2',
@@ -21485,7 +21485,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un appareil sur le réseau', 'Un site web', 'Un mot de passe', 'Un fichier'],
         correctAnswer: 'Un appareil sur le réseau',
         explanation: 'Chaque appareil connecté possède une adresse IP unique.',
-        hints: ['Identifiant', 'Appareil']
+        hints: ['Identifiant', 'Appareil', 'La réponse est : Un appareil sur le réseau']
       },
       {
         id: 'q3',
@@ -21494,7 +21494,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Afficher des pages web', 'Envoyer des emails', 'Télécharger des fichiers', 'Jouer en ligne'],
         correctAnswer: 'Afficher des pages web',
         explanation: 'HTTP (HyperText Transfer Protocol) transfère les pages web.',
-        hints: ['Web', 'Pages']
+        hints: ['Web', 'Pages', 'La réponse est : Afficher des pages web']
       },
       {
         id: 'q4',
@@ -21503,7 +21503,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Diriger les données entre réseaux', 'Stocker des fichiers', 'Afficher des images', 'Imprimer des documents'],
         correctAnswer: 'Diriger les données entre réseaux',
         explanation: 'Le routeur achemine les données vers leur destination.',
-        hints: ['Direction', 'Données']
+        hints: ['Direction', 'Données', 'La réponse est : Diriger les données entre réseaux']
       },
       {
         id: 'q5',
@@ -21512,7 +21512,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sans fil', 'Par câble uniquement', 'Par satellite', 'Par téléphone'],
         correctAnswer: 'Sans fil',
         explanation: 'Wi-Fi signifie Wireless Fidelity, connexion sans fil.',
-        hints: ['Sans câble', 'Ondes']
+        hints: ['Sans câble', 'Ondes', 'La réponse est : Sans fil']
       },
       {
         id: 'q6',
@@ -21521,7 +21521,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fournit des services aux autres ordinateurs', 'Sert uniquement à jouer', 'N\'a pas de connexion Internet', 'Est toujours éteint'],
         correctAnswer: 'Fournit des services aux autres ordinateurs',
         explanation: 'Les serveurs hébergent des sites web, stockent des données, etc.',
-        hints: ['Services', 'Hébergement']
+        hints: ['Services', 'Hébergement', 'La réponse est : Fournit des services aux autres ordinateurs']
       },
       {
         id: 'q7',
@@ -21530,7 +21530,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les données sont chiffrées', 'Il est plus rapide', 'Il est gratuit', 'Il utilise moins de données'],
         correctAnswer: 'Les données sont chiffrées',
         explanation: 'Le S de HTTPS signifie Secure, les données sont cryptées.',
-        hints: ['Sécurité', 'Chiffrement']
+        hints: ['Sécurité', 'Chiffrement', 'La réponse est : Les données sont chiffrées']
       },
       {
         id: 'q8',
@@ -21539,7 +21539,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'adresse textuelle d\'un site web', 'Un mot de passe', 'Un type de fichier', 'Un logiciel'],
         correctAnswer: 'L\'adresse textuelle d\'un site web',
         explanation: 'Le nom de domaine est plus facile à retenir qu\'une adresse IP.',
-        hints: ['Adresse', 'Site']
+        hints: ['Adresse', 'Site', 'La réponse est : L\'adresse textuelle d\'un site web']
       },
       {
         id: 'q9',
@@ -21548,7 +21548,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Stocker des données sur des serveurs distants', 'Créer des nuages', 'Programmer la météo', 'Réparer son ordinateur'],
         correctAnswer: 'Stocker des données sur des serveurs distants',
         explanation: 'Le cloud (nuage) désigne des services hébergés sur Internet.',
-        hints: ['Distant', 'En ligne']
+        hints: ['Distant', 'En ligne', 'La réponse est : Stocker des données sur des serveurs distants']
       },
       {
         id: 'q10',
@@ -21557,7 +21557,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La quantité de données transmises par seconde', 'La taille de l\'écran', 'Le poids de l\'ordinateur', 'Le prix de la connexion'],
         correctAnswer: 'La quantité de données transmises par seconde',
         explanation: 'La bande passante s\'exprime en Mbit/s ou Gbit/s.',
-        hints: ['Débit', 'Vitesse']
+        hints: ['Débit', 'Vitesse', 'La réponse est : La quantité de données transmises par seconde']
       }
     ]
   },
@@ -21580,7 +21580,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Conception Assistée par Ordinateur', 'Construction Automatique d\'Objets', 'Création Artistique Originale', 'Calcul Avancé Optimisé'],
         correctAnswer: 'Conception Assistée par Ordinateur',
         explanation: 'La CAO utilise des logiciels pour dessiner et concevoir des objets.',
-        hints: ['Conception', 'Ordinateur']
+        hints: ['Conception', 'Ordinateur', 'La réponse est : Conception Assistée par Ordinateur']
       },
       {
         id: 'q2',
@@ -21589,7 +21589,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Trois dimensions (largeur, hauteur, profondeur)', 'Deux dimensions', 'Une seule dimension', 'Quatre dimensions'],
         correctAnswer: 'Trois dimensions (largeur, hauteur, profondeur)',
         explanation: 'Le 3D ajoute la profondeur aux dimensions largeur et hauteur.',
-        hints: ['Volume', 'Espace']
+        hints: ['Volume', 'Espace', 'La réponse est : Trois dimensions (largeur, hauteur, profondeur)']
       },
       {
         id: 'q3',
@@ -21598,7 +21598,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Fabriquer des objets en 3D couche par couche', 'Imprimer des photos', 'Scanner des documents', 'Envoyer des fax'],
         correctAnswer: 'Fabriquer des objets en 3D couche par couche',
         explanation: 'L\'impression 3D dépose de la matière couche par couche.',
-        hints: ['Fabrication', 'Couches']
+        hints: ['Fabrication', 'Couches', 'La réponse est : Fabriquer des objets en 3D couche par couche']
       },
       {
         id: 'q4',
@@ -21607,7 +21607,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'impression 3D', 'La musique', 'Les vidéos', 'Les textes'],
         correctAnswer: 'L\'impression 3D',
         explanation: 'STL (STereoLithography) est le format standard pour l\'impression 3D.',
-        hints: ['3D', 'Impression']
+        hints: ['3D', 'Impression', 'La réponse est : L\'impression 3D']
       },
       {
         id: 'q5',
@@ -21616,7 +21616,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'intérieur de l\'objet', 'L\'objet de face', 'L\'objet de dessus', 'L\'objet de côté'],
         correctAnswer: 'L\'intérieur de l\'objet',
         explanation: 'La vue en coupe montre l\'objet comme s\'il était coupé.',
-        hints: ['Intérieur', 'Coupé']
+        hints: ['Intérieur', 'Coupé', 'La réponse est : L\'intérieur de l\'objet']
       },
       {
         id: 'q6',
@@ -21625,7 +21625,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Donner du volume à une forme 2D', 'Changer la couleur', 'Supprimer un objet', 'Copier un fichier'],
         correctAnswer: 'Donner du volume à une forme 2D',
         explanation: 'L\'extrusion "tire" une forme plate pour créer un volume.',
-        hints: ['Volume', 'Épaisseur']
+        hints: ['Volume', 'Épaisseur', 'La réponse est : Donner du volume à une forme 2D']
       },
       {
         id: 'q7',
@@ -21634,7 +21634,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un premier modèle pour tester un produit', 'Le produit final', 'Un emballage', 'Une publicité'],
         correctAnswer: 'Un premier modèle pour tester un produit',
         explanation: 'Le prototype permet de valider la conception avant la production.',
-        hints: ['Premier', 'Test']
+        hints: ['Premier', 'Test', 'La réponse est : Un premier modèle pour tester un produit']
       },
       {
         id: 'q8',
@@ -21643,7 +21643,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les dimensions de l\'objet', 'Le prix de l\'objet', 'Le nom du créateur', 'La date de création'],
         correctAnswer: 'Les dimensions de l\'objet',
         explanation: 'Les cotes donnent les mesures précises en millimètres ou centimètres.',
-        hints: ['Dimensions', 'Mesures']
+        hints: ['Dimensions', 'Mesures', 'La réponse est : Les dimensions de l\'objet']
       },
       {
         id: 'q9',
@@ -21652,7 +21652,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le PLA (plastique biodégradable)', 'Le métal', 'Le verre', 'Le bois'],
         correctAnswer: 'Le PLA (plastique biodégradable)',
         explanation: 'Le PLA est un plastique facile à imprimer et écologique.',
-        hints: ['Plastique', 'Biodégradable']
+        hints: ['Plastique', 'Biodégradable', 'La réponse est : Le PLA (plastique biodégradable)']
       },
       {
         id: 'q10',
@@ -21661,7 +21661,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Visualiser et tester un projet avant fabrication', 'Imprimer des photos', 'Naviguer sur Internet', 'Jouer à des jeux vidéo'],
         correctAnswer: 'Visualiser et tester un projet avant fabrication',
         explanation: 'La maquette numérique évite les erreurs coûteuses.',
-        hints: ['Visualisation', 'Simulation']
+        hints: ['Visualisation', 'Simulation', 'La réponse est : Visualiser et tester un projet avant fabrication']
       }
     ]
   },
@@ -21684,7 +21684,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Partie commande, partie opérative, partie relation', 'Écran, clavier, souris', 'Moteur, roue, batterie', 'Capteur, fil, prise'],
         correctAnswer: 'Partie commande, partie opérative, partie relation',
         explanation: 'Ces trois parties permettent au système de fonctionner de façon autonome.',
-        hints: ['Commande', 'Opérative']
+        hints: ['Commande', 'Opérative', 'La réponse est : Partie commande, partie opérative, partie relation']
       },
       {
         id: 'q2',
@@ -21693,7 +21693,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Mesurer une grandeur physique (température, lumière...)', 'Faire bouger un objet', 'Stocker des données', 'Afficher des images'],
         correctAnswer: 'Mesurer une grandeur physique (température, lumière...)',
         explanation: 'Les capteurs transforment une grandeur physique en signal électrique.',
-        hints: ['Mesure', 'Information']
+        hints: ['Mesure', 'Information', 'La réponse est : Mesurer une grandeur physique (température, lumière...)']
       },
       {
         id: 'q3',
@@ -21702,7 +21702,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Produire un mouvement ou une action', 'Mesurer la température', 'Enregistrer des données', 'Lire des codes-barres'],
         correctAnswer: 'Produire un mouvement ou une action',
         explanation: 'Les actionneurs convertissent l\'énergie en mouvement (moteur, vérin).',
-        hints: ['Mouvement', 'Action']
+        hints: ['Mouvement', 'Action', 'La réponse est : Produire un mouvement ou une action']
       },
       {
         id: 'q4',
@@ -21711,7 +21711,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un petit ordinateur programmable', 'Un type de batterie', 'Un écran tactile', 'Un câble de connexion'],
         correctAnswer: 'Un petit ordinateur programmable',
         explanation: 'Le microcontrôleur exécute le programme qui pilote le système.',
-        hints: ['Programme', 'Cerveau']
+        hints: ['Programme', 'Cerveau', 'La réponse est : Un petit ordinateur programmable']
       },
       {
         id: 'q5',
@@ -21720,7 +21720,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['S\'adapter en fonction des informations reçues', 'S\'éteindre automatiquement', 'Changer de couleur', 'Augmenter sa vitesse'],
         correctAnswer: 'S\'adapter en fonction des informations reçues',
         explanation: 'Le feedback permet de corriger le fonctionnement en temps réel.',
-        hints: ['Adaptation', 'Correction']
+        hints: ['Adaptation', 'Correction', 'La réponse est : S\'adapter en fonction des informations reçues']
       },
       {
         id: 'q6',
@@ -21729,7 +21729,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un positionnement angulaire précis', 'De mesurer la lumière', 'D\'afficher du texte', 'De produire du son'],
         correctAnswer: 'Un positionnement angulaire précis',
         explanation: 'Les servomoteurs peuvent tourner à un angle précis (0° à 180°).',
-        hints: ['Angle', 'Position']
+        hints: ['Angle', 'Position', 'La réponse est : Un positionnement angulaire précis']
       },
       {
         id: 'q7',
@@ -21738,7 +21738,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La distance par rapport à un obstacle', 'La température', 'L\'humidité', 'La pression'],
         correctAnswer: 'La distance par rapport à un obstacle',
         explanation: 'Il émet des ultrasons et calcule la distance avec le temps de retour.',
-        hints: ['Distance', 'Obstacle']
+        hints: ['Distance', 'Obstacle', 'La réponse est : La distance par rapport à un obstacle']
       },
       {
         id: 'q8',
@@ -21747,7 +21747,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Apprendre et s\'adapter de façon autonome', 'Devenir humains', 'Voler sans moteur', 'Fonctionner sans énergie'],
         correctAnswer: 'Apprendre et s\'adapter de façon autonome',
         explanation: 'L\'IA permet aux machines d\'améliorer leurs performances par l\'apprentissage.',
-        hints: ['Apprentissage', 'Autonomie']
+        hints: ['Apprentissage', 'Autonomie', 'La réponse est : Apprendre et s\'adapter de façon autonome']
       },
       {
         id: 'q9',
@@ -21756,7 +21756,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des capteurs infrarouges', 'Des capteurs de température', 'Des capteurs de son', 'Des capteurs de pression'],
         correctAnswer: 'Des capteurs infrarouges',
         explanation: 'Les capteurs IR détectent le contraste entre la ligne et le sol.',
-        hints: ['Infrarouge', 'Contraste']
+        hints: ['Infrarouge', 'Contraste', 'La réponse est : Des capteurs infrarouges']
       },
       {
         id: 'q10',
@@ -21765,7 +21765,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['De la maison', 'Des voitures', 'Des usines', 'Des hôpitaux'],
         correctAnswer: 'De la maison',
         explanation: 'La domotique rend les habitations "intelligentes" (éclairage, chauffage...).',
-        hints: ['Maison', 'Habitat']
+        hints: ['Maison', 'Habitat', 'La réponse est : De la maison']
       }
     ]
   },
@@ -21788,7 +21788,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Économique, social et environnemental', 'Terre, eau et air', 'Passé, présent et futur', 'Local, national et mondial'],
         correctAnswer: 'Économique, social et environnemental',
         explanation: 'Ces trois dimensions doivent être équilibrées pour un développement durable.',
-        hints: ['Trois piliers', 'Équilibre']
+        hints: ['Trois piliers', 'Équilibre', 'La réponse est : Économique, social et environnemental']
       },
       {
         id: 'q2',
@@ -21797,7 +21797,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Intégrer l\'environnement dès la conception d\'un produit', 'Fabriquer des produits plus chers', 'Utiliser uniquement du plastique', 'Ignorer le recyclage'],
         correctAnswer: 'Intégrer l\'environnement dès la conception d\'un produit',
         explanation: 'L\'éco-conception minimise l\'impact environnemental sur tout le cycle de vie.',
-        hints: ['Environnement', 'Conception']
+        hints: ['Environnement', 'Conception', 'La réponse est : Intégrer l\'environnement dès la conception d\'un produit']
       },
       {
         id: 'q3',
@@ -21806,7 +21806,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Extraction, fabrication, utilisation, fin de vie', 'Achat et vente uniquement', 'Publicité et marketing', 'Emballage et transport'],
         correctAnswer: 'Extraction, fabrication, utilisation, fin de vie',
         explanation: 'Chaque étape du cycle de vie a un impact environnemental.',
-        hints: ['Étapes', 'De la naissance à la mort']
+        hints: ['Étapes', 'De la naissance à la mort', 'La réponse est : Extraction, fabrication, utilisation, fin de vie']
       },
       {
         id: 'q4',
@@ -21815,7 +21815,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les émissions de gaz à effet de serre', 'Le poids d\'un objet', 'La taille d\'un écran', 'La vitesse de fabrication'],
         correctAnswer: 'Les émissions de gaz à effet de serre',
         explanation: 'L\'empreinte carbone s\'exprime en kg équivalent CO2.',
-        hints: ['CO2', 'Gaz à effet de serre']
+        hints: ['CO2', 'Gaz à effet de serre', 'La réponse est : Les émissions de gaz à effet de serre']
       },
       {
         id: 'q5',
@@ -21824,7 +21824,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La réduction volontaire de la durée de vie d\'un produit', 'L\'amélioration d\'un produit', 'La réparation d\'un produit', 'Le recyclage d\'un produit'],
         correctAnswer: 'La réduction volontaire de la durée de vie d\'un produit',
         explanation: 'Cette pratique pousse les consommateurs à racheter plus souvent.',
-        hints: ['Durée de vie', 'Remplacement']
+        hints: ['Durée de vie', 'Remplacement', 'La réponse est : La réduction volontaire de la durée de vie d\'un produit']
       },
       {
         id: 'q6',
@@ -21833,7 +21833,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Réduire les déchets en réutilisant les ressources', 'Augmenter la production', 'Jeter plus facilement', 'Consommer davantage'],
         correctAnswer: 'Réduire les déchets en réutilisant les ressources',
         explanation: 'L\'économie circulaire s\'oppose au modèle linéaire "extraire-fabriquer-jeter".',
-        hints: ['Réutilisation', 'Pas de déchets']
+        hints: ['Réutilisation', 'Pas de déchets', 'La réponse est : Réduire les déchets en réutilisant les ressources']
       },
       {
         id: 'q7',
@@ -21842,7 +21842,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Qu\'il respecte des critères environnementaux', 'Qu\'il est moins cher', 'Qu\'il est fabriqué en France', 'Qu\'il est de couleur verte'],
         correctAnswer: 'Qu\'il respecte des critères environnementaux',
         explanation: 'Les éco-labels certifient le respect de normes écologiques.',
-        hints: ['Certification', 'Environnement']
+        hints: ['Certification', 'Environnement', 'La réponse est : Qu\'il respecte des critères environnementaux']
       },
       {
         id: 'q8',
@@ -21851,7 +21851,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'impact environnemental d\'un produit sur toute sa vie', 'Le prix de vente', 'La date de fabrication', 'Le nombre de ventes'],
         correctAnswer: 'L\'impact environnemental d\'un produit sur toute sa vie',
         explanation: 'L\'ACV quantifie tous les impacts (eau, énergie, pollution...).',
-        hints: ['Impact', 'Toute la vie']
+        hints: ['Impact', 'Toute la vie', 'La réponse est : L\'impact environnemental d\'un produit sur toute sa vie']
       },
       {
         id: 'q9',
@@ -21860,7 +21860,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La transformation de déchets en produits de valeur supérieure', 'Le tri des déchets', 'L\'incinération des déchets', 'L\'enfouissement des déchets'],
         correctAnswer: 'La transformation de déchets en produits de valeur supérieure',
         explanation: 'L\'upcycling donne une seconde vie plus noble aux objets.',
-        hints: ['Valorisation', 'Transformation']
+        hints: ['Valorisation', 'Transformation', 'La réponse est : La transformation de déchets en produits de valeur supérieure']
       },
       {
         id: 'q10',
@@ -21869,7 +21869,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Réduire, Réutiliser, Recycler', 'Rouge, Rose, Roux', 'Rapide, Rentable, Robuste', 'Riche, Rare, Recherché'],
         correctAnswer: 'Réduire, Réutiliser, Recycler',
         explanation: 'Ces trois actions, dans cet ordre, minimisent notre impact.',
-        hints: ['Trois actions', 'Hiérarchie']
+        hints: ['Trois actions', 'Hiérarchie', 'La réponse est : Réduire, Réutiliser, Recycler']
       }
     ]
   },
@@ -21892,7 +21892,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'Internet des objets connectés', 'Un nouveau réseau social', 'Un type de smartphone', 'Un langage de programmation'],
         correctAnswer: 'L\'Internet des objets connectés',
         explanation: 'L\'IoT relie des objets du quotidien à Internet.',
-        hints: ['Objets', 'Connectés']
+        hints: ['Objets', 'Connectés', 'La réponse est : L\'Internet des objets connectés']
       },
       {
         id: 'q2',
@@ -21901,7 +21901,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sans fil à courte portée', 'Par câble', 'Par satellite', 'Par fibre optique'],
         correctAnswer: 'Sans fil à courte portée',
         explanation: 'Le Bluetooth fonctionne sur quelques mètres (10-100m).',
-        hints: ['Sans fil', 'Courte distance']
+        hints: ['Sans fil', 'Courte distance', 'La réponse est : Sans fil à courte portée']
       },
       {
         id: 'q3',
@@ -21910,7 +21910,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Capteurs, processeur et module de communication', 'Uniquement un écran', 'Seulement une batterie', 'Un clavier mécanique'],
         correctAnswer: 'Capteurs, processeur et module de communication',
         explanation: 'Ces composants permettent de collecter et transmettre des données.',
-        hints: ['Capteurs', 'Communication']
+        hints: ['Capteurs', 'Communication', 'La réponse est : Capteurs, processeur et module de communication']
       },
       {
         id: 'q4',
@@ -21919,7 +21919,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La 5ème génération de réseaux mobiles', 'Un type de Wi-Fi', 'Un satellite', 'Une marque de téléphone'],
         correctAnswer: 'La 5ème génération de réseaux mobiles',
         explanation: 'La 5G offre des débits très élevés et une faible latence.',
-        hints: ['Mobile', 'Génération']
+        hints: ['Mobile', 'Génération', 'La réponse est : La 5ème génération de réseaux mobiles']
       },
       {
         id: 'q5',
@@ -21928,7 +21928,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'identification par radiofréquence', 'La connexion Wi-Fi', 'Le transfert de vidéos', 'La recharge sans fil'],
         correctAnswer: 'L\'identification par radiofréquence',
         explanation: 'Les puces RFID identifient des objets sans contact (badges, antivol...).',
-        hints: ['Radio', 'Identification']
+        hints: ['Radio', 'Identification', 'La réponse est : L\'identification par radiofréquence']
       },
       {
         id: 'q6',
@@ -21937,7 +21937,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La reconnaissance vocale et l\'IA', 'Uniquement le Bluetooth', 'La 2G', 'Le code Morse'],
         correctAnswer: 'La reconnaissance vocale et l\'IA',
         explanation: 'Ces assistants comprennent la parole grâce à l\'intelligence artificielle.',
-        hints: ['Voix', 'IA']
+        hints: ['Voix', 'IA', 'La réponse est : La reconnaissance vocale et l\'IA']
       },
       {
         id: 'q7',
@@ -21946,7 +21946,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Quelques centimètres', 'Plusieurs kilomètres', '100 mètres', '1 mètre'],
         correctAnswer: 'Quelques centimètres',
         explanation: 'Le NFC nécessite un contact très proche (paiement sans contact).',
-        hints: ['Très proche', 'Contact']
+        hints: ['Très proche', 'Contact', 'La réponse est : Quelques centimètres']
       },
       {
         id: 'q8',
@@ -21955,7 +21955,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vie privée et sécurité', 'Couleur et design', 'Prix et poids', 'Taille et forme'],
         correctAnswer: 'Vie privée et sécurité',
         explanation: 'Les données personnelles peuvent être piratées ou mal utilisées.',
-        hints: ['Données personnelles', 'Piratage']
+        hints: ['Données personnelles', 'Piratage', 'La réponse est : Vie privée et sécurité']
       },
       {
         id: 'q9',
@@ -21964,7 +21964,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Contrôler les équipements à distance', 'Construire plus vite', 'Réduire la taille du logement', 'Supprimer l\'électricité'],
         correctAnswer: 'Contrôler les équipements à distance',
         explanation: 'Chauffage, éclairage, volets peuvent être pilotés par smartphone.',
-        hints: ['Contrôle', 'À distance']
+        hints: ['Contrôle', 'À distance', 'La réponse est : Contrôler les équipements à distance']
       },
       {
         id: 'q10',
@@ -21973,7 +21973,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un objet connecté qu\'on porte sur soi', 'Un ordinateur de bureau', 'Un téléviseur', 'Un réfrigérateur'],
         correctAnswer: 'Un objet connecté qu\'on porte sur soi',
         explanation: 'Montres, bracelets et lunettes connectés sont des wearables.',
-        hints: ['Porter', 'Sur soi']
+        hints: ['Porter', 'Sur soi', 'La réponse est : Un objet connecté qu\'on porte sur soi']
       }
     ]
   },
@@ -21998,7 +21998,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rouge, jaune, bleu', 'Vert, orange, violet', 'Noir, blanc, gris', 'Rose, turquoise, marron'],
         correctAnswer: 'Rouge, jaune, bleu',
         explanation: 'Les couleurs primaires ne peuvent pas être obtenues par mélange.',
-        hints: ['Magenta/cyan/jaune en imprimerie', 'Base de tous les mélanges']
+        hints: ['Magenta/cyan/jaune en imprimerie', 'Base de tous les mélanges', 'La réponse est : Rouge, jaune, bleu']
       },
       {
         id: 'q2',
@@ -22007,7 +22007,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vert', 'Orange', 'Violet', 'Marron'],
         correctAnswer: 'Vert',
         explanation: 'Le vert est une couleur secondaire issue du mélange bleu + jaune.',
-        hints: ['Couleur de la nature', 'Herbe, feuilles']
+        hints: ['Couleur de la nature', 'Herbe, feuilles', 'La réponse est : Vert']
       },
       {
         id: 'q3',
@@ -22016,7 +22016,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La couleur opposée sur le cercle chromatique', 'Une couleur plus claire', 'Une couleur primaire', 'Une couleur neutre'],
         correctAnswer: 'La couleur opposée sur le cercle chromatique',
         explanation: 'Rouge/vert, bleu/orange, jaune/violet sont des paires complémentaires.',
-        hints: ['Opposée', 'Contraste maximum']
+        hints: ['Opposée', 'Contraste maximum', 'La réponse est : La couleur opposée sur le cercle chromatique']
       },
       {
         id: 'q4',
@@ -22025,7 +22025,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Rouge, orange, jaune', 'Bleu, vert, violet', 'Noir, blanc, gris', 'Toutes les couleurs'],
         correctAnswer: 'Rouge, orange, jaune',
         explanation: 'Les couleurs chaudes évoquent le feu, le soleil, la chaleur.',
-        hints: ['Feu', 'Soleil']
+        hints: ['Feu', 'Soleil', 'La réponse est : Rouge, orange, jaune']
       },
       {
         id: 'q5',
@@ -22034,7 +22034,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Violet', 'Vert', 'Orange', 'Marron'],
         correctAnswer: 'Violet',
         explanation: 'Le violet (ou pourpre) est le mélange du rouge et du bleu.',
-        hints: ['Couleur royale', 'Améthyste']
+        hints: ['Couleur royale', 'Améthyste', 'La réponse est : Violet']
       },
       {
         id: 'q6',
@@ -22043,7 +22043,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une teinte plus claire (ton pastel)', 'Une teinte plus foncée', 'Une couleur complémentaire', 'Une couleur primaire'],
         correctAnswer: 'Une teinte plus claire (ton pastel)',
         explanation: 'On obtient des tons pastels en ajoutant du blanc.',
-        hints: ['Plus clair', 'Pastel']
+        hints: ['Plus clair', 'Pastel', 'La réponse est : Une teinte plus claire (ton pastel)']
       },
       {
         id: 'q7',
@@ -22052,7 +22052,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Couleurs neutres ou achromatiques', 'Couleurs primaires', 'Couleurs chaudes', 'Couleurs froides'],
         correctAnswer: 'Couleurs neutres ou achromatiques',
         explanation: 'Ces couleurs n\'ont pas de teinte propre, elles sont sans couleur.',
-        hints: ['Neutres', 'Sans teinte']
+        hints: ['Neutres', 'Sans teinte', 'La réponse est : Couleurs neutres ou achromatiques']
       },
       {
         id: 'q8',
@@ -22061,7 +22061,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une harmonie de différentes nuances d\'une même couleur', 'Un mélange de toutes les couleurs', 'Un contraste fort', 'Une couleur primaire'],
         correctAnswer: 'Une harmonie de différentes nuances d\'une même couleur',
         explanation: 'Un camaïeu de bleus utilise différentes nuances de bleu.',
-        hints: ['Une seule couleur', 'Variations']
+        hints: ['Une seule couleur', 'Variations', 'La réponse est : Une harmonie de différentes nuances d\'une même couleur']
       },
       {
         id: 'q9',
@@ -22070,7 +22070,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Orange', 'Vert', 'Violet', 'Rose'],
         correctAnswer: 'Orange',
         explanation: 'L\'orange est une couleur secondaire chaude.',
-        hints: ['Fruit', 'Coucher de soleil']
+        hints: ['Fruit', 'Coucher de soleil', 'La réponse est : Orange']
       },
       {
         id: 'q10',
@@ -22079,7 +22079,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Analogues ou voisines', 'Complémentaires', 'Opposées', 'Neutres'],
         correctAnswer: 'Analogues ou voisines',
         explanation: 'Les couleurs analogues créent des harmonies douces.',
-        hints: ['Voisines', 'Proches']
+        hints: ['Voisines', 'Proches', 'La réponse est : Analogues ou voisines']
       }
     ]
   },
@@ -22102,7 +22102,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['À l\'eau, opaque et couvrante', 'À l\'huile, brillante', 'Qui ne sèche jamais', 'Transparente uniquement'],
         correctAnswer: 'À l\'eau, opaque et couvrante',
         explanation: 'La gouache se dilue à l\'eau et peut couvrir complètement le support.',
-        hints: ['Eau', 'Opaque']
+        hints: ['Eau', 'Opaque', 'La réponse est : À l\'eau, opaque et couvrante']
       },
       {
         id: 'q2',
@@ -22111,7 +22111,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Dessiner en noir avec des dégradés', 'Peindre en couleurs', 'Coller du papier', 'Sculpter'],
         correctAnswer: 'Dessiner en noir avec des dégradés',
         explanation: 'Le fusain est un bâton de charbon de bois pour le dessin.',
-        hints: ['Charbon', 'Noir']
+        hints: ['Charbon', 'Noir', 'La réponse est : Dessiner en noir avec des dégradés']
       },
       {
         id: 'q3',
@@ -22120,7 +22120,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Assembler des éléments sur un support', 'Peindre avec les doigts', 'Sculpter l\'argile', 'Dessiner au crayon'],
         correctAnswer: 'Assembler des éléments sur un support',
         explanation: 'On colle papiers, images, objets pour créer une composition.',
-        hints: ['Coller', 'Assembler']
+        hints: ['Coller', 'Assembler', 'La réponse est : Assembler des éléments sur un support']
       },
       {
         id: 'q4',
@@ -22129,7 +22129,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une surface de couleur uniforme, sans dégradé', 'Un dégradé de couleur', 'Un mélange de couleurs', 'Une tache aléatoire'],
         correctAnswer: 'Une surface de couleur uniforme, sans dégradé',
         explanation: 'L\'aplat est une couleur plate, sans variation.',
-        hints: ['Uniforme', 'Plat']
+        hints: ['Uniforme', 'Plat', 'La réponse est : Une surface de couleur uniforme, sans dégradé']
       },
       {
         id: 'q5',
@@ -22138,7 +22138,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Sa transparence et ses effets de légèreté', 'Son épaisseur et son opacité', 'Sa brillance comme le vernis', 'Sa texture granuleuse'],
         correctAnswer: 'Sa transparence et ses effets de légèreté',
         explanation: 'L\'aquarelle est une peinture transparente à l\'eau.',
-        hints: ['Transparent', 'Léger']
+        hints: ['Transparent', 'Léger', 'La réponse est : Sa transparence et ses effets de légèreté']
       },
       {
         id: 'q6',
@@ -22147,7 +22147,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un pinceau plat ou une brosse', 'Un crayon de papier', 'Des ciseaux', 'Une règle'],
         correctAnswer: 'Un pinceau plat ou une brosse',
         explanation: 'Les pinceaux plats permettent des aplats réguliers.',
-        hints: ['Pinceau', 'Brosse']
+        hints: ['Pinceau', 'Brosse', 'La réponse est : Un pinceau plat ou une brosse']
       },
       {
         id: 'q7',
@@ -22156,7 +22156,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un bâtonnet de pigment coloré qu\'on peut estomper', 'Une peinture liquide', 'Un type de colle', 'Un outil de découpe'],
         correctAnswer: 'Un bâtonnet de pigment coloré qu\'on peut estomper',
         explanation: 'Le pastel se travaille au doigt ou à l\'estompe.',
-        hints: ['Pigment', 'Estomper']
+        hints: ['Pigment', 'Estomper', 'La réponse est : Un bâtonnet de pigment coloré qu\'on peut estomper']
       },
       {
         id: 'q8',
@@ -22165,7 +22165,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Gratter une couche pour révéler celle en dessous', 'Ajouter de la peinture', 'Coller des éléments', 'Découper du papier'],
         correctAnswer: 'Gratter une couche pour révéler celle en dessous',
         explanation: 'On superpose des couches puis on gratte pour créer des motifs.',
-        hints: ['Gratter', 'Révéler']
+        hints: ['Gratter', 'Révéler', 'La réponse est : Gratter une couche pour révéler celle en dessous']
       },
       {
         id: 'q9',
@@ -22174,7 +22174,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La surface sur laquelle on travaille (papier, toile...)', 'L\'outil utilisé', 'Le cadre', 'La couleur de fond'],
         correctAnswer: 'La surface sur laquelle on travaille (papier, toile...)',
         explanation: 'Papier, carton, toile, bois sont des supports différents.',
-        hints: ['Surface', 'Base']
+        hints: ['Surface', 'Base', 'La réponse est : La surface sur laquelle on travaille (papier, toile...)']
       },
       {
         id: 'q10',
@@ -22183,7 +22183,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un objet encré qu\'on presse sur le support', 'Uniquement des pinceaux', 'La sculpture', 'Le découpage'],
         correctAnswer: 'Un objet encré qu\'on presse sur le support',
         explanation: 'On peut faire des empreintes avec des feuilles, des mains, des objets...',
-        hints: ['Presser', 'Trace']
+        hints: ['Presser', 'Trace', 'La réponse est : Un objet encré qu\'on presse sur le support']
       }
     ]
   },
@@ -22206,7 +22206,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une forme régulière (cercle, carré, triangle...)', 'Une forme irrégulière', 'Une tache de couleur', 'Un trait au hasard'],
         correctAnswer: 'Une forme régulière (cercle, carré, triangle...)',
         explanation: 'Les formes géométriques ont des contours définis et réguliers.',
-        hints: ['Régulière', 'Mathématique']
+        hints: ['Régulière', 'Mathématique', 'La réponse est : Une forme régulière (cercle, carré, triangle...)']
       },
       {
         id: 'q2',
@@ -22215,7 +22215,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les deux côtés d\'une image sont identiques par rapport à un axe', 'L\'image est très colorée', 'Il y a beaucoup de détails', 'Les formes sont rondes'],
         correctAnswer: 'Les deux côtés d\'une image sont identiques par rapport à un axe',
         explanation: 'La symétrie crée un effet miroir de chaque côté de l\'axe.',
-        hints: ['Miroir', 'Identique']
+        hints: ['Miroir', 'Identique', 'La réponse est : Les deux côtés d\'une image sont identiques par rapport à un axe']
       },
       {
         id: 'q3',
@@ -22224,7 +22224,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ce qui apparaît le plus proche du spectateur', 'Ce qui est au fond', 'Le cadre de l\'image', 'Le titre de l\'œuvre'],
         correctAnswer: 'Ce qui apparaît le plus proche du spectateur',
         explanation: 'Le premier plan est devant, l\'arrière-plan est au fond.',
-        hints: ['Devant', 'Proche']
+        hints: ['Devant', 'Proche', 'La réponse est : Ce qui apparaît le plus proche du spectateur']
       },
       {
         id: 'q4',
@@ -22233,7 +22233,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une forme irrégulière inspirée de la nature', 'Un carré parfait', 'Une ligne droite', 'Un cercle'],
         correctAnswer: 'Une forme irrégulière inspirée de la nature',
         explanation: 'Les formes organiques rappellent les végétaux, le corps, la nature.',
-        hints: ['Nature', 'Irrégulière']
+        hints: ['Nature', 'Irrégulière', 'La réponse est : Une forme irrégulière inspirée de la nature']
       },
       {
         id: 'q5',
@@ -22242,7 +22242,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Choisir ce qu\'on montre et ce qu\'on exclut', 'Ajouter un cadre en bois', 'Peindre le fond', 'Signer l\'œuvre'],
         correctAnswer: 'Choisir ce qu\'on montre et ce qu\'on exclut',
         explanation: 'Le cadrage détermine les limites de l\'image.',
-        hints: ['Choisir', 'Limite']
+        hints: ['Choisir', 'Limite', 'La réponse est : Choisir ce qu\'on montre et ce qu\'on exclut']
       },
       {
         id: 'q6',
@@ -22251,7 +22251,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une opposition forte (clair/foncé, grand/petit...)', 'Une harmonie douce', 'Une seule couleur', 'Un fond blanc'],
         correctAnswer: 'Une opposition forte (clair/foncé, grand/petit...)',
         explanation: 'Le contraste crée des oppositions visuelles marquées.',
-        hints: ['Opposition', 'Différence']
+        hints: ['Opposition', 'Différence', 'La réponse est : Une opposition forte (clair/foncé, grand/petit...)']
       },
       {
         id: 'q7',
@@ -22260,7 +22260,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les éléments sont répartis de façon harmonieuse', 'Tout est au centre', 'Il n\'y a qu\'une seule forme', 'Les couleurs sont identiques'],
         correctAnswer: 'Les éléments sont répartis de façon harmonieuse',
         explanation: 'L\'équilibre peut être symétrique ou asymétrique.',
-        hints: ['Harmonie', 'Répartition']
+        hints: ['Harmonie', 'Répartition', 'La réponse est : Les éléments sont répartis de façon harmonieuse']
       },
       {
         id: 'q8',
@@ -22269,7 +22269,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un élément qui se répète', 'Une seule grande forme', 'Un outil de dessin', 'Le titre de l\'œuvre'],
         correctAnswer: 'Un élément qui se répète',
         explanation: 'Les motifs créent des rythmes par leur répétition.',
-        hints: ['Répétition', 'Pattern']
+        hints: ['Répétition', 'Pattern', 'La réponse est : Un élément qui se répète']
       },
       {
         id: 'q9',
@@ -22278,7 +22278,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le ciel et la terre dans un paysage', 'Le premier plan du second plan', 'Le haut et le bas du cadre', 'Les couleurs chaudes et froides'],
         correctAnswer: 'Le ciel et la terre dans un paysage',
         explanation: 'La ligne d\'horizon est là où le ciel semble toucher la terre.',
-        hints: ['Ciel', 'Terre']
+        hints: ['Ciel', 'Terre', 'La réponse est : Le ciel et la terre dans un paysage']
       },
       {
         id: 'q10',
@@ -22287,7 +22287,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Portrait (vertical), paysage (horizontal) ou carré', 'Uniquement rectangulaire', 'Toujours le même', 'Déterminé par la couleur'],
         correctAnswer: 'Portrait (vertical), paysage (horizontal) ou carré',
         explanation: 'Le choix du format influence la composition de l\'œuvre.',
-        hints: ['Vertical', 'Horizontal']
+        hints: ['Vertical', 'Horizontal', 'La réponse est : Portrait (vertical), paysage (horizontal) ou carré']
       }
     ]
   },
@@ -22310,7 +22310,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La profondeur et l\'espace en 3D sur une surface 2D', 'Uniquement des formes plates', 'Les couleurs primaires', 'Le mouvement'],
         correctAnswer: 'La profondeur et l\'espace en 3D sur une surface 2D',
         explanation: 'La perspective crée l\'illusion de la troisième dimension.',
-        hints: ['3D', 'Illusion']
+        hints: ['3D', 'Illusion', 'La réponse est : La profondeur et l\'espace en 3D sur une surface 2D']
       },
       {
         id: 'q2',
@@ -22319,7 +22319,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le point vers lequel les lignes parallèles semblent converger', 'Le centre exact de l\'image', 'La signature de l\'artiste', 'La couleur dominante'],
         correctAnswer: 'Le point vers lequel les lignes parallèles semblent converger',
         explanation: 'Le point de fuite est généralement situé sur la ligne d\'horizon.',
-        hints: ['Convergence', 'Horizon']
+        hints: ['Convergence', 'Horizon', 'La réponse est : Le point vers lequel les lignes parallèles semblent converger']
       },
       {
         id: 'q3',
@@ -22328,7 +22328,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Plus petits', 'Plus grands', 'Plus colorés', 'Plus détaillés'],
         correctAnswer: 'Plus petits',
         explanation: 'La diminution de taille avec la distance crée la profondeur.',
-        hints: ['Diminution', 'Distance']
+        hints: ['Diminution', 'Distance', 'La réponse est : Plus petits']
       },
       {
         id: 'q4',
@@ -22337,7 +22337,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'estompage des couleurs et détails au loin', 'Des lignes droites uniquement', 'Un seul point de fuite', 'Uniquement du noir et blanc'],
         correctAnswer: 'L\'estompage des couleurs et détails au loin',
         explanation: 'Les objets lointains sont plus pâles et moins nets.',
-        hints: ['Flou', 'Pâle']
+        hints: ['Flou', 'Pâle', 'La réponse est : L\'estompage des couleurs et détails au loin']
       },
       {
         id: 'q5',
@@ -22346,7 +22346,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Convergent vers un seul point', 'Sont parallèles entre elles', 'Sont verticales', 'Sont courbes'],
         correctAnswer: 'Convergent vers un seul point',
         explanation: 'C\'est la perspective frontale, vue de face.',
-        hints: ['Un seul point', 'Convergent']
+        hints: ['Un seul point', 'Convergent', 'La réponse est : Convergent vers un seul point']
       },
       {
         id: 'q6',
@@ -22355,7 +22355,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un objet vu en perspective qui semble venir vers nous', 'Un objet de profil', 'Un objet de dos', 'Un objet très loin'],
         correctAnswer: 'Un objet vu en perspective qui semble venir vers nous',
         explanation: 'Le raccourci déforme les proportions pour créer la profondeur.',
-        hints: ['Déformation', 'Vers nous']
+        hints: ['Déformation', 'Vers nous', 'La réponse est : Un objet vu en perspective qui semble venir vers nous']
       },
       {
         id: 'q7',
@@ -22364,7 +22364,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Avec des lignes obliques sans point de fuite', 'Uniquement de face', 'De dessus', 'En miroir'],
         correctAnswer: 'Avec des lignes obliques sans point de fuite',
         explanation: 'C\'est une perspective simplifiée sans déformation de taille.',
-        hints: ['Oblique', 'Sans fuite']
+        hints: ['Oblique', 'Sans fuite', 'La réponse est : Avec des lignes obliques sans point de fuite']
       },
       {
         id: 'q8',
@@ -22373,7 +22373,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La superposition (un objet devant un autre)', 'Uniquement la couleur rouge', 'Des formes identiques', 'Un fond blanc'],
         correctAnswer: 'La superposition (un objet devant un autre)',
         explanation: 'Un objet qui en cache partiellement un autre paraît devant.',
-        hints: ['Superposition', 'Cacher']
+        hints: ['Superposition', 'Cacher', 'La réponse est : La superposition (un objet devant un autre)']
       },
       {
         id: 'q9',
@@ -22382,7 +22382,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Au niveau des yeux de l\'observateur', 'Toujours en haut', 'Toujours en bas', 'Au centre exact'],
         correctAnswer: 'Au niveau des yeux de l\'observateur',
         explanation: 'La ligne d\'horizon change selon le point de vue (plongée, contre-plongée).',
-        hints: ['Yeux', 'Observateur']
+        hints: ['Yeux', 'Observateur', 'La réponse est : Au niveau des yeux de l\'observateur']
       },
       {
         id: 'q10',
@@ -22391,7 +22391,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['D\'en haut, comme si on regardait vers le bas', 'D\'en bas, comme si on levait la tête', 'De face', 'De dos'],
         correctAnswer: 'D\'en haut, comme si on regardait vers le bas',
         explanation: 'La plongée place le spectateur au-dessus du sujet.',
-        hints: ['D\'en haut', 'Regarder vers le bas']
+        hints: ['D\'en haut', 'Regarder vers le bas', 'La réponse est : D\'en haut, comme si on regardait vers le bas']
       }
     ]
   },
@@ -22414,7 +22414,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les contrastes forts entre lumière et ombre', 'Les couleurs vives', 'Les lignes droites', 'Les formes géométriques'],
         correctAnswer: 'Les contrastes forts entre lumière et ombre',
         explanation: 'Le clair-obscur crée du volume et du drame par les contrastes.',
-        hints: ['Contraste', 'Lumière/ombre']
+        hints: ['Contraste', 'Lumière/ombre', 'La réponse est : Les contrastes forts entre lumière et ombre']
       },
       {
         id: 'q2',
@@ -22423,7 +22423,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La partie de l\'objet non éclairée', 'L\'ombre projetée sur le sol', 'La couleur de l\'objet', 'Le reflet de la lumière'],
         correctAnswer: 'La partie de l\'objet non éclairée',
         explanation: 'L\'ombre propre est sur l\'objet lui-même, du côté opposé à la lumière.',
-        hints: ['Sur l\'objet', 'Non éclairée']
+        hints: ['Sur l\'objet', 'Non éclairée', 'La réponse est : La partie de l\'objet non éclairée']
       },
       {
         id: 'q3',
@@ -22432,7 +22432,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'ombre projetée par l\'objet sur une surface', 'La partie sombre de l\'objet', 'Une technique de dessin', 'Un type de pinceau'],
         correctAnswer: 'L\'ombre projetée par l\'objet sur une surface',
         explanation: 'L\'ombre portée apparaît sur le sol ou sur d\'autres objets.',
-        hints: ['Projetée', 'Sol']
+        hints: ['Projetée', 'Sol', 'La réponse est : L\'ombre projetée par l\'objet sur une surface']
       },
       {
         id: 'q4',
@@ -22441,7 +22441,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une transition progressive entre deux tons', 'Une limite nette', 'Une seule couleur', 'Un motif répétitif'],
         correctAnswer: 'Une transition progressive entre deux tons',
         explanation: 'Les dégradés créent des transitions douces, donnant du volume.',
-        hints: ['Transition', 'Progressif']
+        hints: ['Transition', 'Progressif', 'La réponse est : Une transition progressive entre deux tons']
       },
       {
         id: 'q5',
@@ -22450,7 +22450,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'emplacement des zones claires et sombres', 'La couleur du fond', 'Le format de l\'image', 'Le titre de l\'œuvre'],
         correctAnswer: 'L\'emplacement des zones claires et sombres',
         explanation: 'La position de la lumière crée les ombres et reflets.',
-        hints: ['Direction', 'Éclairage']
+        hints: ['Direction', 'Éclairage', 'La réponse est : L\'emplacement des zones claires et sombres']
       },
       {
         id: 'q6',
@@ -22459,7 +22459,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une zone très claire qui capte la lumière', 'Une zone sombre', 'Une couleur ajoutée', 'Une ombre portée'],
         correctAnswer: 'Une zone très claire qui capte la lumière',
         explanation: 'Les reflets indiquent les surfaces brillantes ou lisses.',
-        hints: ['Brillant', 'Clair']
+        hints: ['Brillant', 'Clair', 'La réponse est : Une zone très claire qui capte la lumière']
       },
       {
         id: 'q7',
@@ -22468,7 +22468,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Créer des ombres par des traits parallèles', 'Coller des éléments', 'Découper du papier', 'Mélanger les couleurs'],
         correctAnswer: 'Créer des ombres par des traits parallèles',
         explanation: 'Plus les hachures sont serrées, plus la zone paraît sombre.',
-        hints: ['Traits', 'Parallèles']
+        hints: ['Traits', 'Parallèles', 'La réponse est : Créer des ombres par des traits parallèles']
       },
       {
         id: 'q8',
@@ -22477,7 +22477,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Donner du volume par les variations de valeurs', 'Dessiner des modèles vivants', 'Créer un moule', 'Utiliser de l\'argile'],
         correctAnswer: 'Donner du volume par les variations de valeurs',
         explanation: 'Le modelé utilise les dégradés pour suggérer le relief.',
-        hints: ['Volume', 'Valeurs']
+        hints: ['Volume', 'Valeurs', 'La réponse est : Donner du volume par les variations de valeurs']
       },
       {
         id: 'q9',
@@ -22486,7 +22486,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le degré de clarté ou d\'obscurité d\'une couleur', 'Le prix d\'une œuvre', 'La taille d\'un dessin', 'Le nom de l\'artiste'],
         correctAnswer: 'Le degré de clarté ou d\'obscurité d\'une couleur',
         explanation: 'Les valeurs vont du blanc (clair) au noir (sombre).',
-        hints: ['Clair', 'Sombre']
+        hints: ['Clair', 'Sombre', 'La réponse est : Le degré de clarté ou d\'obscurité d\'une couleur']
       },
       {
         id: 'q10',
@@ -22495,7 +22495,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il réduit les ombres', 'Il crée beaucoup d\'ombres', 'Il change les couleurs', 'Il déforme les objets'],
         correctAnswer: 'Il réduit les ombres',
         explanation: 'Un éclairage latéral crée plus d\'ombres et donc plus de volume.',
-        hints: ['Peu d\'ombres', 'Aplati']
+        hints: ['Peu d\'ombres', 'Aplati', 'La réponse est : Il réduit les ombres']
       }
     ]
   },
@@ -22518,7 +22518,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le mouvement et le dynamisme', 'Le calme et la stabilité', 'La tristesse', 'L\'absence de forme'],
         correctAnswer: 'Le mouvement et le dynamisme',
         explanation: 'Les diagonales créent une tension et une impression de mouvement.',
-        hints: ['Dynamique', 'Tension']
+        hints: ['Dynamique', 'Tension', 'La réponse est : Le mouvement et le dynamisme']
       },
       {
         id: 'q2',
@@ -22527,7 +22527,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les phases successives d\'un mouvement', 'Une seule image fixe', 'Uniquement des paysages', 'Des couleurs vives'],
         correctAnswer: 'Les phases successives d\'un mouvement',
         explanation: 'Elle décompose le mouvement en plusieurs images.',
-        hints: ['Phases', 'Successives']
+        hints: ['Phases', 'Successives', 'La réponse est : Les phases successives d\'un mouvement']
       },
       {
         id: 'q3',
@@ -22536,7 +22536,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La répétition d\'éléments avec ou sans variations', 'Une seule forme isolée', 'L\'absence de couleur', 'Un fond uniforme'],
         correctAnswer: 'La répétition d\'éléments avec ou sans variations',
         explanation: 'Le rythme peut être régulier ou irrégulier comme en musique.',
-        hints: ['Répétition', 'Régularité']
+        hints: ['Répétition', 'Régularité', 'La réponse est : La répétition d\'éléments avec ou sans variations']
       },
       {
         id: 'q4',
@@ -22545,7 +22545,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Suggérer le déplacement rapide d\'un objet', 'Encadrer une image', 'Séparer les couleurs', 'Créer un fond'],
         correctAnswer: 'Suggérer le déplacement rapide d\'un objet',
         explanation: 'Ces lignes sont très utilisées dans la bande dessinée.',
-        hints: ['Vitesse', 'Déplacement']
+        hints: ['Vitesse', 'Déplacement', 'La réponse est : Suggérer le déplacement rapide d\'un objet']
       },
       {
         id: 'q5',
@@ -22554,7 +22554,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un sujet en mouvement avec un effet de traînée', 'Une image parfaitement nette', 'Un paysage fixe', 'Un gros plan'],
         correctAnswer: 'Un sujet en mouvement avec un effet de traînée',
         explanation: 'Le flou capture le déplacement pendant le temps d\'exposition.',
-        hints: ['Flou', 'Traînée']
+        hints: ['Flou', 'Traînée', 'La réponse est : Un sujet en mouvement avec un effet de traînée']
       },
       {
         id: 'q6',
@@ -22563,7 +22563,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La succession régulière de deux éléments différents', 'L\'utilisation d\'une seule couleur', 'Une technique de peinture', 'Un type de cadre'],
         correctAnswer: 'La succession régulière de deux éléments différents',
         explanation: 'L\'alternance crée un rythme (ex: noir-blanc-noir-blanc).',
-        hints: ['Succession', 'Deux éléments']
+        hints: ['Succession', 'Deux éléments', 'La réponse est : La succession régulière de deux éléments différents']
       },
       {
         id: 'q7',
@@ -22572,7 +22572,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Eadweard Muybridge et Étienne-Jules Marey', 'Léonard de Vinci uniquement', 'Les impressionnistes', 'Les sculpteurs grecs'],
         correctAnswer: 'Eadweard Muybridge et Étienne-Jules Marey',
         explanation: 'Ces pionniers ont photographié le mouvement au XIXe siècle.',
-        hints: ['Photographie', 'XIXe siècle']
+        hints: ['Photographie', 'XIXe siècle', 'La réponse est : Eadweard Muybridge et Étienne-Jules Marey']
       },
       {
         id: 'q8',
@@ -22581,7 +22581,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un mouvement continu et enveloppant', 'Une impression de calme absolu', 'Des angles droits', 'Une symétrie parfaite'],
         correctAnswer: 'Un mouvement continu et enveloppant',
         explanation: 'La spirale guide le regard dans un mouvement rotatif.',
-        hints: ['Rotation', 'Continu']
+        hints: ['Rotation', 'Continu', 'La réponse est : Un mouvement continu et enveloppant']
       },
       {
         id: 'q9',
@@ -22590,7 +22590,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La vitesse, le mouvement et la modernité', 'La nature et le calme', 'Les portraits classiques', 'Les paysages ruraux'],
         correctAnswer: 'La vitesse, le mouvement et la modernité',
         explanation: 'Les futuristes italiens voulaient représenter le dynamisme moderne.',
-        hints: ['Vitesse', 'Modernité']
+        hints: ['Vitesse', 'Modernité', 'La réponse est : La vitesse, le mouvement et la modernité']
       },
       {
         id: 'q10',
@@ -22599,7 +22599,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Déséquilibrer sa posture et incliner son corps', 'La dessiner parfaitement droite', 'L\'entourer d\'un cadre', 'Utiliser uniquement du noir'],
         correctAnswer: 'Déséquilibrer sa posture et incliner son corps',
         explanation: 'Un corps en déséquilibre suggère l\'action et le mouvement.',
-        hints: ['Déséquilibre', 'Inclinaison']
+        hints: ['Déséquilibre', 'Inclinaison', 'La réponse est : Déséquilibrer sa posture et incliner son corps']
       }
     ]
   },
@@ -22622,7 +22622,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des touches de couleur visibles et la capture de la lumière', 'Des lignes noires épaisses', 'Des formes géométriques', 'Des sujets religieux'],
         correctAnswer: 'Des touches de couleur visibles et la capture de la lumière',
         explanation: 'Les impressionnistes peignaient en plein air pour capter la lumière.',
-        hints: ['Lumière', 'Touches']
+        hints: ['Lumière', 'Touches', 'La réponse est : Des touches de couleur visibles et la capture de la lumière']
       },
       {
         id: 'q2',
@@ -22631,7 +22631,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Pablo Picasso', 'Claude Monet', 'Vincent van Gogh', 'Michel-Ange'],
         correctAnswer: 'Pablo Picasso',
         explanation: 'Picasso et Braque ont fondé le cubisme au début du XXe siècle.',
-        hints: ['Formes géométriques', 'Espagnol']
+        hints: ['Formes géométriques', 'Espagnol', 'La réponse est : Pablo Picasso']
       },
       {
         id: 'q3',
@@ -22640,7 +22640,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le rêve, l\'inconscient et l\'imaginaire', 'La réalité photographique', 'Les paysages de campagne', 'L\'architecture classique'],
         correctAnswer: 'Le rêve, l\'inconscient et l\'imaginaire',
         explanation: 'Les surréalistes comme Dalí créaient des images oniriques.',
-        hints: ['Rêve', 'Imaginaire']
+        hints: ['Rêve', 'Imaginaire', 'La réponse est : Le rêve, l\'inconscient et l\'imaginaire']
       },
       {
         id: 'q4',
@@ -22649,7 +22649,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La culture populaire et la publicité', 'La mythologie grecque', 'La nature morte', 'L\'art religieux'],
         correctAnswer: 'La culture populaire et la publicité',
         explanation: 'Andy Warhol représentait des produits de consommation et des célébrités.',
-        hints: ['Publicité', 'Populaire']
+        hints: ['Publicité', 'Populaire', 'La réponse est : La culture populaire et la publicité']
       },
       {
         id: 'q5',
@@ -22658,7 +22658,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le retour à l\'Antiquité et la perspective', 'L\'abstraction totale', 'Les collages', 'L\'art numérique'],
         correctAnswer: 'Le retour à l\'Antiquité et la perspective',
         explanation: 'La Renaissance a redécouvert l\'art grec et romain.',
-        hints: ['Antiquité', 'Perspective']
+        hints: ['Antiquité', 'Perspective', 'La réponse est : Le retour à l\'Antiquité et la perspective']
       },
       {
         id: 'q6',
@@ -22667,7 +22667,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les émotions intenses et la déformation expressive', 'La copie exacte de la réalité', 'Les formes géométriques parfaites', 'Les couleurs pastels'],
         correctAnswer: 'Les émotions intenses et la déformation expressive',
         explanation: 'Les expressionnistes déformaient les formes pour exprimer leurs émotions.',
-        hints: ['Émotions', 'Déformation']
+        hints: ['Émotions', 'Déformation', 'La réponse est : Les émotions intenses et la déformation expressive']
       },
       {
         id: 'q7',
@@ -22676,7 +22676,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'absence de représentation du réel', 'Des portraits très réalistes', 'Des paysages détaillés', 'Des scènes historiques'],
         correctAnswer: 'L\'absence de représentation du réel',
         explanation: 'L\'art abstrait utilise formes, couleurs et lignes sans figuration.',
-        hints: ['Non figuratif', 'Formes']
+        hints: ['Non figuratif', 'Formes', 'La réponse est : L\'absence de représentation du réel']
       },
       {
         id: 'q8',
@@ -22685,7 +22685,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Vincent van Gogh', 'Claude Monet', 'Pablo Picasso', 'Leonardo da Vinci'],
         correctAnswer: 'Vincent van Gogh',
         explanation: 'Van Gogh a peint cette œuvre en 1889, en proie à la maladie.',
-        hints: ['Post-impressionnisme', 'Néerlandais']
+        hints: ['Post-impressionnisme', 'Néerlandais', 'La réponse est : Vincent van Gogh']
       },
       {
         id: 'q9',
@@ -22694,7 +22694,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des œuvres réalisées dans l\'espace public', 'Des peintures sur toile uniquement', 'Des sculptures en marbre', 'Des œuvres cachées dans les musées'],
         correctAnswer: 'Des œuvres réalisées dans l\'espace public',
         explanation: 'Le Street Art investit les murs et l\'espace urbain.',
-        hints: ['Rue', 'Public']
+        hints: ['Rue', 'Public', 'La réponse est : Des œuvres réalisées dans l\'espace public']
       },
       {
         id: 'q10',
@@ -22703,7 +22703,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La simplicité et la réduction des formes', 'La complexité maximale', 'Les ornements nombreux', 'Les détails réalistes'],
         correctAnswer: 'La simplicité et la réduction des formes',
         explanation: '"Less is more" : moins c\'est plus.',
-        hints: ['Simple', 'Réduction']
+        hints: ['Simple', 'Réduction', 'La réponse est : La simplicité et la réduction des formes']
       }
     ]
   },
@@ -22726,7 +22726,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'émotion et l\'intimité', 'L\'espace et le lieu', 'L\'action générale', 'Le contexte historique'],
         correctAnswer: 'L\'émotion et l\'intimité',
         explanation: 'Le gros plan révèle les détails et les émotions.',
-        hints: ['Émotion', 'Détail']
+        hints: ['Émotion', 'Détail', 'La réponse est : L\'émotion et l\'intimité']
       },
       {
         id: 'q2',
@@ -22735,7 +22735,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le décor et le contexte général', 'Uniquement les yeux', 'Un détail précis', 'Le noir complet'],
         correctAnswer: 'Le décor et le contexte général',
         explanation: 'Le plan d\'ensemble situe l\'action dans son environnement.',
-        hints: ['Général', 'Contexte']
+        hints: ['Général', 'Contexte', 'La réponse est : Le décor et le contexte général']
       },
       {
         id: 'q3',
@@ -22744,7 +22744,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Puissance et domination', 'Faiblesse et vulnérabilité', 'Neutralité', 'Mouvement latéral'],
         correctAnswer: 'Puissance et domination',
         explanation: 'Regarder de bas en haut grandit le sujet.',
-        hints: ['Puissance', 'Grand']
+        hints: ['Puissance', 'Grand', 'La réponse est : Puissance et domination']
       },
       {
         id: 'q4',
@@ -22753,7 +22753,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Placer les éléments importants sur des lignes divisant l\'image en 9', 'Utiliser trois couleurs', 'Diviser l\'image en trois parties égales verticales', 'Faire trois croquis'],
         correctAnswer: 'Placer les éléments importants sur des lignes divisant l\'image en 9',
         explanation: 'Les points d\'intersection attirent le regard.',
-        hints: ['Composition', '9 zones']
+        hints: ['Composition', '9 zones', 'La réponse est : Placer les éléments importants sur des lignes divisant l\'image en 9']
       },
       {
         id: 'q5',
@@ -22762,7 +22762,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ce qu\'on voit objectivement', 'Ce qu\'elle suggère ou symbolise', 'L\'opinion de l\'artiste', 'Un message caché'],
         correctAnswer: 'Ce qu\'on voit objectivement',
         explanation: 'La dénotation est la description factuelle de l\'image.',
-        hints: ['Objectif', 'Factuel']
+        hints: ['Objectif', 'Factuel', 'La réponse est : Ce qu\'on voit objectivement']
       },
       {
         id: 'q6',
@@ -22771,7 +22771,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des significations symboliques ou émotionnelles', 'Uniquement des formes géométriques', 'Des informations techniques', 'La date de création'],
         correctAnswer: 'Des significations symboliques ou émotionnelles',
         explanation: 'La connotation est l\'interprétation au-delà de ce qui est montré.',
-        hints: ['Symbolique', 'Interprétation']
+        hints: ['Symbolique', 'Interprétation', 'La réponse est : Des significations symboliques ou émotionnelles']
       },
       {
         id: 'q7',
@@ -22780,7 +22780,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ce qui est suggéré mais non visible dans l\'image', 'Le centre de l\'image', 'Le cadre de l\'image', 'La couleur dominante'],
         correctAnswer: 'Ce qui est suggéré mais non visible dans l\'image',
         explanation: 'Le hors-champ stimule l\'imagination du spectateur.',
-        hints: ['Invisible', 'Suggéré']
+        hints: ['Invisible', 'Suggéré', 'La réponse est : Ce qui est suggéré mais non visible dans l\'image']
       },
       {
         id: 'q8',
@@ -22789,7 +22789,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'assemblage de plusieurs images en une seule', 'Une photo unique non modifiée', 'Un dessin au crayon', 'Une sculpture'],
         correctAnswer: 'L\'assemblage de plusieurs images en une seule',
         explanation: 'Le photomontage crée des images nouvelles par assemblage.',
-        hints: ['Assemblage', 'Plusieurs']
+        hints: ['Assemblage', 'Plusieurs', 'La réponse est : L\'assemblage de plusieurs images en une seule']
       },
       {
         id: 'q9',
@@ -22798,7 +22798,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Séduire et persuader le spectateur', 'Informer de façon neutre', 'Documenter la réalité', 'Critiquer les produits'],
         correctAnswer: 'Séduire et persuader le spectateur',
         explanation: 'La publicité utilise les codes visuels pour vendre.',
-        hints: ['Séduire', 'Vendre']
+        hints: ['Séduire', 'Vendre', 'La réponse est : Séduire et persuader le spectateur']
       },
       {
         id: 'q10',
@@ -22807,7 +22807,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Influencer l\'opinion et diffuser une idéologie', 'Décorer les intérieurs', 'Documenter la nature', 'Amuser le public'],
         correctAnswer: 'Influencer l\'opinion et diffuser une idéologie',
         explanation: 'La propagande manipule les images à des fins politiques.',
-        hints: ['Influence', 'Politique']
+        hints: ['Influence', 'Politique', 'La réponse est : Influencer l\'opinion et diffuser une idéologie']
       }
     ]
   },
@@ -22830,7 +22830,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Plusieurs techniques ou matériaux différents', 'Une seule technique', 'Uniquement de la peinture', 'Du dessin au crayon'],
         correctAnswer: 'Plusieurs techniques ou matériaux différents',
         explanation: 'On peut mélanger peinture, collage, dessin, photo...',
-        hints: ['Plusieurs', 'Mélange']
+        hints: ['Plusieurs', 'Mélange', 'La réponse est : Plusieurs techniques ou matériaux différents']
       },
       {
         id: 'q2',
@@ -22839,7 +22839,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Utiliser un objet ou une image en changeant son sens', 'Copier exactement une œuvre', 'Peindre un paysage', 'Dessiner un portrait'],
         correctAnswer: 'Utiliser un objet ou une image en changeant son sens',
         explanation: 'Détourner donne un nouveau sens à l\'existant.',
-        hints: ['Changer le sens', 'Transformer']
+        hints: ['Changer le sens', 'Transformer', 'La réponse est : Utiliser un objet ou une image en changeant son sens']
       },
       {
         id: 'q3',
@@ -22848,7 +22848,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Des objets et matériaux récupérés assemblés entre eux', 'Un seul bloc de pierre', 'Uniquement de l\'argile', 'Du dessin'],
         correctAnswer: 'Des objets et matériaux récupérés assemblés entre eux',
         explanation: 'L\'assemblage combine des éléments divers en 3D.',
-        hints: ['Récupération', 'Combiner']
+        hints: ['Récupération', 'Combiner', 'La réponse est : Des objets et matériaux récupérés assemblés entre eux']
       },
       {
         id: 'q4',
@@ -22857,7 +22857,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une œuvre qui occupe et transforme un espace', 'Un tableau accroché au mur', 'Un dessin sur papier', 'Une photo encadrée'],
         correctAnswer: 'Une œuvre qui occupe et transforme un espace',
         explanation: 'L\'installation invite le spectateur à entrer dans l\'œuvre.',
-        hints: ['Espace', 'Immersion']
+        hints: ['Espace', 'Immersion', 'La réponse est : Une œuvre qui occupe et transforme un espace']
       },
       {
         id: 'q5',
@@ -22866,7 +22866,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un objet du quotidien présenté comme œuvre d\'art', 'Une peinture traditionnelle', 'Une sculpture en marbre', 'Un dessin académique'],
         correctAnswer: 'Un objet du quotidien présenté comme œuvre d\'art',
         explanation: 'Duchamp a exposé un urinoir ("Fontaine") comme œuvre d\'art.',
-        hints: ['Objet courant', 'Duchamp']
+        hints: ['Objet courant', 'Duchamp', 'La réponse est : Un objet du quotidien présenté comme œuvre d\'art']
       },
       {
         id: 'q6',
@@ -22875,7 +22875,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Frotter un crayon sur une feuille posée sur une texture', 'Peindre avec les doigts', 'Découper des formes', 'Sculpter l\'argile'],
         correctAnswer: 'Frotter un crayon sur une feuille posée sur une texture',
         explanation: 'Le frottage révèle la texture de la surface en dessous.',
-        hints: ['Texture', 'Crayon']
+        hints: ['Texture', 'Crayon', 'La réponse est : Frotter un crayon sur une feuille posée sur une texture']
       },
       {
         id: 'q7',
@@ -22884,7 +22884,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Laisser couler ou projeter la peinture sur la toile', 'Dessiner au crayon', 'Découper du papier', 'Sculpter la pierre'],
         correctAnswer: 'Laisser couler ou projeter la peinture sur la toile',
         explanation: 'Jackson Pollock est célèbre pour ses drippings.',
-        hints: ['Couler', 'Projeter']
+        hints: ['Couler', 'Projeter', 'La réponse est : Laisser couler ou projeter la peinture sur la toile']
       },
       {
         id: 'q8',
@@ -22893,7 +22893,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'ordinateur et les technologies numériques', 'Uniquement des pinceaux traditionnels', 'De l\'argile', 'De la pierre'],
         correctAnswer: 'L\'ordinateur et les technologies numériques',
         explanation: 'L\'art numérique inclut images de synthèse, art génératif, etc.',
-        hints: ['Ordinateur', 'Technologie']
+        hints: ['Ordinateur', 'Technologie', 'La réponse est : L\'ordinateur et les technologies numériques']
       },
       {
         id: 'q9',
@@ -22902,7 +22902,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Intégrer des effets aléatoires dans une création maîtrisée', 'Copier exactement un modèle', 'Suivre des règles strictes', 'Éviter toute expérimentation'],
         correctAnswer: 'Intégrer des effets aléatoires dans une création maîtrisée',
         explanation: 'L\'artiste guide le hasard sans tout contrôler.',
-        hints: ['Aléatoire', 'Inattendu']
+        hints: ['Aléatoire', 'Inattendu', 'La réponse est : Intégrer des effets aléatoires dans une création maîtrisée']
       },
       {
         id: 'q10',
@@ -22911,7 +22911,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une action réalisée par l\'artiste devant un public', 'Un tableau peint', 'Une sculpture en bronze', 'Un dessin au fusain'],
         correctAnswer: 'Une action réalisée par l\'artiste devant un public',
         explanation: 'La performance est éphémère et implique le corps de l\'artiste.',
-        hints: ['Action', 'Public']
+        hints: ['Action', 'Public', 'La réponse est : Une action réalisée par l\'artiste devant un public']
       }
     ]
   },
@@ -22934,7 +22934,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Défendre une cause ou dénoncer une injustice', 'Décorer uniquement', 'Copier la réalité', 'Vendre des produits'],
         correctAnswer: 'Défendre une cause ou dénoncer une injustice',
         explanation: 'L\'art engagé prend position sur des questions sociales ou politiques.',
-        hints: ['Cause', 'Dénoncer']
+        hints: ['Cause', 'Dénoncer', 'La réponse est : Défendre une cause ou dénoncer une injustice']
       },
       {
         id: 'q2',
@@ -22943,7 +22943,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Les horreurs de la guerre et le bombardement de la ville', 'La beauté de la nature', 'Les joies de la fête', 'La mode parisienne'],
         correctAnswer: 'Les horreurs de la guerre et le bombardement de la ville',
         explanation: 'Picasso a peint cette œuvre après le bombardement de Guernica en 1937.',
-        hints: ['Guerre', 'Bombardement']
+        hints: ['Guerre', 'Bombardement', 'La réponse est : Les horreurs de la guerre et le bombardement de la ville']
       },
       {
         id: 'q3',
@@ -22952,7 +22952,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Son street art engagé et satirique', 'Ses portraits classiques', 'Ses natures mortes', 'Ses paysages romantiques'],
         correctAnswer: 'Son street art engagé et satirique',
         explanation: 'Banksy critique la société à travers ses pochoirs dans l\'espace public.',
-        hints: ['Street art', 'Satirique']
+        hints: ['Street art', 'Satirique', 'La réponse est : Son street art engagé et satirique']
       },
       {
         id: 'q4',
@@ -22961,7 +22961,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'écologie, les droits humains, la paix...', 'Uniquement la technique', 'Les prix des œuvres', 'La décoration intérieure'],
         correctAnswer: 'L\'écologie, les droits humains, la paix...',
         explanation: 'L\'art peut toucher les consciences sur des sujets importants.',
-        hints: ['Sensibiliser', 'Conscience']
+        hints: ['Sensibiliser', 'Conscience', 'La réponse est : L\'écologie, les droits humains, la paix...']
       },
       {
         id: 'q5',
@@ -22970,7 +22970,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'exagération et la déformation pour critiquer', 'La copie exacte', 'Des couleurs pastels', 'Des formes géométriques'],
         correctAnswer: 'L\'exagération et la déformation pour critiquer',
         explanation: 'La caricature déforme les traits pour faire passer un message.',
-        hints: ['Exagération', 'Critique']
+        hints: ['Exagération', 'Critique', 'La réponse est : L\'exagération et la déformation pour critiquer']
       },
       {
         id: 'q6',
@@ -22979,7 +22979,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Commémorer des événements ou des victimes', 'Oublier le passé', 'Vendre des souvenirs', 'Décorer les magasins'],
         correctAnswer: 'Commémorer des événements ou des victimes',
         explanation: 'Les mémoriaux utilisent l\'art pour ne pas oublier.',
-        hints: ['Mémoire', 'Commémorer']
+        hints: ['Mémoire', 'Commémorer', 'La réponse est : Commémorer des événements ou des victimes']
       },
       {
         id: 'q7',
@@ -22988,7 +22988,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Influencer et manipuler l\'opinion', 'Informer objectivement', 'Divertir', 'Documenter la nature'],
         correctAnswer: 'Influencer et manipuler l\'opinion',
         explanation: 'La propagande utilise des techniques visuelles pour convaincre.',
-        hints: ['Influence', 'Manipulation']
+        hints: ['Influence', 'Manipulation', 'La réponse est : Influencer et manipuler l\'opinion']
       },
       {
         id: 'q8',
@@ -22997,7 +22997,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Il dérange le pouvoir ou choque la société', 'Il est trop beau', 'Il utilise trop de couleurs', 'Il est trop petit'],
         correctAnswer: 'Il dérange le pouvoir ou choque la société',
         explanation: 'La censure vise à faire taire les messages dérangeants.',
-        hints: ['Dérange', 'Pouvoir']
+        hints: ['Dérange', 'Pouvoir', 'La réponse est : Il dérange le pouvoir ou choque la société']
       },
       {
         id: 'q9',
@@ -23006,7 +23006,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Son engagement pour les droits humains en Chine', 'Ses paysages impressionnistes', 'Ses portraits royaux', 'Ses natures mortes'],
         correctAnswer: 'Son engagement pour les droits humains en Chine',
         explanation: 'Ai Weiwei critique le gouvernement chinois à travers son art.',
-        hints: ['Chine', 'Droits humains']
+        hints: ['Chine', 'Droits humains', 'La réponse est : Son engagement pour les droits humains en Chine']
       },
       {
         id: 'q10',
@@ -23015,7 +23015,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La participation active du public dans l\'œuvre', 'La contemplation passive', 'L\'achat de l\'œuvre', 'La destruction de l\'œuvre'],
         correctAnswer: 'La participation active du public dans l\'œuvre',
         explanation: 'Le public devient acteur et co-créateur.',
-        hints: ['Participation', 'Public']
+        hints: ['Participation', 'Public', 'La réponse est : La participation active du public dans l\'œuvre']
       }
     ]
   },
@@ -23038,7 +23038,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Décrire, interpréter et contextualiser', 'Donner uniquement son avis', 'Calculer son prix', 'Copier l\'œuvre'],
         correctAnswer: 'Décrire, interpréter et contextualiser',
         explanation: 'L\'analyse combine observation, interprétation et connaissances.',
-        hints: ['Description', 'Interprétation']
+        hints: ['Description', 'Interprétation', 'La réponse est : Décrire, interpréter et contextualiser']
       },
       {
         id: 'q2',
@@ -23047,7 +23047,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'époque, les événements et la société de l\'artiste', 'Uniquement le prix de vente', 'La taille du cadre', 'Le nombre de couleurs'],
         correctAnswer: 'L\'époque, les événements et la société de l\'artiste',
         explanation: 'Une œuvre reflète son temps et son environnement.',
-        hints: ['Époque', 'Société']
+        hints: ['Époque', 'Société', 'La réponse est : L\'époque, les événements et la société de l\'artiste']
       },
       {
         id: 'q3',
@@ -23056,7 +23056,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ce que l\'artiste voulait exprimer ou provoquer', 'Le prix demandé', 'Le lieu d\'exposition', 'La taille de l\'œuvre'],
         correctAnswer: 'Ce que l\'artiste voulait exprimer ou provoquer',
         explanation: 'Comprendre l\'intention aide à interpréter l\'œuvre.',
-        hints: ['Exprimer', 'But']
+        hints: ['Exprimer', 'But', 'La réponse est : Ce que l\'artiste voulait exprimer ou provoquer']
       },
       {
         id: 'q4',
@@ -23065,7 +23065,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'époque et le public qui la regarde', 'Sa taille uniquement', 'Son poids', 'Sa date de vente'],
         correctAnswer: 'L\'époque et le public qui la regarde',
         explanation: 'Une même œuvre peut être perçue différemment au fil du temps.',
-        hints: ['Public', 'Perception']
+        hints: ['Public', 'Perception', 'La réponse est : L\'époque et le public qui la regarde']
       },
       {
         id: 'q5',
@@ -23074,7 +23074,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Le titre, l\'artiste, la date et la technique de l\'œuvre', 'Le prix de l\'œuvre', 'L\'opinion du conservateur', 'Le menu du restaurant'],
         correctAnswer: 'Le titre, l\'artiste, la date et la technique de l\'œuvre',
         explanation: 'Le cartel donne les informations essentielles sur l\'œuvre.',
-        hints: ['Informations', 'Titre']
+        hints: ['Informations', 'Titre', 'La réponse est : Le titre, l\'artiste, la date et la technique de l\'œuvre']
       },
       {
         id: 'q6',
@@ -23083,7 +23083,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Demandée par un mécène ou une institution', 'Créée spontanément', 'Trouvée dans la nature', 'Volée'],
         correctAnswer: 'Demandée par un mécène ou une institution',
         explanation: 'Beaucoup d\'œuvres classiques étaient des commandes.',
-        hints: ['Mécène', 'Demandée']
+        hints: ['Mécène', 'Demandée', 'La réponse est : Demandée par un mécène ou une institution']
       },
       {
         id: 'q7',
@@ -23092,7 +23092,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La perception et le sens de l\'œuvre', 'Uniquement le prix', 'La technique utilisée', 'Les couleurs'],
         correctAnswer: 'La perception et le sens de l\'œuvre',
         explanation: 'Un même objet peut changer de sens selon où il est exposé.',
-        hints: ['Perception', 'Contexte']
+        hints: ['Perception', 'Contexte', 'La réponse est : La perception et le sens de l\'œuvre']
       },
       {
         id: 'q8',
@@ -23101,7 +23101,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Faire allusion à une autre œuvre ou un autre artiste', 'Copier sans autorisation', 'Signer l\'œuvre', 'Vendre l\'œuvre'],
         correctAnswer: 'Faire allusion à une autre œuvre ou un autre artiste',
         explanation: 'Les artistes dialoguent avec l\'histoire de l\'art par des références.',
-        hints: ['Allusion', 'Dialogue']
+        hints: ['Allusion', 'Dialogue', 'La réponse est : Faire allusion à une autre œuvre ou un autre artiste']
       },
       {
         id: 'q9',
@@ -23110,7 +23110,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Son unicité et son authenticité', 'Sa reproduction en série', 'Son petit format', 'Sa couleur'],
         correctAnswer: 'Son unicité et son authenticité',
         explanation: 'Walter Benjamin a théorisé l\'aura de l\'œuvre d\'art.',
-        hints: ['Unique', 'Authentique']
+        hints: ['Unique', 'Authentique', 'La réponse est : Son unicité et son authenticité']
       },
       {
         id: 'q10',
@@ -23119,7 +23119,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Son histoire depuis sa création jusqu\'à aujourd\'hui', 'Son poids et ses dimensions', 'Ses couleurs', 'Le nombre de visiteurs'],
         correctAnswer: 'Son histoire depuis sa création jusqu\'à aujourd\'hui',
         explanation: 'La provenance documente les propriétaires successifs.',
-        hints: ['Histoire', 'Propriétaires']
+        hints: ['Histoire', 'Propriétaires', 'La réponse est : Son histoire depuis sa création jusqu\'à aujourd\'hui']
       }
     ]
   },
@@ -23142,7 +23142,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'art produit de 1945 à nos jours', 'L\'art de la Renaissance', 'L\'art préhistorique', 'L\'art égyptien'],
         correctAnswer: 'L\'art produit de 1945 à nos jours',
         explanation: 'L\'art contemporain commence après la Seconde Guerre mondiale.',
-        hints: ['1945', 'Aujourd\'hui']
+        hints: ['1945', 'Aujourd\'hui', 'La réponse est : L\'art produit de 1945 à nos jours']
       },
       {
         id: 'q2',
@@ -23151,7 +23151,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['L\'idée sur la réalisation matérielle', 'La technique traditionnelle', 'La beauté classique', 'La copie du réel'],
         correctAnswer: 'L\'idée sur la réalisation matérielle',
         explanation: 'Dans l\'art conceptuel, le concept prime sur l\'objet.',
-        hints: ['Idée', 'Concept']
+        hints: ['Idée', 'Concept', 'La réponse est : L\'idée sur la réalisation matérielle']
       },
       {
         id: 'q3',
@@ -23160,7 +23160,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une œuvre temporaire qui n\'est pas destinée à durer', 'Une œuvre en bronze', 'Une peinture à l\'huile', 'Un monument en pierre'],
         correctAnswer: 'Une œuvre temporaire qui n\'est pas destinée à durer',
         explanation: 'L\'art éphémère questionne la notion de permanence.',
-        hints: ['Temporaire', 'Disparaît']
+        hints: ['Temporaire', 'Disparaît', 'La réponse est : Une œuvre temporaire qui n\'est pas destinée à durer']
       },
       {
         id: 'q4',
@@ -23169,7 +23169,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La nature comme matériau et lieu d\'exposition', 'Uniquement les musées', 'La peinture à l\'huile', 'La sculpture en marbre'],
         correctAnswer: 'La nature comme matériau et lieu d\'exposition',
         explanation: 'Les artistes du Land Art travaillent dans et avec la nature.',
-        hints: ['Nature', 'Paysage']
+        hints: ['Nature', 'Paysage', 'La réponse est : La nature comme matériau et lieu d\'exposition']
       },
       {
         id: 'q5',
@@ -23178,7 +23178,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Ses intentions, questionnements et processus de création', 'Uniquement le prix de vente', 'Seulement la technique', 'Le nombre d\'œuvres'],
         correctAnswer: 'Ses intentions, questionnements et processus de création',
         explanation: 'La démarche explique le "pourquoi" et le "comment" de la création.',
-        hints: ['Intentions', 'Processus']
+        hints: ['Intentions', 'Processus', 'La réponse est : Ses intentions, questionnements et processus de création']
       },
       {
         id: 'q6',
@@ -23187,7 +23187,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une œuvre créée spécifiquement pour un lieu', 'Une œuvre transportable partout', 'Un tableau de chevalet', 'Une photo encadrée'],
         correctAnswer: 'Une œuvre créée spécifiquement pour un lieu',
         explanation: 'L\'œuvre in situ dialogue avec l\'espace où elle est installée.',
-        hints: ['Lieu', 'Spécifique']
+        hints: ['Lieu', 'Spécifique', 'La réponse est : Une œuvre créée spécifiquement pour un lieu']
       },
       {
         id: 'q7',
@@ -23196,7 +23196,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Une interaction entre l\'œuvre et le spectateur', 'Une contemplation passive', 'Une distance avec le public', 'L\'achat obligatoire'],
         correctAnswer: 'Une interaction entre l\'œuvre et le spectateur',
         explanation: 'Le spectateur active ou modifie l\'œuvre par sa présence.',
-        hints: ['Interaction', 'Spectateur']
+        hints: ['Interaction', 'Spectateur', 'La réponse est : Une interaction entre l\'œuvre et le spectateur']
       },
       {
         id: 'q8',
@@ -23205,7 +23205,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Un ensemble d\'œuvres liées par un thème ou un processus', 'Une seule œuvre unique', 'Un accident de création', 'Une technique de peinture'],
         correctAnswer: 'Un ensemble d\'œuvres liées par un thème ou un processus',
         explanation: 'La série permet d\'explorer des variations sur un thème.',
-        hints: ['Ensemble', 'Variations']
+        hints: ['Ensemble', 'Variations', 'La réponse est : Un ensemble d\'œuvres liées par un thème ou un processus']
       },
       {
         id: 'q9',
@@ -23214,7 +23214,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['Réutiliser des images ou objets existants', 'Créer ex nihilo', 'Copier sans modifier', 'Vendre des œuvres'],
         correctAnswer: 'Réutiliser des images ou objets existants',
         explanation: 'L\'appropriation transforme et recontextualise l\'existant.',
-        hints: ['Réutiliser', 'Transformer']
+        hints: ['Réutiliser', 'Transformer', 'La réponse est : Réutiliser des images ou objets existants']
       },
       {
         id: 'q10',
@@ -23223,7 +23223,7 @@ export const EXTENDED_EXERCISES: Exercise[] = [
         options: ['La définition même de l\'art et ses frontières', 'Uniquement la technique de peinture', 'Les règles académiques traditionnelles', 'La copie des maîtres'],
         correctAnswer: 'La définition même de l\'art et ses frontières',
         explanation: 'L\'art contemporain repousse les limites et interroge ce qu\'est l\'art.',
-        hints: ['Questionner', 'Définition']
+        hints: ['Questionner', 'Définition', 'La réponse est : La définition même de l\'art et ses frontières']
       }
     ]
   },

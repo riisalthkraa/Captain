@@ -21,6 +21,8 @@ export function DoHomeworkView({ homework, onClose, onSubmit }: DoHomeworkViewPr
   const [answers, setAnswers] = useState<Record<string, string | string[]>>({})
   const [showHint, setShowHint] = useState(false)
   const [hintLevel, setHintLevel] = useState(0)
+  const [usedHint3PerExercise, setUsedHint3PerExercise] = useState<Record<string, boolean>>({}) // Tracker l'indice 3 par exercice
+  const [hintsUsedPerExercise, setHintsUsedPerExercise] = useState<Record<string, number[]>>({}) // Tracker tous les indices utilisés par exercice
   const [loading, setLoading] = useState(true)
   const [submission, setSubmission] = useState<HomeworkSubmission | null>(null)
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false)
@@ -128,15 +130,59 @@ export function DoHomeworkView({ homework, onClose, onSubmit }: DoHomeworkViewPr
 
       if (!answer) return
 
-      // Normaliser les réponses pour comparaison
-      const normalize = (str: string) => str.toLowerCase().trim()
+      // Si l'indice 3 a été utilisé pour cet exercice, pas de point
+      if (usedHint3PerExercise[ex.id]) {
+        console.log('[DoHomeworkView] Indice 3 utilisé pour cet exercice - pas de point')
+        return
+      }
+
+      // Fonction de normalisation avancée
+      const normalizeAdvanced = (str: string): string => {
+        // Convertir en minuscules et supprimer espaces
+        let normalized = str.toLowerCase().trim()
+        // Supprimer les accents
+        normalized = normalized.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        // Supprimer la ponctuation
+        normalized = normalized.replace(/[.,;:!?'"()]/g, '')
+        // Normaliser les espaces multiples
+        normalized = normalized.replace(/\s+/g, ' ')
+        return normalized
+      }
+
+      // Détermine si on doit enlever les pronoms/articles selon la matière du devoir
+      const subjectLower = (homework.subject || currentExercise.subject || '').toLowerCase()
+      const shouldRemoveLeadingWords =
+        subjectLower.includes('français') ||
+        subjectLower.includes('francais') ||
+        subjectLower.includes('conjugaison') ||
+        subjectLower.includes('grammaire')
+
+      // Fonction pour enlever pronoms/articles UNIQUEMENT pour le français
+      const removeLeadingWords = (str: string): string => {
+        if (!shouldRemoveLeadingWords) {
+          return str // Ne rien enlever pour arabe, anglais, histoire, géo, etc.
+        }
+        const frenchLeadingWords = [
+          'je', 'j', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles',
+          'le', 'la', 'les', 'l', 'un', 'une', 'des', 'du', 'de', 'd'
+        ]
+        const words = str.split(' ').filter(w => w.length > 0)
+        if (words.length > 1 && frenchLeadingWords.includes(words[0])) {
+          return words.slice(1).join(' ')
+        }
+        return str
+      }
 
       if (ex.type === 'QCM') {
-        if (normalize(answer as string) === normalize(ex.correctAnswer as string)) {
+        const userNorm = normalizeAdvanced(answer as string)
+        const correctNorm = normalizeAdvanced(ex.correctAnswer as string)
+        if (userNorm === correctNorm || removeLeadingWords(userNorm) === removeLeadingWords(correctNorm)) {
           score += ex.difficulty * 20
         }
       } else if (ex.type === 'TRUE_FALSE') {
-        if (normalize(answer as string) === normalize(ex.correctAnswer as string)) {
+        const userNorm = normalizeAdvanced(answer as string)
+        const correctNorm = normalizeAdvanced(ex.correctAnswer as string)
+        if (userNorm === correctNorm) {
           score += ex.difficulty * 20
         }
       } else if (ex.type === 'FILL_BLANK' || ex.type === 'OPEN') {
@@ -144,9 +190,17 @@ export function DoHomeworkView({ homework, onClose, onSubmit }: DoHomeworkViewPr
           ? ex.correctAnswer
           : [ex.correctAnswer]
 
-        const isCorrect = correctAnswers.some(correct =>
-          normalize(answer as string).includes(normalize(correct))
-        )
+        const userNorm = removeLeadingWords(normalizeAdvanced(answer as string))
+
+        const isCorrect = correctAnswers.some(correct => {
+          const correctNorm = removeLeadingWords(normalizeAdvanced(correct))
+          // Comparaison exacte après normalisation
+          if (userNorm === correctNorm) return true
+          // Comparaison flexible (contient)
+          if (userNorm.includes(correctNorm) && correctNorm.length >= 3) return true
+          if (correctNorm.includes(userNorm) && userNorm.length >= 3) return true
+          return false
+        })
 
         if (isCorrect) {
           score += ex.difficulty * 20
@@ -192,6 +246,7 @@ export function DoHomeworkView({ homework, onClose, onSubmit }: DoHomeworkViewPr
   const currentExercise = exercises[currentIndex]
   const currentAnswer = answers[currentExercise.id]
   const progress = getProgress()
+  const hintsUsed = hintsUsedPerExercise[currentExercise.id] || [] // Récupérer les indices utilisés pour cet exercice
 
   return (
     <div className="fixed inset-0 bg-background z-50 flex flex-col">
@@ -335,41 +390,76 @@ export function DoHomeworkView({ homework, onClose, onSubmit }: DoHomeworkViewPr
                 )}
               </div>
 
-              {/* Indices */}
+              {/* Indices - Système à 3 niveaux */}
               {homework.allowHints && currentExercise.hints && currentExercise.hints.length > 0 && (
-                <div className="mb-6">
-                  {!showHint ? (
-                    <button
-                      onClick={() => {
-                        setShowHint(true)
-                        setHintLevel(0)
-                      }}
-                      className="flex items-center gap-2 px-4 py-3 bg-blue-500/10 hover:bg-blue-500/20 text-blue-400 rounded-lg border border-blue-500/30 transition-colors"
-                    >
-                      <Lightbulb className="w-5 h-5" />
-                      Besoin d'aide ? Voir un indice
-                    </button>
-                  ) : (
-                    <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-4">
-                      <div className="flex items-start gap-3">
-                        <Lightbulb className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="text-sm font-medium text-blue-400 mb-2">
-                            Indice {hintLevel + 1}/{currentExercise.hints.length}
-                          </p>
-                          <p className="text-sm">{currentExercise.hints[hintLevel]}</p>
-                          {hintLevel < currentExercise.hints.length - 1 && (
+                <div className="mb-6 space-y-2">
+                  {currentExercise.hints.map((hint, index) => {
+                    const isHint3 = index === 2 // L'indice 3 donne la réponse
+                    const hintLabel = index === 0 ? '💡 Indice 1 - Comprendre'
+                                    : index === 1 ? '🧠 Indice 2 - Se souvenir'
+                                    : '🎁 Indice 3 - La réponse'
+
+                    return (
+                      <div key={index}>
+                        {hintsUsed.includes(index) ? (
+                          <div className={cn(
+                            'p-3 rounded-lg text-sm flex items-start gap-2',
+                            isHint3
+                              ? 'bg-red-500/10 border border-red-500/30'
+                              : 'bg-yellow-500/10 border border-yellow-500/30'
+                          )}>
+                            <Lightbulb className={cn(
+                              'w-4 h-4 flex-shrink-0 mt-0.5',
+                              isHint3 ? 'text-red-500' : 'text-yellow-500'
+                            )} />
+                            <div>
+                              <span>{hint}</span>
+                              {isHint3 && (
+                                <p className="text-red-400 text-xs mt-2 italic">
+                                  C'est pas grave, tu ne gagneras pas de point cette fois mais tu as appris quelque chose ! La prochaine fois, tu y arriveras sans aide ! 💪
+                                </p>
+                              )}
+                            </div>
+                          </div>
+                        ) : (
+                          <div>
                             <button
-                              onClick={() => setHintLevel(hintLevel + 1)}
-                              className="text-xs text-blue-400 hover:text-blue-300 mt-2 underline"
+                              onClick={() => {
+                                // Ajouter l'indice à la liste des indices utilisés pour cet exercice
+                                setHintsUsedPerExercise({
+                                  ...hintsUsedPerExercise,
+                                  [currentExercise.id]: [...hintsUsed, index]
+                                })
+                                if (isHint3) {
+                                  // Marquer que l'indice 3 a été utilisé pour cet exercice
+                                  setUsedHint3PerExercise({
+                                    ...usedHint3PerExercise,
+                                    [currentExercise.id]: true
+                                  })
+                                }
+                              }}
+                              className={cn(
+                                'flex items-center gap-2 px-4 py-3 rounded-lg border transition-colors',
+                                isHint3
+                                  ? 'bg-red-500/10 hover:bg-red-500/20 text-red-400 border-red-500/30'
+                                  : 'bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-400 border-yellow-500/30'
+                              )}
                             >
-                              Voir l'indice suivant →
+                              <Lightbulb className="w-5 h-5" />
+                              {hintLabel}
+                              {isHint3 && <span className="ml-2 text-xs">(0 point)</span>}
                             </button>
-                          )}
-                        </div>
+                            {isHint3 && !hintsUsed.includes(index) && (
+                              <p className="text-red-400 text-xs mt-2 ml-1 max-w-md">
+                                ⚠️ Attention ! Si tu utilises cet indice, tu ne gagneras pas de point pour cette question...
+                                Prends ton temps, relis les choix, pose-toi les bonnes questions. Tu vas y arriver ! 🌟
+                              </p>
+                            )}
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  )}
+                    )
+                  })}
                 </div>
               )}
             </motion.div>

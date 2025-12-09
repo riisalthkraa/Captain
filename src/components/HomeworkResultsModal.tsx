@@ -38,14 +38,49 @@ export function HomeworkResultsModal({ homework, submission, onClose }: Homework
   function checkAnswer(exercise: Exercise, answer: string | string[] | undefined): boolean {
     if (!answer) return false
 
-    const normalize = (str: string) => str.toLowerCase().trim()
+    // Fonction de normalisation avancée
+    const normalizeAdvanced = (str: string): string => {
+      let normalized = str.toLowerCase().trim()
+      normalized = normalized.normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Supprime accents
+      normalized = normalized.replace(/[.,;:!?'"()]/g, '') // Supprime ponctuation
+      normalized = normalized.replace(/\s+/g, ' ') // Normalise espaces
+      return normalized
+    }
+
+    // Détermine si on doit enlever les pronoms/articles selon la matière du devoir
+    const subjectLower = (homework.subject || exercise.subject || '').toLowerCase()
+    const shouldRemoveLeadingWords =
+      subjectLower.includes('français') ||
+      subjectLower.includes('francais') ||
+      subjectLower.includes('conjugaison') ||
+      subjectLower.includes('grammaire')
+
+    // Fonction pour enlever pronoms/articles UNIQUEMENT pour le français
+    const removeLeadingWords = (str: string): string => {
+      if (!shouldRemoveLeadingWords) {
+        return str // Ne rien enlever pour arabe, anglais, histoire, géo, etc.
+      }
+      const frenchLeadingWords = [
+        'je', 'j', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles',
+        'le', 'la', 'les', 'l', 'un', 'une', 'des', 'du', 'de', 'd'
+      ]
+      const words = str.split(' ').filter(w => w.length > 0)
+      if (words.length > 1 && frenchLeadingWords.includes(words[0])) {
+        return words.slice(1).join(' ')
+      }
+      return str
+    }
 
     if (exercise.type === 'QCM') {
-      return normalize(answer as string) === normalize(exercise.correctAnswer as string)
+      const userNorm = normalizeAdvanced(answer as string)
+      const correctNorm = normalizeAdvanced(exercise.correctAnswer as string)
+      return userNorm === correctNorm || removeLeadingWords(userNorm) === removeLeadingWords(correctNorm)
     }
 
     if (exercise.type === 'TRUE_FALSE') {
-      return normalize(answer as string) === normalize(exercise.correctAnswer as string)
+      const userNorm = normalizeAdvanced(answer as string)
+      const correctNorm = normalizeAdvanced(exercise.correctAnswer as string)
+      return userNorm === correctNorm
     }
 
     if (exercise.type === 'FILL_BLANK' || exercise.type === 'OPEN') {
@@ -53,9 +88,17 @@ export function HomeworkResultsModal({ homework, submission, onClose }: Homework
         ? exercise.correctAnswer
         : [exercise.correctAnswer]
 
-      return correctAnswers.some(correct =>
-        normalize(answer as string).includes(normalize(correct))
-      )
+      const userNorm = removeLeadingWords(normalizeAdvanced(answer as string))
+
+      return correctAnswers.some(correct => {
+        const correctNorm = removeLeadingWords(normalizeAdvanced(correct))
+        // Comparaison exacte
+        if (userNorm === correctNorm) return true
+        // Comparaison flexible
+        if (userNorm.includes(correctNorm) && correctNorm.length >= 3) return true
+        if (correctNorm.includes(userNorm) && userNorm.length >= 3) return true
+        return false
+      })
     }
 
     return false
