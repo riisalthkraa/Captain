@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez toutes les fonctionnalités de Cap'taine : système adaptatif, détection des difficultés, répétition espacée, et plus encore.">
+    <title>Fonctionnalités - Cap'taine</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⛵%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⛵</span>
+                <span class="logo-text">Cap'taine</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="fonctionnalites.html" class="active">Comment ça marche</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="app/" class="btn-nav" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🎮 Jouer en ligne</a></li>
+                <li><a href="index.html#telecharger" class="btn-nav">Télécharger</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Fonctionnalités</h1>
+            <p>Tout ce que Cap'taine peut faire pour votre enfant — expliqué honnêtement et techniquement.</p>
+        </div>
+    </header>
+
+    <!-- Système Adaptatif -->
+    <section class="section feature-detail">
+        <div class="container">
+            <div class="feature-detail-header">
+                <span class="feature-badge">Coeur du système</span>
+                <h2>Système Adaptatif Intelligent</h2>
+                <p>Comment Cap'taine ajuste la difficulté en temps réel</p>
+            </div>
+            <div class="feature-detail-content">
+                <div class="feature-explanation">
+                    <h3>Comment ça fonctionne techniquement</h3>
+                    <p>Notre système adaptatif repose sur <strong>trois piliers complémentaires</strong> qui travaillent ensemble :</p>
+
+                    <div class="tech-block">
+                        <h4>1. Métriques de session en temps réel</h4>
+                        <p>À chaque réponse, le système enregistre :</p>
+                        <ul>
+                            <li><strong>Temps de réponse</strong> — Une réponse rapide et correcte = maîtrise. Lente mais correcte = hésitation.</li>
+                            <li><strong>Taux de réussite glissant</strong> — Sur les 10 dernières questions, pas sur tout l'historique.</li>
+                            <li><strong>Séries consécutives</strong> — 5 bonnes réponses d'affilée ? On augmente. 3 erreurs ? On baisse.</li>
+                            <li><strong>Utilisation des indices</strong> — Beaucoup d'indices utilisés = la notion n'est pas acquise.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>2. Algorithme d'ajustement</h4>
+                        <p>La difficulté (1 à 5) s'ajuste selon ces règles :</p>
+                        <div class="code-block">
+                            <code>
+Si taux_réussite > 85% ET série_correcte >= 5 → Difficulté +1<br>
+Si taux_réussite < 40% ET questions >= 5 → Difficulté -1<br>
+Si état_émotionnel = "frustré" → Difficulté -1<br>
+Si état_émotionnel = "ennuyé" → Difficulté +1
+                            </code>
+                        </div>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>3. Pondération temporelle</h4>
+                        <p>Les performances récentes comptent plus que les anciennes. Un élève qui a eu du mal il y a 3 semaines mais qui réussit maintenant sera considéré comme progressant.</p>
+                        <p class="tech-note">Formule : poids = 1.5^(index) où index 0 = réponse la plus ancienne</p>
+                    </div>
+                </div>
+                <div class="feature-visual">
+                    <div class="difficulty-meter">
+                        <div class="meter-label">Niveau de difficulté actuel</div>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 60%;"></div>
+                            <div class="meter-markers">
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span>5</span>
+                            </div>
+                        </div>
+                        <div class="meter-description">
+                            <p><strong>Niveau 3/5</strong> — Exercices standards CE2</p>
+                            <p class="small">Ajustement automatique basé sur 47 réponses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Détection émotionnelle -->
+    <section class="section feature-detail alt-bg">
+        <div class="container">
+            <div class="feature-detail-header">
+                <span class="feature-badge">Bienveillance</span>
+                <h2>Détection Émotionnelle</h2>
+                <p>Cap'taine détecte quand l'enfant a besoin d'encouragement ou d'une pause</p>
+            </div>
+            <div class="feature-detail-content reverse">
+                <div class="feature-explanation">
+                    <h3>Analyse par mots-clés et métriques</h3>
+                    <p>Le système détecte 7 états émotionnels différents :</p>
+
+                    <div class="emotion-grid">
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">😊</span>
+                            <strong>Engagé</strong>
+                            <p>Tout va bien, l'enfant est concentré</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">💪</span>
+                            <strong>Confiant</strong>
+                            <p>Série de réussites, on peut challenger</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">😕</span>
+                            <strong>En difficulté</strong>
+                            <p>Persévère mais a besoin d'aide</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">😤</span>
+                            <strong>Frustré</strong>
+                            <p>Erreurs répétées, encouragement nécessaire</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">😴</span>
+                            <strong>Fatigué</strong>
+                            <p>Temps de réponse qui augmente</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">😑</span>
+                            <strong>S'ennuie</strong>
+                            <p>Exercices trop faciles</p>
+                        </div>
+                        <div class="emotion-item">
+                            <span class="emotion-emoji">🤔</span>
+                            <strong>Distrait</strong>
+                            <p>Erreurs d'inattention</p>
+                        </div>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>Détection par texte</h4>
+                        <p>Si l'enfant écrit certaines phrases, le système réagit :</p>
+                        <ul>
+                            <li>"j'y arrive pas", "c'est trop dur", "j'abandonne" → <strong>Frustration détectée</strong></li>
+                            <li>"je suis fatigué", "pause", "j'arrête" → <strong>Fatigue détectée</strong></li>
+                            <li>"c'est facile", "trop facile", "je m'ennuie" → <strong>Ennui détecté</strong></li>
+                        </ul>
+                        <p class="tech-note">40+ expressions analysées en français, avec gestion des fautes et des accents.</p>
+                    </div>
+                </div>
+                <div class="feature-visual">
+                    <div class="emotion-demo">
+                        <div class="demo-message">
+                            <p class="user-msg">"J'y arrive pas, c'est trop dur..."</p>
+                        </div>
+                        <div class="demo-detection">
+                            <span class="detection-label">État détecté :</span>
+                            <span class="detection-value">😤 Frustré</span>
+                        </div>
+                        <div class="demo-response">
+                            <p class="bot-msg">"Pas de panique ! Essayons quelque chose de plus accessible. Tu vas y arriver, je crois en toi !"</p>
+                            <p class="action-msg">→ Difficulté baissée de 3 à 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Détection des erreurs -->
+    <section class="section feature-detail">
+        <div class="container">
+            <div class="feature-detail-header">
+                <span class="feature-badge">Diagnostic</span>
+                <h2>Détection des Patterns d'Erreurs</h2>
+                <p>Identifier les difficultés récurrentes pour mieux y remédier</p>
+            </div>
+            <div class="feature-detail-content">
+                <div class="feature-explanation">
+                    <h3>40+ règles de détection</h3>
+                    <p>Le système analyse chaque erreur pour identifier des <strong>patterns récurrents</strong> :</p>
+
+                    <div class="pattern-categories">
+                        <div class="pattern-category">
+                            <h4>📖 Français</h4>
+                            <ul>
+                                <li>Confusion a/à (verbe avoir vs préposition)</li>
+                                <li>Confusion et/est (conjonction vs verbe être)</li>
+                                <li>Confusion ces/ses, c'est/s'est</li>
+                                <li>Confusion leur/leurs (accord du pluriel)</li>
+                                <li>Accords sujet-verbe</li>
+                                <li>Terminaisons des verbes</li>
+                            </ul>
+                        </div>
+                        <div class="pattern-category">
+                            <h4>🔢 Maths</h4>
+                            <ul>
+                                <li>Retenues oubliées (additions/soustractions)</li>
+                                <li>Confusion ×/+ (multiplication vs addition)</li>
+                                <li>Tables de 7, 8, 9 (les plus difficiles)</li>
+                                <li>Inversion dans les soustractions</li>
+                                <li>Erreurs de placement décimal</li>
+                            </ul>
+                        </div>
+                        <div class="pattern-category">
+                            <h4>⚠️ Attention</h4>
+                            <ul>
+                                <li>Fautes de frappe (1 caractère différent)</li>
+                                <li>Réponses trop rapides et fausses</li>
+                                <li>Lectures incomplètes de l'énoncé</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>Score de confiance</h4>
+                        <p>Chaque pattern détecté a un <strong>score de confiance</strong> qui augmente avec les occurrences :</p>
+                        <ul>
+                            <li>1ère occurrence → Confiance 30%</li>
+                            <li>Chaque répétition → +10%</li>
+                            <li>Pattern confirmé → Recommandations personnalisées</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-visual">
+                    <div class="pattern-example">
+                        <h4>Exemple de détection</h4>
+                        <div class="pattern-card detected">
+                            <div class="pattern-header">
+                                <span class="pattern-type">Confusion</span>
+                                <span class="pattern-confidence">Confiance: 80%</span>
+                            </div>
+                            <p class="pattern-desc">Confond 'a' (verbe avoir) et 'à' (préposition)</p>
+                            <p class="pattern-stats">Détecté 5 fois</p>
+                            <div class="pattern-example-item">
+                                <p><strong>Question :</strong> "Il ___ mangé une pomme"</p>
+                                <p><strong>Réponse :</strong> "à" ❌</p>
+                                <p><strong>Attendu :</strong> "a" ✓</p>
+                            </div>
+                            <div class="pattern-reco">
+                                <p><strong>Recommandation :</strong></p>
+                                <p>Astuce : remplace par "avait". Si ça marche, c'est "a" (verbe avoir)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Répétition espacée -->
+    <section class="section feature-detail alt-bg">
+        <div class="container">
+            <div class="feature-detail-header">
+                <span class="feature-badge">Mémorisation</span>
+                <h2>Répétition Espacée (SM-2)</h2>
+                <p>L'algorithme scientifiquement prouvé pour ancrer les connaissances</p>
+            </div>
+            <div class="feature-detail-content reverse">
+                <div class="feature-explanation">
+                    <h3>Algorithme SuperMemo 2</h3>
+                    <p>Cap'taine utilise l'algorithme <strong>SM-2</strong>, développé par Piotr Wozniak et utilisé par des millions de personnes (Anki, SuperMemo, etc.).</p>
+
+                    <div class="tech-block">
+                        <h4>Principe</h4>
+                        <p>Réviser une notion <strong>juste avant de l'oublier</strong> renforce la mémoire. L'intervalle augmente à chaque révision réussie :</p>
+                        <ul>
+                            <li>1ère révision réussie → Revoir dans 1 jour</li>
+                            <li>2ème révision réussie → Revoir dans 3 jours</li>
+                            <li>3ème révision réussie → Revoir dans 7 jours</li>
+                            <li>Et ainsi de suite... jusqu'à 1 an entre les révisions</li>
+                        </ul>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>Facteur de facilité</h4>
+                        <p>Chaque compétence a un <strong>facteur de facilité</strong> (EF) qui s'ajuste :</p>
+                        <ul>
+                            <li><strong>EF > 2.5</strong> — Compétence maîtrisée, intervalles longs</li>
+                            <li><strong>EF ~ 2.0</strong> — Normal</li>
+                            <li><strong>EF < 1.8</strong> — Difficulté, révisions plus fréquentes</li>
+                        </ul>
+                        <p class="tech-note">Minimum EF = 1.3 pour éviter des révisions trop rapprochées</p>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>Qualité de réponse (0-5)</h4>
+                        <p>L'algorithme ne se base pas que sur "juste/faux" mais sur la <strong>qualité</strong> :</p>
+                        <ul>
+                            <li><strong>5</strong> — Parfait et rapide</li>
+                            <li><strong>4</strong> — Correct après hésitation</li>
+                            <li><strong>3</strong> — Correct avec difficulté ou indices</li>
+                            <li><strong>2</strong> — Incorrect mais proche</li>
+                            <li><strong>1</strong> — Incorrect après réflexion</li>
+                            <li><strong>0</strong> — Échec total</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-visual">
+                    <div class="srs-demo">
+                        <h4>Exemple de planification</h4>
+                        <div class="srs-timeline">
+                            <div class="srs-item done">
+                                <span class="srs-date">Lun 15</span>
+                                <span class="srs-skill">Tables de 7</span>
+                                <span class="srs-result">✓ Qualité 4</span>
+                            </div>
+                            <div class="srs-item done">
+                                <span class="srs-date">Jeu 18</span>
+                                <span class="srs-skill">Tables de 7</span>
+                                <span class="srs-result">✓ Qualité 5</span>
+                            </div>
+                            <div class="srs-item current">
+                                <span class="srs-date">Lun 29</span>
+                                <span class="srs-skill">Tables de 7</span>
+                                <span class="srs-result">À réviser</span>
+                            </div>
+                            <div class="srs-item future">
+                                <span class="srs-date">~15 Fév</span>
+                                <span class="srs-skill">Tables de 7</span>
+                                <span class="srs-result">Prochaine</span>
+                            </div>
+                        </div>
+                        <p class="srs-note">Intervalle actuel : 11 jours (EF = 2.6)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-providers IA -->
+    <section class="section feature-detail">
+        <div class="container">
+            <div class="feature-detail-header">
+                <span class="feature-badge">Flexibilité</span>
+                <h2>Multi-Providers IA</h2>
+                <p>Vous choisissez l'IA qui vous convient — ou aucune</p>
+            </div>
+            <div class="feature-detail-content">
+                <div class="feature-explanation">
+                    <h3>4 options disponibles</h3>
+
+                    <div class="provider-grid">
+                        <div class="provider-card recommended">
+                            <div class="provider-badge">Recommandé</div>
+                            <div class="provider-logo">🦙</div>
+                            <h4>Ollama</h4>
+                            <p class="provider-price">Gratuit</p>
+                            <ul>
+                                <li>✓ 100% local, rien ne sort du PC</li>
+                                <li>✓ Pas de compte, pas de clé API</li>
+                                <li>✓ Modèles : Llama 3, Mistral, etc.</li>
+                                <li>⚠️ Nécessite ~8 Go RAM</li>
+                            </ul>
+                        </div>
+                        <div class="provider-card">
+                            <div class="provider-logo">🤖</div>
+                            <h4>OpenAI</h4>
+                            <p class="provider-price">Votre clé API</p>
+                            <ul>
+                                <li>✓ GPT-4, GPT-3.5</li>
+                                <li>✓ Très performant</li>
+                                <li>⚠️ Données envoyées aux USA</li>
+                                <li>⚠️ Coût par utilisation</li>
+                            </ul>
+                        </div>
+                        <div class="provider-card">
+                            <div class="provider-logo">🧠</div>
+                            <h4>Claude (Anthropic)</h4>
+                            <p class="provider-price">Votre clé API</p>
+                            <ul>
+                                <li>✓ Excellent en pédagogie</li>
+                                <li>✓ Réponses nuancées</li>
+                                <li>⚠️ Données envoyées</li>
+                                <li>⚠️ Coût par utilisation</li>
+                            </ul>
+                        </div>
+                        <div class="provider-card">
+                            <div class="provider-logo">💎</div>
+                            <h4>Gemini (Google)</h4>
+                            <p class="provider-price">Votre clé API</p>
+                            <ul>
+                                <li>✓ Tier gratuit généreux</li>
+                                <li>✓ Multimodal</li>
+                                <li>⚠️ Données envoyées</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tech-block">
+                        <h4>Mode hors-ligne (sans IA)</h4>
+                        <p>Cap'taine fonctionne aussi <strong>sans aucune IA</strong> :</p>
+                        <ul>
+                            <li>Banque de +2000 exercices pré-générés</li>
+                            <li>Système adaptatif toujours actif</li>
+                            <li>Détection des patterns toujours active</li>
+                            <li>Pas de génération d'exercices personnalisés</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Autres fonctionnalités -->
+    <section class="section other-features">
+        <div class="container">
+            <h2>Autres fonctionnalités</h2>
+            <div class="other-features-grid">
+                <div class="other-feature">
+                    <span class="other-icon">📄</span>
+                    <h3>Import de documents</h3>
+                    <p>Importez des PDF, photos de manuels ou devoirs. L'OCR extrait le texte pour générer des exercices similaires.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">🎮</span>
+                    <h3>Mini-jeux éducatifs</h3>
+                    <p>Calcul mental chronométré, conjugaison rapide, quiz de vocabulaire. Apprendre en s'amusant.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">📊</span>
+                    <h3>Tableaux de bord</h3>
+                    <p>Visualisez la progression par matière, les compétences maîtrisées et celles à travailler.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">👨‍👩‍👧‍👦</span>
+                    <h3>Multi-profils</h3>
+                    <p>Chaque enfant a son profil avec sa progression. Mode invité pour tester sans compte.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">🔊</span>
+                    <h3>Synthèse vocale</h3>
+                    <p>Cap'taine peut lire les questions à voix haute. Idéal pour les plus jeunes ou les dyslexiques.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">🌙</span>
+                    <h3>Thème sombre</h3>
+                    <p>Interface adaptable, moins fatigante pour les yeux le soir.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">🏆</span>
+                    <h3>Gamification</h3>
+                    <p>Points d'expérience, niveaux, badges, séries de jours consécutifs. La motivation par le jeu.</p>
+                </div>
+                <div class="other-feature">
+                    <span class="other-icon">⏱️</span>
+                    <h3>Pomodoro intégré</h3>
+                    <p>Suggestions de pause après 25 minutes de travail. Respecte les capacités d'attention des enfants.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Prêt à essayer ?</h2>
+            <p>Téléchargez Cap'taine gratuitement et découvrez toutes ces fonctionnalités.</p>
+            <a href="index.html#telecharger" class="btn btn-primary btn-large">Télécharger Cap'taine</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave-footer"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>⛵</span>
+                        <span>Cap'taine</span>
+                    </div>
+                    <p>L'assistant éducatif qui navigue avec ton enfant.</p>
+                    <p class="version">Version 1.0.0</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Accueil</a>
+                        <a href="fonctionnalites.html">Comment ça marche</a>
+                        <a href="tarifs.html">Tarifs</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ressources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="https://ollama.ai" target="_blank">Installer Ollama</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Légal</h4>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="cgv.html">CGV / CGU</a>
+                        <a href="confidentialite.html">Confidentialité</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    © 2025 Cap'taine — Développé avec ❤️ par <strong>VIEY David</strong> à Castillon-la-Bataille<br>
+                    <a href="https://rk-developpement.fr" target="_blank" rel="noopener noreferrer">rk-developpement.fr</a> •
+                    <a href="mailto:riisalthkraal@gmail.com">riisalthkraal@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

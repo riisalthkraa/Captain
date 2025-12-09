@@ -1,13 +1,525 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/captain-icon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cap'taine - Ton professeur IA</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cap'taine - L'assistant éducatif qui navigue avec ton enfant. Du CP à la 3ème, 100% gratuit, 100% local.">
+    <meta name="keywords" content="éducation, primaire, apprentissage, IA, exercices, maths, français, enfants">
+    <meta name="author" content="VIEY David">
+    <title>Cap'taine - Ton compagnon d'apprentissage</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⛵%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⛵</span>
+                <span class="logo-text">Cap'taine</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="fonctionnalites.html">Comment ça marche</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="app/" class="btn-nav" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🎮 Jouer en ligne</a></li>
+                <li><a href="#telecharger" class="btn-nav">Télécharger</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        <div class="sailing-boat">
+            ⛵
+            <div class="boat-bubble">Ahoy moussaillon!</div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-mascot">
+                    <span class="mascot-boat">⛵</span>
+                    <div class="mascot-sparkles">
+                        <span>✨</span>
+                        <span>⭐</span>
+                        <span>✨</span>
+                    </div>
+                </div>
+                <h1>Embarque pour l'aventure de l'apprentissage !</h1>
+                <p class="hero-subtitle">
+                    Cap'taine accompagne les enfants du <strong>CP à la 3ème</strong> dans toutes les matières.
+                    Il s'adapte au rythme de chacun, détecte les difficultés, et rend l'école plus fun.
+                </p>
+                <div class="hero-badges">
+                    <span class="badge badge-green">100% Gratuit</span>
+                    <span class="badge badge-blue">100% Local</span>
+                    <span class="badge badge-purple">Zéro tracking</span>
+                    <span class="badge badge-orange">🚧 En développement actif</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="app/" class="btn btn-primary btn-large" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                        <span class="btn-icon">🎮</span>
+                        Jouer en ligne
+                    </a>
+                    <a href="#telecharger" class="btn btn-primary btn-large">
+                        <span class="btn-icon">⬇️</span>
+                        Télécharger Cap'taine
+                    </a>
+                    <a href="fonctionnalites.html" class="btn btn-ghost">Voir comment ça marche</a>
+                </div>
+            </div>
+            <div class="hero-preview">
+                <div class="app-window">
+                    <div class="window-bar">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-content">
+                        <div class="chat-demo">
+                            <div class="msg msg-bot">
+                                <span class="msg-avatar">⛵</span>
+                                <div class="msg-bubble">
+                                    Salut moussaillon ! Prêt pour une aventure en maths ? 🏴‍☠️
+                                </div>
+                            </div>
+                            <div class="msg msg-user">
+                                <div class="msg-bubble">Oui ! Mais les divisions c'est dur...</div>
+                            </div>
+                            <div class="msg msg-bot">
+                                <span class="msg-avatar">⛵</span>
+                                <div class="msg-bubble">
+                                    Pas de panique ! On va y aller tranquille.
+                                    Je vais baisser la difficulté et t'expliquer avec des exemples cool 💪
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bannière développement actif -->
+    <div class="dev-notice">
+        <div class="container">
+            <div class="dev-notice-content">
+                <div class="dev-notice-icon">⚠️</div>
+                <div class="dev-notice-text">
+                    <h4>🚧 Projet en développement actif</h4>
+                    <p>
+                        Cap'taine est constamment amélioré avec de nouvelles fonctionnalités, exercices et corrections.
+                        Certains exercices ou fonctionnalités peuvent ne pas fonctionner parfaitement.
+                        <strong>Vous rencontrez un bug ou une erreur ?</strong>
+                        Merci de nous le signaler par email à <a href="mailto:riisalthkraal@gmail.com">riisalthkraal@gmail.com</a>
+                        pour une correction rapide ! 🙏
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Points clés -->
+    <section class="section highlights">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">🎯</div>
+                    <h3>S'adapte vraiment</h3>
+                    <p>Trop facile ? On augmente. Trop dur ? On simplifie. Cap'taine ajuste la difficulté en temps réel.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">🔒</div>
+                    <h3>Vie privée totale</h3>
+                    <p>Toutes les données restent sur votre PC. Pas de compte obligatoire, pas de serveur, pas de tracking.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">🧠</div>
+                    <h3>IA au choix</h3>
+                    <p>Utilisez Ollama (100% local et gratuit) ou vos propres clés API. Ou pas d'IA du tout, ça marche aussi.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">😊</div>
+                    <h3>Détecte les émotions</h3>
+                    <p>Si l'enfant écrit "j'en ai marre", Cap'taine le détecte et adapte son approche avec bienveillance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comment ça marche vraiment -->
+    <section class="section how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">La vérité, rien que la vérité</span>
+                <h2>Comment Cap'taine fonctionne vraiment</h2>
+                <p>Pas de bullshit marketing. Voici exactement ce qui se passe sous le capot.</p>
+            </div>
+
+            <div class="truth-grid">
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">📊</span>
+                        <h3>Système adaptatif</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Ce que c'est :</strong> Des algorithmes éprouvés (pas du "machine learning" magique)</p>
+                        <ul>
+                            <li>Algorithme <strong>SM-2</strong> pour la répétition espacée (le même qu'Anki)</li>
+                            <li>40+ règles de détection de patterns d'erreurs</li>
+                            <li>Analyse du temps de réponse et du taux de réussite</li>
+                        </ul>
+                        <p class="truth-note">Ces méthodes sont scientifiquement validées et parfaitement adaptées à l'apprentissage scolaire.</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🤖</span>
+                        <h3>Intelligence Artificielle</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>4 options :</strong></p>
+                        <ul>
+                            <li><strong>Ollama</strong> — IA locale, gratuite, rien ne sort de votre PC ✅</li>
+                            <li><strong>OpenAI/Claude/Gemini</strong> — Si vous avez une clé API</li>
+                            <li><strong>Sans IA</strong> — La banque d'exercices intégrée suffit</li>
+                        </ul>
+                        <p class="truth-note">L'IA sert à générer des exercices et des explications personnalisées. Le système adaptatif fonctionne même sans.</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">💾</span>
+                        <h3>Vos données</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Où elles vont :</strong> Nulle part. Elles restent chez vous.</p>
+                        <ul>
+                            <li>Stockage local dans le dossier de l'app</li>
+                            <li>Nous n'avons <strong>aucun serveur</strong></li>
+                            <li>Pas de télémétrie, pas d'analytics</li>
+                            <li>Mode invité = aucune trace</li>
+                        </ul>
+                        <p class="truth-note">Exception : si vous utilisez une IA cloud (OpenAI etc.), les messages vont à leur API. Utilisez Ollama pour rester 100% local.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard & Gamification -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Motivation & Suivi</span>
+                <h2>Un dashboard qui track tout (vraiment)</h2>
+                <p>Chaque exercice, chaque badge, chaque jour. Sauvegardé localement sur ton PC.</p>
+            </div>
+
+            <div class="truth-grid">
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🏆</span>
+                        <h3>55 Badges à débloquer</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Exemples de badges :</strong></p>
+                        <ul>
+                            <li>🌟 <strong>Premier pas</strong> : Termine ton premier exercice</li>
+                            <li>🏆 <strong>Champion</strong> : Atteins le niveau 10</li>
+                            <li>🔥 <strong>Série de 7</strong> : 7 bonnes réponses d'affilée</li>
+                            <li>🧮 <strong>As des maths</strong> : 100% à 5 exercices de maths</li>
+                            <li>🎮 <strong>Boss final battu</strong> : Bats Cap'taine en mode VS</li>
+                            <li>🌙 <strong>Couche-tard</strong> : Travaille après 22h</li>
+                        </ul>
+                        <p class="truth-note">Chaque badge débloqué reste acquis. L'enfant peut choisir 3 badges favoris à afficher sur son profil.</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🌳</span>
+                        <h3>Arbre de progression</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Évolution visuelle :</strong></p>
+                        <ul>
+                            <li>🌱 Niveau 1-4 : Graine qui pousse</li>
+                            <li>🌿 Niveau 5-9 : Jeune plante</li>
+                            <li>🌳 Niveau 10-14 : Arbre</li>
+                            <li>🌲 Niveau 15-19 : Grand arbre</li>
+                            <li>🌴 Niveau 20+ : Arbre majestueux</li>
+                        </ul>
+                        <p class="truth-note">Chaque exercice donne de l'XP. 100 XP = 1 niveau. Pas de limite de niveau.</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🎮</span>
+                        <h3>13+ Mini-jeux</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Pour tous les niveaux :</strong></p>
+                        <ul>
+                            <li>🏎️ <strong>Course de Calcul</strong> : Résous vite</li>
+                            <li>🍕 <strong>Pizza des Fractions</strong> : Apprends les fractions</li>
+                            <li>⚔️ <strong>Bataille des Tables</strong> : Duel contre Cap'taine</li>
+                            <li>🔍 <strong>Explorateur de Mots</strong> : Mots cachés</li>
+                            <li>🃏 <strong>Memory des Calculs</strong> : Associe calculs/résultats</li>
+                            <li>🕐 <strong>L'Horloge Magique</strong> : Apprends l'heure</li>
+                        </ul>
+                        <p class="truth-note">Chaque jeu track le meilleur score, meilleur temps et historique complet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="truth-grid" style="margin-top: 2rem;">
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🎯</span>
+                        <h3>Analyse ML des compétences</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Le système détecte automatiquement :</strong></p>
+                        <ul>
+                            <li>✅ <strong>Forces</strong> : Compétences > 75% de réussite</li>
+                            <li>⚠️ <strong>Faiblesses</strong> : Compétences < 50% de réussite</li>
+                            <li>📊 <strong>En cours</strong> : Compétences entre 50-75%</li>
+                            <li>🔍 <strong>Patterns d'erreurs</strong> : Top 5 types récurrents</li>
+                        </ul>
+                        <p class="truth-note">Recommandations priorisées : Cap'taine propose les notions à travailler en priorité.</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">🔥</span>
+                        <h3>Stats & Streak</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Trackés en temps réel :</strong></p>
+                        <ul>
+                            <li>📈 Exercices terminés (total)</li>
+                            <li>⭐ Bonnes réponses (total)</li>
+                            <li>🔥 Streak : Jours consécutifs de travail</li>
+                            <li>📊 Taux de réussite par matière</li>
+                            <li>⏱️ Temps moyen par exercice</li>
+                        </ul>
+                        <p class="truth-note">Badge spécial "Marathonien" pour 30 jours d'affilée !</p>
+                    </div>
+                </div>
+
+                <div class="truth-card">
+                    <div class="truth-header">
+                        <span class="truth-icon">💾</span>
+                        <h3>Sauvegarde locale</h3>
+                    </div>
+                    <div class="truth-content">
+                        <p><strong>Tout est stocké sur ton PC :</strong></p>
+                        <ul>
+                            <li>Badges débloqués</li>
+                            <li>XP et niveau de l'arbre</li>
+                            <li>Historique des exercices</li>
+                            <li>Stats des mini-jeux</li>
+                            <li>Profils invités</li>
+                        </ul>
+                        <p class="truth-note">Même si tu fermes l'app et redémarres ton PC, tout est là. Comme une console avec carte mémoire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section class="section features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tout ce qui est inclus (gratuitement)</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">📚</span>
+                    <h4>2000+ exercices</h4>
+                    <p>CP à 3ème, toutes matières</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🎮</span>
+                    <h4>13+ Mini-jeux</h4>
+                    <p>Maths, français, sciences, logique</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🏆</span>
+                    <h4>55 Badges</h4>
+                    <p>Récompenses à débloquer</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🌳</span>
+                    <h4>Arbre de progression</h4>
+                    <p>XP, niveaux, évolution visuelle</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🎯</span>
+                    <h4>Analyse ML</h4>
+                    <p>Forces, faiblesses, priorités</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔥</span>
+                    <h4>Streak tracking</h4>
+                    <p>Travaille X jours d'affilée</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">👨‍👩‍👧‍👦</span>
+                    <h4>Multi-profils</h4>
+                    <p>Un profil par enfant</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔄</span>
+                    <h4>Répétition espacée</h4>
+                    <p>Algorithme SM-2 (Anki)</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📄</span>
+                    <h4>Import de docs</h4>
+                    <p>PDF, photos de devoirs</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🌙</span>
+                    <h4>Mode hors-ligne</h4>
+                    <p>Fonctionne sans internet</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🔊</span>
+                    <h4>Synthèse vocale</h4>
+                    <p>Lit les questions à voix haute</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">💾</span>
+                    <h4>Sauvegarde locale</h4>
+                    <p>Toute ta progression sur ton PC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Téléchargement -->
+    <section class="section download" id="telecharger">
+        <div class="container">
+            <div class="section-header">
+                <h2>Télécharger Cap'taine</h2>
+                <p>Gratuit, sans inscription, prêt à l'emploi en 2 minutes</p>
+            </div>
+            <div class="download-grid">
+                <a href="https://github.com/riisalthkraa/Captain-DEV/releases/download/v1.8.0/Captaine-Setup-1.8.0.exe" class="download-card">
+                    <span class="os-icon">🪟</span>
+                    <h3>Windows</h3>
+                    <span class="os-version">Windows 10/11</span>
+                    <span class="download-btn">Télécharger .exe</span>
+                </a>
+                <a href="https://github.com/riisalthkraa/Captain-DEV/releases/tag/v1.8.0" class="download-card">
+                    <span class="os-icon">🍎</span>
+                    <h3>macOS</h3>
+                    <span class="os-version">macOS 10.15+</span>
+                    <span class="download-btn">Bientôt disponible</span>
+                </a>
+                <a href="https://github.com/riisalthkraa/Captain-DEV/releases/tag/v1.8.0" class="download-card">
+                    <span class="os-icon">🐧</span>
+                    <h3>Linux</h3>
+                    <span class="os-version">Ubuntu, Debian, Fedora</span>
+                    <span class="download-btn">Bientôt disponible</span>
+                </a>
+            </div>
+            <div class="download-tip">
+                <span class="tip-icon">💡</span>
+                <p><strong>Conseil :</strong> Pour une expérience optimale avec l'IA locale, installez aussi <a href="https://ollama.ai" target="_blank">Ollama</a> (gratuit). Cap'taine vous guidera au premier lancement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Version Enseignement -->
+    <section class="section education">
+        <div class="container">
+            <div class="education-card">
+                <span class="education-badge">Prévu Q3 2026</span>
+                <h2>Version Enseignement</h2>
+                <p>Une version pour les profs avec gestion de classes, devoirs, et suivi détaillé par élève.</p>
+                <div class="education-features">
+                    <span>👩‍🏫 Gestion de classes</span>
+                    <span>📋 Création de devoirs</span>
+                    <span>📊 Heatmap des difficultés</span>
+                    <span>☁️ Version web synchronisée</span>
+                </div>
+                <p class="education-note">Cette version sera payante. La version famille reste gratuite pour toujours.</p>
+                <a href="tarifs.html" class="btn btn-outline">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave-footer"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>⛵</span>
+                        <span>Cap'taine</span>
+                    </div>
+                    <p>L'assistant éducatif qui navigue avec ton enfant.</p>
+                    <p class="version">Version 1.8.0</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Accueil</a>
+                        <a href="fonctionnalites.html">Comment ça marche</a>
+                        <a href="tarifs.html">Tarifs</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ressources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="https://ollama.ai" target="_blank">Installer Ollama</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Légal</h4>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="cgv.html">CGV / CGU</a>
+                        <a href="confidentialite.html">Confidentialité</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    © 2025 Cap'taine — Développé avec ❤️ par <strong>VIEY David</strong> à Castillon-la-Bataille<br>
+                    <a href="https://rk-developpement.fr" target="_blank" rel="noopener noreferrer">rk-developpement.fr</a> •
+                    <a href="mailto:riisalthkraal@gmail.com">riisalthkraal@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>

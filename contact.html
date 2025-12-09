@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez l'équipe Cap'taine pour toute question, suggestion ou signalement de bug.">
+    <title>Contact - Cap'taine</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⛵%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">⛵</span>
+                <span class="logo-text">Cap'taine</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="fonctionnalites.html">Comment ça marche</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="app/" class="btn-nav" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🎮 Jouer en ligne</a></li>
+                <li><a href="index.html#telecharger" class="btn-nav">Télécharger</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Une question, une suggestion, un bug ? Nous sommes à votre écoute.</p>
+        </div>
+    </header>
+
+    <!-- Contact Content -->
+    <section class="section contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Formulaire -->
+                <div class="contact-form-wrapper">
+                    <h2>Envoyez-nous un message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Votre nom *</label>
+                            <input type="text" id="name" name="name" required placeholder="Jean Dupont">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Votre email *</label>
+                            <input type="email" id="email" name="email" required placeholder="jean@exemple.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choisissez un sujet...</option>
+                                <option value="question">Question générale</option>
+                                <option value="bug">Signalement de bug</option>
+                                <option value="suggestion">Suggestion d'amélioration</option>
+                                <option value="education">Version Enseignement (info)</option>
+                                <option value="partenariat">Partenariat / Presse</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre demande en détail..."></textarea>
+                        </div>
+
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">J'accepte que mes données soient utilisées pour traiter ma demande conformément à la <a href="confidentialite.html">politique de confidentialité</a> *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">Envoyer le message</button>
+
+                        <p class="form-note">* Champs obligatoires. Nous répondons généralement sous 48-72h.</p>
+                    </form>
+
+                    <div class="form-success" id="formSuccess" style="display: none;">
+                        <div class="success-icon">✓</div>
+                        <h3>Message envoyé !</h3>
+                        <p>Merci pour votre message. Nous vous répondrons dans les plus brefs délais.</p>
+                    </div>
+                </div>
+
+                <!-- Infos de contact -->
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <h3>Informations de contact</h3>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:Riisalthkraal@gmail.com">Riisalthkraal@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">👤</span>
+                            <div>
+                                <strong>Développeur</strong>
+                                <p>VIEY David</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Localisation</strong>
+                                <p>Castillon-la-Bataille, Gironde, France</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>Avant de nous contacter</h3>
+                        <p>Avez-vous consulté notre <a href="faq.html">FAQ</a> ? Beaucoup de réponses s'y trouvent déjà !</p>
+                        <ul>
+                            <li><a href="faq.html#installation">Questions d'installation</a></li>
+                            <li><a href="faq.html#utilisation">Comment utiliser Cap'taine</a></li>
+                            <li><a href="faq.html#vie-privee">Vie privée et données</a></li>
+                            <li><a href="faq.html#technique">Questions techniques</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>Signaler un bug</h3>
+                        <p>Pour nous aider à résoudre le problème rapidement, merci d'inclure :</p>
+                        <ul>
+                            <li>Votre système d'exploitation</li>
+                            <li>La version de Cap'taine</li>
+                            <li>Les étapes pour reproduire le bug</li>
+                            <li>Une capture d'écran si possible</li>
+                            <li>Le message d'erreur exact</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-info-card highlight">
+                        <h3>Version Enseignement</h3>
+                        <p>Vous êtes professeur ou établissement scolaire intéressé par la version Enseignement ?</p>
+                        <p>Laissez-nous vos coordonnées et nous vous contacterons dès qu'elle sera disponible (prévu Q3 2026).</p>
+                        <p class="small">Sélectionnez "Version Enseignement (info)" dans le formulaire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave-footer"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>⛵</span>
+                        <span>Cap'taine</span>
+                    </div>
+                    <p>L'assistant éducatif qui navigue avec ton enfant.</p>
+                    <p class="version">Version 1.0.0</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Accueil</a>
+                        <a href="fonctionnalites.html">Comment ça marche</a>
+                        <a href="tarifs.html">Tarifs</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ressources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="https://ollama.ai" target="_blank">Installer Ollama</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Légal</h4>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="cgv.html">CGV / CGU</a>
+                        <a href="confidentialite.html">Confidentialité</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    © 2025 Cap'taine — Développé avec ❤️ par <strong>VIEY David</strong> à Castillon-la-Bataille<br>
+                    <a href="https://rk-developpement.fr" target="_blank" rel="noopener noreferrer">rk-developpement.fr</a> •
+                    <a href="mailto:riisalthkraal@gmail.com">riisalthkraal@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
