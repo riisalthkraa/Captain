@@ -37,6 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-results
+          retention-days: 7
           path: |
             test-results/
             coverage/
@@ -73,6 +74,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-${{ matrix.os }}
+          retention-days: 1
           path: |
             dist/*.exe
             dist/*.AppImage
@@ -126,4 +128,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: docs
+          retention-days: 7
           path: website/docs/
