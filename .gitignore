@@ -63,3 +63,6 @@ Desktop.ini
 !build/icon.ico
 !build/icon.icns
 !build/icon.png
+
+# Claude Code (réglages locaux)
+.claude/
