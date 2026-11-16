@@ -1,475 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tarifs de Cap'taine : gratuit pour les familles, version Enseignement pour les professeurs (Q3 2026).">
-    <title>Tarifs - Cap'taine</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⛵%3C/text%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarifs — Cap'taine</title>
+<meta name="description" content="Cap'taine est gratuit pendant sa phase de lancement. Une offre pour les écoles est en préparation.">
+<meta property="og:title" content="Tarifs — Cap'taine">
+<meta property="og:description" content="Cap'taine est gratuit pendant sa phase de lancement. Une offre pour les écoles est en préparation.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0E1A33">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <span class="logo-icon">⛵</span>
-                <span class="logo-text">Cap'taine</span>
-            </a>
-            <button class="nav-toggle" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="guide.html">Guide</a></li>
-                <li><a href="fonctionnalites.html">Comment ça marche</a></li>
-                <li><a href="tarifs.html" class="active">Tarifs</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="app/" class="btn-nav" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🎮 Jouer en ligne</a></li>
-                <li><a href="index.html#telecharger" class="btn-nav">Télécharger</a></li>
-            </ul>
-        </div>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><svg width="38" height="36" viewBox="0 0 34 32" aria-hidden="true"><path d="M16 2v20H5z" fill="#FFB547"></path><path d="M18 7l9 15h-9z" fill="#F4F7FF"></path><path d="M16 2l6 2-6 2z" fill="#4FB3FF"></path><path d="M2 24h30l-4 6H6z" fill="#B97A3B"></path></svg><span>Cap'taine</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+    <nav class="nav" id="menu" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a><a href="fonctionnalites.html">Comment ça marche</a><a href="tarifs.html" aria-current="page">Tarifs</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+      <a class="btn btn-primary btn-small" href="app/">Essayer en ligne</a>
     </nav>
+  </div>
+</header>
+<main id="contenu">
 
-    <!-- Header -->
-    <header class="page-header">
-        <div class="container">
-            <h1>Tarifs</h1>
-            <p>Un modèle simple : gratuit pour les familles, payant uniquement pour les fonctionnalités professionnelles.</p>
-        </div>
-    </header>
+<section class="page-head">
+  <div class="wrap">
+    <span class="kicker">Tarifs</span>
+    <h1>Gratuit pendant le lancement</h1>
+    <p class="lead">Cap'taine est en plein développement : toutes les fonctionnalités actuelles sont gratuites, sans carte bancaire. Si des offres payantes arrivent, elles seront annoncées ici à l'avance, et rien ne sera facturé sans votre accord.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap grid-2">
+    <div class="card featured">
+      <span class="tag">Disponible</span>
+      <h2 style="margin-top:14px">Famille</h2>
+      <p class="price">0 €</p>
+      <p class="muted">pendant toute la phase de lancement</p>
+      <ul class="list" style="margin:20px 0 24px"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Tous les exercices du CP à la 3e</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Les 17 mini-jeux</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Le chat avec Cap'taine</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Plusieurs profils d'enfants</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Badges, niveaux et tableau de bord</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Sans publicité, sans compte obligatoire</span></li></ul>
+      <a class="btn btn-primary" href="app/">Essayer en ligne <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+    <div class="card">
+      <span class="tag soon">En préparation</span>
+      <h2 style="margin-top:14px">École</h2>
+      <p class="price" style="font-size:32px">Sur devis</p>
+      <p class="muted">pour les enseignants et les établissements</p>
+      <ul class="list" style="margin:20px 0 24px"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Tout ce qui est dans l'offre Famille</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Espace classe avec code d'accès</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Suivi de chaque élève</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Exercices à assigner</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg><span>Export des résultats</span></li></ul>
+      <a class="btn btn-ghost" href="contact.html">Être prévenu du lancement</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap prose">
+    <h2>Bon à savoir</h2>
+    <p>Le chat de Cap'taine utilise un service d'intelligence artificielle. Pendant le lancement, ce service peut être limité ou demander une configuration ; les exercices et les mini-jeux, eux, fonctionnent toujours.</p>
+    <p>Une question sur les tarifs ? <a href="contact.html">Écrivez-nous</a>.</p>
+  </div>
+</section>
 
-    <!-- Pricing -->
-    <section class="section pricing">
-        <div class="container">
-            <div class="pricing-grid">
-                <!-- Version Famille -->
-                <div class="pricing-card featured">
-                    <div class="pricing-badge">Disponible maintenant</div>
-                    <div class="pricing-header">
-                        <h2>Version Famille</h2>
-                        <div class="pricing-price">
-                            <span class="price">Gratuit</span>
-                            <span class="period">pour toujours</span>
-                        </div>
-                    </div>
-                    <div class="pricing-description">
-                        <p>Toutes les fonctionnalités essentielles pour accompagner vos enfants à la maison.</p>
-                    </div>
-                    <ul class="pricing-features">
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Application Electron (Windows, macOS, Linux)
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            +2000 exercices du CP au 3ème
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Système adaptatif intelligent
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Détection émotionnelle
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Détection des patterns d'erreurs
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Répétition espacée (SM-2)
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Multi-profils (plusieurs enfants)
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Mini-jeux éducatifs
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Import de documents (PDF, images)
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Intégration Ollama (IA locale gratuite)
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Mode hors-ligne complet
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Données 100% locales
-                        </li>
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Mises à jour gratuites
-                        </li>
-                    </ul>
-                    <div class="pricing-cta">
-                        <a href="index.html#telecharger" class="btn btn-primary">Télécharger gratuitement</a>
-                    </div>
-                    <div class="pricing-note">
-                        <p>Aucune carte bancaire requise. Pas de période d'essai. Pas de publicité.</p>
-                    </div>
-                </div>
-
-                <!-- Version Enseignement -->
-                <div class="pricing-card upcoming">
-                    <div class="pricing-badge">Q3 2026</div>
-                    <div class="pricing-header">
-                        <h2>Version Enseignement</h2>
-                        <div class="pricing-price">
-                            <span class="price">À définir</span>
-                            <span class="period">abonnement mensuel ou annuel</span>
-                        </div>
-                    </div>
-                    <div class="pricing-description">
-                        <p>Pour les professeurs et établissements scolaires. Gestion de classes et suivi détaillé des élèves.</p>
-                    </div>
-                    <ul class="pricing-features">
-                        <li class="included">
-                            <span class="check">✓</span>
-                            Tout ce qui est dans la version Famille
-                        </li>
-                        <li class="included highlight">
-                            <span class="check">+</span>
-                            <strong>Tableau de bord professeur</strong>
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Gestion de classes et élèves
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Création et attribution de devoirs
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Suivi des soumissions en temps réel
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Heatmap des difficultés de classe
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Analyse détaillée par élève
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Export des données (CSV, PDF)
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Version Web (accès navigateur)
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Synchronisation cloud sécurisée
-                        </li>
-                        <li class="included">
-                            <span class="check">+</span>
-                            Support prioritaire
-                        </li>
-                    </ul>
-                    <div class="pricing-cta">
-                        <a href="contact.html" class="btn btn-outline">Être informé du lancement</a>
-                    </div>
-                    <div class="pricing-note">
-                        <p>Tarif prévu : entre 5€ et 15€/mois selon le nombre d'élèves. Tarifs éducation nationale à venir.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Comparaison détaillée -->
-    <section class="section comparison">
-        <div class="container">
-            <h2>Comparaison détaillée</h2>
-            <div class="comparison-table-wrapper">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Fonctionnalité</th>
-                            <th>Famille (Gratuit)</th>
-                            <th>Enseignement (Payant)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="category">
-                            <td colspan="3">Application</td>
-                        </tr>
-                        <tr>
-                            <td>Application desktop (Electron)</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Application web (navigateur)</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Mode hors-ligne</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Contenu éducatif</td>
-                        </tr>
-                        <tr>
-                            <td>Banque d'exercices (+2000)</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Niveaux CP → 3ème</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Génération d'exercices par IA</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Import de documents</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Système adaptatif</td>
-                        </tr>
-                        <tr>
-                            <td>Adaptation de difficulté temps réel</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Détection émotionnelle</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Détection patterns d'erreurs</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Répétition espacée (SM-2)</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Gestion utilisateurs</td>
-                        </tr>
-                        <tr>
-                            <td>Mode invité</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Multi-profils enfants</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Compte professeur</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Gestion de classes</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Comptes élèves synchronisés</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Fonctionnalités professeur</td>
-                        </tr>
-                        <tr>
-                            <td>Création de devoirs</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Attribution aux élèves/classes</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Suivi des soumissions</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Heatmap des difficultés</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Analyse par élève</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Export données (CSV, PDF)</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Données et vie privée</td>
-                        </tr>
-                        <tr>
-                            <td>Stockage 100% local</td>
-                            <td class="yes">✓</td>
-                            <td class="partial">Optionnel</td>
-                        </tr>
-                        <tr>
-                            <td>Synchronisation cloud</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓ (chiffré)</td>
-                        </tr>
-                        <tr>
-                            <td>Pas de compte requis</td>
-                            <td class="yes">✓</td>
-                            <td class="no">Compte requis</td>
-                        </tr>
-                        <tr class="category">
-                            <td colspan="3">Support</td>
-                        </tr>
-                        <tr>
-                            <td>Documentation</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Support email</td>
-                            <td class="yes">✓</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Support prioritaire</td>
-                            <td class="no">—</td>
-                            <td class="yes">✓</td>
-                        </tr>
-                        <tr>
-                            <td>Formation établissement</td>
-                            <td class="no">—</td>
-                            <td class="yes">Sur demande</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Tarifs -->
-    <section class="section pricing-faq">
-        <div class="container">
-            <h2>Questions fréquentes sur les tarifs</h2>
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>Pourquoi la version Famille est-elle gratuite ?</h3>
-                    <p>Nous croyons que l'éducation doit être accessible à tous. La version Famille est financée par la future version Enseignement payante. C'est un modèle classique : gratuit pour les particuliers, payant pour les professionnels.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Y aura-t-il de la publicité ?</h3>
-                    <p><strong>Non, jamais.</strong> Nous ne mettrons jamais de publicité dans une application destinée aux enfants. Notre modèle économique repose uniquement sur la version Enseignement.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>La version gratuite sera-t-elle limitée à l'avenir ?</h3>
-                    <p>Non. Toutes les fonctionnalités actuellement gratuites le resteront. Nous pourrions ajouter des fonctionnalités "premium" mais jamais retirer ce qui existe déjà.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Je suis professeur, puis-je utiliser la version gratuite ?</h3>
-                    <p>Oui ! La version Famille est parfaite pour un usage personnel ou pour recommander aux parents de vos élèves. La version Enseignement sera utile si vous voulez gérer une classe entière et suivre la progression de chaque élève.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Pourquoi la version Enseignement nécessite une connexion ?</h3>
-                    <p>La synchronisation entre le tableau de bord professeur et les comptes élèves nécessite un serveur central. Les données seront chiffrées et hébergées en France/Europe (RGPD compliant).</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Y aura-t-il des tarifs Éducation Nationale ?</h3>
-                    <p>Oui, nous prévoyons des tarifs spéciaux pour les établissements publics et les contrats collectifs. Contactez-nous pour en discuter.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="section cta-section">
-        <div class="container">
-            <h2>Commencez dès maintenant</h2>
-            <p>La version Famille est entièrement gratuite et fonctionnelle.</p>
-            <a href="index.html#telecharger" class="btn btn-primary btn-large">Télécharger Cap'taine</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-waves">
-            <div class="wave wave-footer"></div>
-        </div>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <span>⛵</span>
-                        <span>Cap'taine</span>
-                    </div>
-                    <p>L'assistant éducatif qui navigue avec ton enfant.</p>
-                    <p class="version">Version 1.0.0</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-col">
-                        <h4>Navigation</h4>
-                        <a href="index.html">Accueil</a>
-                        <a href="fonctionnalites.html">Comment ça marche</a>
-                        <a href="tarifs.html">Tarifs</a>
-                        <a href="faq.html">FAQ</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Ressources</h4>
-                        <a href="#">Documentation</a>
-                        <a href="https://ollama.ai" target="_blank">Installer Ollama</a>
-                        <a href="#">Changelog</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Légal</h4>
-                        <a href="mentions-legales.html">Mentions légales</a>
-                        <a href="cgv.html">CGV / CGU</a>
-                        <a href="confidentialite.html">Confidentialité</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>
-                    © 2025 Cap'taine — Développé avec ❤️ par <strong>VIEY David</strong> à Castillon-la-Bataille<br>
-                    <a href="https://rk-developpement.fr" target="_blank" rel="noopener noreferrer">rk-developpement.fr</a> •
-                    <a href="mailto:riisalthkraal@gmail.com">riisalthkraal@gmail.com</a>
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><svg width="34" height="32" viewBox="0 0 34 32" aria-hidden="true"><path d="M16 2v20H5z" fill="#FFB547"></path><path d="M18 7l9 15h-9z" fill="#F4F7FF"></path><path d="M16 2l6 2-6 2z" fill="#4FB3FF"></path><path d="M2 24h30l-4 6H6z" fill="#B97A3B"></path></svg><span>Cap'taine</span></a>
+        <p class="muted" style="margin-top:12px">Le prof particulier qui navigue avec ton enfant, du CP à la 3e.</p>
+      </div>
+      <div>
+        <h3>Découvrir</h3>
+        <ul><li><a href="fonctionnalites.html">Comment ça marche</a></li><li><a href="tarifs.html">Tarifs</a></li><li><a href="app/">Essayer en ligne</a></li></ul>
+      </div>
+      <div>
+        <h3>Aide</h3>
+        <ul><li><a href="faq.html">Questions fréquentes</a></li><li><a href="contact.html">Contact</a></li><li><a href="fonctionnalites.html#tuto">Prise en main</a></li></ul>
+      </div>
+      <div>
+        <h3>Légal</h3>
+        <ul><li><a href="mentions-legales.html">Mentions légales</a></li><li><a href="cgv.html">CGU / CGV</a></li><li><a href="confidentialite.html">Confidentialité</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Créé par David Viey — RK Développement</span>
+      <span>© 2025–<span data-year>2026</span> David Viey · Castillon-la-Bataille, Gironde</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
