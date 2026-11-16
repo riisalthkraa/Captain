@@ -174,7 +174,10 @@ details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
 /* Contact */
 .contact-card { display: flex; flex-direction: column; gap: 12px; }
 .contact-card .btn { align-self: flex-start; }
-.email-line { font-weight: 800; font-size: 18px; color: var(--text); word-break: break-all; }
+.email-line { font-weight: 800; font-size: 20px; color: var(--text); word-break: break-all; }
+.copy-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-top: 8px; }
+.copy-ok { color: var(--ok); font-weight: 800; }
+.mail-alt { font-size: 14px; color: var(--muted); margin: 4px 0 0; }
 
 /* Appel final */
 .final { text-align: center; }
