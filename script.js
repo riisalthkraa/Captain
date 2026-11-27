@@ -14,11 +14,19 @@
     copyBtns[k].addEventListener('click', function (e) {
       var btn = e.currentTarget, text = btn.getAttribute('data-copy');
       var out = btn.parentNode.querySelector('.copy-ok');
-      function done(ok) { if (out) out.textContent = ok ? 'Adresse copiée' : 'Sélectionne l\'adresse pour la copier'; }
+      function done(ok) { if (out) out.textContent = ok ? (btn.getAttribute('data-copied') || 'Adresse copiée') : 'Sélectionne le texte pour le copier'; }
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
       } else { done(false); }
     });
+  }
+  // Version proposée au téléchargement : celle du fichier publié avec le site (2.4.0)
+  var versions = document.querySelectorAll('[data-version]');
+  if (versions.length && window.fetch) {
+    fetch('version.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (data) {
+      if (!data || !/^\d+\.\d+\.\d+$/.test(data.version)) return;
+      for (var v = 0; v < versions.length; v++) versions[v].textContent = data.version;
+    }, function () {});
   }
   var y = document.querySelectorAll('[data-year]');
   for (var i = 0; i < y.length; i++) y[i].textContent = new Date().getFullYear();
