@@ -50,12 +50,12 @@ p { margin: 0 0 1em; }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-family: var(--title); font-weight: 800; font-size: 26px; }
 .brand:hover { color: var(--text); }
 .nav { margin-left: auto; display: flex; align-items: center; gap: 4px; }
-.nav a { color: var(--text-2); text-decoration: none; font-weight: 700; font-size: 16px; padding: 10px 14px; border-radius: 12px; }
+.nav a { color: var(--text-2); text-decoration: none; font-weight: 700; font-size: 16px; padding: 10px 14px; border-radius: 12px; white-space: nowrap; }
 .nav a:hover { color: var(--text); background: var(--surface); }
 .nav a[aria-current="page"] { color: var(--sail); background: var(--surface); }
 .nav .btn { margin-left: 8px; }
 .menu-toggle { display: none; margin-left: auto; width: 48px; height: 48px; border-radius: 14px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; align-items: center; justify-content: center; }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .menu-toggle { display: inline-flex; }
   .nav { display: none; position: absolute; left: 0; right: 0; top: 72px; flex-direction: column; align-items: stretch; padding: 12px 20px 20px; background: var(--bg-deep); border-bottom: 1px solid #22355E; }
   .nav.open { display: flex; }
@@ -209,3 +209,16 @@ details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
 /* Une longue commande défile dans son cadre, la page ne s'élargit pas (téléphone) */
 .steps-list { grid-template-columns: minmax(0, 1fr); }
 .steps-list li { min-width: 0; }
+
+/* 2.4.1 : bouton « Télécharger » (« Appli Windows » sur téléphone), rangée de boutons des cartes */
+.btn-download .label-phone { display: none; }
+@media (max-width: 640px) {
+  .btn-download .label-desktop { display: none; }
+  .btn-download .label-phone { display: inline; }
+}
+.actions-row { display: flex; flex-wrap: wrap; gap: 12px; }
+/* Un bouton caché (installateur sur téléphone) le reste malgré son display */
+.btn[hidden] { display: none; }
+/* Tableaux des textes juridiques : tiennent dans la largeur d'un téléphone (les mots longs passent à la ligne) */
+.data-table { table-layout: fixed; overflow-wrap: anywhere; hyphens: auto; }
+.data-table th, .data-table td { padding: 10px 12px; }
